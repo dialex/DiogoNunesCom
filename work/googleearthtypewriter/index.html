@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Diogo Nunes | Work: Google Earth Typewriter</title>
+        <meta name="description" content="Google Earth Typewriter, write a message using the Earth lanscape as your canvas.">
+
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+            .sidebar-nav {
+                padding: 9px 0;
+            }
+        </style>
+        <link rel="stylesheet" href="/assets/css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="/assets/css/docs.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/fonts.css">
+        <link rel="shortcut icon" href="/assets/img/favicon.ico">
+        <?php require_once('../../assets/php/base.php'); ?>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <?php echo $navbar_work; ?>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                
+                <div class="span2">
+                    <div class="well sidebar-nav">
+                        <ul class="nav nav-list">
+                            <li class="nav-header">Technology</li>
+                                <li><a href="../jcdp/"><i class="icon-chevron-right"></i> JCDP</a></li>
+                                <li class="active"><a href="../googleearthtypewriter/"><i class="icon-chevron-right"></i> Google Earth Typewriter</a></li>
+                                <li><a href="../personalwebsite/"><i class="icon-chevron-right"></i> Personal website</a></li>
+                            <li class="nav-header">Projects</li>
+                                <li><a href="../pistae/"><i class="icon-chevron-right"></i> PISTAE</a></li>
+                                <li><a href="http://www.code4pt.info/"><i class="icon-chevron-right"></i> Code4PT</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="span9 justified">
+                    <h1>Google Earth Typewriter</h1>
+                    <br/>
+                    <a><p class="text-center"><img src="img/GoogleEarthTypewriterDemo.PNG" width="auto" height="auto" alt="Google Earth Typewriter logo" /></a></p>
+                    <h3 name="why" id="why">Why I've done it</h3>
+                    <p>During the first ever Google DevFest Portugal we had to come up with an idea (using Google technology), implement it in 24h and present it. I decided to use Google Maps API and some responsive web technology presented during the event.</p>
+                    <br/>
+                    <h3 name="lessons" id="lessons">Lessons learned</h3>
+                    <p>The website is uses Twitter Bootstrap, Fittext, Google Maps API, and Soundjay's typewriter sounds (besides Javascript and jQuery).</p>
+                    <br/>
+                    <h3 name="license" id="license">More details, source code and license</h3>
+                    <p>Available at <a href="https://github.com/dialex/GoogleEarthTypewriter#google-earth-typewriter">github.com/dialex/GoogleEarthTypewriter</a>. <a href="demo/"><strong>Live demo here</strong></a>.</p>
+                    <br/>
+                    <p align="center"><a href="/work/"><button class="btn btn-mini"><i class="icon-circle-arrow-left"></i> Return to "work" section</button></a></p>
+                </div>
+            </div>
+
+            <?php echo $footer; ?>
+
+        </div>
+
+        <?php echo $JS_scripts; ?>
+
+    </body>
+</html>

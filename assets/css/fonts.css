@@ -1,0 +1,49 @@
+@font-face {
+		font-family: 'Komika';
+		src: url('/assets/font/KOMIKAX_-webfont.eot');
+		src: url('/assets/font/KOMIKAX_-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/font/KOMIKAX_-webfont.woff') format('woff'),
+		url('/assets/font/KOMIKAX_-webfont.ttf') format('truetype'),
+		url('/assets/font/KOMIKAX_-webfont.svg#KomikaAxisRegular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+.komika-font {font-family: 'Komika', Tahoma, sans-serif;}
+
+
+@font-face {
+    font-family: 'TangerineBold';
+    src: url('/assets/font/Tangerine_Bold-webfont.eot');
+    src: url('/assets/font/Tangerine_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/font/Tangerine_Bold-webfont.woff') format('woff'),
+         url('/assets/font/Tangerine_Bold-webfont.ttf') format('truetype'),
+         url('/assets/font/Tangerine_Bold-webfont.svg#TangerineBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.handbold-font {font-family: 'TangerineBold', Georgia, serif;}
+
+
+@font-face {
+		font-family: 'Nevis';
+		src: url('/assets/font/nevis-webfont.eot');
+		src: url('/assets/font/nevis-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/font/nevis-webfont.woff') format('woff'),
+		url('/assets/font/nevis-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+}
+.nevis-font {font-family: 'Nevis', Tahoma, sans-serif;}
+
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('/assets/font/Chunkfive-webfont.eot');
+    src: url('/assets/font/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/font/Chunkfive-webfont.woff') format('woff'),
+         url('/assets/font/Chunkfive-webfont.ttf') format('truetype'),
+         url('/assets/font/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.chunkfive-font {font-family: 'ChunkFiveRegular', 'Arial Black', Tahoma, sans-serif;}

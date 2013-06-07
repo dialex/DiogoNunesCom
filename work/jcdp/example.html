@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Diogo Nunes | Work: JCDP (example)</title>
+        <meta name="description" content="What lead me to create a personal website and what I've learned from it.">
+
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="/assets/css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="/assets/css/docs.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/fonts.css">
+        <!-- Include required files for syntaxhighlight -->
+        <link rel="stylesheet" href="/assets/plugin_syntaxhighlighter/styles/shCoreDefault.css"/>
+        <script type="text/javascript" src="/assets/plugin_syntaxhighlighter/scripts/shCore.js"></script>
+        <script type="text/javascript" src="/assets/plugin_syntaxhighlighter/scripts/shBrushJava.js"></script>
+        <script type="text/javascript">SyntaxHighlighter.all();</script>
+        <!-- Include *at least* the core style and default theme -->
+        <link rel="stylesheet" href="/assets/plugin_syntaxhighlighter/styles/shCore.css" />
+        <link rel="stylesheet" href="/assets/plugin_syntaxhighlighter/styles/shThemeEclipse.css" />
+        <link rel="shortcut icon" href="/assets/img/favicon.ico">
+        <?php require_once('../../assets/php/base.php'); ?>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <?php echo $navbar_work; ?>
+
+        <div class="container-fluid">
+
+            <div class="row-fluid">
+                <div class="span10 offset1">
+                    <pre class="brush: java">
+                        package print.test;
+                    
+                        import print.Printer;
+                        import print.Printer.Types;
+                        import print.color.ColoredPrinter;
+                        import print.color.Ansi.*;
+                        import print.exception.InvalidArgumentsException;
+                        
+                        public class ExampleApp {
+                            public static void main(String[] args) throws InvalidArgumentsException {
+                        
+                                //example of a terminal Printer
+                                Printer p = new Printer.Builder(Types.TERM).build();
+                                p.println(p);
+                                p.println("This is a normal message.");
+                                p.errorPrintln("This is an error message.");
+                                p.debugPrintln("This debug message is always printed.");
+                                p = new Printer.Builder(Types.TERM).level(1).timestamping(false).build();
+                                p.println(p);
+                                p.debugPrintln("This is printed because its level is <= 1", 1);
+                                p.debugPrintln("This isn't printed because its level is > 1", 2);
+                                p.setLevel(2);
+                                p.debugPrintln("Now this is printed because its level is <= 2", 2);
+                                
+                                //example of a Colored terminal Printer (WINDOWS or UNIX)
+                                ColoredPrinter cp = new ColoredPrinter.Builder(1, false)
+                                                        .foreground(FColor.WHITE).background(BColor.BLUE)   //setting format
+                                                        .build();
+                                    //printing according to that format
+                                cp.println(cp);
+                                cp.setAttribute(Attribute.REVERSE);
+                                cp.println("This is a normal message (with format reversed).");
+                                    //reseting the terminal to its default colors
+                                cp.clear();
+                                cp.print(cp.getDateTime(), Attribute.NONE, FColor.CYAN, BColor.BLACK);
+                                cp.debugPrintln(" This debug message is always printed.");
+                                cp.clear();
+                                cp.print("This example used JCDP 1.25   ");
+                                    //temporarily overriding that format
+                                cp.print("\tMADE ", Attribute.BOLD, FColor.YELLOW, BColor.GREEN);
+                                cp.print("IN PORTUGAL\t\n", Attribute.BOLD, FColor.YELLOW, BColor.RED);
+                                cp.println("I hope you find it useful ;)");
+                        
+                                cp.clear(); //don't forget to clear the terminal's format before exiting                      
+                            }
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <?php echo $footer; ?>
+
+        </div>
+
+        <?php echo $JS_scripts; ?>
+        <!-- run the highlighter -->
+        <script type="text/javascript">SyntaxHighlighter.all()</script>
+    </body>
+</html>
