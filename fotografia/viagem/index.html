@@ -80,7 +80,7 @@
             <div class="box img"><a href="./pics/sintra16.jpg" rel="lightbox-viagem"><img src="./pics/thumbs/sintra16.jpg" /></a></div>
             <div class="box img"><a href="./pics/sintra17.jpg" rel="lightbox-viagem"><img src="./pics/thumbs/sintra17.jpg" /></a></div>
             <div class="box img"><a href="./pics/sintra18.jpg" rel="lightbox-viagem"><img src="./pics/thumbs/sintra18.jpg" /></a></div>
-            <div class="box w-full"><p class="text-center small-head"><i class="icon-arrow-down icon-white"></i> <i><b>mais fotos</b></i> <i class="icon-arrow-down icon-white"></i></p></div>
+            <div class="box w-full"><p class="text-center small-head"><i class="icon-arrow-down icon-white"></i> <i><b>carregando mais fotos</b></i> <i class="icon-arrow-down icon-white"></i></p></div>
         </div>
 
         <nav id="page-nav">
@@ -112,8 +112,8 @@
               nextSelector : '#page-nav a',  // selector for the NEXT link
               itemSelector : '.box',     // selector for all items you'll retrieve
               loading: {
-                  finishedMsg: '(end)',
-                  img: ''
+                  finishedMsg: 'No more pages to load.',
+                  img : '/assets/img/loading.gif'
                 }
               },
               // trigger Masonry as a callback
