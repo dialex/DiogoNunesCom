@@ -1,33 +1,56 @@
-/* ==== custom styles ==== */
-.raised-border {
-    border: 3px outset #BBBBBB;
-}
-
-.shadow-border {
-    border: 1px solid black;
-    -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.75);
-    box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.75);
-}
-
-.anchor {
-  padding-top: 40px;
-  margin-top: -40px;
-  display: inline-block; /* required for webkit browsers */
-}
-
-/* ---- font related ---- */
-body, button {
-    font-family: "Segoe UI", "Droid Sans", Helvetica, Verdana, Tahoma, sans-serif;
-}
-
-p {font-size: 1.2em;}
-
-.ultra-head {font-size: 7.8em; line-height: 1.0;}
-.mega-head {font-size: 5.0em; line-height: 1.0;}
-.super-head {font-size: 3.0em; line-height: 1.0;}
-.big-head {font-size: 2.0em; line-height: 1.0;}
-.normalbig-head {font-size: 1.5em; line-height: 1.0;}
-.small-head {font-size: 1.0em;}
-.mini-head {font-size: 0.8em;}
+/* ==== custom styles ==== */
+.raised-border {
+    border: 3px outset #BBBBBB;
+}
+
+.shadow-border {
+    border: 1px solid black;
+    -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.75);
+}
+
+.anchor {
+  padding-top: 40px;
+  margin-top: -40px;
+  display: inline-block; /* required for webkit browsers */
+}
+
+.img-right {
+    float: right;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.img-left {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-center-inline {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* ---- font related ---- */
+body, button {
+    font-family: "Segoe UI", "Droid Sans", Helvetica, Verdana, Tahoma, sans-serif;
+}
+
+p {font-size: 1.2em;}
+
+.ultra-head {font-size: 7.8em; line-height: 1.0;}
+.mega-head {font-size: 5.0em; line-height: 1.0;}
+.super-head {font-size: 3.0em; line-height: 1.0;}
+.big-head {font-size: 2.0em; line-height: 1.0;}
+.normalbig-head {font-size: 1.5em; line-height: 1.0;}
+.small-head {font-size: 1.0em;}
+.mini-head {font-size: 0.8em;}
 .justified {text-align: justify;}

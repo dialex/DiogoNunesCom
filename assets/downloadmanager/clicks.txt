@@ -1,9 +1,9 @@
-1%%2010/09/07%%http://diogonunes.com/assets/downloads/ebook/Diogo Nunes - Um Livro de Poesia (Excerto).pdf%%575%%Excerto: Um livro de poesia
-2%%2010/09/07%%http://diogonunes.com/assets/downloads/ebook/Diogo Nunes - Portugal, um novo rumo.pdf%%570%%Livro: Portugal, um novo rumo
-3%%2010/09/07%%http://diogonunes.com/assets/downloads/ebook/Diogo Nunes - A Voz do Pensamento.pdf%%433%%Livro: Voz do pensamento
-4%%2011/01/30%%http://diogonunes.com/assets/downloads/artigos/Tutorial - Legendas definitivas num filme (AVI ou MKV).pdf%%1206%%Artigo: Legendas definitivas
-5%%2011/02/08%%http://diogonunes.com/assets/downloads/artigos/Artigo%20-%20O%20que%20%e9%20preciso%20para%20ser%20um%20estudante%20excelente%20%28resumo%29.pdf%%374%%Artigo: Estudante Excelente (resumo)
-6%%2011/04/24%%http://diogonunes.com/assets/downloads/artigos/Artigo%20-%20O%20que%20%e9%20preciso%20para%20ser%20um%20estudante%20excelente.pdf%%408%%Artigo: Estudante Excelente
+1%%2010/09/07%%http://diogonunes.com/assets/downloads/ebook/Diogo Nunes - Um Livro de Poesia (Excerto).pdf%%592%%Excerto: Um livro de poesia
+2%%2010/09/07%%http://diogonunes.com/assets/downloads/ebook/Diogo Nunes - Portugal, um novo rumo.pdf%%584%%Livro: Portugal, um novo rumo
+3%%2010/09/07%%http://diogonunes.com/assets/downloads/ebook/Diogo Nunes - A Voz do Pensamento.pdf%%446%%Livro: Voz do pensamento
+4%%2011/01/30%%http://diogonunes.com/assets/downloads/artigos/Tutorial - Legendas definitivas num filme (AVI ou MKV).pdf%%1219%%Artigo: Legendas definitivas
+5%%2011/02/08%%http://diogonunes.com/assets/downloads/artigos/Artigo%20-%20O%20que%20%e9%20preciso%20para%20ser%20um%20estudante%20excelente%20%28resumo%29.pdf%%387%%Artigo: Estudante Excelente (resumo)
+6%%2011/04/24%%http://diogonunes.com/assets/downloads/artigos/Artigo%20-%20O%20que%20%e9%20preciso%20para%20ser%20um%20estudante%20excelente.pdf%%420%%Artigo: Estudante Excelente
 8%%2011/06/20%%http://www.diogonunes.com/work/jcdp/src/JCDP-1.25-nix.jar%%161%%JCDP 1.25 NIX
 9%%2011/06/20%%http://www.diogonunes.com/work/jcdp/src/JCDP-1.25-win.zip%%400%%JCDP 1.25 WIN
 10%%2011/06/24%%http://www.diogonunes.com/work/jcdp/src/JCDP-1.25-source.rar%%229%%JCDP 1.25 Source
