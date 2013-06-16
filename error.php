@@ -28,33 +28,40 @@
         <![endif]-->
 
         <?php echo $navbar; ?>
-
-        <div class="hero-unit">
-        <?php
-
-        $status = $_SERVER['REDIRECT_STATUS'];
-        $codes = array(
-                403 => array('403 Forbidden', 'The server has refused to fulfill your request.'),
-                404 => array('404 Not Found', 'The document or file requested was not found.'),
-                405 => array('405 Method Not Allowed', 'The method specified in the Request-Line is not allowed for the specified resource.'),
-                408 => array('408 Request Timeout', 'Your browser failed to send a request in the time allowed by the server.'),
-                500 => array('500 Internal Server Error', 'The request was unsuccessful due to an unexpected condition encountered by the server.'),
-                502 => array('502 Bad Gateway', 'The server received an invalid response from the upstream server while trying to fulfill the request.'),
-                504 => array('504 Gateway Timeout', 'The upstream server failed to send a request in the time allowed by the server.')
-                );
-
-        $title = $codes[$status][0];
-        $message = $codes[$status][1];
-        if ($title == false || strlen($status) != 3) {
-            $message = 'Unknown error code.';
-        }
-        echo '<h1>' , $title , '</h1>' ,"\n",
-             '<p>' , $message , '</p>';
-        ?>
+        
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12 hero-unit">
+                <?php
+        
+                $status = $_SERVER['REDIRECT_STATUS'];
+                $codes = array(
+                        403 => array('403 Forbidden', 'The server has refused to fulfill your request.'),
+                        404 => array('404 Not Found', 'The document or file requested was not found.'),
+                        405 => array('405 Method Not Allowed', 'The method specified in the Request-Line is not allowed for the specified resource.'),
+                        408 => array('408 Request Timeout', 'Your browser failed to send a request in the time allowed by the server.'),
+                        500 => array('500 Internal Server Error', 'The request was unsuccessful due to an unexpected condition encountered by the server.'),
+                        502 => array('502 Bad Gateway', 'The server received an invalid response from the upstream server while trying to fulfill the request.'),
+                        504 => array('504 Gateway Timeout', 'The upstream server failed to send a request in the time allowed by the server.')
+                        );
+        
+                $title = $codes[$status][0];
+                $message = $codes[$status][1];
+                if ($title == false || strlen($status) != 3) {
+                    $message = 'Unknown error code.';
+                }
+                echo '<h1>' , $title , '</h1>' ,"\n",
+                     '<p>' , $message , '</p>';
+                ?>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span12 text-center">
+                    <p>Pedimos desculpa, pois <strong><em>ocorreu um erro</em></strong> ao tentar aceder à página que indicou. Escreveu o endereço correctamente?</p>
+                    <p><strong>Visite a página inicial em <a class="btn btn-primary" href="http://www.diogonunes.com">www.diogonunes.com</a></strong></p>
+                </div>
+            </div>
         </div>
-
-        <p>Pedimos desculpa, pois <strong><em>ocorreu um erro</em></strong> ao tentar aceder à página que indicou. Escreveu o endereço correctamente?</p>
-        <p><strong>Visite a página inicial em <a class="btn btn-primary" href="http://www.diogonunes.com">www.diogonunes.com</a></strong></p>
-
+        
     </body>
 </html>
