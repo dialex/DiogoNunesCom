@@ -42,7 +42,7 @@
 .clearfix { zoom: 1; }
 
 /**** Custom ****/
-#gallery p, h2, h3 {
+#gallery p, h2, h3, h4 {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 15px;
@@ -55,6 +55,12 @@
   border-radius: 5px;
   float: left;
 }
+.sqr {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  vertical-align: top;
+}
 .img {
   display: block;
   background: #444;
@@ -66,4 +72,4 @@
 .w-xlarge { width: 380px; }
 .w-xxlarge { width: 480px; }
 .w-xxxhuge { width: 1920px; }
-.w-full { width: 98%; }
+.w-full { width: 98%; margin-right: 0px !important;}
