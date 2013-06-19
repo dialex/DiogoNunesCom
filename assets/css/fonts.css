@@ -2,9 +2,9 @@
 		font-family: 'Komika';
 		src: url('/assets/font/KOMIKAX_-webfont.eot');
 		src: url('/assets/font/KOMIKAX_-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/font/KOMIKAX_-webfont.svg#KomikaAxisRegular') format('svg'),
 		url('/assets/font/KOMIKAX_-webfont.woff') format('woff'),
-		url('/assets/font/KOMIKAX_-webfont.ttf') format('truetype'),
-		url('/assets/font/KOMIKAX_-webfont.svg#KomikaAxisRegular') format('svg');
+		url('/assets/font/KOMIKAX_-webfont.ttf') format('truetype');
 		font-weight: normal;
 		font-style: normal;
 }
@@ -15,9 +15,9 @@
     font-family: 'TangerineBold';
     src: url('/assets/font/Tangerine_Bold-webfont.eot');
     src: url('/assets/font/Tangerine_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/font/Tangerine_Bold-webfont.svg#TangerineBold') format('svg'),
          url('/assets/font/Tangerine_Bold-webfont.woff') format('woff'),
-         url('/assets/font/Tangerine_Bold-webfont.ttf') format('truetype'),
-         url('/assets/font/Tangerine_Bold-webfont.svg#TangerineBold') format('svg');
+         url('/assets/font/Tangerine_Bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -40,9 +40,9 @@
     font-family: 'ChunkFiveRegular';
     src: url('/assets/font/Chunkfive-webfont.eot');
     src: url('/assets/font/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/font/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg'),
          url('/assets/font/Chunkfive-webfont.woff') format('woff'),
-         url('/assets/font/Chunkfive-webfont.ttf') format('truetype'),
-         url('/assets/font/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+         url('/assets/font/Chunkfive-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
