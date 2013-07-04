@@ -13,6 +13,7 @@ RewriteRule ^blog$ http://vozdamente.blogspot.com [R=301,L]
 
 # Redirect deprecated pages
 Redirect /devfestportugal /work/googleearthtypewriter
+Redirect /it/work/jcdp/ /work/jcdp
 Redirect /jcdp /work/jcdp
 Redirect /foto /fotografia
 Redirect /livros /escrita
@@ -22,12 +23,11 @@ Redirect 301 /blog http://vozdamente.blogspot.com
 Redirect 301 /code4pt http://www.code4pt.info
 
 # Redirect english pages
-# TODO: Redirect /writting /en/writting
-Redirect /photo /fotografia
-Redirect /about /sobremim
-Redirect /aboutme /sobremim
-Redirect /books /escrita
-
+Redirect /about /en/about
+Redirect /aboutme /en/about
+Redirect /writting /en/writting
+Redirect /photo /en/photography
+Redirect /books /en/writting
 
 # Removes webhost stat
 php_value auto_append_file none
