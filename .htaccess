@@ -25,9 +25,9 @@ Redirect 301 /code4pt http://www.code4pt.info
 # Redirect english pages
 Redirect /about /en/about
 Redirect /aboutme /en/about
-Redirect /writting /en/writting
+Redirect /writing /en/writing
 Redirect /photo /en/photography
-Redirect /books /en/writting
+Redirect /books /en/writing
 
 # Removes webhost stat
 php_value auto_append_file none
