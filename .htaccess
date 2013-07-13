@@ -25,6 +25,7 @@ Redirect 301 /code4pt http://www.code4pt.info
 # Redirect english pages
 Redirect /about /en/about
 Redirect /aboutme /en/about
+Redirect /en/work /work
 Redirect /writing /en/writing
 Redirect /photo /en/photography
 Redirect /books /en/writing
