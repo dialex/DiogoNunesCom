@@ -10,9 +10,17 @@
 
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
         <style>
+            html {
+                background: url(../assets/img/index-background.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
             body {
                 padding-top: 60px;
                 padding-bottom: 40px;
+                background: none;   /* removes bootstrap's default white background, in order to make the background image visible */
             }
         </style>
         <link rel="stylesheet" href="/assets/css/bootstrap-responsive.min.css">
@@ -37,27 +45,25 @@
                 </div>
             </div>
             
-            <br/>
-
-            <div class="row-fluid">
-                <div class="span5 offset1 text-center">
-                    <h2 class=""><a class="btn btn-inverse btn-large btn-block" href="photography/">Photography</a></h2>
-                </div>
-                <div class="span5 text-center">
-                    <h2 class=""><a class="btn btn-danger btn-large btn-block" href="/work/">Work</a></h2>
-                </div>
-            </div>
-
-            <div class="row-fluid">
-                <div class="span5 offset1 text-center">
-                   <h2><a class="btn btn-success btn-large btn-block" href="writting/">Writting</a></h2>
-                </div>
-                <div class="span5 text-center">
-                    <h2><a class="btn btn-info btn-large btn-block" href="about/">About me</a></h2>
-                </div>
-            </div>
-
-            <?php echo $footer; ?>
+            <div class="row-fluid" id="sticky-footer">                
+                <div class="row-fluid">
+                    <div class="span5 offset1 text-center">
+                        <h2 class=""><a class="btn btn-inverse btn-large btn-block" href="photography/">Photography</a></h2>
+                    </div>
+                    <div class="span5 text-center">
+                        <h2 class=""><a class="btn btn-danger btn-large btn-block" href="work/">Work</a></h2>
+                    </div>
+                </div>                
+                <div class="row-fluid">
+                    <div class="span5 offset1 text-center">
+                       <h2><a class="btn btn-success btn-large btn-block" href="writting/">Writting</a></h2>
+                    </div>
+                    <div class="span5 text-center">
+                        <h2><a class="btn btn-info btn-large btn-block" href="about/">About me</a></h2>
+                    </div>
+                </div>                
+                <span class="white-font"><?php echo $footer; ?></span>
+            </div>            
 
         </div>
 
