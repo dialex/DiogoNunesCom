@@ -44,7 +44,7 @@
                                 <li><a href="../personalwebsite/"><i class="icon-chevron-right"></i> Personal website</a></li>
                             <li class="nav-header">Projects</li>
                                 <li><a href="../pistae/"><i class="icon-chevron-right"></i> PISTAE</a></li>
-                                <li><a href="http://www.code4pt.info/"><i class="icon-chevron-right"></i> Code4PT</a></li>
+                                <li><a href="../code4pt/"><i class="icon-chevron-right"></i> Code4PT</a></li>
                                 <li><a href="../lage2/"><i class="icon-chevron-right"></i> LAGE2</a></li>
                         </ul>
                     </div>
@@ -54,8 +54,7 @@
                     <h1>JCDP</h1>
                     <br/>
                     <p class="text-center"><img src="img/logo.png" width="auto" height="auto" alt="DECORATION logo" /></p>
-                    <br/>
-                    <h3>What is JCDP?</h3>
+                    <h3>What?</h3>
                     <p>JCDP - Java Colored Debug Printer - is a Java library that mainly offers you a convenient way to print debug messages or colored messages on a terminal.</p>
                     <p>It all started when I needed to create an application with multiple levels of debug. The solution was an object (a Printer) with a maximum level of debug. Every debug message delivered to it had a level. If the Printer had an equal or greater level, the debug message would be printed. This allows you to place debug messages with different levels along the code. Then, when initiating the app, you choose a maximum level of debug and only the debug messages with an equal or lower level will be displayed. Even better you can change that maximum level dynamically.</p>
                     <p>To enhance the usefulness of this library I decided to add colored messages, which turned out to be <em>pretty tricky</em>. By abstracting the <em>Ansi Escape Codes</em>, printing a colored message became as easy as <code>print(&quot;message&quot;, Attribute.BOLD, FColor.BLUE, BColor.YELLOW);</code></p>
