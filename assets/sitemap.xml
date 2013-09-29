@@ -67,7 +67,29 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
+  <loc>http://www.diogonunes.com/work/code4pt/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/work/lage2/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/assets/downloads/misc/DiogoNunes_65887_DissertacaoTese.pdf</loc>
+  <lastmod>2013-09-28T16:55:17+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/assets/downloads/misc/DiogoNunes_65887_ResumoAlargadoTese.pdf</loc>
+  <lastmod>2013-09-28T16:55:17+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
   <loc>http://www.diogonunes.com/en/photography/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/fotografia/viagem/2.html</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
@@ -79,11 +101,11 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/escrita/artigos/dicas-bom-aproveitamento.html</loc>
+  <loc>http://www.diogonunes.com/escrita/artigos/reflexao-escola.html</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/escrita/artigos/reflexao-escola.html</loc>
+  <loc>http://www.diogonunes.com/escrita/artigos/dicas-bom-aproveitamento.html</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
@@ -104,6 +126,10 @@
 </url>
 <url>
   <loc>http://www.diogonunes.com/work/googleearthtypewriter/demo/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/fotografia/viagem/index.html</loc>
   <changefreq>monthly</changefreq>
 </url>
 <url>
