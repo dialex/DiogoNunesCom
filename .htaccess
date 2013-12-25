@@ -1,46 +1,42 @@
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^diogonunes.com [NC]
-RewriteRule ^(.*)$ http://www.diogonunes.com/$1 [L,R=301]
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:uR1XFB
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^diogonunes.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
-RewriteRule ^blog$ http://vozdamente.blogspot.com [R=301,L]
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE uR1XFB:REDIRECTID
-
-
-# Redirect deprecated pages
-Redirect /devfestportugal /work/googleearthtypewriter
-Redirect /it/work/jcdp/ /work/jcdp
-Redirect /jcdp /work/jcdp
-Redirect /foto /fotografia
-Redirect /livros /escrita
-Redirect /acerca /sobre-mim
-Redirect /sobremim /sobre-mim
-Redirect 301 /blog http://vozdamente.blogspot.com
-Redirect 301 /code4pt http://www.code4pt.info
-
-# Redirect english pages
-Redirect /about /en/about
-Redirect /aboutme /en/about
-Redirect /en/work /work
-Redirect /writing /en/writing
-Redirect /photo /en/photography
-Redirect /books /en/writing
-
-# Removes webhost stat
-php_value auto_append_file none
-
-# Disables folder's listing
-Options -Indexes
-
-#enable gzip compression
-php_flag zlib.output_compression On
-php_value zlib.output_compression_level 5
-
-
-ErrorDocument 403 /error.php
-ErrorDocument 404 /error.php
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^diogonunes.com [NC]
+RewriteRule ^(.*)$ http://www.diogonunes.com/$1 [L,R=301]
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:uR1XFB
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^diogonunes.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE uR1XFB:REDIRECTID
+
+# Redirect deprecated pages
+Redirect /devfestportugal /work/googleearthtypewriter
+Redirect /it/work/jcdp/ /work/jcdp
+Redirect /jcdp /work/jcdp
+Redirect /foto /fotografia
+Redirect /livros /escrita
+Redirect /acerca /sobre-mim
+Redirect /sobremim /sobre-mim
+Redirect 301 /code4pt http://www.code4pt.info
+
+# Redirect english pages
+Redirect /about /en/about
+Redirect /aboutme /en/about
+Redirect /en/work /work
+Redirect /writing /en/writing
+Redirect /photo /en/photography
+Redirect /books /en/writing
+
+# Removes webhost stat
+php_value auto_append_file none
+
+# Disables folder's listing
+Options -Indexes
+
+#enable gzip compression
+php_flag zlib.output_compression On
+php_value zlib.output_compression_level 5
+
+ErrorDocument 403 /error.php
+ErrorDocument 404 /error.php
 ErrorDocument 500 /error.php
