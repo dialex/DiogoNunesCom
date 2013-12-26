@@ -27,16 +27,13 @@ Redirect /writing /en/writing
 Redirect /photo /en/photography
 Redirect /books /en/writing
 
-# Removes webhost stat
+# Removes webhost stat
 php_value auto_append_file none
-
-# Disables folder's listing
+# Disables folder's listing
 Options -Indexes
-
-#enable gzip compression
-php_flag zlib.output_compression On
+#enable gzip compression
+php_flag zlib.output_compression On
 php_value zlib.output_compression_level 5
-
-ErrorDocument 403 /error.php
-ErrorDocument 404 /error.php
+ErrorDocument 403 /error.php
+ErrorDocument 404 /error.php
 ErrorDocument 500 /error.php
