@@ -21,7 +21,7 @@ $photo_dropdown ='
 $book_dropdown ='
     <ul class="dropdown-menu">
         <li><a href="/en/writing/">Books</a></li>
-        <li><a href="/en/writing/#articles">Articles</a></li>
+        <li><a href="/blog/">Blog</a></li>
     </ul>
 ';
 
