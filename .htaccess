@@ -25,6 +25,8 @@ Redirect /foto          /fotografia
 
 Redirect /devfestportugal /work/googleearthtypewriter
 
+Redirect /it/work/googleearthtypewriter/ /work/googleearthtypewriter
+
 Redirect /it/work/jcdp/ /work/jcdp
 
 Redirect /jcdp /work/jcdp
