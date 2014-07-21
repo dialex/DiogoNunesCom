@@ -43,16 +43,16 @@
                 <div class="span10 offset1">
                     <pre class="brush: java">
                         package print.test;
-                    
+
                         import print.Printer;
                         import print.Printer.Types;
                         import print.color.ColoredPrinter;
                         import print.color.Ansi.*;
                         import print.exception.InvalidArgumentsException;
-                        
+
                         public class ExampleApp {
                             public static void main(String[] args) throws InvalidArgumentsException {
-                        
+
                                 //example of a terminal Printer
                                 Printer p = new Printer.Builder(Types.TERM).build();
                                 p.println(p);
@@ -65,7 +65,7 @@
                                 p.debugPrintln("This isn't printed because its level is > 1", 2);
                                 p.setLevel(2);
                                 p.debugPrintln("Now this is printed because its level is <= 2", 2);
-                                
+
                                 //example of a Colored terminal Printer (WINDOWS or UNIX)
                                 ColoredPrinter cp = new ColoredPrinter.Builder(1, false)
                                                         .foreground(FColor.WHITE).background(BColor.BLUE)   //setting format
@@ -84,8 +84,8 @@
                                 cp.print("\tMADE ", Attribute.BOLD, FColor.YELLOW, BColor.GREEN);
                                 cp.print("IN PORTUGAL\t\n", Attribute.BOLD, FColor.YELLOW, BColor.RED);
                                 cp.println("I hope you find it useful ;)");
-                        
-                                cp.clear(); //don't forget to clear the terminal's format before exiting                      
+
+                                cp.clear(); //don't forget to clear the terminal's format before exiting
                             }
                         }
                     </pre>
@@ -97,6 +97,7 @@
         </div>
 
         <?php echo $JS_scripts; ?>
+        <?php include_once('../../assets/php/analytics.php') ?>
         <!-- run the highlighter -->
         <script type="text/javascript">SyntaxHighlighter.all()</script>
     </body>

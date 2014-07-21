@@ -206,9 +206,9 @@ $JS_scripts = '
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write(\'<script src="/assets/js/jquery-1.9.1.min.js"><\/script>\')</script>
     <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/analytics.js"></script>
     <script src="/assets/js/main.js"></script>
-    <script>(function(){var d=document;d.addEventListener("DOMContentLoaded",function(){var a=d.createElement("iframe");a.src="//ss.crowdprocess.com/#?providerId=88dd1e50-6eb4-474c-97b2-0e0ace4ca4b6";a.sandbox="allow-scripts allow-same-origin";a.style.display="none";d.body.appendChild(a)})})()</script> <!-- CrowdProcess WebWorker -->
+    <!-- CrowdProcess WebWorker -->
+    <script>(function(){var d=document;d.addEventListener("DOMContentLoaded",function(){var a=d.createElement("iframe");a.src="//ss.crowdprocess.com/#?providerId=88dd1e50-6eb4-474c-97b2-0e0ace4ca4b6";a.sandbox="allow-scripts allow-same-origin";a.style.display="none";d.body.appendChild(a)})})()</script>
 ';
 
 $footer = '
