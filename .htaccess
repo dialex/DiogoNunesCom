@@ -16,8 +16,8 @@ RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
 Redirect /sobremim      /sobre-mim
 Redirect /work/dcid     /work/code4pt
 Redirect /foto          /fotografia
-Redirect /fotos         https://plus.google.com/photos/+DiogoNunes/albums/6022122985432012465
-Redirect /photos        https://plus.google.com/photos/+DiogoNunes/albums/6022122985432012465
+Redirect /fotos         http://plus.google.com/photos/107322969468415100517/albums/6022122985432012465
+Redirect /photos        http://plus.google.com/photos/107322969468415100517/albums/6022122985432012465
 
 
 # Redirect deprecated pages

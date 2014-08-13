@@ -12,9 +12,9 @@ $work_dropdown ='
 $photo_dropdown ='
     <ul class="dropdown-menu">
         <li><a href="/en/photography/">Informations</a></li>
-        <li><a href="/fotografia/retratos">Portraits</a></li>
-        <li><a href="/fotografia/eventos">Events</a></li>
-        <li><a href="/fotografia/viagem">Travel</a></li>
+        <li><a href="/photos">Portraits</a></li>
+        <li><a href="/photos">Events</a></li>
+        <li><a href="/photos">Travel</a></li>
     </ul>
 ';
 
