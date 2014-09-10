@@ -39,7 +39,7 @@ Redirect /books     /en/writing
 Options -Indexes
 
 # Enable gzip compression
-
+SetOutputFilter DEFLATE
 
 # Redirect errors
 ErrorDocument 403 /error.php
