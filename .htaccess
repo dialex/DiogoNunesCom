@@ -1,18 +1,14 @@
+# Redirect non-www to www
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^diogonunes.com [NC]
 RewriteRule ^(.*)$ http://www.diogonunes.com/$1 [L,R=301]
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:uR1XFB
-RewriteEngine on
+RewriteEngine On
 RewriteCond %{HTTP_HOST} ^diogonunes.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE uR1XFB:REDIRECTID
 
 
 # Redirect shortcuts
-
 Redirect /sobremim      /sobre-mim
 Redirect /work/dcid     /work/code4pt
 Redirect /foto          /fotografia
@@ -21,20 +17,17 @@ Redirect /photos        http://plus.google.com/photos/107322969468415100517/albu
 
 
 # Redirect deprecated pages
-
-Redirect /jcdp      /work/jcdp
-Redirect /livros    /escrita
-Redirect /acerca    /sobre-mim
-Redirect /code4pt   /work/code4pt
-
+Redirect /jcdp                            /work/jcdp
+Redirect /livros                          /escrita
+Redirect /acerca                          /sobre-mim
+Redirect /code4pt                         /work/code4pt
 Redirect /devfestportugal                 /work/googleearthtypewriter
-Redirect /it/work/jcdp/                   /work/jcdp
-Redirect /it/work/googleearthtypewriter/  /work/googleearthtypewriter
+Redirect /it/work/jcdp                    /work/jcdp
+Redirect /it/work/googleearthtypewriter   /work/googleearthtypewriter
 Redirect /escrita/artigos/minecraft-a-game-as-a-metaphor-of-life.html /blog/minecraft-a-game-as-a-metaphor-of-life/
 
 
 # Redirect english pages
-
 Redirect /about     /en/about
 Redirect /aboutme   /en/about
 Redirect /en/work   /work
@@ -42,17 +35,28 @@ Redirect /writing   /en/writing
 Redirect /photo     /en/photography
 Redirect /books     /en/writing
 
-
-# Removes webhost stat
-php_value auto_append_file none
-
 # Disables folder's listing
 Options -Indexes
 
-#enable gzip compression
-php_flag zlib.output_compression On
-php_value zlib.output_compression_level 5
+# Enable gzip compression
 
+
+# Redirect errors
 ErrorDocument 403 /error.php
-ErrorDocument 404 /error.php
+#ErrorDocument 404 /error.php
+ErrorDocument 404 /maintenance.html
 ErrorDocument 500 /error.php
+
+
+# Run PHP code on .HMTL files
+<IfModule mod_fcgid.c>
+AddHandler fcgid-script .php5 .php4 .php .php3 .php2 .phtml .htm .html
+FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php5
+FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php4
+FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php
+FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php3
+FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php2
+FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .phtml
+FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .html
+FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .htm
+</IfModule>
