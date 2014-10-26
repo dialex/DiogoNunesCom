@@ -36,38 +36,49 @@
 
         <?php echo $navbar; ?>
 
-        <div class="container-fluid">
-            <div class="row-fluid">
+        <div class="container">
+            <div class="row">
                 <div class="span12">
-                    <br/>
-                    <h1 class="text-center nevis-font ultra-head">DIOGO NUNES</h1>
-                    <br/><br/><br/>
+                    <h1 class="text-center nevis-font ultra-head" id="headline">DIOGO NUNES</h1>
                 </div>
             </div>
 
-            <div class="row-fluid" id="sticky-footer">
-                <div class="row-fluid hidden-phone">
-                    <div class="span5 offset1 text-center">
-                        <h2 class=""><a class="btn btn-inverse btn-large btn-block" href="fotografia/">Fotografia</a></h2>
+            <div class="visible-phone"><br><br></div>
+            <div class="visible-desktop visible-tablet"><br><br><br><br><br><br><br></div>
+            <div class="visible-desktop"><br><br><br><br><br><br><br></div>
+
+            <div class="row">
+                <div class="span12">
+                    <div class="row ">
+                        <div class="span6 text-center">
+                            <p class="">500 fotos de viagens, retratos e eventos</p>
+                            <h2 class=""><a class="btn btn-inverse btn-large btn-block" href="fotografia/">o fotógrafo</a></h2>
+                        </div>
+                        <div class="span6 text-center">
+                            <p class="">4 conferências, 2 workshops e muitos projetos</p>
+                            <h2 class=""><a class="btn btn-danger btn-large btn-block" href="work/">o profissional</a></h2>
+                        </div>
                     </div>
-                    <div class="span5 text-center">
-                        <h2 class=""><a class="btn btn-danger btn-large btn-block" href="work/">Trabalho</a></h2>
+                    <div class="row ">
+                        <div class="span6 text-center">
+                           <p class="">3 livros e 1 blogue semanal</p>
+                           <h2><a class="btn btn-success btn-large btn-block" href="escrita/">o escritor</a></h2>
+                        </div>
+                        <div class="span6 text-center">
+                            <p class="">"melhorar a vida através da tecnologia"</p>
+                            <h2><a class="btn btn-info btn-large btn-block" href="sobre-mim/">a pessoa</a></h2>
+                        </div>
                     </div>
+                    <span class=""><?php echo $footer; ?></span>
                 </div>
-                <div class="row-fluid hidden-phone">
-                    <div class="span5 offset1 text-center">
-                       <h2><a class="btn btn-success btn-large btn-block" href="escrita/">Escrita</a></h2>
-                    </div>
-                    <div class="span5 text-center">
-                        <h2><a class="btn btn-info btn-large btn-block" href="sobre-mim/">Sobre mim</a></h2>
-                    </div>
-                </div>
-                <span class="hidden-phone"><?php echo $footer; ?></span>
             </div>
 
         </div>
 
         <?php echo $JS_scripts; ?>
+        <script src="/assets/js/jquery.fittext.js"></script>
+        <script>jQuery("#headline").fitText(0.75);</script>
+
         <?php include_once('./assets/php/analytics.php') ?>
 
     </body>
