@@ -12,8 +12,8 @@ RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
 Redirect /sobremim      /sobre-mim
 Redirect /work/dcid     /work/code4pt
 Redirect /foto          /fotografia
-Redirect /fotos         http://plus.google.com/photos/107322969468415100517/albums/6022122985432012465
-Redirect /photos        http://plus.google.com/photos/107322969468415100517/albums/6022122985432012465
+Redirect /fotos         https://www.flickr.com/photos/diogo_nunes/
+Redirect /photos        https://www.flickr.com/photos/diogo_nunes/
 
 
 # Redirect deprecated pages
@@ -44,8 +44,7 @@ SetOutputFilter DEFLATE
 
 # Redirect errors
 ErrorDocument 403 /error.php
-#ErrorDocument 404 /error.php
-ErrorDocument 404 /maintenance.html
+ErrorDocument 404 /error.php
 ErrorDocument 500 /error.php
 
 
