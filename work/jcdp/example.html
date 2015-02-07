@@ -67,7 +67,8 @@
                                 p.debugPrintln("Now this is printed because its level is <= 2", 2);
 
                                 //example of a Colored terminal Printer (WINDOWS or UNIX)
-                                ColoredPrinter cp = new ColoredPrinter.Builder(1, false)
+
+                                ColoredPrinter cp = new ColoredPrinter.Builder(1, false)                    //use ColoredPrinterWIN on WINDOWS
                                                         .foreground(FColor.WHITE).background(BColor.BLUE)   //setting format
                                                         .build();
                                     //printing according to that format
