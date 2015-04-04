@@ -11,9 +11,10 @@ RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
 # Redirect shortcuts
 Redirect /sobremim      /sobre-mim
 Redirect /work/dcid     /work/code4pt
-Redirect /foto          /fotografia
+Redirect /fotos/eventos https://www.flickr.com/photos/diogo_nunes/sets/72157651738011431/
 Redirect /fotos         https://www.flickr.com/photos/diogo_nunes/
 Redirect /photos        https://www.flickr.com/photos/diogo_nunes/
+Redirect /foto          /fotografia
 
 
 # Redirect deprecated pages
@@ -29,8 +30,8 @@ Redirect /escrita/artigos/estudante-excelente.html                    /blog/o-qu
 
 
 # Redirect english pages
-Redirect /about     /en/about
 Redirect /aboutme   /en/about
+Redirect /about     /en/about
 Redirect /en/work   /work
 Redirect /writing   /en/writing
 Redirect /photo     /en/photography
