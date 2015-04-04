@@ -10,6 +10,7 @@ RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
 
 # Redirect shortcuts
 Redirect /sobremim      /sobre-mim
+Redirect /sobre         /sobre-mim
 Redirect /work/dcid     /work/code4pt
 Redirect /fotos/eventos https://www.flickr.com/photos/diogo_nunes/sets/72157651738011431/
 Redirect /fotos         https://www.flickr.com/photos/diogo_nunes/
