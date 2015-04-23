@@ -16,7 +16,7 @@ Redirect /fotos/eventos https://www.flickr.com/photos/diogo_nunes/sets/721576517
 Redirect /fotos         https://www.flickr.com/photos/diogo_nunes/
 Redirect /photos        https://www.flickr.com/photos/diogo_nunes/
 Redirect /foto          /fotografia
-
+Redirect /blog/author/diogo-nunes/          /about
 
 # Redirect deprecated pages
 Redirect /jcdp                            /work/jcdp
