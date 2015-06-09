@@ -1,0 +1,4 @@
+.raised-border {
+  border: 4px outset #BBBBBB;
+  display: inline !important;
+}
