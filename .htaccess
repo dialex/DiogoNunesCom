@@ -9,12 +9,14 @@ RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
 
 
 # Redirect shortcuts
-Redirect /sobremim      /sobre-mim
-Redirect /sobre         /sobre-mim
-Redirect /work/dcid     /work/code4pt
-Redirect /fotos/eventos https://www.flickr.com/photos/diogo_nunes/sets/72157651738011431/
-Redirect /fotos         https://www.flickr.com/photos/diogo_nunes/sets/
-Redirect /photos        https://www.flickr.com/photos/diogo_nunes/sets/
+Redirect /sobremim       /sobre-mim
+Redirect /sobre          /sobre-mim
+Redirect /work/dcid      /work/code4pt
+Redirect /fotos/viagens  https://www.flickr.com/photos/diogo_nunes/sets/72157651738011431/
+Redirect /fotos/retratos https://www.flickr.com/photos/diogo_nunes/sets/72157649496353512/
+Redirect /fotos/eventos  https://www.flickr.com/photos/diogo_nunes/sets/72157651738011431/
+Redirect /fotos          https://www.flickr.com/photos/diogo_nunes/sets/
+Redirect /photos         https://www.flickr.com/photos/diogo_nunes/sets/
 Redirect /blog/author/diogo-nunes/          /about
 
 # Redirect deprecated pages
@@ -36,6 +38,7 @@ Redirect /en/work   /work
 Redirect /writing   /en/writing
 Redirect /photo     /en/photography
 Redirect /books     /en/writing
+
 
 # Disables folder's listing
 Options -Indexes
