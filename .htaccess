@@ -7,6 +7,11 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^diogonunes.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
 
+# Redirect base on browser language
+#RewriteEngine on
+#RewriteCond %{HTTP:Accept-Language} (pt) [NC]
+#RewriteRule .* www.diogonunes.com/pt/ [L]
+
 
 # Redirect shortcuts
 Redirect /blog/author/diogo-nunes/  /
@@ -16,27 +21,25 @@ Redirect /fotos/eventos             https://www.flickr.com/photos/diogo_nunes/se
 Redirect /fotos                     https://www.flickr.com/photos/diogo_nunes/sets/
 Redirect /photos                    https://www.flickr.com/photos/diogo_nunes/sets/
 
-# Redirect english pages
-Redirect /aboutme     /en/about
-Redirect /about       /en/about
-Redirect /en/work     /work
-Redirect /writing     /en/writing
-Redirect /photo       /en/photography
-Redirect /books       /en/writing
-
 # Redirect deprecated pages
 Redirect /escrita/artigos/conselhos-cadeiras-leic.html  /blog/conselhos-licen-eng-informatica-leic-ist/
 Redirect /escrita/artigos/estudante-excelente.html      /blog/o-que-e-preciso-para-ser-um-estudante-excelente/
-Redirect /it/work/jcdp                                  /work/jcdp
-Redirect /jcdp                                          /work/jcdp
+Redirect /it/work/jcdp                                  /#work
+Redirect /jcdp                                          /#work
 
 # Redirect shortcuts (DELETE THIS)
-Redirect /work/dcid      /work/code4pt
-Redirect /sobremim       /sobre-mim
-Redirect /sobre          /sobre-mim
-Redirect /acerca         /sobre-mim
-Redirect /livros         /escrita
-Redirect /code4pt        /work/code4pt
+Redirect /work/dcid     /#work
+Redirect /sobremim      /#about
+Redirect /sobre         /#about
+Redirect /acerca        /#about
+Redirect /livros        /#hobbies
+Redirect /code4pt       /#work
+Redirect /aboutme       /#about
+Redirect /about         /#about
+Redirect /en/work       /#work
+Redirect /writing       /#hobbies
+Redirect /photo         /#hobbies
+Redirect /books         /#hobbies
 
 
 # Disables folder's listing
