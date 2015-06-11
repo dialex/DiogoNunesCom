@@ -1,67 +1,141 @@
 <!DOCTYPE html>
-<html class="no-js" lang="pt">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width">
+<html lang="en">
 
-        <title>Diogo Nunes | Error</title>
-        <meta name="description" content="Página de erro">
+<head>
 
-        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 60px;
-                padding-bottom: 40px;
-            }
-        </style>
-        <link rel="stylesheet" href="/assets/css/bootstrap-responsive.min.css">
-        <link rel="stylesheet" href="/assets/css/fonts.css">
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <link rel="shortcut icon" href="/assets/img/favicon.ico">
-        <?php require_once('./assets/php/base.php'); ?>
-    </head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+    <title>Diogo Nunes | Error page</title>
+    <meta name="description" content="You shouldn't be here.">
 
-        <?php echo $navbar; ?>
-        
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span12 hero-unit">
-                <?php
-        
-                $status = $_SERVER['REDIRECT_STATUS'];
-                $codes = array(
-                        403 => array('403 Forbidden', 'The server has refused to fulfill your request.'),
-                        404 => array('404 Not Found', 'The document or file requested was not found.'),
-                        405 => array('405 Method Not Allowed', 'The method specified in the Request-Line is not allowed for the specified resource.'),
-                        408 => array('408 Request Timeout', 'Your browser failed to send a request in the time allowed by the server.'),
-                        500 => array('500 Internal Server Error', 'The request was unsuccessful due to an unexpected condition encountered by the server.'),
-                        502 => array('502 Bad Gateway', 'The server received an invalid response from the upstream server while trying to fulfill the request.'),
-                        504 => array('504 Gateway Timeout', 'The upstream server failed to send a request in the time allowed by the server.')
-                        );
-        
-                $title = $codes[$status][0];
-                $message = $codes[$status][1];
-                if ($title == false || strlen($status) != 3) {
-                    $message = 'Unknown error code.';
-                }
-                echo '<h1>' , $title , '</h1>' ,"\n",
-                     '<p>' , $message , '</p>';
-                ?>
-                </div>
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/assets/css/freelancer.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="/assets/fonts/fonts.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">DIOGO NUNES</a>
             </div>
-            <div class="row-fluid">
-                <div class="span12 text-center">
-                    <p>Pedimos desculpa, pois <strong><em>ocorreu um erro</em></strong> ao tentar aceder à página que indicou. Escreveu o endereço correctamente?</p>
-                    <p><strong>Visite a página inicial em <a class="btn btn-primary" href="http://www.diogonunes.com">www.diogonunes.com</a></strong></p>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="/"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/blog/">Blog</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#work">Work</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#hobbies">Hobbies</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Portfolio Work Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <?php
+
+                        $status = $_SERVER['REDIRECT_STATUS'];
+                        $codes = array(
+                                403 => array('403 Forbidden', 'The server has refused to fulfill your request.'),
+                                404 => array('404 Not Found', 'The document or file requested was not found.'),
+                                405 => array('405 Method Not Allowed', 'The method specified in the Request-Line is not allowed for the specified resource.'),
+                                408 => array('408 Request Timeout', 'Your browser failed to send a request in the time allowed by the server.'),
+                                500 => array('500 Internal Server Error', 'The request was unsuccessful due to an unexpected condition encountered by the server.'),
+                                502 => array('502 Bad Gateway', 'The server received an invalid response from the upstream server while trying to fulfill the request.'),
+                                504 => array('504 Gateway Timeout', 'The upstream server failed to send a request in the time allowed by the server.')
+                                );
+
+                        $title = $codes[$status][0];
+                        $message = $codes[$status][1];
+                        if ($title == false || strlen($status) != 3) {
+                            $message = 'Unknown error code.';
+                        }
+                        echo '<h2>' , $title , '</h2>' ,"\n",
+                             '<p>' , $message , '</p>';
+                    ?>
+                    <br/><hr/><br/>
+                    <p>Please return to the <a href="/">homepage</a>.</p>
                 </div>
             </div>
         </div>
-        
-    </body>
+    </section>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="/assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/assets/js/classie.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/assets/js/freelancer.js"></script>
+
+    <!-- Google Analytics -->
+    <script src="/assets/js/analytics.js"></script>
+
+    <!-- CrowdProcess Worker -->
+    <script src="/assets/js/crowdprocess.js"></script>
+
+</body>
+
 </html>

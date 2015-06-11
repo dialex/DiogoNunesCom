@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML; 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>PHP Click Counter - README</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* Style sheet and XHTML code
+Author: Mauricio Samy Silva http://www.maujor.com/ A Web Standard evangelist site
+City: Rio de Janeiro - Brazil
+Contact: maujorcss[at]maujor[dot]com
+Date: 2006-05-11
+*/
+body
+{
+        margin:5px 0;
+        padding:0;
+        background:#eee;
+        color: black;
+        font : 68.8%/1.5 Verdana, Geneva, Arial, Helvetica, sans-serif;
+        text-align:center;
+}
+
+#wrapper
+{
+        width:700px;
+        background:#fff;
+        margin:0 auto;
+        text-align:left;
+        border:1px solid #ccc;
+        padding:10px 20px;
+}
+
+h1 {font-size:1.5em;}
+
+h2
+{
+        font-size:1.2em;
+        border-top:1px solid #999;
+        padding-top:1.8em;
+}
+
+h2.title
+{
+        font-size:1.2em;
+        border-top:1px solid #999;
+        padding-top:1.8em;
+        color: green;
+}
+
+h3 {font-size:1.0em;}
+span.dest {color:#f00;}
+span.tip {color:#008000; font-weight:bold;}
+
+p
+{
+        color : black;
+        font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 1.0em;
+}
+
+address
+{
+        font-weight:bold;
+        font-style:normal;
+}
+
+ul.nobullets
+{
+        margin:0 0 1.0em;
+        padding:0;
+        list-style:none;
+}
+
+ol li {margin-bottom:1.0em;}
+
+samp, code
+{
+        font-size:1.3em;
+        font-weight:bold;
+}
+
+a:hover
+{
+        color : red;
+        background:#ccc;
+        text-decoration : none;
+}
+
+table#installation
+{
+        border-collapse:collapse;
+        margin: 5px 15px 10px -25px;
+        border: 2px solid #999;
+}
+
+table#installation thead
+{
+        text-align:center;
+        text-transform:uppercase;
+}
+
+table#installation tr td, table#installation tr th
+{
+        padding: 2px 5px;
+        border: 1px solid #ccc;
+}
+
+table#installation tr th
+{
+        border-bottom-width:2px;
+        border-bottom-color:#999;
+}
+
+table#installation tr td var
+{
+        font-weight:bold;
+        font-style:normal;
+}
+
+table#installation tr.odd
+{
+        background: #fafafa;
+}
+
+div.error
+{
+        border: 1px solid #cd0a0a;
+        background: #fef1ec;
+        color: #cd0a0a;
+        padding-left:10px;
+        padding-right:5px;
+}
+
+div.success
+{
+        border: 1px solid #18760f;
+        background: #e9ffdb;
+        color: #363636;
+        padding-left:10px;
+        padding-right:5px;
+}
+
+div.notice
+{
+        border: 1px solid #fcefa1;
+        background: #fbf9ee;
+        color: #363636;
+        padding-left:10px;
+        padding-right:5px;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="main">
+<h1><span class="dest">CCount</span> PHP Click Counter</h1>
+
+<ul class="nobullets">
+<li>Version: 2.0.1 from 4th August 2014</li>
+<li>Developed by: Klemen Stirn</li>
+<li><a href="http://www.phpjunkyard.com">Free PHP Scripts</a></li>
+<li><a href="http://www.phpjunkyard.com/php-click-counter.php" target="_blank">PHP Click Counter</a></li>
+</ul>
+
+<h2>INDEX</h2>
+
+<ul class="nobullets">
+    <li><a href="#install">Installation</a></li>
+    <li><a href="#update">Upgrading from versions 2.x</a></li>
+    <li><a href="#upgrade">Upgrading from versions 1.x</a></li>
+    <li><a href="#help">HELP and Troubleshooting</a></li>
+    <li><a href="#changelog">Changelog</a></li>
+</ul>
+
+<h2 id="requirements">&raquo; Requirements</h2>
+
+<ul>
+    <li>PHP 5+</li>
+    <li>A modern browser for the admin interface</li>
+</ul>
+
+<h2 id="install">&raquo; Install CCount</h2>
+
+<div class="error">
+<p style="font-weight:bold">Please take 5 minutes to read the installation instructions carefully and completely! This will ensure a proper and easy installation.</p>
+</div>
+
+<p style="font-weight:bold">Installation steps:</p>
+
+<ol>
+
+<li><p>Connect with FTP to the <i>public folder</i> of your server where the rest of your Web site is.</p>
+<p><span class="tip">TIP:</span> The public folder is usually called &quot;<b>public_html</b>&quot;, &quot;www&quot;, &quot;site&quot; or &quot;htdocs&quot;.</p>
+<p><span class="tip">TIP:</span> Learn how to FTP files, read my simple <a href="http://www.phpjunkyard.com/tutorials/ftp-chmod-tutorial.php">FTP and CHMOD tutorial</a></p>
+</li>
+
+<li><p>Create a new folder where you will install CCount. Name it anything you like, for example &quot;ccount&quot; or &quot;clicks&quot;.<br />
+Example: /public_html/ccount<br />
+Corresponding URL: http://example.com/ccount</p></li>
+
+<li><p>Upload all CCount files to your server. PHP files must be transferred in ASCII mode and images in BINARY mode.</p>
+<p><span class="tip">TIP:</span> Most FTP clients will select the proper transfer mode automatically so you needn't worry about this.</li>
+
+<li><p>Open <b>ccount/install</b> in your browser, for example (modify to your URL):<br />http://example.com/ccount/install</p></li>
+
+<li><p>The CCount setup script will run. Follow instructions there.</p></li>
+
+<li><p>Delete the &quot;install&quot; directory from your server.</p></li>
+
+<li><p>Login to the admin panel to track new links, read instructions and edit settings:<br />http://example.com/ccount/admin</p>
+<p><span class="tip">TIP:</span> passwords are CaSe SeNSiTiVe (&quot;PASS&quot; is not the same as &quot;pass&quot;).</p></li>
+
+<li>
+<p>Things to do next</p>
+
+<ul>
+<li><p>Click the &quot;Settings&quot; link to edit available options.</p></li>
+<li><p>Click the &quot;Instructions&quot; link to learn how to track clicks and display statistics.</p></li>
+</ul>
+
+</li>
+
+<li><p style="font-weight:bold"><span class="dest">If you have problems/questions see the &quot;HELP and Troubleshooting&quot; section further down.</span></p></li>
+
+<li><p>Support CCount development by <a href="http://www.phpjunkyard.com/buy.php?script=ccount">purchasing a license</a></p></li>
+
+<li><p>Good luck using CCount!<br />&nbsp;</p></li>
+
+</ol>
+
+
+<h2 id="update">&raquo; Upgrading from versions 2.x</h2>
+
+<div class="error">
+<p style="font-weight:bold">Please take 5 minutes to read the upgrade instructions carefully and completely! This will ensure a proper and easy upgrade.</p>
+</div>
+
+<p style="font-weight:bold">Upgrade steps from CCount version 2.x:</p>
+
+<ol>
+
+<li><p><span class="dest" style="font-weight:bold">BACKUP YOUR EXISTING CCOUNT FILES</span><br />... or don't blame me if something goes wrong.</p></li>
+
+<li><p>Upload these modified files to your server:<br />
+- /admin/edit_link.php<br />
+- /admin/new_link.php<br />
+- /install/update.php</p></li>
+
+<li><p>Open <b>ccount/install/update.php</b> in your browser, for example (modify to your URL):<br />http://example.com/ccount/install/update.php</p></li>
+
+<li><p>Delete the &quot;install&quot; directory from your server.</p></li>
+
+<li><p>Support CCount development by <a href="http://www.phpjunkyard.com/buy.php?script=ccount">purchasing a license</a>.</p></li>
+
+<li><p>Good luck using CCount!<br />&nbsp;</p></li>
+
+</ol>
+
+
+<h2 id="upgrade">&raquo; Upgrading from versions 1.x</h2>
+
+<div class="error">
+<p style="font-weight:bold">Please take 5 minutes to read the upgrade instructions carefully and completely! This will ensure a proper and easy upgrade.</p>
+</div>
+
+<p style="font-weight:bold">Upgrade steps from CCount version 1.x:</p>
+
+<ol>
+
+<li><p><span class="dest" style="font-weight:bold">BACKUP YOUR EXISTING CCOUNT FILES</span><br />... or don't blame me if something goes wrong.</p></li>
+
+<li><p>Login to existing CCount admin panel and download a backup.</p></li>
+
+<li><p>Upload all new CCount files to your server.</p></li>
+
+<li><p>Open <b>ccount/install</b> in your browser, for example (modify to your URL):<br />http://example.com/ccount/install</p></li>
+
+<li><p>The CCount setup script will run. Follow instructions there.</p></li>
+
+<li><p>Delete the &quot;install&quot; directory from your server.</p></li>
+
+<li><p>Login to the admin panel:<br />http://example.com/ccount/admin</p></li>
+
+<li><p>Go to &quot;Backups&quot; page</p></li>
+
+<li><p>Scroll down to the &quot;Import legacy backup&quot; form. Select the backup file you generated in Step 2 and click the import button.</p></li>
+
+<li><p>Support CCount development by <a href="http://www.phpjunkyard.com/buy.php?script=ccount">purchasing a license</a>.</p></li>
+
+<li><p>Good luck using CCount!<br />&nbsp;</p></li>
+
+</ol>
+
+<h2 id="help">&raquo; HELP and Troubleshooting</h2>
+
+<h3>1. What is CHMOD and FTP?</h3>
+
+<p>I prepared a simple <a href="http://www.phpjunkyard.com/tutorials/ftp-chmod-tutorial.php">FTP and CHMOD tutorial</a> that will help you FTP files to your server and set correct CHMOD settings.<br />&nbsp;</p>
+
+<h3>2. Installation shows error: <span style="color:red">Not writable</span></h3>
+
+<p>PHP does not have permission to write to a required file:<br />
+ccount_settings.php<br />
+ccount_database.php</p>
+
+<p>On Linux servers CHMOD the file to 666 (rw-rw-rw-).</p>
+
+<p>On Windows IIS servers give <i>Internet Guest Account</i> (IUSR) permission to modify, write and read these files.</p>
+
+<p>If this error persists, ask your hosting company to set correct file permissions.<br />&nbsp;</p>
+
+<h3>3. Installation shows error: <span style="color:red">File missing</span></h3>
+
+<p>A required file (ccount_database.php) is missing on your server.</p>
+
+<p>Make sure you upload all CCount files to the server. Always download original
+script files from <a href="http://www.phpjunkyard.com">PHP Junkyard</a> directly.<br />&nbsp;</p>
+
+<h3>4. Installation shows error: <span style="color:red">Session Failed</span></h3>
+
+<p>A server-side error is preventing PHP sessions to work correctly.</p>
+
+<p>Ask your hosting company to verify why PHP sessions aren't working.<br />&nbsp;</p>
+
+<h3>5. Where is administration panel?</h3>
+
+<p>Administration panel is located inside the <b>admin</b> folder:<br />
+http://example.com/ccount/admin</p>
+
+<p>(modify link to your CCount installation URL)<br />&nbsp;</p>
+
+<h3>6. How do I count clicks?</h3>
+
+<p>Login to CCount admin panel, click the &quot;Instructions&quot; link and read details.<br />&nbsp;</p>
+
+<h3>7. How do I display click count/statistics publicly?</h3>
+
+<p>Login to CCount admin panel, click the &quot;Instructions&quot; link and read details.<br />&nbsp;</p>
+
+<h3>8. I followed instructions, but displaying link count on my website is not working?</h3>
+
+<p>Some free web hosting companies automatically add a custom Javascript code to all generated pages (to show advertising).
+This code may stop CCount-generated code to work properly.</p>
+
+<p>If this is the case, your only option is to move to <a href="http://www.phpjunkyard.com/hosting.php">paid php hosting</a>.<br />&nbsp;</p>
+
+<h3>9. I am still having problems!</h3>
+
+<ol>
+<li><p>Visit <a href="http://www.phpjunkyard.com/support/kb/?category=4">CCount Knowledgebase</a></p></li>
+<li><p>Search <a href="http://developers.phpjunkyard.com">Support forum</a> (username: <b>php</b> password: <b>php</b>)<br />&nbsp;</p></li>
+</ol>
+
+<p>&nbsp;</p>
+
+<h2 id="changelog">&raquo; Changelog</h2>
+
+<p><b>Changes in 2.0.1</b><br />
+- fix: remove backslashes from titles</p>
+
+<p><b>Changes in 2.0</b><br />
+- complete code rewrite<br />
+- new modern admin interface<br />
+- count unique and total clicks<br />
+- greatly improved count reliability</p>
+
+<p><b>Changes in 1.2</b><br />
+- links can now be edited<br />
+- added file locking to minimize the chance of database getting corrupted<br />
+- can count unique clicks now<br />
+- re-written parts of code for efficiency<br />
+- other minor changes</p>
+
+<p><b>Changes in 1.1</b><br />
+- show link statistics publicly<br />
+- admin panel improvements</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p style="text-align:center">&copy; Copyright <a href="http://www.phpjunkyard.com">Free PHP Scripts</a> 2004-2014. All rights reserved.</p>
+
+</div>
+</div>
+</body>
+</html>

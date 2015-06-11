@@ -1,0 +1,12 @@
+.raised-border {
+  border: 4px outset #BBBBBB;
+  display: inline !important;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-justify {
+  text-align: justify;
+}
