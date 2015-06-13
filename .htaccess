@@ -14,7 +14,7 @@ RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
 
 
 # Redirect shortcuts
-Redirect /blog/author/diogo-nunes/  /
+Redirect /blog/author/diogo-nunes/  /#about
 Redirect /fotos/viagens             https://www.flickr.com/photos/diogo_nunes/sets/72157651738011431/
 Redirect /fotos/retratos            https://www.flickr.com/photos/diogo_nunes/sets/72157649496353512/
 Redirect /fotos/eventos             https://www.flickr.com/photos/diogo_nunes/sets/72157651738011431/
@@ -24,11 +24,16 @@ Redirect /photos                    https://www.flickr.com/photos/diogo_nunes/se
 # Redirect deprecated pages
 Redirect /escrita/artigos/conselhos-cadeiras-leic.html  /blog/conselhos-licen-eng-informatica-leic-ist/
 Redirect /escrita/artigos/estudante-excelente.html      /blog/o-que-e-preciso-para-ser-um-estudante-excelente/
-Redirect /it/work/jcdp                                  /#work
-Redirect /jcdp                                          /#work
+Redirect /it/work/jcdp  /#work
+Redirect /work/jcdp     /#work
+Redirect /work          /#work
+Redirect /jcdp          /#work
+Redirect /foto          /#hobbies
 
-# Redirect shortcuts (DELETE THIS)
+
+# (DELETE THIS) Redirect shortcuts (DELETE THIS)
 Redirect /work/dcid     /#work
+Redirect /work/jcdp     /#work
 Redirect /sobremim      /#about
 Redirect /sobre         /#about
 Redirect /acerca        /#about
@@ -40,6 +45,7 @@ Redirect /en/work       /#work
 Redirect /writing       /#hobbies
 Redirect /photo         /#hobbies
 Redirect /books         /#hobbies
+# (DELETE THIS) Redirect shortcuts (DELETE THIS)
 
 
 # Disables folder's listing
