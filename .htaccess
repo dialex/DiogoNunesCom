@@ -25,27 +25,24 @@ Redirect /photos                    https://www.flickr.com/photos/diogo_nunes/se
 Redirect /escrita/artigos/conselhos-cadeiras-leic.html  /blog/conselhos-licen-eng-informatica-leic-ist/
 Redirect /escrita/artigos/estudante-excelente.html      /blog/o-que-e-preciso-para-ser-um-estudante-excelente/
 Redirect /it/work/jcdp  /#work
-Redirect /work/jcdp     /#work
-Redirect /work          /#work
 Redirect /jcdp          /#work
 Redirect /foto          /#hobbies
 
 
-# (DELETE THIS) Redirect shortcuts (DELETE THIS)
+# (DELETE THIS) Redirect shortcuts (DELETE THIS after 2 months)
 Redirect /work/dcid     /#work
-Redirect /work/jcdp     /#work
+Redirect /code4pt       /#work
+Redirect /en/work       /#work
+Redirect /aboutme       /#about
+Redirect /about         /#about
 Redirect /sobremim      /#about
 Redirect /sobre         /#about
 Redirect /acerca        /#about
 Redirect /livros        /#hobbies
-Redirect /code4pt       /#work
-Redirect /aboutme       /#about
-Redirect /about         /#about
-Redirect /en/work       /#work
 Redirect /writing       /#hobbies
 Redirect /photo         /#hobbies
 Redirect /books         /#hobbies
-# (DELETE THIS) Redirect shortcuts (DELETE THIS)
+# (DELETE THIS) Redirect shortcuts (DELETE THIS after 2 months)
 
 
 # Disables folder's listing
