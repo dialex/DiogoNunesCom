@@ -12,6 +12,12 @@ RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
 #RewriteCond %{HTTP:Accept-Language} (pt) [NC]
 #RewriteRule .* www.diogonunes.com/pt/ [L]
 
+# Redirect www.domain.com/folder/page to www.domain.com/folder/page.html
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)\.html$ /$1 [L,R=301]
+
 
 # Redirect shortcuts
 Redirect /blog/author/diogo-nunes/  /#about
@@ -38,7 +44,6 @@ Redirect /about         /#about
 Redirect /sobremim      /#about
 Redirect /sobre         /#about
 Redirect /acerca        /#about
-Redirect /livros        /#hobbies
 Redirect /writing       /#hobbies
 Redirect /photo         /#hobbies
 Redirect /books         /#hobbies
