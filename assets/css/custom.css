@@ -22,5 +22,13 @@
 }
 
 /* Mailchimp Signup form */
-#mc_embed_signup{background:#24c8e3; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
-#mc_embed_signup .button {background-color:#3cb19c !important;}
+#mc_embed_signup {
+    background: #24c8e3;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    color: #2c3e50;
+    width: 450px;
+}
+#mc_embed_signup .button {
+    background-color: #3cb19c !important;
+}
