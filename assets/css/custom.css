@@ -20,3 +20,15 @@
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
+
+/* Mailchimp Signup form */
+#mc_embed_signup {
+    background: #24c8e3;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    color: #2c3e50;
+    width: 450px;
+}
+#mc_embed_signup .button {
+    background-color: #3cb19c !important;
+}

@@ -1,45 +1,5 @@
-<?php
-    // Copyright © 2008 Darrin Yeager (Licensed under BSD license)
-
-    function getDefaultLanguage() {
-       if (isset($_SERVER["HTTP_ACCEPT_LANGUAGE"]))
-          return parseDefaultLanguage($_SERVER["HTTP_ACCEPT_LANGUAGE"]);
-       else
-          return parseDefaultLanguage(NULL);
-    }
-    function parseDefaultLanguage($http_accept, $deflang = "en") {
-       if(isset($http_accept) and strlen($http_accept) > 1)  {
-          # Split possible languages into array
-          $x = explode(",",$http_accept);
-          foreach ($x as $val) {
-             #check for q-value and create associative array. No q-value means 1 by rule
-             if(preg_match("/(.*);q=([0-1]{0,1}.\d{0,4})/i",$val,$matches))
-                $lang[$matches[1]] = (float)$matches[2];
-             else
-                $lang[$val] = 1.0;
-          }
-
-          #return default language (highest q-value)
-          $qval = 0.0;
-          foreach ($lang as $key => $value) {
-             if ($value > $qval) {
-                $qval = (float)$value;
-                $deflang = $key;
-             }
-          }
-       }
-       return strtolower($deflang);
-    }
-
-    $browserLang = getDefaultLanguage();
-    if (strpos($browserLang, 'pt-') !== FALSE)
-    {
-        header("Location: http://www.diogonunes.com/pt/");
-    }
-?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
 
@@ -49,8 +9,8 @@
     <meta name="author" content="Diogo Nunes">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
-    <title>Diogo Nunes - Personal website</title>
-    <meta name="description" content="Personal website of Diogo Nunes - software eng., photographer and blogger. Here you can check his work, projects, books and photos, as well as contacts.">
+    <title>Diogo Nunes - Site pessoal</title>
+    <meta name="description" content="Site pessoal de Diogo Nunes, informático, blogger, escritor e fotógrafo. Aqui pode consultar os seus trabalhos e contactos, bem como consultar os seus artigos e livros.">
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -72,10 +32,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Download Counter-->
-    <script type="text/javascript" src="/assets/downloadmanager/display.php"></script>
-
-    <?php require_once('assets/php/privatedaddy.php'); ?>
+    <?php require_once('../assets/php/privatedaddy.php'); ?>
 
 </head>
 
@@ -99,22 +56,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="/pt"></a>
                     </li>
                     <li class="page-scroll">
                         <a href="/blog/">Blog</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#work">Work</a>
+                        <a href="/#work">Trabalho</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#hobbies">Hobbies</a>
+                        <a href="/#hobbies">Hobbies</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="/#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -132,7 +86,7 @@
                     <div class="intro-text">
                         <span class="name nevis-font">DIOGO NUNES</span>
                         <hr class="star-light">
-                        <span class="skills">Software developer · Blogger · Photographer · Novelist</span>
+                        <span class="skills">Eng. Informático · Blogger · Fotógrafo · Escritor</span>
                     </div>
                 </div>
             </div>
@@ -145,7 +99,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Work</h2>
+                    <h2>Trabalho</h2>
                     <br/>
                 </div>
             </div>
@@ -171,16 +125,6 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#workModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="/assets/img/portfolio/work-Troller.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
                     <a href="#workModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -201,17 +145,6 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#workModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="/assets/img/portfolio/work-Research.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item"><!-- TODO remove this whitespace --></div>
-                <div class="col-sm-4 portfolio-item">
                     <a href="#workModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -221,7 +154,16 @@
                         <img src="/assets/img/portfolio/work-Talk.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item"><!-- TODO remove this whitespace --></div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#workModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="/assets/img/portfolio/work-Research.png" class="img-responsive" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -232,15 +174,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>Sobre mim</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="justified">Diogo Nunes is a Portuguese Master of Computer Science <a href="http://www.ist.utl.pt/en/about-IST/location/#tagus">@ IST</a>. His vision is to improve people's lives using technology. Thanks to <a href="http://dcid.herokuapp.com/">DCID</a> he's upgrading democracy in Portugal. Moreover, Diogo weekly writes for his <a href="http://www.diogonunes.com/blog/">blog</a> and has already <a href="http://www.diogonunes.com/#hobbies">published two books</a>. His second passion is <a href="http://www.diogonunes.com/#hobbies">photography</a>.</p>
+                    <p class="justified">Diogo Nunes é Mestre em Eng. Informática pelo <a href="http://tecnico.ulisboa.pt/pt/sobre-IST/localizacao/">IST</a>. A sua visão é melhorar a vida das pessoas através da tecnologia. O seu principal objetivo é tornar a democracia acessível a todos através do <a href="http://dcid.herokuapp.com/">DCID</a>. Além disso escreve semanalmente para o seu <a href="/blog/">blogue</a> e já conta com <a href="/livros/">três livros publicados</a>. A sua segunda paixão é a <a href="/fotografia/">fotografia</a>.
                     <br/>
-                    <p><i class="fa fa-trophy"></i> <small><a href="achievements.html">ACHIEVEMENTS</a></small> <i class="fa fa-trophy"></i></p>
+                    <p><i class="fa fa-trophy"></i> <small><a href="achievements.html">REALIZAÇÕES</a></small> <i class="fa fa-trophy"></i></p>
                 </div>
             </div>
         </div>
@@ -278,7 +220,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#hobbieModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="/livros/" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -320,13 +262,13 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <a class="anchor" name="contact" id="contact"></a>
-                        <h3>Contact</h3>
+                        <h3>Contactos</h3>
                         <p><a href="mailto:email@diogonunes.com">email@diogonunes.com</a></p>
                         <p><a href="https://twitter.com/dialexnunes">@dialexnunes</a></p>
-                        <p>(+351) 936 717 089</p>
+                        <p>936 717 089</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Online Presence</h3>
+                        <h3>Presença Online</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="http://plus.google.com/+DiogoNunes" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
@@ -346,8 +288,8 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>This website</h3>
-                        <p>I created it to showcase my projects, my photography, and my books. Online since <a href="http://gizmodo.com/5310106/you-guys-123456-789-is-a-once-in-a-lifetime-oh-you-missed-it">12:34:56 07/08/2009</a>&nbsp;(¬‿¬)&nbsp;unique!</p>
+                        <h3>Este website</h3>
+                        <p>Criei este site para mostrar os meus projetos, livros e a minha fotografia. Online desde <a href="http://gizmodo.com/5310106/you-guys-123456-789-is-a-once-in-a-lifetime-oh-you-missed-it">12:34:56 07/08/2009</a>&nbsp;(¬‿¬)&nbsp;singular!</p>
                     </div>
                 </div>
             </div>
@@ -386,17 +328,17 @@
                             <h2>JCDP</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/examples/jcdp.png" class="img-responsive img-centered" alt="">
-                            <p><a href="https://github.com/dialex/JCDP">Java Colored Debug Printer</a> is a Java library that offers you a convenient way to print debug messages or colored messages on a terminal. What started as an university project was later open-sourced and downloaded over 1000 times.</p>
-                            <p><a href="https://github.com/dialex/JCDP">Source</a>&nbsp;·&nbsp;<a href="https://github.com/dialex/JCDP#downloads">Download</a>&nbsp;·&nbsp;<a href="https://github.com/dialex/JCDP#jcdp">Documentation</a></p>
+                            <p><a href="https://github.com/dialex/JCDP">Java Colored Debug Printer</a> é uma biblioteca Java que oferece uma forma prática de mostrar mensagens coloridas de debug num terminal. Desde que o tornei open-source já foi descarregado mais de 1000 vezes.</p>
+                            <p><a href="https://github.com/dialex/JCDP">Código</a>&nbsp;·&nbsp;<a href="https://github.com/dialex/JCDP#downloads">Descarregar</a>&nbsp;·&nbsp;<a href="https://github.com/dialex/JCDP#jcdp">Documentação</a></p>
                             <ul class="list-inline item-details">
-                                <li>Date:
+                                <li>Data:
                                     <strong>2011</strong>
                                 </li>
-                                <li>Skills:
+                                <li>Competências:
                                     <strong>Java, Design Patterns</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -418,17 +360,17 @@
                             <h2>DCID</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/work-DCID.png" class="img-responsive img-centered" alt="">
-                            <p><a href="https://youtu.be/7pzHStqGbQU">DCID</a> is an online collaborative platform that enables an organization to collect, debate and vote ideas from its community. I developed this open-source platform for the Portuguese participatory budgeting initiatives, during an entrepreneurship programme.</p>
-                            <p><a href="http://dcid.herokuapp.com/">Demo</a>&nbsp;·&nbsp;<a href="https://github.com/code4pt/dcid">Source</a>&nbsp;·&nbsp;<a href="https://youtu.be/BP92frlc0Vc">Talk @ Citizenship 2.0 (Video)</a></p>
+                            <p><a href="https://youtu.be/7pzHStqGbQU">DCID</a> é uma plataforma colaborativa online que permite às organizações recolher, debater e votar ideias da sua comunidade. Desenvolvi este projeto open-source para os orçamentos participativos portugueses, durante um programa de empreendedorismo.</p>
+                            <p><a href="http://dcid.herokuapp.com/">Demo</a>&nbsp;·&nbsp;<a href="https://github.com/code4pt/dcid">Código</a>&nbsp;·&nbsp;<a href="https://youtu.be/BP92frlc0Vc">Apresentação @ Cidadania 2.0 (Video)</a></p>
                             <ul class="list-inline item-details">
-                                <li>Date:
+                                <li>Data:
                                     <strong>2014</strong>
                                 </li>
-                                <li>Skills:
+                                <li>Competências:
                                     <strong>Ruby, Rails, Git, Heroku, Twitter Bootstrap, Business Model Canvas</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -450,18 +392,18 @@
                             <h2>Google Earth Typewriter</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/work-GoogleEarthTypewriter.png" class="img-responsive img-centered" alt="">
-                            <p>During the first ever <a href="https://developers.google.com/events/50200579/">Google DevFest Portugal</a> we had to come up with an idea (using Google technology) and implement it in 24h.</p>
-                            <p>I used Google Maps API and a pinch of humour.</p>
-                            <p><a href="/work/googleearthtypewriter/demo/">Demo</a>&nbsp;·&nbsp;<a href="https://github.com/dialex/GoogleEarthTypewriter">Source</a></p>
+                            <p>Na primeira <a href="https://developers.google.com/events/50200579/">Google DevFest Portugal</a> de sempre tive de pensar numa ideia (usando tencologia Google) e implementá-la em 24h.</p>
+                            <p>Usei a API do Google Maps API e uma pitada de humor.</p>
+                            <p><a href="/work/googleearthtypewriter/demo/">Demo</a>&nbsp;·&nbsp;<a href="https://github.com/dialex/GoogleEarthTypewriter">Código</a></p>
                             <ul class="list-inline item-details">
-                                <li>Date:
+                                <li>Data:
                                     <strong>2013</strong>
                                 </li>
-                                <li>Skills:
+                                <li>Competências:
                                     <strong>Javascript, jQuery, Twitter Bootstrap, Fittext, Google Maps API</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -483,16 +425,16 @@
                             <h2>PISTAE</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/work-PISTAE.png" class="img-responsive img-centered" alt="">
-                            <p><em><a href="http://pistae.ist.utl.pt/">Portal for Support and mutual help of IST's Students</a></em> was created to centralize information that may help students increase their academic success. PISTAE has institutional support and is maintained voluntarily from students to students.</p>
+                            <p><em><a href="http://pistae.ist.utl.pt/">Portal de Apoio e entreajuda dos Estudantes do IST</a></em> foi criado para centralizar informação que possa aumentar o sucesso académico dos caloiros. PISTAE tem apoio institucional e é mantido por estudantes para estudantes.</p>
                             <ul class="list-inline item-details">
-                                <li>Date:
+                                <li>Data:
                                     <strong>2011-2013</strong>
                                 </li>
-                                <li>Skills:
+                                <li>Competências:
                                     <strong>Wordpress, InkScape, Logo design, Leadership, Coaching</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -511,17 +453,17 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Talks</h2>
+                            <h2>Apresentações</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/work-Talk.png" class="img-responsive img-centered" alt="">
-                            <p>I'm a shy person so I force myself to practice public speaking. I was a speaker at <a href="https://www.youtube.com/watch?v=H7r2hJG39hI">Ignite IST</a>, <a href="https://www.youtube.com/watch?v=BP92frlc0Vc">Citizenship 2.0</a>, and also workshops of <a href="https://speakerdeck.com/dialex/iniciacao-a-fotografia">photography</a> and <a href="https://speakerdeck.com/dialex/profissao-estudante">study tips</a>.</p>
+                            <p>Sou uma pessoa tímida por isso forço-me a praticar apresentações em público. Foi orador no <a href="https://www.youtube.com/watch?v=H7r2hJG39hI">Ignite IST</a>, <a href="https://www.youtube.com/watch?v=BP92frlc0Vc">Cidadania 2.0</a>, e também em workshops de <a href="https://speakerdeck.com/dialex/iniciacao-a-fotografia">fotografia</a> e <a href="https://speakerdeck.com/dialex/profissao-estudante">técnicas de estudo</a>.</p>
                             <p><a href="https://speakerdeck.com/dialex">Slides</a>&nbsp;·&nbsp;<a href="https://www.youtube.com/channel/UCdK5KkEZpbzwNRq1tNIfnMA/videos">Youtube</a></p>
                             <ul class="list-inline item-details">
-                                <li>Skills:
+                                <li>Competências:
                                     <strong>Public speaking, Presentation zen, Slide:ology</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -540,52 +482,20 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Research</h2>
+                            <h2>Investigação</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/work-Research.png" class="img-responsive img-centered" alt="">
-                            <p>I published two scientific papers at <a href="http://link.springer.com/chapter/10.1007/978-3-642-36356-6_10">IESS</a> (by Springer) and <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6642867&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6642867">CBI</a> (by IEEE) during my master thesis <em>Evaluating and improving the Portuguese plan for IT</em>.</p>
-                            <p><a href="http://www.diogonunes.com/assets/downloads/misc/DiogoNunes_65887_DissertacaoTese.pdf">Full document</a>&nbsp;·&nbsp;<a href="http://www.diogonunes.com/assets/downloads/misc/DiogoNunes_65887_ResumoAlargadoTese.pdf">Summary</a></p>
+                            <p>Publiquei dois artigos científicos na <a href="http://link.springer.com/chapter/10.1007/978-3-642-36356-6_10">IESS</a> (Springer) e na <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6642867&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6642867">CBI</a> (IEEE) durante a minha tese de mestrado <em>Evaluating and improving the Portuguese plan for IT</em>.</p>
+                            <p><a href="http://www.diogonunes.com/assets/downloads/misc/DiogoNunes_65887_DissertacaoTese.pdf">Tese completa</a>&nbsp;·&nbsp;<a href="http://www.diogonunes.com/assets/downloads/misc/DiogoNunes_65887_ResumoAlargadoTese.pdf">Resumo</a></p>
                             <ul class="list-inline item-details">
-                                <li>Date:
+                                <li>Data:
                                     <strong>2012-2013</strong>
                                 </li>
-                                <li>Skills:
+                                <li>Competências:
                                     <strong>Research techniques, Scientific writing, Public speaking</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="workModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Personal Troller</h2>
-                            <hr class="star-primary">
-                            <img src="/assets/img/portfolio/work-Troller.png" class="img-responsive img-centered" alt="">
-                            <p><a href="https://github.com/dialex/PersonalTroller">Personal Troller</a> is a C# console application to torment your friends' work day. Quickly schedule it to open random websites, display weird messages, open/close frenetically the dvd drive, and much more!</p>
-                            <p><a href="https://github.com/dialex/PersonalTroller">Source</a>&nbsp;·&nbsp;<a href="http://www.diogonunes.com/assets/downloadmanager/click.php?id=11">Download</a></p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>2015</strong>
-                                </li>
-                                <li>Skills:
-                                    <strong>C#, VisualStudio, Prank creativity</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -606,20 +516,20 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Photography</h2>
+                            <h2>Fotografia</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/hobbie-Photography.png" class="img-responsive img-centered" alt="">
-                            <p>Photography gives me the opportunity to discover places and people. With time, photography evolved into a passion, influencing me as I influenced it. I focus on <a href="/photos/">capturing moments</a>: a landscape, a facial expression, a detail. This is my vision, modest and realistic, colorful or colorless.</p>
-                            <p><a href="/fotos/viagens/">Travel</a> | <a href="/fotos/retratos/">Portraits</a> | <a href="/fotos/eventos/">Events</a></p>
+                            <p>A fotografia dá-me oportunidade de descobrir locais e pessoas. Com o tempo, a fotografia evoluiu para uma paixão, influenciando-nos mutuamente. Foco-me em <a href="/photos/">capturar momentos</a>: uma paisagem, uma expressão, um detalhe. Esta é a minha visão, modesta e realista, a cores ou sem elas.</p>
+                            <p><a href="/fotos/viagens/">Viagem</a> | <a href="/fotos/retratos/">Retratos</a> | <a href="/fotos/eventos/">Eventos</a></p>
                             <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>Since 2008</strong>
+                                <li>Data:
+                                    <strong>Desde 2008</strong>
                                 </li>
-                                <li>Skills:
+                                <li>Competências:
                                     <strong>Digital photography, Image post-processing and manipulation, Lightroom, Photoshop</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -641,57 +551,17 @@
                             <h2>The Geeky Gecko</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/hobbie-Blog.png" class="img-responsive img-centered" alt="">
-                            <p>My <a href="/blog/">personal blog</a> features technology, photography, books, and life. I share my experiences so you can avoid my mistakes and leverage on my successes.</p>
-                            <p><em>A post every Monday, lets you endure your weekday.</em></p>
+                            <p>O meu <a href="/blog/">blog pessoal</a> sobre tecnologia, fotografia e a vida. Partilho as minhas experiências para que outros possam evitar os meus erros e tirar partido dos meus sucessos.</p>
+                            <p><em>Um artigo em inglês a cada 2ª feira.</em></p>
                             <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>Since 2014</strong>
+                                <li>Data:
+                                    <strong>Desde 2014</strong>
                                 </li>
-                                <li>Skills:
+                                <li>Competências:
                                     <strong>Wordpress, Copywriting, (Online/Social) Marketing, SEO</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="hobbieModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Books</h2>
-                            <hr class="star-primary">
-                            <img src="/assets/img/portfolio/examples/book-3.png" class="img-responsive img-centered raised-border" alt="cover3" width="260">
-                            &nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="/assets/img/portfolio/examples/book-1.png" class="img-responsive img-centered raised-border" alt="cover2" width="190">
-                            &nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="/assets/img/portfolio/examples/book-2.png" class="img-responsive img-centered raised-border" alt="cover1" width="190">
-                            &nbsp;&nbsp;&nbsp;&nbsp;
-                            <p>When I was a kid I didn't like reading and hated writing. As a teenager I wrote my first book! Currently I have three self-published books.</p>
-                            <p class="align-justify"><i class="fa fa-book"></i>&nbsp;<b>Beyond the gate</b><small>, the first volume of a fantasy novel about the adventure of two young adults, discovering the world and themselves.<br/>
-                                <a href="/assets/downloadmanager/click.php?id=10">Read the book</a> (<script type="text/javascript">ccount_display('10')</script> reads)</small></p>
-                            <p class="align-justify"><i class="fa fa-book"></i>&nbsp;<b>A poetry book</b><small>, a collection of poems divided in emotions and thoughts, written by a young pensive student. I wanted to prove poetry doesn't have to be unclear to be interesting.<br/>
-                                <a href="/assets/downloadmanager/click.php?id=1">Read the excert</a> (<script type="text/javascript">ccount_display('1')</script> reads)</small></p>
-                            <p class="align-justify"><i class="fa fa-book"></i>&nbsp;<b>Portugal 2010</b><small>, an analysis of Portugal's Education, Justice, Economy and Politics, exposing the main problems on each area and suggesting initiatives to mitigate them.<br/>
-                                <a href="/assets/downloadmanager/click.php?id=2">Read the book</a> (<script type="text/javascript">ccount_display('2')</script> reads)</small></p>
-
-                            <ul class="list-inline item-details">
-                                <li>Skills:
-                                    <strong>Microsoft Word, Creativity, Book publishing, Negotiation</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -713,17 +583,17 @@
                             <h2>Code4PT</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/hobbie-Code4PT.png" class="img-responsive img-centered" alt="">
-                            <p>Pointing out what's wrong is not enough, we want to improve people's life. We want solutions and we're not waiting... <em>we're creating them.</em></p>
-                            <p><a href="https://github.com/code4pt/">Code4PT</a>'s developers use open technology to solve what troubles the Portuguese society, afterwards releasing it to the world, like <a href="https://www.codeforamerica.org/about/">Code For America</a>.</p>
+                            <p>Dizer o que está errado não chega, queremos melhorar a vida das pessoas. Queremos soluções e não vamos esperar... <em>vamos criá-las.</em></p>
+                            <p>Os programadores do <a href="https://github.com/code4pt/">Code4PT</a> usam tecnologia aberta para resolver os problemas da sociedade Portuguesa, que depois são partilhadas com o mundo, tal como o <a href="https://www.codeforamerica.org/about/">Code For America</a>.</p>
                             <ul class="list-inline item-details">
-                                <li>Date:
+                                <li>Data:
                                     <strong>2012-2013</strong>
                                 </li>
-                                <li>Projects:
+                                <li>Projetos:
                                     <strong>DCID</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -742,20 +612,20 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Readers' Forum</h2>
+                            <h2>Fórum de Leitores</h2>
                             <hr class="star-primary">
                             <img src="/assets/img/portfolio/hobbie-FL.png" class="img-responsive img-centered" alt="">
-                            <p><em>Forum de Leitores</em> was created as an online meeting point for national writers and readers to share book reviews, publicize their works, and share ideas. It was shutdown after a year in favor of <a href="http://www.goodreads.com/">Amazon's Goodreads</a>. No shame in that.</p>
-                            <p>Statistics: 114 registered members, 340 topics, 1652 likes on FB page</p>
+                            <p><em>Fórum de Leitores</em> foi criado como um ponto de encontro para escritores e leitores nacionais partilharem opiniões de livros, divulgar os seus trabalhos e trocar ideias. Foi fechado após um ano a favor do <a href="http://www.goodreads.com/">Goodreads da Amazon</a>. Uma causa maior.</p>
+                            <p>Estatísticas: 114 membros registados, 340 tópicos, 1652 gostos na página Facebook</p>
                             <ul class="list-inline item-details">
-                                <li>Date:
+                                <li>Data:
                                     <strong>2010-2011</strong>
                                 </li>
-                                <li>Skills:
+                                <li>Competências:
                                     <strong>phpBB, Community management, Online marketing, Negotiation</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>

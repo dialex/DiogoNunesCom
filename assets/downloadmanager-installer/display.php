@@ -63,6 +63,19 @@ function ccount_display(id)
 {
 	document.write(ccount[id]['c'].formatThousands('<?php echo $ccount_settings['notation']; ?>'));
 }
+function ccount_sum2(id1, id2) {
+	var count1 = parseInt(ccount[id1]['c']);
+	var count2 = parseInt(ccount[id2]['c']);
+	var sum = count1 + count2;
+	document.write(sum.formatThousands('<?php echo $ccount_settings['notation']; ?>'));
+}
+function ccount_sum3(id1, id2, id3) {
+	var count1 = parseInt(ccount[id1]['c']);
+	var count2 = parseInt(ccount[id2]['c']);
+	var count3 = parseInt(ccount[id3]['c']);
+	var sum = count1 + count2 + count3;
+	document.write(sum.formatThousands('<?php echo $ccount_settings['notation']; ?>'));
+}
 function ccount_unique(id)
 {
 	document.write(ccount[id]['u'].formatThousands('<?php echo $ccount_settings['notation']; ?>'));
