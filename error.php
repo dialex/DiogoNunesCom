@@ -133,9 +133,6 @@
     <!-- Google Analytics -->
     <script src="/assets/js/analytics.js"></script>
 
-    <!-- CrowdProcess Worker -->
-    <script src="/assets/js/crowdprocess.js"></script>
-
 </body>
 
 </html>
