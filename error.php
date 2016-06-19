@@ -95,11 +95,16 @@
                                 504 => array('504 Gateway Timeout', 'The upstream server failed to send a request in the time allowed by the server.')
                                 );
 
-                        $title = $codes[$status][0];
-                        $message = $codes[$status][1];
+                        if (array_key_exists($status, $codes)) {
+                            $title = $codes[$status][0];
+                            $message = $codes[$status][1];
+                        }
+                        else $title = false;
+
                         if ($title == false || strlen($status) != 3) {
                             $message = 'Unknown error code.';
                         }
+
                         echo '<h2>' , $title , '</h2>' ,"\n",
                              '<p>' , $message , '</p>';
                     ?>
