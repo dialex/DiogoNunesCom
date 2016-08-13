@@ -1,43 +1,3 @@
-<?php
-    // Copyright © 2008 Darrin Yeager (Licensed under BSD license)
-
-    function getDefaultLanguage() {
-       if (isset($_SERVER["HTTP_ACCEPT_LANGUAGE"]))
-          return parseDefaultLanguage($_SERVER["HTTP_ACCEPT_LANGUAGE"]);
-       else
-          return parseDefaultLanguage(NULL);
-    }
-    function parseDefaultLanguage($http_accept, $deflang = "en") {
-       if(isset($http_accept) and strlen($http_accept) > 1)  {
-          # Split possible languages into array
-          $x = explode(",",$http_accept);
-          foreach ($x as $val) {
-             #check for q-value and create associative array. No q-value means 1 by rule
-             if(preg_match("/(.*);q=([0-1]{0,1}.\d{0,4})/i",$val,$matches))
-                $lang[$matches[1]] = (float)$matches[2];
-             else
-                $lang[$val] = 1.0;
-          }
-
-          #return default language (highest q-value)
-          $qval = 0.0;
-          foreach ($lang as $key => $value) {
-             if ($value > $qval) {
-                $qval = (float)$value;
-                $deflang = $key;
-             }
-          }
-       }
-       return strtolower($deflang);
-    }
-
-    $browserLang = getDefaultLanguage();
-    if (strpos($browserLang, 'pt-') !== FALSE)
-    {
-        header("Location: http://www.diogonunes.com/pt/");
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -51,6 +11,15 @@
 
     <title>Diogo Nunes - Personal website</title>
     <meta name="description" content="Personal website of Diogo Nunes, a software developer, photographer and blogger. Here you can check my work, projects, books and photos, as well as contacts.">
+
+    <!-- Language redirect -->
+    <script type="text/javascript">
+        var userLang = navigator.language || navigator.userLanguage;
+        console.log(userLang)
+        if (userLang.indexOf("en-") !== -1) {
+            window.location.href = "pt"
+        }
+    </script>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -79,7 +48,6 @@
     <script type="text/javascript" src="/assets/downloadmanager/display.php"></script>
 
     <?php require_once('assets/php/privatedaddy.php'); ?>
-
 </head>
 
 <body id="page-top" class="index">
