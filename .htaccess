@@ -55,7 +55,7 @@ ErrorDocument 500 /error.php
 
 # Run PHP code on .HMTL files
 <IfModule mod_fcgid.c>
-AddHandler fcgid-script .php5 .php4 .php .php3 .php2 .phtml .htm .html
+# AddHandler fcgid-script .php5 .php4 .php .php3 .php2 .phtml .htm .html
 FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php5
 FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php4
 FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php
