@@ -11,6 +11,9 @@
 
     <title>Diogo Nunes | Error page</title>
     <meta name="description" content="You shouldn't be here.">
+    <!-- Mobile tab color -->
+    <meta name="theme-color" content="#2c3e50">
+    <meta name="msapplication-navbutton-color" content="#2c3e50">
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
