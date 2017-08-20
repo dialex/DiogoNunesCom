@@ -9,8 +9,9 @@ RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
 
 
 # Redirect shortcuts
+Redirect /achievs                   /achievements.html
 Redirect /blog/author/diogo-nunes/  /#about
-Redirect /fotos/viagens             https://www.flickr.com/photos/diogo_nunes/sets/72157657665899606
+Redirect /fotos/viagens             https://www.flickr.com/photos/diogo_nunes/sets/72157657665899606/
 Redirect /fotos/retratos            https://www.flickr.com/photos/diogo_nunes/sets/72157649496353512/
 Redirect /fotos/eventos             https://www.flickr.com/photos/diogo_nunes/sets/72157651738011431/
 Redirect /fotos                     https://www.flickr.com/photos/diogo_nunes/sets/
