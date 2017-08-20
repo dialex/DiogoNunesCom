@@ -26,21 +26,6 @@ Redirect /jcdp          /#work
 Redirect /foto          /#hobbies
 
 
-# (DELETE THIS) Redirect shortcuts (DELETE THIS on Dec15)
-Redirect /work/dcid     /#work
-Redirect /code4pt       /#work
-Redirect /en/work       /#work
-Redirect /aboutme       /#about
-Redirect /about         /#about
-Redirect /sobremim      /#about
-Redirect /sobre         /#about
-Redirect /acerca        /#about
-Redirect /writing       /#hobbies
-Redirect /photo         /#hobbies
-Redirect /books         /#hobbies
-# (DELETE THIS) Redirect shortcuts (DELETE THIS on Dec15)
-
-
 # Disables folder's listing
 Options -Indexes
 
