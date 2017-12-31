@@ -11,6 +11,10 @@
   text-align: justify;
 }
 
+td {
+  vertical-align: middle;
+}
+
 .img-polaroid {
   padding: 4px;
   background-color: #fff;
