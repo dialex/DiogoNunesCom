@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
 
@@ -9,8 +9,8 @@
     <meta name="author" content="Diogo Nunes">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
-    <title>Diogo Nunes | Thank you</title>
-    <meta name="description" content="Thank you so much.">
+    <title>Diogo Nunes - Donativos</title>
+    <meta name="description" content="Aqui pode fazer um donativo.">
     <!-- Mobile tab color -->
     <meta name="theme-color" content="#2c3e50">
     <meta name="msapplication-navbutton-color" content="#2c3e50">
@@ -28,12 +28,20 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="/assets/fonts/fonts.css" rel="stylesheet" type="text/css">
 
+    <!-- Include EmojiOne -->
+    <link href="/assets/emoji-awesome/emojione.min.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Download Counter-->
+    <script type="text/javascript" src="/assets/downloadmanager/display.php"></script>
+
+    <?php require_once('../assets/php/privatedaddy.php'); ?>
 </head>
 
 <body id="page-top" class="index">
@@ -49,29 +57,29 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">DIOGO NUNES</a>
+                <a class="navbar-brand" href="#page-top">DIOGO NUNES</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="/"></a>
+                        <a href="/pt"></a>
                     </li>
                     <li class="page-scroll">
                         <a href="/blog/">Blog</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="/#work">Work</a>
+                        <a href="#work">Trabalho</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="/#hobbies">Hobbies</a>
+                        <a href="#hobbies">Hobbies</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="/#about">About</a>
+                        <a href="#about">Sobre</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="/#contact">Contact</a>
+                        <a href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -81,26 +89,54 @@
     </nav>
 
     <!-- Portfolio Work Grid Section -->
-    <section id="portfolio">
+    <section id="doar">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1><strong>Thank you!</strong></h1>
-                    <br/>
-                    <p><img src="/assets/img/thanks.gif" width="auto" height="auto" alt="(animation)"/></p>
-                    <br/><hr/><br/>
-                    <p>Please return to the <a href="/">homepage</a>.</p>
+                    <h1><strong>Donativos</strong></h1>
+                    <h1><i class="fa fa-heart"></i></h1>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Aplico muita dedicação e tempo em todo este conteúdo.</p>
+                    <p>Com a tua grojeta posso continuar a ajudar e a inspirar outros como tu.</p>
+                </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img alt="thanks image" src="/assets/img/thanks.gif" /></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 table-responsive">
+                    <table class="table table-hover text-center">
+                        <tr>
+                            <td><a href="https://youtu.be/s7d48shumnU" class="btn btn-default" role="button"><b><i class="fa fa-credit-card"></i> MBWay</b></a></td>
+                            <td>936 717 089</td>
+                        </tr>
+                            <td><a href="https://www.paypal.me/dialexnunes/5" class="btn btn-info" role="button"><b><i class="fa fa-paypal"></i> PayPal</b></a></td>
+                            <td><a href="https://www.paypal.me/dialexnunes/5">paypal.me/dialexnunes</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 table-responsive text-center">
+                        <p>Ou usa estas lojas e sem custos adicionais já vais ajudar-me.</p>
+                        <br/>
+                        <table class="table table-hover">
+                            <tr>
+                                <td><a href="http://www.diogonunes.com/blog/RedBubble" class="btn btn-success" role="button"><b><i class="fa fa-shopping-cart"></i> Redbubble</a></b></td>
+                                <td>compra stickers, t-shirts... mas usa <a href="http://www.diogonunes.com/blog/redbubble-store">este link</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="http://www.diogonunes.com/blog/amazon-store" class="btn btn-success" role="button"><b><i class="fa fa-shopping-cart"></i> Amazon</a></b></td>
+                                <td>compra livros, jogos... mas usa <a href="http://www.diogonunes.com/blog/amazon-store">este link</a></td>
+                            </tr>
+                        </table>
+                    </div>
             </div>
         </div>
     </section>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
 
     <!-- jQuery -->
     <script src="/assets/js/jquery.js"></script>
