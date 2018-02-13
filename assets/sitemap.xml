@@ -6,643 +6,1002 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>http://www.diogonunes.com/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2017-12-31T15:12:01+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/blog/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/achievements.html</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2017-12-31T15:14:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/work/googleearthtypewriter/demo/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2015-06-13T08:32:31+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/assets/downloads/misc/DiogoNunes_65887_DissertacaoTese.pdf</loc>
   <lastmod>2015-06-11T07:43:04+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/assets/downloads/misc/DiogoNunes_65887_ResumoAlargadoTese.pdf</loc>
   <lastmod>2015-06-11T07:43:00+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/livros/download/UmLivroDePoesia.html</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/hungry-for-innovation-cake-button/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/livros/download/Portugal2010.html</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/calling-a-web-method-in-c-without-a-service-reference/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/webclient-vs-httpclient-vs-httpwebrequest/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/calling-webservice-without-wsdl-or-web-reference/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/custom-build-configurations-visualstudio/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/rails-vs-django-vs-play-frameworks/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/custom-domain-for-rails-application-at-heroku/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/c-sharp/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/coding/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/decisions/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/democracy/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/entrepreneurship/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/experience/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/free-and-open/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/games/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/idea/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/kindness/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/minimalism/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/mobile/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/novel/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/operating-system/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/personal/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/php/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/play-framework/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/relationships/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/review/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/ruby-on-rails/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/school/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/social/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/source-control/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/story/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/tutorial/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/utilities/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/web-dev/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/announcement/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/life/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/photo/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/tech/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/thoughts/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/work/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/writing/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/intermission/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/poema-pena-da-pena/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/type/quote/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/porque-timidez-como-vencer/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/conselhos-licen-eng-informatica-leic-ist/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/average-at-everything-good-at-nothing/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/personality-test-to-build-better-teams/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/page/2/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/work/jcdp/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/internet-button/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/livros/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2017-12-31T17:03:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/livros/download/pdf/Um%20Livro%20de%20Poesia%20(Excerto)%20-%20Diogo%20Nunes.pdf</loc>
-  <lastmod>2015-07-08T20:46:08+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/category/tech/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/livros/download/pdf/Portugal,%20um%20novo%20rumo%20-%20Diogo%20Nunes.pdf</loc>
-  <lastmod>2015-07-08T20:46:08+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/category/life/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/installing-play-framework-2-1-on-windows/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/category/work/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/set-up-your-rails-env/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/category/thoughts/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/conclusions-after-6-months-of-blogging/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/category/writing/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/embed-svns-revision-into-assemblyinfos-version-number/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/category/photo/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/making-an-open-source-testing-course/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/agile/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/experience/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/testing/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/5-must-knows-for-digital-currencies-beginners/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/digital-currencies/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/iot-smart-buttons-benchmark/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/hardware/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/phantomdriver-headless-chrome-driver-jenkins/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/tutorial/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/csharp-send-image-xml/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/c-sharp/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/coding/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/your-attention-please/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/relationships/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/csharp-write-read-images-sql-server/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/15/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/donate.html</loc>
+  <lastmod>2017-12-31T17:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/webclient-vs-httpclient-vs-httpwebrequest/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/calling-a-web-method-in-c-without-a-service-reference/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/calling-webservice-without-wsdl-or-web-reference/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/blog/creating-updating-merging-branches-svn/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/tag/coding/page/2/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/which-are-your-means-and-your-endings/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/whats-the-right-time-to-create-a-startup/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/i-finished-college-now-what/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/portugal-na-vanguarda-da-democracia-do-seculo-xxi/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/when-others-have-the-same-idea-you-do/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tips-writing-novel-for-nanowrimo/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/ditching-the-job-you-hate/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/when-people-become-cpus/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/o-que-e-preciso-para-ser-um-estudante-excelente/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/minecraft-a-game-as-a-metaphor-of-life/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/experience/page/2/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/java-colored-debug-printer/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/software-too-good-to-be-free/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/free-software-make-a-donation/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/get-together-get-efficient/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/black-holes-are-the-universes-antidepressants/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/use-birthdays-as-an-excuse-to-praise-your-friend/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/you-dont-own-things-things-own-you/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/random-acts-of-kindness/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/average-at-everything-good-at-nothing/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/blog/geotag-your-photos-using-a-phone/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/dont-put-a-ring-on-her/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/java-colored-output-console/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/ssds-make-you-a-minimalist/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/decisions/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/how-i-met-cirque-du-soleil/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/democracy/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/top-3-anti-theft-android-apps/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/entrepreneurship/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-8-breaking-up/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/free-and-open/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-7-dialogue-beats/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/games/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-6-dialogue/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/heuristics/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-5-how-it-sounds/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/idea/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-4-proportion/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/java/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-3-narrators/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/kindness/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-2-exposition/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/minimalism/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/tag/novel/page/2/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/mobile/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/is-ubuntu-getting-worse/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/music/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/too-weird-to-live-too-unique-to-die/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/novel/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/i-regret-hesitating/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/operating-system/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/im-an-optimistic-realistic/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/personal/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/were-friends-right/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/php/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/tag/personal/page/2/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/play-framework/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/download-counter-for-your-websites-files/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/ruby-on-rails/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/upgrading-your-play-app-to-a-newer-version/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/review/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/running-and-debugging-your-play-app/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/ruby/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/creating-your-first-play-app-versions-2-1/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/school/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/one-direction-encourages-violence-during-courtship/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/selenium/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/a-friend-instead-of-a-pet/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/slack/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/love-seeks-a-complement-not-an-opposite/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/social/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/tag/relationships/page/2/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/source-control/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/think-twice-before-creating-bonus-system/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/story/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/best-place-buy-tshirts-stickers-online/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/utilities/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/ruby-on-rails-an-overview-on-why-its-so-good/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/web-dev/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/tag/review/page/2/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/work/jcdp/</loc>
+  <lastmod>2015-06-13T08:32:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/bootstrap-switch-on-rails/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/internet-button-tutorial-post-slack/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/templates-para-documentos-da-tese-de-mestrado/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/internet-button-tutorial-sound-nyan-cat/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/school-as-a-means-to-an-end/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/internet-button-tutorial-click-button/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/automatic-blog-newsletters-using-mailchimp/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/internet-button-tutorial-led-light/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/facebook-vs-google/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/internet-button-tutorial-ide-atom-github/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/meet-mr-lampost/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/internet-button-unboxing-first-steps/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/penguins-are-worsening-global-warming/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tag/internet-button/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/tag/tutorial/page/2/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/tag/web-dev/page/2/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/1-year-anniversary/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/type/aside/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/nanowrimo-2014-begin/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/finding-courage-to-start-a-fantasy-novel/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/life/page/2/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/pt/donativo.html</loc>
+  <lastmod>2018-01-01T16:28:45+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/blog/category/tech/page/2/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/category/writing/page/2/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/category/tech/page/7/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/poema-fosse-o-que-fosse/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/the-curse-of-being-an-engineer/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/poema-estou-confuso/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/moving-out-of-parents-house/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/poema-conflitos/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/use-birthdays-as-an-excuse-to-praise-your-friend/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/poema-adoro-te/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/meet-mr-lampost/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/poema-nao-o-direi/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/you-dont-own-things-things-own-you/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/page/3/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/best-place-buy-tshirts-stickers-online/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-1-show-vs-tell/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/too-nice-guys-finish-last/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/wp-content/uploads/2014/04/Template-Relatorio-Projecto.docx</loc>
-  <lastmod>2014-09-17T21:31:25+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/wp-content/uploads/2014/04/Template-Dissertacao-Mestrado-2011.docx</loc>
-  <lastmod>2014-09-17T21:31:25+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/wp-content/uploads/2014/04/Template_Resumo_Alargado_2011.docx</loc>
-  <lastmod>2014-09-17T21:34:34+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/life/page/3/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/tech/page/3/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/category/writing/page/3/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.diogonunes.com/blog/page/4/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/category/life/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/blog/category/life/page/4/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/category/tech/page/4/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tests-that-criticize-the-product/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/page/5/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/tests-that-support-the-team/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/four-testing-quadrants/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/10-principles-agile-testers/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/testing-for-agile-teams/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/testing-for-agile-teams-summary/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/category/work/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/too-weird-to-live-too-unique-to-die/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/one-direction-encourages-violence-during-courtship/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/black-holes-are-the-universes-antidepressants/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-8-breaking-up/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-7-dialogue-beats/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-6-dialogue/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-5-how-it-sounds/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-4-proportion/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-3-narrators/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-2-exposition/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/category/writing/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/orchestras-play-video-games-too/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tips-writing-novel-for-nanowrimo/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/ditching-the-job-you-hate/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/when-people-become-cpus/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/experience/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/testing/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/particle-internet-button-overview/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/hardware/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/github-pages-custom-domain-namecheap/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/tutorial/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/tutorial/page/4/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/personal-troller/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/custom-build-configurations-visualstudio/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/embed-svns-revision-into-assemblyinfos-version-number/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/c-sharp/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/coding/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/coding/page/3/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/personality-test-to-build-better-teams/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/i-regret-hesitating/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/dont-put-a-ring-on-her/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/relationships/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/3/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/random-acts-of-kindness/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/whats-the-right-time-to-create-a-startup/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/i-finished-college-now-what/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/blog/why-i-started-blogging-again/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/page/6/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/finding-courage-to-start-a-fantasy-novel/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/page/7/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/page/14/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/page/8/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/which-are-your-means-and-your-endings/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/page/9/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/portugal-na-vanguarda-da-democracia-do-seculo-xxi/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/page/10/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/when-others-have-the-same-idea-you-do/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.diogonunes.com/blog/page/11/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.diogonunes.com/blog/birthday-bot-for-slack/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/software-too-good-to-be-free/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/free-software-make-a-donation/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/fix-texture-problems-gmod/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/install-config-gmod-guide/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/minecraft-a-game-as-a-metaphor-of-life/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/cross-browser-testing-tuttu-testing-through-ui/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/get-together-get-efficient/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/publish-maven-central-troubleshoot/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/how-to-use-browserstack-cross-browser-testing/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/ssds-make-you-a-minimalist/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/how-i-met-cirque-du-soleil/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/top-3-anti-theft-android-apps/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/novel/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/is-ubuntu-getting-worse/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/personal/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/download-counter-for-your-websites-files/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/rails-vs-django-vs-play-frameworks/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/upgrading-your-play-app-to-a-newer-version/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/running-and-debugging-your-play-app/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/creating-your-first-play-app-versions-2-1/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/installing-play-framework-2-1-on-windows/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/custom-domain-for-rails-application-at-heroku/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/bootstrap-switch-on-rails/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/set-up-your-rails-env/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/ruby-on-rails-an-overview-on-why-its-so-good/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/browserstack-cross-browser-testing-review/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/think-twice-before-creating-bonus-system/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/review/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/school-as-a-means-to-an-end/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/automatic-blog-newsletters-using-mailchimp/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/facebook-vs-google/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/penguins-are-worsening-global-warming/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/a-friend-instead-of-a-pet/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/web-dev/page/2/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/pt/</loc>
+  <lastmod>2017-12-31T15:12:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/category/tech/page/3/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/category/tech/page/6/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/im-an-optimistic-realistic/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/love-seeks-a-complement-not-an-opposite/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/category/life/page/3/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/from-dreaming-to-publishing-1-show-vs-tell/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/conclusions-after-6-months-of-blogging/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/tag/tutorial/page/3/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/too-nice-guys-finish-last/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/were-friends-right/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/4/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/nanowrimo-2014-begin/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/13/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/category/tech/page/4/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/category/tech/page/5/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/5/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/type/aside/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/category/announcement/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 <url>
   <loc>http://www.diogonunes.com/blog/page/12/</loc>
-  <changefreq>monthly</changefreq>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/6/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/1-year-anniversary/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/11/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/7/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/10/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/8/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>http://www.diogonunes.com/blog/page/9/</loc>
+  <lastmod>2018-02-11T10:29:30+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+
+
 </urlset>
