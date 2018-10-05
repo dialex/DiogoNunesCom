@@ -8,7 +8,7 @@ During the first ever [Google DevFest Portugal](https://plus.google.com/events/c
 
 ##Concept
 
-I knew for a long time a [website](http://rhettdashwood.com/16575) with Earth locations very similar to letters. Therefore, the objective was to emulate the behaviour of a [traditional typewriter](http://en.wikipedia.org/wiki/Typewriter) but using those aerial views as letters. Therefore, a **Google Earth Typewriter**.
+I knew for a long time a [website](https://rhettdashwood.com/16575) with Earth locations very similar to letters. Therefore, the objective was to emulate the behaviour of a [traditional typewriter](https://en.wikipedia.org/wiki/Typewriter) but using those aerial views as letters. Therefore, a **Google Earth Typewriter**.
 
 ##How it works
 

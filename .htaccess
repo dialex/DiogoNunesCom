@@ -1,12 +1,9 @@
-# Redirect non-www to www
+# Redirect all http to https (SSL)
 RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^diogonunes.com [NC]
-RewriteRule ^(.*)$ http://www.diogonunes.com/$1 [L,R=301]
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^diogonunes.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
-
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
 
 # Redirect shortcuts
 Redirect /achievs                   /achievements.html
@@ -20,8 +17,8 @@ Redirect /testing                   https://dialex.github.io/start-testing/#/
 Redirect /test                      https://dialex.github.io/start-testing/#/
 
 # Redirect deprecated pages
-Redirect /blog/conselhos-licen-eng-informatica-leic-ist/            http://www.estudarinformatica.info/
-Redirect /blog/o-que-e-preciso-para-ser-um-estudante-excelente/     http://www.estudarinformatica.info/
+Redirect /blog/conselhos-licen-eng-informatica-leic-ist/            https://www.estudarinformatica.info/
+Redirect /blog/o-que-e-preciso-para-ser-um-estudante-excelente/     https://www.estudarinformatica.info/
 Redirect /escrita/artigos/conselhos-cadeiras-leic.html  /blog/conselhos-licen-eng-informatica-leic-ist/
 Redirect /escrita/artigos/estudante-excelente.html      /blog/o-que-e-preciso-para-ser-um-estudante-excelente/
 Redirect /it/work/jcdp  /#work
