@@ -17,8 +17,8 @@ Redirect /testing                   https://dialex.github.io/start-testing/#/
 Redirect /test                      https://dialex.github.io/start-testing/#/
 
 # Redirect deprecated pages
-Redirect /blog/conselhos-licen-eng-informatica-leic-ist/            http://www.estudarinformatica.info/
-Redirect /blog/o-que-e-preciso-para-ser-um-estudante-excelente/     http://www.estudarinformatica.info/
+Redirect /blog/conselhos-licen-eng-informatica-leic-ist/            https://www.estudarinformatica.info/
+Redirect /blog/o-que-e-preciso-para-ser-um-estudante-excelente/     https://www.estudarinformatica.info/
 Redirect /escrita/artigos/conselhos-cadeiras-leic.html  /blog/conselhos-licen-eng-informatica-leic-ist/
 Redirect /escrita/artigos/estudante-excelente.html      /blog/o-que-e-preciso-para-ser-um-estudante-excelente/
 Redirect /it/work/jcdp  /#work
