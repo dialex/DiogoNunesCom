@@ -1,12 +1,3 @@
-# # Redirect non-www to www
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^diogonunes.com [NC]
-RewriteRule ^(.*)$ https://www.diogonunes.com/$1 [L,R=301]
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^diogonunes.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.diogonunes.com$
-
 # Redirect http to https (SSL)
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^diogonunes\.com [NC]
