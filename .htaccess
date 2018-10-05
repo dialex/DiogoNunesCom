@@ -1,12 +1,9 @@
-# Redirect http to https (SSL)
+# Redirect all http to https (SSL)
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^diogonunes\.com [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.diogonunes.com/$1 [R,L]
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^estudarinformatica\.info [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.estudarinformatica.info/$1 [R,L]
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
 
 # Redirect shortcuts
 Redirect /achievs                   /achievements.html
