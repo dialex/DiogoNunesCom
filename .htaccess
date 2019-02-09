@@ -35,8 +35,11 @@ SetOutputFilter DEFLATE
 # Redirect errors
 ErrorDocument 403 /error.php
 ErrorDocument 404 /error.php
+ErrorDocument 405 /error.php
+ErrorDocument 408 /error.php
 ErrorDocument 500 /error.php
-
+ErrorDocument 502 /error.php
+ErrorDocument 504 /error.php
 
 # Run PHP code on .HMTL files
 <IfModule mod_fcgid.c>
