@@ -1,5 +1,4 @@
-User-agent:*
+User-Agent: *
+Disallow:
 
-Disallowhttps://
-
-Sitemap:https://www.diogonunes.com/assets/sitemap.xml
+Sitemap: https://www.diogonunes.com/assets/sitemap.xml
