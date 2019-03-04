@@ -1,17 +1,4 @@
 @font-face {
-    font-family: 'TangerineBold';
-    src: url('Tangerine_Bold-webfont.eot');
-    src: url('Tangerine_Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Tangerine_Bold-webfont.svg#TangerineBold') format('svg'),
-         url('Tangerine_Bold-webfont.woff') format('woff'),
-         url('Tangerine_Bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-.handbold-font {font-family: 'TangerineBold', Georgia, serif !important;}
-
-
-@font-face {
 		font-family: 'Nevis';
 		src: url('nevis-webfont.eot');
 		src: url('nevis-webfont.eot?#iefix') format('embedded-opentype'),
