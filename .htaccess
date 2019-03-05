@@ -7,6 +7,7 @@ RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
 
 # Redirect shortcuts
 Redirect /achievs                   /achievements.html
+Redirect /books                     /livros
 Redirect /blog/author/diogo-nunes/  /#about
 Redirect /fotos/viagens             https://www.flickr.com/photos/diogo_nunes/sets/72157657665899606/
 Redirect /fotos/retratos            https://www.flickr.com/photos/diogo_nunes/sets/72157649496353512/
