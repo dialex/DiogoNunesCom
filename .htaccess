@@ -14,6 +14,7 @@ Redirect /fotos/retratos            https://www.flickr.com/photos/diogo_nunes/se
 Redirect /fotos/eventos             https://www.flickr.com/photos/diogo_nunes/sets/72157651738011431/
 Redirect /fotos                     https://www.flickr.com/photos/diogo_nunes/sets/
 Redirect /photos                    https://www.flickr.com/photos/diogo_nunes/sets/
+Redirect /purpose                   https://leanpub.com/purpose
 Redirect /testing                   https://dialex.github.io/start-testing/#/
 Redirect /test                      https://dialex.github.io/start-testing/#/
 
