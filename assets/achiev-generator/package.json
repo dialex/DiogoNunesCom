@@ -1,0 +1,15 @@
+{
+  "name": "achiev-html-generator",
+  "version": "1.0.0",
+  "description": "Generates achievements.html page based on a list of events",
+  "main": "",
+  "scripts": {
+    "generate": "exit 1",
+    "replace": "exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mustache": "^3.0.1"
+  }
+}
