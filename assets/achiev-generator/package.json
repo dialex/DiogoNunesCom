@@ -2,14 +2,15 @@
   "name": "achiev-html-generator",
   "version": "1.0.0",
   "description": "Generates achievements.html page based on a list of events",
-  "main": "",
+  "main": "index.js",
   "scripts": {
-    "generate": "exit 1",
+    "generate": "node index.js",
     "replace": "exit 1"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "csv-parser": "^2.3.0",
     "mustache": "^3.0.1"
   }
 }
