@@ -1,26 +1,25 @@
 const csv = require("csv-parser");
 const fs = require("fs");
-const promisify = require("util");
 
-const readstream = promisify(fs.createReadStream);
-
-async function readCSV() {
-  var lines = [];
-  await readstream("events.csv")
-    .pipe(csv())
-    .on("data", row => {
-      //console.debug("Read event for " + row["PHOTO"]);
-      lines.push(row);
-    })
-    .on("end", () => {
-      console.info(`✅  Imported a total of ${lines.length} events`);
-      return lines;
-    });
+function readCSV(fileName) {
+  return new Promise(function(resolve, reject) {
+    var lines = [];
+    fs.createReadStream(fileName)
+      .pipe(csv())
+      .on("data", row => {
+        //console.debug("Read event for " + row["PHOTO"]);
+        lines.push(row);
+      })
+      .on("end", () => {
+        console.info(`✅  Imported a total of ${lines.length} events`);
+        resolve(lines);
+      });
+  });
 }
 
-function main() {
-  var events = readCSV();
-  console.log(events);
+async function main() {
+  var events = await readCSV("events.csv");
+  console.log(events.slice(-2));
 }
 
 main();
