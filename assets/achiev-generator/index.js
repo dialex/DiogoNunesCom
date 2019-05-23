@@ -19,7 +19,16 @@ function readCSV(fileName) {
 
 async function main() {
   var events = await readCSV("events.csv");
-  console.log(events.slice(-2));
+  while (events.length > 0) {
+    var right = events.pop();
+    var left = events.pop();
+
+    if (left === undefined) {
+      console.debug(`Events per row (1): ${right["PHOTO"]}`);
+    } else {
+      console.debug(`Events per row (2): ${left["PHOTO"]} | ${right["PHOTO"]}`);
+    }
+  }
 }
 
 main();
