@@ -8,7 +8,7 @@ function readCSV(fileName) {
       .pipe(csv())
       .on("data", row => {
         //console.debug("Read event for " + row["PHOTO"]);
-        lines.push(row);
+        if (!row["PHOTO"].startsWith("//")) lines.push(row);
       })
       .on("end", () => {
         console.info(`✅  Imported a total of ${lines.length} events`);
