@@ -1,9 +1,12 @@
 const csv = require("csv-parser");
 const fs = require("fs");
+const promisify = require("util");
 
-function readCSV() {
+const readstream = promisify(fs.createReadStream);
+
+async function readCSV() {
   var lines = [];
-  fs.createReadStream("events.csv")
+  await readstream("events.csv")
     .pipe(csv())
     .on("data", row => {
       //console.debug("Read event for " + row["PHOTO"]);
@@ -18,10 +21,6 @@ function readCSV() {
 function main() {
   var events = readCSV();
   console.log(events);
-  while (events.length > 0) {
-    let row = events.slice(-2);
-    console.log(row);
-  }
 }
 
 main();
