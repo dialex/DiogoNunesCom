@@ -86,13 +86,25 @@ function generateHtmlPage(htmlGrid) {
   //console.debug("Located at " + templatePath);
   var templateHtml = fs.readFileSync(templatePath, "utf8", function(err, html) {
     if (err) throw err;
-    //console.debug("Template read");
+    //console.debug("File read");
   });
 
   console.info(`👨‍⚕️ Inserting the grid in the template`);
   var $ = cheerio.load(templateHtml);
   $("#achievsGrid").replaceWith(htmlGrid);
   //console.debug($.html());
+  return $.html();
+}
+
+function writeToFile(html, filepath) {
+  console.info(`⏬  Writing new achievements.html file`);
+
+  var destination = path.resolve(__dirname, "achievements_new.html");
+  fs.writeFileSync(destination, html, function(err) {
+    if (err) throw err;
+    //console.debug("File created");
+  });
+  //console.debug("Located at " + destination);
 }
 
 async function main() {
@@ -100,7 +112,7 @@ async function main() {
   var achievs = await readCSV("achievs.csv");
   var htmlGrid = generateHtmlGrid(achievs);
   var htmlPage = generateHtmlPage(htmlGrid);
-  //writeToFile(htmlPage, "achievements_new.html");
+  writeToFile(htmlPage, "achievements_new.html");
 }
 
 main();
