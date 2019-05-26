@@ -50,6 +50,7 @@ function generateRowHtml() {
 
 function generateHtmlGrid(achievs) {
   var htmlGrid = "";
+  achievs.reverse();
 
   console.info(`🎨  Generating html grid from achievements`);
   while (achievs.length > 0) {
