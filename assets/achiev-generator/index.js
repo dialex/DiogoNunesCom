@@ -55,8 +55,8 @@ function generateHtmlGrid(achievs) {
   console.info(`🎨  Generating html grid from achievements`);
   while (achievs.length > 0) {
     var isWide, htmlRow;
-    var right = achievs.pop();
     var left = achievs.pop();
+    var right = achievs.pop();
     if (left === undefined) {
       isWide = true;
       //console.debug(`Achievs per row (1): ${right["PHOTO"]}`);
