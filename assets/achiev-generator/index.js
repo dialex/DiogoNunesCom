@@ -90,7 +90,7 @@ function generateHtmlPage(htmlGrid) {
     //console.debug("File read");
   });
 
-  console.info(`👨‍⚕️ Inserting the grid in the template`);
+  console.info(`💉  Inserting the grid in the template`);
   var $ = cheerio.load(templateHtml);
   $("#achievsGrid").replaceWith(htmlGrid);
   //console.debug($.html());
