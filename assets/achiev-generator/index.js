@@ -1,5 +1,7 @@
 const csv = require("csv-parser");
 const fs = require("fs");
+const path = require("path");
+const cheerio = require("cheerio");
 
 function readCSV(fileName) {
   return new Promise(function(resolve, reject) {
@@ -77,7 +79,19 @@ function generateHtmlGrid(achievs) {
 }
 
 function generateHtmlPage(htmlGrid) {
-  //TODO
+  console.info(`🏗  Reading html template`);
+
+  var templatePath = path.resolve(__dirname, "template.html");
+  //console.debug("Located at " + templatePath);
+  var templateHtml = fs.readFileSync(templatePath, "utf8", function(err, html) {
+    if (err) throw err;
+    //console.debug("Template read");
+  });
+
+  console.info(`👨‍⚕️ Inserting the grid in the template`);
+  var $ = cheerio.load(templateHtml);
+  $("#achievsGrid").replaceWith(htmlGrid);
+  //console.debug($.html());
 }
 
 async function main() {
@@ -85,7 +99,7 @@ async function main() {
   var achievs = await readCSV("achievs.csv");
   var htmlGrid = generateHtmlGrid(achievs);
   var htmlPage = generateHtmlPage(htmlGrid);
-  //console.log(htmlGrid);
+  //writeToFile(htmlPage, "achievements_new.html");
 }
 
 main();
