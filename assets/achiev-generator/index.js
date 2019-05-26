@@ -11,7 +11,7 @@ function readCSV(fileName) {
         if (!row["PHOTO"].startsWith("//")) lines.push(row);
       })
       .on("end", () => {
-        console.info(`✅  Imported a total of ${lines.length} events`);
+        console.info(`✅  Imported a total of ${lines.length} achievs`);
         resolve(lines);
       });
   });
@@ -46,24 +46,24 @@ function generateRowHtml() {
   `;
 }
 
-function generateHtmlGrid(events) {
+function generateHtmlGrid(achievs) {
   var htmlGrid = "";
 
-  console.info(`🎨  Generating html grid from events`);
-  while (events.length > 0) {
+  console.info(`🎨  Generating html grid from achievements`);
+  while (achievs.length > 0) {
     var isWide, htmlRow;
-    var right = events.pop();
-    var left = events.pop();
+    var right = achievs.pop();
+    var left = achievs.pop();
     if (left === undefined) {
       isWide = true;
-      //console.debug(`Events per row (1): ${right["PHOTO"]}`);
+      //console.debug(`Achievs per row (1): ${right["PHOTO"]}`);
       var htmlCenter = generateColumnHtml(right, isWide);
       //console.debug("Center column:\n" + htmlCenter);
       var htmlRow = generateRowHtml(htmlCenter);
       //console.debug("Entire row:\n" + htmlRow);
     } else {
       isWide = false;
-      //console.debug(`Events per row (2): ${left["PHOTO"]} | ${right["PHOTO"]}`);
+      //console.debug(`Achievs per row (2): ${left["PHOTO"]} | ${right["PHOTO"]}`);
       var htmlLeft = generateColumnHtml(left, isWide);
       //console.debug("Left column:\n" + htmlLeft);
       var htmlRight = generateColumnHtml(right, isWide);
@@ -82,8 +82,8 @@ function generateHtmlPage(htmlGrid) {
 
 async function main() {
   console.info("🏃‍  Started!");
-  var events = await readCSV("events.csv");
-  var htmlGrid = generateHtmlGrid(events);
+  var achievs = await readCSV("achievs.csv");
+  var htmlGrid = generateHtmlGrid(achievs);
   var htmlPage = generateHtmlPage(htmlGrid);
   //console.log(htmlGrid);
 }
