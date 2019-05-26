@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "generate": "node index.js",
-    "replace": "exit 1"
+    "prettify": "echo '💅  Prettifying new file'; prettier --write achievements_new.html --loglevel silent",
+    "replace": "echo '💥  Replacing old file with the new'; cp -fr achievements_new.html ../../achievements.html",
+    "all": "npm run generate && npm run -s prettify && npm run -s replace"
   },
   "author": "",
   "license": "MIT",
