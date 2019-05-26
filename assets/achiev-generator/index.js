@@ -57,10 +57,11 @@ function generateHtmlGrid(achievs) {
     var isWide, htmlRow;
     var left = achievs.pop();
     var right = achievs.pop();
-    if (left === undefined) {
+
+    if (right === undefined) {
       isWide = true;
-      //console.debug(`Achievs per row (1): ${right["PHOTO"]}`);
-      var htmlCenter = generateColumnHtml(right, isWide);
+      //console.debug(`Achievs per row (1): ${left["PHOTO"]}`);
+      var htmlCenter = generateColumnHtml(left, isWide);
       //console.debug("Center column:\n" + htmlCenter);
       var htmlRow = generateRowHtml(htmlCenter);
       //console.debug("Entire row:\n" + htmlRow);
