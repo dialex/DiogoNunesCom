@@ -1,0 +1,19 @@
+{
+  "name": "achiev-html-generator",
+  "version": "1.0.0",
+  "description": "Generates achievements.html page based on a list of events",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js",
+    "prettify": "echo '💅  Prettifying new file'; prettier --write achievements_new.html --loglevel silent",
+    "replace": "echo '💥  Replacing old file with the new'; cp -fr achievements_new.html ../../achievements.html",
+    "all": "npm run generate && npm run -s prettify && npm run -s replace"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "csv-parser": "^2.3.0",
+    "mustache": "^3.0.1"
+  }
+}
