@@ -36,3 +36,7 @@ td {
 #mc_embed_signup .button {
   background-color: #3cb19c !important;
 }
+
+.caption-content span {
+  font-size: 40px;
+}
