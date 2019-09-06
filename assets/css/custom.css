@@ -1,5 +1,5 @@
 .raised-border {
-  border: 4px outset #BBBBBB;
+  border: 4px outset #bbbbbb;
   display: inline !important;
 }
 
@@ -27,12 +27,12 @@ td {
 
 /* Mailchimp Signup form */
 #mc_embed_signup {
-    background: #24c8e3;
-    clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
-    color: #2c3e50;
-    width: 450px;
+  background: #24c8e3;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  color: #2c3e50;
+  width: 450px;
 }
 #mc_embed_signup .button {
-    background-color: #3cb19c !important;
+  background-color: #3cb19c !important;
 }
