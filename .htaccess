@@ -16,7 +16,7 @@ Redirect /fotos                     https://500px.com/diogonunes/galleries
 Redirect /photos                    https://500px.com/diogonunes/galleries
 Redirect /purpose                   https://leanpub.com/purpose
 Redirect /testing                   https://dialex.github.io/start-testing/#/
-Redirect /test                      https://dialex.github.io/start-testing/#/
+Redirect /test                      https://github.com/dialex/start-testing
 
 # Redirect deprecated pages
 Redirect /blog/conselhos-licen-eng-informatica-leic-ist/            https://www.estudarinformatica.info/
