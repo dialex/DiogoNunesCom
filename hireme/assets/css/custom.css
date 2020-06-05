@@ -8,3 +8,32 @@
 .c-brand {
   display: block;
 }
+
+.t-social-button:hover .fas,
+.t-social-button:hover .far,
+.t-social-button:hover .fal,
+.t-social-button:hover .fab,
+a,
+.t-link-container .t-link-container__item,
+.t-link-container:hover .t-link-container__item--blended,
+.t-primary-color,
+.t-primary-color-line {
+  color: #24c8e3;
+}
+
+.t-primary-bg,
+.t-primary-color-line {
+  background: #24c8e3;
+}
+
+.t-preloader__spinner:not(:required):before {
+  border-top-color: #24c8e3;
+  border-bottom-color: #24c8e3;
+}
+
+a:hover,
+a:focus,
+a:active,
+.t-link-container:hover .t-link-container__item {
+  color: #0789e0;
+}
