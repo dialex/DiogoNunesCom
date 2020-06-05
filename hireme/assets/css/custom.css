@@ -48,3 +48,7 @@ a:active,
 .t-link-container:hover .t-link-container__item {
   color: var(--secondary-color);
 }
+
+.o-content h3 {
+  font-size: 1.14em;
+}
