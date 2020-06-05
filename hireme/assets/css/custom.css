@@ -3,6 +3,12 @@
   --primary-color: #24c8e3;
   --secondary-color: #0789e0;
 }
+/* Dark theme */
+/* :root {
+  --primary-color: #cdf910;
+  --secondary-color: #f9eb10;
+} */
+
 .t-title {
   color: var(--primary-color);
   text-transform: uppercase;
