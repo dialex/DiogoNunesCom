@@ -1,6 +1,5 @@
 # TODO
 
-- Fill technologies
 - Fill skills
 - Fill portfolio
 - Fill brands
