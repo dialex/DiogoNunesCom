@@ -55,3 +55,11 @@ a:active,
 .o-content h3 {
   font-size: 1.14em;
 }
+
+/* Makes fontawesome icons display in the same color as the H3 they are in */
+h3 .fas,
+h3 .far,
+h3 .fal,
+h3 .fab {
+  color: #727272;
+}
