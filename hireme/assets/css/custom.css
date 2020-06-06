@@ -11,6 +11,7 @@
   --brand-color: #c1e623;
 } */
 
+/* Controls the colour of the top brand name */
 .t-title {
   color: var(--brand-color);
   text-transform: uppercase;
@@ -22,6 +23,7 @@
   display: block;
 }
 
+/* Applies primary/secondary color "everywhere" */
 .t-social-button:hover .fas,
 .t-social-button:hover .far,
 .t-social-button:hover .fal,
