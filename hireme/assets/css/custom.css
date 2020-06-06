@@ -2,15 +2,17 @@
 :root {
   --primary-color: #24c8e3;
   --secondary-color: #0789e0;
+  --brand-color: #708090;
 }
 /* Dark theme */
 /* :root {
   --primary-color: #cdf910;
   --secondary-color: #f9eb10;
+  --brand-color: #cdf910;
 } */
 
 .t-title {
-  color: var(--primary-color);
+  color: var(--brand-color);
   text-transform: uppercase;
   font-family: Nevis, Lato, Tahoma, sans-serif !important;
   font-size: 2.65em;

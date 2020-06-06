@@ -1,7 +1,6 @@
 # TODO
 
 - Fill skills
-- Remove blue from brand name (darker grey)
 - Refactor primary color of dark theme
 - Cleanup JS files (why dense? why scrollreveal?)
 - Rename to index.html
