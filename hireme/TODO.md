@@ -1,7 +1,6 @@
 # TODO
 
 - Fill skills
-- Fill portfolio
 - Fill brands
 - Remove blue from brand name (darker grey)
 - Refactor primary color of dark theme
