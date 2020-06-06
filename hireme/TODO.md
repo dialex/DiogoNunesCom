@@ -1,7 +1,6 @@
 # TODO
 
 - Fill skills
-- Refactor primary color of dark theme
 - Cleanup JS files (why dense? why scrollreveal?)
 - Rename to index.html
 - Remove all references to Desmond
