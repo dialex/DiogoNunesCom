@@ -1,6 +1,5 @@
 # TODO
 
-- Fix Nevis font not appearing on Windows
 - Use EmojiOne (because Windows emoji support is a big stinky pile of poopoo)
 - Remove all references to Desmond
 - SEO (meta title, desc, favicon, etc.)
