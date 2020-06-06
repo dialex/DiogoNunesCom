@@ -1,7 +1,7 @@
 # TODO
 
 - Fill skills
-- Cleanup JS files (why dense? why scrollreveal?)
+- Cleanup JS files (why scrollreveal?)
 - Rename to index.html
 - Remove all references to Desmond
 - SEO (meta title, desc, favicon, etc.)
