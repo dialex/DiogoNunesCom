@@ -4,3 +4,4 @@
 - Remove all references to Desmond
 - SEO (meta title, desc, favicon, etc.)
 - Cleanup JS files (why scrollreveal?)
+- Merge both fonts folders
