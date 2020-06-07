@@ -60,3 +60,8 @@ h3 .fal,
 h3 .fab {
   color: #727272;
 }
+
+/* Makes portfolio text easier to read */
+.t-image-overlay:hover img {
+  opacity: 0.12;
+}
