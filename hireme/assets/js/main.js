@@ -2,7 +2,6 @@ $(document).ready(function () {
   $("html").addClass("js-enabled");
 
   setup_nivo_lightbox();
-  setup_dense();
 
   $(window).load(function () {
     $(".js-preloader").fadeOut(800, function () {
@@ -45,14 +44,6 @@ function setup_progress_bar_animation() {
   });
 
   $window.trigger("scroll");
-}
-
-function setup_dense() {
-  if ($.isFunction($.fn.dense)) {
-    $("img").dense({
-      glue: "@",
-    });
-  }
 }
 
 function setup_scrollreveal() {
