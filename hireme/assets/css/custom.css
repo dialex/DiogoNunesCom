@@ -53,11 +53,6 @@ a:active,
   color: var(--secondary-color);
 }
 
-/* Makes testimonials names fit a single line */
-.o-content h3 {
-  font-size: 1.14em;
-}
-
 /* Makes fontawesome icons display in the same color as the H3 they are in */
 h3 .fas,
 h3 .far,
