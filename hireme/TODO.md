@@ -5,4 +5,5 @@
 - Fix console errors
 - Merge both fonts folders
 - Merge both emojis folders
+- Use root /assets instead of ../assets
 - Update sitemap https://www.xml-sitemaps.com/
