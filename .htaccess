@@ -9,14 +9,16 @@ RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
 Redirect /achievs                   /achievements.html
 Redirect /books                     /livros
 Redirect /blog/author/diogo-nunes/  /#about
+Redirect /test                      https://github.com/dialex/start-testing
+Redirect /testing                   https://dialex.github.io/start-testing/#/
+Redirect /purpose                   https://leanpub.com/purpose
+Redirect /cv                        /hireme
+Redirect /resume                    /hireme
+Redirect /fotos                     https://500px.com/diogonunes/galleries
+Redirect /photos                    https://500px.com/diogonunes/galleries
 Redirect /fotos/viagens             https://500px.com/diogonunes/galleries
 Redirect /fotos/retratos            https://500px.com/diogonunes/galleries/portraits
 Redirect /fotos/eventos             https://500px.com/diogonunes/galleries/events
-Redirect /fotos                     https://500px.com/diogonunes/galleries
-Redirect /photos                    https://500px.com/diogonunes/galleries
-Redirect /purpose                   https://leanpub.com/purpose
-Redirect /testing                   https://dialex.github.io/start-testing/#/
-Redirect /test                      https://github.com/dialex/start-testing
 
 # Redirect deprecated pages
 Redirect /blog/conselhos-licen-eng-informatica-leic-ist/            https://www.estudarinformatica.info/
