@@ -1,6 +1,5 @@
 # TODO
 
-- Remove all references to Desmond
 - SEO (meta title, desc, favicon, etc.)
 - Cleanup JS files (why scrollreveal?)
 - Fix console errors
