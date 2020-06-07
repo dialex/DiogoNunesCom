@@ -93,6 +93,8 @@ function setup_nivo_lightbox() {
       $(this).attr("data-title", title);
       $(this).attr("title", "");
     });
+  }
+}
 
 function setup_nivo_lightbox()
 {
