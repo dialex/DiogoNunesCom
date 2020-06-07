@@ -2233,16 +2233,6 @@ img[height] {
   vertical-align: -15%;
 }
 
-.nivo-lightbox-theme-default .nivo-lightbox-close {
-  width: 26px;
-  height: 26px;
-}
-
-.nivo-lightbox-theme-default .nivo-lightbox-title {
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: none;
-}
-
 .u-pt-0 {
   padding-top: 0 !important;
 }
