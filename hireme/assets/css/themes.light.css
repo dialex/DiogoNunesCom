@@ -37,7 +37,7 @@ h6 {
 a,
 .t-link-container .t-link-container__item,
 .t-link-container:hover .t-link-container__item--blended {
-  color: #F8BB10;
+  color: #f8bb10;
 }
 
 /* Hover Links */
@@ -62,18 +62,18 @@ hr,
 /* Primary Color */
 .t-primary-color,
 .t-primary-color-line {
-  color: #F8BB10;
+  color: #f8bb10;
 }
 
 .t-primary-bg,
 .t-primary-color-line {
-  background: #F8BB10;
+  background: #f8bb10;
 }
 
 /* Preloader */
 .t-preloader__spinner:not(:required):before {
-  border-top-color: #F8BB10;
-  border-bottom-color: #F8BB10;
+  border-top-color: #f8bb10;
+  border-bottom-color: #f8bb10;
 }
 
 /* Brand Colors */
@@ -82,7 +82,7 @@ hr,
 }
 
 .t-title__second-word {
-  color: #F8BB10;
+  color: #f8bb10;
 }
 
 .t-sub-title {
@@ -108,7 +108,7 @@ hr,
 .t-sub-title {
   font-weight: 300;
   font-size: 1.5rem;
-  margin-left: .3rem;
+  margin-left: 0.3rem;
 }
 
 /* Icons */
@@ -140,7 +140,7 @@ hr,
 .t-social-button:hover .far,
 .t-social-button:hover .fal,
 .t-social-button:hover .fab {
-  color: #F8BB10;
+  color: #f8bb10;
 }
 
 /* Image Overlay */
@@ -167,7 +167,7 @@ button,
 a .fa,
 .t-link-container .t-link-container__item,
 .t-link-container .t-link-container__item--blended {
-  transition: all .15s linear;
+  transition: all 0.15s linear;
 }
 
 /* Sections */
