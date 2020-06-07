@@ -108,7 +108,7 @@ hr,
 .t-sub-title {
   font-weight: 300;
   font-size: 1.5rem;
-  margin-left: .3rem;
+  margin-left: 0.3rem;
 }
 
 /* Icons */
@@ -167,7 +167,7 @@ button,
 a .fa,
 .t-link-container .t-link-container__item,
 .t-link-container .t-link-container__item--blended {
-  transition: all .15s linear;
+  transition: all 0.15s linear;
 }
 
 /* Sections */
