@@ -81,7 +81,7 @@ function generateHtmlGrid(achievs) {
 }
 
 function generateHtmlPage(htmlGrid) {
-  console.info(`🏗  Reading html template`);
+  console.info(`🏗   Reading html template`);
 
   var templatePath = path.resolve(__dirname, "template.html");
   //console.debug("Located at " + templatePath);
