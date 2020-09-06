@@ -4,12 +4,12 @@ const path = require("path");
 const cheerio = require("cheerio");
 
 function readCSV(fileName) {
-  return new Promise(function(resolve, reject) {
+  return new Promise(function (resolve, reject) {
     var lines = [];
     fs.createReadStream(fileName)
       .pipe(csv())
-      .on("data", row => {
-        //console.debug("Read event for " + row["PHOTO"]);
+      .on("data", (row) => {
+        // console.debug("Read event for " + row["PHOTO"]);
         if (!row["PHOTO"].startsWith("//")) lines.push(row);
       })
       .on("end", () => {
@@ -23,13 +23,9 @@ function generateColumnHtml(event, isWide) {
   width = isWide ? 12 : 6;
   return `
   <div class="col-lg-${width} text-center">
-    <img src="/assets/img/achieves/${
-      event["PHOTO"]
-    }" class="img-responsive img-centered img-polaroid">
+    <img src="/assets/img/achieves/${event["PHOTO"]}" class="img-responsive img-centered img-polaroid">
     <br/>
-    <p><span class="label label-info">${event["DATE"]}</span> ${
-    event["DESC"]
-  }</p>
+    <p><span class="label label-info">${event["DATE"]}</span> ${event["DESC"]}</p>
   </div>
   `;
 }
@@ -85,7 +81,7 @@ function generateHtmlPage(htmlGrid) {
 
   var templatePath = path.resolve(__dirname, "template.html");
   //console.debug("Located at " + templatePath);
-  var templateHtml = fs.readFileSync(templatePath, "utf8", function(err, html) {
+  var templateHtml = fs.readFileSync(templatePath, "utf8", function (err, html) {
     if (err) throw err;
     //console.debug("File read");
   });
@@ -101,7 +97,7 @@ function writeToFile(html, filepath) {
   console.info(`⏬  Writing new achievements.html file`);
 
   var destination = path.resolve(__dirname, "achievements_new.html");
-  fs.writeFileSync(destination, html, function(err) {
+  fs.writeFileSync(destination, html, function (err) {
     if (err) throw err;
     //console.debug("File created");
   });
