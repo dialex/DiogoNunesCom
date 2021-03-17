@@ -43,15 +43,21 @@ ErrorDocument 500 /error.php
 ErrorDocument 502 /error.php
 ErrorDocument 504 /error.php
 
+# Disables Expires header, see https://webhint.io/docs/user-guide/hints/hint-no-disallowed-headers/#how-to-configure-the-server-to-pass-this-hint
+<IfModule mod_headers.c>
+  Header unset Expires
+  Header unset Host
+</IfModule>
+
 # Run PHP code on .HMTL files
 <IfModule mod_fcgid.c>
-# AddHandler fcgid-script .php5 .php4 .php .php3 .php2 .phtml .htm .html
-FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php5
-FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php4
-FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php
-FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php3
-FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php2
-FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .phtml
-FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .html
-FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .htm
+  # AddHandler fcgid-script .php5 .php4 .php .php3 .php2 .phtml .htm .html
+  FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php5
+  FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php4
+  FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php
+  FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php3
+  FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .php2
+  FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .phtml
+  FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .html
+  FCGIWrapper /usr/local/cpanel/cgi-sys/php5 .htm
 </IfModule>
