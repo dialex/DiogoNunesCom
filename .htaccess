@@ -12,12 +12,12 @@ Redirect /testing                   https://dialex.github.io/start-testing/#/
 Redirect /purpose                   https://leanpub.com/purpose
 Redirect /cv                        /hireme
 Redirect /resume                    /hireme
+Redirect /fotos/montijo             https://www.instagram.com/montijo.ao.quadrado/
 Redirect /fotos                     https://500px.com/p/diogonunes?view=galleries
 Redirect /photos                    https://500px.com/p/diogonunes?view=galleries
 Redirect /travel                    https://500px.com/p/diogonunes?view=galleries
 Redirect /portraits                 https://500px.com/p/diogonunes/galleries/portraits
 Redirect /events                    https://500px.com/p/diogonunes/galleries/events
-Redirect /fotos/montijo             https://www.instagram.com/montijo.ao.quadrado/
 
 # Redirect deprecated pages
 Redirect /blog/conselhos-licen-eng-informatica-leic-ist/            https://www.estudarinformatica.info/
