@@ -7,9 +7,10 @@ RewriteRule ^(.*)$ https://www.diogonunes.com/$1 [R,L]
 Redirect /achievs                   /achievements.html
 Redirect /books                     /livros
 Redirect /blog/author/diogo-nunes/  /#about
-Redirect /test                      https://github.com/dialex/start-testing
 Redirect /testing                   https://dialex.github.io/start-testing/#/
+Redirect /test                      https://github.com/dialex/start-testing
 Redirect /purpose                   https://leanpub.com/purpose
+Redirect /cvpdf                     /assets/downloads/misc/NunesDiogo-Resume2021-EN.pdf
 Redirect /cv                        /hireme
 Redirect /resume                    /hireme
 Redirect /fotos/montijo             https://www.instagram.com/montijo.ao.quadrado/
