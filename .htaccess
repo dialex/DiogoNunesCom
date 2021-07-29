@@ -14,6 +14,7 @@ Redirect /cvpdf                     /assets/downloads/misc/NunesDiogo-Resume2021
 Redirect /cv                        /hireme
 Redirect /resume                    /hireme
 Redirect /fotos/montijo             https://www.instagram.com/montijo.ao.quadrado/
+Redirect /insta                     https://www.instagram.com/montijo.ao.quadrado/
 Redirect /fotos                     https://500px.com/p/diogonunes?view=galleries
 Redirect /photos                    https://500px.com/p/diogonunes?view=galleries
 Redirect /travel                    https://500px.com/p/diogonunes?view=galleries
