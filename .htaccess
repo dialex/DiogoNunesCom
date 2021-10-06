@@ -7,6 +7,7 @@ RewriteRule ^(.*)$ https://www.diogonunes.com/$1 [R,L]
 Redirect /achievs                   /achievements.html
 Redirect /books                     /livros
 Redirect /blog/author/diogo-nunes/  /#about
+Redirect /medium                    https://dialex.medium.com/
 Redirect /testing                   https://dialex.github.io/start-testing/#/
 Redirect /test                      https://github.com/dialex/start-testing
 Redirect /purpose                   https://leanpub.com/purpose
