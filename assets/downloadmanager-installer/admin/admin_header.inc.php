@@ -150,12 +150,6 @@ if ( is_dir('../install') && ! defined('INSTALL') )
 		<?php
 		} // END if DASHBOARD
 		?>
-
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-			<script src="../inc/bootstrap/<?php echo $bootstrap_version; ?>/assets/js/html5shiv.min.js"></script>
-			<script src="../inc/bootstrap/<?php echo $bootstrap_version; ?>/assets/js/respond.min.js"></script>
-		<![endif]-->
 	</head>
 
 	<body>
