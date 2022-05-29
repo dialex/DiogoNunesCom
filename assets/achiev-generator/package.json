@@ -13,9 +13,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.11",
     "csv-parser": "^3.0.0",
     "mustache": "^4.2.0",
-    "prettier": "^2.2.1"
+    "prettier": "^2.6.2"
   }
 }
