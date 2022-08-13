@@ -15,6 +15,10 @@ td {
   vertical-align: middle !important;
 }
 
+.circle-frame {
+  border-radius: 50%;
+}
+
 .img-polaroid {
   padding: 4px;
   background-color: #fff;
