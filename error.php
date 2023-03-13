@@ -112,11 +112,11 @@
                         else $title = false;
 
                         if ($title == false || strlen($status) != 3) {
-                            $message = 'Unknown error code.';
+                            $message = 'Unknown error code. Status: ';
                         }
 
                         echo '<h2>' , $title , '</h2>' ,"\n",
-                             '<p>' , $message , '</p>';
+                             '<p>' , $message , $status, '</p>';
                     ?>
                     <br/><hr/><br/>
                     <p>Please return to the <a href="/">homepage</a>.</p>
