@@ -1,4 +1,8 @@
-User-Agent: *
+User-agent: *
+Crawl-delay: 5
+
 Disallow:
+Disallow: /cgi-bin/
+Allow: /ads.txt
 
 Sitemap: https://www.diogonunes.com/assets/sitemap.xml
