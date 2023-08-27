@@ -21,7 +21,7 @@ Redirect /photos                    https://500px.com/p/diogonunes?view=gallerie
 Redirect /travel                    https://500px.com/p/diogonunes?view=galleries
 Redirect /portraits                 https://500px.com/p/diogonunes/galleries/portraits
 Redirect /events                    https://500px.com/p/diogonunes/galleries/events
-Redirect /pod                       https://podcasters.spotify.com/pod/show/diogo-nunes86/
+Redirect /pod                       https://podcasters.spotify.com/pod/show/podserdiogo
 
 
 # Redirect deprecated pages
