@@ -13,7 +13,7 @@ function readCSV(fileName) {
         if (!row["PHOTO"].startsWith("//")) lines.push(row);
       })
       .on("end", () => {
-        console.info(`✅  Imported a total of ${lines.length} achievs`);
+        console.info(`✅ Imported a total of ${lines.length} achievs`);
         resolve(lines);
       });
   });
@@ -48,7 +48,7 @@ function generateHtmlGrid(achievs) {
   var htmlGrid = "";
   achievs.reverse();
 
-  console.info(`🎨  Generating html grid from achievements`);
+  console.info(`🎨 Generating html grid from achievements`);
   while (achievs.length > 0) {
     var isWide, htmlRow;
     var left = achievs.pop();
@@ -77,7 +77,7 @@ function generateHtmlGrid(achievs) {
 }
 
 function generateHtmlPage(htmlGrid) {
-  console.info(`🏗   Reading html template`);
+  console.info(`🏗  Reading html template`);
 
   var templatePath = path.resolve(__dirname, "template.html");
   //console.debug("Located at " + templatePath);
@@ -86,7 +86,7 @@ function generateHtmlPage(htmlGrid) {
     //console.debug("File read");
   });
 
-  console.info(`💉  Inserting the grid in the template`);
+  console.info(`💉 Inserting the grid in the template`);
   var $ = cheerio.load(templateHtml);
   $("#achievsGrid").replaceWith(htmlGrid);
   //console.debug($.html());
@@ -94,7 +94,7 @@ function generateHtmlPage(htmlGrid) {
 }
 
 function writeToFile(html, filepath) {
-  console.info(`⏬  Writing new achievements.html file`);
+  console.info(`⏬ Writing new achievements.html file`);
 
   var destination = path.resolve(__dirname, "achievements_new.html");
   fs.writeFileSync(destination, html, function (err) {
@@ -105,7 +105,7 @@ function writeToFile(html, filepath) {
 }
 
 async function main() {
-  console.info("🏃‍  Started!");
+  console.info(`🏃‍ Started!`);
   var achievs = await readCSV("achievs.csv");
   var htmlGrid = generateHtmlGrid(achievs);
   var htmlPage = generateHtmlPage(htmlGrid);
