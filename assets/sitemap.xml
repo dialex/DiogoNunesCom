@@ -1,1032 +1,1912 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://www.diogonunes.com</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/#about</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/achievements.html</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/1-year-anniversary/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/10-principles-agile-testers/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/10-reasons-why-gris-is-10-out-of-10/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/5-must-knows-for-digital-currencies-beginners/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/5-years-5-tricks-tester/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/a-friend-instead-of-a-pet/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/ama-e2e-tests/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/artistic-puzzle-games/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/asserting-text-using-cypress/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/automatic-blog-newsletters-using-mailchimp/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/average-at-everything-good-at-nothing/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/best-place-buy-tshirts-stickers-online/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/birthday-bot-for-slack/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/black-holes-are-the-universes-antidepressants/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/bootstrap-switch-on-rails/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/browserstack-cross-browser-testing-review/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/calling-a-web-method-in-c-without-a-service-reference/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/calling-webservice-without-wsdl-or-web-reference/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/announcement/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/life/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/life/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/life/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/life/page/5/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/life/page/6/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/photo/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/photo/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/tech/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/tech/page/14/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/tech/page/15/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/tech/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/tech/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/thoughts/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/thoughts/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/thoughts/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/thoughts/page/4/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/thoughts/page/5/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/work/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/work/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/work/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/work/page/6/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/work/page/7/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/writing/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/writing/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/category/writing/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/circle-of-life/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/conclusions-after-6-months-of-blogging/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/cookie-policy/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/create-update-and-merge-branches-svn/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/creating-your-first-play-app-versions-2-1/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/cross-browser-testing-tuttu-testing-through-ui/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/csharp-send-image-xml/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/csharp-write-read-images-sql-server/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/custom-build-configurations-visualstudio/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/custom-domain-for-rails-application-at-heroku/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/cypress-automation-template/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/cypress-pageobjects-inheritance-js/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/cypress-pageobjects-vs-appactions/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/cypress-tips-tricks/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/digital-photography-workflow/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/ditching-the-job-you-hate/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/dont-put-a-ring-on-her/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/download-counter-for-your-websites-files/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/ecosia-review/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/electric-scooters-experience/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/embed-svns-revision-into-assemblyinfos-version-number/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/emergency-exit/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/facebook-vs-google/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/finding-courage-to-start-a-fantasy-novel/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/fix-texture-problems-gmod/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/flickr-alternative-online-portfolio-benchmark/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/four-testing-quadrants/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/framework-review-cypress/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/framework-review-karate/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/framework-review-playwright/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/framework-review-robot/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/free-software-make-a-donation/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-1-show-vs-tell/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-2-exposition/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-3-narrators/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-4-proportion/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-5-how-it-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-6-dialogue/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-7-dialogue-beats/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-8-breaking-up/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/geotag-photos-using-smartphone/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/get-together-get-efficient/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/github-pages-custom-domain-namecheap/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/gitlab-pipeline-triggering-pipeline-sync/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/god-is-the-santa-claus-grown-ups/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/good-at-nothing-volunteer/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/happiness-oriented-testing-hot/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/how-i-met-cirque-du-soleil/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/how-to-build-docker-image-cypress-tests/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/how-to-config-cloudflare-hosted-email-gmail/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/how-to-use-browserstack-cross-browser-testing/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/hungry-for-innovation-cake-button/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/i-finished-college-now-what/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/i-regret-hesitating/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/im-an-optimistic-realistic/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/infrastructure-testing-inspec-azure-bash-ruby/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/install-config-gmod-guide/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/installing-play-framework-2-1-on-windows/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/internet-button-tutorial-click-button/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/internet-button-tutorial-ide-atom-github/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/internet-button-tutorial-led-light/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/internet-button-tutorial-post-slack/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/internet-button-tutorial-sound-nyan-cat/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/internet-button-unboxing-first-steps/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/introduction-to-testing/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/iot-smart-buttons-benchmark/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/is-ubuntu-getting-worse/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/jcolor-java-color-messages-terminal/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/lean-contract-testing-with-chakram/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/lessons-from-managing-a-queue/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/love-seeks-a-complement-not-an-opposite/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/making-an-open-source-testing-course/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/meet-mr-lampost/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/mentoring/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/mindfulness-a-rope-only-you-can-climb/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/minecraft-a-game-as-a-metaphor-of-life/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/monitor-psi-pagespeed-google-sheets/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/mood-tracking/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/moving-out-of-parents-house/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/nanowrimo-2014-begin/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/one-direction-encourages-violence-during-courtship/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/online-backup-google-photos-amazon-glacier/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/orchestras-play-video-games-too/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/otia-interview/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/10/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/11/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/12/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/13/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/14/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/15/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/16/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/17/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/18/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/19/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/20/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/21/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/22/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/23/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/24/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/25/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/26/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/27/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/28/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/29/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/30/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/31/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/32/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/33/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/34/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/4/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/6/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/7/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/8/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/page/9/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/particle-internet-button-overview/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/penguins-are-worsening-global-warming/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/personal-troller/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/personality-test-to-build-better-teams/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/phantomdriver-headless-chrome-driver-jenkins/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/photo-challenge-hood/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/photography-the-best-hobby/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/playwright-cheat-sheet/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/pocket-time-machine/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/portugal-na-vanguarda-da-democracia-do-seculo-xxi/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/publish-maven-central-troubleshoot/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/purpose-ebook/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/rails-vs-django-vs-play-frameworks/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/random-acts-of-kindness/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/record-what-you-hear-video-call/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/redbubble-best-place-geek-stickers-tshirts/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/review-digi-me-ubdi/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/risk-mapping-prioritisation/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/ruby-on-rails-an-overview-on-why-its-so-good/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/running-and-debugging-your-play-app/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/school-as-a-means-to-an-end/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/set-up-your-rails-env/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/software-too-good-to-be-free/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/ssds-make-you-a-minimalist/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/standing-desk-on-a-budget/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/t-shaped-people-relationships/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/agile/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/agile/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/azure/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/c-sharp/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/c-sharp/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/ci-pipelines/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/coding/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/coding/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/coding/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/coding/page/4/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/coding/page/5/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/communication/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/course/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/course/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/course/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/cypress/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/cypress/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/dark-corner/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/decisions/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/democracy/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/devops/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/digital-currencies/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/entrepreneurship/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/experience/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/experience/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/experience/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/experience/page/5/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/experience/page/6/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/free-and-open/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/free-and-open/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/games/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/games/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/gitlab/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/hardware/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/hardware/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/heuristics/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/idea/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/idea/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/internet-button/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/internet-button/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/java/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/javascript/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/karate/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/kindness/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/kindness/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/mindfulness/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/minimalism/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/minimalism/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/mobile/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/music/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/novel/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/novel/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/operating-system/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/passive-income/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/personal/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/personal/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/personal/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/personal/page/4/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/photography/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/php/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/play-framework/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/playwright/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/purpose/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/relationships/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/relationships/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/relationships/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/religion/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/review/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/review/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/review/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/review/page/5/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/review/page/6/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/robot/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/ruby-on-rails/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/ruby/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/school/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/selenium/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/self-esteem/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/self-esteem/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/shows/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/slack/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/social/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/society/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/source-control/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/story/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/story/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/sustainability/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/testing/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/testing/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/testing/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/testing/page/8/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/testing/page/9/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/tutorial/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/tutorial/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/tutorial/page/6/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/utilities/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/utilities/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/utilities/page/4/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/web-dev/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/web-dev/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tag/web-dev/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/template-life-goals-new-year-resolutions/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/test-strategy-saddest-ppiratee-mnemonic/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testers-toolbox-1-note-taking/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testers-toolbox-2-heuristics/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testers-toolbox-3-charters/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testers-toolbox-4-oracles/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testers-toolbox-5-mnemonics/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testers-toolbox-6-dev-methodologies/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testing-concepts-1/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testing-concepts-2/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testing-concepts-3/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testing-concepts-4/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testing-concepts-5/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testing-concepts-6/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testing-for-agile-teams-summary/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/testing-for-agile-teams/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tests-that-criticize-the-product/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tests-that-support-the-team/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/the-curse-of-being-an-engineer/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/think-twice-before-creating-bonus-system/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/tips-writing-novel-for-nanowrimo/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/too-nice-guys-finish-last/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/too-weird-to-live-too-unique-to-die/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/top-3-anti-theft-android-apps/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/torchlight-2-cheats-mac-epic/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/track-watched-movies-shows-online-review/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/unconsciously-competent-bias/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/upgrading-your-play-app-to-a-newer-version/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/use-birthdays-as-an-excuse-to-praise-your-friends/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/using-no-code-to-create-website-from-table/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/webclient-vs-httpclient-vs-httpwebrequest/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/were-friends-right/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/whats-the-right-time-to-create-a-startup/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/when-others-have-the-same-idea-you-do/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/when-people-become-cpus/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/which-are-your-means-and-your-endings/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/why-am-i-good-at-nothing/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/why-i-started-blogging-again/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/winning-a-game-called-life/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/working-just-enough/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/you-dont-own-things-things-own-you/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/your-attention-please/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/blog/your-but-is-hurting-me/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/donate.html</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/hireme/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/livros/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/work/googleearthtypewriter/demo/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/work/jcdp/</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/assets/downloads/misc/DiogoNunes-65887-DissertacaoTese.pdf</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/assets/downloads/misc/DiogoNunes-65887-ResumoAlargadoTese.pdf</loc>
-    </url>
-    <url>
-        <loc>https://www.diogonunes.com/assets/downloads/misc/NunesDiogo-Resume2021-EN.pdf</loc>
-    </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.diogonunes.com/</loc>
+  <lastmod>2024-09-10T08:41:55+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/</loc>
+  <lastmod>2025-04-22T05:52:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/hireme/</loc>
+  <lastmod>2024-09-23T17:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/achievements.html</loc>
+  <lastmod>2024-12-31T12:35:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/work/googleearthtypewriter/demo/</loc>
+  <lastmod>2021-03-17T14:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/assets/downloads/misc/DiogoNunes-65887-DissertacaoTese.pdf</loc>
+  <lastmod>2024-12-31T12:21:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/assets/downloads/misc/DiogoNunes-65887-ResumoAlargadoTese.pdf</loc>
+  <lastmod>2024-12-31T12:21:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/hungry-for-innovation-cake-button/</loc>
+  <lastmod>2025-04-21T14:00:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/internet-button/</loc>
+  <lastmod>2025-04-22T12:16:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/making-an-open-source-testing-course/</loc>
+  <lastmod>2025-04-22T13:30:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/livros/</loc>
+  <lastmod>2022-08-22T10:57:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/testing/</loc>
+  <lastmod>2025-04-22T13:27:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/</loc>
+  <lastmod>2025-04-22T05:13:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/work/</loc>
+  <lastmod>2025-04-21T22:10:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/life/</loc>
+  <lastmod>2025-04-22T13:27:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/thoughts/</loc>
+  <lastmod>2025-04-21T19:01:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/photo/</loc>
+  <lastmod>2025-04-22T13:28:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/writing/</loc>
+  <lastmod>2025-04-22T13:28:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/magic-puzzle/</loc>
+  <lastmod>2025-04-21T15:34:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/games/</loc>
+  <lastmod>2025-04-22T13:28:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/review/</loc>
+  <lastmod>2025-04-22T13:28:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/rimworld-story/</loc>
+  <lastmod>2025-04-22T01:24:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/story/</loc>
+  <lastmod>2025-04-22T13:28:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/types-2-test-categories-approaches-types/</loc>
+  <lastmod>2025-04-22T13:28:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/course/</loc>
+  <lastmod>2025-04-22T13:28:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/counter-offers/</loc>
+  <lastmod>2025-04-22T06:09:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/decisions/</loc>
+  <lastmod>2025-04-22T13:28:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/experience/</loc>
+  <lastmod>2025-04-22T13:28:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/photography-course/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/free-and-open/</loc>
+  <lastmod>2025-04-22T13:28:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/photography/</loc>
+  <lastmod>2025-04-22T13:28:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/2/</loc>
+  <lastmod>2025-04-22T13:27:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/36/</loc>
+  <lastmod>2025-04-22T13:28:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/webclient-vs-httpclient-vs-httpwebrequest/</loc>
+  <lastmod>2025-04-21T21:15:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/framework-review-maestro/</loc>
+  <lastmod>2025-04-22T08:44:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/create-update-and-merge-branches-svn/</loc>
+  <lastmod>2025-04-21T15:36:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/playwright-cheat-sheet/</loc>
+  <lastmod>2025-04-22T12:38:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/install-config-gmod-guide/</loc>
+  <lastmod>2025-04-22T10:31:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/agile/</loc>
+  <lastmod>2025-04-22T13:28:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/azure/</loc>
+  <lastmod>2025-04-22T13:28:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/c-sharp/</loc>
+  <lastmod>2025-04-22T13:28:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/ci-pipelines/</loc>
+  <lastmod>2025-04-22T13:28:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/coding/</loc>
+  <lastmod>2025-04-22T13:28:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/communication/</loc>
+  <lastmod>2025-04-22T13:28:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/cypress/</loc>
+  <lastmod>2025-04-21T19:25:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/dark-corner/</loc>
+  <lastmod>2025-04-22T13:28:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/devops/</loc>
+  <lastmod>2025-04-22T13:28:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/entrepreneurship/</loc>
+  <lastmod>2025-04-22T13:29:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/hardware/</loc>
+  <lastmod>2025-04-22T13:29:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/idea/</loc>
+  <lastmod>2025-04-22T13:29:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/java/</loc>
+  <lastmod>2025-04-22T13:29:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/karate/</loc>
+  <lastmod>2025-04-22T13:29:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/kindness/</loc>
+  <lastmod>2025-04-22T13:29:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/maestro/</loc>
+  <lastmod>2025-04-21T14:00:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/mindfulness/</loc>
+  <lastmod>2025-04-22T13:29:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/minimalism/</loc>
+  <lastmod>2025-04-22T13:29:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/novel/</loc>
+  <lastmod>2025-04-22T13:29:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/personal/</loc>
+  <lastmod>2025-04-22T13:29:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/play-framework/</loc>
+  <lastmod>2025-04-22T13:29:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/playwright/</loc>
+  <lastmod>2025-04-22T13:29:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/purpose/</loc>
+  <lastmod>2025-04-22T13:29:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/ruby-on-rails/</loc>
+  <lastmod>2025-04-22T13:29:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/relationships/</loc>
+  <lastmod>2025-04-22T13:29:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/robot/</loc>
+  <lastmod>2025-04-22T13:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/ruby/</loc>
+  <lastmod>2025-04-22T13:29:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/school/</loc>
+  <lastmod>2025-04-22T13:29:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/self-esteem/</loc>
+  <lastmod>2025-04-22T13:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/shows/</loc>
+  <lastmod>2025-04-22T13:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/social/</loc>
+  <lastmod>2025-04-22T13:29:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/sustainability/</loc>
+  <lastmod>2025-04-22T13:29:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/tutorial/</loc>
+  <lastmod>2025-04-22T13:29:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/utilities/</loc>
+  <lastmod>2025-04-22T13:29:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/web-dev/</loc>
+  <lastmod>2025-04-22T13:29:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/cookie-policy/</loc>
+  <lastmod>2025-04-22T13:29:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/10-reasons-why-gris-is-10-out-of-10/</loc>
+  <lastmod>2025-04-22T08:36:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/work/jcdp/</loc>
+  <lastmod>2021-03-17T13:59:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/iot-smart-buttons-benchmark/</loc>
+  <lastmod>2025-04-22T13:29:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/internet-button-tutorial-post-slack/</loc>
+  <lastmod>2025-04-22T05:33:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/internet-button-tutorial-sound-nyan-cat/</loc>
+  <lastmod>2025-04-22T13:29:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/internet-button-tutorial-click-button/</loc>
+  <lastmod>2025-04-22T13:30:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/internet-button-tutorial-led-light/</loc>
+  <lastmod>2025-04-22T13:30:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/internet-button/page/2/</loc>
+  <lastmod>2025-04-22T13:29:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/types-1-the-test-pyramid/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/mobile-dev/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/lean-contract-testing-with-chakram/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/happiness-oriented-testing-hot/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/testing/page/2/</loc>
+  <lastmod>2025-04-21T22:10:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/testing/page/9/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/mood-tracking/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/artistic-puzzle-games/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/cypress-tips-tricks/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/16/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testers-toolbox-6-dev-methodologies/</loc>
+  <lastmod>2025-04-22T01:51:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/work/page/2/</loc>
+  <lastmod>2025-04-21T22:10:43+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/work/page/7/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/mentoring/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/template-life-goals-new-year-resolutions/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/redbubble-best-place-geek-stickers-tshirts/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/mindfulness-a-rope-only-you-can-climb/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/life/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/life/page/6/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/greed-stupidity-and-toothbrushes/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/your-but-is-hurting-me/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/t-shaped-people-relationships/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/unconsciously-competent-bias/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/thoughts/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/thoughts/page/5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/photo-challenge-hood/</loc>
+  <lastmod>2025-04-22T01:06:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/photography-the-best-hobby/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/online-backup-google-photos-amazon-glacier/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/digital-photography-workflow/</loc>
+  <lastmod>2025-04-21T13:48:43+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/photo/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-8-breaking-up/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-7-dialogue-beats/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-6-dialogue/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-5-how-it-sounds/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/writing/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/writing/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/torchlight-2-cheats-mac-epic/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/games/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/ecosia-review/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/review/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/review/page/6/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/meet-mr-lampost/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/penguins-are-worsening-global-warming/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/story/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testers-toolbox-5-mnemonics/</loc>
+  <lastmod>2025-04-21T15:07:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/course/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/course/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/working-just-enough/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/which-are-your-means-and-your-endings/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/whats-the-right-time-to-create-a-startup/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/decisions/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/experience/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/experience/page/6/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/cypress-automation-template/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/birthday-bot-for-slack/</loc>
+  <lastmod>2025-04-22T02:18:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/slack/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/personal-troller/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/free-and-open/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/i-finished-college-now-what/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/announcement/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/why-i-started-blogging-again/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/finding-courage-to-start-a-fantasy-novel/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/when-people-become-cpus/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/35/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/calling-a-web-method-in-c-without-a-service-reference/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/calling-webservice-without-wsdl-or-web-reference/</loc>
+  <lastmod>2025-04-22T07:14:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/source-control/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/risk-mapping-prioritisation/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tests-that-criticize-the-product/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tests-that-support-the-team/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/four-testing-quadrants/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/agile/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/infrastructure-testing-inspec-azure-bash-ruby/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/csharp-send-image-xml/</loc>
+  <lastmod>2025-04-21T21:02:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/csharp-write-read-images-sql-server/</loc>
+  <lastmod>2025-04-22T07:37:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/custom-build-configurations-visualstudio/</loc>
+  <lastmod>2025-04-22T04:16:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/c-sharp/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/gitlab-pipeline-triggering-pipeline-sync/</loc>
+  <lastmod>2025-04-22T04:01:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/gitlab/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/how-to-build-docker-image-cypress-tests/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/cypress-pageobjects-vs-appactions/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/coding/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/coding/page/5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/framework-review-cypress/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/asserting-text-using-cypress/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/cypress-pageobjects-inheritance-js/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/cypress/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/emergency-exit/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/minecraft-a-game-as-a-metaphor-of-life/</loc>
+  <lastmod>2025-04-22T03:41:51+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/when-others-have-the-same-idea-you-do/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/hardware/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/god-is-the-santa-claus-grown-ups/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/religion/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/get-together-get-efficient/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/idea/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/publish-maven-central-troubleshoot/</loc>
+  <lastmod>2025-04-21T19:08:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/how-to-use-browserstack-cross-browser-testing/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/selenium/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/framework-review-karate/</loc>
+  <lastmod>2025-04-21T17:06:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/good-at-nothing-volunteer/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/use-birthdays-as-an-excuse-to-praise-your-friends/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/you-dont-own-things-things-own-you/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/kindness/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/standing-desk-on-a-budget/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/electric-scooters-experience/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/minimalism/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/minimalism/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-4-proportion/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/novel/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/5-years-5-tricks-tester/</loc>
+  <lastmod>2025-04-22T08:36:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/pocket-time-machine/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/circle-of-life/</loc>
+  <lastmod>2025-04-22T12:09:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/personal/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/personal/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/rails-vs-django-vs-play-frameworks/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/upgrading-your-play-app-to-a-newer-version/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/running-and-debugging-your-play-app/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/creating-your-first-play-app-versions-2-1/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/installing-play-framework-2-1-on-windows/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/framework-review-playwright/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText</loc>
+  <lastmod>2024-09-10T08:41:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/purpose-ebook/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/winning-a-game-called-life/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/custom-domain-for-rails-application-at-heroku/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/bootstrap-switch-on-rails/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/set-up-your-rails-env/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/ruby-on-rails-an-overview-on-why-its-so-good/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/your-attention-please/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/the-curse-of-being-an-engineer/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/personality-test-to-build-better-teams/</loc>
+  <lastmod>2025-04-21T22:10:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/relationships/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/relationships/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/framework-review-robot/</loc>
+  <lastmod>2025-04-22T12:07:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/school-as-a-means-to-an-end/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/why-am-i-good-at-nothing/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/self-esteem/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/track-watched-movies-shows-online-review/</loc>
+  <lastmod>2025-04-22T03:11:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/automatic-blog-newsletters-using-mailchimp/</loc>
+  <lastmod>2025-04-21T17:30:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/facebook-vs-google/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/monitor-psi-pagespeed-google-sheets/</loc>
+  <lastmod>2025-04-21T13:59:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/javascript/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/using-no-code-to-create-website-from-table/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/tutorial/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/tutorial/page/6/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/utilities/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/utilities/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/how-to-config-cloudflare-hosted-email-gmail/</loc>
+  <lastmod>2025-04-22T12:06:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/github-pages-custom-domain-namecheap/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/web-dev/page/2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/web-dev/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/particle-internet-button-overview/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/internet-button-tutorial-ide-atom-github/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/internet-button-unboxing-first-steps/</loc>
+  <lastmod>2025-04-21T19:08:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testers-toolbox-4-oracles/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testers-toolbox-3-charters/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/testing/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testing-for-agile-teams/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/browserstack-cross-browser-testing-review/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testing-for-agile-teams-summary/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/cross-browser-testing-tuttu-testing-through-ui/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/heuristics/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/testing/page/8/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/ama-e2e-tests/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/free-software-make-a-donation/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/jcolor-java-color-messages-terminal/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/15/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testers-toolbox-2-heuristics/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testers-toolbox-1-note-taking/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/work/page/3/</loc>
+  <lastmod>2025-04-21T22:10:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/think-twice-before-creating-bonus-system/</loc>
+  <lastmod>2025-04-21T19:57:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/ditching-the-job-you-hate/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/work/page/6/</loc>
+  <lastmod>2025-04-21T22:10:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/otia-interview/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/life/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/random-acts-of-kindness/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/life/page/5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/love-seeks-a-complement-not-an-opposite/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/lessons-from-managing-a-queue/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/society/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/thoughts/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/black-holes-are-the-universes-antidepressants/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/im-an-optimistic-realistic/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/were-friends-right/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/thoughts/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/flickr-alternative-online-portfolio-benchmark/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/geotag-photos-using-smartphone/</loc>
+  <lastmod>2025-04-21T15:07:53+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tips-writing-novel-for-nanowrimo/</loc>
+  <lastmod>2025-04-22T04:13:47+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-3-narrators/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-2-exposition/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/from-dreaming-to-publishing-1-show-vs-tell/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/conclusions-after-6-months-of-blogging/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/orchestras-play-video-games-too/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/music/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/fix-texture-problems-gmod/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/review/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/review/page/5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/a-friend-instead-of-a-pet/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/test-strategy-saddest-ppiratee-mnemonic/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testing-concepts-6/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testing-concepts-5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testing-concepts-4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testing-concepts-3/</loc>
+  <lastmod>2025-04-21T22:24:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testing-concepts-2/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/testing-concepts-1/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/introduction-to-testing/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/experience/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/how-i-met-cirque-du-soleil/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/experience/page/5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/software-too-good-to-be-free/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/1-year-anniversary/</loc>
+  <lastmod>2025-04-22T08:36:35+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/nanowrimo-2014-begin/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/34/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/10-principles-agile-testers/</loc>
+  <lastmod>2025-04-21T19:06:00+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/embed-svns-revision-into-assemblyinfos-version-number/</loc>
+  <lastmod>2025-04-21T17:12:24+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/coding/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/coding/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/average-at-everything-good-at-nothing/</loc>
+  <lastmod>2025-04-22T09:43:33+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/dont-put-a-ring-on-her/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/ssds-make-you-a-minimalist/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/i-regret-hesitating/</loc>
+  <lastmod>2025-04-21T14:55:55+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/moving-out-of-parents-house/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/too-weird-to-live-too-unique-to-die/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/personal/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/one-direction-encourages-violence-during-courtship/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/too-nice-guys-finish-last/</loc>
+  <lastmod>2025-04-21T20:21:50+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/phantomdriver-headless-chrome-driver-jenkins/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/tutorial/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/download-counter-for-your-websites-files/</loc>
+  <lastmod>2025-04-22T11:00:46+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/php/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/tutorial/page/5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/utilities/page/3/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/testing/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/testing/page/7/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/donate.html</loc>
+  <lastmod>2022-04-30T11:36:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/14/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/work/page/4/</loc>
+  <lastmod>2025-04-21T22:10:46+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/work/page/5/</loc>
+  <lastmod>2025-04-21T22:10:48+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/best-place-buy-tshirts-stickers-online/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/life/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/review-digi-me-ubdi/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/passive-income/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/review/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/top-3-anti-theft-android-apps/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/mobile/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/experience/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/33/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/tutorial/page/4/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/record-what-you-hear-video-call/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/testing/page/5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/testing/page/6/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/5/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/is-ubuntu-getting-worse/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/operating-system/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/13/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/portugal-na-vanguarda-da-democracia-do-seculo-xxi/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/democracy/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/6/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/32/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/6/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/12/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/7/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/31/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/5-must-knows-for-digital-currencies-beginners/</loc>
+  <lastmod>2025-04-22T08:36:34+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/tag/digital-currencies/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/7/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/11/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/8/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/30/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/8/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/10/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/9/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/29/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/category/tech/page/9/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/10/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/28/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/11/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/27/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/12/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/26/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/13/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/25/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/14/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/24/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/15/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/23/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/16/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/22/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/17/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/21/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/18/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/20/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://www.diogonunes.com/blog/page/19/</loc>
+  <lastmod>2025-04-22T13:47:26+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+
+
 </urlset>
