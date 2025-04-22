@@ -93,7 +93,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <?php
-
                         $status = $_SERVER['REDIRECT_STATUS'];
                         $codes = array(
                                 403 => array('403 Forbidden', 'The server has refused to fulfill your request.'),
