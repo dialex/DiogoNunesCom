@@ -22,6 +22,7 @@ Redirect /travel                    https://500px.com/p/diogonunes?view=gallerie
 Redirect /portraits                 https://500px.com/p/diogonunes/galleries/portraits
 Redirect /events                    https://500px.com/p/diogonunes/galleries/events
 Redirect /pod                       https://linktr.ee/podser.podcast
+Redirect /ateneu                    https://sites.google.com/view/ateneumontijo
 
 
 # Redirect deprecated pages
