@@ -22,15 +22,14 @@ Redirect /travel                    https://500px.com/p/diogonunes?view=gallerie
 Redirect /portraits                 https://500px.com/p/diogonunes/galleries/portraits
 Redirect /events                    https://500px.com/p/diogonunes/galleries/events
 Redirect /pod                       https://linktr.ee/podser.podcast
-Redirect /estudar                   https://dialex.github.io/EstudarInformaticaInfo
 Redirect /ateneu                    https://sites.google.com/view/ateneumontijo
 
 
 # Redirect deprecated pages
-Redirect /blog/conselhos-licen-eng-informatica-leic-ist/            https://www.estudarinformatica.info/
-Redirect /blog/o-que-e-preciso-para-ser-um-estudante-excelente/     https://www.estudarinformatica.info/
-Redirect /escrita/artigos/conselhos-cadeiras-leic.html              https://www.estudarinformatica.info/
-Redirect /escrita/artigos/estudante-excelente.html                  https://www.estudarinformatica.info/
+# Redirect /blog/conselhos-licen-eng-informatica-leic-ist/            https://www.estudarinformatica.info/
+# Redirect /blog/o-que-e-preciso-para-ser-um-estudante-excelente/     https://www.estudarinformatica.info/
+# Redirect /escrita/artigos/conselhos-cadeiras-leic.html              https://www.estudarinformatica.info/
+# Redirect /escrita/artigos/estudante-excelente.html                  https://www.estudarinformatica.info/
 Redirect /it/work/jcdp  /#work
 Redirect /jcdp          /#work
 Redirect /foto          /#hobbies
