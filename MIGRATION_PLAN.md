@@ -30,18 +30,11 @@ Working branch: `migration/gh-pages`. Keep `main` untouched until cut-over.
 
 ---
 
-## Step 3 — Replace `privatedaddy.php` email obfuscation
+## Step 3 — Replace `privatedaddy.php` email obfuscation — ✅ done
 
-Used in `index.html:107` as a PHP include to hide email from scrapers.
+Removed the `index.html:107` PHP include. Per decision, the footer Contact email was removed entirely (replaced with "Reach out via my social profiles."); the `#contact` anchor was kept since the nav links to it. Deleted `assets/php/privatedaddy.php`.
 
-Options (pick one):
-- **A. JS obfuscation** — small inline script that builds `mailto:` at runtime from split strings. Equivalent protection.
-- **B. Plain `<a href="mailto:...">`** — simpler. Modern scrapers defeat obfuscation anyway.
-- **C. Contact form via Formspree/Web3Forms** — overkill for this site.
-
-Recommendation: **B** (plain mailto) or **A** if you want light obfuscation.
-
-Delete `assets/php/privatedaddy.php` after.
+> **TODO — review all email mentions site-wide (anti-spam).** Only `index.html` footer was handled. The address `email@diogonunes.com` still appears in plain `mailto:` in: `index.html` head (`<meta itemprop="email">`), `achievements.html`, `hireme/index.html` (×2), and `assets/achiev-generator/template.html`. None of these were ever obfuscated. Decide whether to remove/obfuscate them to avoid scrapers.
 
 ---
 
