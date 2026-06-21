@@ -24,13 +24,9 @@ Working branch: `migration/gh-pages`. Keep `main` untouched until cut-over.
 
 ---
 
-## Step 2 — Rename `error.php` → `404.html`
+## Step 2 — Rename `error.php` → `404.html` — ✅ done
 
-Simplest change. GH Pages auto-serves `/404.html` for any unknown path.
-
-- `error.php` already contains static HTML (verified — no `<?php` tags in the head).
-- Just `git mv error.php 404.html`.
-- Test by visiting a fake URL on staging.
+`git mv error.php 404.html`; the dynamic PHP error-code block was replaced with a hardcoded "404 Not Found" message (GH Pages only ever serves 404.html for not-found paths).
 
 ---
 
