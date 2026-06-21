@@ -13,19 +13,6 @@ const blogSchema = z.object({
     }).optional(),
 });
 
-const storeSchema = z.object({
-    title: z.string(),
-    description: z.string(),
-    custom_link_label: z.string(),
-    custom_link: z.string().optional(),
-    updatedDate: z.coerce.date(),
-    pricing: z.string().optional(),
-    oldPricing: z.string().optional(),
-    badge: z.string().optional(),
-    checkoutUrl: z.string().optional(),
-    heroImage: z.string().optional(),
-});
-
 const projectSchema = z.object({
     title: z.string(),
     description: z.string(),
@@ -41,16 +28,11 @@ const projectSchema = z.object({
 });
 
 export type BlogSchema = z.infer<typeof blogSchema>;
-export type StoreSchema = z.infer<typeof storeSchema>;
 export type ProjectSchema = z.infer<typeof projectSchema>;
 
 const blogCollection = defineCollection({
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/blog" }),
     schema: blogSchema,
-});
-const storeCollection = defineCollection({
-    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/store" }),
-    schema: storeSchema,
 });
 const projectCollection = defineCollection({
     loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/projects" }),
@@ -59,6 +41,5 @@ const projectCollection = defineCollection({
 
 export const collections = {
     'blog': blogCollection,
-    'store': storeCollection,
     'projects': projectCollection
 }
