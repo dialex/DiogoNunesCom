@@ -47,7 +47,7 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 - [ ] **Homepage + avatar:** put real personal info (name, intro, …) from old
       `index.html` on the home page; replace the top-left sidebar photo with the
       real avatar (`assets/img/avatar.jpg`). Replace Astrofy placeholder copy.
-- [x] ✅ **Trim the sidebar menu** (+ delete orphaned Services/Store pages & collection).
+- [x] ✅ **Trim the sidebar menu.**
 - [ ] **Projects + hobbies → `projects` collection.** Port each modal from old
       `index.html` into `site/src/content/projects/` (schema: image, description,
       date, skills[], links[]) → detail page at `/projects/<slug>`. Old **thumbnail**
@@ -89,10 +89,7 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
       `SITE_DESCRIPTION` still say "Astrofy …"), OG images, etc.
 
 ### 4. Redirects
-- [x] ✅ **Migrate legacy redirects to Astro `redirects` config.** (Some targets point
-      at not-yet-built pages — `/achievs`→`/achievements`, `/books`→`/livros` — and
-      two `TODO` markers: `/cvpdf` and `/work/googleearthtypewriter`. Re-check `base`
-      at cut-over.)
+- [x] ✅ **Migrate legacy redirects to Astro `redirects` config.**
 
 ### 5. Infrastructure / build
 - [x] **Dependency upgrade — DONE.** Astro 5 (`d119ead`), then Astro 6 + Tailwind 4
