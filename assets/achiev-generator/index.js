@@ -23,7 +23,7 @@ function generateColumnHtml(event, isWide) {
   width = isWide ? 12 : 6;
   return `
   <div class="col-lg-${width} text-center">
-    <img src="/assets/img/achieves/${event["PHOTO"]}" class="img-responsive img-centered img-polaroid">
+    <img src="/DiogoNunesCom/assets/img/achieves/${event["PHOTO"]}" class="img-responsive img-centered img-polaroid">
     <br/>
     <p><span class="label label-info">${event["DATE"]}</span> ${event["DESC"]}</p>
   </div>
