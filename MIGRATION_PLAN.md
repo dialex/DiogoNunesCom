@@ -57,22 +57,25 @@ Generated 23 static redirect stubs (9 internal + 14 external) as `foo/index.html
 
 ---
 
-## Step 6 — Audit remaining server-side artifacts
+## Step 6 — Audit remaining server-side artifacts — ✅ done
 
-Sweep for anything else that won't work statically:
+Repo is now 100% PHP-free (`git grep '<?php'` and `git ls-files '*.php'` both empty). Actions taken:
 
-- `assets/php/` → delete after Step 3.
-- `assets/downloadmanager/` → delete after Step 4.
-- `assets/downloadmanager-installer/` → looks like vendor docs, probably safe to delete.
-- `assets/downloadmanager-backup/` → likely DB backup, delete.
-- Any `.php` in subdirs.
-- `feed/index.html` — verify it's static, not a PHP-generated RSS.
-- `robots.txt`, `ads.txt`, `app-ads.txt` — keep, they're plain text.
-- `Sitemap` URL in robots.txt still points to `diogonunes.com` — fine, will be correct after DNS flip.
+- `assets/php/` — gone (emptied in Step 3).
+- `assets/downloadmanager-installer/` — was the **full CCount PHP app** (admin/, install/, index.php). Deleted (won't run; publishing admin/install scripts is poor hygiene).
+- `assets/downloadmanager-backup/` — CCount data backups. Deleted.
+- `feed/index.html` — verified static (meta-refresh to `/blog/feed/`), kept. See blog warning below.
+- `404.html` — fixed mixed content: 2 Google Fonts links + 1 cdnjs script were `http://`, upgraded to `https://` (matches `index.html`).
+- `robots.txt` / `ads.txt` / `app-ads.txt` — kept (plain text). Sitemap URL fine after DNS flip; `assets/sitemap.xml` present.
+- `assets/achiev-generator/` (18M internal Node tool) — excluded from the published site via a new minimal `_config.yml` (`exclude:`), which also drops `MIGRATION_PLAN.md` and `README.md`. GH Pages' default Jekyll copies the hand-written HTML verbatim (no front matter), so pages render unchanged.
+
+Also upgraded the 3 remaining `http://` anchor links in `hireme/index.html` (lage2/tedxist/equalexperts) to `https://`. No `http://` resource or anchor links remain anywhere in the tracked HTML.
 
 ---
 
 ## Step 7 — DNS cut-over
+
+> ⚠️ **BLOCKER — the WordPress blog.** `/blog/` is a WordPress install on the old hosting, not in this repo. It's linked in the nav of every page and `feed/` points to `/blog/feed/`. The moment the apex/`www` DNS points at GH Pages, `diogonunes.com/blog/` will resolve to GH Pages and **404** — the blog goes dark, independent of (and before) the FTP cancellation in Step 8. **Resolve before cut-over:** move the blog to a subdomain (e.g. `blog.diogonunes.com`) and update the site links, or keep a host/proxy serving `/blog/`. Do not run Step 7 until this is decided.
 
 Once staging is fully working:
 
