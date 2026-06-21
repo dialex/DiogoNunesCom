@@ -22,5 +22,8 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.1",
     "@tailwindcss/typography": "^0.5.20"
+  },
+  "overrides": {
+    "vite": "^7.3.2"
   }
 }
