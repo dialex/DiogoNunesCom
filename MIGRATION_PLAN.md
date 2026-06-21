@@ -38,19 +38,14 @@ Removed the `index.html:107` PHP include. Per decision, the footer Contact email
 
 ---
 
-## Step 4 — Remove `downloadmanager` PHP click counter
+## Step 4 — Remove `downloadmanager` PHP click counter — ✅ done
 
-Used in `index.html` and `livros/index.html`:
-- `<script src="/assets/downloadmanager/display.php">` — renders download stats.
-- `<a href="/assets/downloadmanager/click.php?id=N">` — counts clicks then redirects.
+Removed both `display.php` script tags (`index.html`, `livros/index.html`). The 3 `click.php?id=N` download links in `livros/index.html` were mapped via the CCount backup to their Leanpub URLs and replaced with direct external links (`target="_blank" rel="noopener"`):
+- id=1 → `leanpub.com/umlivrodepoesia`
+- id=4 → `leanpub.com/ParaLaDoPortao`
+- id=13 → `leanpub.com/purpose`
 
-Options:
-- **A. Drop counter entirely.** Replace `click.php?id=N` links with direct file URLs (the actual PDF/zip path). Remove `display.php` script tag.
-- **B. External analytics.** Add Plausible/Umami/GA; track downloads as events.
-
-Recommendation: **A** unless the counter numbers matter to you.
-
-Need to identify what file each `id=N` maps to (look at `assets/downloadmanager` config or old backup).
+The dynamic `(N já leram / people already did)` counts were **frozen** as static text using the owner's last-known totals, rounded: Para lá do portão **4500+**, Purpose **2300+**, Poesia **4600+**, Portugal **~3000**.
 
 ---
 
