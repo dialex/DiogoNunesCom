@@ -105,10 +105,13 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
       build-time redirect HTML (GH Pages = no server-side redirects) and respect `base`.
 
 ### 5. Infrastructure / build
-- [ ] **Dependency upgrade Step 2 (deferred):** Tailwind 4 + DaisyUI 5 + Astro 6 as
-      one isolated step (the `@astrojs/tailwind` integration is removed in Astro 6,
-      replaced by `@tailwindcss/vite`; Tailwind 4 CSS-based config drops
-      `tailwind.config.cjs`). _Astro 5 upgrade already done (commit `d119ead`)._
+- [x] **Dependency upgrade — DONE.** Astro 5 (`d119ead`), then Astro 6 + Tailwind 4
+      + DaisyUI 5 (`071cee8`). Content collections migrated to the loader API
+      (`src/content.config.ts`, `glob()`, `entry.id`, `render(entry)`);
+      `ViewTransitions` → `ClientRouter`. Tailwind 4 wired via **PostCSS**
+      (`postcss.config.mjs`), not `@tailwindcss/vite` (incompatible with Astro 6's
+      rolldown-vite); CSS-based config in `global.css`; `tailwind.config.cjs` removed.
+      Builds clean, routes 200, daisyUI `lofi` theme renders.
 - [ ] **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
 - [ ] **Astro `base`** set for the deploy target: `/DiogoNunesCom/` for the subpath,
       or `/` if DNS is flipped to the custom domain at cut-over.
@@ -136,8 +139,15 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 
 ## Reference notes / gotchas
 - ⚠️ **MoonPay npm proxy (koi.security)** blocks package `is-unsafe`, pulled in by
-  `@astrojs/rss` ≥ 4.0.12 → **pin `@astrojs/rss@4.0.11`**. Astro 5/6 cores, mdx@4,
-  sitemap@3.7 are clean through the gate.
+  `@astrojs/rss` ≥ 4.0.12. Astro 5/6 cores, mdx, sitemap, Tailwind 4, DaisyUI 5,
+  `@tailwindcss/postcss` are all clean through the gate — only newest RSS is blocked.
+- ⚠️ **RSS: `@astrojs/rss` dropped entirely** on Astro 6. ≥ 4.0.12 is gate-blocked;
+  ≤ 4.0.11 uses a removed Zod 3 API (`z.function().returns`) that Astro 6 (Zod 4)
+  rejects. Replaced with a hand-rolled XML endpoint in `src/pages/rss.xml.js` — no
+  dependency. (The 4.0.11 pin only ever mattered on Astro 5.)
+- ⚠️ **`@tailwindcss/vite` is incompatible with Astro 6's rolldown-vite**
+  (`Missing field tsconfigPaths`). Use the **PostCSS** plugin (`@tailwindcss/postcss`
+  + `postcss.config.mjs`) instead. Revisit if/when the Vite plugin gains rolldown support.
 - **GH Pages limits:** 1GB repo / 100GB-month bandwidth; repo ~175M — fine. No
   `.htaccess`, SSI, PHP, or arbitrary headers. (For edge logic later: Cloudflare
   Pages / Netlify free tiers.)
@@ -145,4 +155,5 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
   email address — acceptable for a résumé (HTML was scrubbed).
 - Done already (context): PHP removed; `.htaccess` redirects → static stubs;
   server-side cleanup; all emails stripped from HTML; paths prefixed `/DiogoNunesCom/`;
-  Astro 5 upgrade complete; Astrofy scaffolded in `site/`, builds clean.
+  Astrofy scaffolded in `site/`; **dependency upgrade fully done — Astro 6 + Tailwind 4
+  + DaisyUI 5**; projects content-collection + detail pages built (JColor seeded).
