@@ -145,15 +145,28 @@ while Astro **5.x** is current. We already hit one symptom: `@astrojs/sitemap`
 floated to 3.7.3 (needs the Astro-5 `astro:routes:resolved` hook) and crashed on
 Astro 4.16 — pinned back to 3.2.1 as a stopgap.
 
-- [ ] Audit all deps: `astro`, `@astrojs/{mdx,rss,sitemap,tailwind}`, `daisyui`,
-      `tailwindcss`, `sharp`, `dayjs`, `@tailwindcss/typography`.
-- [ ] Decide: stay on Astro 4 (low risk, but EOL-ing) **or** upgrade to Astro 5.
-      Astro 5 changed content collections (`post.slug` → `post.id`, new
-      `loader` API) — Astrofy's components use the old API, so a 5 upgrade means
-      touching template code. Do this deliberately, not by accident.
-- [ ] Once on a target Astro major, un-pin sitemap and move all integrations to
-      matching versions. Re-run `npm run build` to confirm green.
-- [ ] `npm audit` — scaffold reported vulnerabilities; review after the upgrade.
+**Staged approach chosen:** Astro framework first (keep styling), Tailwind/DaisyUI
+as a separate later step. Reason: `@astrojs/tailwind` peer-deps cap at Astro 5, so
+**Astro 6 forces the Tailwind 4 + DaisyUI 5 migration** (the integration is removed
+in 6, replaced by `@tailwindcss/vite`). Decoupling them keeps each step bisectable.
+
+- [x] **Astro 5 upgrade — done** (`d119ead`). astro 4.16→5.18, mdx 2→4, sitemap
+      un-pinned to 3.7. **No code changes needed** — Astro 5's legacy
+      content-collections compat covers Astrofy's `entry.slug`/`entry.render()`.
+      Builds clean (17 pages), routes 200, no deprecation warnings.
+- [ ] **Step 2 — Tailwind 4 + DaisyUI 5 + Astro 6** (deferred). This is where the
+      template code actually changes: Tailwind 4 CSS-based config (drop
+      `tailwind.config.cjs`), `@astrojs/tailwind` → `@tailwindcss/vite`, DaisyUI 5
+      plugin-in-CSS syntax + token changes. Do as one isolated step.
+- [ ] `npm audit` — 6 vulns reported (3 low, 2 moderate, 1 high); review.
+
+### ⚠️ MoonPay npm proxy (koi.security) gotcha
+MoonPay transparently proxies npm and **blocks the package `is-unsafe`**
+(org security policy), even though the registry is public npmjs. It is pulled in
+by **`@astrojs/rss` >= 4.0.12** → we pin `@astrojs/rss@4.0.11` (last clean
+version). Astro 5 **and** 6 cores, `@astrojs/mdx@4`, `@astrojs/sitemap@3.7` are
+all clean through the gate. So the gate does **not** block Astro 5/6 — only the
+newest RSS. Re-check this pin if bumping deps later.
 
 ## Rough phase outline (to flesh out next)
 

@@ -9,10 +9,6 @@ What's left:
 
 ---
 
-## A. Verify on prod (github.io) — ✅ done
-
-Verified live on `https://dialex.github.io/DiogoNunesCom/`: all pages 200, unknown paths serve the custom `404.html`, assets load (prefixed), exclusions (`achiev-generator`, `MIGRATION_PLAN.md`, `README.md`) 404, internal + external redirect stubs work, Jekyll output clean (no stray `<?php`, no unprefixed `/assets`).
-
 ## B. Regenerate `sitemap.xml`
 
 The old `assets/sitemap.xml` was deleted (380 stale `www.diogonunes.com` URLs, mostly blog posts). Regenerate a fresh one listing current pages under `https://dialex.github.io/DiogoNunesCom/`. `robots.txt` already points there. Decide whether to include blog URLs (they live on the old domain).
