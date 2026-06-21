@@ -47,9 +47,7 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 - [ ] **Homepage + avatar:** put real personal info (name, intro, …) from old
       `index.html` on the home page; replace the top-left sidebar photo with the
       real avatar (`assets/img/avatar.jpg`). Replace Astrofy placeholder copy.
-- [ ] **Trim the sidebar menu** (`site/src/components/SideBarMenu.astro`): remove
-      **Services**, **Store**, **Contact** (no pages planned). Delete their orphaned
-      pages/collections (`pages/services.astro`, `pages/store/`, `content/store/`).
+- [x] ✅ **Trim the sidebar menu** (+ delete orphaned Services/Store pages & collection).
 - [ ] **Projects + hobbies → `projects` collection.** Port each modal from old
       `index.html` into `site/src/content/projects/` (schema: image, description,
       date, skills[], links[]) → detail page at `/projects/<slug>`. Old **thumbnail**
@@ -82,14 +80,7 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 - [ ] Confirm index, tag pages, and RSS generate correctly.
 
 ### 3. Look & feel
-- [ ] **Sidebar-footer social icons** (`site/src/components/SideBarFooter.astro`):
-      keep the same icon approach; **keep** Buy-me-a-coffee + RSS; **replace** the
-      rest (remove template's manuelernestog GitHub/Twitter/LinkedIn) with the old
-      footer's set:
-      - LinkedIn → `https://linkedin.com/in/nunesdiogo/`
-      - Instagram → `https://www.instagram.com/dialexnunes/`
-      - Goodreads → `https://goo.gl/OsnpWV`
-      - GitHub → `https://github.com/dialex`
+- [x] ✅ **Sidebar-footer social icons** (LinkedIn, Instagram, Goodreads, GitHub, RSS).
 - [ ] **Light/dark theme following the OS** (one task, two requirements):
       (a) provide coherent light **and** dark themes; (b) auto-detect the user's OS
       preference (`prefers-color-scheme`) and default to it on first load, with the
@@ -98,11 +89,10 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
       `SITE_DESCRIPTION` still say "Astrofy …"), OG images, etc.
 
 ### 4. Redirects
-- [ ] Replace the ~25 meta-refresh stub folders with Astro's native `redirects`
-      config in `astro.config.mjs`. Inventory all stubs + targets (known: `/travel`
-      → 500px, `/insta` → instagram/montijo.ao.quadrado, `/medium` →
-      dialex.medium.com; plus `/achievs`, `/books`, `/cv`, …). Verify they emit
-      build-time redirect HTML (GH Pages = no server-side redirects) and respect `base`.
+- [x] ✅ **Migrate legacy redirects to Astro `redirects` config.** (Some targets point
+      at not-yet-built pages — `/achievs`→`/achievements`, `/books`→`/livros` — and
+      two `TODO` markers: `/cvpdf` and `/work/googleearthtypewriter`. Re-check `base`
+      at cut-over.)
 
 ### 5. Infrastructure / build
 - [x] **Dependency upgrade — DONE.** Astro 5 (`d119ead`), then Astro 6 + Tailwind 4
