@@ -58,14 +58,45 @@ responsive nav, one shared layout across all pages.
 - **Target look:** the Astrofy template (a fresh design — neither the old root nor
   the old hireme style is kept).
 
+## Branch & deploy model
+
+- **`migration/gh-pages` = PROD.** Serves the old (PHP-free) static site as-is at
+  the GH Pages project subpath `dialex.github.io/DiogoNunesCom/`. We do **not**
+  touch what it deploys until cut-over. Tag `static-deprecated-PHP` marks where the
+  previous agent finished.
+- **`unified-redesign` = DEV.** The Astro/Astrofy redesign lives here, in `site/`.
+  Rebased on top of the latest `migration/gh-pages`. Developed locally only
+  (`npm run dev` → localhost:4321). GH Pages never sees this branch.
+- **Why a separate branch:** keeps prod = old site only. The redesign appears
+  nowhere in prod, and we avoid the "both at different paths" trap (if `site/` were
+  on the prod branch under root-serving, `/site/` would leak raw unbuilt source).
+- **Re-sync:** if `migration/gh-pages` advances, rebase `unified-redesign` onto it
+  again. Clean as long as prod commits don't touch `site/`.
+  ⚠️ **Stop the dev server before rebasing** — vite's file watcher/cache writes
+  mid-rebase corrupt it (we hit this once: scaffold commit went empty + untracked).
+
+### Cut-over (prod flips to redesign-only) — happens later, needs BOTH:
+1. Merge `unified-redesign` → `migration/gh-pages`.
+2. Switch GH Pages deploy to a GitHub Action: `astro build` → publish **only**
+   `site/dist/`. Old root files stay in git history + behind the tag, but are not
+   in the published artifact, so they vanish from prod. Result: prod = redesign only.
+
+- **⚠️ Astro `base` config at deploy time:** staging is the subpath
+  `/DiogoNunesCom/` (commit `cc56c11`). Set `base: '/DiogoNunesCom/'` in
+  `astro.config.mjs` so links resolve there — OR `base: '/'` if DNS has been
+  flipped to the custom domain by cut-over. Left unset for now (localhost is root).
+
 ## Open questions (not yet decided)
 
 - Exact URL/permalink scheme for blog posts — must preserve existing inbound links
   & SEO (set per-post `slug`).
 - Image handling for blog posts (where the WP images live, how they're referenced
   in the `.md`, rewrite to local `src/assets` or keep external).
-- What to do with `/work` and `/livros` content — Projects/Store pages vs. plain
-  content collections.
+- ~~What to do with `/work` content~~ — **decided & built:** `projects` content
+  collection (image, description, date, skills[], links[]) + per-project detail
+  pages at `/projects/<slug>`. Seeded with real JColor entry. Remaining: port the
+  other projects from the old homepage modals.
+- What to do with `/livros` content — Store page vs. plain content collection.
 - Whether to keep `achievements.html`, `donate.html`, `thanks.html` as-is ports or
   fold into the new design.
 - Download files in `assets/downloads` — keep as static assets (no counter).
