@@ -1,0 +1,148 @@
+# Redesign → Production TODO
+
+The single source of truth for shipping the Astro/Astrofy redesign to production.
+Supersedes and replaces the old `MIGRATION_PLAN.md` and `REDESIGN_PLAN.md` (both
+deleted — their context is folded in below).
+
+**Goal:** converge the three differently-styled properties of `diogonunes.com`
+(root portfolio, `/hireme` résumé, WordPress `/blog`) into one unified, fully-static
+**Astro + Astrofy** site, deployed on GitHub Pages.
+
+---
+
+## Context
+
+### Current state — three separate styles
+| Property | Stack today | Notes |
+|---|---|---|
+| `diogonunes.com` (root) | Bootstrap + Freelancer theme | Hand-written static `index.html`. |
+| `diogonunes.com/hireme` | Own template (`main.css` + light/dark + jQuery + scrollreveal) | Résumé/CV page. |
+| `diogonunes.com/blog` | WordPress (PHP + MySQL) | Not in this repo. Dynamic. |
+
+### Target state
+One Astro project (`site/`). `astro build` → `dist/` of plain static HTML/CSS/JS,
+served by GitHub Pages. No PHP, no DB, no runtime server. Shared layout/nav/footer
+authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG.
+
+### Decisions locked in
+- **Stack:** Astro + Astrofy (Tailwind/DaisyUI). Static output.
+- **Target look:** the Astrofy template (fresh design — neither old root nor old hireme kept), except where a task below says otherwise.
+- **Blog:** WP exported to Markdown (already done by user). Comments dropped.
+- **Build step accepted:** GH Action runs `astro build`, publishes `dist/`.
+
+### Branch & deploy model
+- **`migration/gh-pages` = PROD.** Serves the old (PHP-free) static site as-is at
+  `dialex.github.io/DiogoNunesCom/`. Untouched until cut-over. Tag
+  `static-deprecated-PHP` marks the prior agent's end.
+- **`unified-redesign` = DEV.** The Astro redesign lives here in `site/`. Local dev
+  only (`npm run dev` → localhost:4321). Rebased on top of `migration/gh-pages`.
+- ⚠️ **Stop the dev server before rebasing** — vite's watcher corrupts mid-rebase.
+- This TODO should live on `unified-redesign` alongside `site/`.
+
+---
+
+## Tasks
+
+### 1. Content & pages
+- [ ] **Homepage + avatar:** put real personal info (name, intro, …) from old
+      `index.html` on the home page; replace the top-left sidebar photo with the
+      real avatar (`assets/img/avatar.jpg`). Replace Astrofy placeholder copy.
+- [ ] **Trim the sidebar menu** (`site/src/components/SideBarMenu.astro`): remove
+      **Services**, **Store**, **Contact** (no pages planned). Delete their orphaned
+      pages/collections (`pages/services.astro`, `pages/store/`, `content/store/`).
+- [ ] **Projects + hobbies → `projects` collection.** Port each modal from old
+      `index.html` into `site/src/content/projects/` (schema: image, description,
+      date, skills[], links[]) → detail page at `/projects/<slug>`. Old **thumbnail**
+      → card image; old **detail image** → detail-page image; carry description,
+      date, skills. `jcolor.md` is the seeded pattern. Decide projects-vs-hobbies
+      handling (one collection w/ tag, or split).
+      - Work: JColor, DCID, Google Earth Typewriter, PISTAE, Talks, Research,
+        Open Source, Android Apps, Birthday Slack Bot, YumYutton, Testing Course,
+        No-code website
+      - Hobbies: Photography, The Geeky Gecko, Books, Pod Ser, Code4PT, Readers' Forum
+- [ ] **Achievements page:** add an **Achievements** item to the sidebar and build a
+      page resembling old `achievements.html` — a **two-column grid of images**.
+- [ ] **achiev-generator tool:** update the internal generator in
+      `assets/achiev-generator/` (`index.js`, `template.html`, `achievs.csv`) so its
+      output matches the new achievements page markup/design above.
+- [ ] **Hireme / CV page — DECISION PENDING.** Either (1) embed the existing
+      `/hireme` page/design largely as-is, or (2) migrate the résumé content into the
+      redesign look (Astrofy `cv.astro` has a timeline). Pick before building.
+- [ ] **Misc pages:** decide port-vs-fold-in for `donate.html`, `thanks.html`, and
+      Books (from `/livros`).
+
+### 2. Blog (BIG)
+- [ ] Import all WP-exported post `.md` files into `site/src/content/blog/`
+      (→ one static page per post + index + tags + RSS). Remove placeholder
+      `post1/2/3.md`.
+- [ ] **Images:** find where WP images live + how they're referenced; decide
+      rewrite-to-local (`src/assets`) vs keep external.
+- [ ] **Permalinks/SEO:** preserve inbound links via per-post `slug`; settle the
+      permalink scheme.
+- [ ] Confirm index, tag pages, and RSS generate correctly.
+
+### 3. Look & feel
+- [ ] **Sidebar-footer social icons** (`site/src/components/SideBarFooter.astro`):
+      keep the same icon approach; **keep** Buy-me-a-coffee + RSS; **replace** the
+      rest (remove template's manuelernestog GitHub/Twitter/LinkedIn) with the old
+      footer's set:
+      - LinkedIn → `https://linkedin.com/in/nunesdiogo/`
+      - Instagram → `https://www.instagram.com/dialexnunes/`
+      - Goodreads → `https://goo.gl/OsnpWV`
+      - GitHub → `https://github.com/dialex`
+- [ ] **Light/dark theme following the OS** (one task, two requirements):
+      (a) provide coherent light **and** dark themes; (b) auto-detect the user's OS
+      preference (`prefers-color-scheme`) and default to it on first load, with the
+      manual toggle still working on top.
+- [ ] **Replace template placeholders:** `src/config.ts` (`SITE_TITLE`,
+      `SITE_DESCRIPTION` still say "Astrofy …"), OG images, etc.
+
+### 4. Redirects
+- [ ] Replace the ~25 meta-refresh stub folders with Astro's native `redirects`
+      config in `astro.config.mjs`. Inventory all stubs + targets (known: `/travel`
+      → 500px, `/insta` → instagram/montijo.ao.quadrado, `/medium` →
+      dialex.medium.com; plus `/achievs`, `/books`, `/cv`, …). Verify they emit
+      build-time redirect HTML (GH Pages = no server-side redirects) and respect `base`.
+
+### 5. Infrastructure / build
+- [ ] **Dependency upgrade Step 2 (deferred):** Tailwind 4 + DaisyUI 5 + Astro 6 as
+      one isolated step (the `@astrojs/tailwind` integration is removed in Astro 6,
+      replaced by `@tailwindcss/vite`; Tailwind 4 CSS-based config drops
+      `tailwind.config.cjs`). _Astro 5 upgrade already done (commit `d119ead`)._
+- [ ] **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
+- [ ] **Astro `base`** set for the deploy target: `/DiogoNunesCom/` for the subpath,
+      or `/` if DNS is flipped to the custom domain at cut-over.
+- [ ] **Sitemap:** generate fresh via the Astro sitemap integration; decide whether
+      blog URLs are included.
+- [ ] **GH Action:** `astro build` → publish `site/dist/` to Pages.
+
+### 6. Cut-over (last)
+- [ ] Resolve **old domain / blog / FTP endgame** first: WP blog still on old host;
+      decide its fate before cancelling FTP.
+- [ ] Merge `unified-redesign` → `migration/gh-pages`.
+- [ ] Flip GH Pages deploy to the build Action publishing **only** `site/dist/`.
+- [ ] DNS cut-over + decommission FTP & WordPress.
+- [ ] Verify: all pages 200, redirects work, 404 serves, assets load.
+
+---
+
+## Open decisions
+- Hireme/CV: embed as-is vs migrate into new design (Task 1).
+- Projects vs hobbies: one collection w/ tag, or split (Task 1).
+- Blog permalink scheme + image handling (Task 2).
+- Misc pages (donate/thanks/books): port vs fold in (Task 1).
+- Sitemap: include blog URLs or not (Task 5).
+- Old domain/blog/FTP endgame (Task 6).
+
+## Reference notes / gotchas
+- ⚠️ **MoonPay npm proxy (koi.security)** blocks package `is-unsafe`, pulled in by
+  `@astrojs/rss` ≥ 4.0.12 → **pin `@astrojs/rss@4.0.11`**. Astro 5/6 cores, mdx@4,
+  sitemap@3.7 are clean through the gate.
+- **GH Pages limits:** 1GB repo / 100GB-month bandwidth; repo ~175M — fine. No
+  `.htaccess`, SSI, PHP, or arbitrary headers. (For edge logic later: Cloudflare
+  Pages / Netlify free tiers.)
+- CV PDF (`assets/downloads/misc/NunesDiogo-Resume2021-EN.pdf`) still contains an
+  email address — acceptable for a résumé (HTML was scrubbed).
+- Done already (context): PHP removed; `.htaccess` redirects → static stubs;
+  server-side cleanup; all emails stripped from HTML; paths prefixed `/DiogoNunesCom/`;
+  Astro 5 upgrade complete; Astrofy scaffolded in `site/`, builds clean.
