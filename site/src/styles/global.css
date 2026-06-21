@@ -4,6 +4,15 @@
   themes: all;
 }
 
+/* Pill-shaped buttons and menu/selector highlights (matches the template look).
+   --radius-field: buttons, inputs, tabs. --radius-selector: menu items, toggles,
+   badges. --radius-box (cards/modals) left at the theme default. */
+:root,
+[data-theme] {
+  --radius-field: 2rem;
+  --radius-selector: 2rem;
+}
+
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
