@@ -1,12 +1,12 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
+import { CollectionEntry, getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import createSlug from "../../lib/createSlug";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
   return projects.map((entry) => ({
-    params: { slug: createSlug(entry.data.title, entry.slug) },
+    params: { slug: createSlug(entry.data.title, entry.id) },
     props: { entry },
   }));
 }
@@ -17,7 +17,7 @@ interface Props {
 
 const { entry } = Astro.props;
 const project = entry.data;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 
 <BaseLayout title={project.title} sideBarActiveItemID="projects">

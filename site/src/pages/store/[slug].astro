@@ -1,12 +1,12 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
-import { StoreSchema } from "../../content/config";
+import { CollectionEntry, getCollection, render } from "astro:content";
+import { StoreSchema } from "../../content.config";
 import StoreItemLayout from "../../layouts/StoreItemLayout.astro";
 
 export async function getStaticPaths() {
   const itemEntries = await getCollection("store");
   return itemEntries.map((entry) => ({
-    params: { slug: entry.slug },
+    params: { slug: entry.id },
     props: { entry },
   }));
 }
@@ -17,7 +17,7 @@ interface Props {
 
 const { entry } = Astro.props;
 const item: StoreSchema = entry.data;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 
 <StoreItemLayout

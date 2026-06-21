@@ -24,7 +24,7 @@ const projects = (await getCollection("projects")).sort(
           date={project.data.date}
           skills={project.data.skills}
           badge={project.data.badge}
-          url={`/projects/${createSlug(project.data.title, project.slug)}`}
+          url={`/projects/${createSlug(project.data.title, project.id)}`}
         />
         {index < projects.length - 1 && <div class="divider my-0" />}
       </>
