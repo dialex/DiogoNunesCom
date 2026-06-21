@@ -49,27 +49,11 @@ The dynamic `(N já leram / people already did)` counts were **frozen** as stati
 
 ---
 
-## Step 5 — Convert `.htaccess` redirects to static
+## Step 5 — Convert `.htaccess` redirects to static — ✅ done
 
-`.htaccess` is ignored by GH Pages. ~25 redirects to migrate:
+Generated 23 static redirect stubs (9 internal + 14 external) as `foo/index.html` with `<meta http-equiv="refresh">` + `<link rel="canonical">` + `<meta name="robots" content="noindex">` + a fallback `<a>`. Nested shortcuts handled: `fotos/montijo`, `it/work/jcdp`, `blog/author/diogo-nunes`. HTTP→HTTPS and `ErrorDocument` rules dropped (GH Pages handles HTTPS automatically; 404 served via `404.html` from Step 2). Deleted `.htaccess`.
 
-- HTTP→HTTPS: GH Pages does this automatically. ✓ delete that rule.
-- Internal: `/achievs → /achievements.html`, `/books → /livros`, `/cv → /hireme`, etc.
-- External: `/medium → dialex.medium.com`, `/insta → instagram.com/...`, etc.
-
-**Decision: static folders with meta-refresh.**
-
-For each `/foo`, create `foo/index.html` with `<meta http-equiv="refresh" content="0;url=...">` + a canonical `<link rel="canonical">` + a fallback `<a>` for no-JS/no-meta clients.
-
-Works for both internal (`/achievs → /achievements.html`) and external (`/medium → dialex.medium.com`) redirects. Same mechanism, identical to what Jekyll's `jekyll-redirect-from` would generate at build time.
-
-Why not Jekyll: site is hand-written HTML, not a Jekyll project. Adopting Jekyll just for 25 redirects risks it touching templates/paths it shouldn't, and adds Ruby/bundler to local dev.
-
-Why not a `/s/?link=foo` JS router: turns short URLs into `/s/?link=medium`, defeating the point of shortcuts. Breaks existing inbound links and SEO.
-
-Implementation: write a small script that parses `.htaccess` `Redirect` lines and generates each folder. ~25 stub files.
-
-Delete `.htaccess` after.
+> Note: `index.html` links to `/blog/` but no `blog/` content exists in the repo (only the new `blog/author/diogo-nunes/` redirect stub). Flag for Step 6 audit — the `/blog/` nav link likely 404s on the static host.
 
 ---
 
