@@ -1,0 +1,38 @@
+---
+const { title, img, desc, date, skills = [], url, badge } = Astro.props;
+---
+
+<div
+  class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]"
+>
+  <a href={url}>
+    <div class="hero-content flex-col md:flex-row">
+      {
+        img && (
+          <img
+            src={img}
+            width={750}
+            height={422}
+            alt={title}
+            class="max-w-full md:max-w-[13rem] rounded-lg"
+          />
+        )
+      }
+      <div class="grow w-full">
+        <h1 class="text-xl font-bold">
+          {title}
+          {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
+        </h1>
+        {date && <p class="text-sm opacity-70 mt-1">{date}</p>}
+        <p class="py-1 text-1xl">{desc}</p>
+        <div class="card-actions justify-end">
+          {
+            skills.map((skill) => (
+              <div class="badge badge-outline">{skill}</div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,64 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import createSlug from "../../lib/createSlug";
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects");
+  return projects.map((entry) => ({
+    params: { slug: createSlug(entry.data.title, entry.slug) },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"projects">;
+}
+
+const { entry } = Astro.props;
+const project = entry.data;
+const { Content } = await entry.render();
+---
+
+<BaseLayout title={project.title} sideBarActiveItemID="projects">
+  <div class="flex flex-col gap-4">
+    <a href="/projects" class="text-sm opacity-70 hover:opacity-100">&larr; Back to projects</a>
+
+    <div class="flex items-center gap-3 flex-wrap">
+      <h1 class="text-4xl font-bold">{project.title}</h1>
+      {project.badge && <div class="badge badge-secondary">{project.badge}</div>}
+    </div>
+
+    <p class="text-sm opacity-70">{project.date}</p>
+
+    {
+      project.image && (
+        <img
+          src={project.image}
+          alt={project.title}
+          class="rounded-lg w-full max-w-2xl"
+        />
+      )
+    }
+
+    <div class="flex flex-wrap gap-2">
+      {project.skills.map((skill) => <div class="badge badge-outline">{skill}</div>)}
+    </div>
+
+    <div class="prose max-w-none">
+      <Content />
+    </div>
+
+    {
+      project.links && project.links.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-2">
+          {project.links.map((link) => (
+            <a href={link.url} target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+              {link.label}
+            </a>
+          ))}
+        </div>
+      )
+    }
+  </div>
+</BaseLayout>
