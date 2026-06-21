@@ -9,14 +9,9 @@ What's left:
 
 ---
 
-## A. Verify on prod (github.io)
+## A. Verify on prod (github.io) — ✅ done
 
-After pushing, on `https://dialex.github.io/DiogoNunesCom/`:
-
-- CSS / JS / images load (paths are now `/DiogoNunesCom/...`).
-- Nav anchors (`#work`, `#contact`, …) scroll; internal links and redirect stubs (`/DiogoNunesCom/books` → `/livros`, etc.) work.
-- ⚠️ `_config.yml` puts GH Pages in **Jekyll mode**. Hand-written HTML has no front matter so it should copy verbatim — confirm every page + redirect stub renders, no console 404s.
-- Exclusions return 404: `/assets/achiev-generator/`, `/MIGRATION_PLAN.md`.
+Verified live on `https://dialex.github.io/DiogoNunesCom/`: all pages 200, unknown paths serve the custom `404.html`, assets load (prefixed), exclusions (`achiev-generator`, `MIGRATION_PLAN.md`, `README.md`) 404, internal + external redirect stubs work, Jekyll output clean (no stray `<?php`, no unprefixed `/assets`).
 
 ## B. Regenerate `sitemap.xml`
 
