@@ -107,16 +107,36 @@ These still apply but get cleaner under Astro:
 
 ---
 
+## TODO — dependency upgrade (Astrofy ships old deps)
+
+Astrofy template (v3.0.0) pins **Astro `^4.0.2`** and Astro-4-era integrations,
+while Astro **5.x** is current. We already hit one symptom: `@astrojs/sitemap`
+floated to 3.7.3 (needs the Astro-5 `astro:routes:resolved` hook) and crashed on
+Astro 4.16 — pinned back to 3.2.1 as a stopgap.
+
+- [ ] Audit all deps: `astro`, `@astrojs/{mdx,rss,sitemap,tailwind}`, `daisyui`,
+      `tailwindcss`, `sharp`, `dayjs`, `@tailwindcss/typography`.
+- [ ] Decide: stay on Astro 4 (low risk, but EOL-ing) **or** upgrade to Astro 5.
+      Astro 5 changed content collections (`post.slug` → `post.id`, new
+      `loader` API) — Astrofy's components use the old API, so a 5 upgrade means
+      touching template code. Do this deliberately, not by accident.
+- [ ] Once on a target Astro major, un-pin sitemap and move all integrations to
+      matching versions. Re-run `npm run build` to confirm green.
+- [ ] `npm audit` — scaffold reported vulnerabilities; review after the upgrade.
+
 ## Rough phase outline (to flesh out next)
 
-1. **Scaffold** Astrofy in the worktree; get `npm run dev` running.
-2. **Proof of concept:** drop one real blog `.md` in, confirm it renders in style.
-3. **Blog migration:** all posts in, fix images + permalinks + RSS.
-4. **Port pages:** Home, CV (from hireme), Projects (from work), Store/Books
+1. **Scaffold** Astrofy in the worktree; get `npm run dev` running. — ✅ done
+   (`site/`, builds clean, 16 pages).
+2. **Dependency upgrade decision** (see TODO above) before building real content
+   on top of a stack we might rip out.
+4. **Proof of concept:** drop one real blog `.md` in, confirm it renders in style.
+5. **Blog migration:** all posts in, fix images + permalinks + RSS.
+6. **Port pages:** Home, CV (from hireme), Projects (from work), Store/Books
    (from livros), misc pages.
-5. **Redirects** via Astro config.
-6. **GH Action** build + deploy to Pages.
-7. **DNS cut-over** (reuse MIGRATION_PLAN.md Step 7) + decommission FTP & WordPress.
+7. **Redirects** via Astro config.
+8. **GH Action** build + deploy to Pages.
+9. **DNS cut-over** (reuse MIGRATION_PLAN.md Step 7) + decommission FTP & WordPress.
 
 ---
 
@@ -124,4 +144,6 @@ These still apply but get cleaner under Astro:
 
 - [x] Feasibility assessed — confirmed viable, good fit.
 - [x] Stack + blog approach + build model decided.
-- [ ] Scaffold / proof-of-concept not started.
+- [x] Astro/Astrofy scaffolded in `site/`, builds clean (16 pages).
+- [ ] Dependency upgrade decision (Astro 4 vs 5) — see TODO.
+- [ ] Proof-of-concept blog post not started.
