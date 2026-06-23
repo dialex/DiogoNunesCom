@@ -91,6 +91,10 @@ for context only — the numbers, not the groups, are the handle.
       (the serif finalist) once more real pages/content exist, to judge it in
       context. One-line change: `--font-heading` in `global.css` + the font load
       in `BaseHead.astro`.
+28. **Check badge & link colors.** Review the color/contrast of badges (e.g. the
+      `badge-secondary` date pills on achievements/cards) and link styling across
+      the site for consistency with the emerald theme. Tune the daisyUI theme
+      tokens if needed.
 
 ### SEO
 26. ✅ **Port SEO metadata from the old site** (title/description, author, canonical, favicon set, theme-color, Schema.org Person JSON-LD, GA4, robots.txt sitemap).
