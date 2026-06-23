@@ -47,9 +47,7 @@ Flat-numbered so they're easy to reference ("let's do task 7"). Grouped by area
 for context only — the numbers, not the groups, are the handle.
 
 ### Content & pages
-1. **Homepage + avatar:** put real personal info (name, intro, …) from old
-      `index.html` on the home page; replace the top-left sidebar photo with the
-      real avatar (`assets/img/avatar.jpg`). Replace Astrofy placeholder copy.
+1. ✅ **Homepage + avatar.**
 2. ✅ **Trim the sidebar menu.**
 3. **Projects + hobbies → `projects` collection.** Port each modal from old
       `index.html` into `site/src/content/projects/` (schema: image, description,
