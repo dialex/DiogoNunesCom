@@ -772,8 +772,8 @@ const achievements: { img: string; date: string; desc: string }[] = [
             loading="lazy"
             class="bg-white p-1.5 border border-black/20 shadow-md w-full h-72 object-cover"
           />
-          <figcaption class="mt-3 [&_a]:underline [&_a]:text-primary [&_a]:font-medium">
-            <span class="badge badge-secondary mr-1">{a.date}</span>
+          <figcaption class="mt-3 flex items-center justify-center gap-2 [&_a]:underline [&_a]:text-primary [&_a]:font-medium">
+            <span class="badge badge-secondary shrink-0">{a.date}</span>
             <span set:html={a.desc} />
           </figcaption>
         </figure>
