@@ -4,9 +4,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 import createSlug from "../lib/createSlug";
 
-const projects = (await getCollection("projects")).sort(
-  (a, b) => b.data.date.localeCompare(a.data.date)
-);
+// `date` is freeform ("2016", "2011-2025", "Since 2008", "Various"). Sort by the
+// latest year mentioned, newest first; entries with no year (e.g. "Various") last.
+const latestYear = (date: string) => {
+  const years = date.match(/\d{4}/g);
+  return years ? Math.max(...years.map(Number)) : 0;
+};
+// All work first, then hobbies; within each group, most recent first.
+const isHobby = (badge?: string) => badge === "Hobby";
+const projects = (await getCollection("projects")).sort((a, b) => {
+  const groupDiff = Number(isHobby(a.data.badge)) - Number(isHobby(b.data.badge));
+  if (groupDiff !== 0) return groupDiff;
+  return latestYear(b.data.date) - latestYear(a.data.date);
+});
 ---
 
 <BaseLayout title="Projects" sideBarActiveItemID="projects">

@@ -13,7 +13,7 @@ links:
     url: "https://www.udemy.com/user/diogonunes4/"
   - label: "Idea"
     url: "https://www.diogonunes.com/blog/making-an-open-source-testing-course/"
-badge: "FOSS"
+badge: "Work"
 ---
 
 I wanted to learn more about testing, so I pushed myself to write an online

@@ -11,7 +11,7 @@ links:
     url: "https://github.com/dialex/JColor#installation"
   - label: "Documentation"
     url: "https://dialex.github.io/JColor/"
-badge: "FOSS"
+badge: "Work"
 ---
 
 JColor is a Java library that offers you a fluent API to format terminal
