@@ -25,10 +25,7 @@ const { Content } = await render(entry);
     <a href="/projects" class="self-start text-sm opacity-70 hover:opacity-100">&larr; Back to projects</a>
 
     <header class="flex flex-col items-center gap-3">
-      <div class="flex items-center justify-center gap-3 flex-wrap">
-        <h1 class="text-4xl font-bold">{project.title}</h1>
-        {project.badge && <div class="badge badge-secondary">{project.badge}</div>}
-      </div>
+      <h1 class="text-6xl font-bold">{project.title}</h1>
       <p class="text-sm opacity-70">{project.date}</p>
       <div class="flex flex-wrap justify-center gap-2">
         {project.skills.map((skill) => <div class="badge badge-soft badge-sm rounded-md">{skill}</div>)}
@@ -45,7 +42,7 @@ const { Content } = await render(entry);
       )
     }
 
-    <div class="prose max-w-prose mx-auto">
+    <div class="prose max-w-none">
       <Content />
     </div>
 

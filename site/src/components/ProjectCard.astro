@@ -28,7 +28,7 @@ const { title, img, desc, date, skills = [], url, badge } = Astro.props;
         <div class="card-actions justify-end">
           {
             skills.map((skill) => (
-              <div class="badge badge-outline">{skill}</div>
+              <div class="badge badge-soft badge-sm rounded-md">{skill}</div>
             ))
           }
         </div>
