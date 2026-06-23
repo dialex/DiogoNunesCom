@@ -21,15 +21,19 @@ const { Content } = await render(entry);
 ---
 
 <BaseLayout title={project.title} sideBarActiveItemID="projects">
-  <div class="flex flex-col gap-4">
-    <a href="/projects" class="text-sm opacity-70 hover:opacity-100">&larr; Back to projects</a>
+  <div class="flex flex-col items-center text-center gap-6">
+    <a href="/projects" class="self-start text-sm opacity-70 hover:opacity-100">&larr; Back to projects</a>
 
-    <div class="flex items-center gap-3 flex-wrap">
-      <h1 class="text-4xl font-bold">{project.title}</h1>
-      {project.badge && <div class="badge badge-secondary">{project.badge}</div>}
-    </div>
-
-    <p class="text-sm opacity-70">{project.date}</p>
+    <header class="flex flex-col items-center gap-3">
+      <div class="flex items-center justify-center gap-3 flex-wrap">
+        <h1 class="text-4xl font-bold">{project.title}</h1>
+        {project.badge && <div class="badge badge-secondary">{project.badge}</div>}
+      </div>
+      <p class="text-sm opacity-70">{project.date}</p>
+      <div class="flex flex-wrap justify-center gap-2">
+        {project.skills.map((skill) => <div class="badge badge-soft badge-sm rounded-md">{skill}</div>)}
+      </div>
+    </header>
 
     {
       project.detailVideo ? (
@@ -41,19 +45,20 @@ const { Content } = await render(entry);
       )
     }
 
-    <div class="flex flex-wrap gap-2">
-      {project.skills.map((skill) => <div class="badge badge-soft badge-sm rounded-md">{skill}</div>)}
-    </div>
-
-    <div class="prose max-w-none">
+    <div class="prose max-w-prose mx-auto">
       <Content />
     </div>
 
     {
       project.links && project.links.length > 0 && (
-        <div class="flex flex-wrap gap-2 mt-2">
+        <div class="flex flex-wrap justify-center gap-2 mt-2">
           {project.links.map((link) => (
-            <a href={link.url} target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+            <a
+              href={link.url}
+              target="_blank"
+              rel="noopener"
+              class:list={["btn btn-sm", link.primary ? "btn-primary" : "btn-outline"]}
+            >
               {link.label}
             </a>
           ))}

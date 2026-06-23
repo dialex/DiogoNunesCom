@@ -28,6 +28,8 @@ const projectSchema = z.object({
     links: z.array(z.object({
         label: z.string(),
         url: z.string(),
+        // mark one link as the main CTA — renders solid; others render neutral
+        primary: z.boolean().optional(),
     })).optional(),
     badge: z.string().optional(),
 });
