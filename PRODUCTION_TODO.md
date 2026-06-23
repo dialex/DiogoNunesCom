@@ -48,6 +48,9 @@ for context only — the numbers, not the groups, are the handle.
 
 ### Content & pages
 1. ✅ **Homepage + avatar.**
+29. **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
+      CTAs, and the "last projects"/"latest from blog" sections once more real
+      content exists — make sure it reads well and reflects the final site.
 2. ✅ **Trim the sidebar menu.**
 3. **Projects + hobbies → `projects` collection.** Port each modal from old
       `index.html` into `site/src/content/projects/` (schema: image, description,
