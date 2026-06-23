@@ -48,16 +48,6 @@ are removed to keep this lean — numbers are stable handles and are never reuse
 Grouping is for context only.
 
 ### Content & pages
-- **3.** **Projects + hobbies → `projects` collection.** Port each modal from old
-      `index.html` into `site/src/content/projects/` (schema: image, description,
-      date, skills[], links[]) → detail page at `/projects/<slug>`. Old **thumbnail**
-      → card image; old **detail image** → detail-page image; carry description,
-      date, skills. `jcolor.md` is the seeded pattern. Decide projects-vs-hobbies
-      handling (one collection w/ tag, or split).
-      - Work: JColor, DCID, Google Earth Typewriter, PISTAE, Talks, Research,
-        Open Source, Android Apps, Birthday Slack Bot, YumYutton, Testing Course,
-        No-code website
-      - Hobbies: Photography, The Geeky Gecko, Books, Pod Ser, Code4PT, Readers' Forum
 - **5.** **achiev-generator tool:** update the internal generator in
       `assets/achiev-generator/` (`index.js`, `template.html`, `achievs.csv`) so its
       output matches the new achievements page markup/design above.
@@ -113,7 +103,6 @@ Grouping is for context only.
 
 ## Open decisions
 - Hireme/CV: embed as-is vs migrate into new design (task 6).
-- Projects vs hobbies: one collection w/ tag, or split (task 3).
 - Blog permalink scheme + image handling (tasks 9–10).
 - Sitemap: include blog URLs or not (task 19).
 - Old domain/blog/FTP endgame (task 21).
