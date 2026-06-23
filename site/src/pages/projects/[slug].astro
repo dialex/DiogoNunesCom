@@ -33,16 +33,16 @@ const { Content } = await render(entry);
 
     {
       project.detailVideo ? (
-        <video src={project.detailVideo} controls loop muted playsinline class="rounded-lg w-full max-w-2xl" />
+        <video src={project.detailVideo} controls loop muted playsinline class="rounded-lg w-full max-w-2xl mx-auto" />
       ) : (
         (project.detailImage ?? project.image) && (
-          <img src={project.detailImage ?? project.image} alt={project.title} class="rounded-lg w-full max-w-2xl" />
+          <img src={project.detailImage ?? project.image} alt={project.title} class="rounded-lg w-full max-w-2xl mx-auto" />
         )
       )
     }
 
     <div class="flex flex-wrap gap-2">
-      {project.skills.map((skill) => <div class="badge badge-outline">{skill}</div>)}
+      {project.skills.map((skill) => <div class="badge badge-soft badge-sm rounded-md">{skill}</div>)}
     </div>
 
     <div class="prose max-w-none">
@@ -53,7 +53,7 @@ const { Content } = await render(entry);
       project.links && project.links.length > 0 && (
         <div class="flex flex-wrap gap-2 mt-2">
           {project.links.map((link) => (
-            <a href={link.url} target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+            <a href={link.url} target="_blank" rel="noopener" class="btn btn-primary btn-sm">
               {link.label}
             </a>
           ))}
