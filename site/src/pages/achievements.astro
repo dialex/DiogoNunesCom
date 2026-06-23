@@ -770,7 +770,7 @@ const achievements: { img: string; date: string; desc: string }[] = [
             src={`/achievements/${a.img}`}
             alt={a.date}
             loading="lazy"
-            class="bg-white p-1.5 border border-black/20 shadow-md w-full h-72 object-cover"
+            class="bg-white p-1.5 border border-black/20 shadow-md max-w-full h-auto"
           />
           <figcaption class="mt-3 flex items-center justify-center gap-2 [&_a]:underline [&_a]:text-primary [&_a]:font-medium">
             <span class="badge badge-secondary shrink-0">{a.date}</span>
