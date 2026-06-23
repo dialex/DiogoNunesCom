@@ -2,6 +2,7 @@
 title: "YumYutton"
 description: "An Internet Button programmed to notify the team on Slack about the arrival of our cake trolley."
 image: "/projects/yumyutton.png"
+detailVideo: "/projects/yumyutton.mp4"
 date: "2016"
 skills: ["C++", "Slack", "Particle", "IoT Hardware"]
 links:

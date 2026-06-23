@@ -2,6 +2,7 @@
 title: "Testing Course"
 description: "An open-source online course that teaches testing to newcomers. #LearningByTeaching"
 image: "/projects/testing-course.png"
+detailImage: "/projects/testing-course-detail.png"
 date: "2018"
 skills: ["Testing", "Research", "Writing", "Markdown", "GitHub", "Agile", "CI", "CD"]
 links:

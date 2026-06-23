@@ -16,7 +16,12 @@ const blogSchema = z.object({
 const projectSchema = z.object({
     title: z.string(),
     description: z.string(),
+    // `image` is the card thumbnail. `detailImage`/`detailVideo` are the larger
+    // media shown on the detail page (some projects had a distinct one in the old
+    // site); the detail page falls back to `image` when neither is set.
     image: z.string().optional(),
+    detailImage: z.string().optional(),
+    detailVideo: z.string().optional(),
     // freeform on purpose — some projects span multiple years, e.g. "2011, 2016, 2020"
     date: z.string(),
     skills: z.array(z.string()),

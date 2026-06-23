@@ -2,6 +2,7 @@
 title: "No-code website"
 description: "Viver no Montijo, a website built without a single line of code that highlights reasons to live in my city."
 image: "/projects/no-code-website.png"
+detailImage: "/projects/no-code-website-detail.png"
 date: "2021"
 skills: ["No-code", "Airtable", "Pory", "Civic coding"]
 links:

@@ -2,7 +2,8 @@
 title: "JColor"
 description: "A Java library that offers a fluent API to format terminal messages with color."
 image: "/projects/jcolor.png"
-date: "2011, 2016, 2020"
+detailImage: "/projects/jcolor-detail.png"
+date: "2011-2026"
 skills: ["Java", "Git", "Maven", "Design Patterns", "Open Source", "TDD"]
 links:
   - label: "Source"

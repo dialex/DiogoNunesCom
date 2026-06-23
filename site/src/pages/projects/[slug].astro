@@ -32,12 +32,12 @@ const { Content } = await render(entry);
     <p class="text-sm opacity-70">{project.date}</p>
 
     {
-      project.image && (
-        <img
-          src={project.image}
-          alt={project.title}
-          class="rounded-lg w-full max-w-2xl"
-        />
+      project.detailVideo ? (
+        <video src={project.detailVideo} controls loop muted playsinline class="rounded-lg w-full max-w-2xl" />
+      ) : (
+        (project.detailImage ?? project.image) && (
+          <img src={project.detailImage ?? project.image} alt={project.title} class="rounded-lg w-full max-w-2xl" />
+        )
       )
     }
 
