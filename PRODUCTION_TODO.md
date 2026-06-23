@@ -43,15 +43,11 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 
 ## Tasks
 
-Flat-numbered so they're easy to reference ("let's do task 7"). Grouped by area
-for context only — the numbers, not the groups, are the handle.
+Flat-numbered so they're easy to reference ("let's do task 7"). Completed tasks
+are removed to keep this lean — numbers are stable handles and are never reused.
+Grouping is for context only.
 
 ### Content & pages
-1. ✅ **Homepage + avatar.**
-29. **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
-      CTAs, and the "last projects"/"latest from blog" sections once more real
-      content exists — make sure it reads well and reflects the final site.
-2. ✅ **Trim the sidebar menu.**
 3. **Projects + hobbies → `projects` collection.** Port each modal from old
       `index.html` into `site/src/content/projects/` (schema: image, description,
       date, skills[], links[]) → detail page at `/projects/<slug>`. Old **thumbnail**
@@ -62,15 +58,19 @@ for context only — the numbers, not the groups, are the handle.
         Open Source, Android Apps, Birthday Slack Bot, YumYutton, Testing Course,
         No-code website
       - Hobbies: Photography, The Geeky Gecko, Books, Pod Ser, Code4PT, Readers' Forum
-4. ✅ **Achievements page.**
 5. **achiev-generator tool:** update the internal generator in
       `assets/achiev-generator/` (`index.js`, `template.html`, `achievs.csv`) so its
       output matches the new achievements page markup/design above.
 6. **Hireme / CV page — DECISION PENDING.** Either (1) embed the existing
       `/hireme` page/design largely as-is, or (2) migrate the résumé content into the
       redesign look (Astrofy `cv.astro` has a timeline). Pick before building.
-7. **Misc pages:** decide port-vs-fold-in for `donate.html`, `thanks.html`, and
-      Books (from `/livros`).
+29. **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
+      CTAs, and the "last projects"/"latest from blog" sections once more real
+      content exists — make sure it reads well and reflects the final site.
+30. **Revamp the Books page (`/livros`).** Rebuild the old static `/livros` page in
+      the redesign look (sidebar "Books" item already added, linking to `/livros`).
+      Port the book list/imagery from the old page; decide final content & layout.
+      (`donate.html` + `thanks.html` deleted — not carried over.)
 
 ### Blog (BIG)
 8. Import all WP-exported post `.md` files into `site/src/content/blog/`
@@ -83,12 +83,10 @@ for context only — the numbers, not the groups, are the handle.
 11. Confirm index, tag pages, and RSS generate correctly.
 
 ### Look & feel
-12. [x] ✅ **Sidebar-footer social icons** (LinkedIn, Instagram, Goodreads, GitHub, RSS).
 13. **Light/dark theme following the OS** (one task, two requirements):
       (a) provide coherent light **and** dark themes; (b) auto-detect the user's OS
       preference (`prefers-color-scheme`) and default to it on first load, with the
       manual toggle still working on top.
-14. ✅ **Replace template placeholders** (`SITE_TITLE`/`SITE_DESCRIPTION`, OG image) — done as part of task 26.
 27. **Revisit heading font once there's more content.** Currently Lato body +
       **Poppins** headings. Re-evaluate switching the title font to **Fraunces**
       (the serif finalist) once more real pages/content exist, to judge it in
@@ -99,20 +97,7 @@ for context only — the numbers, not the groups, are the handle.
       the site for consistency with the emerald theme. Tune the daisyUI theme
       tokens if needed.
 
-### SEO
-26. ✅ **Port SEO metadata from the old site** (title/description, author, canonical, favicon set, theme-color, Schema.org Person JSON-LD, GA4, robots.txt sitemap).
-
-### Redirects
-15. [x] ✅ **Migrate legacy redirects to Astro `redirects` config.**
-
 ### Infrastructure / build
-16. [x] **Dependency upgrade — DONE.** Astro 5 (`d119ead`), then Astro 6 + Tailwind 4
-      + DaisyUI 5 (`071cee8`). Content collections migrated to the loader API
-      (`src/content.config.ts`, `glob()`, `entry.id`, `render(entry)`);
-      `ViewTransitions` → `ClientRouter`. Tailwind 4 wired via **PostCSS**
-      (`postcss.config.mjs`), not `@tailwindcss/vite` (incompatible with Astro 6's
-      rolldown-vite); CSS-based config in `global.css`; `tailwind.config.cjs` removed.
-      Builds clean, routes 200, daisyUI `lofi` theme renders.
 17. **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
 18. **Astro `base`** set for the deploy target: `/DiogoNunesCom/` for the subpath,
       or `/` if DNS is flipped to the custom domain at cut-over.
@@ -134,7 +119,7 @@ for context only — the numbers, not the groups, are the handle.
 - Hireme/CV: embed as-is vs migrate into new design (task 6).
 - Projects vs hobbies: one collection w/ tag, or split (task 3).
 - Blog permalink scheme + image handling (tasks 9–10).
-- Misc pages (donate/thanks/books): port vs fold in (task 7).
+- Books page (`/livros`): content & layout for the revamp (task 30).
 - Sitemap: include blog URLs or not (task 19).
 - Old domain/blog/FTP endgame (task 21).
 
