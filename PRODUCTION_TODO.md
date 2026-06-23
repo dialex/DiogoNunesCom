@@ -86,6 +86,11 @@ for context only — the numbers, not the groups, are the handle.
       preference (`prefers-color-scheme`) and default to it on first load, with the
       manual toggle still working on top.
 14. ✅ **Replace template placeholders** (`SITE_TITLE`/`SITE_DESCRIPTION`, OG image) — done as part of task 26.
+27. **Revisit heading font once there's more content.** Currently Lato body +
+      **Poppins** headings. Re-evaluate switching the title font to **Fraunces**
+      (the serif finalist) once more real pages/content exist, to judge it in
+      context. One-line change: `--font-heading` in `global.css` + the font load
+      in `BaseHead.astro`.
 
 ### SEO
 26. ✅ **Port SEO metadata from the old site** (title/description, author, canonical, favicon set, theme-color, Schema.org Person JSON-LD, GA4, robots.txt sitemap).
