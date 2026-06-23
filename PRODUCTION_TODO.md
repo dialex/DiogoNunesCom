@@ -82,8 +82,20 @@ Grouping is for context only.
       `badge-secondary` date pills on achievements/cards) and link styling across
       the site for consistency with the emerald theme. Tune the daisyUI theme
       tokens if needed.
+- **32.** **Achievements page — consider infinite/lazy loading.** The achievements
+      grid renders the full list (60+ images) on one page. Consider paginating or
+      infinite-scrolling (load images in batches as the user scrolls) so the page
+      paints faster and doesn't fetch every image up front. Images already use
+      `loading="lazy"`, so weigh whether this is worth the added JS.
 
 ### Infrastructure / build
+- **31.** **Review & optimise all images.** Audit every image across the site
+      (`public/projects`, `public/achievements`, `public/books`, avatar, etc.) for
+      oversized dimensions/weight — `no-code-website.png` was 5.5MB (3072px) before
+      compression (task 30/3 cleanup). Consider: consistent max dimensions, modern
+      formats (WebP/AVIF) via Astro's `<Image>`/`getImage`, **interlaced/progressive
+      PNG/JPEG** so images render top-to-bottom while loading, and a build-time
+      compression step so large assets can't slip in again.
 - **17.** **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
 - **18.** **Astro `base`** set for the deploy target: `/DiogoNunesCom/` for the subpath,
       or `/` if DNS is flipped to the custom domain at cut-over.
