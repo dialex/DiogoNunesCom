@@ -61,8 +61,7 @@ for context only — the numbers, not the groups, are the handle.
         Open Source, Android Apps, Birthday Slack Bot, YumYutton, Testing Course,
         No-code website
       - Hobbies: Photography, The Geeky Gecko, Books, Pod Ser, Code4PT, Readers' Forum
-4. **Achievements page:** add an **Achievements** item to the sidebar and build a
-      page resembling old `achievements.html` — a **two-column grid of images**.
+4. ✅ **Achievements page.**
 5. **achiev-generator tool:** update the internal generator in
       `assets/achiev-generator/` (`index.js`, `template.html`, `achievs.csv`) so its
       output matches the new achievements page markup/design above.
