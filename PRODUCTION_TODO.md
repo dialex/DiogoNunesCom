@@ -67,10 +67,6 @@ Grouping is for context only.
 - **29.** **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
       CTAs, and the "last projects"/"latest from blog" sections once more real
       content exists — make sure it reads well and reflects the final site.
-- **30.** **Revamp the Books page (`/livros`).** Rebuild the old static `/livros` page in
-      the redesign look (sidebar "Books" item already added, linking to `/livros`).
-      Port the book list/imagery from the old page; decide final content & layout.
-      (`donate.html` + `thanks.html` deleted — not carried over.)
 
 ### Blog (BIG)
 - **8.** Import all WP-exported post `.md` files into `site/src/content/blog/`
@@ -119,7 +115,6 @@ Grouping is for context only.
 - Hireme/CV: embed as-is vs migrate into new design (task 6).
 - Projects vs hobbies: one collection w/ tag, or split (task 3).
 - Blog permalink scheme + image handling (tasks 9–10).
-- Books page (`/livros`): content & layout for the revamp (task 30).
 - Sitemap: include blog URLs or not (task 19).
 - Old domain/blog/FTP endgame (task 21).
 

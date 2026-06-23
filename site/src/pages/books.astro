@@ -1,0 +1,192 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Diogo's self-published books, ported from the old static /livros page.
+// Descriptions are kept in their original language (PT/EN) — the flag marks it.
+// `links` render as daisyUI badges; `download: true` marks the store link (gets
+// the download glyph  primary colour). `readers` is the small "(N read)" note.
+type Book = {
+  title: string;
+  flag: string;
+  cover: string;
+  desc: string; // may contain inline HTML (e.g. <br>, <em>)
+  links?: { label: string; url: string; download?: boolean }[];
+  readers?: string;
+};
+
+const books: Book[] = [
+  {
+    title: "Para lá do portão",
+    flag: "",
+    cover: "cover-ParaLaDoPortao.png",
+    desc: `🇵🇹 Rodric levava uma vida tranquila até o dia do seu melhor amigo iniciar a sua Viagem, a última prova antes de se tornar um cavaleiro. Rikheart aceita que Rodric o acompanhe, com a condição de não ser ajudado, tal como dizem as regras. Ambos vão aprender que "Para lá do portão" da pacífica Luca a única regra é sobreviver. Embarca nesta aventura e conhece os agricultores de Iessi-Iessi, os pescadores de Nelay, os vendedores de Coralyn... e ainda o misterioso senhor de Lanakuv. Que segredos encerram as suas torres e os seus cristais?`,
+    links: [
+      { label: "Trailer", url: "https://youtu.be/1b2qI8aGLZ4" },
+      { label: "Opiniões", url: "https://www.goodreads.com/book/show/25976202-para-l-do-port-o" },
+      { label: "Ler", url: "https://leanpub.com/ParaLaDoPortao", download: true },
+    ],
+    readers: "4500 já leram",
+  },
+  {
+    title: "Purpose",
+    flag: "",
+    cover: "cover-Purpose.png",
+    desc: `🇬🇧 This book is the result of my self-discovery journey. It contains the 15 exercises that I used to discover not only my personality traits but also what motivates and fulfils me in life. You can use this framework to guide your thinking and find your own answers.`,
+    links: [
+      { label: "Reviews", url: "https://www.goodreads.com/book/show/44230820-purpose" },
+      { label: "Read", url: "https://leanpub.com/purpose", download: true },
+    ],
+    readers: "2300 already did",
+  },
+  {
+    title: "Um livro de poesia",
+    flag: "",
+    cover: "cover-UmLivroDePoesia.png",
+    desc: `🇵🇹 Sou um jovem. Estudante. Pensativo. Poeta amador.<br />Este livro contém poemas sobre <em>emoções</em> e <em>reflexões</em> da minha vida. Com eles, espero duas coisas: Provar que para a poesia ser interessante não precisa ser indecifrável e inacessível à maioria das pessoas. Mostrar aos jovens que ler é bom, que nos desenvolve e desperta. Inspirá-los com a minha história, que de detestar livros passei a escrevê-los.`,
+    links: [
+      { label: "Opiniões", url: "https://www.goodreads.com/book/show/44283847-um-livro-de-poesia" },
+      { label: "Ler", url: "https://leanpub.com/umlivrodepoesia", download: true },
+    ],
+    readers: "4600 já leram",
+  },
+  {
+    title: "Portugal, novo rumo",
+    flag: "",
+    cover: "cover-Portugal2010.png",
+    desc: `🇵🇹 Esta era uma dissertação sobre o Portugal de 2010.<br />O texto foi escrito numa linguagem leve e acessível, por isso será uma leitura fácil e rápida. Esta era a minha análise objetiva e fundamentada dos problemas que Portugal enfrenta(va). Educação, Justiça, Economia e Política foram os temas explorados. Para cada um foram apresentadas as principais dificuldades e possíveis soluções.`,
+    readers: "~3000 leram esta edição limitada",
+  },
+];
+---
+
+<BaseLayout
+  title="Books"
+  description="Books self-published by Diogo Nunes — read the synopses or download them."
+  sideBarActiveItemID="books"
+  maxWidthClass="lg:max-w-[1080px]"
+>
+  <div class="mb-12 text-center">
+    <h1 class="text-5xl font-bold">Writing 📚</h1>
+    <p class="mx-auto max-w-2xl py-3 text-lg italic opacity-80">
+      Diogo is an engineer at heart who explores creativity through photography and writing.<br />
+      He has self-published a few books. One day he'll finish his fantasy novel.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+  {
+    books.map((book) => {
+      const download = book.links?.find((l) => l.download);
+      return (
+      <article id={book.cover} class="flex h-full flex-col items-center text-center rounded-2xl bg-base-200/20 p-8">
+        <h2 class="text-2xl font-bold font-heading">{book.title}</h2>
+        <div class="my-10 flex h-64 items-center pr-3">
+          {download ? (
+            <a
+              href={download.url}
+              target="_blank"
+              rel="noopener"
+              class="book"
+              aria-label={`${download.label}: ${book.title}`}
+            >
+              <img src={`/books/${book.cover}`} alt={book.title} loading="lazy" class="max-h-64 w-auto" />
+            </a>
+          ) : (
+            <div class="book">
+              <img src={`/books/${book.cover}`} alt={book.title} loading="lazy" class="max-h-64 w-auto" />
+            </div>
+          )}
+        </div>
+        <p class="text-left text-base leading-relaxed opacity-90 [&_em]:italic" set:html={book.desc} />
+        {(book.links || book.readers) && (
+          <div class="mt-auto flex flex-wrap items-center justify-center gap-2 pt-6">
+            {book.links?.map((link) => (
+              <a
+                href={link.url}
+                target="_blank"
+                rel="noopener"
+                class:list={["btn btn-md gap-1.5", link.download ? "btn-primary" : "btn-outline btn-primary"]}
+              >
+                {link.download && (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2.2"
+                    stroke="currentColor"
+                    class="w-3.5 h-3.5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                    />
+                  </svg>
+                )}
+                {link.label}
+              </a>
+            ))}
+            {book.readers && <small class="opacity-60">({book.readers})</small>}
+          </div>
+        )}
+      </article>
+      );
+    })
+  }
+  </div>
+</BaseLayout>
+
+<style>
+  /* 3D book cover: perspective tilt  spine shading  page-block fore-edge.
+     Straightens slightly on hover. Decorative only. */
+  .book {
+    position: relative;
+    transform: perspective(1400px) rotateY(-18deg);
+    transform-style: preserve-3d;
+    transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    border-radius: 2px 4px 4px 2px;
+    box-shadow: 7px 11px 24px rgba(0, 0, 0, 0.3);
+  }
+  .book img {
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 2px 4px 4px 2px;
+  }
+  /* spine shadow on the binding edge  a thin highlight where pages catch light */
+  .book::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    border-radius: 2px 4px 4px 2px;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.33) 0%,
+      rgba(0, 0, 0, 0.04) 5%,
+      rgba(255, 255, 255, 0.28) 8%,
+      rgba(255, 255, 255, 0) 14%
+    );
+  }
+  /* stacked-pages thickness along the fore-edge (right) */
+  .book::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    right: 0;
+    width: 16px;
+    transform-origin: center right;
+    transform: rotateY(90deg);
+    background: repeating-linear-gradient(to right, #d7d0bf 0, #f6f2e9 1.5px, #d7d0bf 3px);
+  }
+  .book:hover {
+    transform: perspective(1400px) rotateY(-7deg) translateY(-6px);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .book {
+      transition: none;
+    }
+  }
+</style>

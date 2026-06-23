@@ -43,8 +43,9 @@ export default defineConfig({
     '/blog/author/diogo-nunes': '/blog/',
     // Internal — pages not yet rebuilt (will resolve once those pages land)
     '/achievs': '/achievements',
-    '/books': '/livros',
-    '/livros/quero-mais': '/livros#quero-mais'
+    // Books page lives at /books; preserve the old Portuguese path.
+    '/livros': '/books',
+    '/livros/quero-mais': '/books#quero-mais'
   },
   integrations: [mdx(), sitemap()]
 });
