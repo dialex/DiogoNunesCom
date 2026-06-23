@@ -4,6 +4,11 @@
   themes: all;
 }
 
+/* Body typography: Lato (loaded via Google Fonts in BaseHead). */
+@theme {
+  --font-sans: "Lato", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
 /* Pill-shaped buttons and menu/selector highlights (matches the template look).
    --radius-field: buttons, inputs, tabs. --radius-selector: menu items, toggles,
    badges. --radius-box (cards/modals) left at the theme default. */
