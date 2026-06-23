@@ -10,14 +10,49 @@ export interface Props {
 	ogType?: string;
 }
 
-const { title, description, image = '/social_img.webp', ogType = 'website' } = Astro.props;
+const { title, description, image = '/avatar.jpg', ogType = 'website' } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
+const imageURL = new URL(image, Astro.site ?? Astro.url);
+
+// Schema.org Person — carried over (and modernised) from the old site's microdata.
+const personSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'Person',
+	name: 'Diogo Nunes',
+	gender: 'Male',
+	jobTitle: 'Software Tester',
+	url: (Astro.site ?? Astro.url).toString(),
+	image: imageURL.toString(),
+	sameAs: [
+		'https://linkedin.com/in/nunesdiogo/',
+		'https://github.com/dialex',
+		'https://www.instagram.com/dialexnunes/',
+		'https://www.goodreads.com/user/show/5802747-diogo',
+		'https://twitter.com/dialexnunes',
+	],
+};
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <meta name="generator" content={Astro.generator} />
+<meta name="author" content="Diogo Nunes" />
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Favicons -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+
+<!-- Mobile tab color -->
+<meta name="theme-color" content="#66cc8a" />
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
@@ -26,14 +61,29 @@ const { title, description, image = '/social_img.webp', ogType = 'website' } = A
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={ogType} />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image" content={imageURL} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:url" content={canonicalURL} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.url)} />
+<meta property="twitter:image" content={imageURL} />
+<meta name="twitter:site" content="@dialexnunes" />
+
+<!-- Schema.org Person -->
+<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNL4QXTBGT"></script>
+<script is:inline>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+	gtag('config', 'G-XNL4QXTBGT');
+</script>
