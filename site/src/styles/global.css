@@ -4,9 +4,16 @@
   themes: all;
 }
 
-/* Body typography: Lato (loaded via Google Fonts in BaseHead). */
+/* Typography: Lato body, Fraunces headings (loaded via Google Fonts in BaseHead). */
 @theme {
   --font-sans: "Lato", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-heading: "Fraunces", ui-serif, Georgia, serif;
+}
+
+/* Semantic headings + opt-in .font-heading utility for styled <div> titles. */
+h1, h2, h3, h4, h5, h6,
+.font-heading {
+  font-family: var(--font-heading);
 }
 
 /* Pill-shaped buttons and menu/selector highlights (matches the template look).
