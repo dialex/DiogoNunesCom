@@ -7,7 +7,7 @@
 /* Typography: Lato body, Fraunces headings (loaded via Google Fonts in BaseHead). */
 @theme {
   --font-sans: "Lato", ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --font-heading: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
 
 /* Semantic headings + opt-in .font-heading utility for styled <div> titles. */
