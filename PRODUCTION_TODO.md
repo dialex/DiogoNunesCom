@@ -48,7 +48,7 @@ are removed to keep this lean — numbers are stable handles and are never reuse
 Grouping is for context only.
 
 ### Content & pages
-3. **Projects + hobbies → `projects` collection.** Port each modal from old
+- **3.** **Projects + hobbies → `projects` collection.** Port each modal from old
       `index.html` into `site/src/content/projects/` (schema: image, description,
       date, skills[], links[]) → detail page at `/projects/<slug>`. Old **thumbnail**
       → card image; old **detail image** → detail-page image; carry description,
@@ -58,60 +58,60 @@ Grouping is for context only.
         Open Source, Android Apps, Birthday Slack Bot, YumYutton, Testing Course,
         No-code website
       - Hobbies: Photography, The Geeky Gecko, Books, Pod Ser, Code4PT, Readers' Forum
-5. **achiev-generator tool:** update the internal generator in
+- **5.** **achiev-generator tool:** update the internal generator in
       `assets/achiev-generator/` (`index.js`, `template.html`, `achievs.csv`) so its
       output matches the new achievements page markup/design above.
-6. **Hireme / CV page — DECISION PENDING.** Either (1) embed the existing
+- **6.** **Hireme / CV page — DECISION PENDING.** Either (1) embed the existing
       `/hireme` page/design largely as-is, or (2) migrate the résumé content into the
       redesign look (Astrofy `cv.astro` has a timeline). Pick before building.
-29. **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
+- **29.** **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
       CTAs, and the "last projects"/"latest from blog" sections once more real
       content exists — make sure it reads well and reflects the final site.
-30. **Revamp the Books page (`/livros`).** Rebuild the old static `/livros` page in
+- **30.** **Revamp the Books page (`/livros`).** Rebuild the old static `/livros` page in
       the redesign look (sidebar "Books" item already added, linking to `/livros`).
       Port the book list/imagery from the old page; decide final content & layout.
       (`donate.html` + `thanks.html` deleted — not carried over.)
 
 ### Blog (BIG)
-8. Import all WP-exported post `.md` files into `site/src/content/blog/`
+- **8.** Import all WP-exported post `.md` files into `site/src/content/blog/`
       (→ one static page per post + index + tags + RSS). Remove placeholder
       `post1/2/3.md`.
-9. **Images:** find where WP images live + how they're referenced; decide
+- **9.** **Images:** find where WP images live + how they're referenced; decide
       rewrite-to-local (`src/assets`) vs keep external.
-10. **Permalinks/SEO:** preserve inbound links via per-post `slug`; settle the
+- **10.** **Permalinks/SEO:** preserve inbound links via per-post `slug`; settle the
       permalink scheme.
-11. Confirm index, tag pages, and RSS generate correctly.
+- **11.** Confirm index, tag pages, and RSS generate correctly.
 
 ### Look & feel
-13. **Light/dark theme following the OS** (one task, two requirements):
+- **13.** **Light/dark theme following the OS** (one task, two requirements):
       (a) provide coherent light **and** dark themes; (b) auto-detect the user's OS
       preference (`prefers-color-scheme`) and default to it on first load, with the
       manual toggle still working on top.
-27. **Revisit heading font once there's more content.** Currently Lato body +
+- **27.** **Revisit heading font once there's more content.** Currently Lato body +
       **Poppins** headings. Re-evaluate switching the title font to **Fraunces**
       (the serif finalist) once more real pages/content exist, to judge it in
       context. One-line change: `--font-heading` in `global.css` + the font load
       in `BaseHead.astro`.
-28. **Check badge & link colors.** Review the color/contrast of badges (e.g. the
+- **28.** **Check badge & link colors.** Review the color/contrast of badges (e.g. the
       `badge-secondary` date pills on achievements/cards) and link styling across
       the site for consistency with the emerald theme. Tune the daisyUI theme
       tokens if needed.
 
 ### Infrastructure / build
-17. **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
-18. **Astro `base`** set for the deploy target: `/DiogoNunesCom/` for the subpath,
+- **17.** **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
+- **18.** **Astro `base`** set for the deploy target: `/DiogoNunesCom/` for the subpath,
       or `/` if DNS is flipped to the custom domain at cut-over.
-19. **Sitemap:** generate fresh via the Astro sitemap integration; decide whether
+- **19.** **Sitemap:** generate fresh via the Astro sitemap integration; decide whether
       blog URLs are included.
-20. **GH Action:** `astro build` → publish `site/dist/` to Pages.
+- **20.** **GH Action:** `astro build` → publish `site/dist/` to Pages.
 
 ### Cut-over (last)
-21. Resolve **old domain / blog / FTP endgame** first: WP blog still on old host;
+- **21.** Resolve **old domain / blog / FTP endgame** first: WP blog still on old host;
       decide its fate before cancelling FTP.
-22. Merge `unified-redesign` → `migration/gh-pages`.
-23. Flip GH Pages deploy to the build Action publishing **only** `site/dist/`.
-24. DNS cut-over + decommission FTP & WordPress.
-25. Verify: all pages 200, redirects work, 404 serves, assets load.
+- **22.** Merge `unified-redesign` → `migration/gh-pages`.
+- **23.** Flip GH Pages deploy to the build Action publishing **only** `site/dist/`.
+- **24.** DNS cut-over + decommission FTP & WordPress.
+- **25.** Verify: all pages 200, redirects work, 404 serves, assets load.
 
 ---
 
