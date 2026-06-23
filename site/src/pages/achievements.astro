@@ -6,761 +6,757 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 // Migrated from the legacy achievs.csv data set.
 const achievements: { img: string; date: string; desc: string }[] = [
   {
-    "img": "tuxedo.jpg",
-    "date": "Dec '25",
-    "desc": "Assembled a 1700+ LEGO set"
+    img: "tuxedo.jpg",
+    date: "Dec '25",
+    desc: "Assembled a 1700+ LEGO set",
   },
   {
-    "img": "lgw25.jpg",
-    "date": "Nov '25",
-    "desc": "Volunteered @LisbonGamesWeek"
+    img: "lgw25.jpg",
+    date: "Nov '25",
+    desc: "Volunteered @LisbonGamesWeek",
   },
   {
-    "img": "linear.jpg",
-    "date": "Oct '25",
-    "desc": "Received a swag reward from Linear"
+    img: "linear.jpg",
+    date: "Oct '25",
+    desc: "Received a swag reward from Linear",
   },
   {
-    "img": "bumperball.jpg",
-    "date": "Jun '25",
-    "desc": "Tried bumperball"
+    img: "bumperball.jpg",
+    date: "Jun '25",
+    desc: "Tried bumperball",
   },
   {
-    "img": "iber25.jpg",
-    "date": "May '25",
-    "desc": "Volunteered @IberAnime Santarém"
+    img: "iber25.jpg",
+    date: "May '25",
+    desc: "Volunteered @IberAnime Santarém",
   },
   {
-    "img": "defi.png",
-    "date": "Apr '25",
-    "desc": "Won crypto trading competition at work"
+    img: "defi.png",
+    date: "Apr '25",
+    desc: "Won crypto trading competition at work",
   },
   {
-    "img": "jogoskids.jpg",
-    "date": "Apr '25",
-    "desc": "Hosted bgames session with neighborhood kids"
+    img: "jogoskids.jpg",
+    date: "Apr '25",
+    desc: "Hosted bgames session with neighborhood kids",
   },
   {
-    "img": "podcast.png",
-    "date": "Apr '25",
-    "desc": "2 years of monthly podcast"
+    img: "podcast.png",
+    date: "Apr '25",
+    desc: "2 years of monthly podcast",
   },
   {
-    "img": "paddle.jpg",
-    "date": "Mar '25",
-    "desc": "Tried paddle tennis"
+    img: "paddle.jpg",
+    date: "Mar '25",
+    desc: "Tried paddle tennis",
   },
   {
-    "img": "wef.jpg",
-    "date": "Feb '25",
-    "desc": "Photo used by the World Economic Forum"
+    img: "wef.jpg",
+    date: "Feb '25",
+    desc: "Photo used by the World Economic Forum",
   },
   {
-    "img": "shaved-head.jpg",
-    "date": "Jan '25",
-    "desc": "Shaved my head"
+    img: "shaved-head.jpg",
+    date: "Jan '25",
+    desc: "Shaved my head",
   },
   {
-    "img": "slowly.jpg",
-    "date": "Dec '24",
-    "desc": "Used Slowly for 5 years (200+ letters exchanged)"
+    img: "slowly.jpg",
+    date: "Dec '24",
+    desc: "Used Slowly for 5 years (200+ letters exchanged)",
   },
   {
-    "img": "lgw24.jpg",
-    "date": "Nov '24",
-    "desc": "Volunteer @LisbonGamesWeek"
+    img: "lgw24.jpg",
+    date: "Nov '24",
+    desc: "Volunteer @LisbonGamesWeek",
   },
   {
-    "img": "euromilhoes.png",
-    "date": "Nov '24",
-    "desc": "Won the Euromilions (last prize tho)"
+    img: "euromilhoes.png",
+    date: "Nov '24",
+    desc: "Won the Euromilions (last prize tho)",
   },
   {
-    "img": "andersson.jpg",
-    "date": "Nov '24",
-    "desc": "<a href=\"https://open.spotify.com/episode/52wYaEBVQT7BE4819o9yns\">Pedro Andersson</a> said I was ahead of 90% of 🇵🇹"
+    img: "andersson.jpg",
+    date: "Nov '24",
+    desc: '<a href="https://open.spotify.com/episode/52wYaEBVQT7BE4819o9yns">Pedro Andersson</a> said I was ahead of 90% of 🇵🇹',
   },
   {
-    "img": "bjj.jpg",
-    "date": "Oct '24",
-    "desc": "Tried Brazilian Jujitsu"
+    img: "bjj.jpg",
+    date: "Oct '24",
+    desc: "Tried Brazilian Jujitsu",
   },
   {
-    "img": "no-talk.png",
-    "date": "Sep '24",
-    "desc": "Spent a day without speaking"
+    img: "no-talk.png",
+    date: "Sep '24",
+    desc: "Spent a day without speaking",
   },
   {
-    "img": "summer24.jpg",
-    "date": "Aug '24",
-    "desc": "Went to the beach weekly for 8 weeks"
+    img: "summer24.jpg",
+    date: "Aug '24",
+    desc: "Went to the beach weekly for 8 weeks",
   },
   {
-    "img": "iber24.jpg",
-    "date": "May '24",
-    "desc": "Volunteer @IberAnime"
+    img: "iber24.jpg",
+    date: "May '24",
+    desc: "Volunteer @IberAnime",
   },
   {
-    "img": "taiko.jpg",
-    "date": "Fev '24",
-    "desc": "Tried Taiko (🇯🇵 drums)"
+    img: "taiko.jpg",
+    date: "Fev '24",
+    desc: "Tried Taiko (🇯🇵 drums)",
   },
   {
-    "img": "pc2.jpg",
-    "date": "Jan '24",
-    "desc": "Built a gaming PC (proper this time)"
+    img: "pc2.jpg",
+    date: "Jan '24",
+    desc: "Built a gaming PC (proper this time)",
   },
   {
-    "img": "kart.jpg",
-    "date": "Nov '23",
-    "desc": "Tried kart racing"
+    img: "kart.jpg",
+    date: "Nov '23",
+    desc: "Tried kart racing",
   },
   {
-    "img": "dashlane.png",
-    "date": "Nov '23",
-    "desc": "Speaker at <a href=\"https://www.youtube.com/watch?v=40yX-jn9wHQ\">Dashlane 2023</a>"
+    img: "dashlane.png",
+    date: "Nov '23",
+    desc: 'Speaker at <a href="https://www.youtube.com/watch?v=40yX-jn9wHQ">Dashlane 2023</a>',
   },
   {
-    "img": "costuga.jpg",
-    "date": "Sep '23",
-    "desc": "Co-launched a cosplay website"
+    img: "costuga.jpg",
+    date: "Sep '23",
+    desc: "Co-launched a cosplay website",
   },
   {
-    "img": "gmaps.jpg",
-    "date": "Aug '23",
-    "desc": "Reached top photographer in GMaps"
+    img: "gmaps.jpg",
+    date: "Aug '23",
+    desc: "Reached top photographer in GMaps",
   },
   {
-    "img": "udemy-photoEN.png",
-    "date": "Jun '23",
-    "desc": "2 courses, 5000 students, 4.8/5⭐️ @Udemy"
+    img: "udemy-photoEN.png",
+    date: "Jun '23",
+    desc: "2 courses, 5000 students, 4.8/5⭐️ @Udemy",
   },
   {
-    "img": "iberanime23.jpg",
-    "date": "May '23",
-    "desc": "Volunteer @IberAnime"
+    img: "iberanime23.jpg",
+    date: "May '23",
+    desc: "Volunteer @IberAnime",
   },
   {
-    "img": "blood.png",
-    "date": "May '23",
-    "desc": "Donated blood"
+    img: "blood.png",
+    date: "May '23",
+    desc: "Donated blood",
   },
   {
-    "img": "linear.png",
-    "date": "Apr '23",
-    "desc": "Improved a mainstream product with my feedback"
+    img: "linear.png",
+    date: "Apr '23",
+    desc: "Improved a mainstream product with my feedback",
   },
   {
-    "img": "podcast.png",
-    "date": "Apr '23",
-    "desc": "Started a <a href=\"https://www.diogonunes.com/pod\">podcast</a>"
+    img: "podcast.png",
+    date: "Apr '23",
+    desc: 'Started a <a href="https://www.diogonunes.com/pod">podcast</a>',
   },
   {
-    "img": "puzzle.jpg",
-    "date": "Jan '23",
-    "desc": "Assembled a puzzle (1000 🧩 in 8h)"
+    img: "puzzle.jpg",
+    date: "Jan '23",
+    desc: "Assembled a puzzle (1000 🧩 in 8h)",
   },
   {
-    "img": "covid-free.jpg",
-    "date": "Dec '22",
-    "desc": "Survived the pandemic without COVID"
+    img: "covid-free.jpg",
+    date: "Dec '22",
+    desc: "Survived the pandemic without COVID",
   },
   {
-    "img": "soleil-ice.jpg",
-    "date": "Dec '22",
-    "desc": "Cirque du Soleil: Crystal"
+    img: "soleil-ice.jpg",
+    date: "Dec '22",
+    desc: "Cirque du Soleil: Crystal",
   },
   {
-    "img": "udemy-photoPT.jpg",
-    "date": "Aug '22",
-    "desc": "Published a photography course @Udemy 🇵🇹"
+    img: "udemy-photoPT.jpg",
+    date: "Aug '22",
+    desc: "Published a photography course @Udemy 🇵🇹",
   },
   {
-    "img": "iberanime22.jpg",
-    "date": "May '22",
-    "desc": "Volunteer @IberAnime"
+    img: "iberanime22.jpg",
+    date: "May '22",
+    desc: "Volunteer @IberAnime",
   },
   {
-    "img": "cinema.jpg",
-    "date": "Feb '22",
-    "desc": "Watched a movie in an empty cinema 😅🙈"
+    img: "cinema.jpg",
+    date: "Feb '22",
+    desc: "Watched a movie in an empty cinema 😅🙈",
   },
   {
-    "img": "cosplaypt.png",
-    "date": "Feb '22",
-    "desc": "Created a <a href=\"https://cosplayportugal.org/\">website</a> for national cosplayers"
+    img: "cosplaypt.png",
+    date: "Feb '22",
+    desc: 'Created a <a href="https://cosplayportugal.org/">website</a> for national cosplayers',
   },
   {
-    "img": "unsplash.png",
-    "date": "Dec '21",
-    "desc": "32M views & 185K downloads <a href=\"https://unsplash.com/@dialex\">@Unsplash</a>"
+    img: "unsplash.png",
+    date: "Dec '21",
+    desc: '32M views & 185K downloads <a href="https://unsplash.com/@dialex">@Unsplash</a>',
   },
   {
-    "img": "stn.jpg",
-    "date": "Nov '21",
-    "desc": "Featured on <a href=\"https://www.linkedin.com/posts/activity-6883100912122953728-Ff7E/\">Software Testing Newsletter</a> x6"
+    img: "stn.jpg",
+    date: "Nov '21",
+    desc: 'Featured on <a href="https://www.linkedin.com/posts/activity-6883100912122953728-Ff7E/">Software Testing Newsletter</a> x6',
   },
   {
-    "img": "cut.jpg",
-    "date": "Oct '21",
-    "desc": "Freed myself from a lifetime of toxicity"
+    img: "cut.jpg",
+    date: "Oct '21",
+    desc: "Freed myself from a lifetime of toxicity",
   },
   {
-    "img": "house.jpg",
-    "date": "Oct '21",
-    "desc": "Bought a house 🏠"
+    img: "house.jpg",
+    date: "Oct '21",
+    desc: "Bought a house 🏠",
   },
   {
-    "img": "montijo-ao-quadrado.jpg",
-    "date": "Apr '21",
-    "desc": "Photographed my city with my own style <a href=\"https://www.instagram.com/montijo.ao.quadrado/\">@montijo.ao.quadrado</a>"
+    img: "montijo-ao-quadrado.jpg",
+    date: "Apr '21",
+    desc: 'Photographed my city with my own style <a href="https://www.instagram.com/montijo.ao.quadrado/">@montijo.ao.quadrado</a>',
   },
   {
-    "img": "viver-no-montijo.png",
-    "date": "Feb '21",
-    "desc": "Developed <a href=\"https://viver-no-montijo.pory.app/\">no-code website</a> to showcase my city"
+    img: "viver-no-montijo.png",
+    date: "Feb '21",
+    desc: 'Developed <a href="https://viver-no-montijo.pory.app/">no-code website</a> to showcase my city',
   },
   {
-    "img": "novatalks-21.jpg",
-    "date": "Feb '21",
-    "desc": "Speaker at <a href=\"https://youtu.be/MiegajtC05w\">NOVATalks</a>"
+    img: "novatalks-21.jpg",
+    date: "Feb '21",
+    desc: 'Speaker at <a href="https://youtu.be/MiegajtC05w">NOVATalks</a>',
   },
   {
-    "img": "start-testing-030.png",
-    "date": "May '20",
-    "desc": "Wrote an <a href=\"https://www.diogonunes.com/blog/making-an-open-source-testing-course/\">e-course about testing</a>"
+    img: "start-testing-030.png",
+    date: "May '20",
+    desc: 'Wrote an <a href="https://www.diogonunes.com/blog/making-an-open-source-testing-course/">e-course about testing</a>',
   },
   {
-    "img": "standing-desk.jpg",
-    "date": "Apr '20",
-    "desc": "Set up a home standing desk + 100% WFH"
+    img: "standing-desk.jpg",
+    date: "Apr '20",
+    desc: "Set up a home standing desk + 100% WFH",
   },
   {
-    "img": "building20.jpg",
-    "date": "Jan '20",
-    "desc": "Volunteer @BuildingTheFuture"
+    img: "building20.jpg",
+    date: "Jan '20",
+    desc: "Volunteer @BuildingTheFuture",
   },
   {
-    "img": "no-meat.jpg",
-    "date": "Jan '20",
-    "desc": "Stopped buying meat (mediterranean diet 👌)"
+    img: "no-meat.jpg",
+    date: "Jan '20",
+    desc: "Stopped buying meat (mediterranean diet 👌)",
   },
   {
-    "img": "gris.png",
-    "date": "Dec '19",
-    "desc": "Tears of joy playing <a href=\"https://www.diogonunes.com/blog/10-reasons-why-gris-is-10-out-of-10/\">GRIS</a>"
+    img: "gris.png",
+    date: "Dec '19",
+    desc: 'Tears of joy playing <a href="https://www.diogonunes.com/blog/10-reasons-why-gris-is-10-out-of-10/">GRIS</a>',
   },
   {
-    "img": "lgw19.jpg",
-    "date": "Nov '19",
-    "desc": "Volunteer @LisbonGamesWeek"
+    img: "lgw19.jpg",
+    date: "Nov '19",
+    desc: "Volunteer @LisbonGamesWeek",
   },
   {
-    "img": "coloring-book.jpg",
-    "date": "Oct '19",
-    "desc": "Tried a colouring book"
+    img: "coloring-book.jpg",
+    date: "Oct '19",
+    desc: "Tried a colouring book",
   },
   {
-    "img": "origami.jpg",
-    "date": "Set '19",
-    "desc": "Tried Origami"
+    img: "origami.jpg",
+    date: "Set '19",
+    desc: "Tried Origami",
   },
   {
-    "img": "journey.png",
-    "date": "Jul '19",
-    "desc": "Tears of joy playing Journey"
+    img: "journey.png",
+    date: "Jul '19",
+    desc: "Tears of joy playing Journey",
   },
   {
-    "img": "barcamplx19.jpg",
-    "date": "Jun '19",
-    "desc": "Speaker at <a href=\"https://youtu.be/704-FrOoy20\">BarcampLx</a>"
+    img: "barcamplx19.jpg",
+    date: "Jun '19",
+    desc: 'Speaker at <a href="https://youtu.be/704-FrOoy20">BarcampLx</a>',
   },
   {
-    "img": "iberanime19-youtuber.jpg",
-    "date": "May '19",
-    "desc": "Volunteer @IberAnime + Met <a href=\"https://www.youtube.com/user/MrArkAlone\">Fabio Pereira</a>"
+    img: "iberanime19-youtuber.jpg",
+    date: "May '19",
+    desc: 'Volunteer @IberAnime + Met <a href="https://www.youtube.com/user/MrArkAlone">Fabio Pereira</a>',
   },
   {
-    "img": "bluehair.jpg",
-    "date": "Apr '19",
-    "desc": "I dyed my hair blue 💙"
+    img: "bluehair.jpg",
+    date: "Apr '19",
+    desc: "I dyed my hair blue 💙",
   },
   {
-    "img": "hanszimmer.jpg",
-    "date": "Apr '19",
-    "desc": "Hans Zimmer concert"
+    img: "hanszimmer.jpg",
+    date: "Apr '19",
+    desc: "Hans Zimmer concert",
   },
   {
-    "img": "livropurpose.jpg",
-    "date": "Mar '19",
-    "desc": "Published an <a href=\"https://leanpub.com/purpose\">ebook</a> about my self-discovery journey"
+    img: "livropurpose.jpg",
+    date: "Mar '19",
+    desc: 'Published an <a href="https://leanpub.com/purpose">ebook</a> about my self-discovery journey',
   },
   {
-    "img": "joehisaishi.jpg",
-    "date": "Feb '19",
-    "desc": "Joe Hisaishi concert 😍😭😍"
+    img: "joehisaishi.jpg",
+    date: "Feb '19",
+    desc: "Joe Hisaishi concert 😍😭😍",
   },
   {
-    "img": "lyon2.jpg",
-    "date": "Feb '19",
-    "desc": "Trip to Lyon (France)"
+    img: "lyon2.jpg",
+    date: "Feb '19",
+    desc: "Trip to Lyon (France)",
   },
   {
-    "img": "soleil-ovo.jpg",
-    "date": "Jan '19",
-    "desc": "Cirque du Soleil: OVO"
+    img: "soleil-ovo.jpg",
+    date: "Jan '19",
+    desc: "Cirque du Soleil: OVO",
   },
   {
-    "img": "card-pyramid.jpg",
-    "date": "Dec '18",
-    "desc": "Built this pyramid with 84 cards"
+    img: "card-pyramid.jpg",
+    date: "Dec '18",
+    desc: "Built this pyramid with 84 cards",
   },
   {
-    "img": "no-socialnetworks.jpg",
-    "date": "Nov '18",
-    "desc": "Stopped checking social networks"
+    img: "no-socialnetworks.jpg",
+    date: "Nov '18",
+    desc: "Stopped checking social networks",
   },
   {
-    "img": "no-tv.png",
-    "date": "Nov '18",
-    "desc": "Stopped watching TV/News"
+    img: "no-tv.png",
+    date: "Nov '18",
+    desc: "Stopped watching TV/News",
   },
   {
-    "img": "no-car.jpg",
-    "date": "Nov '18",
-    "desc": "Stopped using a car (🚶‍♂️ 🚲 🚌 = 💚)"
+    img: "no-car.jpg",
+    date: "Nov '18",
+    desc: "Stopped using a car (🚶‍♂️ 🚲 🚌 = 💚)",
   },
   {
-    "img": "alone-almost.jpg",
-    "date": "Nov '18",
-    "desc": "Started living alone"
+    img: "alone-almost.jpg",
+    date: "Nov '18",
+    desc: "Started living alone",
   },
   {
-    "img": "dublin.jpg",
-    "date": "Oct '18",
-    "desc": "Trip to Dublin (Ireland)"
+    img: "dublin.jpg",
+    date: "Oct '18",
+    desc: "Trip to Dublin (Ireland)",
   },
   {
-    "img": "soulmate.jpg",
-    "date": "Sep '18",
-    "desc": "Met my soulmate"
+    img: "soulmate.jpg",
+    date: "Sep '18",
+    desc: "Met my soulmate",
   },
   {
-    "img": "comiccon18.jpg",
-    "date": "Sep '18",
-    "desc": "Volunteer @ComicCon"
+    img: "comiccon18.jpg",
+    date: "Sep '18",
+    desc: "Volunteer @ComicCon",
   },
   {
-    "img": "vr-team.jpg",
-    "date": "Jul '18",
-    "desc": "VR zombie survival"
+    img: "vr-team.jpg",
+    date: "Jul '18",
+    desc: "VR zombie survival",
   },
   {
-    "img": "eurogamer18.jpg",
-    "date": "May '18",
-    "desc": "Volunteer @Eurogamer"
+    img: "eurogamer18.jpg",
+    date: "May '18",
+    desc: "Volunteer @Eurogamer",
   },
   {
-    "img": "taiko-ondekoza.jpg",
-    "date": "May '18",
-    "desc": "Taiko concert"
+    img: "taiko-ondekoza.jpg",
+    date: "May '18",
+    desc: "Taiko concert",
   },
   {
-    "img": "eurovision-diogo.jpg",
-    "date": "May '18",
-    "desc": "Lived to see Eurovision in Portugal"
+    img: "eurovision-diogo.jpg",
+    date: "May '18",
+    desc: "Lived to see Eurovision in Portugal",
   },
   {
-    "img": "barcamplx18-2.jpg",
-    "date": "Apr '18",
-    "desc": "Speaker at <a href=\"https://youtu.be/YyL8sa-rIig\">BarcampLx</a>"
+    img: "barcamplx18-2.jpg",
+    date: "Apr '18",
+    desc: 'Speaker at <a href="https://youtu.be/YyL8sa-rIig">BarcampLx</a>',
   },
   {
-    "img": "indian.jpg",
-    "date": "Apr '18",
-    "desc": "Tasted Indian food"
+    img: "indian.jpg",
+    date: "Apr '18",
+    desc: "Tasted Indian food",
   },
   {
-    "img": "indiedome17.jpg",
-    "date": "Nov '17",
-    "desc": "Volunteer @IndieDome"
+    img: "indiedome17.jpg",
+    date: "Nov '17",
+    desc: "Volunteer @IndieDome",
   },
   {
-    "img": "ori2.jpg",
-    "date": "Oct '17",
-    "desc": "Tears of joy playing Ori"
+    img: "ori2.jpg",
+    date: "Oct '17",
+    desc: "Tears of joy playing Ori",
   },
   {
-    "img": "springit17.jpg",
-    "date": "Sep '17",
-    "desc": "Main stage volunteer @SpringItCon"
+    img: "springit17.jpg",
+    date: "Sep '17",
+    desc: "Main stage volunteer @SpringItCon",
   },
   {
-    "img": "stickers.jpg",
-    "date": "Aug '17",
-    "desc": "Covered my laptop with stickers"
+    img: "stickers.jpg",
+    date: "Aug '17",
+    desc: "Covered my laptop with stickers",
   },
   {
-    "img": "escape-hunt.jpg",
-    "date": "Jul '17",
-    "desc": "Tried an Escape Hunt game"
+    img: "escape-hunt.jpg",
+    date: "Jul '17",
+    desc: "Tried an Escape Hunt game",
   },
   {
-    "img": "abzu3.jpg",
-    "date": "Jun '17",
-    "desc": "Tears of joy playing Abzu"
+    img: "abzu3.jpg",
+    date: "Jun '17",
+    desc: "Tears of joy playing Abzu",
   },
   {
-    "img": "santos.jpg",
-    "date": "Jun '17",
-    "desc": "Won best \"quadra popular\" at work"
+    img: "santos.jpg",
+    date: "Jun '17",
+    desc: 'Won best "quadra popular" at work',
   },
   {
-    "img": "harrypotter.jpg",
-    "date": "May '17",
-    "desc": "Harry Potter concert"
+    img: "harrypotter.jpg",
+    date: "May '17",
+    desc: "Harry Potter concert",
   },
   {
-    "img": "iberanime2017-group.jpg",
-    "date": "May '17",
-    "desc": "Main stage volunteer @IberAnime"
+    img: "iberanime2017-group.jpg",
+    date: "May '17",
+    desc: "Main stage volunteer @IberAnime",
   },
   {
-    "img": "trello.jpg",
-    "date": "Apr '17",
-    "desc": "Received swag+love from Trello"
+    img: "trello.jpg",
+    date: "Apr '17",
+    desc: "Received swag+love from Trello",
   },
   {
-    "img": "testbash-iot.jpg",
-    "date": "Mar '17",
-    "desc": "Gave a workshop about the Internet of Things"
+    img: "testbash-iot.jpg",
+    date: "Mar '17",
+    desc: "Gave a workshop about the Internet of Things",
   },
   {
-    "img": "testbash.jpg",
-    "date": "Mar '17",
-    "desc": "Went to my 1st (testing) conference"
+    img: "testbash.jpg",
+    date: "Mar '17",
+    desc: "Went to my 1st (testing) conference",
   },
   {
-    "img": "overwatch.jpg",
-    "date": "Mar '17",
-    "desc": "Played an online multiplayer (FPS) game"
+    img: "overwatch.jpg",
+    date: "Mar '17",
+    desc: "Played an online multiplayer (FPS) game",
   },
   {
-    "img": "pc.jpg",
-    "date": "Mar '17",
-    "desc": "Built a (gaming) PC from scratch"
+    img: "pc.jpg",
+    date: "Mar '17",
+    desc: "Built a (gaming) PC from scratch",
   },
   {
-    "img": "ghibli.jpg",
-    "date": "Feb '17",
-    "desc": "Watched all Hayao Miyazaki movies"
+    img: "ghibli.jpg",
+    date: "Feb '17",
+    desc: "Watched all Hayao Miyazaki movies",
   },
   {
-    "img": "deolinda.jpg",
-    "date": "Feb '17",
-    "desc": "Deolinda concert"
+    img: "deolinda.jpg",
+    date: "Feb '17",
+    desc: "Deolinda concert",
   },
   {
-    "img": "sushi.jpg",
-    "date": "Jan '17",
-    "desc": "Tasted Sushi"
+    img: "sushi.jpg",
+    date: "Jan '17",
+    desc: "Tasted Sushi",
   },
   {
-    "img": "dnd.jpg",
-    "date": "Jan '17",
-    "desc": "Played Dungeons &amp; Dragons with friends"
+    img: "dnd.jpg",
+    date: "Jan '17",
+    desc: "Played Dungeons &amp; Dragons with friends",
   },
   {
-    "img": "xmas-gift.jpg",
-    "date": "Dec '16",
-    "desc": "Most effort wrapping a xmas gift (Android inside)"
+    img: "xmas-gift.jpg",
+    date: "Dec '16",
+    desc: "Most effort wrapping a xmas gift (Android inside)",
   },
   {
-    "img": "creativity-oscar.jpg",
-    "date": "Dec '16",
-    "desc": "Won creativity oscar at work"
+    img: "creativity-oscar.jpg",
+    date: "Dec '16",
+    desc: "Won creativity oscar at work",
   },
   {
-    "img": "sticker-store.jpg",
-    "date": "Dec '16",
-    "desc": "Developed an e-store of gaming stickers"
+    img: "sticker-store.jpg",
+    date: "Dec '16",
+    desc: "Developed an e-store of gaming stickers",
   },
   {
-    "img": "vgm-4.jpg",
-    "date": "Nov '16",
-    "desc": "4th VGM concert: Video Games Live"
+    img: "vgm-4.jpg",
+    date: "Nov '16",
+    desc: "4th VGM concert: Video Games Live",
   },
   {
-    "img": "food-vietnamese.jpg",
-    "date": "Nov '16",
-    "desc": "Tasted Vietnamese food"
+    img: "food-vietnamese.jpg",
+    date: "Nov '16",
+    desc: "Tasted Vietnamese food",
   },
   {
-    "img": "food-mexican.jpg",
-    "date": "Nov '16",
-    "desc": "Tasted Mexican food"
+    img: "food-mexican.jpg",
+    date: "Nov '16",
+    desc: "Tasted Mexican food",
   },
   {
-    "img": "london16.jpg",
-    "date": "Oct '16",
-    "desc": "Trip to London (UK)"
+    img: "london16.jpg",
+    date: "Oct '16",
+    desc: "Trip to London (UK)",
   },
   {
-    "img": "vgm-3.jpg",
-    "date": "Oct '16",
-    "desc": "3rd VGM concert: Symphonic Fantasies"
+    img: "vgm-3.jpg",
+    date: "Oct '16",
+    desc: "3rd VGM concert: Symphonic Fantasies",
   },
   {
-    "img": "vgm-3-people.jpg",
-    "date": "Oct '16",
-    "desc": "Met Yoko Shimomura and Rony Barrak"
+    img: "vgm-3-people.jpg",
+    date: "Oct '16",
+    desc: "Met Yoko Shimomura and Rony Barrak",
   },
   {
-    "img": "github-stickers.jpg",
-    "date": "Sep '16",
-    "desc": "Kindly asked GitHub for stickers... and got them"
+    img: "github-stickers.jpg",
+    date: "Sep '16",
+    desc: "Kindly asked GitHub for stickers... and got them",
   },
   {
-    "img": "jcdp-properly-open-sourced.png",
-    "date": "Sep '16",
-    "desc": "Open-source project published on Maven/Sonatype"
+    img: "jcdp-properly-open-sourced.png",
+    date: "Sep '16",
+    desc: "Open-source project published on Maven/Sonatype",
   },
   {
-    "img": "lazertag.jpg",
-    "date": "Jul '16",
-    "desc": "LazerTag match"
+    img: "lazertag.jpg",
+    date: "Jul '16",
+    desc: "LazerTag match",
   },
   {
-    "img": "pinball.JPG",
-    "date": "Jul '16",
-    "desc": "Played on a physical Pinball machine"
+    img: "pinball.JPG",
+    date: "Jul '16",
+    desc: "Played on a physical Pinball machine",
   },
   {
-    "img": "final-symphony.jpg",
-    "date": "May '16",
-    "desc": "2nd VGM concert: Final Symphony (Final Fantasy)"
+    img: "final-symphony.jpg",
+    date: "May '16",
+    desc: "2nd VGM concert: Final Symphony (Final Fantasy)",
   },
   {
-    "img": "final-symphony-conductor.jpg",
-    "date": "May '16",
-    "desc": "Met Eckehard Stier,the conductor of the concert"
+    img: "final-symphony-conductor.jpg",
+    date: "May '16",
+    desc: "Met Eckehard Stier,the conductor of the concert",
   },
   {
-    "img": "walibi-rollercoaster.jpg",
-    "date": "May '16",
-    "desc": "1st ride on a roller coaster (<a href=\"https://walibi.nl/en/rides-events\">times 5</a>) 😰»😱»😎"
+    img: "walibi-rollercoaster.jpg",
+    date: "May '16",
+    desc: '1st ride on a roller coaster (<a href="https://walibi.nl/en/rides-events">times 5</a>) 😰»😱»😎',
   },
   {
-    "img": "walibi.jpg",
-    "date": "May '16",
-    "desc": "Full day in an amusement park <a href=\"https://www.youtube.com/watch?v=gVcCnsbXsX8\">@ Walibi</a>"
+    img: "walibi.jpg",
+    date: "May '16",
+    desc: 'Full day in an amusement park <a href="https://www.youtube.com/watch?v=gVcCnsbXsX8">@ Walibi</a>',
   },
   {
-    "img": "amsterdam.jpg",
-    "date": "May '16",
-    "desc": "Trip to Amsterdam (Holland)"
+    img: "amsterdam.jpg",
+    date: "May '16",
+    desc: "Trip to Amsterdam (Holland)",
   },
   {
-    "img": "mac.jpg",
-    "date": "Apr '16",
-    "desc": "After a life of Windows, started using a Mac at work"
+    img: "mac.jpg",
+    date: "Apr '16",
+    desc: "After a life of Windows, started using a Mac at work",
   },
   {
-    "img": "pikachu.jpg",
-    "date": "Apr '16",
-    "desc": "My first payment for a photography work"
+    img: "pikachu.jpg",
+    date: "Apr '16",
+    desc: "My first payment for a photography work",
   },
   {
-    "img": "wedding-photoshoot.jpg",
-    "date": "Apr '16",
-    "desc": "Photographed my first wedding & baptism"
+    img: "wedding-photoshoot.jpg",
+    date: "Apr '16",
+    desc: "Photographed my first wedding & baptism",
   },
   {
-    "img": "kygo.jpg",
-    "date": "Apr '16",
-    "desc": "Kygo concert"
+    img: "kygo.jpg",
+    date: "Apr '16",
+    desc: "Kygo concert",
   },
   {
-    "img": "darerer.jpg",
-    "date": "Mar '16",
-    "desc": "Developed and published my first Android <a href=\"https://play.google.com/store/apps/details?id=com.diogonunes.darerer\">app</a>"
+    img: "darerer.jpg",
+    date: "Mar '16",
+    desc: 'Developed and published my first Android <a href="https://play.google.com/store/apps/details?id=com.diogonunes.darerer">app</a>',
   },
   {
-    "img": "whiteboard.jpg",
-    "date": "Dec '15",
-    "desc": "Covered my company's whiteboard with drawings"
+    img: "whiteboard.jpg",
+    date: "Dec '15",
+    desc: "Covered my company's whiteboard with drawings",
   },
   {
-    "img": "rayman.jpg",
-    "date": "Dec '15",
-    "desc": "Tears of joy playing Rayman Legends"
+    img: "rayman.jpg",
+    date: "Dec '15",
+    desc: "Tears of joy playing Rayman Legends",
   },
   {
-    "img": "ZeldaGoddessOrchestra.jpg",
-    "date": "Nov '15",
-    "desc": "1st VGM concert: Symphony of the Goddess (Zelda)"
+    img: "ZeldaGoddessOrchestra.jpg",
+    date: "Nov '15",
+    desc: "1st VGM concert: Symphony of the Goddess (Zelda)",
   },
   {
-    "img": "madrid.jpg",
-    "date": "Nov '15",
-    "desc": "Trip to Madrid (Spain)"
+    img: "madrid.jpg",
+    date: "Nov '15",
+    desc: "Trip to Madrid (Spain)",
   },
   {
-    "img": "porto.jpg",
-    "date": "Aug '15",
-    "desc": "Trip to Porto (Portugal)"
+    img: "porto.jpg",
+    date: "Aug '15",
+    desc: "Trip to Porto (Portugal)",
   },
   {
-    "img": "SoloTrip.jpg",
-    "date": "Aug '15",
-    "desc": "First solo trip: just a backpack and a map"
+    img: "SoloTrip.jpg",
+    date: "Aug '15",
+    desc: "First solo trip: just a backpack and a map",
   },
   {
-    "img": "paraladoportao.jpg",
-    "date": "Aug '15",
-    "desc": "Wrote 10 chapters of a fantasy/adventure novel"
+    img: "paraladoportao.jpg",
+    date: "Aug '15",
+    desc: "Wrote 10 chapters of a fantasy/adventure novel",
   },
   {
-    "img": "iberanime2015-group.jpg",
-    "date": "Abr '15",
-    "desc": "Main stage volunteer @IberAnime"
+    img: "iberanime2015-group.jpg",
+    date: "Abr '15",
+    desc: "Main stage volunteer @IberAnime",
   },
   {
-    "img": "pentatonix.jpg",
-    "date": "Apr '15",
-    "desc": "Pentatonix concert (my first ever <small><code>#TrueStory</code></small>)"
+    img: "pentatonix.jpg",
+    date: "Apr '15",
+    desc: "Pentatonix concert (my first ever <small><code>#TrueStory</code></small>)",
   },
   {
-    "img": "nanomap.jpg",
-    "date": "Nov '14",
-    "desc": "Wrote 25.000 words for a novel <a href=\"https://nanowrimo.org/\">@NaNoWriMo</a>"
+    img: "nanomap.jpg",
+    date: "Nov '14",
+    desc: 'Wrote 25.000 words for a novel <a href="https://nanowrimo.org/">@NaNoWriMo</a>',
   },
   {
-    "img": "dcid.PNG",
-    "date": "Apr '14",
-    "desc": "Published online the first prototype of <a href=\"https://github.com/code4pt/dcid\">DCID</a> (v0.0.5)"
+    img: "dcid.PNG",
+    date: "Apr '14",
+    desc: 'Published online the first prototype of <a href="https://github.com/code4pt/dcid">DCID</a> (v0.0.5)',
   },
   {
-    "img": "colorrun.jpg",
-    "date": "May '14",
-    "desc": "Ran \"The Happiest 5Km On The Planet\" @Color Run"
+    img: "colorrun.jpg",
+    date: "May '14",
+    desc: 'Ran "The Happiest 5Km On The Planet" @Color Run',
   },
   {
-    "img": "blog.png",
-    "date": "Jan '14",
-    "desc": "Started a blog named \"The Geecky Gecko\""
+    img: "blog.png",
+    date: "Jan '14",
+    desc: 'Started a blog named "The Geecky Gecko"',
   },
   {
-    "img": "soleil-dralion.jpg",
-    "date": "Jan '14",
-    "desc": "Cirque du Soleil: Dralion"
+    img: "soleil-dralion.jpg",
+    date: "Jan '14",
+    desc: "Cirque du Soleil: Dralion",
   },
   {
-    "img": "azores.jpg",
-    "date": "Aug '13",
-    "desc": "Trip to Azores (Portugal)"
+    img: "azores.jpg",
+    date: "Aug '13",
+    desc: "Trip to Azores (Portugal)",
   },
   {
-    "img": "tese.jpg",
-    "date": "Jul '13",
-    "desc": "Master Degree on Computer Science by <a href=\"https://tecnico.ulisboa.pt/en/about-IST/facts-figures/\">IST</a>"
+    img: "tese.jpg",
+    date: "Jul '13",
+    desc: 'Master Degree on Computer Science by <a href="https://tecnico.ulisboa.pt/en/about-IST/facts-figures/">IST</a>',
   },
   {
-    "img": "vienna.jpg",
-    "date": "Jul '13",
-    "desc": "Trip to Vienna (Austria)"
+    img: "vienna.jpg",
+    date: "Jul '13",
+    desc: "Trip to Vienna (Austria)",
   },
   {
-    "img": "cbi.jpg",
-    "date": "Jul '13",
-    "desc": "Presented my <a href=\"https://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5542857&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5542857\">2nd scientific paper</a> @Vienna,Austria"
+    img: "cbi.jpg",
+    date: "Jul '13",
+    desc: 'Presented my <a href="https://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5542857&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5542857">2nd scientific paper</a> @Vienna,Austria',
   },
   {
-    "img": "iess.jpg",
-    "date": "May '13",
-    "desc": "Presented my <a href=\"https://link.springer.com/chapter/10.1007/978-3-542-35355-5_10https://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5542857&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5542857\">1st scientific paper</a> @Porto,Portugal"
+    img: "iess.jpg",
+    date: "May '13",
+    desc: 'Presented my <a href="https://link.springer.com/chapter/10.1007/978-3-542-35355-5_10https://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5542857&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5542857">1st scientific paper</a> @Porto,Portugal',
   },
   {
-    "img": "energiaportugal.jpg",
-    "date": "May '13",
-    "desc": "Team leader of <a href=\"https://www.youtube.com/watch?v=7pzHStqGbQU\">DCID</a> at <a href=\"https://www.facebook.com/energiadeportugal\">entrepreneurship programme</a>"
+    img: "energiaportugal.jpg",
+    date: "May '13",
+    desc: 'Team leader of <a href="https://www.youtube.com/watch?v=7pzHStqGbQU">DCID</a> at <a href="https://www.facebook.com/energiadeportugal">entrepreneurship programme</a>',
   },
   {
-    "img": "soleil-immortal.jpg",
-    "date": "Apr '13",
-    "desc": "Cirque du Soleil: The Immortal"
+    img: "soleil-immortal.jpg",
+    date: "Apr '13",
+    desc: "Cirque du Soleil: The Immortal",
   },
   {
-    "img": "googledevfest.jpg",
-    "date": "Mar '13",
-    "desc": "Invited to <a href=\"https://plus.google.com/events/ci9mfrnaa4orhffgb18eobhogfo\">Google #DevFestPortugal</a>"
+    img: "googledevfest.jpg",
+    date: "Mar '13",
+    desc: 'Invited to <a href="https://plus.google.com/events/ci9mfrnaa4orhffgb18eobhogfo">Google #DevFestPortugal</a>',
   },
   {
-    "img": "joelspolsky.jpg",
-    "date": "Feb '13",
-    "desc": "Met Joel Sposky 🤓"
+    img: "joelspolsky.jpg",
+    date: "Feb '13",
+    desc: "Met Joel Sposky 🤓",
   },
   {
-    "img": "sinfo.jpg",
-    "date": "Feb '13",
-    "desc": "Official photographer of <a href=\"https://www.sinfo.org/\">SINFO XX</a>"
+    img: "sinfo.jpg",
+    date: "Feb '13",
+    desc: 'Official photographer of <a href="https://www.sinfo.org/">SINFO XX</a>',
   },
   {
-    "img": "tedxist.jpg",
-    "date": "Fev '13",
-    "desc": "Official photographer of TEDxIST"
+    img: "tedxist.jpg",
+    date: "Fev '13",
+    desc: "Official photographer of TEDxIST",
   },
   {
-    "img": "igniteist.jpg",
-    "date": "Mai '12",
-    "desc": "Speaker at <a href=\"https://www.youtube.com/watch?v=H7r2hJG39hI\">Ignite IST</a>"
+    img: "igniteist.jpg",
+    date: "Mai '12",
+    desc: 'Speaker at <a href="https://www.youtube.com/watch?v=H7r2hJG39hI">Ignite IST</a>',
   },
   {
-    "img": "jcdp.png",
-    "date": "Jun '11",
-    "desc": "Developed my first open-source project (<a href=\"/work/jcdp\">JCDP</a>)"
+    img: "jcdp.png",
+    date: "Jun '11",
+    desc: 'Developed my first open-source project (<a href="/work/jcdp">JCDP</a>)',
   },
   {
-    "img": "forumleitores.png",
-    "date": "Jan '11",
-    "desc": "Created an online forum for book reviews"
+    img: "forumleitores.png",
+    date: "Jan '11",
+    desc: "Created an online forum for book reviews",
   },
   {
-    "img": "livroportugal.jpg",
-    "date": "Dec '10",
-    "desc": "Wrote an <a href=\"/books\">essay</a> on how to solve Portugal's problems"
+    img: "livroportugal.jpg",
+    date: "Dec '10",
+    desc: 'Wrote an <a href="/books">essay</a> on how to solve Portugal\'s problems',
   },
   {
-    "img": "livropoesia.jpg",
-    "date": "May '10",
-    "desc": "Wrote a <a href=\"/books\">book</a> with 48 poems"
+    img: "livropoesia.jpg",
+    date: "May '10",
+    desc: 'Wrote a <a href="/books">book</a> with 48 poems',
   },
   {
-    "img": "soleil-varekai.jpg",
-    "date": "May '09",
-    "desc": "Cirque du Soleil: Varekai"
+    img: "soleil-varekai.jpg",
+    date: "May '09",
+    desc: "Cirque du Soleil: Varekai",
   },
   {
-    "img": "cascaiscomvistaparaomar.jpg",
-    "date": "Aug '09",
-    "desc": "Top 10 photo at <a href=\"https://www.dnacascais.pt/Default.aspx?ID=1725&M=News&PID=8441&NewsID=1303\">contest held by Cascais' city council</a>"
+    img: "cascaiscomvistaparaomar.jpg",
+    date: "Aug '09",
+    desc: 'Top 10 photo at <a href="https://www.dnacascais.pt/Default.aspx?ID=1725&M=News&PID=8441&NewsID=1303">contest held by Cascais\' city council</a>',
   },
   {
-    "img": "premiosexcelencia.jpg",
-    "date": "Aug '08",
-    "desc": "\"Excellent Student\" award at high school"
-  }
+    img: "premiosexcelencia.jpg",
+    date: "Aug '08",
+    desc: '"Excellent Student" award at high school',
+  },
 ];
 ---
 
-<BaseLayout
-  title="Achievements"
-  sideBarActiveItemID="achievements"
-  maxWidthClass="lg:max-w-[1080px]"
->
+<BaseLayout title="Achievements" sideBarActiveItemID="achievements" maxWidthClass="lg:max-w-[1080px]">
   <div class="mb-8 text-center">
-    <h1 class="text-5xl font-bold">Achievements</h1>
-    <p class="py-3 text-lg">My modest wall of fame 🏆</p>
+    <h1 class="text-5xl font-bold">Achievements 🏆</h1>
+    <p class="py-3 text-lg italic">My modest wall of fame</p>
   </div>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-[2.4rem]">

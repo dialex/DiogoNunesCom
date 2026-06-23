@@ -34,10 +34,22 @@ const { Content } = await render(entry);
 
     {
       project.detailVideo ? (
-        <video src={project.detailVideo} autoplay loop muted playsinline controls class="rounded-lg w-full max-w-2xl mx-auto" />
+        <video
+          src={project.detailVideo}
+          autoplay
+          loop
+          muted
+          playsinline
+          controls
+          class="rounded-lg w-full max-w-2xl mx-auto"
+        />
       ) : (
         (project.detailImage ?? project.image) && (
-          <img src={project.detailImage ?? project.image} alt={project.title} class="rounded-lg w-full max-w-2xl mx-auto" />
+          <img
+            src={project.detailImage ?? project.image}
+            alt={project.title}
+            class="rounded-lg w-full max-w-2xl mx-auto"
+          />
         )
       )
     }

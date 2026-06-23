@@ -2,22 +2,10 @@
 const { title, img, desc, date, skills = [], url, badge } = Astro.props;
 ---
 
-<div
-  class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]"
->
+<div class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]">
   <a href={url}>
     <div class="hero-content flex-col md:flex-row">
-      {
-        img && (
-          <img
-            src={img}
-            width={750}
-            height={422}
-            alt={title}
-            class="max-w-full md:max-w-[13rem] rounded-lg"
-          />
-        )
-      }
+      {img && <img src={img} width={750} height={422} alt={title} class="max-w-full md:max-w-[13rem] rounded-lg" />}
       <div class="grow w-full">
         <h1 class="text-xl font-bold flex items-center gap-2 flex-wrap">
           {title}
@@ -26,11 +14,7 @@ const { title, img, desc, date, skills = [], url, badge } = Astro.props;
         {date && <p class="text-sm opacity-70 mt-1">{date}</p>}
         <p class="text-1xl mt-3">{desc}</p>
         <div class="flex flex-wrap gap-2 mt-3 justify-end">
-          {
-            skills.map((skill) => (
-              <div class="badge badge-soft badge-sm rounded-md">{skill}</div>
-            ))
-          }
+          {skills.map((skill) => <div class="badge badge-soft badge-sm rounded-md">{skill}</div>)}
         </div>
       </div>
     </div>

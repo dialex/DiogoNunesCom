@@ -1,36 +1,36 @@
 ---
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
-import '../styles/global.css';
+import "../styles/global.css";
 
 export interface Props {
-	title: string;
-	description: string;
-	image?: string;
-	ogType?: string;
+  title: string;
+  description: string;
+  image?: string;
+  ogType?: string;
 }
 
-const { title, description, image = '/avatar.jpg', ogType = 'website' } = Astro.props;
+const { title, description, image = "/avatar.jpg", ogType = "website" } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
 const imageURL = new URL(image, Astro.site ?? Astro.url);
 
 // Schema.org Person — carried over (and modernised) from the old site's microdata.
 const personSchema = {
-	'@context': 'https://schema.org',
-	'@type': 'Person',
-	name: 'Diogo Nunes',
-	gender: 'Male',
-	jobTitle: 'Software Tester',
-	url: (Astro.site ?? Astro.url).toString(),
-	image: imageURL.toString(),
-	sameAs: [
-		'https://linkedin.com/in/nunesdiogo/',
-		'https://github.com/dialex',
-		'https://www.instagram.com/dialexnunes/',
-		'https://www.goodreads.com/user/show/5802747-diogo',
-		'https://twitter.com/dialexnunes',
-	],
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Diogo Nunes",
+  gender: "Male",
+  jobTitle: "Software Tester",
+  url: (Astro.site ?? Astro.url).toString(),
+  image: imageURL.toString(),
+  sameAs: [
+    "https://linkedin.com/in/nunesdiogo/",
+    "https://github.com/dialex",
+    "https://www.instagram.com/dialexnunes/",
+    "https://www.goodreads.com/user/show/5802747-diogo",
+    "https://twitter.com/dialexnunes",
+  ],
 };
 ---
 
@@ -52,8 +52,8 @@ const personSchema = {
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-	href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;600;700&display=swap"
-	rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;600;700&display=swap"
+  rel="stylesheet"
 />
 
 <!-- Mobile tab color -->
@@ -85,10 +85,10 @@ const personSchema = {
 <!-- Google Analytics (GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XNL4QXTBGT"></script>
 <script is:inline>
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag('js', new Date());
-	gtag('config', 'G-XNL4QXTBGT');
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-XNL4QXTBGT");
 </script>
