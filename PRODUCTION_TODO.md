@@ -62,6 +62,12 @@ Grouping is for context only.
       (e.g. "colleages", "postcast"), verify dates/links still resolve, check the
       description vs. body for consistency, confirm skills are right, and decide
       which link (if any) should be the `primary` CTA per project.
+- **34.** **New project: dating app.** Add a new entry to `src/content/projects/`
+      for the dating app (card thumbnail + detail media, description, skills, links).
+- **35.** **New project: D&D books.** Add a new entry for the D&D books — decide
+      whether it belongs in projects or fits better as achievement(s).
+- **36.** **New project: music album.** Add a new entry to `src/content/projects/`
+      for the music album (cover art, description, skills, listen/links).
 
 ### Blog (BIG)
 - **8.** Import all WP-exported post `.md` files into `site/src/content/blog/`
