@@ -762,11 +762,12 @@ const achievements: { img: string; date: string; desc: string }[] = [
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-[2.4rem]">
     {
       achievements.map((a) => (
-        <figure class="flex flex-col items-center text-center">
+        <figure class="achievement-card flex flex-col items-center text-center">
           <img
             src={`/achievements/${a.img}`}
             alt={a.date}
             loading="lazy"
+            decoding="async"
             class="bg-white p-1.5 border border-black/20 shadow-md max-w-full h-auto"
           />
           <figcaption class="mt-3 flex items-center justify-center gap-2 [&_a]:underline [&_a]:text-primary [&_a]:font-medium">
@@ -778,3 +779,13 @@ const achievements: { img: string; date: string; desc: string }[] = [
     }
   </div>
 </BaseLayout>
+
+<style>
+  /* Skip rendering offscreen cards until near the viewport. `auto` lets the
+     browser remember each card's real size after first paint, so the scrollbar
+     stays stable. Pairs with the imgs' loading="lazy" (deferred fetch). */
+  .achievement-card {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 400px;
+  }
+</style>
