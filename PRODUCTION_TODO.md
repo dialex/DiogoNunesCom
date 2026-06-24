@@ -68,6 +68,10 @@ Grouping is for context only.
       whether it belongs in projects or fits better as achievement(s).
 - **36.** **New project: music album.** Add a new entry to `src/content/projects/`
       for the music album (cover art, description, skills, listen/links).
+- **37.** **Proofread English across the projects section.** Pass over every project
+      `description` + body in `src/content/projects/*.md` for grammar, spelling,
+      phrasing and tense consistency (native-sounding, not just typo-free). Narrower
+      than task 33's content review — purely a language/copy-edit pass.
 
 ### Blog (BIG)
 - **8.** Import all WP-exported post `.md` files into `site/src/content/blog/`
@@ -93,11 +97,6 @@ Grouping is for context only.
       `badge-secondary` date pills on achievements/cards) and link styling across
       the site for consistency with the emerald theme. Tune the daisyUI theme
       tokens if needed.
-- **32.** **Achievements page — consider infinite/lazy loading.** The achievements
-      grid renders the full list (60+ images) on one page. Consider paginating or
-      infinite-scrolling (load images in batches as the user scrolls) so the page
-      paints faster and doesn't fetch every image up front. Images already use
-      `loading="lazy"`, so weigh whether this is worth the added JS.
 
 ### Infrastructure / build
 - **31.** **Review & optimise all images.** Audit every image across the site
@@ -107,6 +106,10 @@ Grouping is for context only.
       formats (WebP/AVIF) via Astro's `<Image>`/`getImage`, **interlaced/progressive
       PNG/JPEG** so images render top-to-bottom while loading, and a build-time
       compression step so large assets can't slip in again.
+      **Start with the achievements page** (`public/achievements/`, 148 imgs / ~11M):
+      migrating those to Astro `<Image>` is what task 32 deferred here — it auto-derives
+      `width`/`height` (kills layout shift) and emits WebP/AVIF + `srcset`. The cheap
+      no-JS wins (`decoding="async"` + `content-visibility:auto`) are already in place.
 - **17.** **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
 - **18.** **Astro `base`** set for the deploy target: `/DiogoNunesCom/` for the subpath,
       or `/` if DNS is flipped to the custom domain at cut-over.

@@ -1,6 +1,6 @@
 ---
-title: "Android Apps"
-description: "DARERER, the app that dares you to be kind, nice or naughty."
+title: "Android app"
+description: "DARERER, my first (and last) Android app."
 image: "/projects/android-apps.png"
 detailImage: "/projects/android-apps-detail.png"
 date: "2016"
@@ -11,5 +11,4 @@ links:
 badge: "Work"
 ---
 
-[DARERER](https://github.com/dialex/darerer) is the app that dares you to be
-kind, nice or naughty.
+[DARERER](https://github.com/dialex/darerer) was an app that dared you every day to be kind, nice or naughty.

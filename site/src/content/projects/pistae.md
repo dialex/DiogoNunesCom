@@ -1,19 +1,15 @@
 ---
 title: "PISTAE"
-description: "A student-run portal that centralizes information to help students increase their academic success."
+description: "A hub of information and mentoring to help students increase their academic success."
 image: "/projects/pistae.png"
 date: "2011-2025"
-skills: ["Wordpress", "Woocommerce", "InkScape", "Leadership", "Mentorship"]
+skills: ["Wordpress", "Woocommerce", "InkScape", "Logo design", "Leadership", "Mentorship"]
 links:
   - label: "Website"
     url: "https://pistae.ist.utl.pt/"
 badge: "Work"
 ---
 
-PISTAE _(Portal do IST de Apoio e entreajuda dos Estudantes)_ was created to
-centralize information that may help students increase their academic success.
-PISTAE has institutional support and is maintained voluntarily by students for
-students.
+PISTAE _(Portal do IST de Apoio e entreajuda dos Estudantes)_ was created to centralize information that may help students increase their academic success.
 
-This project evolved into estudarinformatica.info, where I personally mentored
-students that want to study computer science.
+It had institutional support and was maintained voluntarily by students for students. After finishing university, the platform evolved into _estudarinformatica.info_, where I personally mentored ~30 students that wanted to study computer science.

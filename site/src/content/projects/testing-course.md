@@ -1,10 +1,10 @@
 ---
-title: "Testing Course"
-description: "An open-source online course that teaches testing to newcomers. #LearningByTeaching"
+title: "Testing course"
+description: "An open-source online course that teaches testing to newcomers."
 image: "/projects/testing-course.png"
 detailImage: "/projects/testing-course-detail.png"
-date: "2018"
-skills: ["Testing", "Research", "Writing", "Markdown", "GitHub", "Agile", "CI", "CD"]
+date: "2018-2020"
+skills: ["Testing", "Research", "Writing", "Markdown", "GitHub", "Agile", "CI/CD"]
 links:
   - label: "Source"
     url: "https://github.com/dialex/start-testing"
@@ -17,6 +17,4 @@ links:
 badge: "Work"
 ---
 
-I wanted to learn more about testing, so I pushed myself to write an online
-course that teaches testing to newcomers. It is open-source, hence anyone can
-contribute to keep it always up to date and unbiased. #LearningByTeaching
+I wanted to learn more about testing, so I pushed myself to write an online course that taught testing to newbies. It is open-source, so anyone can learn or contribute. `#LearningByTeaching`
