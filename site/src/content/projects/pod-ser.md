@@ -1,6 +1,6 @@
 ---
 title: "Pod Ser"
-description: "A podcast in Portuguese, just because friends told me my voice was relaxing."
+description: "A podcast in Portuguese, just because friends said my voice was relaxing."
 image: "/projects/pod-ser.png"
 date: "2023-2025"
 skills: ["Podcasting", "Public speaking", "Storytelling", "Audio editing", "Davinci Resolve", "Logo design"]

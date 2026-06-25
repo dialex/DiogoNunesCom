@@ -54,12 +54,6 @@ Grouping is for context only.
 - **29.** **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
       CTAs, and the "last projects"/"latest from blog" sections once more real
       content exists — make sure it reads well and reflects the final site.
-- **34.** **New project: dating app.** Add a new entry to `src/content/projects/`
-      for the dating app (card thumbnail + detail media, description, skills, links).
-- **35.** **New project: D&D books.** Add a new entry for the D&D books — decide
-      whether it belongs in projects or fits better as achievement(s).
-- **36.** **New project: music album.** Add a new entry to `src/content/projects/`
-      for the music album (cover art, description, skills, listen/links).
 - **37.** **Proofread English across the projects section.** Pass over every project
       `description` + body in `src/content/projects/*.md` for grammar, spelling,
       phrasing and tense consistency (native-sounding, not just typo-free). Narrower

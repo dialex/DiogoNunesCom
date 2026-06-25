@@ -10,7 +10,7 @@ import createSlug from "../lib/createSlug";
 const pickByIds = (collection, ids) =>
   ids.map((id) => collection.find((e) => e.id === id)).filter((e) => e !== undefined);
 
-const featuredProjectIds = ["pod-ser", "jcolor", "photography"];
+const featuredProjectIds = ["pod-ser", "photography", "jcolor"];
 const last_projects = pickByIds(await getCollection("projects"), featuredProjectIds);
 
 const featuredPostIds = ["post1", "post2", "post3"];
@@ -34,7 +34,7 @@ const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold font-heading mb-2">My last projects</div>
+    <div class="text-3xl w-full font-bold font-heading mb-2">My projects</div>
   </div>
 
   {
