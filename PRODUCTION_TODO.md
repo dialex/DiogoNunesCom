@@ -48,9 +48,6 @@ are removed to keep this lean — numbers are stable handles and are never reuse
 Grouping is for context only.
 
 ### Content & pages
-- **5.** **achiev-generator tool:** update the internal generator in
-      `assets/achiev-generator/` (`index.js`, `template.html`, `achievs.csv`) so its
-      output matches the new achievements page markup/design above.
 - **6.** **Hireme / CV page — DECISION PENDING.** Either (1) embed the existing
       `/hireme` page/design largely as-is, or (2) migrate the résumé content into the
       redesign look (Astrofy `cv.astro` has a timeline). Pick before building.
