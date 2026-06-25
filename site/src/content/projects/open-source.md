@@ -2,7 +2,7 @@
 title: "Open Source"
 description: "A collection of open-source projects I built and maintain on GitHub."
 image: "/projects/open-source.png"
-date: "Ongoing"
+date: "2012-2026"
 skills: ["Java", "C#", "Python", "Ruby"]
 links:
   - label: "GitHub repositories"

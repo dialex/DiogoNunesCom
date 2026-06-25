@@ -2,7 +2,7 @@
 title: "Talks"
 description: "Public speaking at conferences and workshops, despite being a shy person."
 image: "/projects/talks.png"
-date: "Various"
+date: "2012-today"
 skills: ["Public speaking", "Presentation zen", "Slide:ology"]
 links:
   - label: "Slides"

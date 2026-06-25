@@ -57,11 +57,6 @@ Grouping is for context only.
 - **29.** **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
       CTAs, and the "last projects"/"latest from blog" sections once more real
       content exists — make sure it reads well and reflects the final site.
-- **33.** **Review each project's content (`src/content/projects/*.md`).** Go through
-      every project entry for accuracy, voice, and completeness: fix migrated typos
-      (e.g. "colleages", "postcast"), verify dates/links still resolve, check the
-      description vs. body for consistency, confirm skills are right, and decide
-      which link (if any) should be the `primary` CTA per project.
 - **34.** **New project: dating app.** Add a new entry to `src/content/projects/`
       for the dating app (card thumbnail + detail media, description, skills, links).
 - **35.** **New project: D&D books.** Add a new entry for the D&D books — decide

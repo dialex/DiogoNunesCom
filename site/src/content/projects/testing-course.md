@@ -1,6 +1,6 @@
 ---
-title: "Testing course"
-description: "An open-source online course that teaches testing to newcomers."
+title: "Start Testing"
+description: "An open-source online testing course that teaches testing to newbies."
 image: "/projects/testing-course.png"
 detailImage: "/projects/testing-course-detail.png"
 date: "2018-2020"

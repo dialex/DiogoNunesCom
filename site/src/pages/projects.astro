@@ -4,15 +4,31 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 import createSlug from "../lib/createSlug";
 
-// `date` is freeform ("2016", "2011-2025", "Since 2008", "Various"). Sort by the
-// latest year mentioned, newest first; entries with no year (e.g. "Various") last.
-const latestYear = (date: string) => {
-  const years = date.match(/\d{4}/g);
-  return years ? Math.max(...years.map(Number)) : 0;
-};
-const projects = (await getCollection("projects")).sort(
-  (a, b) => latestYear(b.data.date) - latestYear(a.data.date),
-);
+// Custom display order — this list IS the page. Each id is a project filename
+// (without `.md`) in src/content/projects/. Reorder by moving lines; a new
+// project only shows once added here. The trailing comment is just the date.
+const order = [
+  "pod-ser",
+  "testing-course",
+  "photography",
+  "the-geeky-gecko",
+  "jcolor",
+  "no-code-website",
+  "android-apps",
+  "birthday-slack-bot",
+  "yumyutton",
+  "dcid",
+  "google-earth-typewriter",
+  "code4pt",
+  "open-source",
+  "readers-forum",
+  "pistae",
+  "talks",
+  "research",
+];
+
+const allProjects = await getCollection("projects");
+const projects = order.map((id) => allProjects.find((p) => p.id === id)).filter((p) => p !== undefined);
 ---
 
 <BaseLayout title="Projects" sideBarActiveItemID="projects">
