@@ -110,6 +110,10 @@ Grouping is for context only.
       migrating those to Astro `<Image>` is what task 32 deferred here — it auto-derives
       `width`/`height` (kills layout shift) and emits WebP/AVIF + `srcset`. The cheap
       no-JS wins (`decoding="async"` + `content-visibility:auto`) are already in place.
+- **38.** **Review redirects in `astro.config.mjs`.** Audit the configured `redirects`
+      — some are obsolete (point to pages/routes that no longer exist or are no longer
+      relevant post-redesign). Prune the dead ones, confirm the rest still resolve to
+      valid targets, and align with the permalink/cut-over decisions (tasks 10, 21–25).
 - **17.** **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
 - **18.** **Astro `base`** set for the deploy target: `/DiogoNunesCom/` for the subpath,
       or `/` if DNS is flipped to the custom domain at cut-over.
