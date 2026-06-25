@@ -34,6 +34,34 @@ const personSchema = {
 };
 ---
 
+<!-- Theme: apply the saved choice (or OS preference) before paint to avoid a flash.
+     Runs synchronously in <head>; re-applies after Astro view-transition swaps and
+     handles clicks on any [data-theme-toggle] button. -->
+<script is:inline>
+  (function () {
+    function effectiveTheme() {
+      var saved = localStorage.getItem("theme");
+      if (saved === "emerald" || saved === "dim") return saved;
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dim" : "emerald";
+    }
+    function applyTheme(theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      document.documentElement.classList.toggle("is-dark", theme === "dim");
+    }
+    applyTheme(effectiveTheme());
+    // <html> attributes reset on client-side navigation — restore the theme.
+    document.addEventListener("astro:after-swap", function () {
+      applyTheme(effectiveTheme());
+    });
+    document.addEventListener("click", function (e) {
+      if (!e.target.closest || !e.target.closest("[data-theme-toggle]")) return;
+      var next = document.documentElement.getAttribute("data-theme") === "dim" ? "emerald" : "dim";
+      localStorage.setItem("theme", next);
+      applyTheme(next);
+    });
+  })();
+</script>
+
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />

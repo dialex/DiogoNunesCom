@@ -1,7 +1,10 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+/* Light = emerald (default), dark = dim. `--prefersdark` makes daisyUI apply the
+   dark theme under prefers-color-scheme:dark for no-JS users; the inline script in
+   BaseHead sets an explicit data-theme (saved choice or OS) on top of that. */
 @plugin "daisyui" {
-  themes: all;
+  themes: emerald --default, dim --prefersdark;
 }
 
 /* Typography: Lato body, Fraunces headings (loaded via Google Fonts in BaseHead). */
@@ -32,4 +35,16 @@ h6,
 
 .time-line-container > div:last-child .education__time > .education__line {
   display: none;
+}
+
+/* Theme toggle: show the icon for the current mode (sun in light, moon in dark).
+   The `.is-dark` class is set on <html> by the inline theme script in BaseHead. */
+[data-theme-toggle] .icon-moon {
+  display: none;
+}
+.is-dark [data-theme-toggle] .icon-sun {
+  display: none;
+}
+.is-dark [data-theme-toggle] .icon-moon {
+  display: inline;
 }

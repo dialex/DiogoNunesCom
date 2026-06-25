@@ -21,7 +21,8 @@ const {
 ---
 
 <!doctype html>
-<html lang="en" data-theme="emerald">
+<!-- data-theme is set by the inline theme script in BaseHead (saved choice / OS pref). -->
+<html lang="en">
   <head>
     <BaseHead title={title} description={description} image={image} , ogType={ogType} />
     {TRANSITION_API && <ClientRouter />}

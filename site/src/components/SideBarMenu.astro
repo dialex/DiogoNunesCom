@@ -1,16 +1,25 @@
 ---
+import ThemeToggle from "./ThemeToggle.astro";
 const { sideBarActiveItemID } = Astro.props;
 const activeClass = "bg-base-300"; // For primary color replace with `active` class
 ---
 
-<ul class="menu w-full grow shrink menu-md overflow-y-auto">
-  <li><a class="py-3 text-base" id="home" href="/">Home</a></li>
-  <li><a class="py-3 text-base" id="projects" href="/projects">Projects</a></li>
-  <li><a class="py-3 text-base" id="blog" href="/blog/">Blog</a></li>
-  <li><a class="py-3 text-base" id="books" href="/books">Books</a></li>
-  <li><a class="py-3 text-base" id="cv" href="/cv">CV</a></li>
-  <li><a class="py-3 text-base" id="achievements" href="/achievements">Achievements</a></li>
-</ul>
+<!-- grow wrapper keeps the toggle attached right below the menu items (instead of
+     the menu itself growing and pushing the toggle to the very bottom). -->
+<div class="grow shrink overflow-y-auto flex flex-col">
+  <ul class="menu w-full menu-md">
+    <li><a class="py-3 text-base" id="home" href="/">Home</a></li>
+    <li><a class="py-3 text-base" id="projects" href="/projects">Projects</a></li>
+    <li><a class="py-3 text-base" id="blog" href="/blog/">Blog</a></li>
+    <li><a class="py-3 text-base" id="books" href="/books">Books</a></li>
+    <li><a class="py-3 text-base" id="cv" href="/cv">CV</a></li>
+    <li><a class="py-3 text-base" id="achievements" href="/achievements">Achievements</a></li>
+  </ul>
+  <div class="divider my-1 w-4/5 self-center"></div>
+  <div class="flex justify-center">
+    <ThemeToggle />
+  </div>
+</div>
 
 <script define:vars={{ sideBarActiveItemID: sideBarActiveItemID, activeClass: activeClass }}>
   const activeItemElem = document.getElementById(sideBarActiveItemID);
