@@ -10,13 +10,9 @@ const latestYear = (date: string) => {
   const years = date.match(/\d{4}/g);
   return years ? Math.max(...years.map(Number)) : 0;
 };
-// All work first, then hobbies; within each group, most recent first.
-const isHobby = (badge?: string) => badge === "Hobby";
-const projects = (await getCollection("projects")).sort((a, b) => {
-  const groupDiff = Number(isHobby(a.data.badge)) - Number(isHobby(b.data.badge));
-  if (groupDiff !== 0) return groupDiff;
-  return latestYear(b.data.date) - latestYear(a.data.date);
-});
+const projects = (await getCollection("projects")).sort(
+  (a, b) => latestYear(b.data.date) - latestYear(a.data.date),
+);
 ---
 
 <BaseLayout title="Projects" sideBarActiveItemID="projects">
@@ -33,7 +29,6 @@ const projects = (await getCollection("projects")).sort((a, b) => {
           desc={project.data.description}
           date={project.data.date}
           skills={project.data.skills}
-          badge={project.data.badge}
           url={`/projects/${createSlug(project.data.title, project.id)}`}
         />
         {index < projects.length - 1 && <div class="divider my-0" />}

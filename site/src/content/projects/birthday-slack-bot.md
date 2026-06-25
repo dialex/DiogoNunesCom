@@ -7,7 +7,6 @@ skills: ["Ruby", "Slack", "Bots", "JSON", "HTTP", "Heroku"]
 links:
   - label: "Source"
     url: "https://github.com/dialex/BirthdaySlackBot"
-badge: "Work"
 ---
 
 The purpose of `B-DAY-BOP` is to congratulate your colleages on their birthdays in Slack. Customizable and deployable to Heroku for free.

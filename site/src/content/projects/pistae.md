@@ -7,7 +7,6 @@ skills: ["Wordpress", "Woocommerce", "InkScape", "Logo design", "Leadership", "M
 links:
   - label: "Website"
     url: "https://pistae.ist.utl.pt/"
-badge: "Hobby"
 ---
 
 PISTAE _(Portal do IST de Apoio e entreajuda dos Estudantes)_ was created to centralize information that may help students increase their academic success.

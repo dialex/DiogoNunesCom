@@ -7,7 +7,6 @@ skills: ["Javascript", "jQuery", "Twitter Bootstrap", "Fittext", "Google Maps AP
 links:
   - label: "Source"
     url: "https://github.com/dialex/GoogleEarthTypewriter"
-badge: "Work"
 ---
 
 During the first ever Google DevFest Portugal we had to come up with an idea (using Google technology) and implement it in 24h.

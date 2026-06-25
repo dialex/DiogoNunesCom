@@ -8,7 +8,6 @@ skills: ["No-code", "Airtable", "Pory", "Civic coding"]
 links:
   - label: "Website"
     url: "https://viver-no-montijo.pory.app/"
-badge: "Work"
 ---
 
 [Viver no Montijo](https://viver-no-montijo.pory.app/) was a website that highlighted reasons (infrastructures, services or organizations) to live in my city. It was created without a single line of code. The data comes from [Airtable](https://airtable.com/). The website was generated and hosted by [Pory](https://pory.io/).

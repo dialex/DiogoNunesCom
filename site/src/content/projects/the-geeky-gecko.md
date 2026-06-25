@@ -7,7 +7,6 @@ skills: ["Wordpress", "Copywriting", "Online Marketing", "Social Marketing", "SE
 links:
   - label: "Blog"
     url: "/blog/"
-badge: "Hobby"
 ---
 
 My [personal blog](/blog/) features technology, photography, books, and life. I share my experiences so you can avoid my mistakes and leverage on my successes.

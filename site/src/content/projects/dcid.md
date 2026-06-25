@@ -11,7 +11,6 @@ links:
     url: "https://github.com/code4pt/dcid"
   - label: "Talk @ Citizenship 2.0 (Video)"
     url: "https://youtu.be/BP92frlc0Vc"
-badge: "Work"
 ---
 
 DCID is an online collaborative platform that enables any organization to collect, debate and vote ideas from its community.

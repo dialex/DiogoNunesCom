@@ -10,7 +10,6 @@ links:
     url: "https://github.com/dialex/JColor"
   - label: "Documentation"
     url: "https://dialex.github.io/JColor/"
-badge: "Work"
 ---
 
 JColor is a Java library that offers a fluent API to format colored messages on a terminal. It has been starred by `500+` devs and mentioned on `20+` books.

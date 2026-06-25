@@ -7,7 +7,6 @@ skills: ["Open Source", "Civic coding", "Community"]
 links:
   - label: "Code4PT"
     url: "https://github.com/code4pt/"
-badge: "Hobby"
 ---
 
 Pointing out what's wrong is not enough, we want to improve people's life. We want solutions and we're not waiting... _we're creating them._

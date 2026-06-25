@@ -8,7 +8,6 @@ skills: ["Android", "Java", "Android Studio", "Fabric.io", "AdMob", "Material de
 links:
   - label: "Hobby"
     url: "https://github.com/dialex/darerer"
-badge: "Work"
 ---
 
 [DARERER](https://github.com/dialex/darerer) was an app that dared you every day to be kind, nice or naughty.

@@ -15,7 +15,6 @@ links:
     url: "/portraits"
   - label: "City"
     url: "/fotos/montijo"
-badge: "Hobby"
 ---
 
 Photography gives me the opportunity to discover places and people. With time, photography evolved into a passion.

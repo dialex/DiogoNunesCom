@@ -13,7 +13,6 @@ links:
     url: "https://pca.st/68yruiec"
   - label: "Others"
     url: "/pod"
-badge: "Hobby"
 ---
 
 Several friends and work colleagues told me they enjoyed listening to me. Apparently my voice was relaxing. So I decided to create a postcast.

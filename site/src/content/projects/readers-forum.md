@@ -7,7 +7,6 @@ skills: ["phpBB", "Community management", "Online marketing", "Negotiation"]
 links:
   - label: "Goodreads"
     url: "https://www.goodreads.com/"
-badge: "Hobby"
 ---
 
 _Forum de Leitores_ was created as an online meeting point for national writers and readers to share book reviews, publicize their works, and share ideas.

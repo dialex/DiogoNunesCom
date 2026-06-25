@@ -7,7 +7,6 @@ skills: ["Java", "C#", "Python", "Ruby"]
 links:
   - label: "GitHub repositories"
     url: "https://github.com/dialex/"
-badge: "Work"
 ---
 
 A collection of open-source projects I built and maintain:

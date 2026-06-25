@@ -38,7 +38,6 @@ const projectSchema = z.object({
       }),
     )
     .optional(),
-  badge: z.string().optional(),
 });
 
 export type BlogSchema = z.infer<typeof blogSchema>;
