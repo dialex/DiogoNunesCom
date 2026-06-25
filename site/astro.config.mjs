@@ -18,7 +18,8 @@ export default defineConfig({
     "/purpose": "https://leanpub.com/purpose",
     "/anime": "https://anilist.co/user/dialexxx/animelist/Completed",
     "/ateneu": "https://sites.google.com/view/ateneumontijo",
-    // Photography (500px / Instagram)
+    // Photography (Unsplash / 500px / Instagram)
+    "/unsplash": "https://unsplash.com/@dialex",
     "/fotos": "https://500px.com/p/diogonunes?view=galleries",
     "/photos": "https://500px.com/p/diogonunes?view=galleries",
     "/travel": "https://500px.com/p/diogonunes?view=galleries",
