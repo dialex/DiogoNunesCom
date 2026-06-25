@@ -7,8 +7,13 @@ import createSlug from "../lib/createSlug";
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const last_posts = posts.slice(0, 3);
 
-const projects = (await getCollection("projects")).sort((a, b) => b.data.date.localeCompare(a.data.date));
-const last_projects = projects.slice(0, 3);
+// Hand-picked projects to feature on the homepage, in display order.
+// Each id is the project filename in src/content/projects/ without `.md`.
+const featuredIds = ["pod-ser", "jcolor", "photography"];
+const allProjects = await getCollection("projects");
+const last_projects = featuredIds
+  .map((id) => allProjects.find((p) => p.id === id))
+  .filter((p) => p !== undefined);
 ---
 
 <BaseLayout sideBarActiveItemID="home">
@@ -28,7 +33,7 @@ const last_projects = projects.slice(0, 3);
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold font-heading mb-2">My last projects {"</>"}</div>
+    <div class="text-3xl w-full font-bold font-heading mb-2">My last projects</div>
   </div>
 
   {
@@ -40,7 +45,6 @@ const last_projects = projects.slice(0, 3);
           desc={project.data.description}
           url={"/projects/" + createSlug(project.data.title, project.id)}
           target="_self"
-          badge={project.data.badge}
         />
         <div class="divider my-0" />
       </>
