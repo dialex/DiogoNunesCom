@@ -1,6 +1,6 @@
 ---
 title: "DCID"
-description: "An online collaborative platform that lets an organization collect, debate and vote ideas from its community."
+description: "An online platform for orgs to collect, debate and vote ideas from their community."
 image: "/projects/dcid.png"
 date: "2014"
 skills: ["Ruby", "Rails", "Git", "Heroku", "Twitter Bootstrap", "Business Model Canvas"]
@@ -14,7 +14,6 @@ links:
 badge: "Work"
 ---
 
-DCID is an online collaborative platform that enables an organization to
-collect, debate and vote ideas from its community. I developed this open-source
-platform for the Portuguese participatory budgeting initiatives, during an
-entrepreneurship programme.
+DCID is an online collaborative platform that enables any organization to collect, debate and vote ideas from its community.
+
+I developed this open-source platform for the Portuguese participatory budgeting initiatives, during an entrepreneurship contest.

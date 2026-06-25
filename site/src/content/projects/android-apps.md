@@ -6,7 +6,7 @@ detailImage: "/projects/android-apps-detail.png"
 date: "2016"
 skills: ["Android", "Java", "Android Studio", "Fabric.io", "AdMob", "Material design"]
 links:
-  - label: "Source"
+  - label: "Hobby"
     url: "https://github.com/dialex/darerer"
 badge: "Work"
 ---

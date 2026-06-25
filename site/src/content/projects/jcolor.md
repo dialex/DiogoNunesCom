@@ -13,6 +13,6 @@ links:
 badge: "Work"
 ---
 
-JColor is a Java library that offers a fluent API to format colored messages on a terminal. It has been starred by 500+ devs and mentioned on 20+ books.
+JColor is a Java library that offers a fluent API to format colored messages on a terminal. It has been starred by `500+` devs and mentioned on `20+` books.
 
 I extracted it from a university project and then open-sourced it in 2011. It was rebuilt in 2016 and modernised again in 2020 with a fluent API.
