@@ -48,12 +48,9 @@ are removed to keep this lean — numbers are stable handles and are never reuse
 Grouping is for context only.
 
 ### Content & pages
-- **6.** **Hireme / CV page — DECISION PENDING.** Either (1) embed the existing
+- **6.** **Hireme / CV page — DECISION PENDING.** Merge CV page into About me. Either (1) embed the existing
       `/hireme` page/design largely as-is, or (2) migrate the résumé content into the
       redesign look (Astrofy `cv.astro` has a timeline). Pick before building.
-- **29.** **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
-      CTAs, and the "last projects"/"latest from blog" sections once more real
-      content exists — make sure it reads well and reflects the final site.
 
 ### Blog (BIG)
 - **8.** Import all WP-exported post `.md` files into `site/src/content/blog/`
@@ -66,16 +63,12 @@ Grouping is for context only.
 - **11.** Confirm index, tag pages, and RSS generate correctly.
 
 ### Look & feel
-- **13.** **Light/dark theme following the OS** (one task, two requirements):
-      (a) provide coherent light **and** dark themes; (b) auto-detect the user's OS
-      preference (`prefers-color-scheme`) and default to it on first load, with the
-      manual toggle still working on top.
 - **27.** **Revisit heading font once there's more content.** Currently Lato body +
       **Poppins** headings. Re-evaluate switching the title font to **Fraunces**
       (the serif finalist) once more real pages/content exist, to judge it in
       context. One-line change: `--font-heading` in `global.css` + the font load
       in `BaseHead.astro`.
-- **28.** **Check badge & link colors.** Review the color/contrast of badges (e.g. the
+- **28.** **Check badge & link colors (light/dark).** Review the color/contrast of badges (e.g. the
       `badge-secondary` date pills on achievements/cards) and link styling across
       the site for consistency with the emerald theme. Tune the daisyUI theme
       tokens if needed.

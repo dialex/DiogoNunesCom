@@ -22,19 +22,24 @@ const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
     <div class="text-5xl font-bold font-heading">I'm Diogo 🦎</div>
     <div class="text-3xl py-3 font-heading">... the Geeky Gecko</div>
     <div class="py-2">
-      <text class="text-lg">
+      <p class="text-lg">
         I'm a Quality Advocate (QA) from Portugal. My passion is using technology to improve people's lives. In my spare
-        time I'm a podcaster, photographer, writer, blogger, and an ex-mentor to school graduates.
-      </text>
+        time I'm an amateur
+        <a href="/pod">podcaster</a>,
+        <a href="/photos">photographer</a>,
+        <a href="/blog/">blogger</a>,
+        <a href="/books">writer</a> and <a href="/udemy">teacher</a>.
+      </p>
     </div>
     <div class="mt-8">
-      <a class="btn" href="https://linkedin.com/in/nunesdiogo/" target="_blank"> Let's connect!</a>
-      <a href="/blog/" class="btn btn-outline ml-5"> Read the blog </a>
+      <a class="btn" href="https://linkedin.com/in/nunesdiogo/" target="_blank">Let's connect!</a>
+      <a href="/about" class="btn btn-outline ml-5">About me</a>
+      <a href="/blog/" class="btn btn-outline ml-5">Read the blog</a>
     </div>
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold font-heading mb-2">My projects</div>
+    <div class="text-3xl w-full font-bold font-heading mb-2">Favorite projects</div>
   </div>
 
   {
@@ -57,7 +62,7 @@ const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold font-heading mb-5 mt-10">Latest from blog</div>
+    <div class="text-3xl w-full font-bold font-heading mb-5 mt-10">Favorite posts</div>
   </div>
 
   {
