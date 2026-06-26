@@ -11,11 +11,11 @@ links:
 
 A collection of open-source projects I built and maintain:
 
-[JColor](https://github.com/dialex/JColor) [Java], a fluent API to format messages with a colored font/background.
+[JColor](https://github.com/dialex/JColor) [Java], a fluent API to format messages with a coloured font/background.
 
 [Cypress Sapling](https://github.com/dialex/cypress-sapling) [JS], a template for Cypress automation (batteries included).
 
-[Crypto Price Fetcher](https://github.com/dialex/crypto-price-fetcher) [Python/Ruby], fetches prices of crypto currencies.
+[Crypto Price Fetcher](https://github.com/dialex/crypto-price-fetcher) [Python/Ruby], fetches prices of cryptocurrencies.
 
 [DiogoNunes.com](https://github.com/dialex/DiogoNunesCom) [HTML/CSS/JS], this website.
 

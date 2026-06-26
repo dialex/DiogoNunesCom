@@ -9,6 +9,6 @@ links:
     url: "https://pistae.ist.utl.pt/"
 ---
 
-PISTAE _(Portal do IST de Apoio e entreajuda dos Estudantes)_ was created to centralize information that may help students increase their academic success.
+PISTAE _(Portal do IST de Apoio e entreajuda dos Estudantes)_ was created to centralise information that may help students increase their academic success.
 
-It had institutional support and was maintained voluntarily by students for students. After finishing university, the platform evolved into _estudarinformatica.info_, where I personally mentored ~30 students that wanted to study computer science.
+It had institutional support and was maintained voluntarily by students for students. After finishing university, the platform evolved into _estudarinformatica.info_, where I personally mentored ~30 students who wanted to study computer science.

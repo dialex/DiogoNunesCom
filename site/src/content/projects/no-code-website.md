@@ -10,4 +10,4 @@ links:
     url: "https://viver-no-montijo.pory.app/"
 ---
 
-[Viver no Montijo](https://viver-no-montijo.pory.app/) was a website that highlighted reasons (infrastructures, services or organizations) to live in my city. It was created without a single line of code. The data comes from [Airtable](https://airtable.com/). The website was generated and hosted by [Pory](https://pory.io/).
+[Viver no Montijo](https://viver-no-montijo.pory.app/) was a website that highlighted reasons (infrastructures, services or organisations) to live in my city. It was created without a single line of code. The data comes from [Airtable](https://airtable.com/). The website was generated and hosted by [Pory](https://pory.io/).

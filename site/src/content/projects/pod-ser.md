@@ -15,6 +15,6 @@ links:
     url: "/pod"
 ---
 
-Several friends and work colleagues told me they enjoyed listening to me. Apparently my voice was relaxing. So I decided to create a postcast.
+Several friends and work colleagues told me they enjoyed listening to me. Apparently my voice was relaxing. So I decided to create a podcast.
 
 _New episodes on the first day of each month. `2` seasons, `24` episodes._

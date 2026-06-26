@@ -9,4 +9,4 @@ links:
     url: "https://github.com/dialex/BirthdaySlackBot"
 ---
 
-The purpose of `B-DAY-BOP` is to congratulate your colleages on their birthdays in Slack. Customizable and deployable to Heroku for free.
+The purpose of `B-DAY-BOP` is to congratulate your colleagues on their birthdays in Slack. Customisable and deployable to Heroku for free.

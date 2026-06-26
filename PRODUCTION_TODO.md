@@ -54,10 +54,6 @@ Grouping is for context only.
 - **29.** **Review homepage content (`index.astro`).** Revisit the hero copy, tagline,
       CTAs, and the "last projects"/"latest from blog" sections once more real
       content exists — make sure it reads well and reflects the final site.
-- **37.** **Proofread English across the projects section.** Pass over every project
-      `description` + body in `src/content/projects/*.md` for grammar, spelling,
-      phrasing and tense consistency (native-sounding, not just typo-free). Narrower
-      than task 33's content review — purely a language/copy-edit pass.
 
 ### Blog (BIG)
 - **8.** Import all WP-exported post `.md` files into `site/src/content/blog/`

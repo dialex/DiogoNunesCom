@@ -17,7 +17,7 @@ links:
     url: "/fotos/montijo"
 ---
 
-Photography gives me the opportunity to discover places and people. I focus on capturing moments: modest and realistic, colorful or colorless.
+Photography gives me the opportunity to discover places and people. I focus on capturing moments: modest and realistic, colourful or colourless.
 
 I offer my best photos for free on [Unsplash](/unsplash), which were viewed **68 million** times and downloaded **450 000+** times, putting me in the top 10% of contributors.
 

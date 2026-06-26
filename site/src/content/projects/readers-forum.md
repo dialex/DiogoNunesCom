@@ -9,9 +9,9 @@ links:
     url: "https://www.goodreads.com/"
 ---
 
-_Forum de Leitores_ was created as an online meeting point for national writers and readers to share book reviews, publicize their works, and share ideas.
+_Forum de Leitores_ was created as an online meeting point for national writers and readers to share book reviews, publicise their works, and share ideas.
 
-It was shutdown after a year in favor of
+It was shut down after a year in favour of
 [Amazon's Goodreads](https://www.goodreads.com/). No shame in that.
 
 Statistics: `114` registered members, `340` topics, `1652` likes on FB page
