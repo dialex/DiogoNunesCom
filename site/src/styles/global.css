@@ -37,18 +37,13 @@ h6,
   display: none;
 }
 
-/* Inline content links: coloured + underlined site-wide so they read as links.
-   Opt-outs: buttons, badges, nav menu items, icon/social links (aria-label), and
-   structural wrappers that wrap a card/image block (a:has(> div|img)). Prose links
-   are handled by the typography plugin and match this look. */
-a:not(.btn):not(.badge):not([aria-label]):not(:has(> div)):not(:has(> img)) {
+/* Inline content links live inside paragraphs, so `p a` styles them site-wide
+   without an opt-out list: buttons, nav, and badges aren't in <p>, and card
+   wrappers wrap a <p> rather than sit inside one. Prose links match this look. */
+p a {
   color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 0.15em;
-}
-.menu a {
-  color: inherit;
-  text-decoration: none;
 }
 
 /* Theme toggle: show the icon for the current mode (sun in light, moon in dark).
