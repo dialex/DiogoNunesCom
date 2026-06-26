@@ -4,7 +4,9 @@
    dark theme under prefers-color-scheme:dark for no-JS users; the inline script in
    BaseHead sets an explicit data-theme (saved choice or OS) on top of that. */
 @plugin "daisyui" {
-  themes: emerald --default, dim --prefersdark;
+  themes:
+    emerald --default,
+    dim --prefersdark;
 }
 
 /* Typography: Lato body, Fraunces headings (loaded via Google Fonts in BaseHead). */

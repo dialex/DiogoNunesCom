@@ -1,5 +1,5 @@
 ---
-title: "\"Lenda Lenga\""
+title: '"Lenda Lenga"'
 description: "An amateur music album of medieval songs retelling Portuguese legends."
 image: "/projects/lenda-lenga.png"
 detailImage: "/projects/lenda-lenga-cover.png"
