@@ -90,33 +90,6 @@ const testimonials = [
   },
 ];
 
-const portfolio = [
-  {
-    title: "JColor",
-    img: "/hireme/assets/img/portfolio/work-JCDP.png",
-    url: "https://github.com/dialex/JColor",
-    desc: "A Java library that offers a fluent API to format messages on a terminal with a colored font or background.",
-  },
-  {
-    title: "Geeky Gecko blog",
-    img: "/hireme/assets/img/portfolio/hobbie-Blog.png",
-    url: "https://diogonunes.com/blog",
-    desc: "My personal blog features testing, technology, photography, and life. I share my experiences so you can avoid my mistakes and leverage my successes.",
-  },
-  {
-    title: "Testing e-course",
-    img: "/hireme/assets/img/portfolio/work-testing-course-preview.png",
-    url: "/testing",
-    desc: "I wanted to learn more about testing, so I pushed myself to write an online course that teaches testing to newcomers. #LearnByTeaching #OpenSource",
-  },
-  {
-    title: "Mentoring",
-    img: "/hireme/assets/img/portfolio/work-PISTAE.png",
-    url: "#",
-    desc: "I created PISTAE to centralize information that could help students increase their academic success. This evolved into EstudarInformatica.info, where I mentor students that want to study computer science.",
-  },
-];
-
 const clients = [
   { name: "MoonPay", img: "/hireme/assets/img/brands/mp.png", url: "https://www.moonpay.com/" },
   { name: "Springer Nature", img: "/hireme/assets/img/brands/sn.png", url: "https://www.springernature.com/gp" },
@@ -135,7 +108,7 @@ const clients = [
 ];
 ---
 
-<BaseLayout title="Resume" sideBarActiveItemID="cv">
+<BaseLayout title="About me" sideBarActiveItemID="about">
   <!-- Header -->
   <div class="flex flex-col sm:flex-row items-center gap-6 mb-10">
     <img src="/hireme/assets/img/avatar.jpg" width="120" height="120" alt="Diogo Nunes" class="rounded-full" />
@@ -145,6 +118,7 @@ const clients = [
       <div class="mt-3 flex flex-wrap gap-2">
         <a class="btn btn-sm" href="/cvpdf" target="_blank">Download CV</a>
         <a class="btn btn-sm btn-outline" href="https://linkedin.com/in/nunesdiogo/" target="_blank">LinkedIn</a>
+        <a class="btn btn-sm btn-outline" href="/projects/">Portfolio</a>
       </div>
     </div>
   </div>
@@ -277,30 +251,6 @@ const clients = [
   </div>
   */
   }
-
-  <!-- Portfolio -->
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold font-heading">Portfolio</div>
-  </div>
-  <div class="grid sm:grid-cols-2 gap-4 mb-10">
-    {
-      portfolio.map((p) => (
-        <a
-          href={p.url}
-          target="_blank"
-          class="card bg-base-200/40 hover:shadow-xl transition ease-in-out hover:scale-[101%] overflow-hidden"
-        >
-          <figure>
-            <img src={p.img} alt={p.title} class="w-full h-44 object-cover" />
-          </figure>
-          <div class="card-body">
-            <h3 class="card-title">{p.title}</h3>
-            <p class="text-[15px]">{p.desc}</p>
-          </div>
-        </a>
-      ))
-    }
-  </div>
 
   <!-- Clients -->
   <div class="mb-5">

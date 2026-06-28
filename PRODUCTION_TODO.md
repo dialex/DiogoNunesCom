@@ -53,8 +53,6 @@ Grouping is for context only.
       redesign look (Astrofy `cv.astro` has a timeline). Pick before building.
 
 ### Blog (BIG)
-- **10.** **Permalinks/SEO:** preserve inbound links via per-post `slug`; settle the
-      permalink scheme.
 - **11.** Confirm index, tag pages, and RSS generate correctly.
 
 ### Look & feel

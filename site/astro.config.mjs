@@ -36,9 +36,12 @@ export default defineConfig({
     "/work/personaltroller": "/projects/",
     "/work/googleearthtypewriter": "/projects/", // TODO: point at project slug once demo is migrated
     "/foto": "/projects/", // old #hobbies section
-    // Internal — CV / resume
-    "/resume": "/cv/",
-    "/cvpdf": "/cv/", // TODO: point at the resume PDF once the asset is migrated
+    // Internal — CV / about me (the résumé/about page lives at /about)
+    "/about-me": "/about/",
+    "/cv": "/about/",
+    "/hire-me": "/about/",
+    "/resume": "/about/",
+    "/cvpdf": "/about/", // TODO: point at the resume PDF once the asset is migrated
     // Internal — blog / feed (preserve the old WordPress RSS feed URLs)
     "/feed": "/rss.xml",
     "/blog/feed": "/rss.xml",
