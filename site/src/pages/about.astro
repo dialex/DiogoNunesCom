@@ -2,9 +2,11 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
 import { withBase } from "../lib/withBase";
+import { Image } from "astro:assets";
+import avatar from "../assets/avatar.jpg";
 
 // Content ported from the old /hireme résumé page. Brand logos live in
-// public/brands; the avatar reuses the site-wide public/avatar.jpg.
+// public/brands; the avatar is the site-wide src/assets/avatar.jpg.
 
 const traits = [
   {
@@ -112,7 +114,7 @@ const clients = [
 <BaseLayout title="About me" sideBarActiveItemID="about">
   <!-- Header -->
   <div class="flex flex-col sm:flex-row items-center gap-6 mb-10">
-    <img src={withBase("/avatar.jpg")} width="120" height="120" alt="Diogo Nunes" class="rounded-full" />
+    <Image src={avatar} width={120} height={120} format="webp" alt="Diogo Nunes" class="rounded-full" />
     <div>
       <div class="text-4xl font-bold font-heading">Diogo Nunes</div>
       <div class="text-xl text-primary font-heading">Quality Advocate</div>
@@ -157,7 +159,7 @@ const clients = [
   <div class="grid sm:grid-cols-2 gap-4 mb-10">
     {
       traits.map((trait) => (
-        <div class="card bg-base-200/20">
+        <div class="card bg-base-200">
           <div class="card-body">
             <h3 class="card-title">
               <span class="text-2xl">{trait.emoji}</span>
@@ -178,7 +180,7 @@ const clients = [
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
     {
       testimonials.map((t) => (
-        <div class="card bg-base-200/20 h-full">
+        <div class="card bg-base-200 h-full">
           <div class="card-body">
             <h3 class="font-semibold">
               <a href={t.url} target="_blank">

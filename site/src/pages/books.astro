@@ -1,6 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { withBase } from "../lib/withBase";
+import { Image } from "astro:assets";
+
+// Covers live in src/assets/books so Astro optimises them. Key the glob map by filename
+// to match each book's `cover` field.
+const coverModules = import.meta.glob<{ default: ImageMetadata }>("../assets/books/*.{png,jpg,jpeg,webp}", {
+  eager: true,
+});
+const coverMap: Record<string, ImageMetadata> = Object.fromEntries(
+  Object.entries(coverModules).map(([p, m]) => [p.split("/").pop()!, m.default]),
+);
 
 // Diogo's self-published books, ported from the old static /livros page.
 // Descriptions are kept in their original language (PT/EN) — the flag marks it.
@@ -79,7 +88,7 @@ const books: Book[] = [
       books.map((book) => {
         const download = book.links?.find((l) => l.download);
         return (
-          <article id={book.cover} class="flex h-full flex-col items-center text-center rounded-2xl bg-base-200/20 p-8">
+          <article id={book.cover} class="flex h-full flex-col items-center text-center rounded-2xl bg-base-200 p-8">
             <h2 class="text-2xl font-bold font-heading">{book.title}</h2>
             <div class="my-10 flex h-64 items-center pr-3">
               {download ? (
@@ -90,11 +99,27 @@ const books: Book[] = [
                   class="book"
                   aria-label={`${download.label}: ${book.title}`}
                 >
-                  <img src={withBase(`/books/${book.cover}`)} alt={book.title} loading="lazy" class="max-h-64 w-auto" />
+                  <Image
+                    src={coverMap[book.cover]}
+                    widths={[200, 400]}
+                    sizes="200px"
+                    format="webp"
+                    alt={book.title}
+                    loading="lazy"
+                    class="max-h-64 w-auto"
+                  />
                 </a>
               ) : (
                 <div class="book">
-                  <img src={withBase(`/books/${book.cover}`)} alt={book.title} loading="lazy" class="max-h-64 w-auto" />
+                  <Image
+                    src={coverMap[book.cover]}
+                    widths={[200, 400]}
+                    sizes="200px"
+                    format="webp"
+                    alt={book.title}
+                    loading="lazy"
+                    class="max-h-64 w-auto"
+                  />
                 </div>
               )}
             </div>
