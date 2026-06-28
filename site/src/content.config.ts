@@ -7,11 +7,20 @@ const blogSchema = z.object({
   pubDate: z.coerce.date(),
   updatedDate: z.string().optional(),
   heroImage: z.string().optional(),
+  heroCaption: z.string().optional(),
   badge: z.string().optional(),
   tags: z
     .array(z.string())
     .refine((items) => new Set(items).size === items.length, {
       message: "tags must be unique",
+    })
+    .optional(),
+  // WordPress categories, kept distinct from tags so we can decide later
+    // whether one of the two is enough.
+  categories: z
+    .array(z.string())
+    .refine((items) => new Set(items).size === items.length, {
+      message: "categories must be unique",
     })
     .optional(),
 });

@@ -6,7 +6,17 @@ import localizedFormat from "dayjs/plugin/localizedFormat";
 
 export interface Props extends BlogSchema {}
 
-const { title, description, pubDate, updatedDate, heroImage, badge, tags = [] } = Astro.props;
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  heroImage,
+  heroCaption,
+  badge,
+  tags = [],
+  categories = [],
+} = Astro.props;
 dayjs.extend(localizedFormat);
 const displayDate = dayjs(pubDate).format("ll");
 import { Image } from "astro:assets";
@@ -15,18 +25,38 @@ import { Image } from "astro:assets";
 <BaseLayout title={title} description={description} image={heroImage} , ogType="article">
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-      {heroImage && <Image width={750} height={422} format="webp" src={heroImage} alt={title} class="w-full mb-6" />}
-      <h1 class="title my-2 text-4xl font-bold">{title}</h1>
-      {pubDate && <time>{displayDate}</time>}
-      <br />
-      {badge && <div class="badge badge-secondary my-1">{badge}</div>}
       {
-        tags &&
-          tags.map((tag) => (
-            <a href={`/blog/tag/${tag}`} class="badge badge-outline ml-2 no-underline">
-              {tag}
+        heroImage && (
+          <figure class="mb-6">
+            <Image width={750} height={422} format="webp" src={heroImage} alt={title} class="w-full" />
+            {heroCaption && (
+              <figcaption class="not-prose mt-2 text-center text-sm opacity-60">{heroCaption}</figcaption>
+            )}
+          </figure>
+        )
+      }
+      <h1 class="title mb-1 text-4xl font-bold">{title}</h1>
+      <div class="mt-2 flex flex-wrap items-center gap-2">
+        {badge && <div class="badge badge-secondary">{badge}</div>}
+        {
+          categories.map((cat) => (
+            <a href={`/blog/category/${cat}`} class="badge badge-primary no-underline">
+              {cat}
             </a>
           ))
+        }
+        {pubDate && <time class="text-sm opacity-60">{displayDate}</time>}
+      </div>
+      {
+        tags.length > 0 && (
+          <div class="mt-2 flex flex-wrap items-center gap-2">
+            {tags.map((tag) => (
+              <a href={`/blog/tag/${tag}`} class="badge badge-outline no-underline">
+                {tag}
+              </a>
+            ))}
+          </div>
+        )
       }
       {
         updatedDate && (
@@ -36,7 +66,7 @@ import { Image } from "astro:assets";
           </div>
         )
       }
-      <div class="divider my-2"></div>
+
       <slot />
     </article>
   </main>
