@@ -13,7 +13,11 @@ const pickByIds = (collection, ids) =>
 const featuredProjectIds = ["pod-ser", "photography", "jcolor"];
 const last_projects = pickByIds(await getCollection("projects"), featuredProjectIds);
 
-const featuredPostIds = ["post1", "post2", "post3"];
+const featuredPostIds = [
+  "rimworld-story",
+  "average-at-everything-good-at-nothing",
+  "minecraft-a-game-as-a-metaphor-of-life",
+];
 const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
 ---
 
