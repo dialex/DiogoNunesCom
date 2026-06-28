@@ -134,38 +134,45 @@ const searchText = (post) =>
   </div>
 
   <script>
-    const input = document.getElementById("blog-search");
-    const results = document.getElementById("blog-search-results");
-    const defaultList = document.getElementById("blog-default");
-    const empty = document.getElementById("blog-search-empty");
-    const items = Array.from(results.querySelectorAll(".search-item"));
+    // Runs on initial load AND after every client-side (View Transitions)
+    // navigation — a plain inline script would only fire on a full page load.
+    function initBlogSearch() {
+      const input = document.getElementById("blog-search");
+      if (!input) return; // not on the blog index
+      const results = document.getElementById("blog-search-results");
+      const defaultList = document.getElementById("blog-default");
+      const empty = document.getElementById("blog-search-empty");
+      const items = Array.from(results.querySelectorAll(".search-item"));
 
-    function render(query) {
-      const q = query.trim().toLowerCase();
-      if (!q) {
-        results.hidden = true;
-        defaultList.hidden = false;
-        return;
+      function render(query) {
+        const q = query.trim().toLowerCase();
+        if (!q) {
+          results.hidden = true;
+          defaultList.hidden = false;
+          return;
+        }
+        defaultList.hidden = true;
+        results.hidden = false;
+        let visible = 0;
+        for (const item of items) {
+          const match = item.dataset.text.includes(q);
+          item.hidden = !match;
+          if (match) visible++;
+        }
+        empty.hidden = visible > 0;
       }
-      defaultList.hidden = true;
-      results.hidden = false;
-      let visible = 0;
-      for (const item of items) {
-        const match = item.dataset.text.includes(q);
-        item.hidden = !match;
-        if (match) visible++;
+
+      input.addEventListener("input", (e) => render(e.target.value));
+
+      // Support /blog/?s=query (preserves the old WordPress search URLs):
+      // prefill the box and filter.
+      const q = new URLSearchParams(location.search).get("s");
+      if (q) {
+        input.value = q;
+        render(q);
       }
-      empty.hidden = visible > 0;
     }
 
-    input.addEventListener("input", (e) => render(e.target.value));
-
-    // Support /blog/?s=query (preserves the old WordPress search URLs): prefill
-    // the box and filter on load.
-    const q = new URLSearchParams(location.search).get("s");
-    if (q) {
-      input.value = q;
-      render(q);
-    }
+    document.addEventListener("astro:page-load", initBlogSearch);
   </script>
 </BaseLayout>
