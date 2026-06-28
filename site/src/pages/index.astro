@@ -76,7 +76,7 @@ const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.id)}
+          url={"/blog/" + createSlug(post.data.title, post.id) + "/"}
           target="_self"
           badge={post.data.badge}
         />

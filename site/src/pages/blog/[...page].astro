@@ -47,7 +47,7 @@ const searchText = (post) =>
               title={post.data.title}
               img={post.data.heroImage}
               desc={post.data.description}
-              url={"/blog/" + createSlug(post.data.title, post.id)}
+              url={"/blog/" + createSlug(post.data.title, post.id) + "/"}
               target="_self"
               badge={post.data.badge}
               tags={post.data.tags}
@@ -79,7 +79,7 @@ const searchText = (post) =>
               title={post.data.title}
               img={post.data.heroImage}
               desc={post.data.description}
-              url={"/blog/" + createSlug(post.data.title, post.id)}
+              url={"/blog/" + createSlug(post.data.title, post.id) + "/"}
               target="_self"
               badge={post.data.badge}
               tags={post.data.tags}

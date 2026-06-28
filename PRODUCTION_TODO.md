@@ -53,11 +53,6 @@ Grouping is for context only.
       redesign look (Astrofy `cv.astro` has a timeline). Pick before building.
 
 ### Blog (BIG)
-- **8.** Import all WP-exported post `.md` files into `site/src/content/blog/`
-      (→ one static page per post + index + tags + RSS). Remove placeholder
-      `post1/2/3.md`.
-- **9.** **Images:** find where WP images live + how they're referenced; decide
-      rewrite-to-local (`src/assets`) vs keep external.
 - **10.** **Permalinks/SEO:** preserve inbound links via per-post `slug`; settle the
       permalink scheme.
 - **11.** Confirm index, tag pages, and RSS generate correctly.
