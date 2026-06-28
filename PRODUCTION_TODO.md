@@ -63,6 +63,14 @@ Grouping is for context only.
 - **11.** Confirm index, tag pages, and RSS generate correctly.
 
 ### Look & feel
+- **39.** **Audit text consistency across all pages.** Review **text colour, font
+      size, and content margin/max-width** on every page (home, about, cv,
+      projects, blog, books, achievements, 404). Too many inconsistencies
+      creeping in: e.g. justified vs left-aligned body text, `card-body`'s
+      smaller default size vs `text-base`, ad-hoc `text-[15px]` overrides,
+      per-page `maxWidthClass`. Settle on shared conventions (a body size, when
+      to justify, default content width) and apply them uniformly — ideally via
+      shared components / global.css rather than per-page classes.
 - **27.** **Revisit heading font once there's more content.** Currently Lato body +
       **Poppins** headings. Re-evaluate switching the title font to **Fraunces**
       (the serif finalist) once more real pages/content exist, to judge it in
