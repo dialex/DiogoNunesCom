@@ -1,5 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+
+// All achievement images live in src/assets so Astro optimises them (WebP + dimensions)
+// at build. Glob-import them eagerly and key the map by filename to match the `img` field.
+const imageModules = import.meta.glob<{ default: ImageMetadata }>(
+  "../assets/achievements/*.{jpg,JPG,jpeg,png,PNG}",
+  { eager: true },
+);
+const imageMap: Record<string, ImageMetadata> = Object.fromEntries(
+  Object.entries(imageModules).map(([path, mod]) => [path.split("/").pop()!, mod.default]),
+);
 
 // Personal achievements, newest first. Each entry: image + date + description.
 // The description may contain inline HTML (links), rendered verbatim with set:html.
@@ -783,9 +794,11 @@ const achievements: { img: string; date: string; desc: string }[] = [
     {
       achievements.map((a) => (
         <figure class="achievement-card flex flex-col items-center text-center">
-          <img
-            src={`/achievements/${a.img}`}
+          <Image
+            src={imageMap[a.img]}
             alt={a.date}
+            widths={[520, 1040]}
+            sizes="(min-width: 640px) 520px, 100vw"
             loading="lazy"
             decoding="async"
             class="bg-white p-1.5 border border-black/20 shadow-md max-w-full h-auto"
