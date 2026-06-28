@@ -2,8 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
 
-// Content ported from the old /hireme résumé page. Images are reused from the
-// public copy at /hireme/assets (see public/hireme) to avoid duplicating them.
+// Content ported from the old /hireme résumé page. Brand logos live in
+// public/brands; the avatar reuses the site-wide public/avatar.jpg.
 
 const traits = [
   {
@@ -91,27 +91,27 @@ const testimonials = [
 ];
 
 const clients = [
-  { name: "MoonPay", img: "/hireme/assets/img/brands/mp.png", url: "https://www.moonpay.com/" },
-  { name: "Springer Nature", img: "/hireme/assets/img/brands/sn.png", url: "https://www.springernature.com/gp" },
-  { name: "Condé Nast", img: "/hireme/assets/img/brands/condenast.png", url: "https://www.condenast.com/" },
-  { name: "OLX Group", img: "/hireme/assets/img/brands/olx.png", url: "https://www.olxgroup.com/" },
-  { name: "Meetup", img: "/hireme/assets/img/brands/meetup.png", url: "https://www.meetup.com/" },
-  { name: "Plusgrade", img: "/hireme/assets/img/brands/plusgrade.png", url: "https://www.plusgrade.com/" },
+  { name: "MoonPay", img: "/brands/mp.png", url: "https://www.moonpay.com/" },
+  { name: "Springer Nature", img: "/brands/sn.png", url: "https://www.springernature.com/gp" },
+  { name: "Condé Nast", img: "/brands/condenast.png", url: "https://www.condenast.com/" },
+  { name: "OLX Group", img: "/brands/olx.png", url: "https://www.olxgroup.com/" },
+  { name: "Meetup", img: "/brands/meetup.png", url: "https://www.meetup.com/" },
+  { name: "Plusgrade", img: "/brands/plusgrade.png", url: "https://www.plusgrade.com/" },
   {
     name: "Siemens Healthineers",
-    img: "/hireme/assets/img/brands/siemens-healthineers.png",
+    img: "/brands/siemens-healthineers.png",
     url: "https://www.siemens-healthineers.com/",
   },
-  { name: "Vocalink", img: "/hireme/assets/img/brands/vocalink.png", url: "https://www.vocalink.com/" },
-  { name: "Equal Experts", img: "/hireme/assets/img/brands/equal-experts.png", url: "https://equalexperts.com/" },
-  { name: "Deloitte", img: "/hireme/assets/img/brands/deloitte.png", url: "https://www2.deloitte.com/pt/pt.html" },
+  { name: "Vocalink", img: "/brands/vocalink.png", url: "https://www.vocalink.com/" },
+  { name: "Equal Experts", img: "/brands/equal-experts.png", url: "https://equalexperts.com/" },
+  { name: "Deloitte", img: "/brands/deloitte.png", url: "https://www2.deloitte.com/pt/pt.html" },
 ];
 ---
 
 <BaseLayout title="About me" sideBarActiveItemID="about">
   <!-- Header -->
   <div class="flex flex-col sm:flex-row items-center gap-6 mb-10">
-    <img src="/hireme/assets/img/avatar.jpg" width="120" height="120" alt="Diogo Nunes" class="rounded-full" />
+    <img src="/avatar.jpg" width="120" height="120" alt="Diogo Nunes" class="rounded-full" />
     <div>
       <div class="text-4xl font-bold font-heading">Diogo Nunes</div>
       <div class="text-xl text-primary font-heading">Quality Advocate</div>
