@@ -12,29 +12,6 @@ categories: ["Technology"]
 
 This is a collection of simple and recurring scenarios when writing Cypress tests. For more complex recipes, check the [official doc](https://docs.cypress.io/examples/examples/recipes.html).
 
--   **Setup**
-    -   Abort cypress after first failed test
-    -   Read a test file from fixtures
--   **Assertions**
-    -   Assert the text of a page (string or number)
-    -   Assert the number of elements selected
-    -   Assert the result of two Cypress commands
--   **Actions**
-    -   Upload a file
--   **Selectors**
-    -   Given a list, return row that contains specific text
-    -   Selector is flaky due to page redesigns
-    -   Type text into input field and press enter
-    -   Select element inside iframe
-    -   Use selector X to narrow down area, and then use selector Y to find element
--   **Waits**
-    -   Wait until a network (ie. HTTP/XHR) request resolves
-    -   Wait until a condition becomes true
--   **Mocks**
-    -   Force a specific response to an HTTP request
-
-* * *
-
 ### Setup
 
 #### Abort cypress after first failed test
