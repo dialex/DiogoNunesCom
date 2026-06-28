@@ -86,11 +86,33 @@ Grouping is for context only.
       relevant post-redesign). Prune the dead ones, confirm the rest still resolve to
       valid targets, and align with the permalink/cut-over decisions (tasks 10, 21–25).
 - **17.** **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
-- **18.** **Astro `base`** set for the deploy target: `/DiogoNunesCom/` for the subpath,
-      or `/` if DNS is flipped to the custom domain at cut-over.
+- **18.** **Make all paths base-aware for the `/DiogoNunesCom/` subpath.** DECIDED:
+      the site ships permanently on `https://dialex.github.io/DiogoNunesCom/` — the
+      custom domain `diogonunes.com` is being dropped (no longer paying for it), so
+      `base: "/"` is off the table. Work: set `site: "https://dialex.github.io"` +
+      `base: "/DiogoNunesCom"` in `astro.config.mjs`, then sweep **every** absolute
+      internal path to include the base — Astro does **not** auto-prefix hardcoded
+      strings. Affected surface is large: nav `href="/about/"` etc., blog post links
+      `/blog/<slug>/`, **blog image refs `/blog/uploads/...` across the 178 markdown
+      files**, redirect targets, `<a>`/`<img>` in pages, and `rss.xml.js`
+      (`/blog/${id}/`). Prefer `import.meta.env.BASE_URL` / Astro path helpers over
+      hardcoding `/DiogoNunesCom/`. Then verify `dist/` works served from the subpath
+      (canonical + sitemap will resolve to the github.io URLs).
+      ⚠️ Big, error-prone pass; dev currently runs at base `/`, so do it at cut-over.
 - **19.** **Sitemap:** generate fresh via the Astro sitemap integration; decide whether
       blog URLs are included.
 - **20.** **GH Action:** `astro build` → publish `site/dist/` to Pages.
+- **40.** **Blog SEO on the domain drop — minimise the (largely unavoidable) loss.**
+      Moving off `diogonunes.com` to `dialex.github.io/DiogoNunesCom/` changes every
+      URL, so the old domain's search rankings won't carry over once it lapses — no
+      HTML tag can recover equity from a domain you no longer own; only 301s served
+      *from the old domain* transfer it. **Optional softening, while `diogonunes.com`
+      is still registered:** put it behind Cloudflare (free) with a 301
+      `diogonunes.com/* → dialex.github.io/DiogoNunesCom/*` and file a Search Console
+      "Change of Address", to pass signal before expiry. **New site:** verify
+      `dialex.github.io/DiogoNunesCom/` in Search Console (HTML file in repo) and
+      submit the sitemap; internal linking / titles / Yoast descriptions already
+      carried over. (Permalink scheme + internal-link rewrite from task 10 are done.)
 
 ### Cut-over (last)
 - **21.** Resolve **old domain / blog / FTP endgame** first: WP blog still on old host;
@@ -104,9 +126,10 @@ Grouping is for context only.
 
 ## Open decisions
 - Hireme/CV: embed as-is vs migrate into new design (task 6).
-- Blog permalink scheme + image handling (tasks 9–10).
 - Sitemap: include blog URLs or not (task 19).
-- Old domain/blog/FTP endgame (task 21).
+- **Hosting — DECIDED:** ship on `dialex.github.io/DiogoNunesCom/`; custom domain
+  `diogonunes.com` dropped. ⇒ `base: "/DiogoNunesCom"` (task 18); old-domain SEO
+  largely lost (task 40). Blog permalink scheme + internal-link rewrite (task 10) done.
 
 ## Reference notes / gotchas
 - ⚠️ **MoonPay npm proxy (koi.security)** blocks package `is-unsafe`, pulled in by
