@@ -29,7 +29,7 @@ const traits = [
   {
     emoji: "❤️",
     title: "(User) Friend",
-    text: "We must listen to our users, their pains and their praises, because our services exist to serve them. I seek to make them happy, and also my colleagues! Because a happy team is a productive and resilient team! #OptimiseForHappiness",
+    text: "We must listen to our users, their pains and their praises, because our services exist to serve them. I seek to make them happy, and also my colleagues! Because a happy team is a productive and resilient team!",
   },
   {
     emoji: "📗",
@@ -156,7 +156,7 @@ const clients = [
   <div class="mb-5">
     <div class="text-3xl w-full font-bold font-heading">Profile</div>
   </div>
-  <div class="mb-10 text-justify">
+  <div class="mb-10">
     <p class="mb-3">
       I'm a Software Tester from Portugal. My passion is using technology to improve people's lives. In my spare time,
       I'm also a <a href="/pod">podcaster</a>, a <a href="/photos">photographer</a>, a <a href="/blog/">blogger</a>, and
@@ -186,7 +186,7 @@ const clients = [
               <span class="text-2xl">{trait.emoji}</span>
               {trait.title}
             </h3>
-            <p class="text-justify text-[15px]">{trait.text}</p>
+            <p class="text-[15px]">{trait.text}</p>
           </div>
         </div>
       ))
@@ -221,20 +221,23 @@ const clients = [
     <div class="text-3xl w-full font-bold font-heading">Experience</div>
   </div>
   <div class="time-line-container mb-10">
-    <TimeLineElement title="Senior QA Engineer at MoonPay" subtitle="2022 – Present"> (ongoing) </TimeLineElement>
-    <TimeLineElement title="Senior Quality Advocate at Springer Nature" subtitle="2020 – 2021">
+    <TimeLineElement title="Senior QA Engineer at MoonPay" subtitle="2022 – Present" accent>
+      Own the Consumer roadmap and level up delivery processes, so teams move faster and deliver on time. Own delivery
+      of cross-team initiatives. Triage 1000s of tickets (then use AI). Boost our quality.
+    </TimeLineElement>
+    <TimeLineElement title="Senior Quality Advocate at Springer Nature" subtitle="2020 – 2021" accent>
       Push for user and developer happiness (e.g. measure customer support, write E2E tests, pair with devs to improve
       UX, automate processes, mentor younger testers, lead knowledge sharing).
     </TimeLineElement>
-    <TimeLineElement title="Quality Advocate (QA) at Equal Experts" subtitle="2016 – 2020">
+    <TimeLineElement title="Quality Advocate (QA) at Equal Experts" subtitle="2016 – 2020" accent>
       Help my teammates be productive at delivering their best work (e.g. exploratory testing, automation in testing,
       continuous integration, 3-amigos, pairing, specification by example).
     </TimeLineElement>
-    <TimeLineElement title="Software Developer at Loyty" subtitle="2014 – 2016">
+    <TimeLineElement title="Software Developer at Loyty" subtitle="2014 – 2016" accent>
       Discuss requirements with client. Design mockups. Develop desktop app. Code back-end logic and integrations.
       Interact with databases (tables, SPs, views). Advise UI/UX.
     </TimeLineElement>
-    <TimeLineElement title="IT Analyst at Deloitte" subtitle="2013">
+    <TimeLineElement title="IT Analyst at Deloitte" subtitle="2013" accent>
       Debug existing software applications. Write technical documentation.
     </TimeLineElement>
   </div>
@@ -256,21 +259,22 @@ const clients = [
     </TimeLineElement>
   </div>
 
-  <!-- Technologies -->
+  {
+    /* Technologies — temporarily hidden
   <div class="mb-5">
     <div class="text-3xl w-full font-bold font-heading">Technologies</div>
     <div class="text-sm font-light italic">how comfortable I am</div>
   </div>
   <div class="grid sm:grid-cols-2 gap-x-8 gap-y-4 mb-10">
-    {
-      technologies.map((tech) => (
-        <div>
-          <div class="font-semibold mb-1">{tech.name}</div>
-          <progress class="progress progress-primary w-full" value={tech.percent} max="100" />
-        </div>
-      ))
-    }
+    {technologies.map((tech) => (
+      <div>
+        <div class="font-semibold mb-1">{tech.name}</div>
+        <progress class="progress progress-primary w-full" value={tech.percent} max="100" />
+      </div>
+    ))}
   </div>
+  */
+  }
 
   <!-- Portfolio -->
   <div class="mb-5">
