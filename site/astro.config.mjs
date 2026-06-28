@@ -7,9 +7,6 @@ import sitemap from "@astrojs/sitemap";
 // @tailwindcss/vite, which is not yet compatible with Astro 6's rolldown-vite.
 export default defineConfig({
   site: "https://www.diogonunes.com",
-  // Match the old WordPress permalink scheme (directory URLs with a trailing
-  // slash, e.g. /blog/<slug>/) so inbound links and canonicals line up.
-  trailingSlash: "always",
   // Short links / legacy paths from the old site. Replaces the hand-maintained
   // folders that each held a single meta-refresh index.html. Astro emits the
   // redirect pages at build time for static output.
