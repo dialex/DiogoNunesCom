@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
+import { withBase } from "../lib/withBase";
 
 // All achievement images live in src/assets so Astro optimises them (WebP + dimensions)
 // at build. Glob-import them eagerly and key the map by filename to match the `img` field.
@@ -249,7 +250,7 @@ const achievements: { img: string; date: string; desc: string }[] = [
   {
     img: "start-testing-030.png",
     date: "May '20",
-    desc: 'Wrote an <a href="https://www.diogonunes.com/blog/making-an-open-source-testing-course/">e-course about testing</a>',
+    desc: `Wrote an <a href="${withBase("/blog/making-an-open-source-testing-course/")}">e-course about testing</a>`,
   },
   {
     img: "standing-desk.jpg",
@@ -269,7 +270,7 @@ const achievements: { img: string; date: string; desc: string }[] = [
   {
     img: "gris.png",
     date: "Dec '19",
-    desc: 'Tears of joy playing <a href="https://www.diogonunes.com/blog/10-reasons-why-gris-is-10-out-of-10/">GRIS</a>',
+    desc: `Tears of joy playing <a href="${withBase("/blog/10-reasons-why-gris-is-10-out-of-10/")}">GRIS</a>`,
   },
   {
     img: "lgw19.jpg",
@@ -749,7 +750,7 @@ const achievements: { img: string; date: string; desc: string }[] = [
   {
     img: "jcdp.png",
     date: "Jun '11",
-    desc: 'Developed my first open-source project (<a href="/work/jcdp/">JCDP</a>)',
+    desc: `Developed my first open-source project (<a href="${withBase("/work/jcdp/")}">JCDP</a>)`,
   },
   {
     img: "forumleitores.png",
@@ -759,12 +760,12 @@ const achievements: { img: string; date: string; desc: string }[] = [
   {
     img: "livroportugal.jpg",
     date: "Dec '10",
-    desc: 'Wrote an <a href="/books/">essay</a> on how to solve Portugal\'s problems',
+    desc: `Wrote an <a href="${withBase("/books/")}">essay</a> on how to solve Portugal's problems`,
   },
   {
     img: "livropoesia.jpg",
     date: "May '10",
-    desc: 'Wrote a <a href="/books/">book</a> with 48 poems',
+    desc: `Wrote a <a href="${withBase("/books/")}">book</a> with 48 poems`,
   },
   {
     img: "soleil-varekai.jpg",

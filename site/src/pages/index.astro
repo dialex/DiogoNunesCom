@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug";
+import { withBase } from "../lib/withBase";
 
 // Hand-picked entries to feature on the homepage, in display order. Each id is
 // the filename in src/content/{projects,blog}/ without `.md`. A missing id is
@@ -29,17 +30,17 @@ const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
       <p class="text-lg">
         I'm a Quality Advocate (QA) from Portugal. My passion is using technology to improve people's lives. In my spare
         time I'm an amateur
-        <a href="/pod/">podcaster</a>,
-        <a href="/photos/">photographer</a>,
-        <a href="/blog/">blogger</a>,
-        <a href="/books/">writer</a> and <a href="/udemy/">teacher</a>.
+        <a href={withBase("/pod/")}>podcaster</a>,
+        <a href={withBase("/photos/")}>photographer</a>,
+        <a href={withBase("/blog/")}>blogger</a>,
+        <a href={withBase("/books/")}>writer</a> and <a href={withBase("/udemy/")}>teacher</a>.
       </p>
     </div>
     <div class="mt-8">
-      <a class="btn" href="/about/">About me</a>
-      <a class="btn btn-outline ml-5" href="/projects/">My portfolio</a>
-      <a class="btn btn-outline ml-5" href="/blog/">My blog</a>
-      <a class="btn btn-outline ml-5" href="/books/">My books</a>
+      <a class="btn" href={withBase("/about/")}>About me</a>
+      <a class="btn btn-outline ml-5" href={withBase("/projects/")}>My portfolio</a>
+      <a class="btn btn-outline ml-5" href={withBase("/blog/")}>My blog</a>
+      <a class="btn btn-outline ml-5" href={withBase("/books/")}>My books</a>
     </div>
   </div>
 
@@ -54,7 +55,7 @@ const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
           title={project.data.title}
           img={project.data.image}
           desc={project.data.description}
-          url={"/projects/" + createSlug(project.data.title, project.id) + "/"}
+          url={withBase("/projects/" + createSlug(project.data.title, project.id) + "/")}
           target="_self"
         />
         {index < last_projects.length - 1 && <div class="divider my-0" />}
@@ -63,7 +64,7 @@ const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
   }
 
   <div class="mt-5 flex justify-center">
-    <a href="/projects/" class="btn btn-outline">View more projects</a>
+    <a href={withBase("/projects/")} class="btn btn-outline">View more projects</a>
   </div>
 
   <div>
@@ -77,7 +78,7 @@ const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.id) + "/"}
+          url={withBase("/blog/" + createSlug(post.data.title, post.id) + "/")}
           target="_self"
           badge={post.data.badge}
         />
@@ -87,6 +88,6 @@ const last_posts = pickByIds(await getCollection("blog"), featuredPostIds);
   }
 
   <div class="mt-5 flex justify-center">
-    <a href="/blog/" class="btn btn-outline">Read more posts</a>
+    <a href={withBase("/blog/")} class="btn btn-outline">Read more posts</a>
   </div>
 </BaseLayout>

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { withBase } from "../lib/withBase";
 
 // Diogo's self-published books, ported from the old static /livros page.
 // Descriptions are kept in their original language (PT/EN) — the flag marks it.
@@ -89,11 +90,11 @@ const books: Book[] = [
                   class="book"
                   aria-label={`${download.label}: ${book.title}`}
                 >
-                  <img src={`/books/${book.cover}`} alt={book.title} loading="lazy" class="max-h-64 w-auto" />
+                  <img src={withBase(`/books/${book.cover}`)} alt={book.title} loading="lazy" class="max-h-64 w-auto" />
                 </a>
               ) : (
                 <div class="book">
-                  <img src={`/books/${book.cover}`} alt={book.title} loading="lazy" class="max-h-64 w-auto" />
+                  <img src={withBase(`/books/${book.cover}`)} alt={book.title} loading="lazy" class="max-h-64 w-auto" />
                 </div>
               )}
             </div>

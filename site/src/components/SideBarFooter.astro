@@ -1,3 +1,7 @@
+---
+import { withBase } from "../lib/withBase";
+---
+
 <div
   class="block sticky pointer-events-none bottom-10 bg-base-200 justify-center h-12 [mask-image:linear-gradient(transparent,#000000)]"
 ></div>
@@ -73,7 +77,7 @@
       </path>
     </svg>
   </a>
-  <a href="/rss.xml" target="_blank" class="mx-3" aria-label="RSS Feed" title="RSS Feed">
+  <a href={withBase("/rss.xml")} target="_blank" class="mx-3" aria-label="RSS Feed" title="RSS Feed">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"

@@ -127,12 +127,26 @@ keep this lean. Grouping is for context only.
       URLs automatically) — this *shrinks* task 8's sweep. The markdown ref-rewrite can be done
       as part of this task or bundled with task 8. ⚠️ Per the no-overwrite rule, the markdown
       rewrite touches post `.md` files — get explicit OK before running it.
-- **6.** **Review redirects in `astro.config.mjs`.** Audit the configured `redirects`
+- **6.** ✅ **DONE.** Redirects reviewed; internal targets base-prefixed; `/cvpdf`
+      now points at the migrated résumé (`/docs/cv.pdf`). Original task text below.
+
+      **Review redirects in `astro.config.mjs`.** Audit the configured `redirects`
       — some may be obsolete (point to pages/routes that no longer exist). Prune the
       dead ones, confirm the rest resolve to valid targets, and align with the cut-over
       decisions (tasks 11–14). (Permalink scheme + internal-link rewrite already done.)
 - **7.** **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
-- **8.** **Make all paths base-aware for the `/DiogoNunesCom/` subpath.** DECIDED:
+- **8.** ✅ **DONE (2026-06-28).** Base-awareness shipped: `site:
+      "https://dialex.github.io"` + `base: "/DiogoNunesCom/"` (trailing slash —
+      works fine). `withBase()` helper (`src/lib/withBase.ts`) for `.astro`/`.ts`
+      refs; `rehype-base-links.mjs` auto-prefixes all in-content markdown
+      links/images at build (covers the 178-file sweep generically). Swept nav,
+      pages, components, layouts, redirect targets, project frontmatter `links`,
+      `rss.xml.js`, favicons/og:image, webmanifest. Verified `dist/` clean
+      (every internal href/src/redirect/RSS/sitemap carries the base).
+      ⚠️ **`npm run dev` now serves at `localhost:4321/DiogoNunesCom/`**, not `/`.
+      Original task text below.
+
+      **Make all paths base-aware for the `/DiogoNunesCom/` subpath.** DECIDED:
       the site ships permanently on `https://dialex.github.io/DiogoNunesCom/` — the
       custom domain `diogonunes.com` is being dropped (no longer paying for it), so
       `base: "/"` is off the table. Work: set `site: "https://dialex.github.io"` +

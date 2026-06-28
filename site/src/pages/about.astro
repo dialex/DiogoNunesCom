@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
+import { withBase } from "../lib/withBase";
 
 // Content ported from the old /hireme résumé page. Brand logos live in
 // public/brands; the avatar reuses the site-wide public/avatar.jpg.
@@ -111,14 +112,14 @@ const clients = [
 <BaseLayout title="About me" sideBarActiveItemID="about">
   <!-- Header -->
   <div class="flex flex-col sm:flex-row items-center gap-6 mb-10">
-    <img src="/avatar.jpg" width="120" height="120" alt="Diogo Nunes" class="rounded-full" />
+    <img src={withBase("/avatar.jpg")} width="120" height="120" alt="Diogo Nunes" class="rounded-full" />
     <div>
       <div class="text-4xl font-bold font-heading">Diogo Nunes</div>
       <div class="text-xl text-primary font-heading">Quality Advocate</div>
       <div class="mt-3 flex flex-wrap gap-2">
-        <a class="btn btn-sm" href="/cvpdf/" target="_blank">Download CV</a>
+        <a class="btn btn-sm" href={withBase("/docs/cv.pdf")} target="_blank">Download CV</a>
         <a class="btn btn-sm btn-outline" href="https://linkedin.com/in/nunesdiogo/" target="_blank">LinkedIn</a>
-        <a class="btn btn-sm btn-outline" href="/projects/">Portfolio</a>
+        <a class="btn btn-sm btn-outline" href={withBase("/projects/")}>Portfolio</a>
       </div>
     </div>
   </div>
@@ -140,12 +141,12 @@ const clients = [
     </p>
     <p class="mb-3">
       Outside of work, I'm always building something. I'm an amateur
-      <a href="/photos/">photographer</a> whose photos have been viewed millions of times on Unsplash, and a
-      <a href="/books/">writer</a> of a couple of books. I was also a <a href="/blog/">blogger</a> for 9 years, a
-      <a href="/pod/">podcaster</a> for 2 years, and even a <a href="/projects/lenda-lenga/">musician</a> once. Helping others
+      <a href={withBase("/photos/")}>photographer</a> whose photos have been viewed millions of times on Unsplash, and a
+      <a href={withBase("/books/")}>writer</a> of a couple of books. I was also a <a href={withBase("/blog/")}>blogger</a> for 9 years, a
+      <a href={withBase("/pod/")}>podcaster</a> for 2 years, and even a <a href={withBase("/projects/lenda-lenga/")}>musician</a> once. Helping others
       fulfils me, so I volunteer a lot of my time: at conventions and local communities, writing
       <a href="https://github.com/dialex/">open source</a>,
-      <a href="https://www.udemy.com/user/diogonunes4/">teaching</a> and <a href="/projects/pistae/">mentoring</a>.
+      <a href="https://www.udemy.com/user/diogonunes4/">teaching</a> and <a href={withBase("/projects/pistae/")}>mentoring</a>.
     </p>
   </div>
 
@@ -261,7 +262,7 @@ const clients = [
       clients.map((c) => (
         <a href={c.url} target="_blank" title={c.name} class="flex justify-center">
           <img
-            src={c.img}
+            src={withBase(c.img)}
             alt={c.name}
             class="max-h-12 w-auto opacity-70 hover:opacity-100 transition grayscale hover:grayscale-0"
           />

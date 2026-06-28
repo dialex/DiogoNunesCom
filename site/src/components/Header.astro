@@ -1,5 +1,6 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro";
+import { withBase } from "../lib/withBase";
 ---
 
 <div
@@ -19,7 +20,7 @@ import ThemeToggle from "./ThemeToggle.astro";
       </label>
     </div>
     <div class="navbar-center">
-      <a class="btn btn-ghost normal-case text-xl" href="/">Diogo Nunes</a>
+      <a class="btn btn-ghost normal-case text-xl" href={withBase("/")}>Diogo Nunes</a>
     </div>
     <div class="navbar-end">
       <ThemeToggle />

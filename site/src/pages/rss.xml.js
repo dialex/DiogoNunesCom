@@ -1,5 +1,6 @@
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 import { getCollection } from "astro:content";
+import { withBase } from "../lib/withBase";
 
 // Hand-rolled RSS instead of @astrojs/rss: the gate (koi.security) blocks
 // @astrojs/rss >= 4.0.12, and <= 4.0.11 uses a Zod 3 API (z.function().returns)
@@ -7,12 +8,14 @@ import { getCollection } from "astro:content";
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 export async function GET(context) {
-  const site = context.site?.href ?? "https://www.diogonunes.com/";
+  const site = context.site?.href ?? "https://dialex.github.io/";
+  // context.site does not include the configured `base`, so prefix it explicitly.
+  const home = new URL(withBase("/"), site).href;
   const blog = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
   const items = blog
     .map((post) => {
-      const url = new URL(`/blog/${post.id}/`, site).href;
+      const url = new URL(withBase(`/blog/${post.id}/`), site).href;
       return `    <item>
       <title>${esc(post.data.title)}</title>
       <link>${url}</link>
@@ -28,7 +31,7 @@ export async function GET(context) {
   <channel>
     <title>${esc(SITE_TITLE)}</title>
     <description>${esc(SITE_DESCRIPTION)}</description>
-    <link>${site}</link>
+    <link>${home}</link>
 ${items}
   </channel>
 </rss>`;

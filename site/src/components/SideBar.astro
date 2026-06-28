@@ -2,6 +2,7 @@
 import SideBarFooter from "./SideBarFooter.astro";
 import { Image } from "astro:assets";
 import SideBarMenu from "./SideBarMenu.astro";
+import { withBase } from "../lib/withBase";
 const { sideBarActiveItemID } = Astro.props;
 ---
 
@@ -9,7 +10,7 @@ const { sideBarActiveItemID } = Astro.props;
   <label for="my-drawer" class="drawer-overlay"></label>
   <aside class="px-2 pt-2 h-auto min-h-full w-[19rem] bg-base-200 text-base-content flex flex-col">
     <div class="w-fit mx-auto mt-5 mb-6">
-      <a href="/">
+      <a href={withBase("/")}>
         <div class="avatar transition ease-in-out hover:scale-[102%] block m-auto">
           <div class="w-[10.2rem]">
             <Image
@@ -17,7 +18,7 @@ const { sideBarActiveItemID } = Astro.props;
               format="webp"
               width={300}
               height={300}
-              src="/gecko.png"
+              src={withBase("/gecko.png")}
               alt="Diogo Nunes (the Geeky Gecko)"
             />
           </div>

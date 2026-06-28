@@ -4,6 +4,7 @@ import HorizontalCard from "@components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../../../../lib/createSlug";
 import slugify from "../../../../lib/slugify";
+import { withBase } from "../../../../lib/withBase";
 
 export async function getStaticPaths({ paginate }) {
   const all_posts = await getCollection("blog");
@@ -23,7 +24,7 @@ const { page, tagName } = Astro.props;
 ---
 
 <BaseLayout title={`"${tagName}" posts`} sideBarActiveItemID="blog">
-  <a href="/blog/" class="mb-4 inline-block text-sm opacity-70 hover:opacity-100">&larr; Back to blog</a>
+  <a href={withBase("/blog/")} class="mb-4 inline-block text-sm opacity-70 hover:opacity-100">&larr; Back to blog</a>
   <div class="mb-5">
     <div class="text-3xl w-full font-bold font-heading">"{tagName}" posts</div>
   </div>
@@ -41,7 +42,7 @@ const { page, tagName } = Astro.props;
               title={post.data.title}
               img={post.data.heroImage}
               desc={post.data.description}
-              url={"/blog/" + createSlug(post.data.title, post.id) + "/"}
+              url={withBase("/blog/" + createSlug(post.data.title, post.id) + "/")}
               target="_self"
               badge={post.data.badge}
               tags={post.data.tags}

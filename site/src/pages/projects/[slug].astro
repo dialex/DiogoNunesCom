@@ -2,6 +2,7 @@
 import { CollectionEntry, getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import createSlug from "../../lib/createSlug";
+import { withBase } from "../../lib/withBase";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
@@ -22,7 +23,7 @@ const { Content } = await render(entry);
 
 <BaseLayout title={project.title} sideBarActiveItemID="projects">
   <div class="flex flex-col items-center text-center gap-6">
-    <a href="/projects/" class="self-start text-sm opacity-70 hover:opacity-100">&larr; Back to projects</a>
+    <a href={withBase("/projects/")} class="self-start text-sm opacity-70 hover:opacity-100">&larr; Back to projects</a>
 
     <header class="flex flex-col items-center gap-3">
       <h1 class="text-6xl font-bold">{project.title}</h1>
@@ -35,7 +36,7 @@ const { Content } = await render(entry);
     {
       project.detailVideo ? (
         <video
-          src={project.detailVideo}
+          src={withBase(project.detailVideo)}
           autoplay
           loop
           muted
@@ -46,7 +47,7 @@ const { Content } = await render(entry);
       ) : (
         (project.detailImage ?? project.image) && (
           <img
-            src={project.detailImage ?? project.image}
+            src={withBase(project.detailImage ?? project.image)}
             alt={project.title}
             class="rounded-lg w-full max-w-2xl mx-auto"
           />
@@ -63,7 +64,7 @@ const { Content } = await render(entry);
         <div class="flex flex-wrap justify-center gap-2 mt-2">
           {project.links.map((link) => (
             <a
-              href={link.url}
+              href={link.url.startsWith("/") ? withBase(link.url) : link.url}
               target="_blank"
               rel="noopener"
               class:list={["btn btn-sm", link.primary ? "btn-primary" : "btn-outline"]}

@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 import createSlug from "../lib/createSlug";
+import { withBase } from "../lib/withBase";
 
 // Custom display order — this list IS the page. Each id is a project filename
 // (without `.md`) in src/content/projects/. Reorder by moving lines; a new
@@ -48,7 +49,7 @@ const projects = order.map((id) => allProjects.find((p) => p.id === id)).filter(
           desc={project.data.description}
           date={project.data.date}
           skills={project.data.skills}
-          url={`/projects/${createSlug(project.data.title, project.id)}/`}
+          url={withBase(`/projects/${createSlug(project.data.title, project.id)}/`)}
         />
         {index < projects.length - 1 && <div class="divider my-0" />}
       </>
