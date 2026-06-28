@@ -9,8 +9,8 @@ categories: ["Work"]
 ---
 
 > **tl;dr** Our responsibility is to master the skills required to fulfil the [purpose of testing](https://dialex.github.io/start-testing/#/concepts/testing-purpose.md)
-> 
-> This post was **featured** in [Software Testing Weekly #96](https://softwaretestingweekly.com/issues/96?#start)
+>
+> ⭐️ This post was featured in [Software Testing Weekly #96](https://softwaretestingweekly.com/issues/96?#start)
 
 _This is part of [my free testing course](https://dialex.github.io/start-testing/#/), focused on teaching you the fundamentals of testing_
 
@@ -32,11 +32,11 @@ While you do all that, be aware and [avoid the common pitfalls](https://dialex.g
 ## Practice
 
 > We're extensions to the senses of our stakeholders. We help the team sense things that they might not be able to sense on their own, due to their limited time and the mindset required to do their job.
-> 
+>
 > — [Michael Bolton](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
-> 
+>
 > If you feel that your value is not appreciated or you can be easily replaced, then shame on you. Think to yourself: am I doing all I can to help my team succeed? Does my team value my contributions?
-> 
+>
 > — [John Andrews](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
 
 If you want an (almost) exhaustive list of responsibilities and activities, this [link](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1) is for you.
@@ -44,7 +44,7 @@ If you want an (almost) exhaustive list of responsibilities and activities, this
 ### Bug catcher
 
 > The tester does not "break the product". The tester finds a product that is already broken.
-> 
+>
 > — ["The life of one man"](https://thelifeofoneman.com/the-role-of-the-tester)
 
 Finding bugs — probably the most widely know mission of a tester. Why? It is the job of the tester to inform the stakeholders about anything that threatens the value of the product. To ensure the core functionality still work after adding new features. To ensure the critical issues are detected before the enhancement opportunities. To ensure the team is aware of the known issues and their risk (probability + impact).
@@ -78,9 +78,9 @@ Share some of that love with your team too. Seek a joyful and friendly environme
 ### Guiding light
 
 > Half my day is facilitating conversations between stakeholders and attempting to understand what each person is expecting from a release. The goal is get the release into a place where all stakeholders' expectations are met.
-> 
+>
 > If this is not possible I warn the stakeholder that this will require new timelines and I provide data to demonstrate why and how.
-> 
+>
 > — [Phillipe Bojorquez](https://club.ministryoftesting.com/t/what-do-testers-do-on-a-daily-basis/12687/2)
 
 James Bach compares a tester to the front lights of a car. The analogy aims to explain that your role is to _illuminate_ what is unknown and ahead of the team. You do not control the system, instead you provide input for others to act. You are not the _driver_ (Product Owner), but what your light uncovers surely influences the driver.
@@ -94,7 +94,7 @@ Even though you don't own the product, you can give them your advice and support
 ### Inspector
 
 > Your testing should provide enough information for the team to make its own perceived view of quality (…) to help decide things like: when to release, when to bug fix, when to scale back, when to move on, etc.
-> 
+>
 > — [John Andrews](https://testingfromthehip.wordpress.com/2016/06/14/what-is-the-main-purpose-of-our-testing/)
 
 One of your responsibilities is to uncover information and deliver it. To do so, there are many questions a tester could ask. [Mnemonics](https://dialex.github.io/start-testing/#/toolbox/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
@@ -111,7 +111,7 @@ Get the team to sit down and agree on your project's goal. In the future, if any
 ### ️ Scout
 
 > Always leave the campsite better than you found it.
-> 
+>
 > — [The boy scout rule](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
 
 Besides the code, the team and the processes can also benefit from your testing. Work closely with your team to identify bottlenecks and keep on improving. Help your colleagues maintain a high velocity by recommending tools and practices that expedite your work. Use [retrospectives](https://dialex.github.io/start-testing/#/roles/agile-team-member.md) to share your concerns and suggestions.

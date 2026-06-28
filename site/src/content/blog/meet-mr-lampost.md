@@ -27,7 +27,7 @@ Another day I took a shortcut a few meters away from the lamp post. To my surpri
 
 This peculiar behavior made me want to **record** it, and so I did. As if the lamp post knew I was filming it it, it didn't do its "thing" for a while. Only after I had given up and looked back one last time it turned on. **It was making fun of me!**
 
-\[youtube=http://www.youtube.com/watch?v=kOsWDEntZ9Q\]
+http://www.youtube.com/watch?v=kOsWDEntZ9Q
 
 ### Conclusion
 

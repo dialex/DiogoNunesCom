@@ -8,44 +8,44 @@ tags: ["course", "testing"]
 categories: ["Work"]
 ---
 
-> This post was featured in [Software Testing Weekly #191](https://softwaretestingweekly.com/issues/191)
+> ⭐️ This post was featured in [Software Testing Weekly #191](https://softwaretestingweekly.com/issues/191)
 
 _This is a **very** long post. You don't have to read it all in one go. Use it as a reference, anytime you want to check the purpose of a particular test type._
 
 - Categories
-    - Functional testing
-    - Non-functional testing
-    - Black box testing
-    - White box testing
+  - Functional testing
+  - Non-functional testing
+  - Black box testing
+  - White box testing
 - Types
-    - Static tests
-    - ️ Unit tests
-    - Integration tests
-    - Contract tests
-    - API tests
-    - UI tests
-    - End-to-end tests
-    - ✅ Regression tests
-    - Acceptance tests
-    - Smoke tests
-    - Snapshot tests
-    - Rejection tests
-    - Sanity tests
-    - Confidence tests
-    - Build verification tests
-    - Monkey tests
-    - Fuzzy tests
+  - Static tests
+  - ️ Unit tests
+  - Integration tests
+  - Contract tests
+  - API tests
+  - UI tests
+  - End-to-end tests
+  - ✅ Regression tests
+  - Acceptance tests
+  - Smoke tests
+  - Snapshot tests
+  - Rejection tests
+  - Sanity tests
+  - Confidence tests
+  - Build verification tests
+  - Monkey tests
+  - Fuzzy tests
 - Testing approaches
-    - Exploratory testing
-    - Automation in testing
-    - Chaos testing
-    - Mutation testing
-    - Random testing
+  - Exploratory testing
+  - Automation in testing
+  - Chaos testing
+  - Mutation testing
+  - Random testing
 
 * * *
 
 > Testing is the process of learning about a product through exploration and experimentation
-> 
+>
 > — [James Bach and Michael Bolton](http://www.satisfice.com/blog/archives/1509)
 
 In that sense, we can learn about our product under test in multiple ways. Remember the [testing pyramid](https://dialex.github.io/start-testing/#/types/test-pyramid.md)? It hinted that there are different types of tests.
@@ -73,7 +73,7 @@ Non-functional testing includes various types of tests, such as performance test
 ### Black box testing
 
 > A "box" that takes some input and gives you some output. You don't know what's going on inside.
-> 
+>
 > — [Albert Gareev](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
 
 Black box testing is a classification given to any test that is executed without knowing or caring about the internal workings of the system under test. The term "black box" is used because the system is treated as an opaque or mysterious box. The tester provides inputs to the system and observes the outputs or actions it produces. The focus is checking the system's external behaviour to ensure it matches the system's requirements and the user's expectations.
@@ -87,7 +87,7 @@ Examples of black box testing include:
 ### White box testing
 
 > We can read the code. We understand what it's supposed to do. The code is in a glass "box".
-> 
+>
 > — [Albert Gareev](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
 
 White box testing is a classification given to any test that knows the internal structure of the system and checks details of its internal behaviour. The term "white box" suggests that the system is treated as a transparent box, where the tester can see inside. The tester uses their knowledge of the system to create tests that are more detailed and thorough than black box tests. The focus is checking the information flow and the internal state of the system during the test execution.
@@ -99,11 +99,11 @@ Examples of white box testing techniques include:
 ## Types
 
 > The more your tests resemble the way your software is used, the more confidence they can give you.
-> 
+>
 > — [Kent Dodds](https://twitter.com/kentcdodds/status/977018512689455106)
-> 
+>
 > When you are describing the testing that you are doing to someone (…) do you talk about of the types of testing that you do? Or do you talk about types of risks that you test for? Is there a difference? All of these types of testing are trying to describe the testing being done in relation to specific areas of concern, (…) of product risks.
-> 
+>
 > — [Dan Ashby](https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/)
 
 ### Static tests
@@ -207,7 +207,7 @@ Regression testing involves checking for the return of unwanted behaviour in sof
 A good practice is to add a test for every bug you fix. This has two advantages: it confirms that the issue is indeed fixed, and it helps catch future regressions of that same issue.
 
 > Breaking stuff that _worked_ before is _embarrassing_. Breaking stuff that was _broken and fixed_ before is _really embarrassing_.
-> 
+>
 > — [Michael Bolton](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
 
 Over time, you will discover more issues and create additional regression tests to address them. As a result, you will accumulate a significant number of regression tests. These tests can be executed either manually (by following a guide), or automatically (by running a script).
@@ -263,9 +263,9 @@ If used responsibly snapshot testing can be a valuable addition, otherwise it mi
 Same as acceptance tests but more "honest".
 
 > Acceptability of a product is multi-dimensional. The product is used by people to solve some problem. The code may perform certain functions exquisitely as part of a product that is an incomplete solution to the problem, that is hard to use, or that we hate.
-> 
+>
 > When the acceptance tests pass, the product _might_ be acceptable. When the acceptance tests fail, we know for sure that the product _isn't_ acceptable. Thus I'd argue that instead of talking about acceptance tests, we should be talking about them as **rejection tests**.
-> 
+>
 > — [Michael Bolton](https://developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too)
 
 #### Sanity tests
@@ -305,7 +305,7 @@ Exploratory testing is an approach that relies on the testers' creativity, intui
 Unlike scripted or automated testing, exploratory testing does not follow a rigid test plan. Instead, testers are encouraged to freely explore the software, guided by questions like "what if…" and "what happens when…", and without being biased by a scripted user journey. This allows testers to uncover less frequent and more realistic bugs, making the system more robust.
 
 > Even the most diligent test automation efforts are not perfect. Sometimes you miss certain edge cases in your automated tests. Sometimes it's nearly impossible to detect a particular bug by writing a unit test. Let the tester's freedom and creativity spot quality issues while interacting with the system.
-> 
+>
 > — [Martin Fowler](https://martinfowler.com/articles/practical-test-pyramid.html)
 
 Exploratory testing is particularly useful in situations where requirements are unclear or changing rapidly, as testers can quickly adapt. It is also an effective method for verifying edge cases and scenarios that might not be covered by scripted test cases. Finally, certain quality issues can't even be measured, only felt — and machines aren't great at that (for now). Your test frameworks can't tell you how frustrating it is to use your product.

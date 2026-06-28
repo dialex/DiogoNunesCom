@@ -9,8 +9,8 @@ categories: ["Work"]
 ---
 
 > **tl;dr** Heuristics are shortcuts to make decisions or pick what to test next.
-> 
-> This post was **featured** in [Software Testing Weekly #100](https://softwaretestingweekly.com/issues/100)
+>
+> ⭐️ This post was featured in [Software Testing Weekly #100](https://softwaretestingweekly.com/issues/100)
 
 _This is part of [my free testing course](https://dialex.github.io/start-testing/#/), focused on teaching you the fundamentals of testing_
 
@@ -19,7 +19,7 @@ _This is part of [my free testing course](https://dialex.github.io/start-testing
 If [mnemonics](https://dialex.github.io/start-testing/#/toolbox/mnemonics) act as "memory shortcuts", then heuristics are "decision shortcuts". These mechanisms allow people to function without spending too much to thinking about their next action.
 
 > We use heuristics under conditions of uncertainty (…) to rapidly solve problems or make decisions. When you consider the number of decisions people make every day, it makes sense for our brains to use shortcuts to help us quickly assess the different options and decide.
-> 
+>
 > — [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
 Expressions like "rule of thumb", "educated guess", or "intuition" are all examples of humans using heuristics. So consider this rule of thumb, one that you might recall from your student years: _"I don't know the contents of the next exam, but the teacher already mentioned this specific subject three times, so it must be important."_
@@ -30,23 +30,23 @@ This example of heuristic is useful to demonstrate two key limitations:
 - **All heuristics can turn to biases.** Prolonged usage of the same heuristics have a negative impact on you and your testing. Without awareness for bias, you will eventually miss or misinterpret information, which create gaps in your testing.
 
 > Despite their fallible nature and the potential biases they cause, heuristics are very useful (…) to find solutions that are "good enough" (…) in scenarios where it's impractical to find the optimal solution to a problem.
-> 
+>
 > — [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
-> 
+>
 > Heuristics provide patterns that can be useful in _some_ situations, _some_ times. (…) It's useful to treat heuristics with a certain amount of distrust.
-> 
+>
 > — [Anne-Marie Charrett](https://mavericktester.com/2019/12/31/heuristics-sfdipot/)
 
 As with any other tool, it's important that you understand the advantages and limitations of heuristics, so that you can wisely choose when and which heuristics to apply in your context.
 
 > Reliance on an oracle can lead you to the wrong conclusion. A decision rule that is useful but not always correct is called a heuristic.
-> 
+>
 > — [Cem Kaner](http://kaner.com/?p=190)
 
 Oracles are considered heuristics, however not all heuristics are oracles: [**`FEW HICCUPS`**](https://dialex.github.io/start-testing/#/toolbox/mnemonics.md) heuristic is an oracle because it tells you how to decide if something is right or wrong; the Goldilocks heuristic is not because it only gives you hints about what to test.
 
 > When I test a software application there are a number of things that I know are worth trying. These are my test heuristics. Heuristics are simply experience-based techniques for problem solving and discovery.
-> 
+>
 > — [Katrina Clokie](https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html)
 
 When you have doubts about what to test next, there are a number of heuristics you can use to generate new test ideas. With time and experience you will developed your own set of test heuristics.
@@ -56,7 +56,7 @@ When you have doubts about what to test next, there are a number of heuristics y
 You will frequently come across heuristics in the form of checklists, cheat sheets, mnemonics, oracles or models. If they serve as cognitive shortcuts to solve problems or make decisions, they're heuristics.
 
 > Once you learn about heuristics, it's time to practice them in different contexts. (…) When using heuristics you should reflect what worked, what didn't and why. If a heuristic is not working for you, try another, modify it or make your own.
-> 
+>
 > — [Richard Bradshaw and Sarah Deery](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
 
 ### Test ideas
@@ -76,9 +76,9 @@ If you like learning while having fun, [Lena Pejgan](https://testing.pejgan.se/2
 ### Biases
 
 > Bias is an irrational judgement or subconscious inference made from (historical) data available to us.
-> 
+>
 > In testing, biases cause you to miss or focus too much on a specific behaviour or data.
-> 
+>
 > — [99 second intro to biases in testing](https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-biases-in-testing)
 
 For example, when you miss something because you are too focused on another thing, that's a form of bias called "inattentional blindness". To see this in practice, put yourself to the test with ["The Monkey Business Illusion"](https://youtu.be/IGQmdoK_ZfY).
@@ -110,7 +110,7 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 [Tom Bartel](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/) describes a bias he calls the "curse of knowledge":
 
 > The knowledge that you have gathered becomes natural to you. You become "unconsciously competent", so you have a harder time explaining it to somebody else. A warning sign is when you start your sentences with _"As we all know, …"_ or _"I probably don't need to explain that…"_
-> 
+>
 > This is how you create unsafe environments.
 
 [Buster Benson](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j) did an amazing job at collecting, explaining and summarising the most common biases that affect us. Here's a brief (or [visual](https://upload.wikimedia.org/wikipedia/commons/a/a4/The_Cognitive_Bias_Codex_-_180%2B_biases%2C_designed_by_John_Manoogian_III_%28jm3%29.png)) summary of the four groups of biases.

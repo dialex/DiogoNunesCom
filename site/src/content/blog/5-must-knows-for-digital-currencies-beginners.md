@@ -7,8 +7,6 @@ tags: ["digital currencies"]
 categories: ["Technology"]
 ---
 
-![](/blog/uploads/2017/08/altcoin-collage.png)
-
 Bitcoin launched in 2009 and Ethereum in 2015. At the time of writing, there are over 830 virtual currencies or assets. If you heard these names and have no idea what they mean, this post is for you.
 
 _DISCLAIMER: The target audience of this post is non-technical. I used analogies to explain these complex abstract technologies. Sometimes at the cost of technical accuracy. I hope you can endure it._
@@ -69,7 +67,7 @@ Since you are holding the assets for short periods of time, the difference betwe
 Thus, to generate relevant profits, you'll need to trade a lot of coins a lot of times during the day. That's a highly risky. Not to mention that you will be competing against trading bots. That's why this profile is suited for senior and wealthy investors (aka. whales).
 
 > _Example_: You notice that Digibyte's price rises and falls a lot during the same day. Hence, you place a buy order of 500.000 DGB at 0.010$ (total 5.000$). The transaction is made and immediately you place a sell order at 0.015$. After 3 hours, the transaction is made and you gained 0.005$ per DGB, a total of 2500$.
-> 
+>
 > You wait until the price corrects back to 0.012$ and invest 5000$+2500$, this time getting 625.000 DGB. Following the same strategy, you place a sell order at 0.018$ and wait. And wait. But the price doesn't rise and the correction ends on the initial 0.010$. The day ends and you can't fall asleep. Tomorrow is another day.
 
 **You can be a holder (or [hodlr](https://www.reddit.com/r/Bitcoin/comments/5yhnbi/where_did_the_hodl_meme_come_from/)).** Someone that buys with the goal to sell long-term. For these investors, buying altcoins is like buying shares of a company or units of an index fund — you buy it and forget it for six months to one year.
@@ -79,7 +77,7 @@ If you wait long enough, and if you placed your bets on the right altcoins, the 
 So, when do these investors collect profits? Holders usually set a percentage or a time. When the investing period ends or the assets reaches the desired profit percentage, the investor trades the coin for fiat and takes the money he/she invested initially plus the profit.
 
 > _Example_: You see the long-term potential of Dash. Hence, you decide to invest 1000$ and buy 10 units. At the same time, you set your goals: "I will sell my Dash next year or when its price increases 200% compared to its current price." You leave your Dash on your wallet and go live your life.
-> 
+>
 > Eight months later you notice the price has already increased by 200%. One of your goals was achieved, so you sell all of your Dash and get 2000$. Now you have to decide if you spend it or reinvest it on another promising altcoin. Rinse and repeat.
 
 ### Will I lose money?
@@ -104,5 +102,5 @@ Here are the most frequent community advices to newcomers:
 ![](/blog/uploads/2017/08/maxresdefault.jpg)
 
 > I can only show you the way. The path is for you to take.
-> 
+>
 > — Morpheus. (Matrix, 1999)

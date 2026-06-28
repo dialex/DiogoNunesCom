@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 ### He doesn't have a test strategy ☝️
 
-> This post was **featured** in [Software Testing Weekly, issue 49](https://softwaretestingweekly.com/issues/49)
+> ⭐️ This post was featured in [Software Testing Weekly, issue 49](https://softwaretestingweekly.com/issues/49)
 
 The test strategy is defined at the start of the project and it can be revisited and reviewed during the duration of that project. The strategy is usually driven by the testers, yet it should always include feedback from all team members.
 

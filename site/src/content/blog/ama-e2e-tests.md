@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 ### The summary of an Ask Me Anything session I hosted at my company
 
-> This post was **featured** in [Software Testing Weekly, #92](https://softwaretestingweekly.com/issues/92?#automation) and [Software Testing Notes, #28](https://softwaretestingnotes.substack.com/p/issue-28-software-testing-notes)
+> ⭐️ This post was featured in [Software Testing Weekly, #92](https://softwaretestingweekly.com/issues/92?#automation) and [Software Testing Notes, #28](https://softwaretestingnotes.substack.com/p/issue-28-software-testing-notes)
 
 ![](/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-0.jpg)
 

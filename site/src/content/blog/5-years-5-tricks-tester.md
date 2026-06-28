@@ -10,7 +10,7 @@ categories: ["Work"]
 
 ### And how you can use them in your team
 
-> This post was **featured** on [Coding Jag #47](https://www.lambdatest.com/newsletter/editions/issue47), [Software Testing Notes #19](https://www.linkedin.com/feed/update/urn:li:activity:6827991945487364096/), [Trending in Testing #5](https://www.linkedin.com/posts/trendingintesting_softwaretesting-automation-testing-activity-6828678293743656960-A03W/), [Testing Bits #403](http://blog.testingcurator.com/2021/08/01/testing-bits-403-july-25th-july-31st-2021/) and [TestSigma #28](https://testsigma.com/newsletter/editions/edition-28).
+> ⭐️ This post was featured on [Coding Jag #47](https://www.lambdatest.com/newsletter/editions/issue47), [Software Testing Notes #19](https://www.linkedin.com/feed/update/urn:li:activity:6827991945487364096/), [Trending in Testing #5](https://www.linkedin.com/posts/trendingintesting_softwaretesting-automation-testing-activity-6828678293743656960-A03W/), [Testing Bits #403](http://blog.testingcurator.com/2021/08/01/testing-bits-403-july-25th-july-31st-2021/) and [TestSigma #28](https://testsigma.com/newsletter/editions/edition-28).
 
 I've worked for seven companies since I became a tester five years ago. Each team is different, the "best practice" is the one that "best fits" the team. Still, I identified a few practices that consistently make my teams happier, and happiness is a metric for success.
 

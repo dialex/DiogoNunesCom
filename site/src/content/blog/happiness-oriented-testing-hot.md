@@ -12,7 +12,7 @@ categories: ["Work"]
 
 ### But there's one that neatly aligns with quality — happiness.
 
-> This post was featured in [Software Testing Weekly #118](https://softwaretestingweekly.com/issues/118) and [Testing Notes #52](https://www.linkedin.com/posts/software-testing-notes_issue-52-software-testing-notes-activity-6917509936302161921-CYV5/)
+> ⭐️ This post was featured in [Software Testing Weekly #118](https://softwaretestingweekly.com/issues/118) and [Testing Notes #52](https://www.linkedin.com/posts/software-testing-notes_issue-52-software-testing-notes-activity-6917509936302161921-CYV5/)
 
 * * *
 
@@ -37,25 +37,25 @@ It doesn't matter how many lines you write. What matters is code readability. Th
 What about us testers? What metrics do we use? Oh, we have plenty of those:
 
 - _Numbers_... of bugs found (by us and the user), regressions, outages
-    
+
 - _Totals_... of new tests, tests executed, testing hours, tickets rejected by QA
-    
+
 - _Percentages_... like coverage, passed tests, flaky tests, ratio between code and tests
-    
+
 
 In my opinion, [**quality is value to some person, who matters.**](https://dialex.github.io/start-testing/#/concepts/tester-responsibilities)
 
 Do you think your software will have quality if you maximise those metrics above? Maybe, at best. That's a lot of effort for just a "maybe"!
 
 > Let's measure the number of bugs found.
-> 
+>
 > -   We found 0 bugs. Do we have quality?
 >     -   Maybe yes, or maybe we are bad at finding them.
 > -   We found and fixed 100 bugs. Do we have quality?
 >     -   Maybe yes, or maybe we missed 5 bugs that frustrated our users.
-> 
+>
 > Fine, let's measure test coverage. Everyone does it anyway.
-> 
+>
 > -   We have 20% coverage. Do we have quality?
 >     -   Maybe not, or maybe we covered just what matters.
 > -   We have 100% coverage. Do we have quality?
@@ -72,7 +72,7 @@ Some of the strongest and most important things in life we have trouble explaini
 So let me propose an unconventional metric: **happiness**.
 
 > You: Feelings?! **screeches in engineer noises**
-> 
+>
 > Me: Yes. Your software serves humans. They have feelings. And so do you.
 
 The makers of software are humans. The users of software are humans. All humans have feelings. And all humans pursue happiness.

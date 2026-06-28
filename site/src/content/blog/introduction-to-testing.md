@@ -7,8 +7,6 @@ tags: ["experience", "testing"]
 categories: ["Work"]
 ---
 
-https://www.youtube.com/watch?v=rmLk5KrIY4Q&t=1s&ab\_channel=DiogoNunes
-
 ### What is Testing? What does a Tester do?
 
 Recently I was invited to speak at [NOVATalks](https://novatalks.github.io/), a student initiative founded in 2016 at [FCT NOVA](https://www.fct.unl.pt/en) university. _Their aim is to motivate students to expand their knowledge in the areas of Science, Technology and Innovation, complementing disciplines explored in the curricula._

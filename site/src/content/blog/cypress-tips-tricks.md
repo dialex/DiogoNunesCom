@@ -8,7 +8,7 @@ tags: ["cypress", "testing", "tutorial"]
 categories: ["Technology"]
 ---
 
-> This post was **featured** in [Software Testing Weekly, issue 55](https://softwaretestingweekly.com/issues/55)
+> ⭐️ This post was featured in [Software Testing Weekly, issue 55](https://softwaretestingweekly.com/issues/55)
 
 This is a collection of simple and recurring scenarios when writing Cypress tests. For more complex recipes, check the [official doc](https://docs.cypress.io/examples/examples/recipes.html).
 

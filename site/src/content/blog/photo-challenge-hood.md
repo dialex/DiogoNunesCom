@@ -7,8 +7,6 @@ tags: ["experience", "idea", "story"]
 categories: ["Photography"]
 ---
 
-[![](/blog/uploads/2021/08/1-niOeuwV-1024x1024.jpg)](https://www.diogonunes.com/blog/wp-content/uploads/2021/08/1-niOeuwV.jpg)
-
 > **You can acquire photos from this collection as [NFTs on OpenSea](https://opensea.io/collection/montijo-ao-quadrado)!**
 
 I challenged myself to take my camera with me on my walks around my neighborhood. My walks were becoming rather dull, always going through the same paths. And it's been 4 years since the last time I photographed.

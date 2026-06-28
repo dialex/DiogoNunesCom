@@ -8,7 +8,7 @@ tags: ["free and open", "maestro", "mobile dev", "review", "testing"]
 categories: ["Technology"]
 ---
 
-> This post was featured in [Software Testing Weekly #169](https://softwaretestingweekly.com/issues/169)
+> ⭐️ This post was featured in [Software Testing Weekly #169](https://softwaretestingweekly.com/issues/169)
 
 A friend ([Hugo](https://medium.com/@hugocf)) told me about this new mobile test automation framework called [Maestro](https://maestro.mobile.dev/). At the time, my team was using Appium to test a React Native app, that ran on iOS and Android. I was not 100% happy with Appium, so I gave Maestro a try.
 

@@ -2,11 +2,10 @@
 title: "Winning a game called \"life\""
 description: "Life shouldn't be something that happens to you. I'll use the metaphor of life as a game to help you define success and get back in control."
 pubDate: "2019-03-04T07:00:32"
+heroImage: "/blog/uploads/2019/03/game-of-life.jpg"
 tags: ["experience", "purpose"]
 categories: ["Life", "Thoughts"]
 ---
-
-![](/blog/uploads/2019/03/game-of-life.jpg)
 
 ### The rules are simple and you choose how you win.
 

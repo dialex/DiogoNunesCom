@@ -8,7 +8,7 @@ tags: ["coding", "testing"]
 categories: ["Technology"]
 ---
 
-> This post was featured in [Software Testing Weekly #142](https://softwaretestingweekly.com/issues/142) and [CodingJab #111](https://www.lambdatest.com/newsletter/editions/issue111)
+> ⭐️ This post was featured in [Software Testing Weekly #142](https://softwaretestingweekly.com/issues/142) and [CodingJab #111](https://www.lambdatest.com/newsletter/editions/issue111)
 
 During my career, every time my team has to rely on a 3rd-party API, there comes the day where that API fails. Maybe it is down but usually they released a breaking change that breaks the previous contract. Our team does not notice it, but the client/user does and then we look bad.
 
@@ -91,7 +91,7 @@ describe('Provider X /books', () => {
     // Example: some assertions will need a regex because actual values will be dynamic
     const regexPrice = /\d{1,3}\.\d{1,2}/; // up to 5 digits, separated by a dot
 
-    // Example: how to use URL search parameters 
+    // Example: how to use URL search parameters
     const searchParams = new URLSearchParams({
       language: 'PT',
       apikey: process.env.PROVIDER_X_API_KEY,

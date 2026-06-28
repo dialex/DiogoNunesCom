@@ -17,7 +17,7 @@ For me, interests define persons -- books, movies, games, series, anything that 
 
 I found [Redbubble](http://www.diogonunes.com/blog/Redbubble) five years ago.
 
-During that time I've bought several t-shirts, which I proudly wear at home, at conventions and even at work. They serve as an amazing icebreaker. Along those years I've covered my laptop lip with stickers, sometimes from Redbubble's store other times with my own custom designs. That's right, anyone can upload their designs and create a store (even if you're the only customer ).
+During that time I've bought several t-shirts, which I proudly wear at home, at conventions and even at work. They serve as an amazing icebreaker. Along those years I've covered my laptop lip with stickers, sometimes from Redbubble's store other times with my own custom designs. That's right, anyone can upload their designs and create a store (even if you're the only customer).
 
 [![laptop with stickers](/blog/uploads/2020/09/stickers.jpg)](http://www.diogonunes.com/blog/RB-Stickers)
 

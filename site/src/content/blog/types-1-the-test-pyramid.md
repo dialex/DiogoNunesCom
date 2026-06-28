@@ -8,8 +8,8 @@ tags: ["course", "testing"]
 categories: ["Work"]
 ---
 
-> This post was featured in [Software Testing Weekly #173](https://softwaretestingweekly.com/issues/173)
-> 
+> ⭐️ This post was featured in [Software Testing Weekly #173](https://softwaretestingweekly.com/issues/173)
+>
 > **tl;dr** A visual metaphor that groups tests into layers and recommends how many tests should exist in each of layers.
 
 _This is part of [my free testing course](https://dialex.github.io/start-testing), focused on teaching you the fundamentals of testing_
@@ -30,7 +30,7 @@ This visual model conveys several messages:
 Unit tests ensure a small and specific unit of code works as intended in isolation. That's why they are cheap and fast to run. These units of code then interact with other parts the system to provide services. The behaviour of those services is tested by the service tests. Finally, a human needs to interact with those services and that is done through a User Interface (UI). The UI tests check that the system as a whole does what the user expects, and that's why those tests are the slowest to run and most expensive to debug.
 
 > The test pyramid is a way of thinking about how different kinds of automated tests should be used to create a balanced portfolio
-> 
+>
 > — [Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html)
 
 Since it was introduced in 2009, new test types were developed. The "service tests" are nowadays called "integration tests" and may include [API testing](/types) and [Contract testing](/types). The "UI tests" are nowadays split between [frontend testing](/types) and [end-to-end testing](/types).
@@ -38,7 +38,7 @@ Since it was introduced in 2009, new test types were developed. The "service tes
 The simplicity and usefulness of this model made the test pyramid very popular, and many engineers and testers use it as a reference still today.
 
 > "All models are wrong, some are useful"
-> 
+>
 > — [George Box](https://en.wikipedia.org/wiki/George_E._P._Box)
 
 Despite it's popularity, it is not without flaws. Some people say the model is overly simplistic because it doesn't include all testing done for a project. Others say it is biased towards automation, like Dan Ashby who calls it ["the automation triangle"](https://danashby.co.uk/2018/05/03/a-better-testing-pyramid/).
@@ -46,7 +46,7 @@ Despite it's popularity, it is not without flaws. Some people say the model is o
 ### The testing trophy
 
 > I want to be confident that my code satisfies the requirements and I'll use a mix of the different testing strategies to accomplish that goal.
-> 
+>
 > \-- [Kent Dodds](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
 
 Almost [10 years later](https://twitter.com/kentcdodds/status/960723172591992832?lang=en), Kent Dodds published his modern take on the test pyramid and called it the testing trophy. It's an overall improvement over the previous model in [several aspects](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests).
@@ -63,7 +63,7 @@ Here's a summary, paraphrasing the author:
 - **Flexible.** The size of each of test layer may differ based on what your team values. The proportions are not meant to be taken as rigid rules. It also depends on how easy it is to test your app with the tools available.
 
 > Every level comes with its own trade-offs. An E2E test has more points of failure making it often harder to track down the problem, but it also means that your test is giving you more confidence.
-> 
+>
 > — [Kent Dodds](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
 
 ## Practice
@@ -82,7 +82,7 @@ That last one needs a bit more explanation. Tests at the top of the pyramid exer
 It also keeps your test suite fast. If you have tested all conditions on a lower-level test, the extra confidence you get from a higher-level test is small. Redundant tests makes your development process more costly because you need to change more tests when you change the behaviour of your code.
 
 > The more your tests resemble the way your software is used, the more confidence they can give you.
-> 
+>
 > — [Kent Dodds](https://twitter.com/kentcdodds/status/977018512689455106)
 
 The "pyramid" concept also suggests an analogy to construction. Each test layer is a different material used in the construction. A building made of a single material is not as strong as one that uses multiple specialised materials, each contributing differently to the stability of the building.
