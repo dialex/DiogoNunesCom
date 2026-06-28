@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
+import rehypeFigureCaptions from "./src/plugins/rehype-figure-captions.mjs";
 
 // https://astro.build/config
 // Tailwind 4 is wired via PostCSS (postcss.config.mjs) rather than
@@ -53,4 +54,7 @@ export default defineConfig({
     "/livros/quero-mais": "/books/#quero-mais",
   },
   integrations: [mdx(), sitemap()],
+  markdown: {
+    rehypePlugins: [rehypeFigureCaptions],
+  },
 });

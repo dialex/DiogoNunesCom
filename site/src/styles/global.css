@@ -72,6 +72,14 @@ p a {
   content: none;
 }
 
+/* Figure captions (from rehype-figure-captions). Typography gives every <img>
+   a ~2em bottom margin, which pushes the figcaption far from the image. Inside a
+   <figure>, drop that bottom margin so the caption sits right under the image;
+   the figcaption's own mt-2 is the only gap. */
+.prose figure img {
+  margin-bottom: 0;
+}
+
 /* Emojis have no italic face, so browsers fake a slant ("synthetic oblique")
    for them inside <em>/<i>. Disable that — real text still italicises because
    Lato ships a true italic face; only faces lacking italic (emoji) stay upright. */
