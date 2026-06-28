@@ -48,12 +48,51 @@ p a {
   text-underline-offset: 0.15em;
 }
 
+/* A heading that is a link should look exactly like a normal heading — same
+   font, weight and colour — just underlined. (Prose otherwise restyles the <a>
+   with the lighter link weight/colour.) */
+.prose :where(h1, h2, h3, h4, h5, h6) a {
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-decoration: underline;
+}
+
+/* Blockquotes: prose defaults to a darker, semibold, italic quote style. Make
+   the text lighter/muted and upright — the author opts into italics with _text_
+   — and drop the auto quotation marks. Theme-agnostic via opacity. */
+.prose blockquote {
+  color: var(--tw-prose-body);
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0.6;
+}
+.prose blockquote p:first-of-type::before,
+.prose blockquote p:last-of-type::after {
+  content: none;
+}
+
 /* Emojis have no italic face, so browsers fake a slant ("synthetic oblique")
    for them inside <em>/<i>. Disable that — real text still italicises because
    Lato ships a true italic face; only faces lacking italic (emoji) stay upright. */
 em,
 i {
   font-synthesis-style: none;
+}
+
+/* Recolor the native search "clear" (X) button to match the text colour
+   instead of the browser default blue. */
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 0.9em;
+  width: 0.9em;
+  cursor: pointer;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12 19 6.4 17.6 5 12 10.6Z'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12 19 6.4 17.6 5 12 10.6Z'/%3E%3C/svg%3E")
+    center / contain no-repeat;
 }
 
 /* Theme toggle: show the icon for the current mode (sun in light, moon in dark).

@@ -25,9 +25,10 @@ const { page } = Astro.props;
 const params = Astro.params;
 ---
 
-<BaseLayout title={"Blog - " + params.category} sideBarActiveItemID="blog">
+<BaseLayout title={`"${params.category}" posts`} sideBarActiveItemID="blog">
+  <a href="/blog/" class="mb-4 inline-block text-sm opacity-70 hover:opacity-100">&larr; Back to blog</a>
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold font-heading">Blog - {params.category}</div>
+    <div class="text-3xl w-full font-bold font-heading">"{params.category}" posts</div>
   </div>
   {
     page.data.length === 0 ? (

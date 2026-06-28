@@ -11,6 +11,18 @@ export async function getStaticPaths({ paginate }) {
 }
 
 const { page } = Astro.props;
+
+// Full post list (all pages) for client-side search — the visible list is
+// paginated, so search must work off the complete set. Rendered with the same
+// HorizontalCard as the default list so styling is identical; search only
+// toggles visibility.
+const allPosts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+const searchText = (post) =>
+  [post.data.title, post.data.description, ...(post.data.tags || []), ...(post.data.categories || [])]
+    .join(" ")
+    .toLowerCase();
 ---
 
 <BaseLayout title="Blog" sideBarActiveItemID="blog">
@@ -18,9 +30,44 @@ const { page } = Astro.props;
     <div class="text-3xl w-full font-bold font-heading">Blog</div>
   </div>
 
+  <input
+    id="blog-search"
+    type="search"
+    placeholder="Search posts…"
+    autocomplete="off"
+    class="input input-bordered w-full mb-5 focus:outline-none"
+  />
+
+  <div id="blog-search-results" hidden>
+    <ul>
+      {
+        allPosts.map((post) => (
+          <li class="search-item" data-text={searchText(post)}>
+            <HorizontalCard
+              title={post.data.title}
+              img={post.data.heroImage}
+              desc={post.data.description}
+              url={"/blog/" + createSlug(post.data.title, post.id)}
+              target="_self"
+              badge={post.data.badge}
+              tags={post.data.tags}
+              loading="lazy"
+            />
+            <div class="divider my-0" />
+          </li>
+        ))
+      }
+    </ul>
+    <div id="blog-search-empty" hidden class="bg-base-200 border-l-4 border-primary w-full p-4">
+      <p class="font-bold">No posts found</p>
+      <p>Nothing matches your search.</p>
+    </div>
+  </div>
+
+  <div id="blog-default">
   {
     page.data.length === 0 ? (
-      <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
+      <div class="bg-base-200 border-l-4 border-primary w-full p-4 min-w-full">
         <p class="font-bold">Sorry!</p>
         <p>There are no blog posts to show at the moment. Check back later!</p>
       </div>
@@ -84,4 +131,33 @@ const { page } = Astro.props;
       )
     }
   </div>
+  </div>
+
+  <script>
+    const input = document.getElementById("blog-search");
+    const results = document.getElementById("blog-search-results");
+    const defaultList = document.getElementById("blog-default");
+    const empty = document.getElementById("blog-search-empty");
+    const items = Array.from(results.querySelectorAll(".search-item"));
+
+    function render(query) {
+      const q = query.trim().toLowerCase();
+      if (!q) {
+        results.hidden = true;
+        defaultList.hidden = false;
+        return;
+      }
+      defaultList.hidden = true;
+      results.hidden = false;
+      let visible = 0;
+      for (const item of items) {
+        const match = item.dataset.text.includes(q);
+        item.hidden = !match;
+        if (match) visible++;
+      }
+      empty.hidden = visible > 0;
+    }
+
+    input.addEventListener("input", (e) => render(e.target.value));
+  </script>
 </BaseLayout>
