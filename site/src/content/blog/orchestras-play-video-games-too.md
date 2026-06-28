@@ -7,9 +7,7 @@ tags: ["experience", "games", "music", "personal"]
 categories: ["Technology"]
 ---
 
-![Those fancy lights mean that this is a concert of games' soundtracks.](/blog/uploads/2016/10/2240669-vollbild-1024x683.jpeg)
-
-_Those fancy lights mean this is a concert of game soundtracks. Take that Mozart!_
+![Those fancy lights mean this is a concert of game soundtracks. Take that Mozart!](/blog/uploads/2016/10/2240669-vollbild-1024x683.jpeg)
 
 ### Movie soundtracks are epic, but...
 
@@ -19,7 +17,7 @@ But there's more...
 
 ### Game soundtracks are no longer _beeps & boops_
 
-![474578-virtuanes_2008_07_31_20_20_55_50](/blog/uploads/2016/10/474578-virtuanes_2008_07_31_20_20_55_50-400x300.jpg)
+![](/blog/uploads/2016/10/474578-virtuanes_2008_07_31_20_20_55_50-400x300.jpg)
 
 Pong was released in **1972** with just **two sounds**. After eight boring years, Pack-Man features a [memorable intro theme](https://youtu.be/rnf0q1zOTXs).
 
@@ -31,8 +29,6 @@ At the time, **sound and hardware specs were limited**. But the melodies are the
 
 ![This is how games look today (Source: God of War)](/blog/uploads/2016/10/gow_1.jpg)
 
-_This is how games look today (Source: God of War)_
-
 > Saying that game soundtracks are low quality is like saying Mona Lisa is crap because DaVinci used a brush instead of Photoshop.
 
 People appreciate Shakespeare even though they can barely understand the archaic English it was written with. Well the good thing about music is that you can take the same recipe (score), arrange it, and play it with better instruments!
@@ -43,7 +39,7 @@ These melodies fill us with [determination](https://youtu.be/poU6FMG9D4s).
 
 ### Orchestras play video games too
 
-![video_games_live_artist_page_facebook](/blog/uploads/2016/10/video_games_live_artist_page_facebook.jpg)
+![](/blog/uploads/2016/10/video_games_live_artist_page_facebook.jpg)
 
 When the score is already superb the result is out of this world -- like this orchestration of [Bohemiam Rapsody](https://www.youtube.com/watch?v=aCFnzSCzoYA).
 
@@ -63,7 +59,7 @@ Some fans do their own reochestrations, like [Blake Robinson](https://www.youtub
 
 ### Choose your own ~adventure~ melody
 
-![maxresdefault](/blog/uploads/2016/10/maxresdefault.jpg)
+![](/blog/uploads/2016/10/maxresdefault.jpg)
 
 - **Playful** like [Angry Bids' main theme](https://youtu.be/_vYL9M0mRkg)
 - **Cute** like [Animal Crossing's main theme](https://youtu.be/gyge3hpKlyQ)

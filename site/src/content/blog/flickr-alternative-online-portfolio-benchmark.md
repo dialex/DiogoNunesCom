@@ -7,9 +7,7 @@ tags: ["review", "utilities"]
 categories: ["Photography"]
 ---
 
-![](/blog/uploads/2019/03/39886951753_554c9a5024_o.jpg)
-
-_This was actually my last photo on Flickr :)_
+![This was actually my last photo on Flickr :)](/blog/uploads/2019/03/39886951753_554c9a5024_o.jpg)
 
 ### Flickr broke my heart. It hurt but I've moved on.
 
@@ -30,7 +28,7 @@ Based on that criteria, this was my review of the 7 mainstream platforms:
 ### And the winner is...
 
 > Store all photos on Google Photos
-> 
+>
 > Copy the best to 500px
 
 **500px** won since it has everything I want for free: the design looks great, I can easily make and share albums, and it has social features built-in. The only downside is that I'm limited to 7 uploads a week, but there's no rush.

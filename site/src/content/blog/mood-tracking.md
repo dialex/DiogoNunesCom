@@ -31,12 +31,10 @@ Every day, before going to bed I open the app and with a handful of clicks I sel
 This is my method. Find your balance between _convenience_ and _precision_. If you go for convenience, take note of how you felt in general and which events made you feel that way. If you go for precision, you write down how each particular event made you feel.
 
 > **Convenience** example: Today, no particular event had a strong emotional influence in me. In general, I felt good, so I'll grade it as “good” and list the activities that I've done (work, exercise, read book).
-> 
+>
 > **Precision** example: The day had a bad start, due to a horrible nightmare. I went out to take some photos, but nothing special happened. In the evening I watched a hilarious movie. So I'll add three lines for today, one with "awful" for the event "nightmare," another line with "meh" for "hobby," and finally "great" for "movie".
 
-![](/blog/uploads/2023/02/Screenshot_20230103_190724_Daylio.jpg.jpeg)
-
-_My total moods during a full year_
+![My total moods during a full year](/blog/uploads/2023/02/Screenshot_20230103_190724_Daylio.jpg.jpeg)
 
 Here's why I like this app so much:
 
@@ -53,21 +51,13 @@ With this data I was able to figure out what lifts me up (e.g., playing games wi
 
 Here are some examples:
 
-![](/blog/uploads/2023/02/Screenshot_20230103_190801_Daylio.jpg.png)
+![The app tells you your average mood per day of the week. Also tells you what activities you usually do when you feel a particular mood.](/blog/uploads/2023/02/Screenshot_20230103_190801_Daylio.jpg.png)
 
-_The app tells you your average mood per day of the week. Also tells you what activities you usually do when you feel a particular mood._
+![The app is also useful to track habits, like how many times you did a particular activity during the year, per month. In this example you can see I play games less frequently during the Summer.](/blog/uploads/2023/02/Daylio-activities-per-month-1024x869.jpg)
 
-![](/blog/uploads/2023/02/Daylio-activities-per-month-1024x869.jpg)
+![This is probably the coolest feature of the app. It tells you the effect of a particular activity on your mood. For example "eating out" boost my mood by 25%. Now that's a very interesting insight!](/blog/uploads/2023/02/Screenshot_20230103_190450_Daylio-461x1024.jpg)
 
-_The app is also useful to track habits, like how many times you did a particular activity during the year, per month. In this example you can see I play games less frequently during the Summer._
-
-![](/blog/uploads/2023/02/Screenshot_20230103_190450_Daylio-461x1024.jpg)
-
-_This is probably the coolest feature of the app. It tells you the effect of a particular activity on your mood. For example "eating out" boost my mood by 25%. Now that's a very interesting insight!_
-
-![daylio year in pixels](/blog/uploads/2023/02/daylio_share-480x1024.png)
-
-_And every year you get your "year in pixels", a visual representation of how you felt throughout the year._
+![And every year you get your "year in pixels", a visual representation of how you felt throughout the year.](/blog/uploads/2023/02/daylio_share-480x1024.png)
 
 I hope the examples above showcase the usefulness of this habit/app.
 

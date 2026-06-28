@@ -7,7 +7,7 @@ tags: ["personal", "self-esteem"]
 categories: ["Thoughts"]
 ---
 
-![i can breathe](/blog/uploads/2015/05/i-can-breathe.png)
+![](/blog/uploads/2015/05/i-can-breathe.png)
 
 EDIT: My new book [Purpose](https://leanpub.com/purpose) might help you.
 
@@ -31,9 +31,7 @@ I find myself commenting my work with others and saying things like _"Well it's 
 
 **Life proved me he was right.** Not long ago I had to delegate a task to an intern with more work/coding experience than I. The outcome was not as good and not as easy for him than it was for me when I performed that exact same task as an intern.
 
-![neo whoa gif](/blog/uploads/2015/05/wow-neo.gif)
-
-_When I discovered I could do things easily and properly, things that others could not._
+![When I discovered I could do things easily and properly, things that others could not.](/blog/uploads/2015/05/wow-neo.gif)
 
 Suddently I realized I wasn't so redudant as I though. A [weak self-esteem](/blog/i-regret-hesitating/) always mined my behaviour. But now, step-by-step, win-after-win, I'm becoming confident and independent.
 
@@ -45,7 +43,7 @@ Maybe you're really good at something; or maybe you're average at everything. Yo
 
 My profile is great for startups and small companies, that is organizations that require a horizontal span of skills. Companies organized as silos of capabilities won't take full advantage of me, unless they use me as the "bridge" between all those departments.
 
-![Not Another One!](/blog/uploads/2015/05/5-29-12-Many-Hats.jpg)
+![Another one?!](/blog/uploads/2015/05/5-29-12-Many-Hats.jpg)
 
 Basically, a company can either hire the best person for programming, another for design, another for technical writing, another for marketing, another for human resources, another for ideation and entrepreneurship -- or just hire the **all-in-1** person :D
 

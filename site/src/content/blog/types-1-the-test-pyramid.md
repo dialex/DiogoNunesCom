@@ -18,7 +18,7 @@ _This is part of [my free testing course](https://dialex.github.io/start-testing
 
 The concept of a test pyramid was initially introduced by [Mike Cohn](https://amzn.to/3W7LLKz). It is a visual metaphor that groups tests into layers and recommends how many tests we should have in each of these layers.
 
-![test-pyramid](/blog/uploads/2023/05/test-pyramid.png)
+![](/blog/uploads/2023/05/test-pyramid.png)
 
 This visual model conveys several messages:
 
@@ -51,7 +51,7 @@ Despite it's popularity, it is not without flaws. Some people say the model is o
 
 Almost [10 years later](https://twitter.com/kentcdodds/status/960723172591992832?lang=en), Kent Dodds published his modern take on the test pyramid and called it the testing trophy. It's an overall improvement over the previous model in [several aspects](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests).
 
-![test-pyramid-trophy](/blog/uploads/2023/05/test-pyramid-trophy-1000x1024.png)
+![](/blog/uploads/2023/05/test-pyramid-trophy-1000x1024.png)
 
 Here's a summary, paraphrasing the author:
 
@@ -91,7 +91,7 @@ If you prefer cheese to construction, here's another analogy. Swiss cheese slice
 
 And that's what we want to achieve with our testing layers. Individually each layer has coverage gaps, but all together we efficiently maximise coverage. "The right tool for the right job". "Divide to conquer".
 
-![test-pyramid-rosie-circles](/blog/uploads/2023/05/test-pyramid-rosie-circles.png)
+![](/blog/uploads/2023/05/test-pyramid-rosie-circles.png)
 
 With time, many more models were created besides the original pyramid. Nowadays you have many flavours to pick from, just like ice creams. Speaking of which:
 
@@ -105,7 +105,7 @@ With time, many more models were created besides the original pyramid. Nowadays 
 - [the filters](https://infiniteundo.com/post/158179632683/abandoning-the-pyramid-of-testing-in-favor-of-a)
 - and [many more](http://www.testingreferences.com/here_be_pyramids.php)
 
-![test-pyramid-icecream](/blog/uploads/2023/05/test-pyramid-icecream-324x400.png)
+![](/blog/uploads/2023/05/test-pyramid-icecream-324x400.png)
 
 What they all have in common is that their authors are trying to convey a message visually. Use whatever illustrates best your narrative or create your own.
 

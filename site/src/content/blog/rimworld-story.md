@@ -203,9 +203,7 @@ He ran into the infirmary, carrying medicine with him. He treated one colonist, 
 
 That was it. The colony was brought to its knees and there was no way to get back up.
 
-![](/blog/uploads/2023/09/DALL·E-2023-09-30-21.34.56-impressionist-oil-painting-of-a-suspicious-male-duck-1.png)
-
-_"Peace was never an option"_
+!["Peace was never an option"](/blog/uploads/2023/09/DALL·E-2023-09-30-21.34.56-impressionist-oil-painting-of-a-suspicious-male-duck-1.png)
 
 They were beaten by four rhinos and one squirrel. And one duck too.
 

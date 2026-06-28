@@ -6,7 +6,7 @@ heroImage: "/blog/uploads/2014/09/cropped-geeky-gecko-avatar.png"
 categories: ["Announcement"]
 ---
 
-![Blogging1-1024x768](/blog/uploads/2014/01/Blogging1-1024x768-e1411915178650.jpg)
+![](/blog/uploads/2014/01/Blogging1-1024x768-e1411915178650.jpg)
 
 ## Why now?
 

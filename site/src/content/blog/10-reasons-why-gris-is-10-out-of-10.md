@@ -21,9 +21,7 @@ categories: ["Technology"]
 10.  It will hit your feelings
      - _a tissue box is just as important as a game controller_
 
-![Journey reference](/blog/uploads/2019/12/Desktop-Screenshot-2019.12.08-10.51.20.80.png)
-
-_The 1st chapter looks like a homage to Journey_
+![The 1st chapter looks like a homage to Journey](/blog/uploads/2019/12/Desktop-Screenshot-2019.12.08-10.51.20.80.png)
 
 This is an art game, it's a whole experience.
 

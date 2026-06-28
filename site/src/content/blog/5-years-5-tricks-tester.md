@@ -20,7 +20,7 @@ I've worked for seven companies since I became a tester five years ago. Each tea
 
 ✅ **Solution**: Ask each member of the team to make a personal map. Agree beforehand a small number of questions. Focus on personal questions that might generate discussion or that would be hard to ask otherwise.
 
-[![personal map example](/blog/uploads/2021/07/Diogo-Nunes-Personal-Map-1024x363.png)](/blog/uploads/2021/07/Diogo-Nunes-Personal-Map.png)
+[![Personal map example](/blog/uploads/2021/07/Diogo-Nunes-Personal-Map-1024x363.png)](/blog/uploads/2021/07/Diogo-Nunes-Personal-Map.png)
 
 ### Video demos
 
@@ -46,9 +46,7 @@ I've worked for seven companies since I became a tester five years ago. Each tea
 
 > P.S: 135 memes so far. Even after I leave a company, I still receive meme requests!
 
-![Diogo, as the meme king](/blog/uploads/2021/07/diogo-meme-king-1024x576.png)
-
-_All hail the meme king... or else! (Kudos to Hugo Ferreira for this meme)_
+![All hail the meme king... or else! (Kudos to Hugo Ferreira for this meme)](/blog/uploads/2021/07/diogo-meme-king-1024x576.png)
 
 ### Board games
 

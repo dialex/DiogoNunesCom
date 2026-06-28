@@ -56,7 +56,7 @@ At this time you could try join a multiplayer server, but chances are they are u
 
 Yes... but only on public servers though.
 
-![wavj3](/blog/uploads/2015/12/wavj3.jpg)
+![](/blog/uploads/2015/12/wavj3.jpg)
 
 We followed a dozen of tutorials and guides. We tried [Hamachi](https://steamcommunity.com/sharedfiles/filedetails/?id=144788474). We tried [Evolve](https://www.youtube.com/watch?v=le03I4Lhkl8). We tried disabling the firewall. We tried weird developer's console commands like `sv_lan 0`. We gave up after hours of trial and error.
 

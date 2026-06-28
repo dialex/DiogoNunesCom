@@ -7,7 +7,7 @@ tags: ["hardware", "internet button"]
 categories: ["Technology"]
 ---
 
-![internet-button](/blog/uploads/2016/08/internet-button.jpg)
+![](/blog/uploads/2016/08/internet-button.jpg)
 
 ## What it is
 

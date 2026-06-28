@@ -18,7 +18,7 @@ Two services, out of the dozens I tried, survived my criteria.
 
 ### Google Photos
 
-![google-photos](/blog/uploads/2019/11/google-photos-400x400.jpeg)
+![](/blog/uploads/2019/11/google-photos-400x400.jpeg)
 
 I recommend if you are an amateur photographer, who only uses JPGs and doesn't worry about resolutions above 16MP.
 
@@ -42,7 +42,7 @@ It's one of the cheapest and potentially free (if your photos are <16MP).
 
 ### Amazon Glacier
 
-![amazon-glacier-logo](/blog/uploads/2019/11/amazon-glacier-logo.jpg)
+![](/blog/uploads/2019/11/amazon-glacier-logo.jpg)
 
 I recommend if you are an enthusiastic/pro photographer, who uses mostly RAWs/NEFs with big resolutions. A Software Engineering degree might also be required (I'm only half joking).
 

@@ -7,7 +7,7 @@ tags: ["experience"]
 categories: ["Work"]
 ---
 
-![i-like-this-job-marginally-more-than-being-homeless-64fc3](/blog/uploads/2014/10/i-like-this-job-marginally-more-than-being-homeless-64fc3.png)
+![](/blog/uploads/2014/10/i-like-this-job-marginally-more-than-being-homeless-64fc3.png)
 
 ### Should you quit your job?
 

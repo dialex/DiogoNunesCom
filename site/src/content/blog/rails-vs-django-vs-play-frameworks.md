@@ -86,6 +86,6 @@ This is **the power that comes from an active open-source community**: somewhere
 
 ### And the winner is...
 
-![home-by-now](/blog/uploads/2014/09/home-by-now.png)
+![](/blog/uploads/2014/09/home-by-now.png)
 
 Any questions?

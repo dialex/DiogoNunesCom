@@ -24,8 +24,6 @@ A nova geração - aquela altamente qualificada, com acesso a tecnologia e infor
 
 ![DCID, a primeira plataforma portuguesa para debate e voto online](/blog/uploads/2014/04/dcid-0.1.0-screenshop1-e1411918650152.png)
 
-_[]9 DCID, a primeira plataforma portuguesa para debate e voto online_
-
 É precisamente sobre colocar a tecnologia ao serviço das pessoas e da democracia que vos escrevo. Depois de assistir a demasiadas manifestações e greves o ano passado pensei que devia haver uma maneira de eliminar todo aquele ruído e chegar às propostas que eram de facto apregoadas. **Um sítio onde todos tivessem a liberdade de sugerir como melhorar Portugal e onde todos tivessem o poder para decidir quais as melhores propostas.** Assim surgiu a ideia para o [**DCID**](http://www.dcid.org/how). E depois de dedicar 10 fins-de-semana a esta causa, a ideia tornou-se realidade e [a partir de hoje _és tu quem dcid_](http://www.dcid.org/). Trata-se de um protótipo mas já tem o suficiente para ser útil e será tanto mais expressivo quanto mais pessoas participarem.
 
 **Não deixes que outros decidam por ti. [DCID agora.](http://www.dcid.org/)**

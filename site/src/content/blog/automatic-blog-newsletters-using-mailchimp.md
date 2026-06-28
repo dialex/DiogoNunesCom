@@ -7,7 +7,7 @@ tags: ["social", "tutorial"]
 categories: ["Technology"]
 ---
 
-![rss-mailchimp](/blog/uploads/2015/05/rss-mailchimp-e1425834367997.png)
+![](/blog/uploads/2015/05/rss-mailchimp-e1425834367997.png)
 
 You have a blog and an RSS feed announcing your posts. If you're ~lazy~ efficient like me, you already take advantage of that RSS through [IFTTT](https://ifttt.com/) to **automatically share your posts on your favorite social networks**. You probably remember me mentioning this awesome service on ["Software too good to be free"](/blog/software-too-good-to-be-free/). It's really easy to set up the If This Then That rules -- there's no coding involved, just clicking on big colorful icons. You'll be amazed with the amount of time you'll save up!
 
@@ -45,7 +45,7 @@ You now have an automatic creation and delivery of newsletters. You're a genius!
 
 That newsletter looks awesome, isn't it? I'm a techie not a designer, but sometimes I need to create good-looking media like that banner. **[Canva](https://www.canva.com/) brags that it turns anyone into a designer**, so I gave it a try. Basically it's an online service that lets you create posters, flyers, banners, infographics and social networks' covers, all by this by using the drag-and-drop method.
 
-![canva](/blog/uploads/2015/05/canva.png)
+![](/blog/uploads/2015/05/canva.png)
 
 They have a ~wide~ range of shapes, icons and photos that you can use for free. They also provide templates and examples for you to get started. Their range of fonts is awesome. Now it all rests upon your creativity.
 

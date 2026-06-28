@@ -15,7 +15,7 @@ If you don't know what branches are and why they're used for, read [this](http:/
 
 First make sure your project follows the standard SVN folder structure, i.e. the `trunk`, `tags` and `branches` folders. All your code, resources, dependencies, and everything else you might need to compile a version of your software should live inside the `trunk` folder.
 
-[![svn-branch-1](/blog/uploads/2015/05/svn-branch-1.png)](/blog/uploads/2015/05/svn-branch-1.png)
+[![](/blog/uploads/2015/05/svn-branch-1.png)](/blog/uploads/2015/05/svn-branch-1.png)
 
 Before creating a branch, perform an update on your `trunk` folder and commit all pending changes. If your using Tortoise SVN a green checkmark overlay should appear on your folder. You're ready to branch your `trunk`!
 
@@ -27,7 +27,7 @@ Before creating a branch, perform an update on your `trunk` folder and commit al
 4.  At this time, you have a full copy of your `trunk` folder at `branches/your-branch-name`. To add it to your SVN just right-click it and commit. Don't forget to ignore build-generated files.
     
 
-[![svn-branch-3](/blog/uploads/2015/05/svn-branch-3.png)](/blog/uploads/2015/05/svn-branch-3.png)
+[![](/blog/uploads/2015/05/svn-branch-3.png)](/blog/uploads/2015/05/svn-branch-3.png)
 
 ## Usage
 
@@ -53,13 +53,13 @@ Now this is where it starts getting interesting... and tricky. Remember the isol
     3.  At merge options you'll probably want to leave all the defaults. You can press **Test merge** to do just that -- TortoiseSVN will give you a preview of the actions that will be applied during the merge (add, remove, update, conflict), without changing any local or remote files.
     4.  If you're comfortable, do it, press **Merge**.
 
-[![svn-branch-6](/blog/uploads/2015/05/svn-branch-6.png)](/blog/uploads/2015/05/svn-branch-6.png)
+[![](/blog/uploads/2015/05/svn-branch-6.png)](/blog/uploads/2015/05/svn-branch-6.png)
 
 At this point, your local branch is a merge between what you had and the latest developments on `trunk`. You may want to run a couple of tests just to guarantee that SVN's auto-merge didn't break anything. If your merge produced conflicts and you had to manually resolve them, them YOU MUST test all code involved in those conflicts. You'll thank me later.
 
 Your branch continues equally awesome after the merge? Great, then it's time to commit your branch, and continue your work. TortoiseSVN will even suggest a commit message, a concatenation of messages from the commits that you just finished merging.
 
-[![svn-branch-7](/blog/uploads/2015/05/svn-branch-7.png)](/blog/uploads/2015/05/svn-branch-7.png)
+[![](/blog/uploads/2015/05/svn-branch-7.png)](/blog/uploads/2015/05/svn-branch-7.png)
 
 **The more often you merge** with `trunk`, the less code you'll have to merge each time, thus reducing the probability and complexity of conflicts.
 
@@ -81,15 +81,15 @@ Like when updating your branch, your local `trunk` is now a merge between what i
 
 Conflicts are the flavor of life. Imagine Lord of the Rings without the all those ugly orcs and Uruk-Hais -- pretty tasteless right? A conflict happens when you and someone else edit the same line of code differently. The next time you try to merge both code sources a conflict will arise, since SVN doesn't know which line of code to use. Who's right? Your line or your colleague's?
 
-[![svn-branch-8](/blog/uploads/2015/05/svn-branch-8.png)](/blog/uploads/2015/05/svn-branch-8.png)
+[![](/blog/uploads/2015/05/svn-branch-8.png)](/blog/uploads/2015/05/svn-branch-8.png)
 
 In this cases you have to manually resolve the conflict. That means reviewing the file where the conflict happened and choose which version is legit. In this example, I made a change on `trunk` and a different change at the same line on `branches`. When I tried to merge the branch into the `trunk` this happened:
 
-[![svn-branch-9](/blog/uploads/2015/05/svn-branch-9.png)](/blog/uploads/2015/05/svn-branch-9.png)
+[![](/blog/uploads/2015/05/svn-branch-9.png)](/blog/uploads/2015/05/svn-branch-9.png)
 
 SVN tried its best to merge the files but we ended up with two conflicting files. Time to put on the gloves and click **Edit conflict**. TortoiseSVN will open a 3-pane window with your local version (mine), the repository version (theirs), and the merged file preview.
 
-[![svn-branch-10](/blog/uploads/2015/05/svn-branch-10.png)](/blog/uploads/2015/05/svn-branch-10.png)
+[![](/blog/uploads/2015/05/svn-branch-10.png)](/blog/uploads/2015/05/svn-branch-10.png)
 
 Focus only on conflicts by navigating using the **Previous/Next conflict arrows**. Have a look at the **Merged pane** (bottom). SVN is telling that line `this.lblRepo.Text = "you're at TRUNK";` was removed and replaced by... well, SVN needs help deciding, it has two possible candidates, as you can see in the **Theirs pane** (left) and **Mine pane** (right).
 
@@ -101,7 +101,7 @@ Remember to test your code after a manual merge.
 
 ## Conclusion
 
-[![svn-branch-11](/blog/uploads/2015/05/svn-branch-11.png)](/blog/uploads/2015/05/svn-branch-11.png)
+[![](/blog/uploads/2015/05/svn-branch-11.png)](/blog/uploads/2015/05/svn-branch-11.png)
 
 Mission accomplished.
 

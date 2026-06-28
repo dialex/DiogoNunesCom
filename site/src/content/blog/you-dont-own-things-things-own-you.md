@@ -19,9 +19,7 @@ And since everyone had so little, owning stuff was empowering. And when quality 
 
 Our animal side still likes to show off and social networks are there to help [`#braggie`](http://www.dailymail.co.uk/sciencetech/article-2511167/Forget-selfies--BRAGGIE-One-upload-photos-social-networks-just-off.html). That's why people buy expensive iStuff and carefully protect them with premium covers but never cover up the brand's logo! And smart watches that need a smart phone nearby to work? Thankfully they don't require a smart person.
 
-![img-iphone-case](/blog/uploads/2015/02/iglaze-iphone5b-e1420113540977-400x228.jpg)
-
-_Make a hole in the case if you have to. Just make sure everyone knows that I paid big money for that thing!_
+![Make a hole in the case if you have to. Just make sure everyone knows that I paid big money for that thing!](/blog/uploads/2015/02/iglaze-iphone5b-e1420113540977-400x228.jpg)
 
 ### Stuff owns you
 
@@ -35,7 +33,7 @@ Do you buy a car or does it adopt you? Is you car (1) an object that allows you 
 
 Do you passionately desire to buy something, something that everyone seems to have? And when you finally buy it you barely care about finding a use for it?
 
-[![facebook_1408519939948](/blog/uploads/2015/01/facebook_1408519939948-314x400.jpg)](/blog/uploads/2015/01/facebook_1408519939948.jpg)
+[![](/blog/uploads/2015/01/facebook_1408519939948-314x400.jpg)](/blog/uploads/2015/01/facebook_1408519939948.jpg)
 
 **My most precious stuff are things that are worthless to anybody.** They are not kept at a bank safe, since they have no value. They are stored inside a shoe box. What does it contain? A painted rock, a broken toy, some pins, several pieces of paper, and [Cirque du Soleil](/blog/how-i-met-cirque-du-soleil/) tickets. **The real value is not in the items but in the memories associated.**
 

@@ -23,7 +23,7 @@ On your code you replace your `WebDriver` with a `RemoteWebDriver`. That way, wh
 
 You are not forced to publicly expose your web app since they allow you to test locally. You just need to change a flag on the `RemoteWebDriver`'s capabilities and have [their executable](https://www.browserstack.com/local-testing#command-line) running on your local machine, which maintains a secure connection with their data center. All this is explained on their [documentation](https://www.browserstack.com/automate/java), which is clear and contains several examples.
 
-![browserstack-automate-example](/blog/uploads/2016/06/browserstack-automate-example.png)
+![](/blog/uploads/2016/06/browserstack-automate-example.png)
 
 ## And how it doesn't work
 

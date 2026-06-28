@@ -34,4 +34,4 @@ As you know, in the past I had a go with the [Internet of Things (IoT)](/blog/ta
 
 ## How they compare
 
-[![iot_buttons_comparison](/blog/uploads/2017/07/iot_buttons_comparison.png)](/blog/uploads/2017/07/iot_buttons_comparison.png)
+[![](/blog/uploads/2017/07/iot_buttons_comparison.png)](/blog/uploads/2017/07/iot_buttons_comparison.png)

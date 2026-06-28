@@ -7,7 +7,7 @@ tags: ["review"]
 categories: ["Work"]
 ---
 
-![dinheiro](/blog/uploads/2015/01/dinheiro-e1421522886553.jpg)
+![](/blog/uploads/2015/01/dinheiro-e1421522886553.jpg)
 
 ### Before opening the Pandora Box, read this or regret.
 
@@ -45,7 +45,7 @@ In the words of [Dan Pink](https://www.ted.com/talks/dan_pink_on_motivation), "a
 
 ### Is there hope?
 
-![shutterstock_112656725-690x300](/blog/uploads/2015/03/shutterstock_112656725-690x300.jpg)
+![](/blog/uploads/2015/03/shutterstock_112656725-690x300.jpg)
 
 By now you should be thankful for finding this article before implementing that bonus system you kept thinking about. With so many pitfalls, should you give up the idea of such system?
 

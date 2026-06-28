@@ -30,6 +30,6 @@ To keep my Gmail integration working I followed [these instructions](https://ser
 
 An example of a working domain:
 
-![example](https://i.stack.imgur.com/GccBx.png)
+![](https://i.stack.imgur.com/GccBx.png)
 
 I hope this helps you as much as it did for me.

@@ -7,8 +7,6 @@ tags: ["hardware", "internet button", "story"]
 categories: ["Technology"]
 ---
 
-_(This is a repost, originally from my [company's blog](https://www.equalexperts.com/blog/))_
-
 Here at Equal Experts we like to have pet projects and help the community. And of course, we are also geeks at heart. So when we at [EE Portugal](https://www.equalexperts.com/portugal/) came across the problem I’m about to explain, we had to solve it.
 
 ## The problem
@@ -18,8 +16,6 @@ Everyday, around 10:30am and 4:30pm, a company called [YumYum](http://www.yum-yu
 Naturally we strive to stay healthy and avoid the temptation of sweets, thus whenever possible we choose brown bread. That means the last people that get to the trolley have no choice but to eat cakes. And to make things worse, EE’s office is on the upper floor – so when we finally notice the trolley has arrived, it is already too late.
 
 ![Humm... cakes](/blog/uploads/2016/08/yumyum-1cakes.jpg)
-
-_Humm... cakes_
 
 ## The solution
 
@@ -50,7 +46,5 @@ I programmed one of the buttons to push a message to our Slack channel on every 
 - We are being asked to develop a visual and audible alert along the main floor.
 
 ![The trolley](/blog/uploads/2016/08/yumyum-2trolley.jpg)
-
-_The trolley_
 
 **Remember: make the world a wee bit more awesome everyday!**

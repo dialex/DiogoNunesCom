@@ -16,14 +16,12 @@ After seeing Alegria I watched all Soleil's shows available online: [Varekai](ht
 
 That's how I felt. **When I saw the first actor come into scene, dressed in blue with perfect makeup, slow beastly gestures right in front of my eyes, my tears started falling down.** Just recalling that memory wets my eyes.
 
-[![CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally](/blog/uploads/2014/02/CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally-1024x682.jpg)](/blog/uploads/2014/02/CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally.jpg)
+[![](/blog/uploads/2014/02/CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally-1024x682.jpg)](/blog/uploads/2014/02/CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally.jpg)
 
 Varekai takes place in a bamboo forest. Icarus falls into that forest and we get to see all those colorful creatures seeing a human for the first time. **It's a perfect mix** of setting, acting, makeup/costumes, music, story. During those minutes **you leave the real world behind and all your senses focus on the stage.** You're a spectactor - you see, you hear, you feel - in a fantasy world.
 
 You may argue the tickets are expensive. Money exists to be spent and [you should spend your money on experiences not stuff](http://lmgtfy.com/?q=spend+money+on+experiences+not+stuff). Your stuff (including your iPhone) worths less everyday. [Experiences live as long as you](http://psychcentral.com/news/2012/01/27/buying-new-experiences-not-things-tied-to-happiness/34167.html), and [studies](http://www.amazon.co.uk/dp/0330511602) proved that **as time goes by past experiences are remembered as being happier than they really were**. Now that's a smart investment.
 
-![photo: goo.gl/yunjCq](/blog/uploads/2014/02/Cirque-du-Soleil1-682x1024.jpg)
-
-_[]15 photo: goo.gl/yunjCq_
+![](/blog/uploads/2014/02/Cirque-du-Soleil1-682x1024.jpg)
 
 Not convinced? Go ~see~ live it for yourself.

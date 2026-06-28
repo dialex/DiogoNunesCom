@@ -20,17 +20,17 @@ Now that you have the domain, you need to **redirect it to Heroku**. Analogy: if
 
 1.  Go to **"Manage domains" » "Your domains"** and click over the domain you just bought (for me it was `dcid.org`).
 
-[![namecheap1](/blog/uploads/2014/11/namecheap1.png)](/blog/uploads/2014/11/namecheap1.png)
+[![](/blog/uploads/2014/11/namecheap1.png)](/blog/uploads/2014/11/namecheap1.png)
 
 **_Pitfall 1:_** Make sure you're using Namecheap's nameservers (DNS)! If you already owned the domain and were using another hoster's DNS servers, you need to click the "Transfer DNS back to us" option, otherwise you won't get access to the "All Host Records" option which will need in a second.
 
 2) Go to **"Host Management" » "All Host Records"** and edit the first two fields. The **`@ field`** should have your full domain name and the **`www field`** should have the current url to your heroku app. Make sure you use **`URL Redirect`** for the first field and **`CNAME (Alias)`** for the second. In my case, I'm redirect any from `www.dcid.org` to the rails application at `dcid.herokuapp.com`.
 
-[![namecheap2](/blog/uploads/2014/11/namecheap2.png)](/blog/uploads/2014/11/namecheap2.png)
+[![](/blog/uploads/2014/11/namecheap2.png)](/blog/uploads/2014/11/namecheap2.png)
 
 3) Finally you need to add your new custom domain to Heroku. Open your application's dashboard and go to the **Settings** tab. On **Domains** add two entries, one for your `awesome-domain.com` and another with the `www.`, that way both URLs will resolve to your Heroku app.
 
-[![heroku](/blog/uploads/2014/11/heroku.png)](/blog/uploads/2014/11/heroku.png)
+[![](/blog/uploads/2014/11/heroku.png)](/blog/uploads/2014/11/heroku.png)
 
 And everything should be working now. If you type in www.awesome-product.com on the browser you should see your Heroku application. No?
 
