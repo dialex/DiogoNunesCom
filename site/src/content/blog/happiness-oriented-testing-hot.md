@@ -2,7 +2,7 @@
 title: "Happiness-oriented Testing (HoT)"
 description: "There are many metrics. Some are mainstream, measurable, others imposed. Most can gamed. But there's one that aligns with quality — happiness."
 pubDate: "2022-04-04T07:00:38"
-heroImage: "/blog/uploads/2022/03/duy-pham-Cecb0_8Hx-o-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2022/03/duy-pham-Cecb0_8Hx-o-unsplash.jpg"
 heroCaption: "Photo by Duy Pham on Unsplash"
 tags: ["experience", "idea", "testing"]
 categories: ["Work"]
@@ -30,7 +30,7 @@ Today, we laugh and dismiss that metric.
 
 It doesn't matter how many lines you write. What matters is code readability. That's the goal. Then you find measurements that univocally contribute towards that goal. In that example, it would be more effective to measure the number of WTFs per day than the lines of code per dev. _Ha ha, that's just as silly!_ No one would dare use such an **unconventional metric** — and yet... it's perfectly aligned with the desired outcome. More on that later, stay tuned.
 
-![](/blog/uploads/2022/03/6a0120a85dcdae970b012877707a45970c-pi.png)
+![](../../assets/blog/uploads/2022/03/6a0120a85dcdae970b012877707a45970c-pi.png)
 
 ## Many conventional quality metrics
 

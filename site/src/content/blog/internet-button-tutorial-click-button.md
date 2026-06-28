@@ -2,7 +2,7 @@
 title: "Internet Button: push my buttons (tutorial #3)"
 description: "In this Particle Internet Button tutorial we'll deal with the physical buttons and assigning actions to them. Save time with this guide and its examples."
 pubDate: "2017-02-27T08:00:00"
-heroImage: "/blog/uploads/2016/08/Internet-Button-Tutorial3.jpg"
+heroImage: "../../assets/blog/uploads/2016/08/Internet-Button-Tutorial3.jpg"
 tags: ["coding", "hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---

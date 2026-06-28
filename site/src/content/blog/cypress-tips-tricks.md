@@ -2,7 +2,7 @@
 title: "Tips & Tricks for Cypress"
 description: "This is a collection of simple and recurring scenarios when writing Cypress tests. It covers setup, assertions, actions, selectors, waits and mocks."
 pubDate: "2021-01-18T07:00:00"
-heroImage: "/blog/uploads/2020/08/hunter-haley-s8OO2-t-HmQ-unsplash-scaled.jpg"
+heroImage: "../../assets/blog/uploads/2020/08/hunter-haley-s8OO2-t-HmQ-unsplash-scaled.jpg"
 heroCaption: "Photo by Hunter Haley on Unsplash"
 tags: ["cypress", "testing", "tutorial"]
 categories: ["Technology"]

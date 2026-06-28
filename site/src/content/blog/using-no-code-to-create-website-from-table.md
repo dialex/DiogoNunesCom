@@ -2,7 +2,7 @@
 title: "Using no-code to create a website from a table"
 description: "A guide to create a website from a table of curated data, without a single line of code. Also works as a review of Airtable and Pory."
 pubDate: "2021-03-01T07:00:00"
-heroImage: "/blog/uploads/2021/01/iker-urteaga-TL5Vy1IM-uA-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/01/iker-urteaga-TL5Vy1IM-uA-unsplash.jpg"
 heroCaption: "Photo by Iker Urteaga on Unsplash"
 tags: ["review", "tutorial", "utilities"]
 categories: ["Technology"]

@@ -2,7 +2,7 @@
 title: "Best place to buy t-shirts and stickers online"
 description: "I tried several tshirt stores and concluded that RedBubble has more designs with the best quality for the right price. Support artists. Don't be fooled."
 pubDate: "2015-01-26T08:00:00"
-heroImage: "/blog/uploads/2015/01/upload-1.jpg"
+heroImage: "../../assets/blog/uploads/2015/01/upload-1.jpg"
 tags: ["review"]
 categories: ["Life"]
 ---
@@ -15,7 +15,7 @@ It all started when I found [Day of the Shirt](http://dayoftheshirt.com/), a web
 
 I made two purchases. One was from _TeeGlobe_ (EU): clever design, fair shipping, great quality and nice fitting. I enjoyed it so I bought again from another vendor, _TeeTurtle_ (US): they have the cuttest designs you can find, paired with the worst quality and customer support. The t-shirt was too long and the material looked like it was about to vanish into thin air. I complained to their customer support about the quality and the shipping prices; they replied that that was their standard quality and that I would get a refund after I paid to return the t-shirt. I refused to pay for their mistake and they refused to refund me.
 
-![So bad one could see through it. Even the label tricks you to think it's "American Apparel". Nope, it's "Next Nevel"...of crap.](/blog/uploads/2015/01/Bad_quality-267x400.jpg)
+![So bad one could see through it. Even the label tricks you to think it's "American Apparel". Nope, it's "Next Nevel"...of crap.](../../assets/blog/uploads/2015/01/Bad_quality-267x400.jpg)
 
 While the deals may tempt you at first, the **reduced designs**, the **random quality**, and **random price + shipping**, scared me away. Never again.
 
@@ -25,7 +25,7 @@ And it was red... [RedBubble](/blog/RedBubble). They have a perfect business mod
 
 [Each design is often available on multiple products](/blog/RedBubble), thus if you for instance like a sticker you can also buy the pillow version. They even have designs about [Swords and Sworcery](/blog/RB-SwordSworcery) and that's pretty underground! [T-shirts](/blog/RB-TShirts) are legit Americal Apparel quality, _'nuff said_. For that you pay between 18€ to 21€. If you buy +6 [stickers](/blog/RB-Stickers) you get an immediate 50% discount on them. They ship everywhere with fair prices, and during checkout it's easy to find 10% discount coupons. What else do you need?
 
-![Stickers from RedBubble](/blog/uploads/2015/01/IMG_20150110_120023-1024x576.jpg)
+![Stickers from RedBubble](../../assets/blog/uploads/2015/01/IMG_20150110_120023-1024x576.jpg)
 
 If you're not convinced yet (you should!) listen to this. I ordered two t-shirts, but one of them should be woman fit, instead I ordered two unisex t-shirts. My bad. Still I sent an email asking for a replacement.
 

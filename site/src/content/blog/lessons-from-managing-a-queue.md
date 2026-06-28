@@ -2,7 +2,7 @@
 title: "What managing a queue of people taught me about living in society"
 description: "Portuguese love to bend rules. That's why we make good testers :)"
 pubDate: "2019-07-29T08:00:23"
-heroImage: "/blog/uploads/2019/03/jSvdtGv.jpg"
+heroImage: "../../assets/blog/uploads/2019/03/jSvdtGv.jpg"
 tags: ["experience", "society"]
 categories: ["Thoughts"]
 ---

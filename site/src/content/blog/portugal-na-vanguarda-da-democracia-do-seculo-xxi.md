@@ -2,7 +2,7 @@
 title: "Portugal na vanguarda da democracia do século XXI"
 description: "Um sítio onde todos tivessem a liberdade de sugerir como melhorar Portugal e onde todos tivessem o poder para decidir quais as melhores propostas. Não deixes que outros decidam por ti. DCID agora."
 pubDate: "2014-04-25T10:00:20"
-heroImage: "/blog/uploads/2014/04/20140418_Lisboa-140418-04.jpg"
+heroImage: "../../assets/blog/uploads/2014/04/20140418_Lisboa-140418-04.jpg"
 heroCaption: "[]1 Foto tirada na estação de Alcântara, vale a pena ir ver."
 tags: ["democracy"]
 categories: ["Life"]
@@ -22,7 +22,7 @@ Ainda nas legislativas de 2011, o PSD ganhou com 38,66% de todos os votos válid
 
 A nova geração - aquela altamente qualificada, com acesso a tecnologia e informação formidável - essa geração seria a mais preparada para participar e trazer novas ideias para o sistema. Mas essa geração limita-se a usar o Facebook para convocar manifs. **Somos capazes de melhor e estamos a melhorar.** Nas últimas autárquicas surgiram numerosas candidaturas independentes, prova de que os cidadãos estão a envolver-se na democracia e a criar alternativas. Há pequenos partidos a colocar de parte as suas divergências e a unirem-se para formar partidos mais representativos. Timidamente começam a surgir núcleos que [criam tecnologia para resolver os problemas dos portugueses](http://improvecoimbra.org/).
 
-![DCID, a primeira plataforma portuguesa para debate e voto online](/blog/uploads/2014/04/dcid-0.1.0-screenshop1-e1411918650152.png)
+![DCID, a primeira plataforma portuguesa para debate e voto online](../../assets/blog/uploads/2014/04/dcid-0.1.0-screenshop1-e1411918650152.png)
 
 É precisamente sobre colocar a tecnologia ao serviço das pessoas e da democracia que vos escrevo. Depois de assistir a demasiadas manifestações e greves o ano passado pensei que devia haver uma maneira de eliminar todo aquele ruído e chegar às propostas que eram de facto apregoadas. **Um sítio onde todos tivessem a liberdade de sugerir como melhorar Portugal e onde todos tivessem o poder para decidir quais as melhores propostas.** Assim surgiu a ideia para o [**DCID**](http://www.dcid.org/how). E depois de dedicar 10 fins-de-semana a esta causa, a ideia tornou-se realidade e [a partir de hoje _és tu quem dcid_](http://www.dcid.org/). Trata-se de um protótipo mas já tem o suficiente para ser útil e será tanto mais expressivo quanto mais pessoas participarem.
 

@@ -2,7 +2,7 @@
 title: "Internet Button: it even has a speaker! (tutorial #4)"
 description: "In this Particle Internet Button tutorial we'll deal with the speakers and playing sounds. Save time with this guide and its examples."
 pubDate: "2017-03-27T08:00:00"
-heroImage: "/blog/uploads/2016/08/Internet-Button-Tutorial4.jpg"
+heroImage: "../../assets/blog/uploads/2016/08/Internet-Button-Tutorial4.jpg"
 tags: ["coding", "hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---

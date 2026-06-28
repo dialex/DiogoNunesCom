@@ -2,7 +2,7 @@
 title: "Personality test for better teams"
 description: "This personality test will fit anyone into team roles, revealing behavioural strengths and weaknesses. Use that knowledge to build your next dream team."
 pubDate: "2015-06-01T08:00:00"
-heroImage: "/blog/uploads/2015/04/ImitateFacialExpressions_122712-617x416.jpg"
+heroImage: "../../assets/blog/uploads/2015/04/ImitateFacialExpressions_122712-617x416.jpg"
 tags: ["relationships", "utilities"]
 categories: ["Work"]
 ---
@@ -13,7 +13,7 @@ While applying to a job position I once had to complete a personality test. I ha
 
 The methodology was created by a scholar named [Meredith Belbin](http://en.wikipedia.org/wiki/Meredith_Belbin). In the end, the test will fit you into one or more team roles, which will **reveal your behavioural strengths and weaknesses**. This is a great tool for managers to build teams made of complementary individuals, thus taking advantage of each one's strengths and minimizing shortcomings and conflicts.
 
-![Photo credit: www.belbin.com](/blog/uploads/2015/04/cropped-belbin-and-people1.jpg)
+![Photo credit: www.belbin.com](../../assets/blog/uploads/2015/04/cropped-belbin-and-people1.jpg)
 
 _Photo credit: www.belbin.com_
 
@@ -31,7 +31,7 @@ Belbin defines nine roles and no role is better than the other -- they're just d
 
 ### Take the test
 
-![personality test meme](/blog/uploads/2015/04/personality-test-meme.jpg)
+![personality test meme](../../assets/blog/uploads/2015/04/personality-test-meme.jpg)
 
 The test is called Belbin's Self-Perception Inventory (SPI). To speed up things, and because I'm a nice person, I created a ~[spreadsheet ready to download and use](http://www.belbin.com/about/copyright/)~. I must warn you that I used an optimized version of SPI (56 statements instead of 64), however results should be equivalent. The first page contains the assessment and the second page the results. ~**Download it and follow the steps**~:
 

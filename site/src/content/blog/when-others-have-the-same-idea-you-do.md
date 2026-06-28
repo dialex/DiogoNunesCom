@@ -2,7 +2,7 @@
 title: "Multiple Discovery: when others have the same idea you do"
 description: "I had two ideas but I took them nowhere. I'm thankful that someone else had those same ideas. Being copied is the sincerest form of validation."
 pubDate: "2014-02-10T08:00:41"
-heroImage: "/blog/uploads/2014/02/Your2011SpringGrowandLetGo.jpg"
+heroImage: "../../assets/blog/uploads/2014/02/Your2011SpringGrowandLetGo.jpg"
 heroCaption: "photo: goo.gl/VzcMpU"
 tags: ["entrepreneurship", "personal"]
 categories: ["Technology"]
@@ -21,11 +21,11 @@ I had a few ideas over the years. I took them nowhere but I'm thankful someone e
 
 Facebook evolved. Today, the profile's interests are gone but hi5's gossiping is everywhere.
 
-[![ilook4 cover](/blog/uploads/2014/02/ilook4-cover-400x300.png)](/blog/uploads/2014/02/ilook4-cover.png)
+![ilook4 cover](../../assets/blog/uploads/2014/02/ilook4-cover-400x300.png)
 
 ### 2009: Tablet
 
-[![](/blog/uploads/2014/02/medium_2066550916_425cfd32d5_o-400x222.jpg)](/blog/uploads/2014/02/medium_2066550916_425cfd32d5_o.jpg)
+![](../../assets/blog/uploads/2014/02/medium_2066550916_425cfd32d5_o-400x222.jpg)
 
 > "Detach the monitor of a laptop, make it touch sensitive, and give it the processing power of a netbook. You could carry all your songs, all your books, all your documents, be productive on the go and take handwritten notes. Every student would want one."  
 > » I had no name for it in 2009.  
@@ -33,7 +33,7 @@ Facebook evolved. Today, the profile's interests are gone but hi5's gossiping is
 
 The image above dates to the end of 2009 and was part of a rumor about an Apple tablet. That quote was my pitch to Microsoft. Yes, when I first heard about Microsoft's Slate PCs I phone called Microsoft Portugal and asked when such device would come to Portugal. _They didn't even know what I was talking about_ and gave me the Marketing's email. I sent an email with the mind map below and an explanation of the idea. I didn't care about royalties I just wanted that someone created a similar device. I never got a response and when Apple released the iPad I gave up. Today I'm a proud [Nexus 7](https://www.google.com/search?q=nexus+7+2013&es_sm=93&source=lnms&tbm=isch&sa=X&ei=ZI5WUrXtMa6p7Aam64HIBg&ved=0CAcQ_AUoAQ&biw=1366&bih=643&dpr=1) owner.
 
-[![](/blog/uploads/2014/02/HPSlate-400x260.jpg)](/blog/uploads/2014/02/HPSlate.jpg)
+![](../../assets/blog/uploads/2014/02/HPSlate-400x260.jpg)
 
 ### 2018: Price comparator for groceries
 
@@ -49,7 +49,7 @@ The image above dates to the end of 2009 and was part of a rumor about an Apple 
 
 In 2019 someone wrote [an article](https://medium.com/@aaronyen/lore-3-turning-social-media-influencers-into-stocks-f8bd45ac5c68) with some very similar ideas. Then two weeks ago [BitClout](https://www.producthunt.com/posts/bitclout#comment-1303716) was created, which is basically everything I imagined, using their crypto.
 
-![](/blog/uploads/2014/02/7c0d1d0a-6892-490b-881b-108b53b3b050-308x400.jpeg)
+![](../../assets/blog/uploads/2014/02/7c0d1d0a-6892-490b-881b-108b53b3b050-308x400.jpeg)
 
 ### 2021: AI Chatbot that resembles a deceased person
 
@@ -57,7 +57,7 @@ In 2019 someone wrote [an article](https://medium.com/@aaronyen/lore-3-turning-s
 
 Once again, Microsoft went ahead of me and patented that technology. There's also a Black Mirror episode about it.
 
-![](/blog/uploads/2014/02/Screenshot-2021-04-03-at-20.20.14-1024x721.jpg)
+![](../../assets/blog/uploads/2014/02/Screenshot-2021-04-03-at-20.20.14-1024x721.jpg)
 
 * * *
 

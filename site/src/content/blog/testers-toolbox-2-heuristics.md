@@ -2,7 +2,7 @@
 title: "Heuristics (Toolbox #2)"
 description: "Heuristics are shortcuts to make decisions or pick what to test next."
 pubDate: "2021-11-29T07:00:00"
-heroImage: "/blog/uploads/2021/10/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
 heroCaption: "Photo by Patrick Tomasso on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

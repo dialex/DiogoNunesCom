@@ -2,12 +2,12 @@
 title: "Calling Web Service without WSDL or Web Reference"
 description: "What's the right way, on Visual Studio, to call an external web service, without WSDL, ASMX or adding a web reference? Solution: make a C# SOAP request!"
 pubDate: "2014-11-17T08:00:24"
-heroImage: "/blog/uploads/2014/11/77043.jpg"
+heroImage: "../../assets/blog/uploads/2014/11/77043.jpg"
 tags: ["c#", "coding", "tutorial", "web dev"]
 categories: ["Technology"]
 ---
 
-[](/blog/uploads/2014/11/77043.jpg)
+
 
 Once I had to test in C# a dozen of web services developed by a third-party. However they provided no WSDL and no ASMX - therefore it would be impossible to use Web References. They only provided the name of the web methods, their urls, calling credentials and an XML request example.
 

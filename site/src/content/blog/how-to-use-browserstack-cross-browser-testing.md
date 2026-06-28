@@ -2,7 +2,7 @@
 title: "Testing for cross-browser compatibility using BrowserStack"
 description: "Here's the code I used to integrate my local Selenium tests with BrowserStack's Automate. Their documentation and customer support helped me achieve it."
 pubDate: "2016-09-12T08:00:00"
-heroImage: "/blog/uploads/2016/08/6-Useful-Cross-Browser-Testing-Tools.png"
+heroImage: "../../assets/blog/uploads/2016/08/6-Useful-Cross-Browser-Testing-Tools.png"
 tags: ["coding", "java", "selenium", "testing"]
 categories: ["Technology"]
 ---

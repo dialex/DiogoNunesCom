@@ -2,12 +2,12 @@
 title: "Creating your first Play 2.1 app"
 description: "How to create your very first Play Framework application"
 pubDate: "2014-03-17T08:08:29"
-heroImage: "/blog/uploads/2014/03/lets-play-4.png"
+heroImage: "../../assets/blog/uploads/2014/03/lets-play-4.png"
 tags: ["coding", "play framework"]
 categories: ["Technology"]
 ---
 
-[](/blog/uploads/2014/03/lets-play-4.png)
+
 
 Follow the [official install instructions](http://www.playframework.com/documentation/2.1.x/NewApplication) (these steps will only work for 2.1.\* versions of the Play Framework). Afterwards:
 

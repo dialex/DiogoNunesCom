@@ -2,7 +2,7 @@
 title: "Internet Button: let there be light (tutorial #2)"
 description: "In this Particle Internet Button tutorial we'll deal with the LEDs and displaying patterns of light. Save time with this guide and its examples."
 pubDate: "2017-01-30T08:00:00"
-heroImage: "/blog/uploads/2016/08/Internet-Button-Tutorial2.jpg"
+heroImage: "../../assets/blog/uploads/2016/08/Internet-Button-Tutorial2.jpg"
 tags: ["coding", "hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---

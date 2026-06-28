@@ -2,12 +2,12 @@
 title: "Download counter for your website's files"
 description: "A download counter like CCounter not only provides you useful metrics but also gives your visitors a hint about the most interesting files."
 pubDate: "2014-06-23T08:00:19"
-heroImage: "/blog/uploads/2014/06/smiirl-fliike-e1411919272213.jpg"
+heroImage: "../../assets/blog/uploads/2014/06/smiirl-fliike-e1411919272213.jpg"
 tags: ["php", "tutorial", "utilities", "web dev"]
 categories: ["Technology"]
 ---
 
-[](/blog/uploads/2014/06/smiirl-fliike-e1411919272213.jpg)
+
 
 ### A download counter not only provides you useful metrics but also gives your visitors a hint about the most popular files.
 

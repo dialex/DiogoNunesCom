@@ -2,7 +2,7 @@
 title: "Emergency Exit"
 description: "This post contains suicidal thoughts. If you are having them, please seek local profissional help today. This post is my experience."
 pubDate: "2021-05-24T07:00:00"
-heroImage: "/blog/uploads/2021/03/onlineprinters-fNqU-W8Fugk-unsplash-scaled.jpg"
+heroImage: "../../assets/blog/uploads/2021/03/onlineprinters-fNqU-W8Fugk-unsplash-scaled.jpg"
 heroCaption: "Photo by Onlineprinters on Unsplash"
 tags: ["dark corner", "personal", "self-esteem"]
 categories: ["Thoughts"]

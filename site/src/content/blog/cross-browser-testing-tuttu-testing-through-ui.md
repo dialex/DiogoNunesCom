@@ -2,7 +2,7 @@
 title: "Before doing cross-browser testing ask yourself: are you TuTTu?"
 description: "I had automated checks in Java+Selenium, ready for cross-browser testing. I should have asked myself: am I Testing the UI or Testing Through the UI (TuTTu)?"
 pubDate: "2016-07-18T08:00:00"
-heroImage: "/blog/uploads/2016/07/cross-browser-header.png"
+heroImage: "../../assets/blog/uploads/2016/07/cross-browser-header.png"
 tags: ["heuristics", "testing"]
 categories: ["Work"]
 ---

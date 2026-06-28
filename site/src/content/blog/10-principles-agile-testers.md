@@ -2,7 +2,7 @@
 title: "Testing for agile teams: 10 principles for agile testers (#2)"
 description: "This is a personal summary of a chapter from the book Agile Testing: A Practical Guide For Testers And Agile Teams. I'm sure you'll find it useful too."
 pubDate: "2016-12-19T08:00:57"
-heroImage: "/blog/uploads/2016/03/Agile-Testing-Book-Part-2.jpg"
+heroImage: "../../assets/blog/uploads/2016/03/Agile-Testing-Book-Part-2.jpg"
 tags: ["agile", "testing"]
 categories: ["Work"]
 ---

@@ -2,7 +2,7 @@
 title: "Test categories and approaches (Types #2)"
 description: "It is important that you and your team speak the same testing language. The most popular types are unit, integration, end-to-end and regression tests. Let me give you a brief explanation about each one."
 pubDate: "2023-10-16T08:00:37"
-heroImage: "/blog/uploads/2023/08/xavi-cabrera-kn-UmDZQDjM-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2023/08/xavi-cabrera-kn-UmDZQDjM-unsplash.jpg"
 heroCaption: "Photo by Xavi Cabrera on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

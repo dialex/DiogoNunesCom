@@ -2,7 +2,7 @@
 title: "Too weird to live, Too unique to die"
 description: "Call me weird but I refuse to drink alcohol. Maybe I'm not weird, I'm just healthy."
 pubDate: "2015-05-18T08:00:00"
-heroImage: "/blog/uploads/2015/05/Too_weird_to_live_Too_unique_to_die.jpg"
+heroImage: "../../assets/blog/uploads/2015/05/Too_weird_to_live_Too_unique_to_die.jpg"
 heroCaption: "Photo from fyeahtattoos.tumblr.com | Title from a Panic At The Disco's song"
 tags: ["personal"]
 categories: ["Thoughts"]

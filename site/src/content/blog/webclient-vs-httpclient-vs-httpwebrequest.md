@@ -2,7 +2,7 @@
 title: "WebClient vs HttpClient vs HttpWebRequest"
 description: "What's the best way to call a REST API on C#? I'll review the 4 main classes (RestSharp included) to make requests and process their responses."
 pubDate: "2015-04-20T08:00:00"
-heroImage: "/blog/uploads/2015/04/restless.png"
+heroImage: "../../assets/blog/uploads/2015/04/restless.png"
 tags: ["c#", "coding", "review", "web dev"]
 categories: ["Technology"]
 ---
@@ -18,7 +18,7 @@ The .NET framework offers you three different classes to consume REST APIs: `Htt
 
 ### In the beginning there was... HttpWebRequest
 
-![](/blog/uploads/2015/04/d41339a1ca4823cf39fa29453d41d073186851f2a09f0b07513024e1af43ebc8-400x296.jpg)
+![](../../assets/blog/uploads/2015/04/d41339a1ca4823cf39fa29453d41d073186851f2a09f0b07513024e1af43ebc8-400x296.jpg)
 
 This is the standard class that the .NET creators originally developed to consume HTTP requests. Using `HttpWebRequest` [gives you control](http://stackoverflow.com/a/8237452/675577) over every aspect of the request/response object, like timeouts, cookies, headers, protocols. Another great thing is that `HttpWebRequest` class does not block the user interface thread. For instance, while you're downloading a big file from a sluggish API server, your application's UI will remain responsive.
 
@@ -37,7 +37,7 @@ The number of ways you can make a mistake with `HttpWebRequest` is truly astound
 
 ### WebClient. Simple.
 
-![](/blog/uploads/2015/04/for_dummies_plain-1024x528.png)
+![](../../assets/blog/uploads/2015/04/for_dummies_plain-1024x528.png)
 
 `WebClient` is a higher-level abstraction built on top of `HttpWebRequest` to [**simplify the most common tasks**](http://stackoverflow.com/a/22792326/675577). Using `WebClient` is potentially slower (on the order of a few milliseconds) than using `HttpWebRequest` directly. But that "inefficiency" comes with huge benefits: it requires [less code](http://www.c-sharpcorner.com/uploadfile/dhananjaycoder/webclient-and-httpwebrequest-class/), is easier to use, and you're less likely to make a mistake when using it. That same request example is now as simple as:
 
@@ -52,7 +52,7 @@ Don't worry, you can still specify timeouts, just make sure you [follow this wor
 
 ### HttpClient, the best of both worlds
 
-![](/blog/uploads/2015/04/httpclient.jpg)
+![](../../assets/blog/uploads/2015/04/httpclient.jpg)
 
 `HttpClient` provides powerful functionality with better syntax support for newer threading features, e.g. it supports the `await` keyword. It also enables threaded downloads of files with better compiler checking and code validation. For a complete listing of the advantages and features of this class make sure you read [this SO answer](http://stackoverflow.com/a/27737601/675577).
 
@@ -60,7 +60,7 @@ The only downfall is that it requires .NET Framework 4.5, which many older or le
 
 ### Wait, a new contestant has appeared!
 
-![](/blog/uploads/2015/04/RestSharp_logo.png)
+![](../../assets/blog/uploads/2015/04/RestSharp_logo.png)
 
 Since `HttpClient` is only available for the .NET 4.5 platform the community developed an alternative. Today, [`RestSharp`](http://restsharp.org/) is one of the only options for a portable, multi-platform, unencumbered, fully open-source HTTP client that you can use in all of your applications.
 

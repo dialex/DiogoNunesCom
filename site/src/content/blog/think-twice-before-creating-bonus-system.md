@@ -2,12 +2,12 @@
 title: "Think twice before creating a bonus system"
 description: "You're playing with fire. Learn about metrics, best practices, consequences & pitfalls. The secret is adapting all this knowledge to your company's context."
 pubDate: "2015-03-09T08:00:00"
-heroImage: "/blog/uploads/2015/01/nao-nao-nao-esquece.gif"
+heroImage: "../../assets/blog/uploads/2015/01/nao-nao-nao-esquece.gif"
 tags: ["review"]
 categories: ["Work"]
 ---
 
-![](/blog/uploads/2015/01/dinheiro-e1421522886553.jpg)
+![](../../assets/blog/uploads/2015/01/dinheiro-e1421522886553.jpg)
 
 ### Before opening the Pandora Box, read this or regret.
 
@@ -15,7 +15,7 @@ What should you do when your team is underperforming or misaligned with your com
 
 ### Metrics
 
-![horse race](/blog/uploads/2015/01/horse-race-e1421518163199-1024x409.jpg)
+![horse race](../../assets/blog/uploads/2015/01/horse-race-e1421518163199-1024x409.jpg)
 
 Since ["you can only manage what you measure"](http://www.buzztalkmonitor.com/blog/bid/275986/You-can-only-manage-what-you-measure), first you need to define how you'll evaluate your employees. Simple, objective and consensual metrics will be the foundations of your bonus system. Evaluators and appraisees should understand how each metric score is calculated -- that means that in the event of the evaluator being replaced by another person, the new evaluator reaches the same scoring. After several drafts and meetings, you finally reach a conclusion of **how and which metrics will evaluate employees**.
 
@@ -45,7 +45,7 @@ In the words of [Dan Pink](https://www.ted.com/talks/dan_pink_on_motivation), "a
 
 ### Is there hope?
 
-![](/blog/uploads/2015/03/shutterstock_112656725-690x300.jpg)
+![](../../assets/blog/uploads/2015/03/shutterstock_112656725-690x300.jpg)
 
 By now you should be thankful for finding this article before implementing that bonus system you kept thinking about. With so many pitfalls, should you give up the idea of such system?
 

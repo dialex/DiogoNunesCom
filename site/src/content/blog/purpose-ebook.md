@@ -2,7 +2,7 @@
 title: "New ebook: Purpose"
 description: "It contains 15 exercises that I used to discover not only my personality traits but also what motivates and fulfils me in life. Apply it to your life."
 pubDate: "2019-03-18T07:00:00"
-heroImage: "/blog/uploads/2019/03/Purpose-Book-Cover.png"
+heroImage: "../../assets/blog/uploads/2019/03/Purpose-Book-Cover.png"
 tags: ["experience", "purpose"]
 categories: ["Life"]
 ---

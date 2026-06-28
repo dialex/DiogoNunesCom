@@ -2,7 +2,7 @@
 title: "Testing for agile teams: Tests that support the team (#4)"
 description: "This is a personal summary of a chapter from the book Agile Testing: A Practical Guide For Testers And Agile Teams. I'm sure you'll find it useful too."
 pubDate: "2017-02-13T08:01:01"
-heroImage: "/blog/uploads/2016/03/Agile-Testing-Book-Part-5.jpg"
+heroImage: "../../assets/blog/uploads/2016/03/Agile-Testing-Book-Part-5.jpg"
 tags: ["agile", "testing"]
 categories: ["Work"]
 ---

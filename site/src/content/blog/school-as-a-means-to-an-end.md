@@ -2,7 +2,7 @@
 title: "Finishing school as a means to an end"
 description: "Finishing school isn't a big deal. What you learned, what you accomplished, who you met during school, that's what'll set students apart on a job interview."
 pubDate: "2014-03-10T08:00:12"
-heroImage: "/blog/uploads/2014/03/School_sucks_by_liese_lotta-e1411918164274.jpg"
+heroImage: "../../assets/blog/uploads/2014/03/School_sucks_by_liese_lotta-e1411918164274.jpg"
 heroCaption: "photo: liese-lotta.deviantart.com"
 tags: ["school"]
 categories: ["Life"]

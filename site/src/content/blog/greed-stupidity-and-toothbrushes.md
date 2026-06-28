@@ -2,7 +2,7 @@
 title: "Greed, stupidity and toothbrushes"
 description: "Disposable toothbrushes are a terrible and obvious waste. Surely there's a better way. There is but you can't have it."
 pubDate: "2023-04-10T08:00:49"
-heroImage: "/blog/uploads/2023/03/alex-padurariu-7ByfI6Fpi90-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2023/03/alex-padurariu-7ByfI6Fpi90-unsplash.jpg"
 tags: ["idea", "minimalism", "sustainability"]
 categories: ["Thoughts"]
 ---
@@ -56,7 +56,7 @@ We have the tech, it's not a massive difference from the current processes and i
 
 Look at these products, all from the same brand (not sponsored).
 
-![jordan toothbrushes, 3 different models, from cheaper to most expensive](/blog/uploads/2023/03/20230304_113709-1-1024x577.jpg)
+![jordan toothbrushes, 3 different models, from cheaper to most expensive](../../assets/blog/uploads/2023/03/20230304_113709-1-1024x577.jpg)
 
 On the left is, what I consider to be, the best toothbrush ever: it's a pleasure to use, doesn't slip even though it doesn't uses rubber parts, it's simple to produce, comes in a pack of more than one, the handle doesn't get dirty after 3 months of use, and the bristles don't hurt my gums.
 
@@ -64,7 +64,7 @@ It's the best, but it's not "the perfect" toothbrush.
 
 Then I saw a version with a hollow handle. Closer, but not perfect yet. And then, there it was. A handle, plus 4 heads, in a humble cardboard packaging. I thought it was **a miracle!**
 
-![jordan toothbrushes, 3 different models, from cheaper to most expensive (with prices)](/blog/uploads/2023/03/20230304_113709_annotated-1-1024x577.jpg)
+![jordan toothbrushes, 3 different models, from cheaper to most expensive (with prices)](../../assets/blog/uploads/2023/03/20230304_113709_annotated-1-1024x577.jpg)
 
 I compared the prices and calculated the unit price of each toothbrush.
 

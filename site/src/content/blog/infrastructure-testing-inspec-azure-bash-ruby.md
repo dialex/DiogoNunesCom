@@ -2,7 +2,7 @@
 title: "Infrastructure testing (Ruby): InSpec + Azure"
 description: "My experience with infrastructure testing, using InSpec, tests written in Ruby, asserting bash scripts, and deployments to Azure."
 pubDate: "2020-09-07T07:00:00"
-heroImage: "/blog/uploads/2020/04/jakub-kriz-arOyDPUAJzc-unsplash-scaled.jpg"
+heroImage: "../../assets/blog/uploads/2020/04/jakub-kriz-arOyDPUAJzc-unsplash-scaled.jpg"
 tags: ["azure", "CI Pipelines", "devops", "review", "ruby", "testing"]
 categories: ["Technology"]
 ---

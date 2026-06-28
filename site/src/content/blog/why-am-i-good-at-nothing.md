@@ -2,7 +2,7 @@
 title: "\"Why am I good at nothing?\""
 description: "That is a negative judgement. A better question would be \"what am I good at?\". Let me help you change your perspective."
 pubDate: "2021-04-26T07:00:53"
-heroImage: "/blog/uploads/2021/03/gift-habeshaw-Of8C-QHqagM-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/03/gift-habeshaw-Of8C-QHqagM-unsplash.jpg"
 heroCaption: "Photo by Gift Habeshaw on Unsplash"
 tags: ["self-esteem"]
 categories: ["Thoughts"]

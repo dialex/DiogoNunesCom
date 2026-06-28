@@ -2,7 +2,7 @@
 title: "Artistic puzzle games"
 description: "I discovered a couple of puzzle games that are more than just their challenges. Their art, visuals, story makes them something special."
 pubDate: "2022-09-18T08:00:09"
-heroImage: "/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81.jpg"
+heroImage: "../../assets/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81.jpg"
 tags: ["games", "review"]
 categories: ["Technology"]
 ---
@@ -21,13 +21,13 @@ Sometimes when you enter a puzzle it might be scary. You might say "this is so c
 
 The complexity and mechanics scale very well along over 40 puzzles. If you are stuck, leave that puzzle and go to the next, or stop playing and return the next day. It really works! I think I only had to ~cheat~ check the solution for 2 of them.
 
-![The Talos Principle](/blog/uploads/2022/09/Desktop_Screenshot_2020.01.26_-_15.13.55.23-1024x576.jpg)
+![The Talos Principle](../../assets/blog/uploads/2022/09/Desktop_Screenshot_2020.01.26_-_15.13.55.23-1024x576.jpg)
 
 But there's more!
 
 Tying it all together is this philosophical background, of what is means to be human and what is our purpose. During the whole game you will have deep text chats with an AI. I found myself saying "I can't prove you that I'm a human".
 
-![The Talos Principle](/blog/uploads/2022/09/Desktop_Screenshot_2020.01.18_-_12.37.23.08-1024x576.jpg)
+![The Talos Principle](../../assets/blog/uploads/2022/09/Desktop_Screenshot_2020.01.18_-_12.37.23.08-1024x576.jpg)
 
 Also, throughout the levels you will see this QR codes, with messages from "previous players" (not real players, as the game is single player, but characters that tried the same level as you as part of the story).
 
@@ -35,13 +35,13 @@ The build up to the ending was amazing. You have a choice to make and different 
 
 ### The Witness
 
-[![The Witness](/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81-1024x576.jpg)](/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81.jpg)
+![The Witness](../../assets/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81-1024x576.jpg)
 
 Visually is gorgeous, it’s like a dream or a painting. There's no soundtrack, so you only hear the natural noises of your surroundings and your steps. The environment is very chill. The puzzles, not so much
 
 The puzzles start simple and quickly ramp up. The main rule is draw a line from point A to point B. Each puzzle teaches you a new aspect of the main rule, a slight variation. Each zone of the game has its own twist on the main puzzle mechanic. Solving puzzles via brute force won't work, you really need to understand the rule of that zone.
 
-![Is that just a reflection in the water, or something else?](/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.24_-_14.41.09.13-1024x576.jpg)
+![Is that just a reflection in the water, or something else?](../../assets/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.24_-_14.41.09.13-1024x576.jpg)
 
 Sometimes, you need to pay close attention to your surroundings or you need to change perspective to solve it. Some levels felt like an escape room, the answer was right in front of me yet I didn't see it and then it clicked! :slightly\_smiling\_face:
 

@@ -2,7 +2,7 @@
 title: "One Direction encourages violence during courtship"
 description: "Have you noticed \"Steal My Girl\" lyrics? They're as explicit as it gets. The average teenager doesn't think of jealousy as an aggressive behavior. WRONG!"
 pubDate: "2015-05-04T08:00:00"
-heroImage: "/blog/uploads/2015/04/f6bb4430-3e6e-11e4-95e5-2335a8db090b_bestface.gif"
+heroImage: "../../assets/blog/uploads/2015/04/f6bb4430-3e6e-11e4-95e5-2335a8db090b_bestface.gif"
 tags: ["relationships"]
 categories: ["Thoughts"]
 ---

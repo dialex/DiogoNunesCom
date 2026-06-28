@@ -2,7 +2,7 @@
 title: "Your attention (please!)"
 description: "Brands, people, family and friends, all crave for your attention. Learn to be emotionally self-sustainable. You'll be more independent and resilient."
 pubDate: "2017-06-05T13:40:00"
-heroImage: "/blog/uploads/2017/05/navi_says_hey_listen__by_aspergersgirl-d5nrcl6.png"
+heroImage: "../../assets/blog/uploads/2017/05/navi_says_hey_listen__by_aspergersgirl-d5nrcl6.png"
 tags: ["experience", "relationships"]
 categories: ["Thoughts"]
 ---

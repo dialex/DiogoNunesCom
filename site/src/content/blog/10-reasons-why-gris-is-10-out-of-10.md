@@ -2,7 +2,7 @@
 title: "10 reasons why GRIS is a 10/10 game"
 description: "GRIS tells a powerful story without a single word. From breathtaking visuals to engaging music... if you enjoyed Journey and Rime, this game is for you."
 pubDate: "2019-12-18T08:00:20"
-heroImage: "/blog/uploads/2019/12/thumb-1920-979696.jpg"
+heroImage: "../../assets/blog/uploads/2019/12/thumb-1920-979696.jpg"
 tags: ["games"]
 categories: ["Technology"]
 ---
@@ -21,17 +21,17 @@ categories: ["Technology"]
 10.  It will hit your feelings
      - _a tissue box is just as important as a game controller_
 
-![The 1st chapter looks like a homage to Journey](/blog/uploads/2019/12/Desktop-Screenshot-2019.12.08-10.51.20.80.png)
+![The 1st chapter looks like a homage to Journey](../../assets/blog/uploads/2019/12/Desktop-Screenshot-2019.12.08-10.51.20.80.png)
 
 This is an art game, it's a whole experience.
 
 **The game plays _you_ more than you play _it_.**
 
-![](/blog/uploads/2019/12/Desktop-Screenshot-2019.12.14-15.18.09.82-2.png)
+![](../../assets/blog/uploads/2019/12/Desktop-Screenshot-2019.12.14-15.18.09.82-2.png)
 
 I was playing alone, yet multiple times I had to verbalize a "that's so clever" or a "this is gorgeous". Often I found myself with a silly tender smile on my face. Or noticed my mouth was open in awe for the last minute.
 
-![](/blog/uploads/2019/12/Desktop-Screenshot-2019.12.08-10.38.38.23-2.png)
+![](../../assets/blog/uploads/2019/12/Desktop-Screenshot-2019.12.08-10.38.38.23-2.png)
 
 When I finished I was shaken.
 

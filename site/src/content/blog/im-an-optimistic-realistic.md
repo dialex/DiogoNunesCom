@@ -2,7 +2,7 @@
 title: "I'm an optimistic realistic"
 description: "At a job interview I was asked to explain if I was an optimistic or a pessimistic person. The title of this post was my answer, let me explain you why."
 pubDate: "2014-04-21T08:01:39"
-heroImage: "/blog/uploads/2014/04/dreams.jpg"
+heroImage: "../../assets/blog/uploads/2014/04/dreams.jpg"
 heroCaption: "[]1 photo: goo.gl/zrYyd9"
 tags: ["personal"]
 categories: ["Thoughts"]

@@ -2,7 +2,7 @@
 title: "I was interviewed by an online magazine"
 description: "I was invited by OTIA to be interviewed. OTIA is an online magazine that specializes on telling stories about professionals and their hobbies."
 pubDate: "2020-01-06T07:00:07"
-heroImage: "/blog/uploads/2019/11/andrew-neel-cckf4TsHAuw-unsplash-scaled.jpg"
+heroImage: "../../assets/blog/uploads/2019/11/andrew-neel-cckf4TsHAuw-unsplash-scaled.jpg"
 heroCaption: "Photo by Andrew Neel on Unsplash"
 tags: ["experience"]
 categories: ["Life"]

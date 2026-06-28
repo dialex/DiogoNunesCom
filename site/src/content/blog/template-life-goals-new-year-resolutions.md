@@ -2,12 +2,12 @@
 title: "Two techniques to set life goals or resolutions"
 description: "I started writing new year resolutions in 2018. Let explain to you the two techniques I use to set my life goals. They are simple and pragmatic."
 pubDate: "2021-02-01T07:00:00"
-heroImage: "/blog/uploads/2021/01/2020.png"
+heroImage: "../../assets/blog/uploads/2021/01/2020.png"
 tags: ["decisions", "experience", "utilities"]
 categories: ["Life"]
 ---
 
-[](/blog/uploads/2021/01/2020.png)
+
 
 In 2018 I started listing my [new year resolutions](https://en.wikipedia.org/wiki/New_Year%27s_resolution). After school you're pretty much on your own. If you don't set yourself some goals the years will go by in a blink and your routine takes control of your life.
 
@@ -25,7 +25,7 @@ His post ["Happy, Smart and Useful"](https://sive.rs/hsu) was actually the trigg
 6.  Count the number of goals in each category
 7.  Check if you're happy with the balance - if not, go back to step 1 and review your goals
 
-[![](/blog/uploads/2021/01/Prioridades_2018-1024x728.jpg)](/blog/uploads/2021/01/Prioridades_2018-scaled.jpg)
+![](../../assets/blog/uploads/2021/01/Prioridades_2018-1024x728.jpg)
 
 I find this approach very valuable. The process is simple and objective. Since you go from yearly to daily goals, it makes your objectives measurable and grounded. And it nudges you to strike a balance between work and leisure.
 
@@ -35,7 +35,7 @@ While I was researching for my book ["Purpose"](/books) I found this approach by
 
 I think this approach is particularly suited for people who are not sure what motivates them or what their goals should be. It's done in two phases:
 
-[![](/blog/uploads/2021/01/Core_Values-1024x572.png)](/blog/uploads/2021/01/Core_Values.png)
+![](../../assets/blog/uploads/2021/01/Core_Values-1024x572.png)
 
 - Phase 1: Identify your **core values**
     - What matters to me the most? Why? (ask why 5 times to get to the core)

@@ -2,7 +2,7 @@
 title: "Internet of Things buttons: a benchmark"
 description: "Internet of Things is blooming and there are a few alternatives for smart buttons with wifi and bluetooth. With this benchmark you can decide which is best."
 pubDate: "2017-07-17T13:50:28"
-heroImage: "/blog/uploads/2017/07/flic-button-ces-2015-1.jpg"
+heroImage: "../../assets/blog/uploads/2017/07/flic-button-ces-2015-1.jpg"
 tags: ["hardware", "internet button"]
 categories: ["Technology"]
 ---
@@ -34,4 +34,4 @@ As you know, in the past I had a go with the [Internet of Things (IoT)](/blog/ta
 
 ## How they compare
 
-[![](/blog/uploads/2017/07/iot_buttons_comparison.png)](/blog/uploads/2017/07/iot_buttons_comparison.png)
+![](../../assets/blog/uploads/2017/07/iot_buttons_comparison.png)

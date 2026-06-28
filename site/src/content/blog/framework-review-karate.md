@@ -2,7 +2,7 @@
 title: "Framework review: Karate"
 description: "Karate is open-source and combines API test-automation, mocks, performance-testing and UI automation. This is my review: it's a 3 out of 5."
 pubDate: "2020-11-02T07:00:53"
-heroImage: "/blog/uploads/2020/08/thao-le-hoang-igLzPKOvZNw-unsplash-scaled.jpg"
+heroImage: "../../assets/blog/uploads/2020/08/thao-le-hoang-igLzPKOvZNw-unsplash-scaled.jpg"
 heroCaption: "Photo by Thao Le Hoang on Unsplash"
 tags: ["karate", "review", "testing"]
 categories: ["Technology"]

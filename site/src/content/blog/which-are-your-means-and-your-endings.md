@@ -2,7 +2,7 @@
 title: "Which are your means and your endings?"
 description: "Do you want to work more hours to give that latest gadget to your kid? Or, do you prefer to arrive at home earlier and play with your kid?"
 pubDate: "2014-03-03T08:00:58"
-heroImage: "/blog/uploads/2014/03/5.jpg"
+heroImage: "../../assets/blog/uploads/2014/03/5.jpg"
 heroCaption: "photo: Alexey Sizov"
 tags: ["decisions", "minimalism"]
 categories: ["Life"]

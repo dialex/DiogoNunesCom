@@ -2,7 +2,7 @@
 title: "Photography, the best hobby for a developer"
 description: "7 reasons why photography is a great hobby, even if you arent' a developer. It's a useful skill and it counters some of your bad habbits."
 pubDate: "2021-09-20T07:00:00"
-heroImage: "/blog/uploads/2021/01/reinhart-julian-WxM465oM4j4-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/01/reinhart-julian-WxM465oM4j4-unsplash.jpg"
 heroCaption: "Photo by Reinhart Julian on Unsplash"
 tags: ["experience", "mindfulness"]
 categories: ["Photography"]

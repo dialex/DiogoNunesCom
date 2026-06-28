@@ -2,7 +2,7 @@
 title: "Download Garry's Mod and configure it (complete guide)"
 description: "Everything you need to about about how to download, install and configure garry's mod (and how to play multiplayer with your friends)."
 pubDate: "2015-12-25T13:45:35"
-heroImage: "/blog/uploads/2015/12/bb622eefffd0fb307531c75da7dc1768.jpg"
+heroImage: "../../assets/blog/uploads/2015/12/bb622eefffd0fb307531c75da7dc1768.jpg"
 tags: ["games", "tutorial"]
 categories: ["Technology"]
 ---
@@ -23,11 +23,11 @@ You know the drill:
 
 ## Install Textures
 
-![bad time gmod](/blog/uploads/2015/12/bad-time-gmod-400x269.png)
+![bad time gmod](../../assets/blog/uploads/2015/12/bad-time-gmod-400x269.png)
 
 He's right, if you try to play the game right away you'll have a bad time. If you join a multiplayer map you will most probably see the whole map covered on bright fuchsia/pink and black squares and `ERROR` messages (image below).
 
-![gmod textures error](/blog/uploads/2015/12/maxresdefault-400x225.jpg)
+![gmod textures error](../../assets/blog/uploads/2015/12/maxresdefault-400x225.jpg)
 
 That's because the map requires textures not included in the standard installation. It seems that most gmod maps depend on a lot of Counter Strike textures, and for some weird reason they are not included in the installation.
 
@@ -56,7 +56,7 @@ At this time you could try join a multiplayer server, but chances are they are u
 
 Yes... but only on public servers though.
 
-![](/blog/uploads/2015/12/wavj3.jpg)
+![](../../assets/blog/uploads/2015/12/wavj3.jpg)
 
 We followed a dozen of tutorials and guides. We tried [Hamachi](https://steamcommunity.com/sharedfiles/filedetails/?id=144788474). We tried [Evolve](https://www.youtube.com/watch?v=le03I4Lhkl8). We tried disabling the firewall. We tried weird developer's console commands like `sv_lan 0`. We gave up after hours of trial and error.
 
@@ -76,7 +76,7 @@ Sure, the game seems broken and unpolished... but it has so many game modes and 
 
 ## Most popular (and my favorite) gmod game modes
 
-![gmod murder](/blog/uploads/2015/12/steamworkshop_webupload_previewfile_373725233_preview-1024x576.jpg)
+![gmod murder](../../assets/blog/uploads/2015/12/steamworkshop_webupload_previewfile_373725233_preview-1024x576.jpg)
 
 ### Murder
 
@@ -86,7 +86,7 @@ If you are a "bystander" you must run around collecting items with a green glow 
 
 If you are the "murderer" you must kill all the bystanders. You have a knife that is a 1 hit kill. You can collect green items as well but you wont get a gun. Instead you may change name and thus hide your identity and confuse the remaining bystanders.
 
-![gmod ttt](/blog/uploads/2015/12/maxresdefault-1-1024x576.jpg)
+![gmod ttt](../../assets/blog/uploads/2015/12/maxresdefault-1-1024x576.jpg)
 
 ### Terror in Terrorist Town
 
@@ -96,7 +96,7 @@ The Traitors must use the element of surprise and their special equipment, if th
 
 For the Innocent, knowledge is power: who is acting strangely? Who can be linked to evidence found on corpses? Who is still alive, even? Hello, is anyone there?
 
-![gmod prop hunt](/blog/uploads/2015/12/13ee27b3630c7911-1024x576.jpg)
+![gmod prop hunt](../../assets/blog/uploads/2015/12/13ee27b3630c7911-1024x576.jpg)
 
 ### Prop Hunt
 

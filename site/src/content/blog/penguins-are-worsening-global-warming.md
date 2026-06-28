@@ -2,7 +2,7 @@
 title: "Penguins are worsening global warming"
 description: "Some companies force their employees to wear a suit everyday. That simple rule creates a dangerous spiral of negativity."
 pubDate: "2014-10-13T08:00:16"
-heroImage: "/blog/uploads/2014/10/bigstock-Businessman-In-Black-Suit-Nerv-1388962-e1410690839225.jpg"
+heroImage: "../../assets/blog/uploads/2014/10/bigstock-Businessman-In-Black-Suit-Nerv-1388962-e1410690839225.jpg"
 tags: ["story"]
 categories: ["Work"]
 ---

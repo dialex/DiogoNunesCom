@@ -2,7 +2,7 @@
 title: "Contribute to something bigger than you"
 description: "You might feel good at nothing or even average at everything. Here's 5 reasons why you should help others do/be what they want to do/be."
 pubDate: "2021-05-10T07:00:53"
-heroImage: "/blog/uploads/2021/03/matthew-henry-kX9lb7LUDWc-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/03/matthew-henry-kX9lb7LUDWc-unsplash.jpg"
 heroCaption: "Photo by Matthew Henry on Unsplash"
 tags: ["kindness", "self-esteem"]
 categories: ["Thoughts"]

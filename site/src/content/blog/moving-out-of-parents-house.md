@@ -2,7 +2,7 @@
 title: "Finding a... place to live"
 description: "\"Parents, I'll take a vacation. From you.\" How it was my experience. It's a lot of effort and tears may be involved. But it's just growing up."
 pubDate: "2016-10-24T08:00:00"
-heroImage: "/blog/uploads/2016/09/empty-nesters.jpg"
+heroImage: "../../assets/blog/uploads/2016/09/empty-nesters.jpg"
 tags: ["experience", "personal"]
 categories: ["Life"]
 ---
@@ -32,7 +32,7 @@ Oh, and some houses include pets. Apparently those owners prefer to outsource th
 
 **Anyway, I'm living the dream again.**
 
-![Bubble about to explode by a needle](/blog/uploads/2016/09/bubble.jpg)
+![Bubble about to explode by a needle](../../assets/blog/uploads/2016/09/bubble.jpg)
 
 ### But it started as a nightmare.
 

@@ -2,7 +2,7 @@
 title: "Tester's responsibilities (Concepts #4)"
 description: "A tester is a bug catcher, a teammate, a (user) friend, a guiding light, an inspector, a scout, a thinker, a learner."
 pubDate: "2021-11-01T07:00:00"
-heroImage: "/blog/uploads/2021/10/hector-j-rivas-V0OsHPIh4To-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/hector-j-rivas-V0OsHPIh4To-unsplash.jpg"
 heroCaption: "Photo by Héctor J. Rivas on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

@@ -2,7 +2,7 @@
 title: "(Too) Nice guys finish last"
 description: "Can a person be too nice? Yes, and you should stop it, don't be the boring nice guy nobody wants to date. You know what you're also being? Fake."
 pubDate: "2014-04-07T08:00:22"
-heroImage: "/blog/uploads/2014/04/NiceGuysFinishLast.jpg"
+heroImage: "../../assets/blog/uploads/2014/04/NiceGuysFinishLast.jpg"
 heroCaption: "[]1 photo: goo.gl/h8scuf"
 tags: ["relationships"]
 categories: ["Life"]

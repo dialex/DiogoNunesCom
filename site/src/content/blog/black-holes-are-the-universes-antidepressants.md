@@ -2,7 +2,7 @@
 title: "Black holes are the universe's antidepressants"
 description: "Black holes also die; they just take a LONG time. But while they are dying they do a curious thing. They clen the universe of negative energies."
 pubDate: "2014-07-07T08:00:52"
-heroImage: "/blog/uploads/2014/07/Black_Hole_Milkyway.jpg"
+heroImage: "../../assets/blog/uploads/2014/07/Black_Hole_Milkyway.jpg"
 heroCaption: "photo credit: http://en.wikipedia.org/wiki/File:Black_Hole_Milkyway.jpg"
 tags: ["idea"]
 categories: ["Thoughts"]

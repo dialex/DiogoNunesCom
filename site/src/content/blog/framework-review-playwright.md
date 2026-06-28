@@ -2,7 +2,7 @@
 title: "Framework review: Playwright"
 description: "Playwright enables end-to-end testing of modern single page apps, across all modern browsers. This is my review: it's a 1 out of 5."
 pubDate: "2021-03-29T07:00:27"
-heroImage: "/blog/uploads/2021/03/fatih-kilic-m1dM7ZXvdMs-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/03/fatih-kilic-m1dM7ZXvdMs-unsplash.jpg"
 heroCaption: "Photo by Fatih Kılıç on Unsplash"
 tags: ["playwright", "review", "testing"]
 categories: ["Technology"]

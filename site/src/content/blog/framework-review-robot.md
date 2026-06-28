@@ -2,7 +2,7 @@
 title: "Framework review: Robot"
 description: "Robot Framework is a test automation framework for acceptance testing. This is my review: it's a 3.5 out of 5."
 pubDate: "2021-04-12T07:00:00"
-heroImage: "/blog/uploads/2020/12/phillip-glickman-2umO15jsZKM-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2020/12/phillip-glickman-2umO15jsZKM-unsplash.jpg"
 heroCaption: "Photo by Phillip Glickman on Unsplash"
 tags: ["review", "robot", "testing"]
 categories: ["Technology"]

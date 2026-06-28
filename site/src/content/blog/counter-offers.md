@@ -2,7 +2,7 @@
 title: "Counter offers"
 description: "A counter offer is when your company tries to beat an offer you received from a competitor. Let me tell you why I find them unfair for everyone involved."
 pubDate: "2023-09-18T08:00:53"
-heroImage: "/blog/uploads/2023/06/kai-pilger-1k3vsv7iIIc-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2023/06/kai-pilger-1k3vsv7iIIc-unsplash.jpg"
 heroCaption: "Photo by Kai Pilger on Unsplash"
 tags: ["decisions", "experience"]
 categories: ["Work"]

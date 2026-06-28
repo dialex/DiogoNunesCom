@@ -2,7 +2,7 @@
 title: "Tips about writing a Novel for NaNoWriMo"
 description: "I just finished my attempt. I'll explain why you may not win and what you can do to increase your chances of winning. Remember that winning is not the goal."
 pubDate: "2014-12-01T08:00:00"
-heroImage: "/blog/uploads/2014/12/half-Winner-2014-Web-Banner.jpg"
+heroImage: "../../assets/blog/uploads/2014/12/half-Winner-2014-Web-Banner.jpg"
 tags: ["experience", "novel"]
 categories: ["Writing"]
 ---
@@ -37,7 +37,7 @@ And if you still have some spare time to prepare a bit more:
 
 NaNoWriMo's website provides this great graph about your progress, along with other useful statistics. On average I would spend 3-4 hours a day writing which would produce 750-900 words. On weekends, in exchange for a pleasant outdoor sunny day, I could bump up those numbers to 1500-2000 -- that's the average word count I should write daily to achieve the 50k words!
 
-![My word count evolution](/blog/uploads/2014/12/nanowrimo-graph.png)
+![My word count evolution](../../assets/blog/uploads/2014/12/nanowrimo-graph.png)
 
 _My word count evolution_
 
@@ -45,7 +45,7 @@ That dashboard also provided a funny statistic called "At This Rate You Will Fin
 
 Since I'm a geek I stored my novel on a _distributed version control system_ called Git, but any cloud backup service like [Copy](https://copy.com/?r=ctbvwf) or Dropbox should be enough for you. This next image shows when, during the week, I wrote most. It looks like Wednesdays' and Saturdays' nights were the most productive hours.
 
-![My average writing days and hours](/blog/uploads/2014/12/nanowrimo-punchcard.png)
+![My average writing days and hours](../../assets/blog/uploads/2014/12/nanowrimo-punchcard.png)
 
 _My average writing days and hours_
 

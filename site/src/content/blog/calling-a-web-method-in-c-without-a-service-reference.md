@@ -2,7 +2,7 @@
 title: "Calling a Web Method in C# without Service Reference"
 description: "If you need to call a web method but fail to have a WSDL or want your code to be dynamic, then SOAP and `HttpWebRequest`s are the way to go."
 pubDate: "2014-11-24T08:00:32"
-heroImage: "/blog/uploads/2014/11/This-is-a-SOAP-request.png"
+heroImage: "../../assets/blog/uploads/2014/11/This-is-a-SOAP-request.png"
 tags: ["c#", "coding", "tutorial", "web dev"]
 categories: ["Technology"]
 ---

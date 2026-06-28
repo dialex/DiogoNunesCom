@@ -2,12 +2,12 @@
 title: "Conclusions after 6 months of blogging"
 description: "Thanks to Analytics I compared several metrics about my website before and after blogging. Learn from my findings and increase your blog's number visitors."
 pubDate: "2014-06-30T08:00:26"
-heroImage: "/blog/uploads/2014/06/Google-Analytics.png"
+heroImage: "../../assets/blog/uploads/2014/06/Google-Analytics.png"
 tags: ["experience"]
 categories: ["Writing"]
 ---
 
-[](/blog/uploads/2014/06/Google-Analytics.png)
+
 
 ### Thanks to Google Analytics I can compare several metrics about my website before and after blogging. Here are my findings.
 

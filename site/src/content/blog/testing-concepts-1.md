@@ -2,7 +2,7 @@
 title: "Testing's purpose (Concepts #1)"
 description: "Testing’s purpose is to measure and maximise quality delivered, while minimising risk to an acceptable level"
 pubDate: "2021-10-11T07:00:36"
-heroImage: "/blog/uploads/2021/10/fallon-michael-VUWDlBXGogg-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/fallon-michael-VUWDlBXGogg-unsplash.jpg"
 heroCaption: "Photo by Fallon Michael on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

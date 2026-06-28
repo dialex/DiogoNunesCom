@@ -2,7 +2,7 @@
 title: "NaNoWriMo 2014: BEGIN!"
 description: "As I promised in a previous post I finally found the courage plot to write a fantasy novel. I don't know if I'll be able to finish it but I'll…"
 pubDate: "2014-11-01T14:00:19"
-heroImage: "/blog/uploads/2014/11/111411_nanowrimo.jpg"
+heroImage: "../../assets/blog/uploads/2014/11/111411_nanowrimo.jpg"
 categories: ["Announcement"]
 ---
 

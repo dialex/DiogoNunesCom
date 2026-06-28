@@ -6,6 +6,8 @@ const blogSchema = z.object({
   description: z.string(),
   pubDate: z.coerce.date(),
   updatedDate: z.string().optional(),
+  // relative path into src/assets; resolved to optimised ImageMetadata via lib/blogImages.
+  // NOT image() — that emits the full-size original into the bundle for every post.
   heroImage: z.string().optional(),
   heroCaption: z.string().optional(),
   badge: z.string().optional(),
@@ -49,7 +51,7 @@ const projectSchema = z.object({
     .optional(),
 });
 
-export type BlogSchema = z.infer<typeof blogSchema>;
+export type BlogSchema = z.infer<ReturnType<typeof blogSchema>>;
 export type ProjectSchema = z.infer<typeof projectSchema>;
 
 const blogCollection = defineCollection({

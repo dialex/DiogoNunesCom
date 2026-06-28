@@ -2,7 +2,7 @@
 title: "How to fix texture problems (pink squares) on Garry's Mod"
 description: "If you join a multiplayer map you will see the whole map covered on fuchsia/pink and black squares and `ERROR` messages. There's a simple solution to that."
 pubDate: "2016-01-04T13:45:24"
-heroImage: "/blog/uploads/2015/12/maxresdefault.jpg"
+heroImage: "../../assets/blog/uploads/2015/12/maxresdefault.jpg"
 tags: ["games", "tutorial"]
 categories: ["Technology"]
 ---

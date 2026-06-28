@@ -2,7 +2,7 @@
 title: "Charters (Toolbox #3)"
 description: "A charter summarises your testing goal and guides your exploration."
 pubDate: "2021-12-06T07:00:00"
-heroImage: "/blog/uploads/2021/10/sebastian-herrmann-JB4aR34u248-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/sebastian-herrmann-JB4aR34u248-unsplash.jpg"
 heroCaption: "Photo by Sebastian Herrmann on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

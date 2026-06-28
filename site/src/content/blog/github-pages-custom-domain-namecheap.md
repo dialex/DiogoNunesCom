@@ -2,7 +2,7 @@
 title: "Using a custom domain on GitHub Pages (step by step for Namecheap)"
 description: "Intuitive guide to configure your github pages with a custom domain. Nail the A and CNAME records. Screenshots from Namecheap."
 pubDate: "2017-04-10T13:50:00"
-heroImage: "/blog/uploads/2016/12/maxresdefault-1.jpg"
+heroImage: "../../assets/blog/uploads/2016/12/maxresdefault-1.jpg"
 tags: ["tutorial", "web dev"]
 categories: ["Technology"]
 ---
@@ -36,7 +36,7 @@ You should be able to view your site on a url like `username.github.io/repo`. Th
 
 [GitHub has an official guide](https://help.github.com/articles/setting-up-an-apex-domain/) to do this. Here's what worked for me:
 
-![](/blog/uploads/2016/12/now.png)
+![](../../assets/blog/uploads/2016/12/now.png)
 
 1.  Visit your domain provider (e.g. Namecheap).
 2.  Find the DNS settings (e.g. **Domains > Advanced DNS**).

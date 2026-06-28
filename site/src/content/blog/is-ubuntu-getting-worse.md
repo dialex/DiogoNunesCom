@@ -2,7 +2,7 @@
 title: "Is Ubuntu getting worse?"
 description: "Ubuntu was a stable, enjoyable, fast and powerful operating system - certainly the OS to develop software. After Raring Ringtail I gave up on Ubuntu."
 pubDate: "2014-06-02T08:00:42"
-heroImage: "/blog/uploads/2014/06/kernel_panic.png"
+heroImage: "../../assets/blog/uploads/2014/06/kernel_panic.png"
 heroCaption: "Windows has blue screens. Ubuntu has black screens."
 tags: ["operating system"]
 categories: ["Technology"]

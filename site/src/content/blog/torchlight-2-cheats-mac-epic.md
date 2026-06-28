@@ -2,7 +2,7 @@
 title: "Torchlight 2 cheats (Mac + Epic Games version)"
 description: "This guide works for Torchlight 2, installed via Epic Games Store on a Mac. You will be able to use the game's console to apply cheat codes."
 pubDate: "2021-08-16T07:00:00"
-heroImage: "/blog/uploads/2020/09/Torchlight-2-cheats.jpg"
+heroImage: "../../assets/blog/uploads/2020/09/Torchlight-2-cheats.jpg"
 tags: ["games", "tutorial"]
 categories: ["Technology"]
 ---
@@ -43,7 +43,7 @@ For Windows users, the console is opened by pressing the `Insert` key. Mac users
 - Search for `NAME:CONSOLE`
 - Edit that section so that your configuration looks like this:
 
-![](/blog/uploads/2020/09/image.png)
+![](../../assets/blog/uploads/2020/09/image.png)
 
 - Save the file and close it.
 

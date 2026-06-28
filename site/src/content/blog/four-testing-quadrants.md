@@ -2,7 +2,7 @@
 title: "Testing for agile teams: The four testing quadrants (#3)"
 description: "This is a personal summary of a chapter from the book Agile Testing: A Practical Guide For Testers And Agile Teams. I'm sure you'll find it useful too."
 pubDate: "2017-01-16T08:00:00"
-heroImage: "/blog/uploads/2016/03/Agile-Testing-Book-Part-4.jpg"
+heroImage: "../../assets/blog/uploads/2016/03/Agile-Testing-Book-Part-4.jpg"
 tags: ["agile", "testing"]
 categories: ["Work"]
 ---
@@ -11,7 +11,7 @@ _This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+fo
 
 > We do different types of testing to accomplish different goals.
 
-[![testing quadrants](/blog/uploads/2016/04/testing-quadrants-400x324.png)](/blog/uploads/2016/04/testing-quadrants.png)
+![testing quadrants](../../assets/blog/uploads/2016/04/testing-quadrants-400x324.png)
 
 > Your team has its own unique context. **It's a tool, not a rule.**
 

@@ -2,7 +2,7 @@
 title: "Top 3 anti-theft Android apps"
 description: "Like backups, we hope to never use an anti-theft app, but when the moment comes you better have it installed. But which one offers the best protection?"
 pubDate: "2015-01-12T08:00:00"
-heroImage: "/blog/uploads/2014/12/im-watching-you.jpg"
+heroImage: "../../assets/blog/uploads/2014/12/im-watching-you.jpg"
 heroCaption: "I'm watching you Focker (Robert De Niro in \"Meet the Parents\")"
 tags: ["mobile", "review"]
 categories: ["Technology"]
@@ -23,7 +23,7 @@ This is like Windows Firewall -- better than nothing. Has some pretty basic feat
 - Erase (requires wifi)
 - Locate (requires wifi & GPS)
 
-![](/blog/uploads/2023/02/SCR-20230212-eih-1024x454.png)
+![](../../assets/blog/uploads/2023/02/SCR-20230212-eih-1024x454.png)
 
 ### [Prey](https://play.google.com/store/apps/details?id=com.prey), the best for free
 
@@ -51,7 +51,7 @@ I started using Prey to protect my laptop since Prey was created. Several years 
 - Can't remotely wipe device
 - Every command requires wifi, so if your thief never turns on the device's internet connection the app is ~useless~ powerless
 
-![Prey dashboard](/blog/uploads/2014/12/prey-screen-1024x481.png)
+![Prey dashboard](../../assets/blog/uploads/2014/12/prey-screen-1024x481.png)
 
 _Prey dashboard_
 
@@ -78,7 +78,7 @@ _Prey dashboard_
 - Although you can send commands via SMS to your missing device, you may need a wifi connection to receive the result of some of those commands. Ex: if you want to lock your device, you can send the SMS command and it's done. If you want to take a "thiefie", the app will take the shot instantly, but will require wifi to send the photo to you via email.
 - Don't send Cerberus notifications to the same email you have configured on the smartphone's email app. Otherwise when your Cerberus app takes a "stealth" photo, the thief will receive a notification of a new mail called "Cerberus just took a photo of your thief". Not good.
 
-![Cerberus dashboard](/blog/uploads/2014/12/cerberus-screen-1024x454.png)
+![Cerberus dashboard](../../assets/blog/uploads/2014/12/cerberus-screen-1024x454.png)
 
 _Cerberus dashboard_
 

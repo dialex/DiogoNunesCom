@@ -2,7 +2,7 @@
 title: "Creating a test strategy using questions"
 description: "The test strategy reveals how tests will be designed and executed to foster quality. To do so, it needs to answer several questions. SADDEST PPIRATEE is the mnemonic."
 pubDate: "2020-12-07T07:00:00"
-heroImage: "/blog/uploads/2020/05/SadPirate1.jpg"
+heroImage: "../../assets/blog/uploads/2020/05/SadPirate1.jpg"
 tags: ["testing", "utilities"]
 categories: ["Technology"]
 ---
@@ -33,7 +33,7 @@ I took [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinki
 
 The result was this mind map, and a new [mnemonic](https://dialex.github.io/start-testing/#/toolbox/mnemonics) called **`SADDEST PPIRATEE`**:
 
-[![](/blog/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png)](/blog/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png)
+![](../../assets/blog/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png)
 
 Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png) / [detailed mind map](/blog/uploads/2020/05/Test-Strategy-SADDEST-PPIRATEE.png)
 

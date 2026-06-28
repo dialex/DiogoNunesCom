@@ -2,7 +2,7 @@
 title: "Framework review: Cypress"
 description: "Cypress makes setting up, writing, running and debugging tests easy – for QAs and developers. This is my review: it's a 4.5 out of 5."
 pubDate: "2021-01-04T07:00:00"
-heroImage: "/blog/uploads/2020/09/herbert-goetsch-vImJ5GYMMqQ-unsplash-1.jpg"
+heroImage: "../../assets/blog/uploads/2020/09/herbert-goetsch-vImJ5GYMMqQ-unsplash-1.jpg"
 heroCaption: "Photo by Herbert Goetsch on Unsplash"
 tags: ["cypress", "review", "testing"]
 categories: ["Technology"]

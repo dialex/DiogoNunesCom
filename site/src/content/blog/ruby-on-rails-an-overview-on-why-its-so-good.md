@@ -2,7 +2,7 @@
 title: "Ruby on Rails: an overview on why it's so good"
 description: "Looks like everyone is using Ruby on Rails, but why? Let me tell you what awaits you if you choose Rails and why you should choose it."
 pubDate: "2014-05-05T08:00:00"
-heroImage: "/blog/uploads/2014/05/try-ruby-e1373488411601.jpg"
+heroImage: "../../assets/blog/uploads/2014/05/try-ruby-e1373488411601.jpg"
 heroCaption: "[]1 www.tryruby.org"
 tags: ["rails", "review"]
 categories: ["Technology"]

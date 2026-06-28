@@ -2,7 +2,7 @@
 title: "Working (just enough) to live"
 description: "Most of us live to work. If you trade all your time for money, you won't have time to spend all that money. Don't be a hamster in a wheel."
 pubDate: "2019-04-02T07:00:00"
-heroImage: "/blog/uploads/2018/11/Maennchen_aus_Stein.jpg"
+heroImage: "../../assets/blog/uploads/2018/11/Maennchen_aus_Stein.jpg"
 tags: ["decisions", "minimalism", "purpose"]
 categories: ["Life"]
 ---
@@ -25,7 +25,7 @@ These overheads delay the natural increase in entropy. If you skip them, one way
 
 ### Life is like riding a bicycle
 
-![](/blog/uploads/2018/11/4819689078_31b1db17f6.jpg)
+![](../../assets/blog/uploads/2018/11/4819689078_31b1db17f6.jpg)
 
 You put in some effort pedalling and the bicycle will move forward for a bit. While it is moving forward, you don’t need to pedal, so you enjoy the view. Then you go back to pedalling some more, and so on...
 
@@ -74,10 +74,10 @@ Remember the bicycle analogy?
 
 Find what needs to change to free more ~time~ life to you. **Every day that ends is time that you won't get back.** When are you going to enjoy it? When you're old, fragile and sick?
 
-![](/blog/uploads/2018/11/image-1024x538.png)
+![](../../assets/blog/uploads/2018/11/image-1024x538.png)
 
 The current market makes you work more than you should, so that you feel tired and empty, which will make you want to buy stuff and experiences to ease that emotional/physical pain.
 
-![](/blog/uploads/2018/11/hamster-wheel.gif)
+![](../../assets/blog/uploads/2018/11/hamster-wheel.gif)
 
 Don't be a hamster in a wheel, giving all your best to stay in the same place.

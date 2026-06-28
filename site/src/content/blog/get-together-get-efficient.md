@@ -2,12 +2,12 @@
 title: "Get together, Get efficient"
 description: "Everyone lives away from work. Solution: Buy less, live more; Be free, rent it; and Get together. The benefits are huge and diverse. Let me explain."
 pubDate: "2014-07-21T08:00:20"
-heroImage: "/blog/uploads/2014/07/get-efficient.jpg"
+heroImage: "../../assets/blog/uploads/2014/07/get-efficient.jpg"
 tags: ["idea", "minimalism"]
 categories: ["Life"]
 ---
 
-[](/blog/uploads/2014/07/get-efficient.jpg)
+
 
 ### Context
 

@@ -2,7 +2,7 @@
 title: "Unconsciously competent bias"
 description: "How you can make a difference even if you feel (or actually are) average. But what if you are not as average as you think you are?"
 pubDate: "2021-06-07T07:00:08"
-heroImage: "/blog/uploads/2021/03/pascal-bernardon-0JAXNMYrtUk-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/03/pascal-bernardon-0JAXNMYrtUk-unsplash.jpg"
 heroCaption: "Photo by Pascal Bernardon on Unsplash"
 tags: ["self-esteem"]
 categories: ["Thoughts"]

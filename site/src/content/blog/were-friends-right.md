@@ -2,7 +2,7 @@
 title: "We're friends, right?"
 description: "A story about a boy who couldn't distinguish politeness from friendship and how others took advantage of him. Don't be too nice or a jerk. Be yourself."
 pubDate: "2014-03-24T08:00:32"
-heroImage: "/blog/uploads/2014/03/Calvin-and-Hobbes.jpg"
+heroImage: "../../assets/blog/uploads/2014/03/Calvin-and-Hobbes.jpg"
 heroCaption: "image: Calvin and Hobbes, two best friends, by Bill Watterson"
 tags: ["personal", "relationships"]
 categories: ["Thoughts"]

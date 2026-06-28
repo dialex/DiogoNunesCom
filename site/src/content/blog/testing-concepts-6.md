@@ -2,7 +2,7 @@
 title: "Testability (Concepts #6)"
 description: "Testability measures the ability to test. When it's easy, you get deeper and faster info about the product."
 pubDate: "2021-11-15T07:00:00"
-heroImage: "/blog/uploads/2021/10/agence-olloweb-d9ILr-dbEdg-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/agence-olloweb-d9ILr-dbEdg-unsplash.jpg"
 heroCaption: "Photo by Agence Olloweb on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

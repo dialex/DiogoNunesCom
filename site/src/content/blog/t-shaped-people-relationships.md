@@ -2,7 +2,7 @@
 title: "T-shaped people in relationships"
 description: "T-shaped people make the most successful couples. Each person has their flaws, which are balanced by their partner's strengths."
 pubDate: "2022-05-21T07:00:35"
-heroImage: "/blog/uploads/2021/03/H-couple-tasteless-trex.png"
+heroImage: "../../assets/blog/uploads/2021/03/H-couple-tasteless-trex.png"
 heroCaption: "And H stands for Happy!"
 tags: ["relationships"]
 categories: ["Thoughts"]

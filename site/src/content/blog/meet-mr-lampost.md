@@ -2,7 +2,7 @@
 title: "Meet Mr. Lampost"
 description: "Everyone's every day is filled with curious events. I met a lamp post that greets me every night. How about you?"
 pubDate: "2015-03-23T08:00:00"
-heroImage: "/blog/uploads/2015/03/IMG_20150306_084840515_HDR2.jpg"
+heroImage: "../../assets/blog/uploads/2015/03/IMG_20150306_084840515_HDR2.jpg"
 tags: ["story"]
 categories: ["Life"]
 ---

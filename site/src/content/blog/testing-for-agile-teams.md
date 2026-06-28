@@ -2,7 +2,7 @@
 title: "Testing for agile teams: Introduction (#1)"
 description: "This is a personal summary of a chapter from the book Agile Testing: A Practical Guide For Testers And Agile Teams. I'm sure you'll find it useful too."
 pubDate: "2016-10-10T09:00:03"
-heroImage: "/blog/uploads/2016/03/Agile-Testing-Book-Part-1.jpg"
+heroImage: "../../assets/blog/uploads/2016/03/Agile-Testing-Book-Part-1.jpg"
 tags: ["agile", "testing"]
 categories: ["Work"]
 ---

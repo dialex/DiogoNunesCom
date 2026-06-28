@@ -2,11 +2,11 @@
 title: "Why I started blogging... again"
 description: "Why now? I'm not the talkative type, so I have to spill out my ideas, thoughts, and opinions in some other way - writing. And trust me, I think way…"
 pubDate: "2014-01-01T08:00:00"
-heroImage: "/blog/uploads/2014/09/cropped-geeky-gecko-avatar.png"
+heroImage: "../../assets/blog/uploads/2014/09/cropped-geeky-gecko-avatar.png"
 categories: ["Announcement"]
 ---
 
-![](/blog/uploads/2014/01/Blogging1-1024x768-e1411915178650.jpg)
+![](../../assets/blog/uploads/2014/01/Blogging1-1024x768-e1411915178650.jpg)
 
 ## Why now?
 

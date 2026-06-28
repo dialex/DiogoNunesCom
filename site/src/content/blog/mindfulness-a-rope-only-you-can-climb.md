@@ -2,7 +2,7 @@
 title: "Mindfulness, a rope only you can climb"
 description: "After a month of panic attacks my psichologist advised me to learn Mindfulness through the book \"An Eight-Week Plan for Finding Peace\". Here's my summary."
 pubDate: "2020-08-10T07:00:58"
-heroImage: "/blog/uploads/2020/08/valentin-lacoste-jNSJE8dMro0-unsplash-scaled.jpg"
+heroImage: "../../assets/blog/uploads/2020/08/valentin-lacoste-jNSJE8dMro0-unsplash-scaled.jpg"
 heroCaption: "Photo by Valentin Lacoste on Unsplash"
 tags: ["dark corner", "experience", "mindfulness"]
 categories: ["Life"]

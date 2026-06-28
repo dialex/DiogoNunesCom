@@ -2,7 +2,7 @@
 title: "Colonists in dire straits, a RimWorld story"
 description: "This is an epic story of survival, love, adventure and madness. They did not deserve such tragic ending."
 pubDate: "2023-11-13T08:00:56"
-heroImage: "/blog/uploads/2023/09/DALL·E-2023-09-30-16.40.50-impressionist-oil-painting-of-a-metal-pod-crash-landed-on-arid-zone-with-bushes-and-some-trees-and-two-men-and-one-old-woman-exit-the-pod.png"
+heroImage: "../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-16.40.50-impressionist-oil-painting-of-a-metal-pod-crash-landed-on-arid-zone-with-bushes-and-some-trees-and-two-men-and-one-old-woman-exit-the-pod.png"
 tags: ["games", "story"]
 categories: ["Writing"]
 ---
@@ -27,7 +27,7 @@ PewPew was not much of a talker, he was more of a shooter. Dr House on the other
 
 * * *
 
-[![](/blog/uploads/2023/11/DALL·E-2023-10-08-15.39.03-impressionist-oil-painting-using-warm-colours-of-two-labrador-dogs.png)](/blog/uploads/2023/11/DALL·E-2023-10-08-15.39.03-impressionist-oil-painting-using-warm-colours-of-two-labrador-dogs.png)
+![](../../assets/blog/uploads/2023/11/DALL·E-2023-10-08-15.39.03-impressionist-oil-painting-using-warm-colours-of-two-labrador-dogs.png)
 
 Let me tell you about Lassie. She's a female Labrador that was found bleeding on the ground. Maybe she was attacked by a predator which had to run away, who knows. PewPew carried her and Babushka treated her.
 
@@ -55,7 +55,7 @@ Something else was hungry – hungry for blood. Two mice went mad and started hu
 
 While Dr House was on his way to the prison cell for some maintenance work, one of the mice attacked his leg and his walking slowed down. He crossed the door but sadly it didn't close on time.
 
-![](/blog/uploads/2023/09/DALL·E-2023-09-30-16.49.20-impressionist-oil-painting-using-pastel-colours-of-a-male-doctor-running-away-from-two-mice-with-dark-brown-fur.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-16.49.20-impressionist-oil-painting-using-pastel-colours-of-a-male-doctor-running-away-from-two-mice-with-dark-brown-fur.png)
 
 Now, there was nothing between him and the wild animal.
 
@@ -73,7 +73,7 @@ Nature is often brutal, but one thing is sure: Nature is not wasteful. When Babu
 
 Babushka called for her husband but he never came, nor was he ever found. Nothing remained besides some bloody pieces of clothing. Babushka assumed he was devoured by a massive wild beast. She never found out about the small rodent assassins and the hungry best friends of Men.
 
-![](/blog/uploads/2023/09/DALL·E-2023-09-30-16.53.17-impressionist-oil-painting-cold-colors-of-an-old-woman-with-a-red-jacket-with-white-hair-the-face-is-covered-with-her-hands-sad-and-crying-place-is-.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-16.53.17-impressionist-oil-painting-cold-colors-of-an-old-woman-with-a-red-jacket-with-white-hair-the-face-is-covered-with-her-hands-sad-and-crying-place-is-.png)
 
 The winter continued and Babushka was freezing outside. She did most of the work in the colony, and now with one less person she had even more work to do. At this point, they were only two humans plus a pack of 15 dogs.
 
@@ -93,7 +93,7 @@ Sandra would die on the same day due to blood loss. Babushka would recover but h
 
 The future was looking grim until one day a miracle happened. From the sky, another pod crashlanded, and three women came from the sky: Daenerys, Jynx and Ivy.
 
-![](/blog/uploads/2023/09/DALL·E-2023-09-30-16.56.27-impressionist-oil-painting-of-six-people-building-a-wooden-wall-or-palisade-and-some-metal-turrets-on-the-ground.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-16.56.27-impressionist-oil-painting-of-six-people-building-a-wooden-wall-or-palisade-and-some-metal-turrets-on-the-ground.png)
 
 Daenerys had the idea of building "the wall", a wooden barrier that would protect them from the outside dangers. PewPew suggested the creation of a shooting area, with turrets and sandbags, to defend the colony in case of an attack. He did love shooting. He called it "the kill box".
 
@@ -103,7 +103,7 @@ Next time they would be prepared.
 
 By now, the colony had 20 dogs and too many mouths to feed. The colony decided to "snip snip" the males to avoid more puppies and had to euthanise 8 dogs.
 
-![](/blog/uploads/2023/09/DALL·E-2023-09-30-17.00.18-impressionist-oil-painting-of-person-running-after-20-dogs-with-scissors-one-of-their-hands.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-17.00.18-impressionist-oil-painting-of-person-running-after-20-dogs-with-scissors-one-of-their-hands.png)
 
 They did not die in vain though. They were turned into steaks and the fur turned into chairs.
 
@@ -121,7 +121,7 @@ So they made another leg. And Jynx tried again. And failed again.
 
 They made another. Jynx tried. Jynx failed. You could say it was... jinxed.
 
-[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.15.39-impressionist-oil-painting-of-a-woman-with-white-hair-and-a-red-jacket-laying-in-a-hospital-with-one-normal-leg-and-one-silver-metal-prosthetic-leg.png)](/blog/uploads/2023/09/DALL·E-2023-09-30-20.15.39-impressionist-oil-painting-of-a-woman-with-white-hair-and-a-red-jacket-laying-in-a-hospital-with-one-normal-leg-and-one-silver-metal-prosthetic-leg.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-20.15.39-impressionist-oil-painting-of-a-woman-with-white-hair-and-a-red-jacket-laying-in-a-hospital-with-one-normal-leg-and-one-silver-metal-prosthetic-leg.png)
 
 They made a 4th leg and tried a 4th time and... it worked! Finally Babushka could walk properly again. She was still under the influence of the anaesthesia and there she was, outside, building new turrets. That's Babushka for you.
 
@@ -133,7 +133,7 @@ But they were not savages! They could not leave them dying there of the floor. N
 
 That's how a man of green hair joined the colony. The medicine, food and propaganda he received finally broke his spirit and he decided to join, out of his own freewill. He was named Verdocas, after his hair.
 
-![](/blog/uploads/2023/09/DALL·E-2023-09-30-17.13.21-impressionist-oil-painting-of-a-young-man-with-green-hair-holding-a-shovel-and-looking-at-a-hole-on-the-ground.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-17.13.21-impressionist-oil-painting-of-a-young-man-with-green-hair-holding-a-shovel-and-looking-at-a-hole-on-the-ground.png)
 
 One day, he got depressed and decided to dig up a body.
 
@@ -147,7 +147,7 @@ Speaking of prisoners, one time the colonists captured two raiders. They spoke w
 
 Jynx went to the prison cell and extracted one of the kidneys, then the other, then his left lung, then his heart, then he died, to no one's surprise. What was surprising though was the market price of those organs. Each kidney was worth 500 silver. In those little four refrigerated boxes there was three times as much money as the colony had gathered during several in-game years. Profit!
 
-[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.21.14-impressionist-oil-painting-of-female-doctor-doing-a-surgery-to-someone-with-clothes-that-have-horizontal-white-and-black-stripes.png)](/blog/uploads/2023/09/DALL·E-2023-09-30-20.21.14-impressionist-oil-painting-of-female-doctor-doing-a-surgery-to-someone-with-clothes-that-have-horizontal-white-and-black-stripes.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-20.21.14-impressionist-oil-painting-of-female-doctor-doing-a-surgery-to-someone-with-clothes-that-have-horizontal-white-and-black-stripes.png)
 
 They were trying for so long to find a sustainable way to make money. First thing they tried was drugs, by farming smokeleaves and producing joints. Each joint was worth 12 silver and took lots of effort. Then they tried to make cloth out of cotton. It was profitable but it took a long time to harvest all that cotton. But kidneys? Every attacker now had a 1000 price tag over their head, and with frequent raids that became our "get rich quick" scheme.
 
@@ -157,7 +157,7 @@ Oh and one more thing: while Jynx was extracting the organs from the unwavering 
 
 The weather outside became weird. The sky was covered with dark clouds, but they looked purplish, as clouds do after a sunset. Then it started raining. One full day of never-ending rain. Then another. Then a week. Then a month. Then our colonist estimated it would keep raining for at least a season.
 
-[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.27.28-impressionist-oil-painting-of-purple-rain-falling-on-old-hand-and-a-small-puddle-of-water.png)](/blog/uploads/2023/09/DALL·E-2023-09-30-20.27.28-impressionist-oil-painting-of-purple-rain-falling-on-old-hand-and-a-small-puddle-of-water.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-20.27.28-impressionist-oil-painting-of-purple-rain-falling-on-old-hand-and-a-small-puddle-of-water.png)
 
 There was nothing they could do but wait. And maybe sow some rice, to take advantage of all this rain.
 
@@ -171,7 +171,7 @@ Another season ended, but not the rain. Eventually the colony gave up. Life is s
 
 One day, after 18 months, it stopped. The rain stopped, the dark clouds opened to let the sun shine on the wrinkled faces of the colonists. They noticed that Babushka, the oldest person in the colony with 70 years now, was mysteriously immune to rain. And thus the old grandma watched the boys and girls age 10 years while she only aged one. She already had plenty, she didn't need more.
 
-[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.31.24-impressionist-oil-painting-of-old-woman-with-red-jacket-and-white-hair-pettng-the-head-of-a-big-brown-bear.png)](/blog/uploads/2023/09/DALL·E-2023-09-30-20.31.24-impressionist-oil-painting-of-old-woman-with-red-jacket-and-white-hair-pettng-the-head-of-a-big-brown-bear.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-20.31.24-impressionist-oil-painting-of-old-woman-with-red-jacket-and-white-hair-pettng-the-head-of-a-big-brown-bear.png)
 
 When she finally felt the warmth of the sun she became so inspired that she decided to tame a wild brown bear. In normal circumstances there's an 80% chance of getting mauled by the bear, but not with Babushka. She just placed her hand on top of the bear's head and just like that, Misha joined the colony, Babushka's pet brown bear.
 
@@ -179,13 +179,13 @@ When she finally felt the warmth of the sun she became so inspired that she deci
 
 The tranquility of the once peaceful colony was shattered as six wild animals, driven mad by some mysterious force, launched an assault. Four massive rhinos, a lone squirrel, and an unsuspecting duck ignored our kill box and went straight to one of our modest wooden doors.
 
-![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.33.34-impressionist-oil-painting-of-4-big-grey-rhinos-all-running-in-the-same-direction.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-20.33.34-impressionist-oil-painting-of-4-big-grey-rhinos-all-running-in-the-same-direction.png)
 
 Soon the door shattered and the animals were in. The corridor was narrow. That meant that only 3-4 people could shoot at the same time because there was not enough room for everyone. All of our colonists were equipped with guns but they could only use them while ranged. The animals quickly closed the gap and the guns were useless. The rhinos bashed against the first line of people. Two rhino hits were usually enough to bring a human down, either unconscious or bleeding on the floor.
 
 One by one, the colonists were all trampled. The aftermath was one rhino dead, three people dead, two unconscious, and ten bleeding. The only good thing in such a terrible scenario were the faithful dogs, which rescued the people on the floor and carried them to the medical beds. Beautiful. Useless, but beautiful.
 
-![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.34.14-impressionist-oil-painting-of-big-grey-rhinos-versus-human-inside-small-corridor.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-20.34.14-impressionist-oil-painting-of-big-grey-rhinos-versus-human-inside-small-corridor.png)
 
 You see, if everyone is either bleeding or passed out, there's no one to play doctor. The only slim hope was for the unconscious colonists to wake up and treat the wounded. As they waited, colonists started dying left and right by blood loss.
 
@@ -195,7 +195,7 @@ Remember the rhinos? There's still three out there and they're still very much c
 
 Yet, in the middle of the bloodshed and desperation, a figure emerged. Literally, a black man dressed in black.
 
-![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.40.02-impressionist-oil-painting-of-one-black-man-with-black-clothes-and-black-hat-going-crazy-with-hands-on-his-head.png)
+![](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-20.40.02-impressionist-oil-painting-of-one-black-man-with-black-clothes-and-black-hat-going-crazy-with-hands-on-his-head.png)
 
 The colonists heard rumours about this, that sometimes when a colony is hit with a devastating event, fate may pity on them and send a person dressed in black to attempt to fix things. Could this person be their last and only hope? They would soon find out.
 
@@ -203,10 +203,10 @@ He ran into the infirmary, carrying medicine with him. He treated one colonist, 
 
 That was it. The colony was brought to its knees and there was no way to get back up.
 
-!["Peace was never an option"](/blog/uploads/2023/09/DALL·E-2023-09-30-21.34.56-impressionist-oil-painting-of-a-suspicious-male-duck-1.png)
+!["Peace was never an option"](../../assets/blog/uploads/2023/09/DALL·E-2023-09-30-21.34.56-impressionist-oil-painting-of-a-suspicious-male-duck-1.png)
 
 They were beaten by four rhinos and one squirrel. And one duck too.
 
 GG.
 
-[![](/blog/uploads/2023/09/rino_charge_2.JPG-1024x494.jpg)](/blog/uploads/2023/09/rino_charge_2.JPG.jpg)
+![](../../assets/blog/uploads/2023/09/rino_charge_2.JPG-1024x494.jpg)

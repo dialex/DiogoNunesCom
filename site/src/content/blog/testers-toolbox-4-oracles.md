@@ -2,7 +2,7 @@
 title: "Oracles (Toolbox #4)"
 description: "An oracle is a source of knowledge that improves your testing."
 pubDate: "2022-01-17T07:00:00"
-heroImage: "/blog/uploads/2021/10/tachina-lee-wjk_SSqCE4-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/tachina-lee-wjk_SSqCE4-unsplash.jpg"
 heroCaption: "Photo by Tachina Lee on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

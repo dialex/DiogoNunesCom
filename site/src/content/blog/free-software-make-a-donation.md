@@ -2,7 +2,7 @@
 title: "Do you use free or open software? Make a donation!"
 description: "I've used a lot of free tools. I admire these people that invest their time to improve the life of others asking nothing in return. Make a donation today!"
 pubDate: "2014-01-27T08:00:41"
-heroImage: "/blog/uploads/2014/01/54806395.jpg"
+heroImage: "../../assets/blog/uploads/2014/01/54806395.jpg"
 tags: ["free and open", "kindness"]
 categories: ["Technology"]
 ---

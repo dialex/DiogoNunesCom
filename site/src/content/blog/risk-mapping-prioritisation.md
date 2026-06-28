@@ -2,7 +2,7 @@
 title: "Automation prioritisation using Risk Mapping"
 description: "My team wanted to write automated checks, but we had too many features to cover and not enough time. How to prioritise? Use Risk Mapping, I'll show you how."
 pubDate: "2020-05-04T07:00:00"
-heroImage: "/blog/uploads/2020/04/Risk_Mapping.png"
+heroImage: "../../assets/blog/uploads/2020/04/Risk_Mapping.png"
 tags: ["agile", "testing", "tutorial"]
 categories: ["Work"]
 ---
@@ -11,7 +11,7 @@ categories: ["Work"]
 
 [Sam Connelly](https://twitter.com/BugHunterSam) wrote an article about [Visual Risk](https://bughuntersam.com/visual-risk-ui-automation-framework/). The exercise visually maps features in terms of frequency of use and impact of failure.
 
-[![](/blog/uploads/2020/04/1-draw-a-graph-1024x541.jpg)](/blog/uploads/2020/04/1-draw-a-graph.jpg)
+![](../../assets/blog/uploads/2020/04/1-draw-a-graph-1024x541.jpg)
 
 The exercise goes like this:
 
@@ -32,9 +32,9 @@ The goal was to let the team prioritize which areas should be covered by automat
 
 As you can see from Sam's hand-drawn graph, you can place your post-its freely. That's why the group discussion is so important: it allows the frequency and impact of each feature to be peer-reviewed, reducing the placement subjectiveness.
 
-![](/blog/uploads/2020/04/Picture-2.png)
+![](../../assets/blog/uploads/2020/04/Picture-2.png)
 
-![](/blog/uploads/2020/04/Risk_Mapping.png)
+![](../../assets/blog/uploads/2020/04/Risk_Mapping.png)
 
 When placing your post-it you could mentally divide the chart into three slices or four quadrants. I preferred the quadrants view. My intuition said the "zone" would be more important than the exact placement.
 
@@ -69,15 +69,15 @@ This is an estimate, go with your intuition. Some areas might overlap.
 
 ### Results
 
-[![](/blog/uploads/2020/04/Results-400x365.png)](/blog/uploads/2020/04/Results.png)
+![](../../assets/blog/uploads/2020/04/Results-400x365.png)
 
 Given our constraints, we were able to extract substancial value from this exercise without the effort of a co-located workshop. The exercise fulfilled its purpose and we got our prioritisation.
 
 ### ✅ Conclusions
 
-![](/blog/uploads/2020/04/Picture-3.png)
+![](../../assets/blog/uploads/2020/04/Picture-3.png)
 
-![](/blog/uploads/2020/04/Picture-1.png)
+![](../../assets/blog/uploads/2020/04/Picture-1.png)
 
 From my analysis, I understood that:
 

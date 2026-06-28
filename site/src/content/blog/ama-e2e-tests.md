@@ -2,7 +2,7 @@
 title: "7 questions we all had about end-to-end tests"
 description: "This is a summary of an Ask Me Anything session I did at my company. Developers voted what they wanted to know about (E2E) end-to-end tests and I shared my experience."
 pubDate: "2021-10-04T08:00:33"
-heroImage: "/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-1.jpg"
+heroImage: "../../assets/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-1.jpg"
 tags: ["experience", "testing"]
 categories: ["Technology"]
 ---
@@ -11,7 +11,7 @@ categories: ["Technology"]
 
 > ⭐️ This post was featured in [Software Testing Weekly, #92](https://softwaretestingweekly.com/issues/92?#automation) and [Software Testing Notes, #28](https://softwaretestingnotes.substack.com/p/issue-28-software-testing-notes)
 
-![](/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-0.jpg)
+![](../../assets/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-0.jpg)
 
 ### What’s the definition of E2E in frontend?
 
@@ -19,7 +19,7 @@ I don't think there's a definition specific to frontend (BE). An end-to-end test
 
 An E2E exercises your system in terms of "width" and "depth". These tests exercises the **width** of your system by checking the behaviour of a user journey from start to end, across multiple pages. While they do so, they are also exercising the **depth** of your system by checking all the tech layers, across frontend and backend.
 
-![](/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-1.jpg)
+![](../../assets/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-1.jpg)
 
 ### How does a test survive the “test of time”?
 
@@ -29,7 +29,7 @@ First we need to define what the test of time is. In my opinion, that's an autom
 - **Assert what is final.** For example, features under A/B testing is not final. While the experiment is running, the feature might change (which would make the test unreliable) or even be dropped (which would make the test irrelevant). Save your automation efforts until a decision is made.
 - **Assert what is stable.** If your work was climbing a mountain, you would choose carefully where to place your supports. You would pick the places that are solid. Tests support your work, and selectors support your tests. If you use selectors that are not tied to your design implementation (e.g. classes via CSS selectors) they will be more reliable.
 
-![](/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-2.jpg)
+![](../../assets/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-2.jpg)
 
 ### How to prevent test flakiness?
 
@@ -39,7 +39,7 @@ The other guideline – one you should always keep in mind – is that tests exi
 
 I would also stay away from **mocking** as a solution to flakiness. A property of E2E tests is that they are realistic, they are an automated user. If the test is facing a problem then a user might face it too. If you mock your E2E test then you transform it into a slow bloated unit test.
 
-![](/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-3.jpg)
+![](../../assets/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-3.jpg)
 
 ### How to prevent them from slowing down pipelines?
 
@@ -49,7 +49,7 @@ Think of it as crossing a bridge, you can cross it slowly and carefully or you c
 
 [Marie Kondo](https://en.wikipedia.org/wiki/Marie_Kondo) has a question for you: _Does your pipeline spark joy?_ That should be your guiding light, is the pipeline helping or hurting me? Optimise accordingly.
 
-![](/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-4.jpg)
+![](../../assets/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-4.jpg)
 
 ### How do you run them in your pipeline?
 
@@ -57,7 +57,7 @@ My team owns several code repositories with individual pipelines. Therefore we n
 
 When we want to run the E2E tests we simply pull the image and run it. That's it (assuming you pass all the necessary secrets and configurations as env vars parameters).
 
-![](/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-5.jpg)
+![](../../assets/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-5.jpg)
 
 ### How do you structure test code?
 
@@ -67,7 +67,7 @@ A test suite with _too many files/lines_ is harder to maintain. A test suite tha
 
 I start with the user goal, what they want to achieve in our system. Then I map their journey, the actions they will need to perform and which screens they will use. Finally I code the E2E test, asserting along the way, just like a user would.
 
-![](/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-6.jpg)
+![](../../assets/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-6.jpg)
 
 ### How to cleanup the existing test mess using E2E?
 

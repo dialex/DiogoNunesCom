@@ -2,7 +2,7 @@
 title: "Mnemonics (Toolbox #5)"
 description: "Mnemonics are memory shortcuts to retrieve information. Here's 21 for you to use!"
 pubDate: "2022-01-24T07:00:00"
-heroImage: "/blog/uploads/2021/10/john-jennings-wRgNwR9CZDA-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/john-jennings-wRgNwR9CZDA-unsplash.jpg"
 heroCaption: "Photo by John Jennings on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

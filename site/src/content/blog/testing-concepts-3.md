@@ -2,7 +2,7 @@
 title: "Testing is not just… (Concepts #3)"
 description: "Testing is not checking, automation, breaking software, straightforward, quality assurance, and finite."
 pubDate: "2021-10-25T07:00:13"
-heroImage: "/blog/uploads/2021/10/lenny-kuhne-jHZ70nRk7Ns-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/lenny-kuhne-jHZ70nRk7Ns-unsplash.jpg"
 heroCaption: "Photo by Lenny Kuhne on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

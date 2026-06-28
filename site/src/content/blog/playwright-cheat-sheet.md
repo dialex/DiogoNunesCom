@@ -2,7 +2,7 @@
 title: "Playwright cheat sheet"
 description: "A list of code snippets and examples to implement common automation scenarios in Playwright"
 pubDate: "2022-02-07T07:00:58"
-heroImage: "/blog/uploads/2021/11/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/11/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
 heroCaption: "Photo by Patrick Tomasso on Unsplash"
 tags: ["playwright", "testing", "utilities"]
 categories: ["Technology"]

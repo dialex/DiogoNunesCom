@@ -2,7 +2,7 @@
 title: "Requirements (Concepts #5)"
 description: "Requirements are what your stakeholders require to achieve their goals. Testers clarify and detail those needs."
 pubDate: "2021-11-08T07:00:00"
-heroImage: "/blog/uploads/2021/10/leon-Oalh2MojUuk-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/leon-Oalh2MojUuk-unsplash.jpg"
 heroCaption: "Photo by Leon on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

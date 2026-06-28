@@ -2,7 +2,7 @@
 title: "Testing is… (Concepts #2)"
 description: "Testing is investigation, exploration, empathy, and communication."
 pubDate: "2021-10-18T07:00:19"
-heroImage: "/blog/uploads/2021/10/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg"
 heroCaption: "Photo by Holly Mandarich on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

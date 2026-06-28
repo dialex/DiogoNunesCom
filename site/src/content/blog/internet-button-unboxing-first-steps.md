@@ -2,7 +2,7 @@
 title: "Internet Button: unboxing and first steps"
 description: "This tutorial is a guide to configure the Internet Button for the first time, either via USB, wifi or Particle mobile app. I had several errors and fails."
 pubDate: "2016-12-05T08:00:00"
-heroImage: "/blog/uploads/2016/07/IMG_20160614_140426195.jpg"
+heroImage: "../../assets/blog/uploads/2016/07/IMG_20160614_140426195.jpg"
 tags: ["hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---
@@ -13,7 +13,7 @@ This is hardware and on top of that it runs on C++. I knew it would be painful. 
 
 The internet button is a handy little piece of hardware that **contains 11 leds, 4 buttons, wifi capabilities, a sound speaker and even an accelerometer!** At the time is costed me $49, plus $20 of shipping if you live in the UK. Since I live in the middle of nowhere, also known as Portugal, it costed $50 for shipping and $20 for customs...
 
-![](/blog/uploads/2016/07/tumblr_m48qaxPQTF1qg8vkwo1_250.jpg)
+![](../../assets/blog/uploads/2016/07/tumblr_m48qaxPQTF1qg8vkwo1_250.jpg)
 
 Let's start.
 
@@ -36,7 +36,7 @@ Here's what worked for me (YMMV):
 9.  DONE!
 10.  Have a cookie, you deserved it after all this.
 
-![](/blog/uploads/2016/07/Screenshot_20160724-151825-400x282.png)
+![](../../assets/blog/uploads/2016/07/Screenshot_20160724-151825-400x282.png)
 
 If you did it correctly you should now see the led **flashing magenta** while it updates its own firmware. After that it goes **breathing cyan**. Remember to check [this doc](https://docs.particle.io/guide/getting-started/modes/photon/) to know the [meaning of each color and pattern](https://docs.particle.io/guide/getting-started/modes/photon/).
 

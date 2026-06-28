@@ -2,7 +2,7 @@
 title: "Asserting text using Cypress"
 description: "With Cypress eventually you will have to assert text. They provide at least three methods: have.text, include.text and contain.text. What's the difference?"
 pubDate: "2020-07-06T07:00:00"
-heroImage: "/blog/uploads/2020/04/sunyu-jtjS4F8Q7sY-unsplash-scaled.jpg"
+heroImage: "../../assets/blog/uploads/2020/04/sunyu-jtjS4F8Q7sY-unsplash-scaled.jpg"
 heroCaption: "Photo by Sunyu on Unsplash"
 tags: ["cypress", "testing"]
 categories: ["Technology"]

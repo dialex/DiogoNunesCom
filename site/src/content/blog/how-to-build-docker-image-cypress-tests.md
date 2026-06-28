@@ -2,12 +2,12 @@
 title: "How to build a Docker image ready to run Cypress tests"
 description: "Here you will find a dockerfile that will allow you to build a Docker image containing Cypress, your tests and any dependencies -- ready to run!"
 pubDate: "2020-05-11T07:00:00"
-heroImage: "/blog/uploads/2020/04/cypress-on-docker.png"
+heroImage: "../../assets/blog/uploads/2020/04/cypress-on-docker.png"
 tags: ["coding", "cypress", "tutorial"]
 categories: ["Technology"]
 ---
 
-[](/blog/uploads/2020/04/cypress-on-docker.png)
+
 
 My team decided to build a Docker image that contained Cypress, dependencies and all our end-to-end (E2E) tests.
 

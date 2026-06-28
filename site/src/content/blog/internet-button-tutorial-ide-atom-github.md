@@ -2,7 +2,7 @@
 title: "Internet Button: Web IDE, Atom, GitHub (tutorial #1)"
 description: "In this Particle Internet Button tutorial we'll deal with the initial setup of Web IDE, Atom, GitHub. Avoid mistakes and save time with this guide."
 pubDate: "2017-01-02T08:00:00"
-heroImage: "/blog/uploads/2016/08/Internet-Button-Tutorial1.jpg"
+heroImage: "../../assets/blog/uploads/2016/08/Internet-Button-Tutorial1.jpg"
 tags: ["coding", "hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---
@@ -30,7 +30,7 @@ Here's what I recommend you do:
 
 Take a deep breath -- you're about to enter the depths of hell. This is where I started but I would avoid it if I could. You can try to skip this step and go directly to the Local IDE section below.
 
-![particle web ide](/blog/uploads/2016/07/particle-web-ide.png)
+![particle web ide](../../assets/blog/uploads/2016/07/particle-web-ide.png)
 
 1.  Go to [build.particle.io](https://build.particle.io) and create an account. Login.
 2.  Click the **Devices** icon, in the lower left corner. Make sure your device is listed there.
@@ -41,7 +41,7 @@ DISCLAIMER: **Forget their web IDE.** Period. It's too complicated, nothing make
 
 ### Local IDE (Particle Dev)
 
-[![particle local ide](/blog/uploads/2016/07/particle-local-ide.png)](/blog/uploads/2016/07/particle-local-ide.png)
+![particle local ide](../../assets/blog/uploads/2016/07/particle-local-ide.png)
 
 This is their web IDE but ~done right~ better. It's a custom version of [Atom text editor](https://atom.io/). This is the one place to go to develop and deploy code for your Internet Button.
 

@@ -2,7 +2,7 @@
 title: "Your \"but\" is hurting me"
 description: "Have you ever heard someone say a good thing and then felt like a \"but\" was incoming? I'll tell how you can improve your communication with one simple hack."
 pubDate: "2023-02-06T08:00:30"
-heroImage: "/blog/uploads/2023/01/giulia-may-flyaBC0TN-I-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2023/01/giulia-may-flyaBC0TN-I-unsplash.jpg"
 heroCaption: "Photo by Giulia May on Unsplash"
 tags: ["communication", "kindness"]
 categories: ["Thoughts"]

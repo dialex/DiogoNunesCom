@@ -2,7 +2,7 @@
 title: "Record what you hear during a video call (macOS)"
 description: "At my company we often practice remote working and most of our meetings happen online. Sometimes it's useful to record one of those meetings. Here's how."
 pubDate: "2019-07-01T08:00:15"
-heroImage: "/blog/uploads/2019/03/8166y3b3dxl.png"
+heroImage: "../../assets/blog/uploads/2019/03/8166y3b3dxl.png"
 tags: ["utilities"]
 categories: ["Work"]
 ---

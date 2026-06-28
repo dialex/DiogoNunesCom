@@ -2,7 +2,7 @@
 title: "Finding courage to start a novel"
 description: "Writing a novel requires a lot of effort - time, creativity - and it's not going to be a bestseller. It's not about the goal it's about the journey."
 pubDate: "2014-02-03T08:00:00"
-heroImage: "/blog/uploads/2014/02/sleeping-goddess-at-the-lost-gardens-of-heligan-england-picture-e1411916435598.jpg"
+heroImage: "../../assets/blog/uploads/2014/02/sleeping-goddess-at-the-lost-gardens-of-heligan-england-picture-e1411916435598.jpg"
 heroCaption: "photo: heligan gardens"
 tags: ["novel"]
 categories: ["Writing"]
@@ -23,7 +23,7 @@ That's the main question: do you play a game to reach the end or to enjoy the ti
 
 **Finishing the book is just the outcome of the writing process. And the writing process is the real fun!** [Make it a party, challenge your friends to do the same and/or meet new writers](http://nanowrimo.org/). If you just want to boast about having a published book, just [pick a theme and pay these guys](http://businessghost.com/about/) and they'll do everything for you.
 
-[![](/blog/uploads/2014/02/1102553_10200453413803843_469362351_o-1024x652.jpg)](/blog/uploads/2014/02/1102553_10200453413803843_469362351_o.jpg)
+![](../../assets/blog/uploads/2014/02/1102553_10200453413803843_469362351_o-1024x652.jpg)
 
 I barely finished my research and let me tell you, I'm already enjoying it! **The drawing above was the result of my ["30 Days of WorldBuilding"](http://www.web-writer.net/fantasy/days/) during last summer.** Boy, am I proud! Surely not as proud as [Kevin Leung](http://kevinleung.com/archives/i-wrote-a-novel/) (author of [chronoline](http://stoicloofah.github.io/chronoline.js/)) who got ahead of me and completed his NaNoWriMo last year. And like a proper geek he _open-sourced the novel_... at [github](https://github.com/StoicLoofah/my-nanowrimo-novel/tree/v0.1.0/novel).
 

@@ -2,23 +2,42 @@
 const { title, img, desc, url, badge, tags, target = "_blank", loading = "eager" } = Astro.props;
 import { Image } from "astro:assets";
 import slugify from "../lib/slugify";
+import { withBase } from "../lib/withBase";
+import { isBlogAsset, resolveBlogImage } from "../lib/blogImages";
+
+// Blog heroes arrive as a src/assets path string → resolve to optimisable ImageMetadata.
+// Project thumbnails arrive as a public/ string (kept as-is, prefixed with base below).
+const resolved = isBlogAsset(img) ? await resolveBlogImage(img) : img;
 ---
 
 <div class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]">
   <a href={url} target={target}>
     <div class="hero-content flex-col md:flex-row">
       {
-        img && (
-          <Image
-            src={img}
-            width={750}
-            height={422}
-            format="webp"
-            alt={title}
-            loading={loading}
-            class="max-w-full md:max-w-[13rem] rounded-lg"
-          />
-        )
+        resolved &&
+          (typeof resolved === "string" ? (
+            // public/ path (e.g. project thumbnails) — not processed by Astro, needs explicit dims
+            <Image
+              src={withBase(resolved)}
+              width={750}
+              height={422}
+              format="webp"
+              alt={title}
+              loading={loading}
+              class="w-full md:max-w-[13rem] aspect-video object-cover rounded-lg"
+            />
+          ) : (
+            // ImageMetadata from src/assets (e.g. blog hero) — Astro emits optimised WebP + srcset
+            <Image
+              src={resolved}
+              widths={[260, 520]}
+              sizes="(min-width: 768px) 13rem, 100vw"
+              format="webp"
+              alt={title}
+              loading={loading}
+              class="w-full md:max-w-[13rem] aspect-video object-cover rounded-lg"
+            />
+          ))
       }
       <div class="grow w-full">
         <h1 class="text-xl font-bold">
@@ -30,7 +49,7 @@ import slugify from "../lib/slugify";
           {
             tags &&
               tags.map((tag) => (
-                <a href={`/blog/tag/${slugify(tag)}/`} class="badge badge-soft badge-sm rounded-md no-underline">
+                <a href={withBase(`/blog/tag/${slugify(tag)}/`)} class="badge badge-soft badge-sm rounded-md no-underline">
                   {tag}
                 </a>
               ))

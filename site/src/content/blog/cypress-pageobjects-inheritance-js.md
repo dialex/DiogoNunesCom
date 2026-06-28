@@ -2,7 +2,7 @@
 title: "Cypress: PageObjects using inheritance"
 description: "Maybe your page under test that behaves differently based on a config. You can use JS inheritance to avoid duplicated code on PageObjects with Cypress."
 pubDate: "2020-06-01T07:00:00"
-heroImage: "/blog/uploads/2020/04/68747470733a2f2f65726c616e67656e776c6164696d69722e66696c65732e776f726470726573732e636f6d2f323031352f30352f6d6174726a6f7363686b612d332e6a7067.jpeg"
+heroImage: "../../assets/blog/uploads/2020/04/68747470733a2f2f65726c616e67656e776c6164696d69722e66696c65732e776f726470726573732e636f6d2f323031352f30352f6d6174726a6f7363686b612d332e6a7067.jpeg"
 tags: ["cypress", "testing", "tutorial"]
 categories: ["Technology"]
 ---

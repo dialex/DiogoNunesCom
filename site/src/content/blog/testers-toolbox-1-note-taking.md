@@ -2,7 +2,7 @@
 title: "Note-taking (Toolbox #1)"
 description: "Your notes structure your thinking, expand your memory and share information across the team."
 pubDate: "2021-11-22T07:00:00"
-heroImage: "/blog/uploads/2021/10/david-travis-5bYxXawHOQg-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/david-travis-5bYxXawHOQg-unsplash.jpg"
 heroCaption: "Photo by David Travis on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

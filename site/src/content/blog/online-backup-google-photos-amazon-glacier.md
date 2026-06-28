@@ -2,7 +2,7 @@
 title: "Online affordable photo backup: Google Photos vs Amazon Glacier"
 description: "I wanted to backup my originals (RAWs/NEFs), my edits (XML) and my other photos (JPGs). It should be easy to sync changes in my catalog and it shouldn't cost me a fortune per GB."
 pubDate: "2019-11-18T07:00:32"
-heroImage: "/blog/uploads/2019/11/alex-machado-80sv993lUKI-unsplash-scaled.jpg"
+heroImage: "../../assets/blog/uploads/2019/11/alex-machado-80sv993lUKI-unsplash-scaled.jpg"
 heroCaption: "Photo by Alex Machado on Unsplash"
 tags: ["experience", "review", "utilities"]
 categories: ["Photography"]
@@ -18,7 +18,7 @@ Two services, out of the dozens I tried, survived my criteria.
 
 ### Google Photos
 
-![](/blog/uploads/2019/11/google-photos-400x400.jpeg)
+![](../../assets/blog/uploads/2019/11/google-photos-400x400.jpeg)
 
 I recommend if you are an amateur photographer, who only uses JPGs and doesn't worry about resolutions above 16MP.
 
@@ -42,7 +42,7 @@ It's one of the cheapest and potentially free (if your photos are <16MP).
 
 ### Amazon Glacier
 
-![](/blog/uploads/2019/11/amazon-glacier-logo.jpg)
+![](../../assets/blog/uploads/2019/11/amazon-glacier-logo.jpg)
 
 I recommend if you are an enthusiastic/pro photographer, who uses mostly RAWs/NEFs with big resolutions. A Software Engineering degree might also be required (I'm only half joking).
 

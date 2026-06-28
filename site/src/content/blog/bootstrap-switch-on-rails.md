@@ -2,7 +2,7 @@
 title: "Using Bootstrap Switch 3 on Rails"
 description: "Replace Bootstrap's checkboxes and radio buttons by an elegant switch... a Bootstrap Switch."
 pubDate: "2014-06-09T08:00:46"
-heroImage: "/blog/uploads/2014/06/bootstrap-switch-3-demo-examples.png"
+heroImage: "../../assets/blog/uploads/2014/06/bootstrap-switch-3-demo-examples.png"
 tags: ["rails", "tutorial", "web dev"]
 categories: ["Technology"]
 ---

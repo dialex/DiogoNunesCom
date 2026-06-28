@@ -2,7 +2,7 @@
 title: "Why you should leave Facebook and move to Google+"
 description: "It's not really Facebook vs Google+ since each has its advantages/shortcomings. However Google Plus offers so much more than Facebook. I made my decision."
 pubDate: "2014-02-17T08:00:55"
-heroImage: "/blog/uploads/2014/02/googleplus.png"
+heroImage: "../../assets/blog/uploads/2014/02/googleplus.png"
 heroCaption: "photo: xkcd.com"
 tags: ["review", "social"]
 categories: ["Technology"]
@@ -28,6 +28,6 @@ Meanwhile Google Plus came out, an underground new _beverage_ (let's stick with 
 
 Facebook is all about numbers (of likes), popularity, and gossip - which makes it great for (viral) marketing. Google+ is about your friends ([circle of trust](https://www.youtube.com/watch?v=QHJGoZpFeM8&)), sharing great content and actively participating in communities of interests. And while [Facebook seems to be decaying](http://www.idigitaltimes.com/articles/21584/20140122/facebook-is-dying-dead-social-media-report.htm), Google+ is only getting better - as Lifehacker says, [Google+ Does Everything](http://lifehacker.com/facebook-vs-google-your-best-arguments-1479394128). For a more [in depth review of its advantages](http://lifehacker.com/facebook-vs-google-your-best-arguments-1479394128) go check their post.
 
-[![move to plus](/blog/uploads/2014/02/move-to-plus.png)](/blog/uploads/2014/02/move-to-plus.png)
+![move to plus](../../assets/blog/uploads/2014/02/move-to-plus.png)
 
 From now on I'll only use Facebook for its timeline. My main online presence will move to Google+. Find which one suits you best.

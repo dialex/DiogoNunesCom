@@ -2,7 +2,7 @@
 title: "Cypress: PageObjects vs AppActions"
 description: "I use Selenium for most of my automated checks and PageObjects is a must. With Cypress they recommend AppActions. This is a benchmark between both patterns."
 pubDate: "2020-03-02T07:00:11"
-heroImage: "/blog/uploads/2020/02/jason-dent-JVD3XPqjLaQ-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2020/02/jason-dent-JVD3XPqjLaQ-unsplash.jpg"
 heroCaption: "Photo by Jason Dent on Unsplash"
 tags: ["coding", "cypress", "review", "testing"]
 categories: ["Technology"]

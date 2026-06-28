@@ -2,12 +2,12 @@
 title: "A friend instead of a pet"
 description: "It all started when I found a cat inside my closet. It became a friend instead of a pet."
 pubDate: "2014-08-02T08:00:16"
-heroImage: "/blog/uploads/2014/08/20140413_Animais-140413-03.jpg"
+heroImage: "../../assets/blog/uploads/2014/08/20140413_Animais-140413-03.jpg"
 tags: ["relationships", "story"]
 categories: ["Life"]
 ---
 
-[](/blog/uploads/2014/08/20140413_Animais-140413-03.jpg)
+
 
 ### It all started when I found a cat in my closet
 

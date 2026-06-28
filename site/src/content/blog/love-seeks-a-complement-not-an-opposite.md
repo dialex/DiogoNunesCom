@@ -2,7 +2,7 @@
 title: "Love seeks a complement not an opposite"
 description: "It turns out that people aren't like magnets; they're more like puzzle pieces of the same color. We search for a complement, a person who looks like us and acts and thinks like us."
 pubDate: "2014-04-14T08:00:38"
-heroImage: "/blog/uploads/2014/04/Opposites_attract.jpg"
+heroImage: "../../assets/blog/uploads/2014/04/Opposites_attract.jpg"
 heroCaption: "photo: goo.gl/MjwZaL"
 tags: ["relationships"]
 categories: ["Life"]

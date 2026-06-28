@@ -2,12 +2,12 @@
 title: "Internet Button by Particle: an overview"
 description: "Particle has this flexible IoT device called Internet Button. I'll explain what it is, what it includes and how it works."
 pubDate: "2016-09-26T08:00:05"
-heroImage: "/blog/uploads/2016/08/internetbuttondiagram-1.jpg"
+heroImage: "../../assets/blog/uploads/2016/08/internetbuttondiagram-1.jpg"
 tags: ["hardware", "internet button"]
 categories: ["Technology"]
 ---
 
-![](/blog/uploads/2016/08/internet-button.jpg)
+![](../../assets/blog/uploads/2016/08/internet-button.jpg)
 
 ## What it is
 
@@ -24,7 +24,7 @@ The [Internet Button](https://www.particle.io/products/hardware/internet-button)
 
 ## How it works
 
-![internet button overview diagram](/blog/uploads/2016/08/internet-button-overview-diagram-1024x321.png)
+![internet button overview diagram](../../assets/blog/uploads/2016/08/internet-button-overview-diagram-1024x321.png)
 
 While some [IoT buttons](https://flic.io/) require Bluetooth pairing with a "master" device, **the Internet Button works independently via wifi**. That was one of the reasons that made me choose it over [Flic](https://flic.io/).
 

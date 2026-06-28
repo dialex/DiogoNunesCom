@@ -2,7 +2,7 @@
 title: "Redbubble 🔴 My favorite place to buy geek stickers"
 description: "I shop at RedBubble for 5 years. I've bought 4 tshirts and +20 stickers, to the point that I covered my entire laptop. I love their service, let me tell you why."
 pubDate: "2020-10-05T07:00:00"
-heroImage: "/blog/uploads/2020/09/stickers.jpg"
+heroImage: "../../assets/blog/uploads/2020/09/stickers.jpg"
 tags: ["review"]
 categories: ["Life"]
 ---
@@ -13,11 +13,11 @@ For me, interests define persons -- books, movies, games, series, anything that 
 
 I found [Redbubble](/blog/Redbubble) five years ago.
 
-[![Wearing a Redbubble t-shirt](/blog/uploads/2015/01/upload-1.jpg)](/blog/Redbubble)
+[![Wearing a Redbubble t-shirt](../../assets/blog/uploads/2015/01/upload-1.jpg)](/blog/Redbubble)
 
 During that time I've bought several t-shirts, which I proudly wear at home, at conventions and even at work. They serve as an amazing icebreaker. Along those years I've covered my laptop lip with stickers, sometimes from Redbubble's store other times with my own custom designs. That's right, anyone can upload their designs and create a store (even if you're the only customer).
 
-[![My collection is mostly related with technology, anime and gaming. I specially like the crossovers, like that drawing from Calvin & Hobbes but with Pokémon, or the Daft Punk logo using the brothers from Fullmetal Alchemist.](/blog/uploads/2020/09/stickers.jpg)](/blog/RB-Stickers)
+[![My collection is mostly related with technology, anime and gaming. I specially like the crossovers, like that drawing from Calvin & Hobbes but with Pokémon, or the Daft Punk logo using the brothers from Fullmetal Alchemist.](../../assets/blog/uploads/2020/09/stickers.jpg)](/blog/RB-Stickers)
 
 [Each design is often available on multiple products](/blog/Redbubble) -- e.g. if you like a sticker you can also buy the [face mask](/blog/RB-Masks) version. They even have designs about [Swords and Sworcery](/blog/RB-SwordSworcery) and that's pretty underground! [T-shirts](/blog/RB-TShirts) are legit American Apparel quality, _'nuff said_. For that you pay between 18€ to 21€. If you buy +6 [stickers](/blog/RB-Stickers) you get an immediate 50% discount on them. They ship everywhere with fair prices, and during checkout it's easy to find 10% discount coupons. What else do you need?
 

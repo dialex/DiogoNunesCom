@@ -2,7 +2,7 @@
 title: "Introduction to Testing"
 description: "In this talk was I introduced students to Testing. I explained what is the purpose of Testing and what are the responsibilities of a Tester."
 pubDate: "2021-03-15T07:00:53"
-heroImage: "/blog/uploads/2021/03/Screenshot-2021-03-06-at-15.29.30.png"
+heroImage: "../../assets/blog/uploads/2021/03/Screenshot-2021-03-06-at-15.29.30.png"
 tags: ["experience", "testing"]
 categories: ["Work"]
 ---

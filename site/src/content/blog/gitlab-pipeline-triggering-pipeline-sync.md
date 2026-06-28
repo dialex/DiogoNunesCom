@@ -2,12 +2,12 @@
 title: "Pipeline triggering pipeline on GitLab"
 description: "How can you have a GitLab pipeline triggering another pipeline and wait for the result? Code snippet included."
 pubDate: "2020-05-25T07:00:29"
-heroImage: "/blog/uploads/2020/04/s270904456481439361_p798_i2_w1799.jpeg"
+heroImage: "../../assets/blog/uploads/2020/04/s270904456481439361_p798_i2_w1799.jpeg"
 tags: ["CI Pipelines", "coding", "GitLab"]
 categories: ["Technology"]
 ---
 
-[](/blog/uploads/2020/04/s270904456481439361_p798_i2_w1799.jpeg)
+
 
 Usually when configuring a GitLab pipeline (`.gitlab-ci.yml`) you only care about steps in your own pipeline. Sometimes however, you may want to trigger other pipelines (of other repositories) as a step of your own pipeline.
 

@@ -2,7 +2,7 @@
 title: "Embed SVN's revision into AssemblyInfo's version number"
 description: "When daily delivering binaries, you must embed SVN's revision number into your binaries' version number. TortoiseSVN and Visual Studio do the work for you."
 pubDate: "2015-02-09T08:00:30"
-heroImage: "/blog/uploads/2014/12/tortoise-visualstudio.png"
+heroImage: "../../assets/blog/uploads/2014/12/tortoise-visualstudio.png"
 tags: ["c#", "coding", "tutorial"]
 categories: ["Technology"]
 ---

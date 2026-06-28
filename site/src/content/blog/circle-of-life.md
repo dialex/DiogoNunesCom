@@ -2,7 +2,7 @@
 title: "Circle of life"
 description: "\"All of my friends are settling down, they were only kids but they're married now.\" This is how I feel about that."
 pubDate: "2018-10-22T07:00:50"
-heroImage: "/blog/uploads/2018/09/circle-of-life.jpg"
+heroImage: "../../assets/blog/uploads/2018/09/circle-of-life.jpg"
 tags: ["personal"]
 categories: ["Thoughts"]
 ---
@@ -30,7 +30,7 @@ I have a group of friends that I only get to see at events or birthdays. Since I
 
 It's a strange feeling, when people that you have known since forever as a couple actually get married. And then a year later you see her with a big belly. I know it's the circle of life, but still...
 
-![](/blog/uploads/2018/09/sddefault.jpg)
+![](../../assets/blog/uploads/2018/09/sddefault.jpg)
 
 And then I think:
 

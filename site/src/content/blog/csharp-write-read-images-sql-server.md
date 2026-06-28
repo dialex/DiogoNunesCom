@@ -2,7 +2,7 @@
 title: "Insert and read images on SQL Server using C#"
 description: "Code examples in C# about converting byte[] to base64 and SQL Server's varbinary. This allows you to save images to your DB and get them back again."
 pubDate: "2017-05-22T13:50:00"
-heroImage: "/blog/uploads/2016/09/archive-005.jpg"
+heroImage: "../../assets/blog/uploads/2016/09/archive-005.jpg"
 tags: ["c#", "coding"]
 categories: ["Technology"]
 ---

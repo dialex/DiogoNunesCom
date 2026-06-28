@@ -2,7 +2,7 @@
 title: "Cloudflare + Hosting + Gmail"
 description: "How to keep using your hosted email on Gmail, after migrating to Cloudflare. You just need two steps but they are not straightforward."
 pubDate: "2018-12-17T07:00:41"
-heroImage: "/blog/uploads/2018/12/938a195f8810cb9b31c6503221891897_XL.jpg"
+heroImage: "../../assets/blog/uploads/2018/12/938a195f8810cb9b31c6503221891897_XL.jpg"
 tags: ["tutorial", "web dev"]
 categories: ["Technology"]
 ---

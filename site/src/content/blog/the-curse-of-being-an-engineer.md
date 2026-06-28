@@ -2,7 +2,7 @@
 title: "The Curse of Being an Engineer"
 description: "When we start listening to a problem, at the back of our mind we are already coming up with a solution. And that's a problem."
 pubDate: "2017-05-08T13:50:00"
-heroImage: "/blog/uploads/2017/04/980x.jpg"
+heroImage: "../../assets/blog/uploads/2017/04/980x.jpg"
 tags: ["personal", "relationships"]
 categories: ["Thoughts", "Work"]
 ---

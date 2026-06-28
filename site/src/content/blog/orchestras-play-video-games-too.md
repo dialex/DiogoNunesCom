@@ -2,12 +2,12 @@
 title: "Orchestras play Video Games too"
 description: "Did you know that orchestras play games' soundtracks just like they play Mozart or Bach? You'll love VGM too, I offer you 45 suggestions (and concerts)."
 pubDate: "2016-11-07T08:00:33"
-heroImage: "/blog/uploads/2016/10/symphonic-fantasies-logo-cropped-e1477149954675.png"
+heroImage: "../../assets/blog/uploads/2016/10/symphonic-fantasies-logo-cropped-e1477149954675.png"
 tags: ["experience", "games", "music", "personal"]
 categories: ["Technology"]
 ---
 
-![Those fancy lights mean this is a concert of game soundtracks. Take that Mozart!](/blog/uploads/2016/10/2240669-vollbild-1024x683.jpeg)
+![Those fancy lights mean this is a concert of game soundtracks. Take that Mozart!](../../assets/blog/uploads/2016/10/2240669-vollbild-1024x683.jpeg)
 
 ### Movie soundtracks are epic, but...
 
@@ -17,7 +17,7 @@ But there's more...
 
 ### Game soundtracks are no longer _beeps & boops_
 
-![](/blog/uploads/2016/10/474578-virtuanes_2008_07_31_20_20_55_50-400x300.jpg)
+![](../../assets/blog/uploads/2016/10/474578-virtuanes_2008_07_31_20_20_55_50-400x300.jpg)
 
 Pong was released in **1972** with just **two sounds**. After eight boring years, Pack-Man features a [memorable intro theme](https://youtu.be/rnf0q1zOTXs).
 
@@ -27,7 +27,7 @@ Tetris in **1984** already had a soundtrack. Super Mario Bros and Zelda came nex
 
 At the time, **sound and hardware specs were limited**. But the melodies are there and today they are globally and fondly recognized.
 
-![This is how games look today (Source: God of War)](/blog/uploads/2016/10/gow_1.jpg)
+![This is how games look today (Source: God of War)](../../assets/blog/uploads/2016/10/gow_1.jpg)
 
 > Saying that game soundtracks are low quality is like saying Mona Lisa is crap because DaVinci used a brush instead of Photoshop.
 
@@ -39,7 +39,7 @@ These melodies fill us with [determination](https://youtu.be/poU6FMG9D4s).
 
 ### Orchestras play video games too
 
-![](/blog/uploads/2016/10/video_games_live_artist_page_facebook.jpg)
+![](../../assets/blog/uploads/2016/10/video_games_live_artist_page_facebook.jpg)
 
 When the score is already superb the result is out of this world -- like this orchestration of [Bohemiam Rapsody](https://www.youtube.com/watch?v=aCFnzSCzoYA).
 
@@ -59,7 +59,7 @@ Some fans do their own reochestrations, like [Blake Robinson](https://www.youtub
 
 ### Choose your own ~adventure~ melody
 
-![](/blog/uploads/2016/10/maxresdefault.jpg)
+![](../../assets/blog/uploads/2016/10/maxresdefault.jpg)
 
 - **Playful** like [Angry Bids' main theme](https://youtu.be/_vYL9M0mRkg)
 - **Cute** like [Animal Crossing's main theme](https://youtu.be/gyge3hpKlyQ)

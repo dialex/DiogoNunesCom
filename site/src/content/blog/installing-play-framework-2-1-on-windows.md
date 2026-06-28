@@ -2,12 +2,12 @@
 title: "Installing Play Framework 2.1 on Windows"
 description: "The Play frameowrk is probably on of the few web frameworks that installs and works pretty well on Windows. To install Play just follow these steps."
 pubDate: "2014-03-17T08:00:30"
-heroImage: "/blog/uploads/2014/03/lets-play-1.png"
+heroImage: "../../assets/blog/uploads/2014/03/lets-play-1.png"
 tags: ["coding", "play framework"]
 categories: ["Technology"]
 ---
 
-[](/blog/uploads/2014/03/lets-play-1.png)
+
 
 The Play Framework is probably one of the few web frameworks that installs and works pretty well on Windows. I started web development with Django, but I had to learn Python and Django at the same time, and the documentation was not so good as [they](http://stackoverflow.com/a/846266/675577) said it was. So I decided to leverage my Java experience and use Play. And since Play supports both Java and Scala I could refactor and move to Scala at any time.
 

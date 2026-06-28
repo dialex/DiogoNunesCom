@@ -2,7 +2,7 @@
 title: "Publishing to Maven central (troubleshoot included)"
 description: "I tried to follow the OSSRH guide but I had lots of issues. I hope this \"guide of the guide\" saves you time and frustration. Examples and commands included."
 pubDate: "2016-11-21T13:50:42"
-heroImage: "/blog/uploads/2017/11/KgcUeAo.png"
+heroImage: "../../assets/blog/uploads/2017/11/KgcUeAo.png"
 tags: ["java", "tutorial"]
 categories: ["Technology"]
 ---

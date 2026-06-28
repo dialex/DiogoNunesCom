@@ -2,7 +2,7 @@
 title: "Random acts of kindness"
 description: "Photo by Ed Yourdon Some get adrenaline from driving while drunk. I get adrenaline from drying the tears of a stranger and making her smile. I'm on the train, returning…"
 pubDate: "2014-01-20T08:00:05"
-heroImage: "/blog/uploads/2014/01/3386629036_0b929ebb7f_b.jpg"
+heroImage: "../../assets/blog/uploads/2014/01/3386629036_0b929ebb7f_b.jpg"
 heroCaption: "Photo by Ed Yourdon"
 tags: ["kindness", "story"]
 categories: ["Life"]

@@ -2,12 +2,12 @@
 title: "Colored messages on a terminal using Java"
 description: "JCDP allows you to print colored output on your console/terminal. It's API is easy to use and extend. Also has some neat debug logging features."
 pubDate: "2014-10-27T08:00:44"
-heroImage: "/blog/uploads/2014/10/JColor-logo.png"
+heroImage: "../../assets/blog/uploads/2014/10/JColor-logo.png"
 tags: ["free and open", "utilities"]
 categories: ["Technology"]
 ---
 
-[](/blog/uploads/2014/10/JColor-logo.png)
+
 
 ### JColor is a Java library that offers an easy way to print colored messages on a terminal
 
@@ -15,7 +15,7 @@ It all started when I needed to create an application with multiple levels of de
 
 To enhance the usefulness of this library I decided to add colored messages, which turned out to be pretty tricky. By abstracting the Ansi Escape Codes, printing a colored message became as easy as `print("message", Attribute.BOLD, FColor.BLUE, BColor.YELLOW);`
 
-[![mac example output](/blog/uploads/2014/10/example-mac-iterm-fancy.png)](/blog/uploads/2014/10/example-mac-iterm-fancy.png)
+![mac example output](../../assets/blog/uploads/2014/10/example-mac-iterm-fancy.png)
 
 ### Main features
 

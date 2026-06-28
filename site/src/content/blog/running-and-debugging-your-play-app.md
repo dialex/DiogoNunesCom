@@ -2,12 +2,12 @@
 title: "Running and debugging your Play app"
 description: "`play run` will start the local (Netty) server and your app will be available at localhost:9000."
 pubDate: "2014-03-31T08:00:25"
-heroImage: "/blog/uploads/2014/03/lets-play-3.png"
+heroImage: "../../assets/blog/uploads/2014/03/lets-play-3.png"
 tags: ["coding", "play framework"]
 categories: ["Technology"]
 ---
 
-[](/blog/uploads/2014/03/lets-play-3.png)
+
 
 ## Running locally
 

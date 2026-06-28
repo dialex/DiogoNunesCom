@@ -2,7 +2,7 @@
 title: "Explaining digital currencies to your parents (5 questions everyone has)"
 description: "There are over 850 virtual currencies. What are they? Why so popular? Should you invest? What are the risks? This post explains all that in plain language."
 pubDate: "2017-09-04T13:00:00"
-heroImage: "/blog/uploads/2017/08/bitcoin_front_national-640x384.jpg"
+heroImage: "../../assets/blog/uploads/2017/08/bitcoin_front_national-640x384.jpg"
 tags: ["digital currencies"]
 categories: ["Technology"]
 ---
@@ -13,7 +13,7 @@ _DISCLAIMER: The target audience of this post is non-technical. I used analogies
 
 ### What is it?
 
-![](/blog/uploads/2017/09/COVER-PIC.jpg)
+![](../../assets/blog/uploads/2017/09/COVER-PIC.jpg)
 
 **Bitcoin is a digital currency**. You can think of it as another fiat currency, like Dollars or Euros. It's a "thing" that has value to many people and that you trade with someone else in exchange for goods or services. Except it is digital, intangible yet real, like your accounts' balance on your home banking website. In the (near) future, you might use it like [Apple Pay](https://www.apple.com/apple-pay/).
 
@@ -28,7 +28,7 @@ _DISCLAIMER: The target audience of this post is non-technical. I used analogies
 
 ### Why is it so popular lately?
 
-![](/blog/uploads/2017/08/SyTCa.jpg)
+![](../../assets/blog/uploads/2017/08/SyTCa.jpg)
 
 **First, because it is a tech breakthrough.** And its name is [blockchain](https://en.wikipedia.org/wiki/Blockchain). Actually, Bitcoin is just an use of that technology, much like Dropbox is powered by the internet. The blockchain solves the problem of distributed consensus. That allows a network of machines to agree on something without having a central authority. Such networks are extremely resilient. With an increasing number of connected devices technologies like the blockchain come in handy.
 
@@ -42,7 +42,7 @@ _DISCLAIMER: The target audience of this post is non-technical. I used analogies
 
 ### What am I buying?
 
-![](/blog/uploads/2017/08/GettyImages-108359653-57156e533df78c3fa2286c42.jpg)
+![](../../assets/blog/uploads/2017/08/GettyImages-108359653-57156e533df78c3fa2286c42.jpg)
 
 **Dreams**. Someone has a vision and creates a currency or token. They have a team, hopefully a prototype and at least a white paper that describes their value proposition, together with a roadmap. You're betting on that team's vision, that it will become true, useful and valuable.
 
@@ -58,7 +58,7 @@ To keep things simple, **everything is an asset**. As an investor you can think 
 
 ### How can I make money?
 
-![](/blog/uploads/2017/08/bitcoin-roller-coaster.gif)
+![](../../assets/blog/uploads/2017/08/bitcoin-roller-coaster.gif)
 
 **You can be a day trader.** Someone that profits from the daily fluctuations of this coins. You should only consider this option if you have experience on trading/exchanges and knowledge on how to read charts and tendencies.
 
@@ -82,7 +82,7 @@ So, when do these investors collect profits? Holders usually set a percentage or
 
 ### Will I lose money?
 
-![](/blog/uploads/2017/08/Bitcoin-Fragile-Banner-696x412.png)
+![](../../assets/blog/uploads/2017/08/Bitcoin-Fragile-Banner-696x412.png)
 
 Yes, that's likely. This is a high risk, high reward environment. There are ways to minimize your losses though: meticulous research on altcoins and general trading, good timing on entries (buy) and exits (sell), staying up to date with the news on the crypto world… and luck too.
 
@@ -99,7 +99,7 @@ Here are the most frequent community advices to newcomers:
 
 ### What should I do?
 
-![](/blog/uploads/2017/08/maxresdefault.jpg)
+![](../../assets/blog/uploads/2017/08/maxresdefault.jpg)
 
 > I can only show you the way. The path is for you to take.
 >

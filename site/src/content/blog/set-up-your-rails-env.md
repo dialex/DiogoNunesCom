@@ -2,7 +2,7 @@
 title: "Setting up your Rails environment from scratch"
 description: "This is a complete and summarized guide to set up a Ruby on Rails development environment on Ubuntu."
 pubDate: "2014-05-12T08:00:00"
-heroImage: "/blog/uploads/2014/05/rails-worker-assembly-construction.jpg"
+heroImage: "../../assets/blog/uploads/2014/05/rails-worker-assembly-construction.jpg"
 heroCaption: "original photo: goo.gl/QE43FV"
 tags: ["coding", "rails", "tutorial", "web dev"]
 categories: ["Technology"]

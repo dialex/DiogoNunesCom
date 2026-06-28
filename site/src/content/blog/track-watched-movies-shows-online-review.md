@@ -2,7 +2,7 @@
 title: "Best website to track watched movies & shows"
 description: "In this post I'll review IMDB, Rotten Tomatoes, TvTime and Trakt and tell you which one I think is the best to track your watched movies and shows."
 pubDate: "2021-07-05T07:00:02"
-heroImage: "/blog/uploads/2020/12/julian-o-hayon-j0hnkdUlwTc-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2020/12/julian-o-hayon-j0hnkdUlwTc-unsplash.jpg"
 heroCaption: "Photo by Julian O'hayon on Unsplash"
 tags: ["review", "shows", "utilities"]
 categories: ["Technology"]

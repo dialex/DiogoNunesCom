@@ -2,12 +2,12 @@
 title: "A puzzle full of magic"
 description: "My first puzzle was a magical experience. The Magic Puzzle Company's premium quality, attention to detail, and beautiful artwork make these puzzles a masterpiece."
 pubDate: "2023-12-01T08:00:06"
-heroImage: "/blog/uploads/2023/10/20230105_124317-scaled.jpg"
+heroImage: "../../assets/blog/uploads/2023/10/20230105_124317-scaled.jpg"
 tags: ["games", "review"]
 categories: ["Thoughts"]
 ---
 
-[](/blog/uploads/2023/10/20230105_124317-scaled.jpg)
+
 
 In my childhood, I often saw puzzles in stores - the classics, featuring images of animals or cityscapes, composed of 500 or 1000 pieces. One time I was even offered one, but I never found the interest to unwrap it – it looked so boring. Little did I know that my opinion of puzzles would completely flip in my adulthood. Let me introduce you to a true gem.
 
@@ -21,7 +21,7 @@ Finally, it arrives! Let me tell you about the box: the print quality, that shin
 
 I message Amazon and, after more weeks of back and forth, a fresh one arrives. Anxiously, I open the package and give the box a thorough review. Perfection. What a relief! A week later, I'm clearing my table, and starting this challenge.
 
-[![](/blog/uploads/2023/10/ezgif.com-optimize.gif)](/blog/uploads/2023/10/ezgif.com-optimize.gif)
+![](../../assets/blog/uploads/2023/10/ezgif.com-optimize.gif)
 
 ### Doing the puzzle
 
@@ -33,13 +33,13 @@ Every day, I would dedicate at least an hour to tackling this puzzle. My naive s
 
 Speaking of the pieces, I'm baffled by their unique shapes. As a puzzle newbie, I expected the pieces to be squarelike. Not this puzzle. Not only do the pieces ensure the characters stay in frame, but sometimes they themselves take on shapes that mirror the characters within. So, a piece featuring a pen? Shaped like a pen. A segment with a worm? It curves just like a worm. It's amazing.
 
-[![](/blog/uploads/2023/10/photo_5881912323113859918_y.jpg)](/blog/uploads/2023/10/photo_5881912323113859918_y.jpg)
+![](../../assets/blog/uploads/2023/10/photo_5881912323113859918_y.jpg)
 
 I experimented with various strategies - seeking out patterns, focusing on colors, or a particular shape. The inclusion of a photo of the finished puzzle is a brilliant touch, serving as a handy reference during assembly. With every step of progress, as I scrutinize each piece, I find myself enjoying the artwork's intricate beauty. And once the puzzle is complete, the artwork unfolds in its entirety, like a panoramic view from the mountain peak after two weeks of trekking, revealing every little detail of the path I've traversed.
 
 ### "The Magic Puzzle"
 
-[![](/blog/uploads/2023/10/20230105_124257-1.jpg)](/blog/uploads/2023/10/20230105_124257-1.jpg)
+![](../../assets/blog/uploads/2023/10/20230105_124257-1.jpg)
 
 I won't spoil it. I'll just say two words: freaking amazing. Magical indeed.
 

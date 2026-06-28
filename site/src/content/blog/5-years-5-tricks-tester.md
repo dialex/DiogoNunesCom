@@ -2,7 +2,7 @@
 title: "5 tricks from 5 years as a software tester"
 description: "I've worked for seven companies since I became a tester five years ago. I identified a few practices that consistently make my teams happier."
 pubDate: "2021-07-26T08:00:51"
-heroImage: "/blog/uploads/2021/07/warm-oven-MVFdtUDEJHk-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/07/warm-oven-MVFdtUDEJHk-unsplash.jpg"
 heroCaption: "Photo by warm oven on Unsplash"
 tags: ["experience", "personal", "testing"]
 categories: ["Work"]
@@ -20,7 +20,7 @@ I've worked for seven companies since I became a tester five years ago. Each tea
 
 ✅ **Solution**: Ask each member of the team to make a personal map. Agree beforehand a small number of questions. Focus on personal questions that might generate discussion or that would be hard to ask otherwise.
 
-[![Personal map example](/blog/uploads/2021/07/Diogo-Nunes-Personal-Map-1024x363.png)](/blog/uploads/2021/07/Diogo-Nunes-Personal-Map.png)
+![Personal map example](../../assets/blog/uploads/2021/07/Diogo-Nunes-Personal-Map-1024x363.png)
 
 ### Video demos
 
@@ -46,7 +46,7 @@ I've worked for seven companies since I became a tester five years ago. Each tea
 
 > P.S: 135 memes so far. Even after I leave a company, I still receive meme requests!
 
-![All hail the meme king... or else! (Kudos to Hugo Ferreira for this meme)](/blog/uploads/2021/07/diogo-meme-king-1024x576.png)
+![All hail the meme king... or else! (Kudos to Hugo Ferreira for this meme)](../../assets/blog/uploads/2021/07/diogo-meme-king-1024x576.png)
 
 ### Board games
 

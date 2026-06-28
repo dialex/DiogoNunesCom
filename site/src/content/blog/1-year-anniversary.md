@@ -2,7 +2,7 @@
 title: "Blog anniversary: 1 year!"
 description: "1 year, 46 posts. Thanks. Carry on."
 pubDate: "2015-01-05T08:00:00"
-heroImage: "/blog/uploads/2015/01/birthday-wishes-for-one-year-old-baby-e1417909188700.gif"
+heroImage: "../../assets/blog/uploads/2015/01/birthday-wishes-for-one-year-old-baby-e1417909188700.gif"
 categories: ["Announcement"]
 ---
 
@@ -20,7 +20,7 @@ First of all I must thank your support. Over this year I kept receiving **positi
 
 Since this is a ~technological~ personal blog I tried to balance the subject of my posts to please both kinds of audiences. After **51 weekly posts** I think I managed to achieve that balance.
 
-[![posts subject](/blog/uploads/2015/01/posts-subject.png)](/blog/uploads/2015/01/posts-subject.png)
+![posts subject](../../assets/blog/uploads/2015/01/posts-subject.png)
 
 The average reader of my blog:
 
@@ -31,7 +31,7 @@ The average reader of my blog:
 
 Until last month I used the default commenting system provided by Wordpress, without any human-validation software like reCAPTCHA. Over the course of the year, the number of **spam comments increased exponentially** as you can see from the graph below. In the first months I had an average of 100 spam comments but then it skyrocketed! I was having thousands of spam comments per week! You know, stuff about Oprah, pills, and crazy deals. Thankfully I had Akismet installed since day one (it's really a must-have), which deleted all that spam for me.
 
-![Spam evolution in 1 year](/blog/uploads/2015/01/spam-evolution-1year.png)
+![Spam evolution in 1 year](../../assets/blog/uploads/2015/01/spam-evolution-1year.png)
 
 _Spam evolution in 1 year_
 
@@ -39,7 +39,7 @@ In December, after several readers asking for a better commenting system, **I mi
 
 ### You gotta love the hatters
 
-![Source: www.xkcd.com](/blog/uploads/2015/01/free_speech.png)
+![Source: www.xkcd.com](../../assets/blog/uploads/2015/01/free_speech.png)
 
 _Source: www.xkcd.com_
 

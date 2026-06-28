@@ -2,18 +2,18 @@
 title: "Ditching the job you hate"
 description: "Is it time to quit the job you hate? Yes and you're already late. I'll explain how you should do it,. You need to be careful, this is a delicate situation."
 pubDate: "2014-10-20T08:00:34"
-heroImage: "/blog/uploads/2014/10/fuck-you-youre-cool.gif"
+heroImage: "../../assets/blog/uploads/2014/10/fuck-you-youre-cool.gif"
 tags: ["experience"]
 categories: ["Work"]
 ---
 
-![](/blog/uploads/2014/10/i-like-this-job-marginally-more-than-being-homeless-64fc3.png)
+![](../../assets/blog/uploads/2014/10/i-like-this-job-marginally-more-than-being-homeless-64fc3.png)
 
 ### Should you quit your job?
 
 Well if you're asking yourself that question probably something is indeed wrong with your job. This infographic is a quick (and good-humored) way to assess if you should start looking for a better job. The guys at [JOBBOX](http://www.jobbox.io/) created a nice [survey](https://www.qzzr.co/quiz/are-you-happy-with-your-current-tech-job) customized for tech jobs.
 
-[![should i quit my job thumbnail](/blog/uploads/2014/10/should-i-quit-my-job-flowchart1-e1410691433335-1024x319.jpg)](/blog/uploads/2014/10/should-i-quit-my-job-flowchart.jpg)
+![should i quit my job thumbnail](../../assets/blog/uploads/2014/10/should-i-quit-my-job-flowchart1-e1410691433335-1024x319.jpg)
 
 > If you don't like something, change it. If you can't change it, change your attitude. Don't complain. M. Angelou
 
@@ -39,7 +39,7 @@ By all means, you want to make sure you're the first to tell _your_ decision to 
 
 It doesn't really matter if others support your decision or not; you're doing this for yourself, not for them. Invite your best colleagues for a night out, this shows you care about them and gives you an opportunity to explain why you left - therefore avoiding malicious ears and mouths around. Optionally you may think of a quote to yell while you walk the door in slow motion (this is optional too).
 
-![fuck you, you're cool](/blog/uploads/2014/10/fuck-you-youre-cool.gif)
+![fuck you, you're cool](../../assets/blog/uploads/2014/10/fuck-you-youre-cool.gif)
 
 ### The search
 

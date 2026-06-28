@@ -2,7 +2,7 @@
 title: "Internet Button: post to a Slack channel (tutorial #5)"
 description: "In this Particle Internet Button tutorial we'll use everything we learned: buttons, leds and Slack integration! Save time with this guide and its examples."
 pubDate: "2017-04-24T08:00:00"
-heroImage: "/blog/uploads/2016/08/Internet-Button-Tutorial5.jpg"
+heroImage: "../../assets/blog/uploads/2016/08/Internet-Button-Tutorial5.jpg"
 tags: ["coding", "hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---
@@ -123,7 +123,7 @@ For the purpose of our example, we want the cloud to passthrough the message to 
 
 Whoever wants to receive your event needs to create a Slack webhook or endpoint that you can call when the even is triggered on the Internet Button.
 
-[![](/blog/uploads/2016/08/subscriber1.png)](/blog/uploads/2016/08/subscriber1.png)
+![](../../assets/blog/uploads/2016/08/subscriber1.png)
 
 1.  Go to your Slack's **Incoming WebHooks**.
 2.  Click **Add Configuration**.
@@ -131,7 +131,7 @@ Whoever wants to receive your event needs to create a Slack webhook or endpoint 
 4.  Send us the **Webhook URL**.
 5.  Feel free to customize the **Name** and **Icon** of this integration.
 
-[![](/blog/uploads/2016/08/subscriber3.png)](/blog/uploads/2016/08/subscriber3.png)
+![](../../assets/blog/uploads/2016/08/subscriber3.png)
 
 #### Steps for the publisher
 
@@ -158,7 +158,7 @@ That files describes a [Particle's webhook](https://docs.particle.io/guide/how-t
 - `{{SPARK_EVENT_VALUE}}` is a variable tag that will be replaced with the message from `Spark.publish()` method.
 - `"link_names": "1"` is specific to Slack's API, it's a workaround to let your bots use `@here` notifications.
 
-[![](/blog/uploads/2016/08/Screen_Shot_2016-07-30_at_18.14.39.png)](/blog/uploads/2016/08/Screen_Shot_2016-07-30_at_18.14.39.png)
+![](../../assets/blog/uploads/2016/08/Screen_Shot_2016-07-30_at_18.14.39.png)
 
 Once you are done, open a terminal and run `particle webhook create <name-of-webhook.json>`. Then you can check online, on Particle's cloud, that the webhook was created.
 

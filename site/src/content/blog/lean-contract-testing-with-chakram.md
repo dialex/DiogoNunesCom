@@ -2,7 +2,7 @@
 title: "Lean contract testing with Chakram"
 description: "Every time my team has to rely on an external API, one day that API fails. In this post I'll show you how you can write lean contract tests."
 pubDate: "2022-10-17T08:00:52"
-heroImage: "/blog/uploads/2022/10/cytonn-photography-n95VMLxqM2I-unsplash-1.jpg"
+heroImage: "../../assets/blog/uploads/2022/10/cytonn-photography-n95VMLxqM2I-unsplash-1.jpg"
 heroCaption: "Photo by Cytonn Photography on Unsplash"
 tags: ["coding", "testing"]
 categories: ["Technology"]

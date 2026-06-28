@@ -2,12 +2,12 @@
 title: "RIP Flickr. An alternative online portfolio after reviewing 7 services"
 description: "Flickr dissapointed me. I searched for an online platform that allowed me to organise my photos into albums and share them with anyone (for free)."
 pubDate: "2019-06-03T08:00:27"
-heroImage: "/blog/uploads/2019/03/Screenshot-2019-03-23-at-18.33.06.png"
+heroImage: "../../assets/blog/uploads/2019/03/Screenshot-2019-03-23-at-18.33.06.png"
 tags: ["review", "utilities"]
 categories: ["Photography"]
 ---
 
-![This was actually my last photo on Flickr :)](/blog/uploads/2019/03/39886951753_554c9a5024_o.jpg)
+![This was actually my last photo on Flickr :)](../../assets/blog/uploads/2019/03/39886951753_554c9a5024_o.jpg)
 
 ### Flickr broke my heart. It hurt but I've moved on.
 
@@ -23,7 +23,7 @@ I started looking for another online portfolio platform. These were my requireme
 
 Based on that criteria, this was my review of the 7 mainstream platforms:
 
-![](/blog/uploads/2019/03/Screenshot-2019-03-23-at-18.33.06.png)
+![](../../assets/blog/uploads/2019/03/Screenshot-2019-03-23-at-18.33.06.png)
 
 ### And the winner is...
 

@@ -2,12 +2,12 @@
 title: "What’s the right time to create a startup?"
 description: "Nowadays you hear about young (under 20) entrepreneurs. Those are the exceptions, the real average age of tech startup founders is 39. Don't rush it, it's not about the age…"
 pubDate: "2014-01-13T08:00:27"
-heroImage: "/blog/uploads/2014/01/shut-up-and-start-graphic.png"
+heroImage: "../../assets/blog/uploads/2014/01/shut-up-and-start-graphic.png"
 tags: ["decisions", "entrepreneurship", "personal"]
 categories: ["Life"]
 ---
 
-[](/blog/uploads/2014/01/shut-up-and-start-graphic.png)
+
 
 ## Nowadays you hear about young (under 20) entrepreneurs. Those are the exceptions, the real average age of tech startup founders is 39. Don't rush it, it's not about the age but about the timing.
 

@@ -2,7 +2,7 @@
 title: "Sending image in XML using C#"
 description: "A code example in C# to exchange images through the internet using an XML payload. Convert your byte[] image to a text representation like base64."
 pubDate: "2017-06-19T13:50:00"
-heroImage: "/blog/uploads/2016/09/hands-opening-envelope-on-crowded-desk.jpg"
+heroImage: "../../assets/blog/uploads/2016/09/hands-opening-envelope-on-crowded-desk.jpg"
 tags: ["c#", "coding"]
 categories: ["Technology"]
 ---

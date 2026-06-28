@@ -2,7 +2,7 @@
 title: "Standing desk on a budget"
 description: "I spend 8 hours a day working seated. To mitigate that I try to replace some of that time with standing. Here's how I made my standing desk with just 30€."
 pubDate: "2018-12-03T07:00:00"
-heroImage: "/blog/uploads/2018/10/sitting-and-standing-desk.jpg"
+heroImage: "../../assets/blog/uploads/2018/10/sitting-and-standing-desk.jpg"
 tags: ["experience", "minimalism"]
 categories: ["Work"]
 ---
@@ -21,7 +21,7 @@ At work I have a proper standing desk, but at home I have one of those old table
 
 ### Prototype
 
-![](/blog/uploads/2018/10/IMG_20180112_101944100_2-576x1024.jpg)
+![](../../assets/blog/uploads/2018/10/IMG_20180112_101944100_2-576x1024.jpg)
 
 My DIY prototype costed me 6€, with just two files. It's more stable than it looks and gets the job done `#minimalist` `#desenrascanço`
 
@@ -29,7 +29,7 @@ My DIY prototype costed me 6€, with just two files. It's more stable than it l
 
 ### Solution
 
-![](/blog/uploads/2018/10/levit8-mount.gif)
+![](../../assets/blog/uploads/2018/10/levit8-mount.gif)
 
 It's fast to set up and easy to fold and put it away. I ordered from Amazon, as it was cheaper than buying directly from the brand ‍♂️
 
@@ -37,7 +37,7 @@ It's fast to set up and easy to fold and put it away. I ordered from Amazon, as 
 
 ### Better solution
 
-![](/blog/uploads/2018/10/non-flat-ergodriven-topo-header.jpg)
+![](../../assets/blog/uploads/2018/10/non-flat-ergodriven-topo-header.jpg)
 
 There are cheaper and totally fat alternatives to this mat. I decided that Ergodriven deserved my 100€ because their design naturally makes your legs and feet change position once in a while. That's great on your joints because it releases the tension that builds up after you stand still for a long time.
 

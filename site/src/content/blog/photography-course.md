@@ -2,7 +2,7 @@
 title: "Photography: from Zero to Hobby"
 description: "Learn photography from scratch in under 60 minutes! Join my free course on Udemy for beginners and discover exposure, composition, gear, and post-editing basics. Unleash your creativity and capture stunning images."
 pubDate: "2023-07-17T08:00:38"
-heroImage: "/blog/uploads/2023/05/julian-santa-ana-rBLLTkPRRtE-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2023/05/julian-santa-ana-rBLLTkPRRtE-unsplash.jpg"
 heroCaption: "Photo by Julian Santa Ana on Unsplash"
 tags: ["course", "free and open", "photography"]
 categories: ["Photography"]

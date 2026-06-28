@@ -2,7 +2,7 @@
 title: "Use birthdays as an excuse to praise your friends"
 description: "Whatever you have to say to your friend, say it, honestly and without holding back, at least once a year, and what a perfect day birthdays are."
 pubDate: "2015-05-11T08:00:00"
-heroImage: "/blog/uploads/2015/05/finger-friends.jpg"
+heroImage: "../../assets/blog/uploads/2015/05/finger-friends.jpg"
 tags: ["kindness", "relationships"]
 categories: ["Life", "Thoughts"]
 ---

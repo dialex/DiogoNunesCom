@@ -71,7 +71,31 @@ keep this lean. Grouping is for context only.
       etc. Settle on a config so it stays clean going forward.
 
 ### Infrastructure / build
-- **5.** **Review & optimise all images.** Plan-only so far (2026-06-28); no files moved yet.
+- **5.** **Review & optimise all images.** 🚧 **IN PROGRESS** — achievements ✅ and
+      blog ✅ done (2026-06-28); **remaining: projects, books, avatar** (small folders).
+
+      **Done so far:** achievements (149 imgs) + blog (390 imgs after pruning) moved to
+      `src/assets/`, Astro-optimised to WebP with responsive `srcset`, intrinsic
+      `width`/`height` (no CLS) and `loading=lazy` on body images. 227 markdown refs + 178
+      hero paths rewritten to `src/`; 84 click-to-fullsize linked-images unwrapped; 29
+      empty-anchor artifacts stripped; 41 now-dead originals pruned; 90 oversized sources
+      downscaled to ≤1600px. Deployed image payload **~137 MB → ~79 MB**; per-page far
+      smaller (right-sized WebP + lazy). Cold build verified reliable (CI-safe).
+
+      **Deviations from the plan below (all better):**
+      - **Heroes use a lazy glob resolver (`src/lib/blogImages.ts`), NOT the `image()`
+        schema helper.** `image()` emits every hero's full-size *original* into the bundle
+        (+38 MB), and an *eager* glob double-registers content images → flaky
+        `ENOENT … dist/_astro/*.jpg` cold builds. Lazy glob fixed both.
+      - og:image is one `getImage()`-derived 1200px WebP (using `heroImage.src` would emit
+        the original).
+      - **GIFs convert fine to *animated* WebP** (sharp preserves animation) — big wins
+        (`combo` 3.3 MB→814 kB), so they were optimised too, not left as-is.
+      - 2 genuine "download full-res" links kept working via `public/` copies.
+      - Build-time size guard: **not yet added** (carry into the remaining-folders pass).
+
+      ---
+      Original plan + decisions (kept for reference):
 
       **Audit findings.** `public/` = ~145 MB; **`public/blog/uploads` alone = 126 MB (87%)**,
       achievements 11 MB, hireme 3.7 MB, projects 2.4 MB, books 0.3 MB. 619 JPG/PNG + 12 GIF

@@ -2,7 +2,7 @@
 title: "Testing for agile teams: Summary"
 description: "This is a personal summary of a chapter from the book Agile Testing: A Practical Guide For Testers And Agile Teams. I'm sure you'll find it useful too."
 pubDate: "2016-08-01T11:00:26"
-heroImage: "/blog/uploads/2016/03/Agile-Testing-Book.jpg"
+heroImage: "../../assets/blog/uploads/2016/03/Agile-Testing-Book.jpg"
 tags: ["agile", "testing"]
 categories: ["Work"]
 ---
@@ -15,7 +15,7 @@ _This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+fo
 
 ## Key Success Factors
 
-[![Summary Agile Testing](/blog/uploads/2016/03/Summary-Agile-Testing-2-400x315.png)](/blog/uploads/2016/03/Summary-Agile-Testing-2.png)
+![Summary Agile Testing](../../assets/blog/uploads/2016/03/Summary-Agile-Testing-2-400x315.png)
 
 Explanation below.
 

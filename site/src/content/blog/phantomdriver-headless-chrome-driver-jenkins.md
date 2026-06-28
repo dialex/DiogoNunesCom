@@ -2,7 +2,7 @@
 title: "Move from PhantomDriver to headless ChromeDriver on Jenkins"
 description: "How to configure the headless Chrome (Driver) on Jenkins (Ubuntu CI machine). PhantomJS is dead, long live headless Chromium!"
 pubDate: "2017-07-03T13:50:00"
-heroImage: "/blog/uploads/2017/04/ghostbuster-logo.jpg"
+heroImage: "../../assets/blog/uploads/2017/04/ghostbuster-logo.jpg"
 tags: ["testing", "tutorial"]
 categories: ["Technology"]
 ---

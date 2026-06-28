@@ -2,7 +2,7 @@
 title: "Development processes (Toolbox #6)"
 description: "TDD, ATDD and BDD are different development practices that favour quality."
 pubDate: "2022-01-31T07:00:00"
-heroImage: "/blog/uploads/2021/10/annie-spratt-QckxruozjRg-unsplash.jpg"
+heroImage: "../../assets/blog/uploads/2021/10/annie-spratt-QckxruozjRg-unsplash.jpg"
 heroCaption: "Photo by Annie Spratt on Unsplash"
 tags: ["course", "testing"]
 categories: ["Work"]

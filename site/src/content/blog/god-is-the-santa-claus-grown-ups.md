@@ -2,7 +2,7 @@
 title: "God is the Santa Claus of grown-ups"
 description: "Is the concept of God that different from the tale of Santa Claus? See if you can spot the differences, I bet your brain won't find any."
 pubDate: "2019-01-07T07:00:22"
-heroImage: "/blog/uploads/2018/12/Tell-the-truth-about-Santa.jpg"
+heroImage: "../../assets/blog/uploads/2018/12/Tell-the-truth-about-Santa.jpg"
 tags: ["idea", "religion"]
 categories: ["Thoughts"]
 ---
@@ -41,4 +41,4 @@ Santa is a private joke between parents, but Christianity is taught at school al
 
 If you appreciate fantasy novels for what they are -- fiction -- then you know what to wear on your next Christmas dinner. [Get yours.](https://www.redbubble.com/people/redwinebubble/works/35974015-god-is-santa-claus-for-grown-ups?asc=u&p=t-shirt)
 
-[![](/blog/uploads/2019/01/God-is-Santa-Claus-for-grown-ups-1024x931.png)](https://www.redbubble.com/people/redwinebubble/works/35974015-god-is-santa-claus-for-grown-ups?asc=u&p=t-shirt)
+[![](../../assets/blog/uploads/2019/01/God-is-Santa-Claus-for-grown-ups-1024x931.png)](https://www.redbubble.com/people/redwinebubble/works/35974015-god-is-santa-claus-for-grown-ups?asc=u&p=t-shirt)

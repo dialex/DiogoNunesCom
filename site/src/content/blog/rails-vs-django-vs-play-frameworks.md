@@ -2,7 +2,7 @@
 title: "Rails vs Django vs Play: Battle of frameworks"
 description: "This post is a review of those three frameworks considering four criteria: Ease of learning, Speed of development, Tools & plugins, and Community"
 pubDate: "2014-05-26T08:00:00"
-heroImage: "/blog/uploads/2014/09/rails-vs-django-vs-play.jpg"
+heroImage: "../../assets/blog/uploads/2014/09/rails-vs-django-vs-play.jpg"
 tags: ["coding", "play framework", "rails", "review", "web dev"]
 categories: ["Technology"]
 ---
@@ -86,6 +86,6 @@ This is **the power that comes from an active open-source community**: somewhere
 
 ### And the winner is...
 
-![](/blog/uploads/2014/09/home-by-now.png)
+![](../../assets/blog/uploads/2014/09/home-by-now.png)
 
 Any questions?

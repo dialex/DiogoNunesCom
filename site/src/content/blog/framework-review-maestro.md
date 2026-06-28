@@ -2,7 +2,7 @@
 title: "Framework review: Maestro"
 description: "This is my review of Maestro, a mobile test automation framework. It has its strengths and a lot of potential, but it's not yet ready for professional use."
 pubDate: "2023-05-15T08:00:27"
-heroImage: "/blog/uploads/2023/04/ConductorEimearNoonepoisedtomakehistoryatthe2020Oscars.jpg"
+heroImage: "../../assets/blog/uploads/2023/04/ConductorEimearNoonepoisedtomakehistoryatthe2020Oscars.jpg"
 heroCaption: "Conductor Eimear Noone"
 tags: ["free and open", "maestro", "mobile dev", "review", "testing"]
 categories: ["Technology"]

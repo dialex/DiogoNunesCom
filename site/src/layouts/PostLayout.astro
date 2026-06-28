@@ -4,6 +4,8 @@ import BaseLayout from "./BaseLayout.astro";
 import dayjs from "dayjs";
 import localizedFormat from "dayjs/plugin/localizedFormat";
 import slugify from "../lib/slugify";
+import { withBase } from "../lib/withBase";
+import { resolveBlogImage } from "../lib/blogImages";
 
 export interface Props extends BlogSchema {}
 
@@ -20,10 +22,15 @@ const {
 } = Astro.props;
 dayjs.extend(localizedFormat);
 const displayDate = dayjs(pubDate).format("ll");
-import { Image } from "astro:assets";
+import { Image, getImage } from "astro:assets";
+
+// heroImage is a path string; resolve to optimisable ImageMetadata (see lib/blogImages).
+const hero = await resolveBlogImage(heroImage);
+// og:image — derive ONE optimised social card from the hero (avoids emitting the original).
+const ogImage = hero ? await getImage({ src: hero, width: 1200, format: "webp" }) : undefined;
 ---
 
-<BaseLayout title={title} description={description} image={heroImage} , ogType="article">
+<BaseLayout title={title} description={description} image={ogImage?.src} ogType="article">
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
       <header class="text-center">
@@ -32,7 +39,7 @@ import { Image } from "astro:assets";
             <div class="not-prose mb-3 flex flex-wrap justify-center gap-x-4">
               {categories.map((cat) => (
                 <a
-                  href={`/blog/category/${slugify(cat)}/`}
+                  href={withBase(`/blog/category/${slugify(cat)}/`)}
                   class="text-primary text-sm font-bold uppercase tracking-wider underline underline-offset-4"
                 >
                   {cat}
@@ -67,9 +74,16 @@ import { Image } from "astro:assets";
         }
       </header>
       {
-        heroImage && (
+        hero && (
           <figure class="my-8">
-            <Image width={750} height={422} format="webp" src={heroImage} alt={title} class="w-full" />
+            <Image
+              src={hero}
+              widths={[400, 750, 1100]}
+              sizes="(min-width: 768px) 750px, 100vw"
+              format="webp"
+              alt={title}
+              class="w-full"
+            />
             {heroCaption && (
               <figcaption class="not-prose mt-2 text-center text-sm opacity-60">{heroCaption}</figcaption>
             )}
@@ -87,7 +101,7 @@ import { Image } from "astro:assets";
         tags.length > 0 && (
           <div class="not-prose flex flex-wrap items-center justify-center gap-2">
             {tags.map((tag) => (
-              <a href={`/blog/tag/${slugify(tag)}/`} class="badge badge-outline no-underline gap-1">
+              <a href={withBase(`/blog/tag/${slugify(tag)}/`)} class="badge badge-outline no-underline gap-1">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-3 w-3 shrink-0">
                   <path
                     fill-rule="evenodd"

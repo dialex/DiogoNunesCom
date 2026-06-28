@@ -2,7 +2,7 @@
 title: "I regret hesitating"
 description: "I'm fully me when behind a keyboard or a pencil. From thought to action I create too many obstacles. Live to the fullest, say sorry later."
 pubDate: "2014-12-29T08:00:15"
-heroImage: "/blog/uploads/2014/12/Courage-the-Cowardly-Dog-courage-the-cowardly-dog-e1416856526121.jpg"
+heroImage: "../../assets/blog/uploads/2014/12/Courage-the-Cowardly-Dog-courage-the-cowardly-dog-e1416856526121.jpg"
 heroCaption: "Courage, the Cowardly Dog (© Cartoon Network)"
 tags: ["personal", "relationships"]
 categories: ["Life"]

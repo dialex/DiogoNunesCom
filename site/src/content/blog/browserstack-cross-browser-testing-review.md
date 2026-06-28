@@ -2,7 +2,7 @@
 title: "Cross-browser testing with BrowserStack: a review"
 description: "I had to test a web app on Chrome, Firefox and IE and I already had the tests in Java using Selenium web driver. So I tried BrowserStack... be careful."
 pubDate: "2016-08-15T11:00:10"
-heroImage: "/blog/uploads/2016/07/browserstack-logo.png"
+heroImage: "../../assets/blog/uploads/2016/07/browserstack-logo.png"
 tags: ["review", "testing"]
 categories: ["Technology"]
 ---
@@ -23,7 +23,7 @@ On your code you replace your `WebDriver` with a `RemoteWebDriver`. That way, wh
 
 You are not forced to publicly expose your web app since they allow you to test locally. You just need to change a flag on the `RemoteWebDriver`'s capabilities and have [their executable](https://www.browserstack.com/local-testing#command-line) running on your local machine, which maintains a secure connection with their data center. All this is explained on their [documentation](https://www.browserstack.com/automate/java), which is clear and contains several examples.
 
-![](/blog/uploads/2016/06/browserstack-automate-example.png)
+![](../../assets/blog/uploads/2016/06/browserstack-automate-example.png)
 
 ## And how it doesn't work
 

@@ -2,12 +2,12 @@
 title: "SSDs make you a minimalist"
 description: "How my new SSD made everything faster and allowed me to backup all my files online for free. Minimalism rules!"
 pubDate: "2014-12-08T08:00:47"
-heroImage: "/blog/uploads/2014/12/Samsung840Evo_11.jpg"
+heroImage: "../../assets/blog/uploads/2014/12/Samsung840Evo_11.jpg"
 tags: ["minimalism", "review"]
 categories: ["Technology"]
 ---
 
-[](/blog/uploads/2014/12/Samsung840Evo_11.jpg)
+
 
 ### How my new SSD made everything faster and allowed me to backup all my files online for free.
 
