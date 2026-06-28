@@ -173,70 +173,6 @@ const clients = [
     </p>
   </div>
 
-  <!-- Experience -->
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold font-heading">Experience</div>
-  </div>
-  <div class="time-line-container mb-10">
-    <TimeLineElement title="Senior QA Engineer at MoonPay" subtitle="2022 – Present">
-      (ongoing)
-    </TimeLineElement>
-    <TimeLineElement title="Senior Quality Advocate at Springer Nature" subtitle="2020 – 2021">
-      Push for user and developer happiness (e.g. measure customer support, write E2E tests, pair with devs to improve
-      UX, automate processes, mentor younger testers, lead knowledge sharing).
-    </TimeLineElement>
-    <TimeLineElement title="Quality Advocate (QA) at Equal Experts" subtitle="2016 – 2020">
-      Help my teammates be productive at delivering their best work (e.g. exploratory testing, automation in testing,
-      continuous integration, 3-amigos, pairing, specification by example).
-    </TimeLineElement>
-    <TimeLineElement title="Software Developer at Loyty" subtitle="2014 – 2016">
-      Discuss requirements with client. Design mockups. Develop desktop app. Code back-end logic and integrations.
-      Interact with databases (tables, SPs, views). Advise UI/UX.
-    </TimeLineElement>
-    <TimeLineElement title="IT Analyst at Deloitte" subtitle="2013">
-      Debug existing software applications. Write technical documentation.
-    </TimeLineElement>
-  </div>
-
-  <!-- Education -->
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold font-heading">Education</div>
-  </div>
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Master's degree at Técnico Lisboa"
-      subtitle="2011 – 2013 · Computer Science · Grade: 17"
-    >
-      <strong>Major</strong>: Enterprise Information Systems – addresses the impact of information systems in
-      organizations and how to model the systems and processes of such organizations. <strong>Minor</strong>: Software
-      Engineering – addresses how to architect, manage and implement IT projects.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Bachelor's degree at Técnico Lisboa"
-      subtitle="2008 – 2012 · Computer Science · Grade: 14"
-    >
-      University societies: Mentors (<a href="https://nape.tecnico.ulisboa.pt/en/mentorado/">NAPE</a>), Extracurricular
-      activities (<a href="https://lage2.ist.utl.pt/">LAGE2</a>), <a href="https://tedxist.ist.utl.pt/#/">TEDxIST</a>,
-      Photography group (<a href="https://www.facebook.com/gfist/">GFIST</a>).
-    </TimeLineElement>
-  </div>
-
-  <!-- Technologies -->
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold font-heading">Technologies</div>
-    <div class="text-sm font-light italic">how comfortable I am</div>
-  </div>
-  <div class="grid sm:grid-cols-2 gap-x-8 gap-y-4 mb-10">
-    {
-      technologies.map((tech) => (
-        <div>
-          <div class="font-semibold mb-1">{tech.name}</div>
-          <progress class="progress progress-primary w-full" value={tech.percent} max="100" />
-        </div>
-      ))
-    }
-  </div>
-
   <!-- Traits -->
   <div class="mb-5">
     <div class="text-3xl w-full font-bold font-heading">Traits</div>
@@ -250,7 +186,7 @@ const clients = [
               <span class="text-2xl">{trait.emoji}</span>
               {trait.title}
             </h3>
-            <p class="text-justify">{trait.text}</p>
+            <p class="text-justify text-[15px]">{trait.text}</p>
           </div>
         </div>
       ))
@@ -273,8 +209,64 @@ const clients = [
               </a>{" "}
               {t.flag}
             </h3>
-            <p>{t.text}</p>
+            <p class="text-[15px]">{t.text}</p>
           </div>
+        </div>
+      ))
+    }
+  </div>
+
+  <!-- Experience -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold font-heading">Experience</div>
+  </div>
+  <div class="time-line-container mb-10">
+    <TimeLineElement title="Senior QA Engineer at MoonPay" subtitle="2022 – Present"> (ongoing) </TimeLineElement>
+    <TimeLineElement title="Senior Quality Advocate at Springer Nature" subtitle="2020 – 2021">
+      Push for user and developer happiness (e.g. measure customer support, write E2E tests, pair with devs to improve
+      UX, automate processes, mentor younger testers, lead knowledge sharing).
+    </TimeLineElement>
+    <TimeLineElement title="Quality Advocate (QA) at Equal Experts" subtitle="2016 – 2020">
+      Help my teammates be productive at delivering their best work (e.g. exploratory testing, automation in testing,
+      continuous integration, 3-amigos, pairing, specification by example).
+    </TimeLineElement>
+    <TimeLineElement title="Software Developer at Loyty" subtitle="2014 – 2016">
+      Discuss requirements with client. Design mockups. Develop desktop app. Code back-end logic and integrations.
+      Interact with databases (tables, SPs, views). Advise UI/UX.
+    </TimeLineElement>
+    <TimeLineElement title="IT Analyst at Deloitte" subtitle="2013">
+      Debug existing software applications. Write technical documentation.
+    </TimeLineElement>
+  </div>
+
+  <!-- Education -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold font-heading">Education</div>
+  </div>
+  <div class="time-line-container mb-10">
+    <TimeLineElement title="Master's degree at Técnico Lisboa" subtitle="2011 – 2013 · Computer Science · Grade: 17">
+      <strong>Major</strong>: Enterprise Information Systems – addresses the impact of information systems in
+      organizations and how to model the systems and processes of such organizations. <strong>Minor</strong>: Software
+      Engineering – addresses how to architect, manage and implement IT projects.
+    </TimeLineElement>
+    <TimeLineElement title="Bachelor's degree at Técnico Lisboa" subtitle="2008 – 2012 · Computer Science · Grade: 14">
+      University societies: Mentors (<a href="https://nape.tecnico.ulisboa.pt/en/mentorado/">NAPE</a>), Extracurricular
+      activities (<a href="https://lage2.ist.utl.pt/">LAGE2</a>), <a href="https://tedxist.ist.utl.pt/#/">TEDxIST</a>,
+      Photography group (<a href="https://www.facebook.com/gfist/">GFIST</a>).
+    </TimeLineElement>
+  </div>
+
+  <!-- Technologies -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold font-heading">Technologies</div>
+    <div class="text-sm font-light italic">how comfortable I am</div>
+  </div>
+  <div class="grid sm:grid-cols-2 gap-x-8 gap-y-4 mb-10">
+    {
+      technologies.map((tech) => (
+        <div>
+          <div class="font-semibold mb-1">{tech.name}</div>
+          <progress class="progress progress-primary w-full" value={tech.percent} max="100" />
         </div>
       ))
     }
@@ -297,7 +289,7 @@ const clients = [
           </figure>
           <div class="card-body">
             <h3 class="card-title">{p.title}</h3>
-            <p>{p.desc}</p>
+            <p class="text-[15px]">{p.desc}</p>
           </div>
         </a>
       ))
