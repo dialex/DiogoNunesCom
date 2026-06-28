@@ -21,12 +21,12 @@ Thus, whatever you have to say to your friend, **say it, honestly and without ho
 
 Let him/her know...
 
--   how much you care;
--   how honored and inspired you feel;
--   what you like the most about him/her;
--   that you recall the last time that both \_\_\_\_\_\_;
--   or that time when \_\_\_\_\_\_ happened;
--   basically, that they matter and are loved.
+- how much you care;
+- how honored and inspired you feel;
+- what you like the most about him/her;
+- that you recall the last time that both \_\_\_\_\_\_;
+- or that time when \_\_\_\_\_\_ happened;
+- basically, that they matter and are loved.
 
 It's even better if you make it personal like -- in descending order -- a postcard, a letter, an SMS, an instant message... but never a public post. This is between you two and no one else.
 

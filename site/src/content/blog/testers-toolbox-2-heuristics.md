@@ -26,8 +26,8 @@ Expressions like "rule of thumb", "educated guess", or "intuition" are all examp
 
 This example of heuristic is useful to demonstrate two key limitations:
 
--   **All heuristics are fallible.** They simplify our context by assuming what is uncertain and ignoring what is contradictory or irrelevant. Given this incomplete context our decisions will be fallible, but there are situations where acting is more important than precision — and that's when heuristics are useful.
--   **All heuristics can turn to biases.** Prolonged usage of the same heuristics have a negative impact on you and your testing. Without awareness for bias, you will eventually miss or misinterpret information, which create gaps in your testing.
+- **All heuristics are fallible.** They simplify our context by assuming what is uncertain and ignoring what is contradictory or irrelevant. Given this incomplete context our decisions will be fallible, but there are situations where acting is more important than precision — and that's when heuristics are useful.
+- **All heuristics can turn to biases.** Prolonged usage of the same heuristics have a negative impact on you and your testing. Without awareness for bias, you will eventually miss or misinterpret information, which create gaps in your testing.
 
 > Despite their fallible nature and the potential biases they cause, heuristics are very useful (…) to find solutions that are "good enough" (…) in scenarios where it's impractical to find the optimal solution to a problem.
 > 
@@ -87,25 +87,25 @@ There are many more biases that limit or weaken your testing. When you are consc
 
 In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/) recommends that you:
 
--   Diversify your actions — e.g. try a smaller resolution, use keyboard shortcuts
--   Diversify your test data — e.g. pick a diff user, generate random data
--   Diversify your oracles — e.g. show what you found to a diff stakeholder
--   Diversify who is doing the testing — e.g. rotate perspectives and expectations
--   Diversify your test environment — e.g. use a diff machine or OS, test in production
+- Diversify your actions — e.g. try a smaller resolution, use keyboard shortcuts
+- Diversify your test data — e.g. pick a diff user, generate random data
+- Diversify your oracles — e.g. show what you found to a diff stakeholder
+- Diversify who is doing the testing — e.g. rotate perspectives and expectations
+- Diversify your test environment — e.g. use a diff machine or OS, test in production
 
 [Katrina Clokie](https://katrinatester.blogspot.com/2018/05/9-quick-ideas-for-flexible-testing.html) has a few additional suggestions:
 
--   Change the order of your test approach to break a routine
--   Seek test ideas from non-testers outside your agile team (e.g. UX, Ops)
--   Pair with a tester in another team to see a different test approach first-hand
--   Experiment with a tool that you haven't tried before
--   Ask for constructive feedback about your testing
+- Change the order of your test approach to break a routine
+- Seek test ideas from non-testers outside your agile team (e.g. UX, Ops)
+- Pair with a tester in another team to see a different test approach first-hand
+- Experiment with a tool that you haven't tried before
+- Ask for constructive feedback about your testing
 
 [Alan Richardson](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html) challenges your amount of testing with the next three questions. He also suggests a few words to fill in the blanks: Questioning, Usage, Analysis, Exploration, Reasoning, Experimentation ([`QUAERE`](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html))
 
--   "Have I performed enough \_\_\_\_?"
--   "Has my \_\_\_\_ been good enough?"
--   "Did my \_\_\_\_ cover everything it could?"
+- "Have I performed enough \_\_\_\_?"
+- "Has my \_\_\_\_ been good enough?"
+- "Did my \_\_\_\_ cover everything it could?"
 
 [Tom Bartel](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/) describes a bias he calls the "curse of knowledge":
 
@@ -133,22 +133,22 @@ In order to counter the bias effect of heuristics, [Anne-Marie Charrett](https:/
 
 ## Teachers
 
--   [Alan Richardson](https://www.eviltester.com/)
--   [Dan Ashby](https://danashby.co.uk/)
--   [James Bach](https://www.satisfice.com/)
--   [Lena Pejgan](https://testing.pejgan.se/)
--   [Richard Bradshaw](https://thefriendlytester.co.uk/)
+- [Alan Richardson](https://www.eviltester.com/)
+- [Dan Ashby](https://danashby.co.uk/)
+- [James Bach](https://www.satisfice.com/)
+- [Lena Pejgan](https://testing.pejgan.se/)
+- [Richard Bradshaw](https://thefriendlytester.co.uk/)
 
 ## Sources
 
--   [Software Testing Heuristics: Mind The Gap!](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
--   [Heuristics and Oracles](https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html)
--   [Heuristic Test Strategy Model](https://www.satisfice.com/download/heuristic-test-strategy-model)
--   [Software Testing Heuristics & Mnemonics](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf)
--   [99 Second Introduction to Biases in Testing](https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-biases-in-testing)
--   [How to avoid being fooled in software testing](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/)
--   [Quaere, Heuristics, Mnemonics, and Acronyms](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html)
--   [Are You Suffering From the Curse of Knowledge?](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/)
--   [Cognitive bias cheat sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j)
--   [How to come up with test ideas](http://erik.brickarp.se/2016/08/how-to-come-up-with-test-ideas.html)
--   [9 quick ideas for flexible testing](https://katrinatester.blogspot.com/2018/05/9-quick-ideas-for-flexible-testing.html)
+- [Software Testing Heuristics: Mind The Gap!](https://www.ministryoftesting.com/dojo/lessons/software-testing-heuristics-mind-the-gap)
+- [Heuristics and Oracles](https://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html)
+- [Heuristic Test Strategy Model](https://www.satisfice.com/download/heuristic-test-strategy-model)
+- [Software Testing Heuristics & Mnemonics](http://karennicolejohnson.com/wp-content/uploads/2012/11/KNJohnson-2012-heuristics-mnemonics.pdf)
+- [99 Second Introduction to Biases in Testing](https://www.ministryoftesting.com/dojo/lessons/99-second-introduction-to-biases-in-testing)
+- [How to avoid being fooled in software testing](https://mavericktester.com/2018/03/20/2018-3-20-how-to-avoid-being-fooled-in-software-testing/)
+- [Quaere, Heuristics, Mnemonics, and Acronyms](https://www.eviltester.com/2017/05/quaere-heuristics-mnemonics-and-acronyms.html)
+- [Are You Suffering From the Curse of Knowledge?](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/)
+- [Cognitive bias cheat sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18#.486tj1s6j)
+- [How to come up with test ideas](http://erik.brickarp.se/2016/08/how-to-come-up-with-test-ideas.html)
+- [9 quick ideas for flexible testing](https://katrinatester.blogspot.com/2018/05/9-quick-ideas-for-flexible-testing.html)

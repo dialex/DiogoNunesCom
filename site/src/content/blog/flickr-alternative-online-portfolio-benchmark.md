@@ -17,11 +17,11 @@ The free tier of Flickr was reduced from 1TB of photos to [just 1000 photos](htt
 
 I started looking for another online portfolio platform. These were my requirements:
 
--   **Must**: I can group my photos into albums
--   I can share a link to an album with anyone outside the platform
--   The design highlights the photos and has little distractions
--   It can host at least 1000 photos for free
--   _Optional:_ it has social features like votes and comments
+- **Must**: I can group my photos into albums
+- I can share a link to an album with anyone outside the platform
+- The design highlights the photos and has little distractions
+- It can host at least 1000 photos for free
+- _Optional:_ it has social features like votes and comments
 
 Based on that criteria, this was my review of the 7 mainstream platforms:
 

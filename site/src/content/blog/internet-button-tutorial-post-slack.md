@@ -24,11 +24,11 @@ First you need to include that library:
 
 To finish this [series](http://www.diogonunes.com/blog/tag/hardware/), I decided to use a bit of every tutorial so far. This is the flow we are about to implement:
 
--   Someone presses the 3rd button
--   LEDs light up in a circular pattern
--   Using wifi, a Slack webhook is called
--   A message is published on a Slack channel
--   All LEDs blink green to display success
+- Someone presses the 3rd button
+- LEDs light up in a circular pattern
+- Using wifi, a Slack webhook is called
+- A message is published on a Slack channel
+- All LEDs blink green to display success
 
 Below are code examples that implement each of those features. Although I added extra comment lines, these are just snippets. You may need additional code to make them work.
 
@@ -152,11 +152,11 @@ This is a template for any `webhook.json` (I like to keep them in a folder, each
 
 That files describes a [Particle's webhook](https://docs.particle.io/guide/how-to-build-a-product/web-app/):
 
--   Replace the `XXX` with your desired and unique event name.
--   Replace the `YYY` with the Slack's webhook URL from the previous section.
--   Replace the `ZZZ` with your device ID, even though this field is optional, it will ensure only your device can make calls to that webhook.
--   `{{SPARK_EVENT_VALUE}}` is a variable tag that will be replaced with the message from `Spark.publish()` method.
--   `"link_names": "1"` is specific to Slack's API, it's a workaround to let your bots use `@here` notifications.
+- Replace the `XXX` with your desired and unique event name.
+- Replace the `YYY` with the Slack's webhook URL from the previous section.
+- Replace the `ZZZ` with your device ID, even though this field is optional, it will ensure only your device can make calls to that webhook.
+- `{{SPARK_EVENT_VALUE}}` is a variable tag that will be replaced with the message from `Spark.publish()` method.
+- `"link_names": "1"` is specific to Slack's API, it's a workaround to let your bots use `@here` notifications.
 
 [![Screen_Shot_2016-07-30_at_18.14.39](/blog/uploads/2016/08/Screen_Shot_2016-07-30_at_18.14.39.png)](http://www.diogonunes.com/blog/wp-content/uploads/2016/08/Screen_Shot_2016-07-30_at_18.14.39.png)
 

@@ -20,11 +20,11 @@ I've lost count to the number of times I thought about doing something and end u
 
 The number of times I could...
 
--   Say "You look pretty today"
--   Wave at an old lady by the window
--   Clearly state my opinion even if it's contrary to others'
--   Walk next to an old friend and don't wait for him/her to notice me
--   Give a big hug to that friend I really cherish instead of the standard howdy
+- Say "You look pretty today"
+- Wave at an old lady by the window
+- Clearly state my opinion even if it's contrary to others'
+- Walk next to an old friend and don't wait for him/her to notice me
+- Give a big hug to that friend I really cherish instead of the standard howdy
 
 And did nothing instead.
 

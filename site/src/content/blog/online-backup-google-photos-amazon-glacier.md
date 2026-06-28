@@ -26,11 +26,11 @@ I recommend if you are an amateur photographer, who only uses JPGs and doesn't w
 
 Here's what their documentation doesn't mention (I had to discover it by trial and error):
 
--   If you upload a DNG it will show up without post-edit
--   If you upload a NEF/RAW it will show up without post-edit and upload a JPG copy with the effects applied
--   XML files are applied to your NEF on the fly, to generate the JPG mentioned above
--   NEFs/RAWs are uploaded, but once in the cloud you can only download them as JPG
--   If you upload the same photo twice (via web or via uploader), it will detect that it is a duplicate and ignore it
+- If you upload a DNG it will show up without post-edit
+- If you upload a NEF/RAW it will show up without post-edit and upload a JPG copy with the effects applied
+- XML files are applied to your NEF on the fly, to generate the JPG mentioned above
+- NEFs/RAWs are uploaded, but once in the cloud you can only download them as JPG
+- If you upload the same photo twice (via web or via uploader), it will detect that it is a duplicate and ignore it
 
 #### Verdict
 
@@ -48,10 +48,10 @@ I recommend if you are an enthusiastic/pro photographer, who uses mostly RAWs/NE
 
 #### What they don't tell you
 
--   [The setup is a nightmare!](https://thegreyblog.blogspot.com/2012/12/amazon-s3-and-glacier-cheap-solution.html) I have a master degree on Computer Science and even I had trouble knowing what I was doing.
--   Amazon's UI is not user friendly at all. The naming used is mostly tech jargon. You will be staring at stuff you have no clue what it means.
--   You need a software to sync the files from folder to Amazon's Glacier cloud. Just like with GPhotos. Except Amazon doesn't provide that app.
--   There are a couple free apps for [Windows](https://www.cloudwards.net/best-backup-tools-amazon-glacier/), but for Mac you have a single freemium app called [Freeze](https://www.freezeapp.net/), which does the job.
+- [The setup is a nightmare!](https://thegreyblog.blogspot.com/2012/12/amazon-s3-and-glacier-cheap-solution.html) I have a master degree on Computer Science and even I had trouble knowing what I was doing.
+- Amazon's UI is not user friendly at all. The naming used is mostly tech jargon. You will be staring at stuff you have no clue what it means.
+- You need a software to sync the files from folder to Amazon's Glacier cloud. Just like with GPhotos. Except Amazon doesn't provide that app.
+- There are a couple free apps for [Windows](https://www.cloudwards.net/best-backup-tools-amazon-glacier/), but for Mac you have a single freemium app called [Freeze](https://www.freezeapp.net/), which does the job.
 
 #### Verdict
 

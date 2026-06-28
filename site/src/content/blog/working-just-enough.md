@@ -65,12 +65,12 @@ Let’s now assume you don’t work on Mondays, because who likes Mondays anyway
 
 Remember the bicycle analogy?
 
--   Change your bicycle
-    -   _ie. find an income source that pays you more for the same effort_
--   Change your strength
-    -   _ie. invest in training that makes you more proficient_
--   Change your terrain
-    -   _ie. lower the cost of living and align your lifestyle with your goals_
+- Change your bicycle
+    - _ie. find an income source that pays you more for the same effort_
+- Change your strength
+    - _ie. invest in training that makes you more proficient_
+- Change your terrain
+    - _ie. lower the cost of living and align your lifestyle with your goals_
 
 Find what needs to change to free more ~time~ life to you. **Every day that ends is time that you won't get back.** When are you going to enjoy it? When you're old, fragile and sick?
 

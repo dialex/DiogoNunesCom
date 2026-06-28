@@ -9,15 +9,15 @@ categories: ["Writing"]
 
 _This post is part of the ["From Dreaming to Publishing" series](http://www.diogonunes.com/blog/?s=From+Dreaming+to+Publishing)_.
 
--   **1st person**
+- **1st person**
     
-    -   The good: intimacy, feelings, attachment of the reader to the character
-    -   The bad: reduced perspective, biased world, one time/place storyline
--   **Omniscient**
+    - The good: intimacy, feelings, attachment of the reader to the character
+    - The bad: reduced perspective, biased world, one time/place storyline
+- **Omniscient**
     
-    -   The good: know-all, more detail, multiple storylines
-    -   The bad: cold voice, too analytical
--   **3rd person** is the balance and mix of the two; the language and the knowledge shows which type of narrator is speaking
+    - The good: know-all, more detail, multiple storylines
+    - The bad: cold voice, too analytical
+- **3rd person** is the balance and mix of the two; the language and the knowledge shows which type of narrator is speaking
     
 
 > Omniscient narrator "hears a motor noise".  
@@ -28,9 +28,9 @@ _This post is part of the ["From Dreaming to Publishing" series](http://www.diog
 
 ### Checklist
 
--   Which point of view do you use the most? Why? Vary!
--   Do you jump from head to head? What a headache! Focus on one and create different scenes
--   Is the language of your character's inner thoughts adequate?
+- Which point of view do you use the most? Why? Vary!
+- Do you jump from head to head? What a headache! Focus on one and create different scenes
+- Is the language of your character's inner thoughts adequate?
 
 [![book cover](/blog/uploads/2014/12/twiw-44-e1418044375476.jpg)](http://www.amazon.com/gp/product/0060545690/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0060545690&linkCode=as2&tag=thegeegec00-20&linkId=MYZDZS7WK5JLOMYA)
 

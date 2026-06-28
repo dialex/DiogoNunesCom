@@ -12,35 +12,35 @@ categories: ["Work"]
 
 _This is a **very** long post. You don't have to read it all in one go. Use it as a reference, anytime you want to check the purpose of a particular test type._
 
--   Categories
-    -   Functional testing
-    -   Non-functional testing
-    -   Black box testing
-    -   White box testing
--   Types
-    -   Static tests
-    -   ️ Unit tests
-    -   Integration tests
-    -   Contract tests
-    -   API tests
-    -   UI tests
-    -   End-to-end tests
-    -   ✅ Regression tests
-    -   Acceptance tests
-    -   Smoke tests
-    -   Snapshot tests
-    -   Rejection tests
-    -   Sanity tests
-    -   Confidence tests
-    -   Build verification tests
-    -   Monkey tests
-    -   Fuzzy tests
--   Testing approaches
-    -   Exploratory testing
-    -   Automation in testing
-    -   Chaos testing
-    -   Mutation testing
-    -   Random testing
+- Categories
+    - Functional testing
+    - Non-functional testing
+    - Black box testing
+    - White box testing
+- Types
+    - Static tests
+    - ️ Unit tests
+    - Integration tests
+    - Contract tests
+    - API tests
+    - UI tests
+    - End-to-end tests
+    - ✅ Regression tests
+    - Acceptance tests
+    - Smoke tests
+    - Snapshot tests
+    - Rejection tests
+    - Sanity tests
+    - Confidence tests
+    - Build verification tests
+    - Monkey tests
+    - Fuzzy tests
+- Testing approaches
+    - Exploratory testing
+    - Automation in testing
+    - Chaos testing
+    - Mutation testing
+    - Random testing
 
 * * *
 
@@ -80,9 +80,9 @@ Black box testing is a classification given to any test that is executed without
 
 Examples of black box testing include:
 
--   UI Testing: Testing the user interface to ensure it is easy to use and understand, regardless its code implementation.
--   Integration Testing: Testing the interaction between different components to ensure they can cooperate, regardless how each component is implemented.
--   Functional Testing: Testing the features or functions of the system, without caring how that behaviour is implemented.
+- UI Testing: Testing the user interface to ensure it is easy to use and understand, regardless its code implementation.
+- Integration Testing: Testing the interaction between different components to ensure they can cooperate, regardless how each component is implemented.
+- Functional Testing: Testing the features or functions of the system, without caring how that behaviour is implemented.
 
 ### White box testing
 
@@ -94,7 +94,7 @@ White box testing is a classification given to any test that knows the internal 
 
 Examples of white box testing techniques include:
 
--   Unit Testing: Testing the behaviour of methods inside a component, to validate how many times a specific method is called and with what parameters (information flow) or to examine the values of internal variables during different stages of execution (internal state).
+- Unit Testing: Testing the behaviour of methods inside a component, to validate how many times a specific method is called and with what parameters (information flow) or to examine the values of internal variables during different stages of execution (internal state).
 
 ## Types
 
@@ -362,13 +362,13 @@ Also see chaos testing.
 
 ## Sources
 
--   [Heuristic Test Strategy Model](https://www.satisfice.com/download/heuristic-test-strategy-model)
--   [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
--   [Things Could Get Worse: Ideas About Regression Testing](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
--   [Contract testing by Pact: Convince me](https://docs.pact.io/faq/convinceme.html)
--   [On "White Box" and "Black Box" testing](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
--   [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
--   [Kill More Bugs! Add Randomization To Your Web Testing](https://responsibleautomation.wordpress.com/2023/05/31/kill-more-bugs-add-randomization-to-your-web-testing/)
--   [What is Chaos Testing?](https://www.pagerduty.com/resources/learn/what-is-chaos-testing)
--   [What is Chaos Engineering?](https://www.testingwithmarie.com/post/what-is-chaos-engineering)
--   [Talking About Risks Over Types of Testing](https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/)
+- [Heuristic Test Strategy Model](https://www.satisfice.com/download/heuristic-test-strategy-model)
+- [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+- [Things Could Get Worse: Ideas About Regression Testing](https://www.developsense.com/presentations/2013-05-STAREast-Regression.pdf)
+- [Contract testing by Pact: Convince me](https://docs.pact.io/faq/convinceme.html)
+- [On "White Box" and "Black Box" testing](http://automation-beyond.com/2016/08/30/on-white-box-and-black-box-testing/)
+- [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
+- [Kill More Bugs! Add Randomization To Your Web Testing](https://responsibleautomation.wordpress.com/2023/05/31/kill-more-bugs-add-randomization-to-your-web-testing/)
+- [What is Chaos Testing?](https://www.pagerduty.com/resources/learn/what-is-chaos-testing)
+- [What is Chaos Engineering?](https://www.testingwithmarie.com/post/what-is-chaos-engineering)
+- [Talking About Risks Over Types of Testing](https://danashby.co.uk/2019/05/01/risk-based-testing-part-one-talking-about-risks-over-types-of-testing/)

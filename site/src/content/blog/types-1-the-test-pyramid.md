@@ -22,10 +22,10 @@ The concept of a test pyramid was initially introduced by [Mike Cohn](https://am
 
 This visual model conveys several messages:
 
--   You should have multiple test types or layers
--   You should have more unit tests than service steps, and more of those than UI tests
--   Tests at the base of the pyramid (unit) are faster, cheaper and more precise
--   Tests at the top of the pyramid (UI) are slower, more expensive and more realistic
+- You should have multiple test types or layers
+- You should have more unit tests than service steps, and more of those than UI tests
+- Tests at the base of the pyramid (unit) are faster, cheaper and more precise
+- Tests at the top of the pyramid (UI) are slower, more expensive and more realistic
 
 Unit tests ensure a small and specific unit of code works as intended in isolation. That's why they are cheap and fast to run. These units of code then interact with other parts the system to provide services. The behaviour of those services is tested by the service tests. Finally, a human needs to interact with those services and that is done through a User Interface (UI). The UI tests check that the system as a whole does what the user expects, and that's why those tests are the slowest to run and most expensive to debug.
 
@@ -55,12 +55,12 @@ Almost [10 years later](https://twitter.com/kentcdodds/status/960723172591992832
 
 Here's a summary, paraphrasing the author:
 
--   **Purpose.** Why do _you_ write tests? Confidence. I want to be confident that the code I'm writing won't break the app. I want to get the most confidence out of the tests I write, and I'm aware of the trade-offs I'm making when testing.
--   **Static tests**. Linters and other static analysis tools scan your code for typos, type errors, common mistakes, potential bugs.
--   **Unit tests**: Verify that individual, isolated parts work as expected.
--   **Integration tests**: Verify that several units work together in harmony.
--   **End-to-End tests**: Simulate the user interacting with the app and verify that it functions correctly.
--   **Flexible.** The size of each of test layer may differ based on what your team values. The proportions are not meant to be taken as rigid rules. It also depends on how easy it is to test your app with the tools available.
+- **Purpose.** Why do _you_ write tests? Confidence. I want to be confident that the code I'm writing won't break the app. I want to get the most confidence out of the tests I write, and I'm aware of the trade-offs I'm making when testing.
+- **Static tests**. Linters and other static analysis tools scan your code for typos, type errors, common mistakes, potential bugs.
+- **Unit tests**: Verify that individual, isolated parts work as expected.
+- **Integration tests**: Verify that several units work together in harmony.
+- **End-to-End tests**: Simulate the user interacting with the app and verify that it functions correctly.
+- **Flexible.** The size of each of test layer may differ based on what your team values. The proportions are not meant to be taken as rigid rules. It also depends on how easy it is to test your app with the tools available.
 
 > Every level comes with its own trade-offs. An E2E test has more points of failure making it often harder to track down the problem, but it also means that your test is giving you more confidence.
 > 
@@ -95,15 +95,15 @@ And that's what we want to achieve with our testing layers. Individually each la
 
 With time, many more models were created besides the original pyramid. Nowadays you have many flavours to pick from, just like ice creams. Speaking of which:
 
--   [the ice cream cone](https://alisterbscott.com/kb/testing-pyramids/) (or [cupcake](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern))
--   [the trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications)
--   [the box of rocks](https://gerg.dev/2018/05/testing-is-like-a-box-of-rocks/)
--   [the honeycomb](https://medium.com/@fistsOfReason/testing-is-good-pyramids-are-bad-ice-cream-cones-are-the-worst-ad94b9b2f05f)
--   [the planet](https://www.dropbox.com/s/ahnmtqt4c5l1qv7/round%20earth.pdf?dl=0)
--   [the snowman](https://angryweasel.com/blog/the-test-automation-snowman)
--   [the wheel](https://www.ministryoftesting.com/dojo/lessons/an-introduction-to-the-automation-test-wheel)
--   [the filters](https://infiniteundo.com/post/158179632683/abandoning-the-pyramid-of-testing-in-favor-of-a)
--   and [many more](http://www.testingreferences.com/here_be_pyramids.php)
+- [the ice cream cone](https://alisterbscott.com/kb/testing-pyramids/) (or [cupcake](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern))
+- [the trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications)
+- [the box of rocks](https://gerg.dev/2018/05/testing-is-like-a-box-of-rocks/)
+- [the honeycomb](https://medium.com/@fistsOfReason/testing-is-good-pyramids-are-bad-ice-cream-cones-are-the-worst-ad94b9b2f05f)
+- [the planet](https://www.dropbox.com/s/ahnmtqt4c5l1qv7/round%20earth.pdf?dl=0)
+- [the snowman](https://angryweasel.com/blog/the-test-automation-snowman)
+- [the wheel](https://www.ministryoftesting.com/dojo/lessons/an-introduction-to-the-automation-test-wheel)
+- [the filters](https://infiniteundo.com/post/158179632683/abandoning-the-pyramid-of-testing-in-favor-of-a)
+- and [many more](http://www.testingreferences.com/here_be_pyramids.php)
 
 ![test-pyramid-icecream](/blog/uploads/2023/05/test-pyramid-icecream-324x400.png)
 
@@ -111,15 +111,15 @@ What they all have in common is that their authors are trying to convey a messag
 
 ## Teachers
 
--   [Alister Scott](https://alisterbscott.com/kb/testing-pyramids/)
--   [Kent C. Dodds](https://kentcdodds.com/)
--   [Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html)
--   [Mike Cohn](https://www.mountaingoatsoftware.com/blog)
+- [Alister Scott](https://alisterbscott.com/kb/testing-pyramids/)
+- [Kent C. Dodds](https://kentcdodds.com/)
+- [Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html)
+- [Mike Cohn](https://www.mountaingoatsoftware.com/blog)
 
 ## Sources
 
--   [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
--   [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
--   [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
--   [Balancing the Test Automation Pyramid](https://medium.com/lydtech-consulting/balancing-the-test-automation-pyramid-30cf9c8d8a3c)
--   [How to test your mobile apps efficiently? A five-level pyramid testing strategy](https://medium.com/@BIT_OFIT/how-to-test-efficiently-your-mobile-apps-68be944331ee)
+- [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+- [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+- [Static vs Unit vs Integration vs E2E Testing for Frontend Apps](https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests)
+- [Balancing the Test Automation Pyramid](https://medium.com/lydtech-consulting/balancing-the-test-automation-pyramid-30cf9c8d8a3c)
+- [How to test your mobile apps efficiently? A five-level pyramid testing strategy](https://medium.com/@BIT_OFIT/how-to-test-efficiently-your-mobile-apps-68be944331ee)

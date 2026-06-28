@@ -17,10 +17,10 @@ No, you can't have it.
 
 I researched a bit and there's a few ideas out there:
 
--   Some allow you to replace the top half of the brush. Why half though? It's only the head that needs replacement... It's not as wasteful, but still not optimal.
--   Some add holes to the handle, to make it use less material. That's a neat idea.
--   Some make the handle out of wood. It looks natural, but that's much more expensive to produce than using plastic. Also, you can't replace the head of those toothbrushes. In sum, we made the initial problem prettier and more expensive but we didn't solve it.
--   There's different concepts and failed attempts on Kickstarter, that look good on 3D renders, but none of them are commercially available anymore.
+- Some allow you to replace the top half of the brush. Why half though? It's only the head that needs replacement... It's not as wasteful, but still not optimal.
+- Some add holes to the handle, to make it use less material. That's a neat idea.
+- Some make the handle out of wood. It looks natural, but that's much more expensive to produce than using plastic. Also, you can't replace the head of those toothbrushes. In sum, we made the initial problem prettier and more expensive but we didn't solve it.
+- There's different concepts and failed attempts on Kickstarter, that look good on 3D renders, but none of them are commercially available anymore.
 
 Why can't we design an optimised toothbrush that is **more sustainable and also cheaper to produce and sell?** It's not rocket science and everybody wins: the company, the consumer, the environment.
 
@@ -38,7 +38,7 @@ This is the current toothbrush, the one we're using for decades:
 Here's the perfect toothbrush, that no one created yet:
 
 1.  Handle is hollow and made of recycled plastic
-    -   _(extra points if you use plastic collected from the oceans)_
+    - _(extra points if you use plastic collected from the oceans)_
 2.  Packaging is made of recycled paper
 3.  After 3 months, you keep the handle and replace the head
 4.  You buy a new pack of 20 heads, that will last you 5 years

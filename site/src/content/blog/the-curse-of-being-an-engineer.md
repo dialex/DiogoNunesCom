@@ -21,10 +21,10 @@ An **engineer** looks around and notices flaws, inefficiencies -- in a word, pro
 
 Now comes the "problem".
 
--   Not all problems have a solution.
--   Not all solvable problems _want_ to be fixed.
--   Not all solvable problems can be fixed by you.
--   Not all solvable problems can be fixed without you quitting your job.
+- Not all problems have a solution.
+- Not all solvable problems _want_ to be fixed.
+- Not all solvable problems can be fixed by you.
+- Not all solvable problems can be fixed without you quitting your job.
 
 And, as an engineer, that urge "to fix" is something we must learn to control and sometimes subdue, otherwise we'll fill ourselves with frustration.
 

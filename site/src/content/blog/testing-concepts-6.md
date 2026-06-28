@@ -28,22 +28,22 @@ Do not confuse with [automatability](https://www.youtube.com/watch?v=gL8hmAH4ZGM
 
 There are four main groups of variables that influence testability: value-related, intrinsic, project-related and subjective. Below are some [heuristics](https://dialex.github.io/start-testing/#/toolbox/heuristics.md) adapted from [James Bach](http://www.satisfice.com/tools/testable.pdf). To discover even more dimensions that influence testability, refer to [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)'s **dimensions of testability**.
 
--   **Value**: changing the quality standard or our knowledge of it.
-    -   [_Oracles_](https://dialex.github.io/start-testing/#/toolbox/oracles.md). We need ways to detect each kind of problem that is worth looking for.
-    -   _Users_. The more we can talk to and observe users, the easier it is to test for them.
-    -   _Environment_. Testing is more accurate when performed in the users' environment (or similar).
--   **Intrinsic** (aka. product): changing the system itself.
-    -   _Reliability_. Issues slow down testing since we must stop to report them or work around them.
-    -   _Tolerance_. The less quality required or the more risk that can be taken, the less testing is needed.
-    -   _Controllability_. Ideally we can provide any possible input and invoke any possible state or combination of states easily and on demand.
--   **Project**: changing the conditions under which we test.
-    -   _Information_. We get all information we want or need to test well.
-    -   _Sandboxing_. We are free to do any testing without fear of disrupting users or teams.
-    -   _Time_. We need time to think, prepare and deal with surprises.
--   **Subjective** (aka. tester): changing the tester or the test process.
-    -   [_Test strategy_](https://dialex.github.io/start-testing/#/toolbox/test-strategy.md). A strategy will reduce waste by focusing the testing efforts on what matters.
-    -   _Context knowledge_. The more we know about the users and the system, the better we can test.
-    -   _Technical knowledge_. Our knowledge of technology and tools makes testing easier for us.
+- **Value**: changing the quality standard or our knowledge of it.
+    - [_Oracles_](https://dialex.github.io/start-testing/#/toolbox/oracles.md). We need ways to detect each kind of problem that is worth looking for.
+    - _Users_. The more we can talk to and observe users, the easier it is to test for them.
+    - _Environment_. Testing is more accurate when performed in the users' environment (or similar).
+- **Intrinsic** (aka. product): changing the system itself.
+    - _Reliability_. Issues slow down testing since we must stop to report them or work around them.
+    - _Tolerance_. The less quality required or the more risk that can be taken, the less testing is needed.
+    - _Controllability_. Ideally we can provide any possible input and invoke any possible state or combination of states easily and on demand.
+- **Project**: changing the conditions under which we test.
+    - _Information_. We get all information we want or need to test well.
+    - _Sandboxing_. We are free to do any testing without fear of disrupting users or teams.
+    - _Time_. We need time to think, prepare and deal with surprises.
+- **Subjective** (aka. tester): changing the tester or the test process.
+    - [_Test strategy_](https://dialex.github.io/start-testing/#/toolbox/test-strategy.md). A strategy will reduce waste by focusing the testing efforts on what matters.
+    - _Context knowledge_. The more we know about the users and the system, the better we can test.
+    - _Technical knowledge_. Our knowledge of technology and tools makes testing easier for us.
 
 Here's a [mnemonic](https://dialex.github.io/start-testing/#/toolbox/mnemonics.md) to remember these dimensions: usability, security and other -ilities are equally important; testability is VIP as well; thus testability dimensions are **`VIPS`** (**v**alue, **i**ntrinsic, **p**roject, **s**ubjective). Here's another: [`SOCKS`](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html).
 
@@ -68,19 +68,19 @@ Both the checklist and the assessment are practical methods to discuss testabili
 
 ## Teachers
 
--   [Ash Winter](https://testingisbelieving.blogspot.com/2019/02/ask-me-anything-testability.html)
--   [Bret Pettichord](http://www.pettichord.com/)
--   [James Bach](https://vimeo.com/78912852)
--   [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)
--   [Michael Bolton](http://www.developsense.com/blog/category/testability/)
+- [Ash Winter](https://testingisbelieving.blogspot.com/2019/02/ask-me-anything-testability.html)
+- [Bret Pettichord](http://www.pettichord.com/)
+- [James Bach](https://vimeo.com/78912852)
+- [Maria Kedemo](https://mkedemo.wordpress.com/2015/11/22/dimensions-of-testability-v1-1/)
+- [Michael Bolton](http://www.developsense.com/blog/category/testability/)
 
 ## Sources
 
--   [Test improvement in an agile/CD environment](http://www.huibschoots.nl/wordpress/?p=2543)
--   [The team test for testability](https://testingisbelieving.blogspot.com/2017/08/the-team-test-for-testability.html)
--   [Deeper Testing: Testability](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
--   [Heuristics of Software Testability](http://www.satisfice.com/tools/testable.pdf)
--   [Putting Your Testability Socks On](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
--   [A Map For Testability](https://www.a-sisyphean-task.com/2014/07/a-map-for-testability.html)
--   [Design for Testability](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.5966&rep=rep1&type=pdf)
--   [30 days of Testability challenge](https://dojo.ministryoftesting.com/dojo/lessons/30-days-of-testability)
+- [Test improvement in an agile/CD environment](http://www.huibschoots.nl/wordpress/?p=2543)
+- [The team test for testability](https://testingisbelieving.blogspot.com/2017/08/the-team-test-for-testability.html)
+- [Deeper Testing: Testability](http://www.developsense.com/blog/2017/09/deeper-testing-3-testability/)
+- [Heuristics of Software Testability](http://www.satisfice.com/tools/testable.pdf)
+- [Putting Your Testability Socks On](https://www.a-sisyphean-task.com/2012/07/putting-your-testability-socks-on.html)
+- [A Map For Testability](https://www.a-sisyphean-task.com/2014/07/a-map-for-testability.html)
+- [Design for Testability](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.5966&rep=rep1&type=pdf)
+- [30 days of Testability challenge](https://dojo.ministryoftesting.com/dojo/lessons/30-days-of-testability)

@@ -23,38 +23,38 @@ _Note: Even though you need to be in a single player (offline) instance to use t
 
 This is the hardest part. You need to find the location of your `settings.txt` file.
 
--   There's a path `/Users/Shared/Epic Games/Torchlight2/Torchlight 2` which contains a `settings.txt` file. Ignore it.
--   Instead, go to `~/Library/Application Support/Runic Games/Torchlight 2`
-    -   Or run `cd ~/Library/Application\ Support/Runic\ Games/Torchlight\ 2` on a terminal
+- There's a path `/Users/Shared/Epic Games/Torchlight2/Torchlight 2` which contains a `settings.txt` file. Ignore it.
+- Instead, go to `~/Library/Application Support/Runic Games/Torchlight 2`
+    - Or run `cd ~/Library/Application\ Support/Runic\ Games/Torchlight\ 2` on a terminal
 
 Inside this folder you should see a file named `settings.txt`.
 
--   Open the file and change the lines:
-    -   `Console:0` to `Console:1`
-    -   `Debugmenus:0` to `Debugmenus:1`
--   Save the file and close it
+- Open the file and change the lines:
+    - `Console:0` to `Console:1`
+    - `Debugmenus:0` to `Debugmenus:1`
+- Save the file and close it
 
 ### Rebind the console shortcut
 
 For Windows users, the console is opened by pressing the `Insert` key. Mac users don't have that key, so we need to rebind it.
 
--   Copy the original `keybindings_sdl2.dat` file and append `.backup` to its name
--   Open the `keybindings_sdl2.dat` file for editing (use TextEdit or a similar editor)
--   Search for `NAME:CONSOLE`
--   Edit that section so that your configuration looks like this:
+- Copy the original `keybindings_sdl2.dat` file and append `.backup` to its name
+- Open the `keybindings_sdl2.dat` file for editing (use TextEdit or a similar editor)
+- Search for `NAME:CONSOLE`
+- Edit that section so that your configuration looks like this:
 
 ![](/blog/uploads/2020/09/image.png)
 
--   Save the file and close it.
+- Save the file and close it.
 
 From now on, the shortcut ⇧F will open the console.
 
 ### Use the console
 
--   Start the game
--   Choose single player session
--   Wait until you enter the game world
--   To open the console, press `Shift + F` or `⇧F`
+- Start the game
+- Choose single player session
+- Wait until you enter the game world
+- To open the console, press `Shift + F` or `⇧F`
 
 You should see the dev console and be able to type and submit cheat codes.
 

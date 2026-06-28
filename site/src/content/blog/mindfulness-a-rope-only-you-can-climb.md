@@ -62,10 +62,10 @@ Mindfulness allows you to catch negative thought patterns before they tip you in
 
 ⚠️ **With mindfulness we start to see the world as it is, not as we expect it to be, how we want it to be, or what we fear it might become.**
 
--   ✅ If you sit for a minute with your shoulders slumped forward and head down, notice how you feel by the end. Now try the opposite.
--   ✅ Just the act of smiling can make you happy (even if it's forced). And if you smile, others will smile back at you, reinforcing your own happiness.
--   Act with kindness and compassion toward yourself and others, even if it feels a bit artificial at first.
--   "I should be able to handle this. I'm weak. I'm a lost cause." You can learn to observe negative thoughts as they arise, let them stay a while and then simply watch them go away.
--   ✅ Mindfulness teaches us that thoughts are just events in the mind. They are often valuable but they are not "you" or "reality".
--   If you simply accept life as it is, you will be a lot more fulfilled and increasingly worry free. Mindful acceptance is not resignation. If any action should be taken, then the wisest decision will not come by overthinking it under stress.
--   ✅ When we are stressed and exhausted, we often give up the things that nourish us, to make time for the more "urgent" and "important" things. Avoid this.
+- ✅ If you sit for a minute with your shoulders slumped forward and head down, notice how you feel by the end. Now try the opposite.
+- ✅ Just the act of smiling can make you happy (even if it's forced). And if you smile, others will smile back at you, reinforcing your own happiness.
+- Act with kindness and compassion toward yourself and others, even if it feels a bit artificial at first.
+- "I should be able to handle this. I'm weak. I'm a lost cause." You can learn to observe negative thoughts as they arise, let them stay a while and then simply watch them go away.
+- ✅ Mindfulness teaches us that thoughts are just events in the mind. They are often valuable but they are not "you" or "reality".
+- If you simply accept life as it is, you will be a lot more fulfilled and increasingly worry free. Mindful acceptance is not resignation. If any action should be taken, then the wisest decision will not come by overthinking it under stress.
+- ✅ When we are stressed and exhausted, we often give up the things that nourish us, to make time for the more "urgent" and "important" things. Avoid this.

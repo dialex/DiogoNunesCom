@@ -9,20 +9,20 @@ categories: ["Writing"]
 
 _This post is part of the ["From Dreaming to Publishing" series](http://www.diogonunes.com/blog/?s=From+Dreaming+to+Publishing)_.
 
--   **Telling** is a narrative summary, we're being told
--   **Showing** is an immediate scene, we get to feel/live it
--   Capture readers early on, the first chapter should be all about showing
--   Amateurs draw attention to themselves by telling a lot
--   Engage readers' emotions (show) not their intellects (tell)
--   Don't overdo it: narrative (tell) varies rhythm
--   Scene after scene is exhausting and becomes less impressive
+- **Telling** is a narrative summary, we're being told
+- **Showing** is an immediate scene, we get to feel/live it
+- Capture readers early on, the first chapter should be all about showing
+- Amateurs draw attention to themselves by telling a lot
+- Engage readers' emotions (show) not their intellects (tell)
+- Don't overdo it: narrative (tell) varies rhythm
+- Scene after scene is exhausting and becomes less impressive
 
 ### Checklist
 
--   Which narrative fits best your scene?
--   Going from scene to scene without pauses? Let the reader breath with a narrative!
--   Long passages with nothing happening in real time? Stop telling and start showing!
--   Describing emotions of characters? Resist the urge to explain and show them!
+- Which narrative fits best your scene?
+- Going from scene to scene without pauses? Let the reader breath with a narrative!
+- Long passages with nothing happening in real time? Stop telling and start showing!
+- Describing emotions of characters? Resist the urge to explain and show them!
 
 [![book cover](/blog/uploads/2014/12/twiw-44-e1418044375476.jpg)](http://www.amazon.com/gp/product/0060545690/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0060545690&linkCode=as2&tag=thegeegec00-20&linkId=MYZDZS7WK5JLOMYA)
 

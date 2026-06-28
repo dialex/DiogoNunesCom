@@ -13,14 +13,14 @@ categories: ["Technology"]
 
 The [Internet Button](https://www.particle.io/products/hardware/internet-button) contains a lot of useful hardware in a quite compact package. This is what it includes:
 
--   Photon (the brain) with wifi access
--   11 bright RGB LEDs
--   4 physical buttons
--   Sound speaker
--   Accelerometer
--   Plastic cover
--   USB cable
--   Particle's swag sticker :)
+- Photon (the brain) with wifi access
+- 11 bright RGB LEDs
+- 4 physical buttons
+- Sound speaker
+- Accelerometer
+- Plastic cover
+- USB cable
+- Particle's swag sticker :)
 
 ## How it works
 

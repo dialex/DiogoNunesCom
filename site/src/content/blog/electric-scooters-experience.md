@@ -19,9 +19,9 @@ I could replace the car with a bicycle, however the path is not flat so there wo
 
 In summary, I was looking for a transport that would:
 
--   be heavy and leave locked OR light and carry with me
--   be as fast (and hopefully as cheap) as a bicycle
--   assist me on climbs OR easy to carry
+- be heavy and leave locked OR light and carry with me
+- be as fast (and hopefully as cheap) as a bicycle
+- assist me on climbs OR easy to carry
 
 A candidate emerged: _an electric scooter_.
 
@@ -41,10 +41,10 @@ The greener the better. Red is bad.
 
 [![](/blog/uploads/2018/10/electric-scooter-benchmark-2018-entry-level.png)](https://www.diogonunes.com/blog/wp-content/uploads/2018/10/electric-scooter-benchmark-2018-entry-level.png)
 
--   [UrbanGlide Ride 50S Carbon](http://storex.fr/pt-pt/product-tag/urbanride50/) (low weight/price/quality)
--   [EcoReco XS](https://ecorecoscooter.com/product/ecoreco-model-xs-pre-order/) (lightweight but good construction)
--   [Zoom Stryder](https://www.ridezoom.co/) (solid, powerful, expensive, heavy)
--   _[Mi Electric Scooter](https://www.mi.com/us/mi-electric-scooter/) was as expensive as EcoReco XS, but had double the weight so I did not consider it. However it's by far the most popular electric scooter, it's the only model I've seen in the streets so far._
+- [UrbanGlide Ride 50S Carbon](http://storex.fr/pt-pt/product-tag/urbanride50/) (low weight/price/quality)
+- [EcoReco XS](https://ecorecoscooter.com/product/ecoreco-model-xs-pre-order/) (lightweight but good construction)
+- [Zoom Stryder](https://www.ridezoom.co/) (solid, powerful, expensive, heavy)
+- _[Mi Electric Scooter](https://www.mi.com/us/mi-electric-scooter/) was as expensive as EcoReco XS, but had double the weight so I did not consider it. However it's by far the most popular electric scooter, it's the only model I've seen in the streets so far._
 
 ### The regrets
 
@@ -54,14 +54,14 @@ It was a hard choice. This was my first (electric) scooter, so I decided to play
 
 **I asked for a refund 48h later.** Let me tell you why it sucked so bad:
 
--   Uncomfortable: knee & wrist pain after one trip (due to lack of suspension)
--   Weak engine: normal 6km/h, max speed 18km/h (lower than specs)
--   Weak battery: reached 60% at 4km (half the specs)
--   Hand grips unscrew themselves during trip
+- Uncomfortable: knee & wrist pain after one trip (due to lack of suspension)
+- Weak engine: normal 6km/h, max speed 18km/h (lower than specs)
+- Weak battery: reached 60% at 4km (half the specs)
+- Hand grips unscrew themselves during trip
 
 ### The conclusion
 
--   No easy way to safely lock it; your arms will get tired of carrying it
--   Cheap is good for flat paths and good quality pavement (not the case in )
--   Otherwise go for power and suspension (which compromises portability)
--   **I decided to use a bicycle** downhill and carry it when returning
+- No easy way to safely lock it; your arms will get tired of carrying it
+- Cheap is good for flat paths and good quality pavement (not the case in )
+- Otherwise go for power and suspension (which compromises portability)
+- **I decided to use a bicycle** downhill and carry it when returning

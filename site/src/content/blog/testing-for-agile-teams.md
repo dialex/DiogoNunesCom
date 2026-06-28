@@ -11,10 +11,10 @@ _This post is part of the ["Testing for Agile Teams" series](http://www.diogonun
 
 ## The agile way
 
--   Remember [the manifesto](http://agilemanifesto.org/).
--   Focus on delivering small chunks of business value in short cycles.
--   Numerous implementations of the manifesto: Scrum, XP, Kanban, DSDM...
--   Solve problems as a team of people who all feel responsible for delivering the best possible quality.
+- Remember [the manifesto](http://agilemanifesto.org/).
+- Focus on delivering small chunks of business value in short cycles.
+- Numerous implementations of the manifesto: Scrum, XP, Kanban, DSDM...
+- Solve problems as a team of people who all feel responsible for delivering the best possible quality.
 
 ## The agile teams
 
@@ -22,28 +22,28 @@ Agile testing includes everything beyond unit testing: functional, system, load,
 
 **Customer team**
 
--   Includes domain experts, product owners, business analysts.
--   Writes the stories or feature sets.
--   Provides examples that will drive coding.
+- Includes domain experts, product owners, business analysts.
+- Writes the stories or feature sets.
+- Provides examples that will drive coding.
 
 **Developer team**
 
--   Everyone involved with delivering code (devs, SysAdmins, DBAs...)
--   Agile discourages specialized roles -- transfer skills to others.
+- Everyone involved with delivering code (devs, SysAdmins, DBAs...)
+- Agile discourages specialized roles -- transfer skills to others.
 
 **Testers, a foot in each world**
 
--   Advocate for quality on behalf of the customer.
--   Help the customer tell what is valuable and critical.
--   Write tests and examples to ensure that’s what they'll get.
--   Assist the development team in delivering the max value.
--   Testing in ways developers hadn’t originally anticipated (exploratory).
+- Advocate for quality on behalf of the customer.
+- Help the customer tell what is valuable and critical.
+- Write tests and examples to ensure that’s what they'll get.
+- Assist the development team in delivering the max value.
+- Testing in ways developers hadn’t originally anticipated (exploratory).
 
 ## The agile flow
 
--   Programmers never get ahead of the testers, because a story is not "done" until it has been tested.
--   As a team member, **you will need to be adaptive to the team's needs**.
--   Automated functional tests are added to the regression test suite.
+- Programmers never get ahead of the testers, because a story is not "done" until it has been tested.
+- As a team member, **you will need to be adaptive to the team's needs**.
+- Automated functional tests are added to the regression test suite.
 
 > We don’t think of "departments", we just think of the skills.
 

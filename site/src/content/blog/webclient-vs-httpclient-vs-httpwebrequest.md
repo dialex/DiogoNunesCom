@@ -9,8 +9,8 @@ categories: ["Technology"]
 
 Just when I was starting to get used to call WebServices through WSDL - like I showed [here](http://www.diogonunes.com/blog/calling-a-web-method-in-c-without-a-service-reference/) and [here](http://www.diogonunes.com/blog/calling-webservice-without-wsdl-or-web-reference/) - I had to call a RESTful API. If you don't know what I'm talking about you're like me [a week ago](http://stackoverflow.com/a/840713/675577). Let's just say that:
 
--   a **WSDL** API uses **SOAP** to exchange **XML**\-encoded data
--   a **REST** API uses **HTTP** to exchange **JSON**\-encoded data
+- a **WSDL** API uses **SOAP** to exchange **XML**\-encoded data
+- a **REST** API uses **HTTP** to exchange **JSON**\-encoded data
 
 That's a whole new paradigm. Instead of `GetObject()` and `SetObject()` methods you have a single url `api/object` that may receive either an `HTTP GET` request or an `HTTP POST` request.
 
@@ -68,7 +68,7 @@ It combines the control of `HttpWebRequest` with the simplicity of `WebClient`.
 
 ### Conclusion
 
--   `HttpWebRequest` for control
--   `WebClient` for simplicity and brevity
--   `RestSharp` for both on non-.NET 4.5 environments
--   `HttpClient` for both + async features on .NET 4.5 environments
+- `HttpWebRequest` for control
+- `WebClient` for simplicity and brevity
+- `RestSharp` for both on non-.NET 4.5 environments
+- `HttpClient` for both + async features on .NET 4.5 environments

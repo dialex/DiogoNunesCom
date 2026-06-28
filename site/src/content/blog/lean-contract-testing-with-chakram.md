@@ -24,8 +24,8 @@ Since we want to detect a broken API, let's test as close as possible to that AP
 
 We know how to call the API and we know what we expect to get in return, both in terms of **structure** and **data**. We want a test to fail when:
 
--   One required field goes missing (structure), e.g. `bookAuthor` field is not returned.
--   One required value changes (data), e.g. `publishedAt` value no longer follows [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
+- One required field goes missing (structure), e.g. `bookAuthor` field is not returned.
+- One required value changes (data), e.g. `publishedAt` value no longer follows [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
 
 ### The right tool for the job
 

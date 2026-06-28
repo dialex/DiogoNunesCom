@@ -21,11 +21,11 @@ I tried to follow the official [OSSRH guide](http://central.sonatype.org/pages/o
 
 Make sure you have a `pom.xml` that complies with [Sonatype's requirements](http://central.sonatype.org/pages/requirements.html), namely:
 
--   Project coordinates (`groupId`, `artifactId`, `version`)
--   Name, Description and URL
--   License info
--   Developer info
--   Source control (repo) info
+- Project coordinates (`groupId`, `artifactId`, `version`)
+- Name, Description and URL
+- License info
+- Developer info
+- Source control (repo) info
 
 It will only get worse from here. You have been warned.
 
@@ -35,8 +35,8 @@ _scroll down if you're brave_
 
 When you get the reply to your Jira Ticket:
 
--   [Watch this video guide](https://www.youtube.com/watch?v=dXR4pJ_zS-0)
--   But keep an open tab with the [complete guide](http://central.sonatype.org/pages/apache-maven.html), to copy-paste code snippets.
+- [Watch this video guide](https://www.youtube.com/watch?v=dXR4pJ_zS-0)
+- But keep an open tab with the [complete guide](http://central.sonatype.org/pages/apache-maven.html), to copy-paste code snippets.
 
 #### Problem (path to config)
 
@@ -64,8 +64,8 @@ brew install gnupg2
 PATH="/usr/local/opt/gnupg/libexec/gpgbin:$PATH"
 ```
 
--   Follow [these steps](http://central.sonatype.org/pages/working-with-pgp-signatures.html) to generate a signature.
--   Edit `settings.xml` again to include your GPG passphrase.
+- Follow [these steps](http://central.sonatype.org/pages/working-with-pgp-signatures.html) to generate a signature.
+- Edit `settings.xml` again to include your GPG passphrase.
 
 ```xml
 <settings>
@@ -79,7 +79,7 @@ PATH="/usr/local/opt/gnupg/libexec/gpgbin:$PATH"
 </settings>
 ```
 
--   You must sign at least one file before being able to send the key to the server. You can use any file and delete it afterwards.
+- You must sign at least one file before being able to send the key to the server. You can use any file and delete it afterwards.
 
 For some reason you have to use your passphrase at least once, to "unlock it" or some kind... make sure you are [able to receive the key back from the server](http://central.sonatype.org/pages/working-with-pgp-signatures.html#distributing-your-public-key).
 

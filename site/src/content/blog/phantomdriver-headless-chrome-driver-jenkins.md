@@ -11,8 +11,8 @@ categories: ["Technology"]
 
 **UPDATE:** The initial goal of this post was to guide you through the configuration of the headless Chrome (Driver) on Jenkins. However, in the meantime this happened:
 
--   [the maintainer of PhantomJS is stepping down](https://news.ycombinator.com/item?id=14105489)
--   because [headless Chrome is coming](https://news.ycombinator.com/item?id=14101233)
+- [the maintainer of PhantomJS is stepping down](https://news.ycombinator.com/item?id=14105489)
+- because [headless Chrome is coming](https://news.ycombinator.com/item?id=14101233)
 
 > Chrome is faster and more stable than PhantomJS. And it doesn't eat memory like crazy. -- Vitaly Slobodin, Author of PhantomJS
 

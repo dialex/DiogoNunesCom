@@ -42,7 +42,7 @@ trigger-pipeline:
 
 If you use this code you will create a job named `trigger-pipeline` in your pipeline A, that when executed will call a pipeline B (`TRIGGER_TARGET_REPO_ID`), and wait for that pipeline to finish.
 
--   Don't forget to replace the `TBD` (To Be Defined) values with your own configuration.
--   I was a bit lost on how to create the `PIPELINE_TRIGGER_TOKEN`, then I [found this](http://tiny.cc/2unvbz)
--   This code assumes you have GitLab self hosted. If not, you can remove the `-h $GITLAB_HOST -u $GITLAB_API_PATH` part.
--   The end status of pipeline B will be the status of this job. So if pipeline B fails, this job will also fail.
+- Don't forget to replace the `TBD` (To Be Defined) values with your own configuration.
+- I was a bit lost on how to create the `PIPELINE_TRIGGER_TOKEN`, then I [found this](http://tiny.cc/2unvbz)
+- This code assumes you have GitLab self hosted. If not, you can remove the `-h $GITLAB_HOST -u $GITLAB_API_PATH` part.
+- The end status of pipeline B will be the status of this job. So if pipeline B fails, this job will also fail.

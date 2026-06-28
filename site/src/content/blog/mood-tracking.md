@@ -21,8 +21,8 @@ That's how I found the [Daylio app](https://daylio.net/ "‌"). I've been using 
 
 The default configuration of the app is pretty good. Once you get used to it I suggest you tweak it to make it yours – the moods, the activities, the colours – it needs to fit your reality. Personally, I have
 
--   A range of 5 emotions (awful, bad, meh, good, great)
--   A list of 15 activities (e.g. gaming, reading, eat out, etc.)
+- A range of 5 emotions (awful, bad, meh, good, great)
+- A list of 15 activities (e.g. gaming, reading, eat out, etc.)
 
 ![](/blog/uploads/2023/02/Screenshot_20230103_190907_Daylio.jpg.jpeg)
 
@@ -40,14 +40,14 @@ _My total moods during a full year_
 
 Here's why I like this app so much:
 
--   I don't forget to journal, because every day I get one notification. I set the time to 9pm
--   If, somehow, I forget a day, it breaks my daily streak and there's no way I'll let that happen!
--   It takes me less than 60 seconds and 6 clicks to journal a day
--   Everything is customisable: activities, moods, icons and colours
--   Patterns and insights are calculated automatically: mood counts like “you felt great X times,” activity counts like “you had nightmares X times,” “your happiest day of the week is X,” “when you feel awful it's often due to X”.
--   The insights are grouped by month, year or activity and they are displayed in beautiful and intuitive charts.
--   Your data never leaves your device (optionally, you can use your Google Drive for backups)
--   All this is free
+- I don't forget to journal, because every day I get one notification. I set the time to 9pm
+- If, somehow, I forget a day, it breaks my daily streak and there's no way I'll let that happen!
+- It takes me less than 60 seconds and 6 clicks to journal a day
+- Everything is customisable: activities, moods, icons and colours
+- Patterns and insights are calculated automatically: mood counts like “you felt great X times,” activity counts like “you had nightmares X times,” “your happiest day of the week is X,” “when you feel awful it's often due to X”.
+- The insights are grouped by month, year or activity and they are displayed in beautiful and intuitive charts.
+- Your data never leaves your device (optionally, you can use your Google Drive for backups)
+- All this is free
 
 With this data I was able to figure out what lifts me up (e.g., playing games with friends) and what drags me down (e.g., family drama). Find yours.
 

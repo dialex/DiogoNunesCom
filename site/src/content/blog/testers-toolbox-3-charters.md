@@ -14,16 +14,16 @@ categories: ["Work"]
 
 It works like a map:
 
--   If you show your map to someone, they quickly understand where you want to go.
--   If you wander too much and find yourself lost, your map focuses your mind by showing which paths deviate you from your initial goal and which paths lead you there.
+- If you show your map to someone, they quickly understand where you want to go.
+- If you wander too much and find yourself lost, your map focuses your mind by showing which paths deviate you from your initial goal and which paths lead you there.
 
 **Exploring software** has much in common with exploring territory. Along the way you will make many discoveries (e.g. information, bugs). To make your journey easier you can use tools. Remember, "the most important tool is the one between your ears". As an [exploratory tester](https://dialex.github.io/start-testing/#/roles/exploration-tester.md) you will conduct exploratory testing sessions like these and charters can guide your way.
 
 You can write your charters to be precise or broad, as you will see in the practice section below. Nevertheless, for a charter to be useful it should contain enough detail for anyone to understand three things. As a [mnemonic](https://dialex.github.io/start-testing/#/toolbox/mnemonics.md) you can remember the initials `TRI` — because a charter summarises what you are **TR**y**I**ng to accomplish:
 
--   **Target**: What is the name of the area you will explore?
--   **Resource**: What tools will you use on your exploration?
--   **Information**: What do you hope to achieve/discover in the end?
+- **Target**: What is the name of the area you will explore?
+- **Resource**: What tools will you use on your exploration?
+- **Information**: What do you hope to achieve/discover in the end?
 
 Different charters lead to different types of exploration. You can view charters as a reminder to focus on a particular kind of information or risk while exploring.
 
@@ -35,9 +35,9 @@ A charter is a **small sentence** that summarises your focus for a particular ex
 
 Here are a few examples of…
 
--   Targets: a feature, a requirement, a screen.
--   Resources: a tool, a data set, a technique, a config, a feature… anything you can use.
--   Information: bugs, (unexpected) behaviours, dependencies, usability, compliance.
+- Targets: a feature, a requirement, a screen.
+- Resources: a tool, a data set, a technique, a config, a feature… anything you can use.
+- Information: bugs, (unexpected) behaviours, dependencies, usability, compliance.
 
 As mentioned, charters can be precise or broad. If you are testing a specific area of your product for the first time, maybe you don't have enough knowledge to write a detailed charter. In that case your testing charter might look like this:
 
@@ -71,9 +71,9 @@ Feel free to create your own templates and don't let them limit your creativity.
 
 ## Teachers
 
--   [Elisabeth Hendrickson](https://twitter.com/testobsessed)
+- [Elisabeth Hendrickson](https://twitter.com/testobsessed)
 
 ## Sources
 
--   [Software Testing Clinic's 99 seconds intro](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-charters)
--   [Explore It!](https://amzn.to/2OucmPY)
+- [Software Testing Clinic's 99 seconds intro](https://dojo.ministryoftesting.com/lessons/99-second-introduction-to-charters)
+- [Explore It!](https://amzn.to/2OucmPY)

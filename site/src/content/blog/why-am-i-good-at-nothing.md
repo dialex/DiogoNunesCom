@@ -30,10 +30,10 @@ Maybe you are comparing yourself to masters. Maybe you are being too demanding o
 
 Here's my advice, to decrease frustration and boost your self-esteem:
 
--   [Compare with your previous self](https://youtu.be/jtpOYxsZj7o), not others
--   [Focus on getting better](https://blog.stephsmith.io/how-to-be-great/), not being _the best_
--   Frequently practice what you want to be good at
--   Decide if you want to be a specialist or a generalist
+- [Compare with your previous self](https://youtu.be/jtpOYxsZj7o), not others
+- [Focus on getting better](https://blog.stephsmith.io/how-to-be-great/), not being _the best_
+- Frequently practice what you want to be good at
+- Decide if you want to be a specialist or a generalist
 
 If you still feel you are good at nothing, [consider helping something bigger than you](https://www.diogonunes.com/blog/good-at-nothing-volunteer/).
 

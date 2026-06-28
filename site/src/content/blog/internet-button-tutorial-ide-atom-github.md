@@ -20,8 +20,8 @@ Here's what I recommend you do:
 1.  Download their repo as a zip. [Unzip it](https://youtu.be/D8K90hX4PrE?t=20s).
 2.  Keep the folder structure.
 3.  That `spark.json` is mandatory. Customize it according to your project.
-    -   Keep in mind that your project's name must be unique
-    -   Version should follow the format X.Y.Z (and can't go backward!)
+    - Keep in mind that your project's name must be unique
+    - Version should follow the format X.Y.Z (and can't go backward!)
 4.  Leave untouched the `InternetButton` C++ files, you'll need those.
 5.  Delete the `Examples` folder.
 6.  Commit. Push. Your repo should be public for now. After you connect it to your Particle's account you can make it private.
@@ -45,7 +45,7 @@ DISCLAIMER: **Forget their web IDE.** Period. It's too complicated, nothing make
 
 This is their web IDE but ~done right~ better. It's a custom version of [Atom text editor](https://atom.io/). This is the one place to go to develop and deploy code for your Internet Button.
 
--   The **Compile** button, sends you code to Particle's cloud and compiles it. If you get and error it will tell you the file and line (but you can't jump to the source code...).
--   The **Publish** button, starts by compiling your code and then deploys it on your connected device (displayed on the footer). Your Internet Button's should start blinking when this happens.
+- The **Compile** button, sends you code to Particle's cloud and compiles it. If you get and error it will tell you the file and line (but you can't jump to the source code...).
+- The **Publish** button, starts by compiling your code and then deploys it on your connected device (displayed on the footer). Your Internet Button's should start blinking when this happens.
 
 Your main code should be inside a `*.ino` file. That file should contain at least two methods: `begin()` and a `loop()`. Now is the time to looks at the examples at the [InternetButton](https://github.com/spark/InternetButton) repo. We'll go through some of them on the next part of this tutorial.

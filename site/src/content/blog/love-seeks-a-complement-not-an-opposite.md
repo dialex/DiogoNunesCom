@@ -14,9 +14,9 @@ When I was a kid I kept hearing that _people were like magnets_ because persons 
 
 There are two main [schools of thought](http://en.wikipedia.org/wiki/School_of_thought):
 
--   **Identicals attract**. A happy couple looks and thinks alike; they go to the same concerts, read the same books, watch the same movies, have the same opinions. Otherwise, they would be arguing all the time and they wouldn't be able to do anything together.
+- **Identicals attract**. A happy couple looks and thinks alike; they go to the same concerts, read the same books, watch the same movies, have the same opinions. Otherwise, they would be arguing all the time and they wouldn't be able to do anything together.
     
--   **Opposites attract**. A happy couple looks totally apart from each other; they like different things and have different opinions. Otherwise, they would get bored of each other, because it would be like looking at a mirror, every single day.
+- **Opposites attract**. A happy couple looks totally apart from each other; they like different things and have different opinions. Otherwise, they would get bored of each other, because it would be like looking at a mirror, every single day.
     
 
 > Relationships are about getting our own needs met, often on an unconscious basis. In other words, **we try to find someone who is complementary to us** and can help us learn, heal, and grow. [Jean Lawrence](http://www.webmd.com/sex-relationships/features/do-opposites-attract)

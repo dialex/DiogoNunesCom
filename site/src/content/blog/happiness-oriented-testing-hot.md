@@ -36,11 +36,11 @@ It doesn't matter how many lines you write. What matters is code readability. Th
 
 What about us testers? What metrics do we use? Oh, we have plenty of those:
 
--   _Numbers_... of bugs found (by us and the user), regressions, outages
+- _Numbers_... of bugs found (by us and the user), regressions, outages
     
--   _Totals_... of new tests, tests executed, testing hours, tickets rejected by QA
+- _Totals_... of new tests, tests executed, testing hours, tickets rejected by QA
     
--   _Percentages_... like coverage, passed tests, flaky tests, ratio between code and tests
+- _Percentages_... like coverage, passed tests, flaky tests, ratio between code and tests
     
 
 In my opinion, [**quality is value to some person, who matters.**](https://dialex.github.io/start-testing/#/concepts/tester-responsibilities)

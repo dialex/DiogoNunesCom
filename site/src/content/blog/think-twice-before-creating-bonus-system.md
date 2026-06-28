@@ -55,20 +55,20 @@ The **secret** is learning from experts and their latest researches, from other 
 
 There are some [advices](http://gojko.net/2008/08/07/paying-programmers-are-bonuses-bad-and-what-to-do-about-it/) you can follow when creating your own system:
 
--   **Explain clearly what's missing.** Don't make your employees guess from your actions.
--   **Avoid individual performance bonuses.** They murder collaboration.
--   **Measure team performance.** Peer pressure will do the work for you.
--   **Track your Karma.** Justice and generosity nurtures motivation; afterhours destroy it.
--   **Share profits instead of bonuses.** That way you tie people to organisational goals.
--   \[Option A\]: **Set a fixed % of the bonus** for every employee, thus removing competition and preserving relationships.
--   \[Option B\]: **Set a dynamic bonus** based on job complexity, thus rewarding those who tackle hard projects.
+- **Explain clearly what's missing.** Don't make your employees guess from your actions.
+- **Avoid individual performance bonuses.** They murder collaboration.
+- **Measure team performance.** Peer pressure will do the work for you.
+- **Track your Karma.** Justice and generosity nurtures motivation; afterhours destroy it.
+- **Share profits instead of bonuses.** That way you tie people to organisational goals.
+- \[Option A\]: **Set a fixed % of the bonus** for every employee, thus removing competition and preserving relationships.
+- \[Option B\]: **Set a dynamic bonus** based on job complexity, thus rewarding those who tackle hard projects.
 
 If you really want to go the metrics way, [this site](http://www.nickhodges.com/post/Measuring-Developer-Productivity.aspx) suggests interesting **metrics for software-based companies** to measure _Productivity_, _Engagement_, _Quality_, _Code Base knowledge_, _Adherence to guidelines_, _Skill learning_, and _Responsibility_. I'll list my favorite of each category, in the same order:
 
--   Does the developer get a reasonable amount of work done in a given period of time?
--   Is the developer dedicated to company success?
--   Does the developer thoroughly test code and believe it to be correct before checking it in?
--   Does the developer take responsibility for his/her team's code base, improving it at every opportunity?
--   Does developer's code routinely meet coding standards?
--   Is the developer constantly learning and improving his/her skills?
--   Does the developer take pride in their code, ensuring it is clean, tested, easy to read, and easy to maintain?
+- Does the developer get a reasonable amount of work done in a given period of time?
+- Is the developer dedicated to company success?
+- Does the developer thoroughly test code and believe it to be correct before checking it in?
+- Does the developer take responsibility for his/her team's code base, improving it at every opportunity?
+- Does developer's code routinely meet coding standards?
+- Is the developer constantly learning and improving his/her skills?
+- Does the developer take pride in their code, ensuring it is clean, tested, easy to read, and easy to maintain?

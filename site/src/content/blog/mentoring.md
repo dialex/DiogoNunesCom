@@ -74,17 +74,17 @@ In our case, our match was natural and voluntary. I relaxed and went with the ap
 
 ### What I learned as a mentor
 
--   Mentoring another colleague from work is a chance to see a glimpse of how different people work. Not only it builds relationships and bridges between teams, but it also inspires the pair to try each other's techniques.
+- Mentoring another colleague from work is a chance to see a glimpse of how different people work. Not only it builds relationships and bridges between teams, but it also inspires the pair to try each other's techniques.
     
--   If you are a manager, you can advocate for the idea of colleagues mentoring each other, but you should not make it mandatory or assign pairs.
+- If you are a manager, you can advocate for the idea of colleagues mentoring each other, but you should not make it mandatory or assign pairs.
     
--   The pair agrees how the mentoring sessions should work. You don't need structure or formality for it to work. Let it flow and evolve naturally.
+- The pair agrees how the mentoring sessions should work. You don't need structure or formality for it to work. Let it flow and evolve naturally.
     
--   **Sometimes people don't need a teacher. They just need someone to be vulnerable with.** They just need a space where they can try-fail-recover without judgement.
+- **Sometimes people don't need a teacher. They just need someone to be vulnerable with.** They just need a space where they can try-fail-recover without judgement.
     
--   Like with any other volunteer work, don't expect anything back, the reward is doing it.
+- Like with any other volunteer work, don't expect anything back, the reward is doing it.
     
--   That [BTS](https://www.youtube.com/watch?v=WMweEpGlu_U) are actually good!
+- That [BTS](https://www.youtube.com/watch?v=WMweEpGlu_U) are actually good!
     
 
 ### Evolution

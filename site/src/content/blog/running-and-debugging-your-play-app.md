@@ -11,9 +11,9 @@ categories: ["Technology"]
 
 ## Running locally
 
--   `play run` will start the local (Netty) server and your app will be available at [localhost:9000](http://localhost:9000).
--   `play ~run` will start the local server and reload it automatically every time you change a file of you app, that way you don't need to hit refresh (F5) on your browser.
--   **Useful tip:** If you don’t want to have to worry about [applying evolutions](http://www.playframework.com/documentation/2.2-SNAPSHOT/Evolutions) each time you restart Play, add `applyEvolutions.your_database_name=true` to your application.conf file. For instance, considering the default database, you should add `applyEvolutions.default=true`.
+- `play run` will start the local (Netty) server and your app will be available at [localhost:9000](http://localhost:9000).
+- `play ~run` will start the local server and reload it automatically every time you change a file of you app, that way you don't need to hit refresh (F5) on your browser.
+- **Useful tip:** If you don’t want to have to worry about [applying evolutions](http://www.playframework.com/documentation/2.2-SNAPSHOT/Evolutions) each time you restart Play, add `applyEvolutions.your_database_name=true` to your application.conf file. For instance, considering the default database, you should add `applyEvolutions.default=true`.
 
 ## Debugging using Eclipse
 

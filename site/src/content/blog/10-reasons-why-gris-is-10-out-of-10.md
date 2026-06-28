@@ -19,7 +19,7 @@ categories: ["Technology"]
 8.  You will sometimes slowdown or stop to appreciate the moment
 9.  Your mind will wander, looking for meaning in every detail
 10.  It will hit your feelings
-     -   _a tissue box is just as important as a game controller_
+     - _a tissue box is just as important as a game controller_
 
 ![Journey reference](/blog/uploads/2019/12/Desktop-Screenshot-2019.12.08-10.51.20.80.png)
 

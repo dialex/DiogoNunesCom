@@ -15,10 +15,10 @@ So I started looking for an **external GPS unit** for my camera. That would cost
 
 ## What you need
 
--   A smartphone (i.e. a GPS device capable of recording/exporting a route)
--   A digital camera
--   A computer
--   A beautiful place to photograph
+- A smartphone (i.e. a GPS device capable of recording/exporting a route)
+- A digital camera
+- A computer
+- A beautiful place to photograph
 
 ## Part 1 - Recording your GPS location
 

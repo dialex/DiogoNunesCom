@@ -17,12 +17,12 @@ After [I changed jobs](https://pt.linkedin.com/in/nunesdiogo), I was spending on
 
 It took a month and dozens of renting websites to find the room I was looking for. It's exhausting **finding the balance** between:
 
--   **Location**
--   **Price**
--   **Quality**
--   **Amenities & Furniture**
--   **Number of roommates**
--   **Room vs Apartment**
+- **Location**
+- **Price**
+- **Quality**
+- **Amenities & Furniture**
+- **Number of roommates**
+- **Room vs Apartment**
 
 And this is the time you'll hate being a guy -- yup, some listings just refuse to accept male guests. Now I know how gender discrimination feels like.
 
@@ -42,16 +42,16 @@ I couldn't sleep on my first night, too much anxiety. During my childhood my roo
 
 This will probably **happen to you**:
 
--   Discover that dishes and clothes do not wash themselves.
--   Be even more grateful for the _backstage work_ your parents do for you.
--   After a certain hour, your brain starts thinking in the background "what will I cook for dinner? And HOW?"
--   You eat less, but you savour each mouthful. After all, it's your work.
--   Even an expert in tech freezes when he/she uses a washing machine for the first time.
+- Discover that dishes and clothes do not wash themselves.
+- Be even more grateful for the _backstage work_ your parents do for you.
+- After a certain hour, your brain starts thinking in the background "what will I cook for dinner? And HOW?"
+- You eat less, but you savour each mouthful. After all, it's your work.
+- Even an expert in tech freezes when he/she uses a washing machine for the first time.
 
 ### tl;dr
 
--   Challenge yourself out of the comfort zone.
--   "Bite your tongue", embrace it and endure it.
--   Those achievements will strengthen your confidence.
+- Challenge yourself out of the comfort zone.
+- "Bite your tongue", embrace it and endure it.
+- Those achievements will strengthen your confidence.
 
 When did you moved out of your parent's house? How was it?

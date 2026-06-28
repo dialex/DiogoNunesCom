@@ -11,9 +11,9 @@ categories: ["Technology"]
 
 Recalling my [BrowserStack review](http://diogonunes.com/blog/browserstack-cross-browser-testing-review), their main tools are:
 
--   **Automate**: Where you run your automated Selenium tests and check the results.
--   **Screenshots**: Paste an URL, select the browsers and version you want, and in a few minutes you get a batch of screenshots.
--   **Live**: by connecting to their data center you are able to do exploratory testing of your web app on the environment you need without having to worry about virtual machines.
+- **Automate**: Where you run your automated Selenium tests and check the results.
+- **Screenshots**: Paste an URL, select the browsers and version you want, and in a few minutes you get a batch of screenshots.
+- **Live**: by connecting to their data center you are able to do exploratory testing of your web app on the environment you need without having to worry about virtual machines.
 
 Note that **BrowserStack Automate tells you if a test has completed, not that it passed**. For me [that's just weird](http://diogonunes.com/blog/browserstack-cross-browser-testing-review). So when a test fails locally it doesn't (necessarily) fail remotely. I explicitly created an assert that would always fails like `assertThat(true, is(false))` and it would fail locally and ~pass~ complete on BrowserStack. I had to use that [API workaround to mark tests as failed](http://stackoverflow.com/a/35102092/675577) you will se below.
 

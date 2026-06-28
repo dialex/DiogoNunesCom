@@ -12,9 +12,9 @@ First of all I must thank your support. Over this year I kept receiving **positi
 
 ### Why the name?
 
--   I like technology, therefore "Geek";
--   I like reptiles & I'm cold-blooded, therefore "Gecko";
--   Thus, "The Geeky Gecko".
+- I like technology, therefore "Geek";
+- I like reptiles & I'm cold-blooded, therefore "Gecko";
+- Thus, "The Geeky Gecko".
 
 ### Statistics. Statistics everywhere!
 
@@ -24,10 +24,10 @@ Since this is a ~technological~ personal blog I tried to balance the subject of 
 
 The average reader of my blog:
 
--   is Portuguese, or American, or Brazilian
--   visits the blog on Mondays
--   reads the post at 11am, or 9am, or 22pm
--   and takes 1 minute and 16 seconds to read it
+- is Portuguese, or American, or Brazilian
+- visits the blog on Mondays
+- reads the post at 11am, or 9am, or 22pm
+- and takes 1 minute and 16 seconds to read it
 
 Until last month I used the default commenting system provided by Wordpress, without any human-validation software like reCAPTCHA. Over the course of the year, the number of **spam comments increased exponentially** as you can see from the graph below. In the first months I had an average of 100 spam comments but then it skyrocketed! I was having thousands of spam comments per week! You know, stuff about Oprah, pills, and crazy deals. Thankfully I had Akismet installed since day one (it's really a must-have), which deleted all that spam for me.
 

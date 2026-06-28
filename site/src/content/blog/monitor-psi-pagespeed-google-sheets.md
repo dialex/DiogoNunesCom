@@ -101,8 +101,8 @@ Right now, you can run the PSI test with the click of a button. But ideally the 
 1.  Return to the **Google Apps Script** editor
 2.  Navigate to **Edit > Current project's triggers**
 3.  Configure your trigger – if you want to run it daily, use the following config:
-    -   Run the `monitor` function
-    -   "Time-driven", "Day timer", Select any hour
+    - Run the `monitor` function
+    - "Time-driven", "Day timer", Select any hour
 4.  Save your trigger
 
 [![](/blog/uploads/2020/10/PSI-Schedule-953x1024.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/10/PSI-Schedule.png)

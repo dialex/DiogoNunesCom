@@ -15,9 +15,9 @@ How can you use this Bootstrap Switch with Ruby on Rails? Well [it was not that 
 
 ### Set up
 
--   Add `gem 'bootstrap-switch-rails', '~> 3.0.0'` to your `Gemfile`
--   Add `//= require bootstrap-switch` to `/assets/javascripts/application.js`
--   Add `*= require bootstrap3-switch` to `/assets/stylesheets/application.css`
+- Add `gem 'bootstrap-switch-rails', '~> 3.0.0'` to your `Gemfile`
+- Add `//= require bootstrap-switch` to `/assets/javascripts/application.js`
+- Add `*= require bootstrap3-switch` to `/assets/stylesheets/application.css`
 
 If you use SASS, add `@import "bootstrap3-switch";` to the top of your css file that contains your custom css styles (mine is `app/assets/stylesheets/custom.css.scss`)
 

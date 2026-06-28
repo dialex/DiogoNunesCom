@@ -26,14 +26,14 @@ Find your own way of supporting your memory and your ability to explain what you
 
 There are many tools/processes at your disposal. Alan Richardson lists a few in this [article](https://www.eviltester.com/2013/09/10-experiments-to-improve-your.html):
 
--   Memory
--   Pen and paper
--   Text editor + screenshot tool
--   Spreadsheet
--   Record the screen + talk as you test
--   Tool optimised for Exploratory Testing _(i.e. [Rapid Reporter](http://testing.gershon.info/reporter/))_
--   Diagram
--   Mind map
+- Memory
+- Pen and paper
+- Text editor + screenshot tool
+- Spreadsheet
+- Record the screen + talk as you test
+- Tool optimised for Exploratory Testing _(i.e. [Rapid Reporter](http://testing.gershon.info/reporter/))_
+- Diagram
+- Mind map
 
 As a starting point, you have the [Cornwell method](https://youtu.be/cfaZVfQgt0U?t=158), that requires a simple pen and paper. Draw a vertical line in a way that creates a sidebar with one third the width of the page. Use the bigger area to take notes and the sidebar to extract key findings from those notes. At the bottom of the page you can write a summary of the whole sheet. This is the _"vanilla"_ flavour of the method — you are encouraged to add your own _"toppings"_ to it! For example, Richard Bradshaw likes to [tag key findings with letters and icons](https://youtu.be/H0rFIQe4Chs).
 
@@ -41,16 +41,16 @@ As a starting point, you have the [Cornwell method](https://youtu.be/cfaZVfQgt0U
 
 You might find yourself in a meeting on behalf of your team. This often happens on meetings where your team doesn't make decisions, but needs to give information or take questions. You save them time and they expect a summary of the meeting. When taking notes in meetings focus on:
 
--   **Facts**
-    -   _e.g. Ann was chosen as spokesperson for the design team_
--   **Issues**
-    -   _e.g. Devs are blocked waiting for design mockups_
--   **Decisions**
-    -   _e.g. Devs will focus on Epic 12 while they wait for 34's designs_
--   **To do**
-    -   _e.g. Ask Ann: What's the progress on mockups? Is there a draft devs can use in the meantime?_
--   **To clarify**
-    -   _e.g. When are regression tests executed? Ask Gary or `#regressions` Slack channel_
+- **Facts**
+    - _e.g. Ann was chosen as spokesperson for the design team_
+- **Issues**
+    - _e.g. Devs are blocked waiting for design mockups_
+- **Decisions**
+    - _e.g. Devs will focus on Epic 12 while they wait for 34's designs_
+- **To do**
+    - _e.g. Ask Ann: What's the progress on mockups? Is there a draft devs can use in the meantime?_
+- **To clarify**
+    - _e.g. When are regression tests executed? Ask Gary or `#regressions` Slack channel_
 
 Note taking is also useful to reduce rambling during meetings. Share your screen while you're taking notes and use the structure above to guide the conversation. This helps everyone visualise the topics of discussion and at the end of the meeting you'll have a free summary.
 
@@ -68,10 +68,10 @@ Simon Tomes shared [a template](https://docs.google.com/document/d/1rKYmujVhUlNg
 
 While you explore, "[`KIIQ`](https://dialex.github.io/start-testing/#/toolbox/mnemonics.md)" taking notes focusing on four subjects:
 
--   **K**udos: what you enjoyed doing or seeing in your exploration
--   **I**deas: what you think could be done differently
--   **I**ssues: what is wrong and needs to be fixed or discussed
--   **Q**uestions: missing information or context that need follow-up
+- **K**udos: what you enjoyed doing or seeing in your exploration
+- **I**deas: what you think could be done differently
+- **I**ssues: what is wrong and needs to be fixed or discussed
+- **Q**uestions: missing information or context that need follow-up
 
 ### User testing
 
@@ -79,9 +79,9 @@ When performing a user testing session it's helpful to have one facilitator and 
 
 During the session, take notes that cover:
 
--   **Quotes** from participants — including praise, criticism, doubts and suggestions
--   **Issues** identified (and ideas on how to fix them)
--   Timestamps of relevant moments (in case you're recording the session)
+- **Quotes** from participants — including praise, criticism, doubts and suggestions
+- **Issues** identified (and ideas on how to fix them)
+- Timestamps of relevant moments (in case you're recording the session)
 
 Tag user quotes with feelings, such as `#frustrated` `#surprised` `#pleased`.
 
@@ -91,13 +91,13 @@ When you finished all your sessions, write a single document that summarises wha
 
 ## Teachers
 
--   [Alan Richardson](https://www.eviltester.com/)
--   [Simon Tomes](https://www.qeek.co/author/VjuuLCMAACkH2iwj/simon-tomes)
+- [Alan Richardson](https://www.eviltester.com/)
+- [Simon Tomes](https://www.qeek.co/author/VjuuLCMAACkH2iwj/simon-tomes)
 
 ## Sources
 
--   [Explaining Exploratory Testing Relies On Good Notes](http://thesocialtester.co.uk/explaining-exploratory-testing-relies-on-good-notes/)
--   [Session-Based Test Management](https://www.satisfice.com/download/session-based-test-management)
--   [Three Digestible Diagrams to Describe Exploratory Testing](https://dojo.ministryoftesting.com/dojo/lessons/three-digestible-diagrams-to-describe-exploratory-testing)
--   [A Handy Note-taking Template for Exploratory Testing](https://www.qeek.co/blog/a-handy-note-taking-template-for-exploratory-testing)
--   [10 Experiments to Improve Your Exploratory Testing Note Taking](https://club.ministryoftesting.com/t/10-days-of-note-taking-experimentation-start-mon-23rd/16981/20)
+- [Explaining Exploratory Testing Relies On Good Notes](http://thesocialtester.co.uk/explaining-exploratory-testing-relies-on-good-notes/)
+- [Session-Based Test Management](https://www.satisfice.com/download/session-based-test-management)
+- [Three Digestible Diagrams to Describe Exploratory Testing](https://dojo.ministryoftesting.com/dojo/lessons/three-digestible-diagrams-to-describe-exploratory-testing)
+- [A Handy Note-taking Template for Exploratory Testing](https://www.qeek.co/blog/a-handy-note-taking-template-for-exploratory-testing)
+- [10 Experiments to Improve Your Exploratory Testing Note Taking](https://club.ministryoftesting.com/t/10-days-of-note-taking-experimentation-start-mon-23rd/16981/20)

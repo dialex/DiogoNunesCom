@@ -37,15 +37,15 @@ I think this approach is particularly suited for people who are not sure what mo
 
 [![](/blog/uploads/2021/01/Core_Values-1024x572.png)](https://www.diogonunes.com/blog/?attachment_id=4096)
 
--   Phase 1: Identify your **core values**
-    -   What matters to me the most? Why? (ask why 5 times to get to the core)
-    -   What brings me contentment (e.g. happiness, fulfilment, relaxation)?
-    -   Who is around me in moments of contentment?
-    -   What is preventing or limiting my contentment?
--   Phase 2: Define a **benchmark** for each core value
-    -   What does it mean to "succeed" in that value?
-    -   What needs to happen to improve that value?
-    -   Is your definition of success clear and measurable?
+- Phase 1: Identify your **core values**
+    - What matters to me the most? Why? (ask why 5 times to get to the core)
+    - What brings me contentment (e.g. happiness, fulfilment, relaxation)?
+    - Who is around me in moments of contentment?
+    - What is preventing or limiting my contentment?
+- Phase 2: Define a **benchmark** for each core value
+    - What does it mean to "succeed" in that value?
+    - What needs to happen to improve that value?
+    - Is your definition of success clear and measurable?
 
 ### Now that you have your _wishlist_...
 

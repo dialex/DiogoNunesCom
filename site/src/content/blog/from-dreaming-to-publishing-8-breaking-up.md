@@ -9,16 +9,16 @@ categories: ["Writing"]
 
 _This post is part of the ["From Dreaming to Publishing" series](http://www.diogonunes.com/blog/?s=From+Dreaming+to+Publishing)_.
 
--   Dense paragraphs frighten and confuse your readers
--   By paragraphing more offen (adding white space) your writing becomes more engaging
--   More paragraphs » more tension » more speed/action
--   Less paragraphs » more relaxation » more introspection
+- Dense paragraphs frighten and confuse your readers
+- By paragraphing more offen (adding white space) your writing becomes more engaging
+- More paragraphs » more tension » more speed/action
+- Less paragraphs » more relaxation » more introspection
 
 ### Checklist
 
--   Skim your novel and notice the white space
--   If a scene seems to drag, paragraph more
--   Achieve balance, do your chapters all have the same length?
+- Skim your novel and notice the white space
+- If a scene seems to drag, paragraph more
+- Achieve balance, do your chapters all have the same length?
 
 [![book cover](/blog/uploads/2014/12/twiw-44-e1418044375476.jpg)](http://www.amazon.com/gp/product/0060545690/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0060545690&linkCode=as2&tag=thegeegec00-20&linkId=MYZDZS7WK5JLOMYA)
 

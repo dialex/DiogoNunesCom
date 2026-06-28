@@ -25,9 +25,9 @@ An E2E exercises your system in terms of "width" and "depth". These tests exerci
 
 First we need to define what the test of time is. In my opinion, that's an automated check that remains _reliable_ and _relevant_ through time. To achieve that, I suggest three guidelines:
 
--   **Assert what is critical.** For example, core business rarely changes. If you focus your assertions on that type of business logic it is very likely that your test will remain relevant.
--   **Assert what is final.** For example, features under A/B testing is not final. While the experiment is running, the feature might change (which would make the test unreliable) or even be dropped (which would make the test irrelevant). Save your automation efforts until a decision is made.
--   **Assert what is stable.** If your work was climbing a mountain, you would choose carefully where to place your supports. You would pick the places that are solid. Tests support your work, and selectors support your tests. If you use selectors that are not tied to your design implementation (e.g. classes via CSS selectors) they will be more reliable.
+- **Assert what is critical.** For example, core business rarely changes. If you focus your assertions on that type of business logic it is very likely that your test will remain relevant.
+- **Assert what is final.** For example, features under A/B testing is not final. While the experiment is running, the feature might change (which would make the test unreliable) or even be dropped (which would make the test irrelevant). Save your automation efforts until a decision is made.
+- **Assert what is stable.** If your work was climbing a mountain, you would choose carefully where to place your supports. You would pick the places that are solid. Tests support your work, and selectors support your tests. If you use selectors that are not tied to your design implementation (e.g. classes via CSS selectors) they will be more reliable.
 
 ![](/blog/uploads/2021/09/Knowledge-Sharing-E2E-tests-2.jpg)
 

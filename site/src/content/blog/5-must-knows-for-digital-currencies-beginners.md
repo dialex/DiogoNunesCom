@@ -23,10 +23,10 @@ _DISCLAIMER: The target audience of this post is non-technical. I used analogies
 
 **Alternative Coins** (aka. AltCoins) or **Cryptographic Currencies** (aka. CryptoCurrencies) are variants (aka. forks) of currencies like Bitcoin or tokens like Ethereum. Since these technologies are open-source, meaning their "blueprints" are public, anyone can make an improved version or a plain copy. Here are a few examples:
 
--   **[Dash](https://www.dash.org/)** is a competitor to Bitcoin. It claims to be faster, more anonymous, and easier to use.
--   **[Litecoin](https://litecoin.org/)** is a useful copy of Bitcoin, "if Bitcoin is gold, then Litecoin is silver".
--   **[Dogecoin](http://dogecoin.com/)** is a useless "meme coin", created in 2013 to prove that anyone could copy Bitcoin.
--   There are also "shit coins" and "scam coins". Usually someone makes a copy, changes the name, and announces a super-duper new coin. People invest in the scam coin, fuelled by hype. The scammer takes the money and investors discover too late that the coin is useless and their money gone.
+- **[Dash](https://www.dash.org/)** is a competitor to Bitcoin. It claims to be faster, more anonymous, and easier to use.
+- **[Litecoin](https://litecoin.org/)** is a useful copy of Bitcoin, "if Bitcoin is gold, then Litecoin is silver".
+- **[Dogecoin](http://dogecoin.com/)** is a useless "meme coin", created in 2013 to prove that anyone could copy Bitcoin.
+- There are also "shit coins" and "scam coins". Usually someone makes a copy, changes the name, and announces a super-duper new coin. People invest in the scam coin, fuelled by hype. The scammer takes the money and investors discover too late that the coin is useless and their money gone.
 
 ### Why is it so popular lately?
 
@@ -36,9 +36,9 @@ _DISCLAIMER: The target audience of this post is non-technical. I used analogies
 
 **Second, because we never had an unregulated digital currency.** Bitcoin has many advantages over regular fiat currencies:
 
--   You are your own bank; thus (1) you don't have to pay a bank to store your money and (2) your money is always with you and you are safe from bank's bailing out.
--   Everything is decentralized; thus (1) authorities and regulators can't shutdown the Bitcoin network and (2) no one can tax your wealth.
--   Transactions and balances are public but identities aren't; thus no one knows with who you are doing business.
+- You are your own bank; thus (1) you don't have to pay a bank to store your money and (2) your money is always with you and you are safe from bank's bailing out.
+- Everything is decentralized; thus (1) authorities and regulators can't shutdown the Bitcoin network and (2) no one can tax your wealth.
+- Transactions and balances are public but identities aren't; thus no one knows with who you are doing business.
 
 **Finally, because it is an exciting investment.** No one knows the real value of a promising new digital currency like Bitcoin. When it started, each coin was worth 1$, then 100$, then 1000$, and lately ~3000$~ 5000$. Ethereum was the latest coin with the fastest growth. The early investors became millionaires in a few years or less. The gossip spreads, then it's all over the internet, then it reaches national TV. Fear of missing out (FOMO) this opportunity kicks in and suddenly everyone wants to buy. Demand raises prices, we enter a bull market and the bubble grows.
 
@@ -92,12 +92,12 @@ Picture the crypto currency market like a wave. The wave is unstable and unpredi
 
 Here are the most frequent community advices to newcomers:
 
--   The best time to ~plant a tree~ invest in Bitcoin was 10 years ago. The second best is now.
--   Sell during hype (bull market). Buy during depression (bear market).
--   Due your own diligence before investing.
--   Investing without research is just gambling.
--   Don't invest more than you can afford to lose.
--   Don't put your eggs on the same basket.
+- The best time to ~plant a tree~ invest in Bitcoin was 10 years ago. The second best is now.
+- Sell during hype (bull market). Buy during depression (bear market).
+- Due your own diligence before investing.
+- Investing without research is just gambling.
+- Don't invest more than you can afford to lose.
+- Don't put your eggs on the same basket.
 
 ### What should I do?
 

@@ -42,9 +42,9 @@ When placing your post-it you could mentally divide the chart into three slices 
 
 Our product and engineering team was over 40 people, located in different offices and timezones. So we had to adapt Sam's co-located exercise to be remote friendly.
 
--   Participants would choose from a list of features, _instead of writing their own_
--   Participants would fill a form, _instead of moving a post-its on a board_
--   Provide a scoring framework, _instead of debating the location of post-its_
+- Participants would choose from a list of features, _instead of writing their own_
+- Participants would fill a form, _instead of moving a post-its on a board_
+- Provide a scoring framework, _instead of debating the location of post-its_
 
 Our scoring framework looked like this:
 
@@ -81,8 +81,8 @@ Given our constraints, we were able to extract substancial value from this exerc
 
 From my analysis, I understood that:
 
--   The "three slices" are more flexible but less accurate, so they work better on contexts with uncertainty or audiences that score based on emotion/intuition.
--   The "four quadrants" are less subjective but more coercive, so they work better with analytical audiences or contexts with more data and clarity.
--   The _zone_ and the _relative position_ between post-its is more important than the _exact placement_ in the chart.
--   When scoring or placing your post-it, you might be tempted to leave it in the intersection of two zones, and that's fine.
--   Notice the order in which post-its appear relative to others – that will hint at their priority.
+- The "three slices" are more flexible but less accurate, so they work better on contexts with uncertainty or audiences that score based on emotion/intuition.
+- The "four quadrants" are less subjective but more coercive, so they work better with analytical audiences or contexts with more data and clarity.
+- The _zone_ and the _relative position_ between post-its is more important than the _exact placement_ in the chart.
+- When scoring or placing your post-it, you might be tempted to leave it in the intersection of two zones, and that's fine.
+- Notice the order in which post-its appear relative to others – that will hint at their priority.

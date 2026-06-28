@@ -45,9 +45,9 @@ Now this is a customer support truly concerned with customer satisfaction!
 
 Buy at [Redbubble](http://www.diogonunes.com/blog/RedBubble), not because I tell you to, but for these reasons:
 
--   You're directly supporting the artists
--   Designs for all your interests
--   Excelent price/quality relation
--   Wide variety of physical products
--   Possibility to print your own custom designs
--   Gracious customer support
+- You're directly supporting the artists
+- Designs for all your interests
+- Excelent price/quality relation
+- Wide variety of physical products
+- Possibility to print your own custom designs
+- Gracious customer support

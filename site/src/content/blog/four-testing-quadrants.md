@@ -17,44 +17,44 @@ _This post is part of the ["Testing for Agile Teams" series](http://www.diogonun
 
 ## Tests that support the team
 
--   Supports the team as it develops the product:
-    -   Drives development to deliver the requested business value.
-    -   Safety net to prevent silent regressions.
+- Supports the team as it develops the product:
+    - Drives development to deliver the requested business value.
+    - Safety net to prevent silent regressions.
 
 **Quadrant 1**
 
--   Test-Driven Development
--   **Units tests** verify functionality of a small subset of the system (object/method).
--   **Component tests** verify a larger part, as a group of classes that provide a service.
--   These tests are automated and written in the same programming language as the application (dev team only).
+- Test-Driven Development
+- **Units tests** verify functionality of a small subset of the system (object/method).
+- **Component tests** verify a larger part, as a group of classes that provide a service.
+- These tests are automated and written in the same programming language as the application (dev team only).
 
 **Quadrant 2**
 
--   Define external quality and the features the customers want.
--   Drive dev team at a higher level.
--   Tests are derived from examples, provided by the customer team.
--   Each test verifies a business satisfaction condiction (readable by the customer team).
+- Define external quality and the features the customers want.
+- Drive dev team at a higher level.
+- Tests are derived from examples, provided by the customer team.
+- Each test verifies a business satisfaction condiction (readable by the customer team).
 
 ## Tests that ~critique~ review the product
 
 **Quadrant 3**
 
--   Even if Q1 and Q2 are OK...
--   Testers use their **senses and intuition** to check if the team has delivered the value required, "what the customer really wants".
--   Users and customers perform these tests, in order to approve finished stories.
--   Gathering their reactions an knowledge of how they use the systems is an advantage.
--   In exploratory testing, the tester simultaneously designs and performs tests.
--   It's not _ad hoc_ testing, it's guided by a strategy, creativity and intuition with defined constraints.
--   From the start, testers start thinking of scenarios they want to try, as end users will.
+- Even if Q1 and Q2 are OK...
+- Testers use their **senses and intuition** to check if the team has delivered the value required, "what the customer really wants".
+- Users and customers perform these tests, in order to approve finished stories.
+- Gathering their reactions an knowledge of how they use the systems is an advantage.
+- In exploratory testing, the tester simultaneously designs and performs tests.
+- It's not _ad hoc_ testing, it's guided by a strategy, creativity and intuition with defined constraints.
+- From the start, testers start thinking of scenarios they want to try, as end users will.
 
 **Quadrant 4**
 
--   For some cases **they might be more important** than actual functionality.
-    -   _Example: if application performance is critical, plan to test with production-level loads as soon as testable code is available._
--   Make sure all necessary **testing is done at the right time**.
-    -   _Example: if you find out too late that your design doesn’t scale, start load testing earlier next time._
--   This quadrant provides feedback to the left side of the matrix.
--   Use lightweight tools to create test data and set up scenarios.
+- For some cases **they might be more important** than actual functionality.
+    - _Example: if application performance is critical, plan to test with production-level loads as soon as testable code is available._
+- Make sure all necessary **testing is done at the right time**.
+    - _Example: if you find out too late that your design doesn’t scale, start load testing earlier next time._
+- This quadrant provides feedback to the left side of the matrix.
+- Use lightweight tools to create test data and set up scenarios.
 
 * * *
 

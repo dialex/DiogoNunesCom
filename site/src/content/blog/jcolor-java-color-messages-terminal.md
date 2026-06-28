@@ -19,12 +19,12 @@ To enhance the usefulness of this library I decided to add colored messages, whi
 
 ### Main features
 
--   Print colored messages on a terminal using Java.
--   **Cross-platform**. Works on Unix, Windows 10 and macOS.
--   **Open-source**. [Repo on GitHub](https://github.com/dialex/JColor), you will find documentation and examples there.
--   **Legacy friendly**. The latest version requires Java 8, but it supports Java 6 too.
--   **Rainbows!** You can use any RGB color combination (TrueColor).
--   **Easy to use**. Format your messages using a simple API, and print them with `System.out.print`.
+- Print colored messages on a terminal using Java.
+- **Cross-platform**. Works on Unix, Windows 10 and macOS.
+- **Open-source**. [Repo on GitHub](https://github.com/dialex/JColor), you will find documentation and examples there.
+- **Legacy friendly**. The latest version requires Java 8, but it supports Java 6 too.
+- **Rainbows!** You can use any RGB color combination (TrueColor).
+- **Easy to use**. Format your messages using a simple API, and print them with `System.out.print`.
 
 ### License
 

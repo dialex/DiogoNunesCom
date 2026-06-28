@@ -29,8 +29,8 @@ During that time I've bought several t-shirts, which I proudly wear at home, at 
 
 The next time you want to buy geek t-shirts or stickers, try [Redbubble](http://www.diogonunes.com/blog/Redbubble):
 
--   You'll be supporting the artists
--   Excellent price/quality relation
--   Wide variety of designs and products
--   Possibility to print your own custom designs
--   Gracious customer support
+- You'll be supporting the artists
+- Excellent price/quality relation
+- Wide variety of designs and products
+- Possibility to print your own custom designs
+- Gracious customer support

@@ -9,16 +9,16 @@ categories: ["Writing"]
 
 _This post is part of the ["From Dreaming to Publishing" series](http://www.diogonunes.com/blog/?s=From+Dreaming+to+Publishing)_
 
--   Ideally each character's dialogue is different, using different vocabularies and emotions
--   Book's dialogue needs to be more to the point than real speech
--   However it still needs to sound real, like something a person would actually say
--   Characters should misunderstand each other, ask the other to repeat, disagree, lie, answer the unspoken questions, ignore the spoken, interrupt, make noises and react to gestures (body language)
+- Ideally each character's dialogue is different, using different vocabularies and emotions
+- Book's dialogue needs to be more to the point than real speech
+- However it still needs to sound real, like something a person would actually say
+- Characters should misunderstand each other, ask the other to repeat, disagree, lie, answer the unspoken questions, ignore the spoken, interrupt, make noises and react to gestures (body language)
 
 ### Checklist
 
--   Read your dialogue out loud. Does it sound real?
--   Does it sound too polished or formal?
--   Any dialect? Or accent?
+- Read your dialogue out loud. Does it sound real?
+- Does it sound too polished or formal?
+- Any dialect? Or accent?
 
 [![book cover](/blog/uploads/2014/12/twiw-44-e1418044375476.jpg)](http://www.amazon.com/gp/product/0060545690/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0060545690&linkCode=as2&tag=thegeegec00-20&linkId=MYZDZS7WK5JLOMYA)
 

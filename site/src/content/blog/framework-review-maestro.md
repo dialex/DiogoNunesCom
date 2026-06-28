@@ -66,26 +66,26 @@ appId: com.company.app
 
 While I experimented with the framework I discovered a few behaviours:
 
--   Text assertions are case sensitive
--   Test stops on first failed action/assertion
--   Each file is one test, executed top to bottom
--   When running a folder instead of a specific test file the output does not show the results of each test step ([requested](https://github.com/mobile-dev-inc/maestro/issues/507))
+- Text assertions are case sensitive
+- Test stops on first failed action/assertion
+- Each file is one test, executed top to bottom
+- When running a folder instead of a specific test file the output does not show the results of each test step ([requested](https://github.com/mobile-dev-inc/maestro/issues/507))
 
 #### Pros
 
--   Twice as fast (12.21s) as Appium (24.24s) to boot the app and get to the screen
--   Console is not spammed with useless logs
--   You have a way to easily reset the state of the app (`clearState`)
--   It actually runs [tests on iOS simulators](https://github.com/mobile-dev-inc/maestro/blob/b367a2c1110cebc618a1f7889859120f235193f8/maestro-ios/README.md#ios-device-config) (not real devices)
+- Twice as fast (12.21s) as Appium (24.24s) to boot the app and get to the screen
+- Console is not spammed with useless logs
+- You have a way to easily reset the state of the app (`clearState`)
+- It actually runs [tests on iOS simulators](https://github.com/mobile-dev-inc/maestro/blob/b367a2c1110cebc618a1f7889859120f235193f8/maestro-ios/README.md#ios-device-config) (not real devices)
 
 #### Cons
 
--   Only supports simple actions (eg. things a user would do) -- i.e. can't write complex logic with YAML (eg. extract and fill 2FA code)
--   You know a step failed but you don't know why
--   Harder to avoid DRY (unless there's a way to define constants in one place)
--   You don't get a screenshot when a test fails ([requested](https://github.com/mobile-dev-inc/maestro/issues/237))
--   You can't partially match text, unless you use a regex ([requested](https://github.com/mobile-dev-inc/maestro/issues/35))
--   Matching text with a regex don't work on iOS (but does on Android)
+- Only supports simple actions (eg. things a user would do) -- i.e. can't write complex logic with YAML (eg. extract and fill 2FA code)
+- You know a step failed but you don't know why
+- Harder to avoid DRY (unless there's a way to define constants in one place)
+- You don't get a screenshot when a test fails ([requested](https://github.com/mobile-dev-inc/maestro/issues/237))
+- You can't partially match text, unless you use a regex ([requested](https://github.com/mobile-dev-inc/maestro/issues/35))
+- Matching text with a regex don't work on iOS (but does on Android)
 
 #### Conclusion
 

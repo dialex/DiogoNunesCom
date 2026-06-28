@@ -15,10 +15,10 @@ I learned all I know about testing on the job. **That's not enough for me.** Tha
 
 I could do a testing course... indeed, I could ~do~ create one! During these years I gathered dozens of blogs, books, tutorials, talks about testing. **So what if...**
 
--   I read all that and wrote summaries?
--   and published those summaries to help others?
--   and anyone could make changes to keep them updated and unbiased?
--   and all this was built and managed through GitHub? `#NerdLife`
+- I read all that and wrote summaries?
+- and published those summaries to help others?
+- and anyone could make changes to keep them updated and unbiased?
+- and all this was built and managed through GitHub? `#NerdLife`
 
 Thus [Start Testing](https://github.com/dialex/start-testing) was born on Jan 1st.
 

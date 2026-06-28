@@ -17,26 +17,26 @@ Every year I do volunteer work at conventions and my responsibilities are never 
 
 ### How it happened
 
--   The **cheaters** find ways to bend the rules and get in
--   Volunteers notice it and ask staff for guidance: "they're in, let them be"
--   The lawful notice it and **get angry** at you, demanding entrance
-    -   _At this point you have a full row of kids seating on the floor_
--   Most rules are now replaced by **subjective decisions on-the-fly**
-    -   _Volunteers lose their authority and need staff by their side_
--   Some **lawful become cheaters**
--   Some volunteers off-duty enter ahead of lawful, just like cheaters
--   **Staff gives up** and opens the gate
-    -   _It doesn't really make a difference because by now the room is packed_
+- The **cheaters** find ways to bend the rules and get in
+- Volunteers notice it and ask staff for guidance: "they're in, let them be"
+- The lawful notice it and **get angry** at you, demanding entrance
+    - _At this point you have a full row of kids seating on the floor_
+- Most rules are now replaced by **subjective decisions on-the-fly**
+    - _Volunteers lose their authority and need staff by their side_
+- Some **lawful become cheaters**
+- Some volunteers off-duty enter ahead of lawful, just like cheaters
+- **Staff gives up** and opens the gate
+    - _It doesn't really make a difference because by now the room is packed_
 
 ### Lessons Learned
 
--   Rules should be objective and apply to everyone
--   Plan ahead how to deal with overflow or edge cases
--   Rule makers (staff) set the **maximum** quality of the system
--   Rule enforcers (volunteers) set the **minimum** quality of the system
--   Players (crowd) will always try to beat the system
--   The "cheater" players get **the best** prize
--   The "lawful" players get **what's left** from the cheaters
+- Rules should be objective and apply to everyone
+- Plan ahead how to deal with overflow or edge cases
+- Rule makers (staff) set the **maximum** quality of the system
+- Rule enforcers (volunteers) set the **minimum** quality of the system
+- Players (crowd) will always try to beat the system
+- The "cheater" players get **the best** prize
+- The "lawful" players get **what's left** from the cheaters
 
 ### Success?
 

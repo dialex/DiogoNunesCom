@@ -14,27 +14,27 @@ My first experience with Playwright was terrible. However the testing community 
 
 I know you loved my [Cypress recipes post](https://www.diogonunes.com/blog/cypress-tips-tricks/), so here's a new one for Playwright with up-to-date code snippets on how to implement common automation scenarios.
 
--   **Setup**
-    -   Test skeleton (Test version)
-    -   Test skeleton (Library version)
--   **Actions**
-    -   Visit URL
-    -   Select page element
-    -   Count selected elements
-    -   Type text
-    -   Click element
-    -   Dropdowns
-    -   Checkboxes and Radios
-    -   iFrames
-    -   Alerts / Dialog popups
-    -   Check status of element
--   **Assertions**
-    -   Check the page title
-    -   Check something exists in the page
--   **Miscellaneous**
-    -   Take a screenshot
-    -   Record a video
-    -   Emulate a mobile device
+- **Setup**
+    - Test skeleton (Test version)
+    - Test skeleton (Library version)
+- **Actions**
+    - Visit URL
+    - Select page element
+    - Count selected elements
+    - Type text
+    - Click element
+    - Dropdowns
+    - Checkboxes and Radios
+    - iFrames
+    - Alerts / Dialog popups
+    - Check status of element
+- **Assertions**
+    - Check the page title
+    - Check something exists in the page
+- **Miscellaneous**
+    - Take a screenshot
+    - Record a video
+    - Emulate a mobile device
 
 * * *
 
@@ -215,5 +215,5 @@ await page.locator("#css").screenshot({path: "path/to/file.png"});    // just an
 
 ### Emulate a mobile device
 
--   [Check the official docs](https://playwright.dev/docs/cli#emulate-devices)
--   P.S: [list of supported devices](https://github.com/microsoft/playwright/blob/master/packages/playwright-core/src/server/deviceDescriptorsSource.json)
+- [Check the official docs](https://playwright.dev/docs/cli#emulate-devices)
+- P.S: [list of supported devices](https://github.com/microsoft/playwright/blob/master/packages/playwright-core/src/server/deviceDescriptorsSource.json)

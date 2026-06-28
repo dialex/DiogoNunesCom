@@ -29,7 +29,7 @@ Socializing with others becomes a "desert" instead of the "main course", i.e. so
 
 If you were a babysitter, which kid would you prefer:
 
--   the kid you can leave alone and has fun all by himself/herself?
--   the kid who pants and requires that you play with him/her all the time?
+- the kid you can leave alone and has fun all by himself/herself?
+- the kid who pants and requires that you play with him/her all the time?
 
 Don't babysit grown-ups.

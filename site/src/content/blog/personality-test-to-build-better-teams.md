@@ -19,15 +19,15 @@ _Photo credit: www.belbin.com_
 
 Belbin defines nine roles and no role is better than the other -- they're just different, complementary or conflicting. Below is a summary, but there's also a [detailed list](http://www.mindtools.com/pages/article/newLDR_83.htm) of each roles' (dis)advantages if you need.
 
--   **Implementer**: pratical - plans and carries out implementations, as efficiently as possible.
--   **Monitor**: analytical thinker - makes impartial judgements based on pros and cons.
--   **Completer**: great at quality control - reviews and polishes work to perfection.
--   **Team worker**: diplomatic negotiator - helps others do their work and keeps group cohesion.
--   **Shaper**: leader - source of drive and motivation, argumentative, "come with me or get lost".
--   **Coordinator**: delegates each task to the best member to accomplish it.
--   **Planter**: highly creative - solves problems unconventionaly, is a source of original ideas.
--   **Investigator**: less egocentric than the Planter - researches ideas from others/outside.
--   **Specialist**: "special-ones" - skillfull and commited, focused on low-level implementation.
+- **Implementer**: pratical - plans and carries out implementations, as efficiently as possible.
+- **Monitor**: analytical thinker - makes impartial judgements based on pros and cons.
+- **Completer**: great at quality control - reviews and polishes work to perfection.
+- **Team worker**: diplomatic negotiator - helps others do their work and keeps group cohesion.
+- **Shaper**: leader - source of drive and motivation, argumentative, "come with me or get lost".
+- **Coordinator**: delegates each task to the best member to accomplish it.
+- **Planter**: highly creative - solves problems unconventionaly, is a source of original ideas.
+- **Investigator**: less egocentric than the Planter - researches ideas from others/outside.
+- **Specialist**: "special-ones" - skillfull and commited, focused on low-level implementation.
 
 ### Take the test
 

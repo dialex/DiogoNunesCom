@@ -20,12 +20,12 @@ Your responsibility as a tester is to fulfil the [purpose of testing](https://di
 
 That means you will be performing a [diverse set of activities](https://dialex.github.io/start-testing/#/concepts/what-testing-is.md), which include:
 
--   Clarify [requirements](https://dialex.github.io/start-testing/#/concepts/requirements.md) between stakeholders and developers;
--   Elaborate a [test strategy](https://dialex.github.io/start-testing/#/toolbox/test-strategy.md) for your product;
--   Advocate the right [development methodology](https://dialex.github.io/start-testing/#/toolbox/dev-methodologies.md) for your team;
--   Collect and develop [tools and techniques](https://dialex.github.io/start-testing/#/toolbox/tester-tools.md) to support your testing;
--   Choose which [test types](https://dialex.github.io/start-testing/#/types/index.md) bring the most value at a given time;
--   Adapt your [role](https://dialex.github.io/start-testing/#/roles/index.md) to the current team's needs.
+- Clarify [requirements](https://dialex.github.io/start-testing/#/concepts/requirements.md) between stakeholders and developers;
+- Elaborate a [test strategy](https://dialex.github.io/start-testing/#/toolbox/test-strategy.md) for your product;
+- Advocate the right [development methodology](https://dialex.github.io/start-testing/#/toolbox/dev-methodologies.md) for your team;
+- Collect and develop [tools and techniques](https://dialex.github.io/start-testing/#/toolbox/tester-tools.md) to support your testing;
+- Choose which [test types](https://dialex.github.io/start-testing/#/types/index.md) bring the most value at a given time;
+- Adapt your [role](https://dialex.github.io/start-testing/#/roles/index.md) to the current team's needs.
 
 While you do all that, be aware and [avoid the common pitfalls](https://dialex.github.io/start-testing/#/concepts/what-testing-is-not.md).
 
@@ -59,8 +59,8 @@ Your _ultimate goal_ should be pursuing quality and keeping it at a high level. 
 
 Part of your role is keeping these two groups aligned. First, you need to align yourself with them. More about stakeholders when you get to [requirements](https://dialex.github.io/start-testing/#/concepts/requirements.md).
 
--   **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
--   **Business**: Set expectations, explain that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
+- **Development**: Some developers think that all testers do is question their work and expose their flaws. On the contrary, one of the tester's goal is to help developers look good (by finding issues early) and save them debugging time (by investigating themselves).
+- **Business**: Set expectations, explain that software development is not a precise number on an Excel sheet or Gantt chart. Provide the information they need to make informed decisions, and then let them make the decisions. The only person who should be signing off the product is its owner.
 
 You are often the bearer of bad news. Own it and deliver the information with compassion and humility. Attempt to fix the bad news before reporting them and you might end up with good news.
 
@@ -70,8 +70,8 @@ Strive to earn the respect of your team. As a tester you need to know the produc
 
 Developers focus on code and functionality, while managers focus on business growth and profit. Besides these groups, there are two more that would appreciate some love from you:
 
--   **Support**: The bugs waiting to be fixed become a burden for the customer team or the customer support team. This group will appreciate if you tell what is currently buggy and whether there is a workaround.
--   **End user**: Often a feature works but the user experience is not taken into account. Ask yourself what type of emotions you would feel when using the product. Be the user's voice and "complain" to your team so that they don't have to.
+- **Support**: The bugs waiting to be fixed become a burden for the customer team or the customer support team. This group will appreciate if you tell what is currently buggy and whether there is a workaround.
+- **End user**: Often a feature works but the user experience is not taken into account. Ask yourself what type of emotions you would feel when using the product. Be the user's voice and "complain" to your team so that they don't have to.
 
 Share some of that love with your team too. Seek a joyful and friendly environment in your team. Celebrate success and keep a journal of small victories or praises.
 
@@ -122,11 +122,11 @@ Working as a team, you achieve more, faster and with less pain.
 
 Testers add value to teams by contributing with different perspectives. If you always use the same thinking, you get biased and you might miss important aspects. Next time, try to combine different approaches:
 
--   **Technical thinking**: usage of _experience_ to select the right tools, techniques and technologies. This is useful to minimise the effort of [testing](https://dialex.github.io/start-testing/#/concepts/testing-purpose.md) and make development more efficient.
--   **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. _unknown unknowns_).
--   **Critical thinking**: usage of _scepticism_ to question what is known or assumed to be the truth. This is useful to detect assumptions or biases and review the "why" and "how" of a requirement.
--   **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
--   **Black box thinking**: usage of _ignorance_ to skip implementation details. This is useful to focus on behaviour and end-to-end flow, impersonating a user.
+- **Technical thinking**: usage of _experience_ to select the right tools, techniques and technologies. This is useful to minimise the effort of [testing](https://dialex.github.io/start-testing/#/concepts/testing-purpose.md) and make development more efficient.
+- **Creative thinking**: usage of _creativity_ to analyse the same context using a different perspective. This is useful to uncover new information that no one thought about before (aka. _unknown unknowns_).
+- **Critical thinking**: usage of _scepticism_ to question what is known or assumed to be the truth. This is useful to detect assumptions or biases and review the "why" and "how" of a requirement.
+- **Practical thinking**: usage of _visualisation_ to draw the ideas under discussion or ask for examples. This is useful to predict how an idea will be done and remove any obstacles to its implementation.
+- **Black box thinking**: usage of _ignorance_ to skip implementation details. This is useful to focus on behaviour and end-to-end flow, impersonating a user.
 
 ### Learner
 
@@ -136,15 +136,15 @@ A good tester should be meticulous, curious, creative, determined and mindful of
 
 ## Sources
 
--   [Four and more questions](http://www.developsense.com/blog/2018/03/four-and-more-questions/)
--   [Why you might need testers](http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html)
--   [Am I really a valuable member of my team?](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
--   [The role of the tester](https://thelifeofoneman.com/the-role-of-the-tester)
--   [Ten Misconceptions About Software Testing That Non-Testers Share](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
--   [What's the difference between a good test and a bad test?](https://dojo.ministryoftesting.com/dojo/lessons/designing-tests-what-s-the-difference-between-a-good-test-and-a-bad-test)
--   [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
--   [What testers find](http://www.satisfice.com/blog/archives/572)
--   [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
--   [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
--   [Modern Testing Principles](https://dojo.ministryoftesting.com/dojo/lessons/modern-testing-principles)
--   [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)
+- [Four and more questions](http://www.developsense.com/blog/2018/03/four-and-more-questions/)
+- [Why you might need testers](http://www.investigatingsoftware.co.uk/2017/04/why-you-might-need-testers.html)
+- [Am I really a valuable member of my team?](https://testingfromthehip.wordpress.com/2016/01/08/am-i-really-a-valuable-member-of-my-team/)
+- [The role of the tester](https://thelifeofoneman.com/the-role-of-the-tester)
+- [Ten Misconceptions About Software Testing That Non-Testers Share](https://dojo.ministryoftesting.com/dojo/lessons/ten-misconceptions-about-software-testing-that-non-testers-share)
+- [What's the difference between a good test and a bad test?](https://dojo.ministryoftesting.com/dojo/lessons/designing-tests-what-s-the-difference-between-a-good-test-and-a-bad-test)
+- [How To Think Like a Software Tester](https://thelifeofoneman.com/think-like-software-tester)
+- [What testers find](http://www.satisfice.com/blog/archives/572)
+- [Testers: Get Out of the Quality Assurance Business](http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/)
+- [99 Second Introduction to Lateral and Critical Thinking](https://dojo.ministryoftesting.com/dojo/lessons/99-second-introduction-to-lateral-and-critical-thinking)
+- [Modern Testing Principles](https://dojo.ministryoftesting.com/dojo/lessons/modern-testing-principles)
+- [What do software testers do](https://dojo.ministryoftesting.com/dojo/lessons/what-do-software-testers-do-version-0-1)

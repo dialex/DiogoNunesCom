@@ -32,9 +32,9 @@ More info on this [GitHub thread](https://github.com/cypress-io/cypress/issues/5
 
 You have [three ways](https://github.com/cypress-io/cypress/issues/3963#issuecomment-483581934) to do it:
 
--   `.fixture()` inside an `it`
--   `.fixture()` inside a `before` or `beforeEach`
--   `require`
+- `.fixture()` inside an `it`
+- `.fixture()` inside a `before` or `beforeEach`
+- `require`
 
 * * *
 

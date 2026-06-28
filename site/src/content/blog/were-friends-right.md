@@ -16,8 +16,8 @@ At my 10th grade I moved. New city, new school, new class. Everyone was a strang
 
 This common shortage of "friends" had one indirect unpleasant consequence on me - since I had few social interactions I had the tendency to exaggerate the meaning of all interactions. Examples:
 
--   A guy gives me a handshake and a how-do-you-do. **My understanding**: he cared to say hi, _hence_ he finds me as cool as him!
--   A girl slightly touches my shoulder while she's talking. **My understanding**: omg, omg, (melts down), she touched me, _hence_ she likes me, she probably loves me!
+- A guy gives me a handshake and a how-do-you-do. **My understanding**: he cared to say hi, _hence_ he finds me as cool as him!
+- A girl slightly touches my shoulder while she's talking. **My understanding**: omg, omg, (melts down), she touched me, _hence_ she likes me, she probably loves me!
 
 I'm exaggerating! but you get my point. Silly me.
 

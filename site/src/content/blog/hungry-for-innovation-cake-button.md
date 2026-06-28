@@ -43,11 +43,11 @@ I programmed one of the buttons to push a message to our Slack channel on every 
 
 [![working demo](/blog/uploads/2016/08/combo.gif)](http://www.diogonunes.com/blog/wp-content/uploads/2016/08/combo.gif)
 
--   EE's team is now the first to arrive, even though we are on another floor.
--   People who use headphones are back to a healthy diet.
--   The receptionist's efficiency on this task was improved by 700%.
--   Three companies are now subscribers of our YumYutton alerts.
--   We are being asked to develop a visual and audible alert along the main floor.
+- EE's team is now the first to arrive, even though we are on another floor.
+- People who use headphones are back to a healthy diet.
+- The receptionist's efficiency on this task was improved by 700%.
+- Three companies are now subscribers of our YumYutton alerts.
+- We are being asked to develop a visual and audible alert along the main floor.
 
 ![The trolley](/blog/uploads/2016/08/yumyum-2trolley.jpg)
 

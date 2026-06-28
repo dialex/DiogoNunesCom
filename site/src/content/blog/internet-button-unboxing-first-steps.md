@@ -24,13 +24,13 @@ Here's what worked for me (YMMV):
 1.  Connected the Internet Button to laptop using the USB cable provided.
 2.  The little status led started blinking blue.
 3.  Installed Particle's Android app. The app could not find the device.
-    -   **\[FAIL\]**: Forget their app and go with the CLI setup.
+    - **\[FAIL\]**: Forget their app and go with the CLI setup.
 4.  So I decided to try the [command line setup](https://docs.particle.io/guide/getting-started/connect/photon/).
-    -   I already had Node.JS installed thanks to `brew`.
-    -   So I just installed their client: `npm install -g particle-cli`.
+    - I already had Node.JS installed thanks to `brew`.
+    - So I just installed their client: `npm install -g particle-cli`.
 5.  Time for the big moment: `particle setup`.
 6.  The setup instructions were clear and sometimes humorous. However...
-    -   **\[FAIL\]**: The setup could not find the device. Just do the classic unplug & plug. Then make sure you're connected to your usual wifi (and not the Photon's wifi).
+    - **\[FAIL\]**: The setup could not find the device. Just do the classic unplug & plug. Then make sure you're connected to your usual wifi (and not the Photon's wifi).
 7.  I ran the setup a second time and this time the device was found. During configuration the setup automatically connects to the device's wifi and back to yours.
 8.  Just tell the setup your wifi's password and give your device a name.
 9.  DONE!

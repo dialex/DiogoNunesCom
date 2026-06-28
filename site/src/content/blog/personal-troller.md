@@ -11,10 +11,10 @@ categories: ["Technology"]
 
 I created an executable that enables you to troll someone by:
 
--   Showing a dialog message
--   Opening a new tab on for a specific URL
--   Opening and closing the CD/DVD drive several times
--   Shutting down or logging off displaying a message
+- Showing a dialog message
+- Opening a new tab on for a specific URL
+- Opening and closing the CD/DVD drive several times
+- Shutting down or logging off displaying a message
 
 ## How to use
 
@@ -32,17 +32,17 @@ You can build the source files to get the latest `Troller.exe` or download this 
 
 Each line is a command. The syntax is `action|parameter`. Don't surround the `|` separator with spaces.
 
--   Start by specifying the time to start (`BEGIN` action) and suspend (`END` action) the troller.
--   Then specify the time interval between trolling actions (`EVERY` action).
--   All of these `actions` receive a time `parameter` in the format `HH:mm:ss`.
+- Start by specifying the time to start (`BEGIN` action) and suspend (`END` action) the troller.
+- Then specify the time interval between trolling actions (`EVERY` action).
+- All of these `actions` receive a time `parameter` in the format `HH:mm:ss`.
 
 Trolling actions:
 
--   **`MESSAGE`** shows a dialog message, `parameter` is the message.
--   **`OPENURL`** opens a new tab, `parameter` is the link to open.
--   **`DISKDRV`** opens the disk drive, `parameter` is the number of times.
--   **`SHUTDWN`** shutsdown the computer, `parameter` is the message to display 15min before.
--   **`LOGUOFF`** logs off the user, `parameter` is the message to display 15min before.
+- **`MESSAGE`** shows a dialog message, `parameter` is the message.
+- **`OPENURL`** opens a new tab, `parameter` is the link to open.
+- **`DISKDRV`** opens the disk drive, `parameter` is the number of times.
+- **`SHUTDWN`** shutsdown the computer, `parameter` is the message to display 15min before.
+- **`LOGUOFF`** logs off the user, `parameter` is the message to display 15min before.
 
 Example:
 

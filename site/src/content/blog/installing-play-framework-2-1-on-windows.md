@@ -17,8 +17,8 @@ _Overview of Play Framework_
 
 On this guide I'll just refer to these variables and not their absolute paths:
 
--   `%JAVA_HOME%`, where Java installer installs JDK, e.g. `C:\Program Files (x86)\Java\jdk1.7.0_25\bin`
--   `%PLAY_HOME%`, where you extract the Play! Framework files, e.g. `C:\Play\play-2.1.2`
+- `%JAVA_HOME%`, where Java installer installs JDK, e.g. `C:\Program Files (x86)\Java\jdk1.7.0_25\bin`
+- `%PLAY_HOME%`, where you extract the Play! Framework files, e.g. `C:\Play\play-2.1.2`
 
 To install Play just follow these steps:
 

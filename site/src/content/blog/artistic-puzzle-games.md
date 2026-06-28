@@ -7,8 +7,6 @@ tags: ["games", "review"]
 categories: ["Technology"]
 ---
 
-[](https://www.diogonunes.com/blog/wp-content/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81.jpg)
-
 ### Even if you don't like puzzles, you should give these two games at least a try
 
 I think the only puzzle game I played was Portal 1 and 2. The reason why I don't play puzzle games is because I don't like to get stuck on hard puzzles – it makes me feel stupid.
@@ -25,15 +23,11 @@ The complexity and mechanics scale very well along over 40 puzzles. If you are s
 
 ![The Talos Principle screenshot](/blog/uploads/2022/09/Desktop_Screenshot_2020.01.26_-_15.13.55.23-1024x576.jpg)
 
-_[]2 The Talos Principle_
-
 But there's more!
 
 Tying it all together is this philosophical background, of what is means to be human and what is our purpose. During the whole game you will have deep text chats with an AI. I found myself saying "I can't prove you that I'm a human".
 
 ![The Talos Principle screenshot](/blog/uploads/2022/09/Desktop_Screenshot_2020.01.18_-_12.37.23.08-1024x576.jpg)
-
-_[]3 The Talos Principle_
 
 Also, throughout the levels you will see this QR codes, with messages from "previous players" (not real players, as the game is single player, but characters that tried the same level as you as part of the story).
 
@@ -49,7 +43,7 @@ The puzzles start simple and quickly ramp up. The main rule is draw a line from 
 
 ![The witness screenshot of a landscape](/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.24_-_14.41.09.13-1024x576.jpg)
 
-_[]4 The witness (is that just a reflection in the water, or something else? )_
+_Is that just a reflection in the water, or something else?_
 
 Sometimes, you need to pay close attention to your surroundings or you need to change perspective to solve it. Some levels felt like an escape room, the answer was right in front of me yet I didn't see it and then it clicked! :slightly\_smiling\_face:
 
@@ -57,9 +51,9 @@ Sometimes, you need to pay close attention to your surroundings or you need to c
 
 Anti chamber Superliminal Manifold garden Baba is you
 
--   The witness: Beautiful, relaxing, exercises awareness, creativity, logic, attention to detail ([Trailer](https://youtu.be/9ytwNUMdbcE))
--   The talos principle: Brilliant writing, thought provocative, introspective, exercises planning: ([Trailer](https://youtu.be/iAVh4_wnOIw))
--   Antichamber: Might be boring if you play alone, but it’s great if you pair; exercises persistence, memory and lateral thinking ([Trailer](https://www.youtube.com/watch?v=aGsnm2nOnso))
--   Manifold garden: Cool and mindblowing vistas, exercises planning, simple puzzle mechanic but sometimes has difficulty spikes ([Trailer](https://youtu.be/jZ_yxZwAoCg))
--   Superliminal: Exercises perspective and illusions ([Trailer](https://youtu.be/kl5qbQQsV3I))
--   Baba is you: Interesting mechanic, exercises creativity and planning, gets very hard very quick – I gave up ([Trailer](https://youtu.be/kl5qbQQsV3I))
+- The witness: Beautiful, relaxing, exercises awareness, creativity, logic, attention to detail ([Trailer](https://youtu.be/9ytwNUMdbcE))
+- The talos principle: Brilliant writing, thought provocative, introspective, exercises planning: ([Trailer](https://youtu.be/iAVh4_wnOIw))
+- Antichamber: Might be boring if you play alone, but it’s great if you pair; exercises persistence, memory and lateral thinking ([Trailer](https://www.youtube.com/watch?v=aGsnm2nOnso))
+- Manifold garden: Cool and mindblowing vistas, exercises planning, simple puzzle mechanic but sometimes has difficulty spikes ([Trailer](https://youtu.be/jZ_yxZwAoCg))
+- Superliminal: Exercises perspective and illusions ([Trailer](https://youtu.be/kl5qbQQsV3I))
+- Baba is you: Interesting mechanic, exercises creativity and planning, gets very hard very quick – I gave up ([Trailer](https://youtu.be/kl5qbQQsV3I))

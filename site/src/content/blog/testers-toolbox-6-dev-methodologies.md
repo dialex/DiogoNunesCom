@@ -105,7 +105,7 @@ For every feature or acceptance criteria, repeat this cycle:
 2.  Automate those criteria into acceptance tests;
 3.  Run those tests — they should fail;
 4.  Decide what code changes are necessary to pass those tests;
-    -   (optional) For each code change, use the "Red-Green-Refactor" cycle;
+    - (optional) For each code change, use the "Red-Green-Refactor" cycle;
 5.  Run those tests — they should pass.
 
 These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests](https://dialex.github.io/start-testing/#/types)).
@@ -196,27 +196,27 @@ He highlights several requirements of a successful BDD, here are a few:
 
 ## Teachers
 
--   [Alister Scott](https://watirmelon.blog/)
--   [Dan Ashby](https://danashby.co.uk/)
--   [Dan North](https://dannorth.net/) (author of BDD)
--   [Gáspár Nagy](http://gasparnagy.com/)
--   [Liz Keogh](https://lizkeogh.com)
--   [Mark Winteringham](https://www.mwtestconsultancy.co.uk/)
+- [Alister Scott](https://watirmelon.blog/)
+- [Dan Ashby](https://danashby.co.uk/)
+- [Dan North](https://dannorth.net/) (author of BDD)
+- [Gáspár Nagy](http://gasparnagy.com/)
+- [Liz Keogh](https://lizkeogh.com)
+- [Mark Winteringham](https://www.mwtestconsultancy.co.uk/)
 
 ## Sources
 
--   [ATDD vs. BDD, and a potted history of some related stuff](https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/)
--   [BDD and the real primary purpose of feature files](https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/)
--   [Introducing Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/)
--   [Is BDD testing? (part 2)](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
--   [Is BDD testing? (part 3)](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/)
--   [Is BDD testing? (part 4)](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
--   [Specification by Example (book)](https://gojko.net/books/specification-by-example/)
--   [Specification by Example (example)](https://www.thoughtworks.com/insights/blog/specification-example)
--   [Step Away from the Tools](https://lizkeogh.com/2011/03/04/step-away-from-the-tools/)
--   [TDD with Acceptance Tests and Unit Tests](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests)
--   [The Three Amigos: all for one, one for all](https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf)
--   [Using BDD with Legacy Systems](https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/)
--   [What is BDD?](https://lizkeogh.com/2015/03/27/what-is-bdd/)
--   [What's in a story?](https://dannorth.net/whats-in-a-story/)
--   [BDD in 2020](https://alisterbscott.com/2020/05/28/bdd-in-2020/)
+- [ATDD vs. BDD, and a potted history of some related stuff](https://lizkeogh.com/2011/06/27/atdd-vs-bdd-and-a-potted-history-of-some-related-stuff/)
+- [BDD and the real primary purpose of feature files](https://danashby.co.uk/2017/02/03/bdd-and-the-real-primary-purpose-of-feature-files/)
+- [Introducing Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/)
+- [Is BDD testing? (part 2)](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
+- [Is BDD testing? (part 3)](https://www.mwtestconsultancy.co.uk/bdd-testing-part-3/)
+- [Is BDD testing? (part 4)](https://www.mwtestconsultancy.co.uk/bdd-testing-part-4/)
+- [Specification by Example (book)](https://gojko.net/books/specification-by-example/)
+- [Specification by Example (example)](https://www.thoughtworks.com/insights/blog/specification-example)
+- [Step Away from the Tools](https://lizkeogh.com/2011/03/04/step-away-from-the-tools/)
+- [TDD with Acceptance Tests and Unit Tests](https://sites.google.com/site/unclebobconsultingllc/tdd-with-acceptance-tests-and-unit-tests)
+- [The Three Amigos: all for one, one for all](https://www.stickyminds.com/sites/default/files/magazine/file/2013/3971888.pdf)
+- [Using BDD with Legacy Systems](https://lizkeogh.com/2014/01/22/using-bdd-with-legacy-systems/)
+- [What is BDD?](https://lizkeogh.com/2015/03/27/what-is-bdd/)
+- [What's in a story?](https://dannorth.net/whats-in-a-story/)
+- [BDD in 2020](https://alisterbscott.com/2020/05/28/bdd-in-2020/)
