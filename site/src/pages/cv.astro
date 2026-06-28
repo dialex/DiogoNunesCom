@@ -1,101 +1,324 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
+
+// Content ported from the old /hireme résumé page. Images are reused from the
+// public copy at /hireme/assets (see public/hireme) to avoid duplicating them.
+
+const traits = [
+  {
+    emoji: "🔦",
+    title: "Guiding light",
+    text: "One of my duties is to uncover information and deliver it, in a timely and convenient fashion. This allows the team to make decisions with more confidence and less assumptions.",
+  },
+  {
+    emoji: "🔎",
+    title: "Quality advocate",
+    text: "My experience serves the team by advising development methodologies, practices and tools that favor quality. We will attain quality if we share that mindset and agree on a strategy.",
+  },
+  {
+    emoji: "🐞",
+    title: "Bug catcher",
+    text: "Ideally we forecast issues and prevent them (shift left), but often humans make mistakes and systems fail, that's why we monitor and explore regularly (shift right). Bugs are reproduced, reported and prioritized according to risk.",
+  },
+  {
+    emoji: "🤝",
+    title: "Teammate",
+    text: 'The team needs to build the right thing (Product) the right way (Engineering). Together, we are the "3 amigos" and we align/challenge expectations before coding. My role adapts to the team\'s needs, with flow and improvement always in mind.',
+  },
+  {
+    emoji: "❤️",
+    title: "(User) Friend",
+    text: "We must listen to our users, their pains and their praises, because our services exist to serve them. I seek to make them happy, and also my colleagues! Because a happy team is a productive and resilient team! #OptimiseForHappiness",
+  },
+  {
+    emoji: "📗",
+    title: "Eternal student",
+    text: "Technology is constantly evolving, so it's crucial to maintain a curious and open mind. There's always new tools and techniques to discover... and advices from our colleagues too!",
+  },
+];
+
+const technologies = [
+  { name: "C#", percent: 75 },
+  { name: "Git", percent: 75 },
+  { name: "Java", percent: 70 },
+  { name: "SQL", percent: 50 },
+  { name: "JavaScript", percent: 40 },
+  { name: "Docker", percent: 20 },
+  { name: "Python", percent: 35 },
+  { name: "Markdown", percent: 90 },
+  { name: "Jenkins/GitLab/Travis", percent: 60 },
+  { name: "Cheering up the team with memes", percent: 100 },
+];
+
+const testimonials = [
+  {
+    name: "Faiz M.",
+    flag: "🇺🇸",
+    url: "https://www.linkedin.com/in/faiz-merchant-0055b6133/",
+    text: "Your fine attention to detail make you great at your job. But what really shines is that smile you always have. Just a really great personality and attitude overall.",
+  },
+  {
+    name: "Giovanna F.",
+    flag: "🇮🇹",
+    url: "https://www.linkedin.com/in/fasogiovanna/",
+    text: "He's dilligent, incredibly talented and meticulous and has been crucial in making sure we worked as a team.",
+  },
+  {
+    name: "Neha D.",
+    flag: "🇦🇺",
+    url: "https://www.linkedin.com/in/nehadatt/",
+    text: "I really respect your humility, dignity, openness and purity of heart and intention. A true leader.",
+  },
+  {
+    name: "Kathleen C.",
+    flag: "🇬🇧",
+    url: "https://www.linkedin.com/in/collier-kathleen-8b17004/",
+    text: "Intuitive, smart, empathetic, open minded, kind, funny, hard working, low ego, sharp. Everyone needs a Diogo in their lives.",
+  },
+  {
+    name: "Jędrzej J.",
+    flag: "🇵🇱",
+    url: "https://www.linkedin.com/in/jedrzejjozefowicz/",
+    text: "You always add these small improvements that make life easier or nicer. I wish everyone had just 10% of your attention.",
+  },
+  {
+    name: "Mikhail K.",
+    flag: "🇺🇦",
+    url: "https://www.linkedin.com/",
+    text: "You are a billiant QA, very thorough, creative and positive.",
+  },
+];
+
+const portfolio = [
+  {
+    title: "JColor",
+    img: "/hireme/assets/img/portfolio/work-JCDP.png",
+    url: "https://github.com/dialex/JColor",
+    desc: "A Java library that offers a fluent API to format messages on a terminal with a colored font or background.",
+  },
+  {
+    title: "Geeky Gecko blog",
+    img: "/hireme/assets/img/portfolio/hobbie-Blog.png",
+    url: "https://diogonunes.com/blog",
+    desc: "My personal blog features testing, technology, photography, and life. I share my experiences so you can avoid my mistakes and leverage my successes.",
+  },
+  {
+    title: "Testing e-course",
+    img: "/hireme/assets/img/portfolio/work-testing-course-preview.png",
+    url: "/testing",
+    desc: "I wanted to learn more about testing, so I pushed myself to write an online course that teaches testing to newcomers. #LearnByTeaching #OpenSource",
+  },
+  {
+    title: "Mentoring",
+    img: "/hireme/assets/img/portfolio/work-PISTAE.png",
+    url: "#",
+    desc: "I created PISTAE to centralize information that could help students increase their academic success. This evolved into EstudarInformatica.info, where I mentor students that want to study computer science.",
+  },
+];
+
+const clients = [
+  { name: "MoonPay", img: "/hireme/assets/img/brands/mp.png", url: "https://www.moonpay.com/" },
+  { name: "Springer Nature", img: "/hireme/assets/img/brands/sn.png", url: "https://www.springernature.com/gp" },
+  { name: "Condé Nast", img: "/hireme/assets/img/brands/condenast.png", url: "https://www.condenast.com/" },
+  { name: "OLX Group", img: "/hireme/assets/img/brands/olx.png", url: "https://www.olxgroup.com/" },
+  { name: "Meetup", img: "/hireme/assets/img/brands/meetup.png", url: "https://www.meetup.com/" },
+  { name: "Plusgrade", img: "/hireme/assets/img/brands/plusgrade.png", url: "https://www.plusgrade.com/" },
+  {
+    name: "Siemens Healthineers",
+    img: "/hireme/assets/img/brands/siemens-healthineers.png",
+    url: "https://www.siemens-healthineers.com/",
+  },
+  { name: "Vocalink", img: "/hireme/assets/img/brands/vocalink.png", url: "https://www.vocalink.com/" },
+  { name: "Equal Experts", img: "/hireme/assets/img/brands/equal-experts.png", url: "https://equalexperts.com/" },
+  { name: "Deloitte", img: "/hireme/assets/img/brands/deloitte.png", url: "https://www2.deloitte.com/pt/pt.html" },
+];
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <!-- Header -->
+  <div class="flex flex-col sm:flex-row items-center gap-6 mb-10">
+    <img src="/hireme/assets/img/avatar.jpg" width="120" height="120" alt="Diogo Nunes" class="rounded-full" />
+    <div>
+      <div class="text-4xl font-bold font-heading">Diogo Nunes</div>
+      <div class="text-xl text-primary font-heading">Quality Advocate</div>
+      <div class="mt-3 flex flex-wrap gap-2">
+        <a class="btn btn-sm" href="/cvpdf" target="_blank">Download CV</a>
+        <a class="btn btn-sm btn-outline" href="https://linkedin.com/in/nunesdiogo/" target="_blank">LinkedIn</a>
+        <a class="btn btn-sm btn-outline" href="https://github.com/dialex/" target="_blank">GitHub</a>
+        <a class="btn btn-sm btn-outline" href="/blog/">Blog</a>
+        <a class="btn btn-sm btn-outline" href="/pod" target="_blank">Podcast</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profile -->
   <div class="mb-5">
     <div class="text-3xl w-full font-bold font-heading">Profile</div>
   </div>
-
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <p class="mb-3">
+      I'm a Software Tester from Portugal. My passion is using technology to improve people's lives. In my spare time,
+      I'm also a <a href="/pod">podcaster</a>, a <a href="/photos">photographer</a>, a <a href="/blog/">blogger</a>, and
+      I used to be a mentor to school graduates.
+    </p>
+    <p class="mb-3">
+      I started out as a software developer and then became a self-taught tester. I'm organised and methodical, with a
+      keen eye for usability and another for detail. My empathy and positivity makes me a team asset.
+    </p>
+    <p>
+      I collaborate with clients and developers to ensure the team delivers the right thing, built the right way. My
+      past responsibilities range from those more business oriented (requirements, delivery, exploratory testing) to
+      more technical ones (CI pipeline, automation in testing).
+    </p>
   </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold font-heading">Education</div>
-  </div>
-
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-  </div>
-
+  <!-- Experience -->
   <div class="mb-5">
     <div class="text-3xl w-full font-bold font-heading">Experience</div>
   </div>
+  <div class="time-line-container mb-10">
+    <TimeLineElement title="Senior QA Engineer at MoonPay" subtitle="2022 – Present">
+      (ongoing)
+    </TimeLineElement>
+    <TimeLineElement title="Senior Quality Advocate at Springer Nature" subtitle="2020 – 2021">
+      Push for user and developer happiness (e.g. measure customer support, write E2E tests, pair with devs to improve
+      UX, automate processes, mentor younger testers, lead knowledge sharing).
+    </TimeLineElement>
+    <TimeLineElement title="Quality Advocate (QA) at Equal Experts" subtitle="2016 – 2020">
+      Help my teammates be productive at delivering their best work (e.g. exploratory testing, automation in testing,
+      continuous integration, 3-amigos, pairing, specification by example).
+    </TimeLineElement>
+    <TimeLineElement title="Software Developer at Loyty" subtitle="2014 – 2016">
+      Discuss requirements with client. Design mockups. Develop desktop app. Code back-end logic and integrations.
+      Interact with databases (tables, SPs, views). Advise UI/UX.
+    </TimeLineElement>
+    <TimeLineElement title="IT Analyst at Deloitte" subtitle="2013">
+      Debug existing software applications. Write technical documentation.
+    </TimeLineElement>
+  </div>
 
+  <!-- Education -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold font-heading">Education</div>
+  </div>
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Master's degree at Técnico Lisboa"
+      subtitle="2011 – 2013 · Computer Science · Grade: 17"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident.
+      <strong>Major</strong>: Enterprise Information Systems – addresses the impact of information systems in
+      organizations and how to model the systems and processes of such organizations. <strong>Minor</strong>: Software
+      Engineering – addresses how to architect, manage and implement IT projects.
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Bachelor's degree at Técnico Lisboa"
+      subtitle="2008 – 2012 · Computer Science · Grade: 14"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident.
+      University societies: Mentors (<a href="https://nape.tecnico.ulisboa.pt/en/mentorado/">NAPE</a>), Extracurricular
+      activities (<a href="https://lage2.ist.utl.pt/">LAGE2</a>), <a href="https://tedxist.ist.utl.pt/#/">TEDxIST</a>,
+      Photography group (<a href="https://www.facebook.com/gfist/">GFIST</a>).
     </TimeLineElement>
   </div>
 
+  <!-- Technologies -->
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold font-heading">Certifications</div>
+    <div class="text-3xl w-full font-bold font-heading">Technologies</div>
+    <div class="text-sm font-light italic">how comfortable I am</div>
+  </div>
+  <div class="grid sm:grid-cols-2 gap-x-8 gap-y-4 mb-10">
+    {
+      technologies.map((tech) => (
+        <div>
+          <div class="font-semibold mb-1">{tech.name}</div>
+          <progress class="progress progress-primary w-full" value={tech.percent} max="100" />
+        </div>
+      ))
+    }
   </div>
 
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank">Certification Name (with link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank">Certification Name (with link)</a>
-    </li>
-  </ul>
-
+  <!-- Traits -->
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold font-heading">Skills</div>
+    <div class="text-3xl w-full font-bold font-heading">Traits</div>
+  </div>
+  <div class="grid sm:grid-cols-2 gap-4 mb-10">
+    {
+      traits.map((trait) => (
+        <div class="card bg-base-200/20">
+          <div class="card-body">
+            <h3 class="card-title">
+              <span class="text-2xl">{trait.emoji}</span>
+              {trait.title}
+            </h3>
+            <p class="text-justify">{trait.text}</p>
+          </div>
+        </div>
+      ))
+    }
   </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-  </ul>
+  <!-- Testimonials -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold font-heading">Testimonials</div>
+    <div class="text-sm font-light italic">don't trust me, trust them!</div>
+  </div>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+    {
+      testimonials.map((t) => (
+        <div class="card bg-base-200/20 h-full">
+          <div class="card-body">
+            <h3 class="font-semibold">
+              <a href={t.url} target="_blank">
+                {t.name}
+              </a>{" "}
+              {t.flag}
+            </h3>
+            <p>{t.text}</p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+
+  <!-- Portfolio -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold font-heading">Portfolio</div>
+  </div>
+  <div class="grid sm:grid-cols-2 gap-4 mb-10">
+    {
+      portfolio.map((p) => (
+        <a
+          href={p.url}
+          target="_blank"
+          class="card bg-base-200/40 hover:shadow-xl transition ease-in-out hover:scale-[101%] overflow-hidden"
+        >
+          <figure>
+            <img src={p.img} alt={p.title} class="w-full h-44 object-cover" />
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title">{p.title}</h3>
+            <p>{p.desc}</p>
+          </div>
+        </a>
+      ))
+    }
+  </div>
+
+  <!-- Clients -->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold font-heading">Clients</div>
+  </div>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center mb-10">
+    {
+      clients.map((c) => (
+        <a href={c.url} target="_blank" title={c.name} class="flex justify-center">
+          <img
+            src={c.img}
+            alt={c.name}
+            class="max-h-12 w-auto opacity-70 hover:opacity-100 transition grayscale hover:grayscale-0"
+          />
+        </a>
+      ))
+    }
+  </div>
 </BaseLayout>

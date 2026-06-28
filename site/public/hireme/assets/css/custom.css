@@ -1,0 +1,67 @@
+/* Light theme */
+:root {
+  --primary-color: #24c8e3;
+  --secondary-color: #0789e0;
+  --brand-color: #708090;
+}
+/* Dark theme */
+/* :root {
+  --primary-color: #c1e623;
+  --secondary-color: #f9eb10;
+  --brand-color: #c1e623;
+} */
+
+/* Controls the colour of the top brand name */
+.t-title {
+  color: var(--brand-color);
+  text-transform: uppercase;
+  font-family: Nevis, Lato, Tahoma, sans-serif !important;
+  font-size: 2.65em;
+}
+
+.c-brand {
+  display: block;
+}
+
+/* Applies primary/secondary color "everywhere" */
+.t-social-button:hover .fas,
+.t-social-button:hover .far,
+.t-social-button:hover .fal,
+.t-social-button:hover .fab,
+a,
+.t-link-container .t-link-container__item,
+.t-link-container:hover .t-link-container__item--blended,
+.t-primary-color,
+.t-primary-color-line {
+  color: var(--primary-color);
+}
+
+.t-primary-bg,
+.t-primary-color-line {
+  background: var(--primary-color);
+}
+
+.t-preloader__spinner:not(:required):before {
+  border-top-color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+}
+
+a:hover,
+a:focus,
+a:active,
+.t-link-container:hover .t-link-container__item {
+  color: var(--secondary-color);
+}
+
+/* Makes fontawesome icons display in the same color as the H3 they are in */
+h3 .fas,
+h3 .far,
+h3 .fal,
+h3 .fab {
+  color: #727272;
+}
+
+/* Makes portfolio text easier to read */
+.t-image-overlay:hover img {
+  opacity: 0.12;
+}

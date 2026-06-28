@@ -1,0 +1,11 @@
+@font-face {
+		font-family: 'Nevis';
+		src: url('nevis-webfont.eot');
+		src: url('nevis-webfont.eot?#iefix') format('embedded-opentype'),
+		url('nevis-webfont.svg#Nevis') format('svg'),
+		url('nevis-webfont.woff') format('woff'),
+		url('nevis-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+}
+.nevis-font {font-family: 'Nevis', Tahoma, sans-serif !important;}

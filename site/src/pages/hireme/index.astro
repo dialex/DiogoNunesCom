@@ -1,0 +1,12 @@
+---
+// CV2: the old standalone /hireme résumé page, served verbatim as its own
+// document (own template, CSS and JS — not the Astrofy layout). The raw HTML
+// lives in _resume.html (underscore = not a route); its assets are in
+// public/hireme/assets and referenced with absolute /hireme/assets/... paths.
+import fs from "node:fs";
+import path from "node:path";
+
+const html = fs.readFileSync(path.join(process.cwd(), "src/pages/hireme/_resume.html"), "utf-8");
+---
+
+<Fragment set:html={html} />
