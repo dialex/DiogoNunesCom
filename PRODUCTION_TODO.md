@@ -47,9 +47,6 @@ Flat-numbered in rough do-order so they're easy to reference ("let's do task 7")
 Renumbered 2026-06-28 after a batch of completions; completed tasks are removed to
 keep this lean. Grouping is for context only.
 
-### Blog
-- **1.** Confirm index, tag pages, and RSS generate correctly.
-
 ### Look & feel
 - **2.** **Audit text consistency across all pages.** Review **text colour, font
       size, and content margin/max-width** on every page (home, about, cv,
@@ -68,6 +65,10 @@ keep this lean. Grouping is for context only.
       `badge-secondary` date pills on achievements/cards) and link styling across
       the site for consistency with the emerald theme. Tune the daisyUI theme
       tokens if needed.
+- **15.** **Fix all markdown lint warnings across every `.md` file.** Run the
+      markdown linter over `site/src/content/**` (and root docs) and clear the
+      warnings — heading levels, list spacing, bare URLs, trailing whitespace,
+      etc. Settle on a config so it stays clean going forward.
 
 ### Infrastructure / build
 - **5.** **Review & optimise all images.** Audit every image across the site

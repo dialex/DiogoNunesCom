@@ -3,6 +3,7 @@ import { type BlogSchema } from "../content.config";
 import BaseLayout from "./BaseLayout.astro";
 import dayjs from "dayjs";
 import localizedFormat from "dayjs/plugin/localizedFormat";
+import slugify from "../lib/slugify";
 
 export interface Props extends BlogSchema {}
 
@@ -31,7 +32,7 @@ import { Image } from "astro:assets";
             <div class="not-prose mb-3 flex flex-wrap justify-center gap-x-4">
               {categories.map((cat) => (
                 <a
-                  href={`/blog/category/${cat}`}
+                  href={`/blog/category/${slugify(cat)}/`}
                   class="text-primary text-sm font-bold uppercase tracking-wider underline underline-offset-4"
                 >
                   {cat}
@@ -86,7 +87,7 @@ import { Image } from "astro:assets";
         tags.length > 0 && (
           <div class="not-prose flex flex-wrap items-center justify-center gap-2">
             {tags.map((tag) => (
-              <a href={`/blog/tag/${tag}`} class="badge badge-outline no-underline gap-1">
+              <a href={`/blog/tag/${slugify(tag)}/`} class="badge badge-outline no-underline gap-1">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-3 w-3 shrink-0">
                   <path
                     fill-rule="evenodd"
