@@ -48,7 +48,7 @@ const projects = order.map((id) => allProjects.find((p) => p.id === id)).filter(
           desc={project.data.description}
           date={project.data.date}
           skills={project.data.skills}
-          url={`/projects/${createSlug(project.data.title, project.id)}`}
+          url={`/projects/${createSlug(project.data.title, project.id)}/`}
         />
         {index < projects.length - 1 && <div class="divider my-0" />}
       </>
