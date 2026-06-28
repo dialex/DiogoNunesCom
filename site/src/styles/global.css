@@ -48,6 +48,14 @@ p a {
   text-underline-offset: 0.15em;
 }
 
+/* Emojis have no italic face, so browsers fake a slant ("synthetic oblique")
+   for them inside <em>/<i>. Disable that — real text still italicises because
+   Lato ships a true italic face; only faces lacking italic (emoji) stay upright. */
+em,
+i {
+  font-synthesis-style: none;
+}
+
 /* Theme toggle: show the icon for the current mode (sun in light, moon in dark).
    The `.is-dark` class is set on <html> by the inline theme script in BaseHead. */
 [data-theme-toggle] .icon-moon {
