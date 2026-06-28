@@ -43,15 +43,15 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 
 ## Tasks
 
-Flat-numbered so they're easy to reference ("let's do task 7"). Completed tasks
-are removed to keep this lean — numbers are stable handles and are never reused.
-Grouping is for context only.
+Flat-numbered in rough do-order so they're easy to reference ("let's do task 7").
+Renumbered 2026-06-28 after a batch of completions; completed tasks are removed to
+keep this lean. Grouping is for context only.
 
-### Blog (BIG)
-- **11.** Confirm index, tag pages, and RSS generate correctly.
+### Blog
+- **1.** Confirm index, tag pages, and RSS generate correctly.
 
 ### Look & feel
-- **39.** **Audit text consistency across all pages.** Review **text colour, font
+- **2.** **Audit text consistency across all pages.** Review **text colour, font
       size, and content margin/max-width** on every page (home, about, cv,
       projects, blog, books, achievements, 404). Too many inconsistencies
       creeping in: e.g. justified vs left-aligned body text, `card-body`'s
@@ -59,34 +59,34 @@ Grouping is for context only.
       per-page `maxWidthClass`. Settle on shared conventions (a body size, when
       to justify, default content width) and apply them uniformly — ideally via
       shared components / global.css rather than per-page classes.
-- **27.** **Revisit heading font once there's more content.** Currently Lato body +
+- **3.** **Revisit heading font once there's more content.** Currently Lato body +
       **Poppins** headings. Re-evaluate switching the title font to **Fraunces**
       (the serif finalist) once more real pages/content exist, to judge it in
       context. One-line change: `--font-heading` in `global.css` + the font load
       in `BaseHead.astro`.
-- **28.** **Check badge & link colors (light/dark).** Review the color/contrast of badges (e.g. the
+- **4.** **Check badge & link colors (light/dark).** Review the color/contrast of badges (e.g. the
       `badge-secondary` date pills on achievements/cards) and link styling across
       the site for consistency with the emerald theme. Tune the daisyUI theme
       tokens if needed.
 
 ### Infrastructure / build
-- **31.** **Review & optimise all images.** Audit every image across the site
+- **5.** **Review & optimise all images.** Audit every image across the site
       (`public/projects`, `public/achievements`, `public/books`, avatar, etc.) for
       oversized dimensions/weight — `no-code-website.png` was 5.5MB (3072px) before
-      compression (task 30/3 cleanup). Consider: consistent max dimensions, modern
+      the earlier compression cleanup. Consider: consistent max dimensions, modern
       formats (WebP/AVIF) via Astro's `<Image>`/`getImage`, **interlaced/progressive
       PNG/JPEG** so images render top-to-bottom while loading, and a build-time
       compression step so large assets can't slip in again.
       **Start with the achievements page** (`public/achievements/`, 148 imgs / ~11M):
-      migrating those to Astro `<Image>` is what task 32 deferred here — it auto-derives
-      `width`/`height` (kills layout shift) and emits WebP/AVIF + `srcset`. The cheap
-      no-JS wins (`decoding="async"` + `content-visibility:auto`) are already in place.
-- **38.** **Review redirects in `astro.config.mjs`.** Audit the configured `redirects`
-      — some are obsolete (point to pages/routes that no longer exist or are no longer
-      relevant post-redesign). Prune the dead ones, confirm the rest still resolve to
-      valid targets, and align with the permalink/cut-over decisions (tasks 10, 21–25).
-- **17.** **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
-- **18.** **Make all paths base-aware for the `/DiogoNunesCom/` subpath.** DECIDED:
+      migrating those to Astro `<Image>` (deferred from the earlier achievements work)
+      auto-derives `width`/`height` (kills layout shift) and emits WebP/AVIF + `srcset`.
+      The cheap no-JS wins (`decoding="async"` + `content-visibility:auto`) are in place.
+- **6.** **Review redirects in `astro.config.mjs`.** Audit the configured `redirects`
+      — some may be obsolete (point to pages/routes that no longer exist). Prune the
+      dead ones, confirm the rest resolve to valid targets, and align with the cut-over
+      decisions (tasks 11–14). (Permalink scheme + internal-link rewrite already done.)
+- **7.** **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
+- **8.** **Make all paths base-aware for the `/DiogoNunesCom/` subpath.** DECIDED:
       the site ships permanently on `https://dialex.github.io/DiogoNunesCom/` — the
       custom domain `diogonunes.com` is being dropped (no longer paying for it), so
       `base: "/"` is off the table. Work: set `site: "https://dialex.github.io"` +
@@ -99,37 +99,46 @@ Grouping is for context only.
       hardcoding `/DiogoNunesCom/`. Then verify `dist/` works served from the subpath
       (canonical + sitemap will resolve to the github.io URLs).
       ⚠️ Big, error-prone pass; dev currently runs at base `/`, so do it at cut-over.
-- **19.** **Sitemap:** generate fresh via the Astro sitemap integration; decide whether
+- **9.** **Sitemap:** generate fresh via the Astro sitemap integration; decide whether
       blog URLs are included.
-- **20.** **GH Action:** `astro build` → publish `site/dist/` to Pages.
-- **40.** **Blog SEO on the domain drop — minimise the (largely unavoidable) loss.**
-      Moving off `diogonunes.com` to `dialex.github.io/DiogoNunesCom/` changes every
-      URL, so the old domain's search rankings won't carry over once it lapses — no
-      HTML tag can recover equity from a domain you no longer own; only 301s served
-      *from the old domain* transfer it. **Optional softening, while `diogonunes.com`
-      is still registered:** put it behind Cloudflare (free) with a 301
-      `diogonunes.com/* → dialex.github.io/DiogoNunesCom/*` and file a Search Console
-      "Change of Address", to pass signal before expiry. **New site:** verify
-      `dialex.github.io/DiogoNunesCom/` in Search Console (HTML file in repo) and
-      submit the sitemap; internal linking / titles / Yoast descriptions already
-      carried over. (Permalink scheme + internal-link rewrite from task 10 are done.)
+- **10.** **GH Action:** `astro build` → publish `site/dist/` to Pages.
 
 ### Cut-over (last)
-- **21.** Resolve **old domain / blog / FTP endgame** first: WP blog still on old host;
-      decide its fate before cancelling FTP.
-- **22.** Merge `unified-redesign` → `migration/gh-pages`.
-- **23.** Flip GH Pages deploy to the build Action publishing **only** `site/dist/`.
-- **24.** DNS cut-over + decommission FTP & WordPress.
-- **25.** Verify: all pages 200, redirects work, 404 serves, assets load.
+- **11.** Merge `unified-redesign` → `migration/gh-pages`.
+- **12.** Flip GH Pages deploy to the build Action publishing **only** `site/dist/`
+      (with `base: "/DiogoNunesCom"` from task 8).
+- **13.** **Verify the new site** is live and correct at
+      `dialex.github.io/DiogoNunesCom/`: all pages 200, redirect shortcuts work, 404
+      serves, assets/images load.
+- **14.** **SEO migration + domain wind-down** (`diogonunes.com` → github.io). Do this
+      *after* the new site is live (tasks 11–13). The domain is paid until
+      **2026-09-10** — that's the 301 window. All steps free; ~1–2h one-time. Worth it
+      because the tech tutorials (JColor, Cypress, Playwright…) draw organic search
+      traffic; expect ~60–80% preserved through the transition, long tail lost when the
+      domain lapses (a github.io subpath can't be fully owned).
+      1. **Cloudflare 301s.** Move `diogonunes.com` nameservers to Cloudflare (free).
+         Add one path-preserving Redirect Rule (301):
+         `diogonunes.com/*` → `https://dialex.github.io/DiogoNunesCom/$1`
+         — one wildcard covers all 178 posts + pages, since the paths are unchanged.
+      2. **Decommission WP/FTP.** Once the redirect serves from Cloudflare's edge,
+         cancel the WordPress + FTP hosting (no origin needed for an edge rule). Keep
+         the *domain registered* until it expires — that's what powers the 301s.
+      3. **Search Console.** Add a URL-prefix property for
+         `https://dialex.github.io/DiogoNunesCom/` (verify via an HTML file committed to
+         the repo); submit the sitemap. Try the "Change of Address" tool (old → new) —
+         it may reject a subpath target; the 301s + sitemap do the real work.
+      4. **Let it ride, then lapse.** Keep the 301s up until **2026-09-10** so Google
+         has the full window to re-crawl and transfer ranking; then let the domain
+         expire. (Permalink scheme + internal-link rewrite are already done, so every
+         old `/blog/<slug>/` maps 1:1 to the new URL.)
 
 ---
 
 ## Open decisions
-- Hireme/CV: embed as-is vs migrate into new design (task 6).
-- Sitemap: include blog URLs or not (task 19).
+- Sitemap: include blog URLs or not (task 9).
 - **Hosting — DECIDED:** ship on `dialex.github.io/DiogoNunesCom/`; custom domain
-  `diogonunes.com` dropped. ⇒ `base: "/DiogoNunesCom"` (task 18); old-domain SEO
-  largely lost (task 40). Blog permalink scheme + internal-link rewrite (task 10) done.
+  `diogonunes.com` dropped. ⇒ base-aware paths (task 8) + SEO migration (task 14).
+  Blog permalink scheme + internal-link rewrite already done.
 
 ## Reference notes / gotchas
 - ⚠️ **MoonPay npm proxy (koi.security)** blocks package `is-unsafe`, pulled in by
