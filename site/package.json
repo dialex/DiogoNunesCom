@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "check:images": "node scripts/check-image-sizes.mjs",
+    "prebuild": "node scripts/check-image-sizes.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",

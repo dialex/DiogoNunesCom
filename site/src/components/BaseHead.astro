@@ -3,6 +3,8 @@
 // all pages through the use of the <BaseHead /> component.
 import "../styles/global.css";
 import { withBase } from "../lib/withBase";
+import { getImage } from "astro:assets";
+import avatar from "../assets/avatar.jpg";
 
 export interface Props {
   title: string;
@@ -11,10 +13,13 @@ export interface Props {
   ogType?: string;
 }
 
-const { title, description, image = withBase("/avatar.jpg"), ogType = "website" } = Astro.props;
+const { title, description, image, ogType = "website" } = Astro.props;
+
+// og:image default — optimised avatar (derived, so the original isn't emitted).
+const ogImage = image ?? (await getImage({ src: avatar, width: 1200, format: "webp" })).src;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
-const imageURL = new URL(image, Astro.site ?? Astro.url);
+const imageURL = new URL(ogImage, Astro.site ?? Astro.url);
 
 // Schema.org Person — carried over (and modernised) from the old site's microdata.
 const personSchema = {

@@ -1,12 +1,29 @@
 ---
+import { Image } from "astro:assets";
 import { withBase } from "../lib/withBase";
+import { isAsset, resolveAsset } from "../lib/assets";
 const { title, img, desc, date, skills = [], url } = Astro.props;
+const resolved = isAsset(img) ? await resolveAsset(img) : img;
 ---
 
 <div class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]">
   <a href={url}>
     <div class="hero-content flex-col md:flex-row">
-      {img && <img src={withBase(img)} width={750} height={422} alt={title} class="max-w-full md:max-w-[13rem] rounded-lg" />}
+      {
+        resolved &&
+          (typeof resolved === "string" ? (
+            <img src={withBase(resolved)} width={750} height={422} alt={title} class="max-w-full md:max-w-[13rem] rounded-lg" />
+          ) : (
+            <Image
+              src={resolved}
+              widths={[260, 520]}
+              sizes="(min-width: 768px) 13rem, 100vw"
+              format="webp"
+              alt={title}
+              class="max-w-full md:max-w-[13rem] rounded-lg"
+            />
+          ))
+      }
       <div class="grow w-full">
         <h1 class="text-xl font-bold flex items-center gap-2 flex-wrap">{title}</h1>
         {date && <p class="text-sm opacity-70 mt-1">{date}</p>}

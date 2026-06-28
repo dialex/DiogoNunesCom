@@ -3,11 +3,11 @@ const { title, img, desc, url, badge, tags, target = "_blank", loading = "eager"
 import { Image } from "astro:assets";
 import slugify from "../lib/slugify";
 import { withBase } from "../lib/withBase";
-import { isBlogAsset, resolveBlogImage } from "../lib/blogImages";
+import { isAsset, resolveAsset } from "../lib/assets";
 
-// Blog heroes arrive as a src/assets path string → resolve to optimisable ImageMetadata.
-// Project thumbnails arrive as a public/ string (kept as-is, prefixed with base below).
-const resolved = isBlogAsset(img) ? await resolveBlogImage(img) : img;
+// Blog heroes / project thumbnails arrive as a src/assets path string → resolve to
+// optimisable ImageMetadata. Anything else (rare public/ string) is kept as-is below.
+const resolved = isAsset(img) ? await resolveAsset(img) : img;
 ---
 
 <div class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]">

@@ -3,6 +3,8 @@ import { CollectionEntry, getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import createSlug from "../../lib/createSlug";
 import { withBase } from "../../lib/withBase";
+import { Image } from "astro:assets";
+import { resolveAsset } from "../../lib/assets";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
@@ -19,6 +21,7 @@ interface Props {
 const { entry } = Astro.props;
 const project = entry.data;
 const { Content } = await render(entry);
+const detailImage = await resolveAsset(project.detailImage ?? project.image);
 ---
 
 <BaseLayout title={project.title} sideBarActiveItemID="projects">
@@ -45,9 +48,12 @@ const { Content } = await render(entry);
           class="rounded-lg w-full max-w-2xl mx-auto"
         />
       ) : (
-        (project.detailImage ?? project.image) && (
-          <img
-            src={withBase(project.detailImage ?? project.image)}
+        detailImage && (
+          <Image
+            src={detailImage}
+            widths={[400, 800, 1200]}
+            sizes="(min-width: 768px) 42rem, 100vw"
+            format="webp"
             alt={project.title}
             class="rounded-lg w-full max-w-2xl mx-auto"
           />

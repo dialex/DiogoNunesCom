@@ -5,7 +5,7 @@ import dayjs from "dayjs";
 import localizedFormat from "dayjs/plugin/localizedFormat";
 import slugify from "../lib/slugify";
 import { withBase } from "../lib/withBase";
-import { resolveBlogImage } from "../lib/blogImages";
+import { resolveAsset } from "../lib/assets";
 
 export interface Props extends BlogSchema {}
 
@@ -25,7 +25,7 @@ const displayDate = dayjs(pubDate).format("ll");
 import { Image, getImage } from "astro:assets";
 
 // heroImage is a path string; resolve to optimisable ImageMetadata (see lib/blogImages).
-const hero = await resolveBlogImage(heroImage);
+const hero = await resolveAsset(heroImage);
 // og:image — derive ONE optimised social card from the hero (avoids emitting the original).
 const ogImage = hero ? await getImage({ src: hero, width: 1200, format: "webp" }) : undefined;
 ---

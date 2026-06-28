@@ -3,6 +3,7 @@ import SideBarFooter from "./SideBarFooter.astro";
 import { Image } from "astro:assets";
 import SideBarMenu from "./SideBarMenu.astro";
 import { withBase } from "../lib/withBase";
+import gecko from "../assets/gecko.png";
 const { sideBarActiveItemID } = Astro.props;
 ---
 
@@ -18,7 +19,7 @@ const { sideBarActiveItemID } = Astro.props;
               format="webp"
               width={300}
               height={300}
-              src={withBase("/gecko.png")}
+              src={gecko}
               alt="Diogo Nunes (the Geeky Gecko)"
             />
           </div>
