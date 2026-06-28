@@ -56,7 +56,7 @@ We have the tech, it's not a massive difference from the current processes and i
 
 Look at these products, all from the same brand (not sponsored).
 
-![jordan toothbrushes, 3 different models, from cheaper to most expensive](../../assets/blog/uploads/2023/03/20230304_113709-1-1024x577.jpg)
+![Jordan toothbrushes](../../assets/blog/uploads/2023/03/20230304_113709-1-1024x577.jpg)
 
 On the left is, what I consider to be, the best toothbrush ever: it's a pleasure to use, doesn't slip even though it doesn't uses rubber parts, it's simple to produce, comes in a pack of more than one, the handle doesn't get dirty after 3 months of use, and the bristles don't hurt my gums.
 
@@ -64,11 +64,11 @@ It's the best, but it's not "the perfect" toothbrush.
 
 Then I saw a version with a hollow handle. Closer, but not perfect yet. And then, there it was. A handle, plus 4 heads, in a humble cardboard packaging. I thought it was **a miracle!**
 
-![jordan toothbrushes, 3 different models, from cheaper to most expensive (with prices)](../../assets/blog/uploads/2023/03/20230304_113709_annotated-1-1024x577.jpg)
+![Jordan toothbrushes, 3 different models, from cheaper to most expensive (with prices)](../../assets/blog/uploads/2023/03/20230304_113709_annotated-1-1024x577.jpg)
 
 I compared the prices and calculated the unit price of each toothbrush.
 
-_The most wasteful product is the cheaper!_ WAT?! The sustainable and reusable toothbrush is 66% more expensive than the disposable toothbrush! I sweared in the supermarket. Actually it was **a mirage!**
+_The most wasteful product is the cheaper!_ WAT?! The sustainable and reusable toothbrush is 66% more expensive than the disposable toothbrush! I sweared in the supermarket.
 
 ### The nightmare
 
