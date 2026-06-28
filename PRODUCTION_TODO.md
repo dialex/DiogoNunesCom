@@ -71,17 +71,62 @@ keep this lean. Grouping is for context only.
       etc. Settle on a config so it stays clean going forward.
 
 ### Infrastructure / build
-- **5.** **Review & optimise all images.** Audit every image across the site
-      (`public/projects`, `public/achievements`, `public/books`, avatar, etc.) for
-      oversized dimensions/weight — `no-code-website.png` was 5.5MB (3072px) before
-      the earlier compression cleanup. Consider: consistent max dimensions, modern
-      formats (WebP/AVIF) via Astro's `<Image>`/`getImage`, **interlaced/progressive
-      PNG/JPEG** so images render top-to-bottom while loading, and a build-time
-      compression step so large assets can't slip in again.
-      **Start with the achievements page** (`public/achievements/`, 148 imgs / ~11M):
-      migrating those to Astro `<Image>` (deferred from the earlier achievements work)
-      auto-derives `width`/`height` (kills layout shift) and emits WebP/AVIF + `srcset`.
-      The cheap no-JS wins (`decoding="async"` + `content-visibility:auto`) are in place.
+- **5.** **Review & optimise all images.** Plan-only so far (2026-06-28); no files moved yet.
+
+      **Audit findings.** `public/` = ~145 MB; **`public/blog/uploads` alone = 126 MB (87%)**,
+      achievements 11 MB, hireme 3.7 MB, projects 2.4 MB, books 0.3 MB. 619 JPG/PNG + 12 GIF
+      + 3 WebP. Of 434 blog image files, **431 are referenced — only 3 dead** (the 90 WP
+      `-NNNxNNN` + 13 `-scaled` variants are in use, so deletion saves ~nothing).
+      Worst offenders are displayed at ≤750px but stored huge: `sunyu…-scaled.jpg` 2560×1702
+      (1 MB), `Prioridades_2018-scaled.jpg` 2560×1820, `Purpose-Book-Cover.png` 1410×2250
+      (5 MB — photo stored as PNG), `Desktop-Screenshot…png` 1920×1080 (3.7 MB). JPEGs are
+      baseline (not progressive).
+
+      **Root cause: nothing is optimised today.** Every image lives in `public/` and is
+      referenced by absolute URL (`/blog/uploads/…`, `/achievements/…`). Astro's image
+      pipeline (`astro:assets` + sharp, both present) **only processes files under `src/`** —
+      `public/` is shipped verbatim. So the hero `<Image>` in `PostLayout` and the card
+      `<Image>` in `HorizontalCard` (both pointing at `public/` strings) are **silent no-ops**,
+      and the 227 in-post markdown images render as plain `<img>` (no webp, no `width`/`height`,
+      no `loading=lazy`).
+
+      **Decisions made (2026-06-28):**
+      - **Move all images out of `public/` into `src/` (e.g. `src/assets/...`)** so Astro
+        optimises them at build. This is the whole unlock — markdown images **are** optimised
+        by Astro, but only when sourced from `src/` via relative paths (absolute `public/` URLs
+        are skipped). Sources (PNG/JPG) stay in git; `astro build` emits only WebP into
+        `dist/_astro/*.webp`; sources are not shipped; processed images are cached between builds.
+      - **Use WebP** (compat ≈97%; automatic via Astro, so no hand-managed `.webp` files).
+      - **Downscale** oversized images and make **JPEG progressive**; compress PNGs harder.
+      - **Skip PNG interlacing** — Adam7 makes PNGs ~5–20% *bigger*; not worth it.
+      - **Add `loading=lazy` to the 227 in-post body images** (hero stays eager; achievements
+        already lazy; cards already have the hook). Astro-generated `<img>` also gets intrinsic
+        `width`/`height` → kills CLS.
+      - **Build-time guard**: warn/fail if any source image exceeds a max dimension or weight,
+        so a 5 MB asset can't slip back in.
+      - Blog **`heroImage`** frontmatter (currently a string) switches to the content-collection
+        **`image()` schema helper** with relative paths, so heroes optimise too.
+
+      **Defaults (confirmed 2026-06-28):**
+      - Folder layout: **mirror** the current tree under `src/assets/blog/uploads/YYYY/MM/…`
+        (1:1, mechanical rewrite). 
+      - Preset: **WebP quality 80, max-width ~1600px** (2× the 750px column).
+      - **WebP-only** (AVIF is a still-image format too, ~10% smaller, but adds `<picture>`
+        fallbacks + slower builds — revisit later, not now).
+      - **GIFs (12, ~14 MB): leave as-is** — sharp can't re-encode animated GIFs; converting to
+        animated-WebP/MP4 is a separate manual follow-up.
+      - **Scope: whole site** (blog + achievements + projects + books + avatar). Pilot on
+        **achievements** first, then the 126 MB blog, then the small folders. End state:
+        `public/` holds only true static files (favicons, manifest, robots, RSS).
+
+      **Expected gain:** `public/` ~145 MB → **~50–65 MB (≈ −60%)**; per-post first-load drops
+      far more (hero ~1 MB → ~100 KB + offscreen images deferred).
+
+      **Interplay with task 8:** moving to `src/` with relative paths means those 431 image refs
+      **no longer need base-path prefixing** (Astro injects `/DiogoNunesCom/` into generated
+      URLs automatically) — this *shrinks* task 8's sweep. The markdown ref-rewrite can be done
+      as part of this task or bundled with task 8. ⚠️ Per the no-overwrite rule, the markdown
+      rewrite touches post `.md` files — get explicit OK before running it.
 - **6.** **Review redirects in `astro.config.mjs`.** Audit the configured `redirects`
       — some may be obsolete (point to pages/routes that no longer exist). Prune the
       dead ones, confirm the rest resolve to valid targets, and align with the cut-over
