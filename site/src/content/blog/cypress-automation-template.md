@@ -31,4 +31,4 @@ Thanks to this repository, you no longer have to start from scratch if you want 
 
 Even if you already have your own Cypress repository, you can have a look at this template to see what you might be missing and how you could implement it on your repository.
 
-_P.S: If you want to learn more about the Cypress "ready-to-run" Docker image, I wrote a [dedicated post](https://www.diogonunes.com/blog/how-to-build-docker-image-cypress-tests/) about it._
+_P.S: If you want to learn more about the Cypress "ready-to-run" Docker image, I wrote a [dedicated post](/blog/how-to-build-docker-image-cypress-tests/) about it._

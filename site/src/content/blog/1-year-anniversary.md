@@ -20,7 +20,7 @@ First of all I must thank your support. Over this year I kept receiving **positi
 
 Since this is a ~technological~ personal blog I tried to balance the subject of my posts to please both kinds of audiences. After **51 weekly posts** I think I managed to achieve that balance.
 
-[![posts subject](/blog/uploads/2015/01/posts-subject.png)](http://www.diogonunes.com/blog/wp-content/uploads/2015/01/posts-subject.png)
+[![posts subject](/blog/uploads/2015/01/posts-subject.png)](/blog/uploads/2015/01/posts-subject.png)
 
 The average reader of my blog:
 

@@ -6,7 +6,7 @@ heroImage: "/blog/uploads/2014/11/111411_nanowrimo.jpg"
 categories: ["Announcement"]
 ---
 
-As I promised in a [previous post](http://www.diogonunes.com/blog/finding-courage-to-start-a-fantasy-novel/) I finally found the ~courage~ plot to write a fantasy novel. I don't know if I'll be able to finish it but I'll sure give my best at it.
+As I promised in a [previous post](/blog/finding-courage-to-start-a-fantasy-novel/) I finally found the ~courage~ plot to write a fantasy novel. I don't know if I'll be able to finish it but I'll sure give my best at it.
 
 **The challenge?** [To write 50.000 words in 30 days.](http://nanowrimo.org/) This month is all about quantity. Later on I'll revise and publish the final product. I'm looking for an **illustrator**, so if you're interested or know someone that could be drop me a message. I'll update my Twitter with the novel's progress.
 

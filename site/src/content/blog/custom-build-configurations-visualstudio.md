@@ -13,7 +13,7 @@ The lean solution is to use VisualStudio's build configurations. They offer more
 
 ### What you'll get
 
-[![BuildConfigurations-1](/blog/uploads/2015/07/BuildConfigurations-1.png)](http://www.diogonunes.com/blog/wp-content/uploads/2015/07/BuildConfigurations-1.png)
+[![BuildConfigurations-1](/blog/uploads/2015/07/BuildConfigurations-1.png)](/blog/uploads/2015/07/BuildConfigurations-1.png)
 
 In a nutshell, you will:
 
@@ -44,11 +44,11 @@ You can view and select build configurations from VisualStudio's top toolbar. Ev
 
 Imagine this scenario: you have two clients (ABC and XYZ) and you want your software to behave differently for each one. Therefore, besides `Debug` and `Release` you need two additional configurations: `Release ABC` and `Release XYZ`. Since these last two build configurations are production-ready, you will copy the settings from `Release`.
 
-[![BuildConfigurations-2](/blog/uploads/2015/07/BuildConfigurations-2.png)](http://www.diogonunes.com/blog/wp-content/uploads/2015/07/BuildConfigurations-2.png)
+[![BuildConfigurations-2](/blog/uploads/2015/07/BuildConfigurations-2.png)](/blog/uploads/2015/07/BuildConfigurations-2.png)
 
 Now go to your project's **Properties** and select the **Build** tab. Select your newly created setting `Release ABC` from the **Configuration** combo box. Configure it as your wish, making sure you define a **Conditional compilation symbol**. My convention is to use the configuration name in upper case, like `RELEASE_ABC`. I also advise you to specify a different **Output path** -- that way, the next time you build your project, each client's binaries will be automatically placed into different folders.
 
-[![BuildConfigurations-3](/blog/uploads/2015/07/BuildConfigurations-3.png)](http://www.diogonunes.com/blog/wp-content/uploads/2015/07/BuildConfigurations-3.png)
+[![BuildConfigurations-3](/blog/uploads/2015/07/BuildConfigurations-3.png)](/blog/uploads/2015/07/BuildConfigurations-3.png)
 
 Save your changes and you're ready to use it on your code. The conditional compilation syntax is `#IF <CondCompilationSymbol>`, `#ELIF <CondCompilationSymbol>`, `#ELSE`, and `#ENDIF`.
 
@@ -91,6 +91,6 @@ Finally, an example showing that you can do anything inside those if statements:
 
 VisualStudio will _grey out_ the lines of code which won't be executed according to the current build configuration. That helps a lot during coding and debugging.
 
-[![BuildConfigurations-4](/blog/uploads/2015/07/BuildConfigurations-4.png)](http://www.diogonunes.com/blog/wp-content/uploads/2015/07/BuildConfigurations-4.png)
+[![BuildConfigurations-4](/blog/uploads/2015/07/BuildConfigurations-4.png)](/blog/uploads/2015/07/BuildConfigurations-4.png)
 
 There you go. Now you can go clean that code ;)

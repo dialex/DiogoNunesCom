@@ -35,11 +35,11 @@ I find myself commenting my work with others and saying things like _"Well it's 
 
 _When I discovered I could do things easily and properly, things that others could not._
 
-Suddently I realized I wasn't so redudant as I though. A [weak self-esteem](http://www.diogonunes.com/blog/i-regret-hesitating/) always mined my behaviour. But now, step-by-step, win-after-win, I'm becoming confident and independent.
+Suddently I realized I wasn't so redudant as I though. A [weak self-esteem](/blog/i-regret-hesitating/) always mined my behaviour. But now, step-by-step, win-after-win, I'm becoming confident and independent.
 
 ### Conclusion
 
-Maybe you're really good at something; or maybe you're average at everything. You just need to [find the right environment for your skills and personality](http://www.diogonunes.com/blog/personality-test-to-build-better-teams).
+Maybe you're really good at something; or maybe you're average at everything. You just need to [find the right environment for your skills and personality](/blog/personality-test-to-build-better-teams).
 
 > You won't succeed by trying to play other people's game. Discover the intersection of your strengths and interests. Then double down on that intersection and make sure that whatever position you hold is aligned with those strengths and interests. [Quora](http://www.quora.com/How-did-you-adjust-to-working-with-smarter-people/answer/Andy-Johns)
 

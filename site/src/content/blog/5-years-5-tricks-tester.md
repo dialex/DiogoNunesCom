@@ -20,7 +20,7 @@ I've worked for seven companies since I became a tester five years ago. Each tea
 
 ✅ **Solution**: Ask each member of the team to make a personal map. Agree beforehand a small number of questions. Focus on personal questions that might generate discussion or that would be hard to ask otherwise.
 
-[![personal map example](/blog/uploads/2021/07/Diogo-Nunes-Personal-Map-1024x363.png)](https://www.diogonunes.com/blog/wp-content/uploads/2021/07/Diogo-Nunes-Personal-Map.png)
+[![personal map example](/blog/uploads/2021/07/Diogo-Nunes-Personal-Map-1024x363.png)](/blog/uploads/2021/07/Diogo-Nunes-Personal-Map.png)
 
 ### Video demos
 

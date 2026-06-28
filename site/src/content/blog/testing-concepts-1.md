@@ -10,7 +10,7 @@ categories: ["Work"]
 
 > **tl;dr** Testing’s purpose is to measure and maximise quality delivered, while minimising risk to an acceptable level.
 
-_This post is part of [my free testing course](https://dialex.github.io/start-testing/#/), focused on teaching you the fundamentals of testing. Until the end of the year, expect a new [blog post](https://www.diogonunes.com/blog/tag/course/) every Monday._ :)
+_This post is part of [my free testing course](https://dialex.github.io/start-testing/#/), focused on teaching you the fundamentals of testing. Until the end of the year, expect a new [blog post](/blog/tag/course/) every Monday._ :)
 
 ## Theory
 

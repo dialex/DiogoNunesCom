@@ -8,7 +8,7 @@ categories: ["Technology"]
 
 ![if-it-sounds-too-good-to-be-true-it-must-be-true](/blog/uploads/2014/12/if-it-sounds-too-good-to-be-true-it-must-be-true-400x400.jpg)
 
-### Previously I motivated you to [donate to your favorite open source projects](http://www.diogonunes.com/blog/free-software-make-a-donation/). This time I'll show you really useful online services that require no installation and cost you nothing!
+### Previously I motivated you to [donate to your favorite open source projects](/blog/free-software-make-a-donation/). This time I'll show you really useful online services that require no installation and cost you nothing!
 
 Maybe five years ago you would have to install (and pay) to get most of this features. Today you just connect to the internet and it's all there, for free. Let me introduce you some of most useful websites out there.
 
@@ -24,7 +24,7 @@ Maybe five years ago you would have to install (and pay) to get most of this fea
     
 - **[MP3 Cut](https://mp3cut.net/)**. Oh you want to **trim** the beginning and the end of the song? Fine: upload, crop, preview in realtime, download. It also works for videos. Doesn't get any better than this.
     
-- **[Wordle](http://www.wordle.net/)**. Do you want to create a beautiful **word cloud**? This is the right place. [My books' covers](http://www.diogonunes.com/en/writing/) were made using this precious website.
+- **[Wordle](http://www.wordle.net/)**. Do you want to create a beautiful **word cloud**? This is the right place. [My books' covers](/books) were made using this precious website.
     
 - **[Dillinger](http://dillinger.io/)**. You're more the **writing** type? And you happen to like **Markdown**? Well now you can write, preview, save to Dropbox or Drive, all on your browser. No installation required.
     

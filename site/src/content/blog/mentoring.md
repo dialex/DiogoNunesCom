@@ -34,7 +34,7 @@ I also had a public inbox, so anyone could email me their specific questions. I 
 
 ### Mentoring colleagues ‍
 
-[![](/blog/uploads/2022/12/699e52ba-d6c5-4511-bad8-caf63df6f7a3.jpg)](https://www.diogonunes.com/blog/wp-content/uploads/2022/12/699e52ba-d6c5-4511-bad8-caf63df6f7a3.jpg)
+[![](/blog/uploads/2022/12/699e52ba-d6c5-4511-bad8-caf63df6f7a3.jpg)](/blog/uploads/2022/12/699e52ba-d6c5-4511-bad8-caf63df6f7a3.jpg)
 
 Almost 10 years after I finished college, during one random day at work, a colleague sends me a message. We're not in the same team, so there's not much to chat about. But we have some things in common, we're both QAs and she actually interviewed me when I applied for that job. She asked: "Hey, do you mind being my mentor?"
 
@@ -89,7 +89,7 @@ In our case, our match was natural and voluntary. I relaxed and went with the ap
 
 ### Evolution
 
-[![](/blog/uploads/2022/12/ce5b19a2-fb02-40ba-b081-501b2aff9fa5.jpg)](https://www.diogonunes.com/blog/wp-content/uploads/2022/12/ce5b19a2-fb02-40ba-b081-501b2aff9fa5.jpg)
+[![](/blog/uploads/2022/12/ce5b19a2-fb02-40ba-b081-501b2aff9fa5.jpg)](/blog/uploads/2022/12/ce5b19a2-fb02-40ba-b081-501b2aff9fa5.jpg)
 
 I was very lucky. My mentee just needed that space/person where she could ask any question and do any mistake without feeling she would be shamed or penalised. I was more her therapist than her teacher. She had the will to get better, she had the skills inside her, she had the curiosity to seek more, she only lacked one thing: confidence in herself.
 
@@ -105,6 +105,6 @@ When we started, my colleague was too shy to screen share her code with me. Nowa
 
 When I close my eyes to remember the moments we had – the struggles, the victories, the evolution – they always drop a tear when I open them, and that tear is full of emotions: the **joy** of seeing someone dear win at life, the **pride** of knowing I had a little part in it, the **fulfilment** of having a positive impact in the world, the **nostalgia** of the past, and so much more that words can't describe but the heart can feel.
 
-[![two mice walking side by side](/blog/uploads/2022/12/1-724x1024.jpg)](https://www.diogonunes.com/blog/wp-content/uploads/2022/12/1-scaled.jpg)
+[![two mice walking side by side](/blog/uploads/2022/12/1-724x1024.jpg)](/blog/uploads/2022/12/1-scaled.jpg)
 
 Thank you S. for letting me walk beside you

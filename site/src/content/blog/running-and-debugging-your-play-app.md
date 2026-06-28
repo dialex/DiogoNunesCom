@@ -7,7 +7,7 @@ tags: ["coding", "play framework"]
 categories: ["Technology"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/03/lets-play-3.png)
+[](/blog/uploads/2014/03/lets-play-3.png)
 
 ## Running locally
 

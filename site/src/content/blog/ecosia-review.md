@@ -22,11 +22,11 @@ Here's an example.
 
 This is me searching for a maven error on **Ecosia**. Look at the top 3 results. The first two are unrelated, as they don't even include the "maven" word. The third result is in a language I can't even recognise (maybe Chinese?).
 
-[![](/blog/uploads/2020/12/Screenshot_2019-12-08_at_18.59.55-1024x784.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/12/Screenshot_2019-12-08_at_18.59.55.png)
+[![](/blog/uploads/2020/12/Screenshot_2019-12-08_at_18.59.55-1024x784.png)](/blog/uploads/2020/12/Screenshot_2019-12-08_at_18.59.55.png)
 
 Same search in **Google**: the top 3 results all have results related and useful to my problem.
 
-[![](/blog/uploads/2020/12/Screenshot_2019-12-08_at_19.00.07-1024x959.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/12/Screenshot_2019-12-08_at_19.00.07.png)
+[![](/blog/uploads/2020/12/Screenshot_2019-12-08_at_19.00.07-1024x959.png)](/blog/uploads/2020/12/Screenshot_2019-12-08_at_19.00.07.png)
 
 * * *
 
@@ -34,11 +34,11 @@ Another example, now for an image search.
 
 Do you know the [satisfying meme](https://knowyourmeme.com/memes/oddly-satisfying)? I was looking for the black and white drawing of a person feeling their face in satisfaction. Let's start with the **Google** search this time. First 4 results are what I'm looking for, 2 are also good alternatives, 1 is just a random example. Pretty accurate.
 
-[![](/blog/uploads/2020/12/image-1024x344.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/12/image.png)
+[![](/blog/uploads/2020/12/image-1024x344.png)](/blog/uploads/2020/12/image.png)
 
 Now same search term in **Ecosia**. None of the top results are what I'm looking for. It even includes a reference to a porn website. Really?
 
-[![](/blog/uploads/2020/12/Screenshot_2019-11-29_at_15.21.13-1024x317.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/12/Screenshot_2019-11-29_at_15.21.13.png)
+[![](/blog/uploads/2020/12/Screenshot_2019-11-29_at_15.21.13-1024x317.png)](/blog/uploads/2020/12/Screenshot_2019-11-29_at_15.21.13.png)
 
 * * *
 

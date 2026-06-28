@@ -26,7 +26,7 @@ The executable searches for a `Tasks.txt` file containing the trolling actions t
 
 ## Download
 
-You can build the source files to get the latest `Troller.exe` or download this [one ready to use](http://www.diogonunes.com/assets/downloadmanager/click.php?id=11).
+You can build the source files to get the latest `Troller.exe` or download this [one ready to use](/books).
 
 ## How to configure Troller's tasks
 

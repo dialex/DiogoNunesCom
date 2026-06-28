@@ -7,7 +7,7 @@ tags: ["agile", "testing"]
 categories: ["Work"]
 ---
 
-_This post is part of the ["Testing for Agile Teams" series](http://www.diogonunes.com/blog/?s=Testing+for+Agile+Teams)_.
+_This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+for+Agile+Teams)_.
 
 ## Technology-Facing Tests (Q1)
 

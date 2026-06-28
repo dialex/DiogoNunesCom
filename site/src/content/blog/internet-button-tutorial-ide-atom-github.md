@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 ### First things first.
 
-Now that you can [connect to your Photon](http://www.diogonunes.com/blog/internet-button-unboxing-first-steps), it's time to give it some intelligence - time to get coding! To manage that code let's create a git repo.
+Now that you can [connect to your Photon](/blog/internet-button-unboxing-first-steps), it's time to give it some intelligence - time to get coding! To manage that code let's create a git repo.
 
 ### GitHub
 
@@ -41,7 +41,7 @@ DISCLAIMER: **Forget their web IDE.** Period. It's too complicated, nothing make
 
 ### Local IDE (Particle Dev)
 
-[![particle local ide](/blog/uploads/2016/07/particle-local-ide.png)](http://www.diogonunes.com/blog/wp-content/uploads/2016/07/particle-local-ide.png)
+[![particle local ide](/blog/uploads/2016/07/particle-local-ide.png)](/blog/uploads/2016/07/particle-local-ide.png)
 
 This is their web IDE but ~done right~ better. It's a custom version of [Atom text editor](https://atom.io/). This is the one place to go to develop and deploy code for your Internet Button.
 

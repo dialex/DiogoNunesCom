@@ -12,6 +12,6 @@ categories: ["Technology"]
 - Put that base64 string into the XML.
 - On the receiver side, simply decode the base64 back to `byte[]` using `Convert.FromBase64String(string)`.
 
-For [details](http://diogonunes.com/blog/csharp-write-read-images-sql-server) on each of those operations [check this other post](http://diogonunes.com/blog/csharp-write-read-images-sql-server).
+For [details](/blog/csharp-write-read-images-sql-server) on each of those operations [check this other post](/blog/csharp-write-read-images-sql-server).
 
 [Source](http://stackoverflow.com/questions/2965345/how-to-send-image-through-xml-using-c-sharp)

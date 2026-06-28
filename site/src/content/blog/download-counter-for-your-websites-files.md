@@ -7,11 +7,11 @@ tags: ["php", "tutorial", "utilities", "web dev"]
 categories: ["Technology"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/06/smiirl-fliike-e1411919272213.jpg)
+[](/blog/uploads/2014/06/smiirl-fliike-e1411919272213.jpg)
 
 ### A download counter not only provides you useful metrics but also gives your visitors a hint about the most popular files.
 
-If you offer your visitors files to download you may want to count how many times each file is download. I use [CCounter, a PHP Click Counter](http://www.phpjunkyard.com/php-click-counter.php) to [count the number of times my books have been read](http://www.diogonunes.com/en/writing/). It's so simple but yet it does everything you need. It's currently on version 2.0 and its user interface looks a lot better than the original - and the installation is easier too. This "plugin" transforms your files' URL into a special URL. When a visitor opens that special URL, CCounter counts a view and then redirects the file's real location. Afterwards, using PHP, you can display the number of types that file was downloaded or viewed.
+If you offer your visitors files to download you may want to count how many times each file is download. I use [CCounter, a PHP Click Counter](http://www.phpjunkyard.com/php-click-counter.php) to [count the number of times my books have been read](/books). It's so simple but yet it does everything you need. It's currently on version 2.0 and its user interface looks a lot better than the original - and the installation is easier too. This "plugin" transforms your files' URL into a special URL. When a visitor opens that special URL, CCounter counts a view and then redirects the file's real location. Afterwards, using PHP, you can display the number of types that file was downloaded or viewed.
 
 ### Install
 
@@ -37,7 +37,7 @@ Every time you want to provide a link to your file (`<a href="...">`) use the UR
 
 To show the number of clicks or downloads of a file you need to:
 
-1.  Place the following code inside the `<head>` tag of the webpage where you want to display count statistics: `<script src="http://www.diogonunes.com/assets/downloadmanager/display.php"></script>`
+1.  Place the following code inside the `<head>` tag of the webpage where you want to display count statistics: `<script src="/books"></script>`
 2.  Paste the next snippet exactly where you want the count to appear: `<script>ccount_display('LINK_ID')</script>`, e.g. `<script>ccount_display('123')</script>`
 
 Simple, but effective!

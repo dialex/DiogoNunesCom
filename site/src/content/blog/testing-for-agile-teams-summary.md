@@ -7,7 +7,7 @@ tags: ["agile", "testing"]
 categories: ["Work"]
 ---
 
-_This post is part of the ["Testing for Agile Teams" series](http://www.diogonunes.com/blog/?s=Testing+for+Agile+Teams)_.
+_This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+for+Agile+Teams)_.
 
 > Incrementally delivering business value, through short iterations (SCRUM) and virtuous loops of feedback (XP). Roles' boundaries are blurred, everyone's focused on quality.
 > 
@@ -15,7 +15,7 @@ _This post is part of the ["Testing for Agile Teams" series](http://www.diogonun
 
 ## Key Success Factors
 
-[![Summary Agile Testing](/blog/uploads/2016/03/Summary-Agile-Testing-2-400x315.png)](http://www.diogonunes.com/blog/wp-content/uploads/2016/03/Summary-Agile-Testing-2.png)
+[![Summary Agile Testing](/blog/uploads/2016/03/Summary-Agile-Testing-2-400x315.png)](/blog/uploads/2016/03/Summary-Agile-Testing-2.png)
 
 Explanation below.
 

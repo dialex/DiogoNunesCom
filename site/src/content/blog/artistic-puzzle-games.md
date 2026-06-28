@@ -35,7 +35,7 @@ The build up to the ending was amazing. You have a choice to make and different 
 
 ### The Witness
 
-[![The witness screenshot](/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81-1024x576.jpg)](https://www.diogonunes.com/blog/wp-content/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81.jpg)
+[![The witness screenshot](/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81-1024x576.jpg)](/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81.jpg)
 
 Visually is gorgeous, it’s like a dream or a painting. There's no soundtrack, so you only hear the natural noises of your surroundings and your steps. The environment is very chill. The puzzles, not so much
 

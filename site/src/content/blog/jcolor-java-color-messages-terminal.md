@@ -7,7 +7,7 @@ tags: ["free and open", "utilities"]
 categories: ["Technology"]
 ---
 
-[](https://www.diogonunes.com/blog/wp-content/uploads/2014/10/JColor-logo.png)
+[](/blog/uploads/2014/10/JColor-logo.png)
 
 ### JColor is a Java library that offers an easy way to print colored messages on a terminal
 
@@ -15,7 +15,7 @@ It all started when I needed to create an application with multiple levels of de
 
 To enhance the usefulness of this library I decided to add colored messages, which turned out to be pretty tricky. By abstracting the Ansi Escape Codes, printing a colored message became as easy as `print("message", Attribute.BOLD, FColor.BLUE, BColor.YELLOW);`
 
-[![mac example output](/blog/uploads/2014/10/example-mac-iterm-fancy.png)](https://www.diogonunes.com/blog/wp-content/uploads/2014/10/example-mac-iterm-fancy.png)
+[![mac example output](/blog/uploads/2014/10/example-mac-iterm-fancy.png)](/blog/uploads/2014/10/example-mac-iterm-fancy.png)
 
 ### Main features
 
@@ -28,4 +28,4 @@ To enhance the usefulness of this library I decided to add colored messages, whi
 
 ### License
 
-This program is free software under the terms of the **MIT LICENSE**. If this software was useful to you, consider [donating](https://www.diogonunes.com/donate.html).
+This program is free software under the terms of the **MIT LICENSE**. If this software was useful to you, consider donating.

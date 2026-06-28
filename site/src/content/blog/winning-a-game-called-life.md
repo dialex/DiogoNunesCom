@@ -11,7 +11,7 @@ categories: ["Life", "Thoughts"]
 
 > _If you don't know where you are going any road can take you there._ ― Lewis Carroll, from "Alice in Wonderland"
 
-Life shouldn't be something that _happens_ to you -- you should be in control. I'll use the [**metaphor of life as a game**](http://www.diogonunes.com/blog/minecraft-a-game-as-a-metaphor-of-life/) to help you define success and get back in control.
+Life shouldn't be something that _happens_ to you -- you should be in control. I'll use the [**metaphor of life as a game**](/blog/minecraft-a-game-as-a-metaphor-of-life/) to help you define success and get back in control.
 
 ### Rules
 

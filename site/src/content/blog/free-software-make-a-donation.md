@@ -7,7 +7,7 @@ tags: ["free and open", "kindness"]
 categories: ["Technology"]
 ---
 
-## Throughout the years, specially during college, I've used a lot of free tools. In fact, [I even created one](http://www.diogonunes.com/blog/java-colored-debug-printer/). I started to admire these people that invest their time to improve the life of others asking nothing in return.
+## Throughout the years, specially during college, I've used a lot of free tools. In fact, [I even created one](/blog/jcolor-java-color-messages-terminal/). I started to admire these people that invest their time to improve the life of others asking nothing in return.
 
 However, most of them offer you ways to "reward" them for their work. So I made a promise to myself: _"when I receive my first salary I'll donate part of it to these developers that enhanced my life."_ On September 26, I got my first paycheck from my first job. It was time to set up a PayPal account and to look for those donate buttons!
 

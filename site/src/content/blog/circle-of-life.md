@@ -40,7 +40,7 @@ And then my mind wanders:
 
 > \*...at some point they f\*\*ed each other... like `#NoFilter`\*
 
-I think too much. ([And act too little](http://www.diogonunes.com/blog/i-regret-hesitating/))
+I think too much. ([And act too little](/blog/i-regret-hesitating/))
 
 The clock is ticking.
 

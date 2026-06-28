@@ -13,7 +13,7 @@ I'm an introvert. Life is great inside my personal bubble. But I know the magic 
 
 > It's scientifically proven that dishes and clothes have one thing in common — they do not wash themselves.
 
-After [I changed jobs](https://pt.linkedin.com/in/nunesdiogo), I was spending once again about 3 hours a day on commuting. Do you recall my previous post ["Get Efficient, Get Together"](http://www.diogonunes.com/blog/get-together-get-efficient/)? Work, gym, shops and services, all were _together_... except home.
+After [I changed jobs](https://pt.linkedin.com/in/nunesdiogo), I was spending once again about 3 hours a day on commuting. Do you recall my previous post ["Get Efficient, Get Together"](/blog/get-together-get-efficient/)? Work, gym, shops and services, all were _together_... except home.
 
 It took a month and dozens of renting websites to find the room I was looking for. It's exhausting **finding the balance** between:
 

@@ -36,4 +36,4 @@ In the end, we gave up on BrowserStack and automated cross-browser testing for a
 
 ## YMMV
 
-If you want to have a go with it, you can [check this post](http://www.diogonunes.com/blog/how-to-use-browserstack-cross-browser-testing) for a real code example.
+If you want to have a go with it, you can [check this post](/blog/how-to-use-browserstack-cross-browser-testing) for a real code example.

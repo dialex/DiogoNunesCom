@@ -31,4 +31,4 @@ So which path to take? By taking a specific path, which paths will get behind an
 
 I took the path of joining a consultancy company. _For now._
 
-\[**Update**: Well, that turned out to be [a bad choice](http://www.diogonunes.com/blog/when-people-become-cpus/).\]
+\[**Update**: Well, that turned out to be [a bad choice](/blog/when-people-become-cpus/).\]

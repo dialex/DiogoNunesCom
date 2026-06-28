@@ -7,7 +7,7 @@ tags: ["coding", "cypress", "tutorial"]
 categories: ["Technology"]
 ---
 
-[](https://www.diogonunes.com/blog/wp-content/uploads/2020/04/cypress-on-docker.png)
+[](/blog/uploads/2020/04/cypress-on-docker.png)
 
 My team decided to build a Docker image that contained Cypress, dependencies and all our end-to-end (E2E) tests.
 

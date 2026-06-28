@@ -7,7 +7,7 @@ tags: ["experience"]
 categories: ["Work"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/10/workload.png)
+[](/blog/uploads/2014/10/workload.png)
 
 ### Joining a consultancy company in Portugal? [Your mileage may vary.](http://en.wiktionary.org/wiki/your_mileage_may_vary#Phrase)
 
@@ -19,6 +19,6 @@ Once the HR has acquired these new "CPUs" they start to shape them to fit the ex
 
 Now that the CPUs are connected to the motherboard, it's time to overclock them and collect profits. When I heard my friends talk about "exemption from a work schedule" I assumed they meant that a person would start the maximum 8 hours at any given time - which would make sense to compensate different time zones. Turns out what it really meant was that a person would work **any hours at any time**. It's one for all, and all for themselves.
 
-Eventually **CPUs melt** and leave the motherboard. For the motherboard it's time to buy brand new processing power. For the CPUs it's time to shake the dust out of their personalities, wear them once again, and restart living. Maybe [it's time to join that startup](http://www.diogonunes.com/blog/whats-the-right-time-to-create-a-startup/). Maybe it's time to join that [SME](http://en.wikipedia.org/wiki/Small_and_medium_enterprises). About half my ex-consultant friends took one of those two paths.
+Eventually **CPUs melt** and leave the motherboard. For the motherboard it's time to buy brand new processing power. For the CPUs it's time to shake the dust out of their personalities, wear them once again, and restart living. Maybe [it's time to join that startup](/blog/whats-the-right-time-to-create-a-startup/). Maybe it's time to join that [SME](http://en.wikipedia.org/wiki/Small_and_medium_enterprises). About half my ex-consultant friends took one of those two paths.
 
 No money - and certainly not the one they're paying you - justifies sacrificing your health, your happiness, or your personality. ["Don’t give yourselves to these unnatural men - machine men with machine minds and machine hearts!"](http://youtu.be/QcvjoWOwnn4?t=3m15s) (Charlie Chaplin)

@@ -24,18 +24,18 @@ Thus [Start Testing](https://github.com/dialex/start-testing) was born on Jan 1s
 
 The topics I need to investigate are GitHub issues. They contain the links I need to read.
 
-[![stories](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-17.04.19.png)](http://www.diogonunes.com/blog/wp-content/uploads/2018/01/Screen-Shot-2018-01-23-at-17.04.19.png)
+[![stories](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-17.04.19.png)](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-17.04.19.png)
 
 I prioritise those topics with a simplified Kanban.
 
-[![board](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-14.54.42.png)](http://www.diogonunes.com/blog/wp-content/uploads/2018/01/Screen-Shot-2018-01-23-at-14.54.42.png)
+[![board](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-14.54.42.png)](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-14.54.42.png)
 
 I group topics into milestones, which allow me to track my progress.
 
-[![progress](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-14.56.26.png)](http://www.diogonunes.com/blog/wp-content/uploads/2018/01/Screen-Shot-2018-01-23-at-14.56.26.png)
+[![progress](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-14.56.26.png)](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-14.56.26.png)
 
 When I push changes, my ~code~ article is automatically checked for spelling mistakes. `#CI` If it passes the test, it goes live! `#CD` The rendered [Markdown](http://commonmark.org/) looks like [this](https://dialex.github.io/start-testing/#/)
 
-[![live version](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-14.58.13.png)](http://www.diogonunes.com/blog/wp-content/uploads/2018/01/Screen-Shot-2018-01-23-at-14.58.13.png)
+[![live version](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-14.58.13.png)](/blog/uploads/2018/01/Screen-Shot-2018-01-23-at-14.58.13.png)
 
 Let's see where this journey takes me!

@@ -35,6 +35,6 @@ Here's my advice, to decrease frustration and boost your self-esteem:
 - Frequently practice what you want to be good at
 - Decide if you want to be a specialist or a generalist
 
-If you still feel you are good at nothing, [consider helping something bigger than you](https://www.diogonunes.com/blog/good-at-nothing-volunteer/).
+If you still feel you are good at nothing, [consider helping something bigger than you](/blog/good-at-nothing-volunteer/).
 
 If you want to discover yourself (your personality traits and what you are good at) then I suggest you do the 15 exercises contained in my e-book "Purpose". You can [get it for Kindle at Amazon](https://amzn.to/3kRajFy) or [free at Leanpub](https://leanpub.com/purpose).

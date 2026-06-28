@@ -7,7 +7,7 @@ tags: ["idea", "minimalism"]
 categories: ["Life"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/07/get-efficient.jpg)
+[](/blog/uploads/2014/07/get-efficient.jpg)
 
 ### Context
 

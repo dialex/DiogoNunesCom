@@ -13,7 +13,7 @@ categories: ["Work"]
 
 Well if you're asking yourself that question probably something is indeed wrong with your job. This infographic is a quick (and good-humored) way to assess if you should start looking for a better job. The guys at [JOBBOX](http://www.jobbox.io/) created a nice [survey](https://www.qzzr.co/quiz/are-you-happy-with-your-current-tech-job) customized for tech jobs.
 
-[![should i quit my job thumbnail](/blog/uploads/2014/10/should-i-quit-my-job-flowchart1-e1410691433335-1024x319.jpg)](http://www.diogonunes.com/blog/wp-content/uploads/2014/10/should-i-quit-my-job-flowchart.jpg)
+[![should i quit my job thumbnail](/blog/uploads/2014/10/should-i-quit-my-job-flowchart1-e1410691433335-1024x319.jpg)](/blog/uploads/2014/10/should-i-quit-my-job-flowchart.jpg)
 
 > If you don't like something, change it. If you can't change it, change your attitude. Don't complain. M. Angelou
 

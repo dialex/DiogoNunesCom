@@ -7,7 +7,7 @@ tags: ["javascript", "testing", "tutorial", "utilities", "web dev"]
 categories: ["Technology"]
 ---
 
-[](https://www.diogonunes.com/blog/wp-content/uploads/2020/10/Screenshot_2020-08-26_at_15.40.55.png)
+[](/blog/uploads/2020/10/Screenshot_2020-08-26_at_15.40.55.png)
 
 The goal is to create a Google Sheet that can track the historical PageSpeed Insights (PSI) perfomance data of one or more pages/URLs. You will use JavaScript code to call the PageSpeed Insights API and store the result in your sheet.
 
@@ -105,7 +105,7 @@ Right now, you can run the PSI test with the click of a button. But ideally the 
     - "Time-driven", "Day timer", Select any hour
 4.  Save your trigger
 
-[![](/blog/uploads/2020/10/PSI-Schedule-953x1024.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/10/PSI-Schedule.png)
+[![](/blog/uploads/2020/10/PSI-Schedule-953x1024.png)](/blog/uploads/2020/10/PSI-Schedule.png)
 
 That's it. Now your Google Sheet will be updated on a daily basis with your latest PSI scores for your target URLs.
 

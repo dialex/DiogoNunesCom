@@ -30,6 +30,6 @@ Another thing I'm quite used to do on Windows is to press the shutdown button to
 
 ### Final thoughts
 
-I like the Ubuntu project, what it is and what it represents. I like their [vision to unify desktop, tablets, mobile (and TV)](http://www.techradar.com/news/phone-and-communications/mobile-phones/canonical-s-long-road-to-the-ubuntu-phone-1206455) in a single OS and UI. I admire the effort the put on to create a powerful and beautiful operating system free for everyone. After all this years using Ubuntu [I actually made a donation](http://www.diogonunes.com/blog/free-software-make-a-donation/). What I don't like are these tiny little things that greatly limit my work on Ubuntu.
+I like the Ubuntu project, what it is and what it represents. I like their [vision to unify desktop, tablets, mobile (and TV)](http://www.techradar.com/news/phone-and-communications/mobile-phones/canonical-s-long-road-to-the-ubuntu-phone-1206455) in a single OS and UI. I admire the effort the put on to create a powerful and beautiful operating system free for everyone. After all this years using Ubuntu [I actually made a donation](/blog/free-software-make-a-donation/). What I don't like are these tiny little things that greatly limit my work on Ubuntu.
 
 So if you want my advice, **use a virtual machine instead**. With Windows' layer on top of Ubuntu I had all those problems solved (external monitor and suspend), which is quite ironic. If you don't have the patience to create a VM you can grab one at [bitnami](http://bitnami.com/stacks).

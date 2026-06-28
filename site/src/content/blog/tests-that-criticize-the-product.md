@@ -7,7 +7,7 @@ tags: ["agile", "testing"]
 categories: ["Work"]
 ---
 
-_This post is part of the ["Testing for Agile Teams" series](http://www.diogonunes.com/blog/?s=Testing+for+Agile+Teams)_.
+_This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+for+Agile+Teams)_.
 
 > All that's left is to possibly find some obscure or interesting bugs. And to avoid things like "that's what I said, but it’s not what I meant."
 

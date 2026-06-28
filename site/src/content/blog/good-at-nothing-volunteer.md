@@ -10,7 +10,7 @@ categories: ["Thoughts"]
 
 ### That's one thing all of us can be good at!
 
-You might feel [good at nothing](https://www.diogonunes.com/blog/why-am-i-good-at-nothing/) or even [average at everything](https://www.diogonunes.com/blog/average-at-everything-good-at-nothing/). You think you are not good enough or not useful. You feel like you don't matter, just one more human in the world.
+You might feel [good at nothing](/blog/why-am-i-good-at-nothing/) or even [average at everything](/blog/average-at-everything-good-at-nothing/). You think you are not good enough or not useful. You feel like you don't matter, just one more human in the world.
 
 We are all different and complementary. Not all of us need to be leaders or experts or hustlers. For every gifted extrovert leading a team, there's an average introvert beside them, helping them achieve their vision.
 

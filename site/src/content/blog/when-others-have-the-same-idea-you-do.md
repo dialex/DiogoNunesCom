@@ -21,11 +21,11 @@ I had a few ideas over the years. I took them nowhere but I'm thankful someone e
 
 Facebook evolved. Today, the profile's interests are gone but hi5's gossiping is everywhere.
 
-[![ilook4 cover](/blog/uploads/2014/02/ilook4-cover-400x300.png)](http://www.diogonunes.com/blog/wp-content/uploads/2014/02/ilook4-cover.png)
+[![ilook4 cover](/blog/uploads/2014/02/ilook4-cover-400x300.png)](/blog/uploads/2014/02/ilook4-cover.png)
 
 ### 2009: Tablet
 
-[![medium_2066550916_425cfd32d5_o](/blog/uploads/2014/02/medium_2066550916_425cfd32d5_o-400x222.jpg)](http://www.diogonunes.com/blog/wp-content/uploads/2014/02/medium_2066550916_425cfd32d5_o.jpg)
+[![medium_2066550916_425cfd32d5_o](/blog/uploads/2014/02/medium_2066550916_425cfd32d5_o-400x222.jpg)](/blog/uploads/2014/02/medium_2066550916_425cfd32d5_o.jpg)
 
 > "Detach the monitor of a laptop, make it touch sensitive, and give it the processing power of a netbook. You could carry all your songs, all your books, all your documents, be productive on the go and take handwritten notes. Every student would want one."  
 > » I had no name for it in 2009.  
@@ -33,7 +33,7 @@ Facebook evolved. Today, the profile's interests are gone but hi5's gossiping is
 
 The image above dates to the end of 2009 and was part of a rumor about an Apple tablet. That quote was my pitch to Microsoft. Yes, when I first heard about Microsoft's Slate PCs I phone called Microsoft Portugal and asked when such device would come to Portugal. _They didn't even know what I was talking about_ and gave me the Marketing's email. I sent an email with the mind map below and an explanation of the idea. I didn't care about royalties I just wanted that someone created a similar device. I never got a response and when Apple released the iPad I gave up. Today I'm a proud [Nexus 7](https://www.google.com/search?q=nexus+7+2013&es_sm=93&source=lnms&tbm=isch&sa=X&ei=ZI5WUrXtMa6p7Aam64HIBg&ved=0CAcQ_AUoAQ&biw=1366&bih=643&dpr=1) owner.
 
-[![HPSlate](/blog/uploads/2014/02/HPSlate-400x260.jpg)](http://www.diogonunes.com/blog/wp-content/uploads/2014/02/HPSlate.jpg)
+[![HPSlate](/blog/uploads/2014/02/HPSlate-400x260.jpg)](/blog/uploads/2014/02/HPSlate.jpg)
 
 ### 2018: Price comparator for groceries
 

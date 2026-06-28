@@ -7,7 +7,7 @@ tags: ["c#", "coding", "tutorial", "web dev"]
 categories: ["Technology"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/11/77043.jpg)
+[](/blog/uploads/2014/11/77043.jpg)
 
 Once I had to test in C# a dozen of web services developed by a third-party. However they provided no WSDL and no ASMX - therefore it would be impossible to use Web References. They only provided the name of the web methods, their urls, calling credentials and an XML request example.
 
@@ -77,4 +77,4 @@ private XmlDocument CallWebService(string method, string operation, string xmlPa
 }
 ```
 
-There's an even [better way here](http://www.diogonunes.com/blog/calling-a-web-method-in-c-without-a-service-reference/).
+There's an even [better way here](/blog/calling-a-web-method-in-c-without-a-service-reference/).

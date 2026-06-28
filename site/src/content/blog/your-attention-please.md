@@ -25,7 +25,7 @@ I pursue that goal. It makes me independent, resilient, even happier. After all,
 
 > You are aware of your mood and you know exactly what to do to improve it. You are your own master.
 
-Socializing with others becomes a "desert" instead of the "main course", i.e. something delicious when you have it, but superfluous nonetheless. I guess **I apply frugality to relationships**. It's a skill that comes easy when [you're an introvert](http://www.diogonunes.com/blog/personality-test-to-build-better-teams/).
+Socializing with others becomes a "desert" instead of the "main course", i.e. something delicious when you have it, but superfluous nonetheless. I guess **I apply frugality to relationships**. It's a skill that comes easy when [you're an introvert](/blog/personality-test-to-build-better-teams/).
 
 If you were a babysitter, which kid would you prefer:
 

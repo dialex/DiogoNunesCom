@@ -25,7 +25,7 @@ In summary, I was looking for a transport that would:
 
 A candidate emerged: _an electric scooter_.
 
-[![](/blog/uploads/2018/10/eletric-scooter-what-to-look-for-400x390.png)](https://www.diogonunes.com/blog/wp-content/uploads/2018/10/eletric-scooter-what-to-look-for.png)
+[![](/blog/uploads/2018/10/eletric-scooter-what-to-look-for-400x390.png)](/blog/uploads/2018/10/eletric-scooter-what-to-look-for.png)
 
 ### Models under review
 
@@ -39,7 +39,7 @@ After weeks of research, there were 3 models to choose from. All except one requ
 
 The greener the better. Red is bad.
 
-[![](/blog/uploads/2018/10/electric-scooter-benchmark-2018-entry-level.png)](https://www.diogonunes.com/blog/wp-content/uploads/2018/10/electric-scooter-benchmark-2018-entry-level.png)
+[![](/blog/uploads/2018/10/electric-scooter-benchmark-2018-entry-level.png)](/blog/uploads/2018/10/electric-scooter-benchmark-2018-entry-level.png)
 
 - [UrbanGlide Ride 50S Carbon](http://storex.fr/pt-pt/product-tag/urbanride50/) (low weight/price/quality)
 - [EcoReco XS](https://ecorecoscooter.com/product/ecoreco-model-xs-pre-order/) (lightweight but good construction)
@@ -50,7 +50,7 @@ The greener the better. Red is bad.
 
 It was a hard choice. This was my first (electric) scooter, so I decided to play it safe and buy **UrbanGlide Ride 50S Carbon**, the cheapest and the only one available locally.
 
-[![](/blog/uploads/2018/10/5-760x450.jpg)](https://www.diogonunes.com/blog/wp-content/uploads/2018/10/5-760x450.jpg)
+[![](/blog/uploads/2018/10/5-760x450.jpg)](/blog/uploads/2018/10/5-760x450.jpg)
 
 **I asked for a refund 48h later.** Let me tell you why it sucked so bad:
 

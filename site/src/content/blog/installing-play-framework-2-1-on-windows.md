@@ -7,7 +7,7 @@ tags: ["coding", "play framework"]
 categories: ["Technology"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/03/lets-play-1.png)
+[](/blog/uploads/2014/03/lets-play-1.png)
 
 The Play Framework is probably one of the few web frameworks that installs and works pretty well on Windows. I started web development with Django, but I had to learn Python and Django at the same time, and the documentation was not so good as [they](http://stackoverflow.com/a/846266/675577) said it was. So I decided to leverage my Java experience and use Play. And since Play supports both Java and Scala I could refactor and move to Scala at any time.
 

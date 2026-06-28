@@ -19,7 +19,7 @@ Well yeah, I can't say I'm a NaNoWriMo winner because I didn't reach the 50k wor
 
 ### Increase your chances of winning
 
-As I [said](http://www.diogonunes.com/blog/finding-courage-to-start-a-fantasy-novel/) before, "_Finishing the novel is just an outcome; the writing process is the real fun!_" 50.000 words in 30 days is just that little pressure to force you to write when anything else motivates you to.
+As I [said](/blog/finding-courage-to-start-a-fantasy-novel/) before, "_Finishing the novel is just an outcome; the writing process is the real fun!_" 50.000 words in 30 days is just that little pressure to force you to write when anything else motivates you to.
 
 I believe that writing that amount of words in single month **is only achievable if** (A) you enter hermit mode and focus 100% on writing your novel only stopping to eat and drink coffee or (B) you're an experienced writer that has a clear idea of the story and a trained to skill to write verbosely.
 

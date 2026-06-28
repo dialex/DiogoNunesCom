@@ -22,7 +22,7 @@ First you need to include that library:
 
 ### All together now
 
-To finish this [series](http://www.diogonunes.com/blog/tag/hardware/), I decided to use a bit of every tutorial so far. This is the flow we are about to implement:
+To finish this [series](/blog/tag/hardware/), I decided to use a bit of every tutorial so far. This is the flow we are about to implement:
 
 - Someone presses the 3rd button
 - LEDs light up in a circular pattern
@@ -123,7 +123,7 @@ For the purpose of our example, we want the cloud to passthrough the message to 
 
 Whoever wants to receive your event needs to create a Slack webhook or endpoint that you can call when the even is triggered on the Internet Button.
 
-[![subscriber1](/blog/uploads/2016/08/subscriber1.png)](http://www.diogonunes.com/blog/wp-content/uploads/2016/08/subscriber1.png)
+[![subscriber1](/blog/uploads/2016/08/subscriber1.png)](/blog/uploads/2016/08/subscriber1.png)
 
 1.  Go to your Slack's **Incoming WebHooks**.
 2.  Click **Add Configuration**.
@@ -131,7 +131,7 @@ Whoever wants to receive your event needs to create a Slack webhook or endpoint 
 4.  Send us the **Webhook URL**.
 5.  Feel free to customize the **Name** and **Icon** of this integration.
 
-[![subscriber3](/blog/uploads/2016/08/subscriber3.png)](http://www.diogonunes.com/blog/wp-content/uploads/2016/08/subscriber3.png)
+[![subscriber3](/blog/uploads/2016/08/subscriber3.png)](/blog/uploads/2016/08/subscriber3.png)
 
 #### Steps for the publisher
 
@@ -158,7 +158,7 @@ That files describes a [Particle's webhook](https://docs.particle.io/guide/how-t
 - `{{SPARK_EVENT_VALUE}}` is a variable tag that will be replaced with the message from `Spark.publish()` method.
 - `"link_names": "1"` is specific to Slack's API, it's a workaround to let your bots use `@here` notifications.
 
-[![Screen_Shot_2016-07-30_at_18.14.39](/blog/uploads/2016/08/Screen_Shot_2016-07-30_at_18.14.39.png)](http://www.diogonunes.com/blog/wp-content/uploads/2016/08/Screen_Shot_2016-07-30_at_18.14.39.png)
+[![Screen_Shot_2016-07-30_at_18.14.39](/blog/uploads/2016/08/Screen_Shot_2016-07-30_at_18.14.39.png)](/blog/uploads/2016/08/Screen_Shot_2016-07-30_at_18.14.39.png)
 
 Once you are done, open a terminal and run `particle webhook create <name-of-webhook.json>`. Then you can check online, on Particle's cloud, that the webhook was created.
 

@@ -33,9 +33,9 @@ I took [Jared Quinert](http://www.software-testing.com.au/blog/2009/07/21/thinki
 
 The result was this mind map, and a new [mnemonic](https://dialex.github.io/start-testing/#/toolbox/mnemonics) called **`SADDEST PPIRATEE`**:
 
-[![](/blog/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png)
+[![](/blog/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png)](/blog/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png)
 
-Download: [overview mind map](https://www.diogonunes.com/blog/wp-content/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png) / [detailed mind map](https://www.diogonunes.com/blog/wp-content/uploads/2020/05/Test-Strategy-SADDEST-PPIRATEE.png)
+Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png) / [detailed mind map](/blog/uploads/2020/05/Test-Strategy-SADDEST-PPIRATEE.png)
 
 ### Questions
 

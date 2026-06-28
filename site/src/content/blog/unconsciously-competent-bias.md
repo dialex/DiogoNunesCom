@@ -8,7 +8,7 @@ tags: ["self-esteem"]
 categories: ["Thoughts"]
 ---
 
-[Why am I good at nothing?](https://www.diogonunes.com/blog/why-am-i-good-at-nothing/) I've talked before about [how you can make a difference even if you feel (or actually are) average](https://www.diogonunes.com/blog/good-at-nothing-volunteer/). But what if you are not as average as you think you are?
+[Why am I good at nothing?](/blog/why-am-i-good-at-nothing/) I've talked before about [how you can make a difference even if you feel (or actually are) average](/blog/good-at-nothing-volunteer/). But what if you are not as average as you think you are?
 
 What if you are negatively biased and downplay your work? That might well be the case.
 

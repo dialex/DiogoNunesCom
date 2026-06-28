@@ -7,7 +7,7 @@ tags: ["coding", "play framework"]
 categories: ["Technology"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/03/lets-play-4.png)
+[](/blog/uploads/2014/03/lets-play-4.png)
 
 Follow the [official install instructions](http://www.playframework.com/documentation/2.1.x/NewApplication) (these steps will only work for 2.1.\* versions of the Play Framework). Afterwards:
 

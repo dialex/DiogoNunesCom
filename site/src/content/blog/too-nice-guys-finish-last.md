@@ -10,7 +10,7 @@ categories: ["Life"]
 
 ## Can a person be _too_ nice? Yes, and you should stop being that person... unless you want to be a saint, but in that case you can't have a girl. Problem solved.
 
-In a [previous post](http://www.diogonunes.com/blog/were-friends-right/) I confessed that I have a tendency to be too nice, specially with girls. But is it possible to be too much of a nice guy?
+In a [previous post](/blog/were-friends-right/) I confessed that I have a tendency to be too nice, specially with girls. But is it possible to be too much of a nice guy?
 
 > While the nice guy is an agreeable person, he's got no control over his life. He allows women to come into his life, he agrees on everything, and hopes and prays that these women will like him for being so agreeable. (...) He becomes **the boring nice guy nobody wants to date.**  
 > [David Wygant](http://uk.askmen.com/dating/dating_advice_600/608_why-do-nice-guys-finish-last.html)

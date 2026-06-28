@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 ### No extra cost for using a custom domain.
 
-To have a website online you need two things: a **domain** and a **host**. I'm assuming you already bought [a cool and cheap domain on Namecheap](http://www.diogonunes.com/blog/namecheap-domains) (they're great). Now the only thing missing is a place to host your website.
+To have a website online you need two things: a **domain** and a **host**. I'm assuming you already bought a cool and cheap domain on Namecheap (they're great). Now the only thing missing is a place to host your website.
 
 **_$1 buys you an online presence for a whole year!_**
 
@@ -38,7 +38,7 @@ You should be able to view your site on a url like `username.github.io/repo`. Th
 
 ![](/blog/uploads/2016/12/now.png)
 
-1.  Visit your domain provider (e.g. [Namecheap](http://www.diogonunes.com/blog/namecheap-domains)).
+1.  Visit your domain provider (e.g. Namecheap).
 2.  Find the DNS settings (e.g. **Domains > Advanced DNS**).
 3.  Create two `A` records.
     1.  For **Host** type `@` (that means root or baseline).

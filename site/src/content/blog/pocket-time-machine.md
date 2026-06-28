@@ -33,7 +33,7 @@ During the next two years I found out that if I filled all my time doing stuff, 
 
 ![](/blog/uploads/2018/11/Screenshot_20170906-180645-225x400.png)
 
-And more recently, when I switched my career from developer to tester, I had to learn everything again (and I'm [still learning)](https://www.diogonunes.com/blog/making-an-open-source-testing-course/).
+And more recently, when I switched my career from developer to tester, I had to learn everything again (and I'm [still learning)](/blog/making-an-open-source-testing-course/).
 
 ### Closing ~thought~ rant
 

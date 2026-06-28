@@ -7,7 +7,7 @@ tags: ["minimalism", "relationships"]
 categories: ["Life"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/12/announcing_5.jpg)
+[](/blog/uploads/2014/12/announcing_5.jpg)
 
 ### Boy meets girl, boy loves girl, boy asks girl in marriage, girl expects a little box with a fancy ring.
 
@@ -21,7 +21,7 @@ You may not have been in that situation but we all know how it goes. That perver
 
 That didn't change through time: to signal other males she's taken. That's why the girl wears the ring and the boy doesn't. After all he's free to look for someone else - the golden ring [was](http://en.m.wikipedia.org/wiki/Engagement_ring#Purchase) a source of financial security for the woman. Some guys even offer a ring right after they start dating the girl. The ring is a warning for **TAKEN: Look but don't touch**, much like how humans do with cattle.
 
-[![40180021](/blog/uploads/2014/12/40180021-1024x350.jpg)](http://www.diogonunes.com/blog/wp-content/uploads/2014/12/40180021.jpg)
+[![40180021](/blog/uploads/2014/12/40180021-1024x350.jpg)](/blog/uploads/2014/12/40180021.jpg)
 
 ### Why do they need to have a diamond?
 

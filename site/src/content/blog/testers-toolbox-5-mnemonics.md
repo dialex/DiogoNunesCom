@@ -224,7 +224,7 @@ Use the mnemonic technique to squeeze and shape any piece of information into a 
     - Schedule: when and how will team members align and share with each other?
     - Test items: which parts of the product should be tested?
     - Deliverables: which observable artefacts are expected to come out of testing?
-- **When designing a test strategy for a new project: `SADDEST PPIRATEE`** by [Diogo Nunes](https://www.diogonunes.com/blog/test-strategy-saddest-ppiratee-mnemonic/) (adapted from **[`GRATEDD SCRIPTS`](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)**)
+- **When designing a test strategy for a new project: `SADDEST PPIRATEE`** by [Diogo Nunes](/blog/test-strategy-saddest-ppiratee-mnemonic/) (adapted from **[`GRATEDD SCRIPTS`](http://www.software-testing.com.au/blog/2009/07/21/thinking-about-test-strategy-a-mnemonic-device/)**)
     - Scope
     - Approach
     - Dependencies

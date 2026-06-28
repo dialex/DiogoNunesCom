@@ -10,6 +10,6 @@ Photography has been my hobby for almost a decade now. During that time I adapte
 
 After all these years of trial and error I decided to formalise my workflow and share it with you.
 
-[![workflow diagram](/blog/uploads/2019/09/Workflow-for-Digital-Photography-v1.1.png)](https://www.diogonunes.com/blog/wp-content/uploads/2019/09/Workflow-for-Digital-Photography-v1.1.png)
+[![workflow diagram](/blog/uploads/2019/09/Workflow-for-Digital-Photography-v1.1.png)](/blog/uploads/2019/09/Workflow-for-Digital-Photography-v1.1.png)
 
 Note that this is not a perfect "one size fits all" solution, it's just how I work, and you might find something useful to adapt to your own workflow.

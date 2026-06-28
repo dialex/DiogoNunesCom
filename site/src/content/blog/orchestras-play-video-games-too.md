@@ -57,7 +57,7 @@ Speaking of VGM (video game music), the concert [20020220](https://itunes.apple.
 - [Final Symphony](http://www.gameconcerts.com/en/concerts/final-symphony/)
 - [Zelda: Symphony of the Goddess](http://zelda-symphony.com/)
 
-And I travel around Europe [following them](http://www.diogonunes.com/achievements.html)! Countries like Sweden even [broadcasted a concert it in their national TV](https://youtu.be/-PkdLMIz-Ys).
+And I travel around Europe [following them](/achievements)! Countries like Sweden even [broadcasted a concert it in their national TV](https://youtu.be/-PkdLMIz-Ys).
 
 Some fans do their own reochestrations, like [Blake Robinson](https://www.youtube.com/user/dummeh/playlists) or [Braxton Burks](https://loudr.fm/artist/braxton-burks/8aU5s) and his outstanding [Kanto Symphony](https://loudr.fm/release/pokemon-reorchestrated-kanto-symphony/ytsMr).
 

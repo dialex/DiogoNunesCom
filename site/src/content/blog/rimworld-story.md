@@ -27,7 +27,7 @@ PewPew was not much of a talker, he was more of a shooter. Dr House on the other
 
 * * *
 
-[![](/blog/uploads/2023/11/DALL·E-2023-10-08-15.39.03-impressionist-oil-painting-using-warm-colours-of-two-labrador-dogs.png)](https://www.diogonunes.com/blog/wp-content/uploads/2023/11/DALL·E-2023-10-08-15.39.03-impressionist-oil-painting-using-warm-colours-of-two-labrador-dogs.png)
+[![](/blog/uploads/2023/11/DALL·E-2023-10-08-15.39.03-impressionist-oil-painting-using-warm-colours-of-two-labrador-dogs.png)](/blog/uploads/2023/11/DALL·E-2023-10-08-15.39.03-impressionist-oil-painting-using-warm-colours-of-two-labrador-dogs.png)
 
 Let me tell you about Lassie. She's a female Labrador that was found bleeding on the ground. Maybe she was attacked by a predator which had to run away, who knows. PewPew carried her and Babushka treated her.
 
@@ -121,7 +121,7 @@ So they made another leg. And Jynx tried again. And failed again.
 
 They made another. Jynx tried. Jynx failed. You could say it was... jinxed.
 
-[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.15.39-impressionist-oil-painting-of-a-woman-with-white-hair-and-a-red-jacket-laying-in-a-hospital-with-one-normal-leg-and-one-silver-metal-prosthetic-leg.png)](https://www.diogonunes.com/blog/wp-content/uploads/2023/09/DALL·E-2023-09-30-20.15.39-impressionist-oil-painting-of-a-woman-with-white-hair-and-a-red-jacket-laying-in-a-hospital-with-one-normal-leg-and-one-silver-metal-prosthetic-leg.png)
+[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.15.39-impressionist-oil-painting-of-a-woman-with-white-hair-and-a-red-jacket-laying-in-a-hospital-with-one-normal-leg-and-one-silver-metal-prosthetic-leg.png)](/blog/uploads/2023/09/DALL·E-2023-09-30-20.15.39-impressionist-oil-painting-of-a-woman-with-white-hair-and-a-red-jacket-laying-in-a-hospital-with-one-normal-leg-and-one-silver-metal-prosthetic-leg.png)
 
 They made a 4th leg and tried a 4th time and... it worked! Finally Babushka could walk properly again. She was still under the influence of the anaesthesia and there she was, outside, building new turrets. That's Babushka for you.
 
@@ -147,7 +147,7 @@ Speaking of prisoners, one time the colonists captured two raiders. They spoke w
 
 Jynx went to the prison cell and extracted one of the kidneys, then the other, then his left lung, then his heart, then he died, to no one's surprise. What was surprising though was the market price of those organs. Each kidney was worth 500 silver. In those little four refrigerated boxes there was three times as much money as the colony had gathered during several in-game years. Profit!
 
-[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.21.14-impressionist-oil-painting-of-female-doctor-doing-a-surgery-to-someone-with-clothes-that-have-horizontal-white-and-black-stripes.png)](https://www.diogonunes.com/blog/wp-content/uploads/2023/09/DALL·E-2023-09-30-20.21.14-impressionist-oil-painting-of-female-doctor-doing-a-surgery-to-someone-with-clothes-that-have-horizontal-white-and-black-stripes.png)
+[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.21.14-impressionist-oil-painting-of-female-doctor-doing-a-surgery-to-someone-with-clothes-that-have-horizontal-white-and-black-stripes.png)](/blog/uploads/2023/09/DALL·E-2023-09-30-20.21.14-impressionist-oil-painting-of-female-doctor-doing-a-surgery-to-someone-with-clothes-that-have-horizontal-white-and-black-stripes.png)
 
 They were trying for so long to find a sustainable way to make money. First thing they tried was drugs, by farming smokeleaves and producing joints. Each joint was worth 12 silver and took lots of effort. Then they tried to make cloth out of cotton. It was profitable but it took a long time to harvest all that cotton. But kidneys? Every attacker now had a 1000 price tag over their head, and with frequent raids that became our "get rich quick" scheme.
 
@@ -157,7 +157,7 @@ Oh and one more thing: while Jynx was extracting the organs from the unwavering 
 
 The weather outside became weird. The sky was covered with dark clouds, but they looked purplish, as clouds do after a sunset. Then it started raining. One full day of never-ending rain. Then another. Then a week. Then a month. Then our colonist estimated it would keep raining for at least a season.
 
-[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.27.28-impressionist-oil-painting-of-purple-rain-falling-on-old-hand-and-a-small-puddle-of-water.png)](https://www.diogonunes.com/blog/wp-content/uploads/2023/09/DALL·E-2023-09-30-20.27.28-impressionist-oil-painting-of-purple-rain-falling-on-old-hand-and-a-small-puddle-of-water.png)
+[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.27.28-impressionist-oil-painting-of-purple-rain-falling-on-old-hand-and-a-small-puddle-of-water.png)](/blog/uploads/2023/09/DALL·E-2023-09-30-20.27.28-impressionist-oil-painting-of-purple-rain-falling-on-old-hand-and-a-small-puddle-of-water.png)
 
 There was nothing they could do but wait. And maybe sow some rice, to take advantage of all this rain.
 
@@ -171,7 +171,7 @@ Another season ended, but not the rain. Eventually the colony gave up. Life is s
 
 One day, after 18 months, it stopped. The rain stopped, the dark clouds opened to let the sun shine on the wrinkled faces of the colonists. They noticed that Babushka, the oldest person in the colony with 70 years now, was mysteriously immune to rain. And thus the old grandma watched the boys and girls age 10 years while she only aged one. She already had plenty, she didn't need more.
 
-[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.31.24-impressionist-oil-painting-of-old-woman-with-red-jacket-and-white-hair-pettng-the-head-of-a-big-brown-bear.png)](https://www.diogonunes.com/blog/wp-content/uploads/2023/09/DALL·E-2023-09-30-20.31.24-impressionist-oil-painting-of-old-woman-with-red-jacket-and-white-hair-pettng-the-head-of-a-big-brown-bear.png)
+[![](/blog/uploads/2023/09/DALL·E-2023-09-30-20.31.24-impressionist-oil-painting-of-old-woman-with-red-jacket-and-white-hair-pettng-the-head-of-a-big-brown-bear.png)](/blog/uploads/2023/09/DALL·E-2023-09-30-20.31.24-impressionist-oil-painting-of-old-woman-with-red-jacket-and-white-hair-pettng-the-head-of-a-big-brown-bear.png)
 
 When she finally felt the warmth of the sun she became so inspired that she decided to tame a wild brown bear. In normal circumstances there's an 80% chance of getting mauled by the bear, but not with Babushka. She just placed her hand on top of the bear's head and just like that, Misha joined the colony, Babushka's pet brown bear.
 
@@ -211,4 +211,4 @@ They were beaten by four rhinos and one squirrel. And one duck too.
 
 GG.
 
-[![](/blog/uploads/2023/09/rino_charge_2.JPG-1024x494.jpg)](https://www.diogonunes.com/blog/wp-content/uploads/2023/09/rino_charge_2.JPG.jpg)
+[![](/blog/uploads/2023/09/rino_charge_2.JPG-1024x494.jpg)](/blog/uploads/2023/09/rino_charge_2.JPG.jpg)

@@ -12,7 +12,7 @@ categories: ["Technology"]
 
 My first experience with Playwright was terrible. However the testing community seems to be loving it, thus I gave it another shot. I started by doing a [free course](https://testautomationu.applitools.com/js-playwright-tutorial/), but I don't recommend it, it's very outdated by now.
 
-I know you loved my [Cypress recipes post](https://www.diogonunes.com/blog/cypress-tips-tricks/), so here's a new one for Playwright with up-to-date code snippets on how to implement common automation scenarios.
+I know you loved my [Cypress recipes post](/blog/cypress-tips-tricks/), so here's a new one for Playwright with up-to-date code snippets on how to implement common automation scenarios.
 
 ## ⚙️ Setup
 

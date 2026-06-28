@@ -7,7 +7,7 @@ tags: ["c#", "coding", "tutorial", "web dev"]
 categories: ["Technology"]
 ---
 
-Last week I gave you a method that, [using SOAP and HttpWebRequest, allowed you to invoke a Web Method without a WSDL or a Web Reference](http://www.diogonunes.com/blog/?p=1451). Well today, I'll give you an improved version of that method. In fact I'll give you a whole ready-to-use class with additional functionality.
+Last week I gave you a method that, [using SOAP and HttpWebRequest, allowed you to invoke a Web Method without a WSDL or a Web Reference](/blog/calling-webservice-without-wsdl-or-web-reference/). Well today, I'll give you an improved version of that method. In fact I'll give you a whole ready-to-use class with additional functionality.
 
 Recapping, if you need to call a web method but fail to have a WSDL or can't use a Web or Service Reference because you want your code to be dynamic, then SOAP and `HttpWebRequest`s are the way to go. You can then create a Proxy having the same API (methods, inputs, outputs) as the WebService you're trying to call. For instance:
 

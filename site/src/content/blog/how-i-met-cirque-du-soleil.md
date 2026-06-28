@@ -16,7 +16,7 @@ After seeing Alegria I watched all Soleil's shows available online: [Varekai](ht
 
 That's how I felt. **When I saw the first actor come into scene, dressed in blue with perfect makeup, slow beastly gestures right in front of my eyes, my tears started falling down.** Just recalling that memory wets my eyes.
 
-[![CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally](/blog/uploads/2014/02/CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally-1024x682.jpg)](http://www.diogonunes.com/blog/wp-content/uploads/2014/02/CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally.jpg)
+[![CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally](/blog/uploads/2014/02/CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally-1024x682.jpg)](/blog/uploads/2014/02/CdS_VK_Slippery-Surface_FaG1994_Gerhard-Fally.jpg)
 
 Varekai takes place in a bamboo forest. Icarus falls into that forest and we get to see all those colorful creatures seeing a human for the first time. **It's a perfect mix** of setting, acting, makeup/costumes, music, story. During those minutes **you leave the real world behind and all your senses focus on the stage.** You're a spectactor - you see, you hear, you feel - in a fantasy world.
 

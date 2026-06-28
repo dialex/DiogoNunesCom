@@ -7,7 +7,7 @@ tags: ["minimalism", "review"]
 categories: ["Technology"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/12/Samsung840Evo_11.jpg)
+[](/blog/uploads/2014/12/Samsung840Evo_11.jpg)
 
 ### How my new SSD made everything faster and allowed me to backup all my files online for free.
 

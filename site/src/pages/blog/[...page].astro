@@ -159,5 +159,13 @@ const searchText = (post) =>
     }
 
     input.addEventListener("input", (e) => render(e.target.value));
+
+    // Support /blog/?s=query (preserves the old WordPress search URLs): prefill
+    // the box and filter on load.
+    const q = new URLSearchParams(location.search).get("s");
+    if (q) {
+      input.value = q;
+      render(q);
+    }
   </script>
 </BaseLayout>

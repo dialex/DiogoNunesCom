@@ -34,10 +34,10 @@ So I started looking for an **external GPS unit** for my camera. That would cost
 1.  Import your photos from your camera. I use raw files (.nef because I own a Nikon) but .jpeg will work just fine too.
 2.  Download your track from Google Drive (or directly from the app) to your computer.
 3.  Install [GeoSetter](http://www.geosetter.de/en/download/).
-4.  Start GeoSetter and open the folder containing the photos you imported on step 1. Then press the button that synchronizes a GPS file with the selected photos. The screenshot below illustrates this step. [![dslr-gps-1](/blog/uploads/2014/12/dslr-gps-1-e1417889924893-1024x751.png)](http://www.diogonunes.com/blog/wp-content/uploads/2014/12/dslr-gps-1-e1417889924893.png)
-5.  A window will popup asking you to selected the GPS track file to sync. Browse your `track.kmz` file. Configure the remaining options to suit your preferences. [![dslr-gps-2](/blog/uploads/2014/12/dslr-gps-2.png)](http://www.diogonunes.com/blog/wp-content/uploads/2014/12/dslr-gps-2.png)
-6.  Start the synchronization process. [![dslr-gps-3](/blog/uploads/2014/12/dslr-gps-3.png)](http://www.diogonunes.com/blog/wp-content/uploads/2014/12/dslr-gps-3.png)
-7.  After the sync is complete, don't forget to save the changes to your photos, by pressing the blue diskette button. Doing so will tell GeoSetter to embed the GPS information from the track into your photo's metadata. [![dslr-gps-4](/blog/uploads/2014/12/dslr-gps-4-1024x455.png)](http://www.diogonunes.com/blog/wp-content/uploads/2014/12/dslr-gps-4.png)
+4.  Start GeoSetter and open the folder containing the photos you imported on step 1. Then press the button that synchronizes a GPS file with the selected photos. The screenshot below illustrates this step. [![dslr-gps-1](/blog/uploads/2014/12/dslr-gps-1-e1417889924893-1024x751.png)](/blog/uploads/2014/12/dslr-gps-1-e1417889924893.png)
+5.  A window will popup asking you to selected the GPS track file to sync. Browse your `track.kmz` file. Configure the remaining options to suit your preferences. [![dslr-gps-2](/blog/uploads/2014/12/dslr-gps-2.png)](/blog/uploads/2014/12/dslr-gps-2.png)
+6.  Start the synchronization process. [![dslr-gps-3](/blog/uploads/2014/12/dslr-gps-3.png)](/blog/uploads/2014/12/dslr-gps-3.png)
+7.  After the sync is complete, don't forget to save the changes to your photos, by pressing the blue diskette button. Doing so will tell GeoSetter to embed the GPS information from the track into your photo's metadata. [![dslr-gps-4](/blog/uploads/2014/12/dslr-gps-4-1024x455.png)](/blog/uploads/2014/12/dslr-gps-4.png)
 
 ### Well done
 

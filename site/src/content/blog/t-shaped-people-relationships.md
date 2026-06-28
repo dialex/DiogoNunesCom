@@ -14,7 +14,7 @@ The first time I heard the concept "[T-shaped person](https://jchyip.medium.com/
 
 And what is a relationship, if not a **team** of two?
 
-Some years ago I argued that [love seeks a complement, not an opposite](https://www.diogonunes.com/blog/love-seeks-a-complement-not-an-opposite/). I still believe in that. _Opposites_ generate passion and attraction – they are intense but quickly burn out. _Identicals_ generate love and comfort – but long term you might stagnate or get bored of your "echo chamber".
+Some years ago I argued that [love seeks a complement, not an opposite](/blog/love-seeks-a-complement-not-an-opposite/). I still believe in that. _Opposites_ generate passion and attraction – they are intense but quickly burn out. _Identicals_ generate love and comfort – but long term you might stagnate or get bored of your "echo chamber".
 
 In my opinion, T-shaped people make the most successful couples.
 

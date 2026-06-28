@@ -27,4 +27,4 @@ These subjects of success, purpose, fulfilment are very personal. It’s not som
 
 **This [ebook](https://leanpub.com/purpose) is the result of my self-discovery journey.** It contains the 15 exercises that I used to discover not only my personality traits but also what motivates and fulfils me in life. You can use this framework to guide your thinking and find your own answers.
 
-Did I find [the answer to life, the universe and everything?](https://youtu.be/aboZctrHfK8?t=88) Of course not. But now, I can visualise _my_ success. Now, I have something to pursuit. I'm no longer a bystander, I'm playing [the game called life](https://www.diogonunes.com/blog/winning-a-game-called-life/).
+Did I find [the answer to life, the universe and everything?](https://youtu.be/aboZctrHfK8?t=88) Of course not. But now, I can visualise _my_ success. Now, I have something to pursuit. I'm no longer a bystander, I'm playing [the game called life](/blog/winning-a-game-called-life/).

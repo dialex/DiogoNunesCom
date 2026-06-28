@@ -33,7 +33,7 @@ Then I spoke with my colleague [Mark Winteringham](https://twitter.com/2bitteste
 
 ## The implementation
 
-Before long, The [Internet Button](https://www.particle.io/products/hardware/internet-button) was in our hands. The little package includes 11 LEDs, four buttons, an accelerometer, a speaker and a small chip (Photon) that controls all this and directly connects to wifi. [![I give you... the Internet Button](/blog/uploads/2016/08/internet-button.jpg)](http://www.diogonunes.com/blog/wp-content/uploads/2016/08/internet-button.jpg)
+Before long, The [Internet Button](https://www.particle.io/products/hardware/internet-button) was in our hands. The little package includes 11 LEDs, four buttons, an accelerometer, a speaker and a small chip (Photon) that controls all this and directly connects to wifi. [![I give you... the Internet Button](/blog/uploads/2016/08/internet-button.jpg)](/blog/uploads/2016/08/internet-button.jpg)
 
 I programmed one of the buttons to push a message to our Slack channel on every click. The code was written in C++, coded locally on Particle’s local IDE (a flavour of Atom). The editor includes a button to compile the code and another to deploy it to the device. So the way it works is the code is sent to Particle’s cloud, where it is compiled, and then sent to the physical device – all through wifi. It’s great!
 
@@ -41,7 +41,7 @@ I programmed one of the buttons to push a message to our Slack channel on every 
 
 ## The glory
 
-[![working demo](/blog/uploads/2016/08/combo.gif)](http://www.diogonunes.com/blog/wp-content/uploads/2016/08/combo.gif)
+[![working demo](/blog/uploads/2016/08/combo.gif)](/blog/uploads/2016/08/combo.gif)
 
 - EE's team is now the first to arrive, even though we are on another floor.
 - People who use headphones are back to a healthy diet.

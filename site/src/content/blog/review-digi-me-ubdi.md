@@ -29,7 +29,7 @@ Sounded simple enought. I also found out there's nothing else to do on their web
 
 I installed the app on Android and connected Twitter. It went smoothly and my tweets appeared in my Digi.Me profile. It also showed some statistics, like most used emojis and so on.
 
-[![digi.me profile](/blog/uploads/2020/03/Screenshot_20200302-111245-234x400.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/03/Screenshot_20200302-111245.png)
+[![digi.me profile](/blog/uploads/2020/03/Screenshot_20200302-111245-234x400.png)](/blog/uploads/2020/03/Screenshot_20200302-111245.png)
 
 I continued with the rest of my accounts (Facebook, Youtube, Pinterest, Flickr). And nothing. No data points whatsoever. I tried importing again, nothing. The app said the connection was active and there was no new data to pull. `#fail`
 
@@ -39,7 +39,7 @@ Things were not looking great, because my "comprehensive digital profile" was ju
 
 I crossed my fingers and imported my Digi.Me profile to UBDI.
 
-[![ubdi profile](/blog/uploads/2020/03/Screenshot_20200302-111016-234x400.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/03/Screenshot_20200302-111016.png)
+[![ubdi profile](/blog/uploads/2020/03/Screenshot_20200302-111016-234x400.png)](/blog/uploads/2020/03/Screenshot_20200302-111016.png)
 
 Then I answered around 50 questions (demographics, interests, etc.)
 
@@ -47,7 +47,7 @@ Then it was time to look for studies and start selling data! And the app didn't 
 
 ### You get... NOTHING!
 
-[![](/blog/uploads/2020/03/Screenshot_20200302-110958-400x344.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/03/Screenshot_20200302-110958.png)
+[![](/blog/uploads/2020/03/Screenshot_20200302-110958-400x344.png)](/blog/uploads/2020/03/Screenshot_20200302-110958.png)
 
 What a waste of time and patience.
 

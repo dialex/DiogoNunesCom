@@ -7,7 +7,7 @@ tags: ["c#", "coding", "review", "web dev"]
 categories: ["Technology"]
 ---
 
-Just when I was starting to get used to call WebServices through WSDL - like I showed [here](http://www.diogonunes.com/blog/calling-a-web-method-in-c-without-a-service-reference/) and [here](http://www.diogonunes.com/blog/calling-webservice-without-wsdl-or-web-reference/) - I had to call a RESTful API. If you don't know what I'm talking about you're like me [a week ago](http://stackoverflow.com/a/840713/675577). Let's just say that:
+Just when I was starting to get used to call WebServices through WSDL - like I showed [here](/blog/calling-a-web-method-in-c-without-a-service-reference/) and [here](/blog/calling-webservice-without-wsdl-or-web-reference/) - I had to call a RESTful API. If you don't know what I'm talking about you're like me [a week ago](http://stackoverflow.com/a/840713/675577). Let's just say that:
 
 - a **WSDL** API uses **SOAP** to exchange **XML**\-encoded data
 - a **REST** API uses **HTTP** to exchange **JSON**\-encoded data

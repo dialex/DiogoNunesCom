@@ -10,9 +10,9 @@ categories: ["Announcement"]
 
 ## Why now?
 
-I'm not the talkative type, so I have to spill out my ideas, thoughts, and opinions in some other way - writing. And trust me, I think way too much, a [pensieve](http://harrypotter.wikia.com/wiki/Pensieve) would come in handy. Writing forces me to structure my ideas and also works as an unburden activity. It's also way to procrastinate the writing of [my fantasy novel](http://www.diogonunes.com/blog/finding-courage-to-start-a-fantasy-novel/)!
+I'm not the talkative type, so I have to spill out my ideas, thoughts, and opinions in some other way - writing. And trust me, I think way too much, a [pensieve](http://harrypotter.wikia.com/wiki/Pensieve) would come in handy. Writing forces me to structure my ideas and also works as an unburden activity. It's also way to procrastinate the writing of [my fantasy novel](/blog/finding-courage-to-start-a-fantasy-novel/)!
 
-The idea to resume blogging came on September, right when [Adam Pash from Lifehacker](http://adampash.com/im-blogging-again/) had the same idea. (That's another thing, blogging is a great way to network.) I wanted to start my blog on 11/12/2013, since it was a funny date and my website was originally created on 07/08/2009. Sadly, I couldn't have a blog at [that time](http://www.diogonunes.com/blog/when-people-become-cpus/). But now I can ;)
+The idea to resume blogging came on September, right when [Adam Pash from Lifehacker](http://adampash.com/im-blogging-again/) had the same idea. (That's another thing, blogging is a great way to network.) I wanted to start my blog on 11/12/2013, since it was a funny date and my website was originally created on 07/08/2009. Sadly, I couldn't have a blog at [that time](/blog/when-people-become-cpus/). But now I can ;)
 
 ## When is the next post?
 

@@ -23,9 +23,9 @@ While the deals may tempt you at first, the **reduced designs**, the **random qu
 
 ### Then I saw the light
 
-And it was red... [RedBubble](http://www.diogonunes.com/blog/RedBubble). They have a perfect business model. Artists anywhere provide the designs and get a good % on every sale. Even you can upload your designs or photos and get a chance to make some money! Since they crowdsourced the "images", they just have to focus on printing those "images" on high quality "stuff" and send it to your address. And their "stuff" ranges from clothing and stickers to bags and home decor.
+And it was red... [RedBubble](/blog/RedBubble). They have a perfect business model. Artists anywhere provide the designs and get a good % on every sale. Even you can upload your designs or photos and get a chance to make some money! Since they crowdsourced the "images", they just have to focus on printing those "images" on high quality "stuff" and send it to your address. And their "stuff" ranges from clothing and stickers to bags and home decor.
 
-[Each design is often available on multiple products](http://www.diogonunes.com/blog/RedBubble), thus if you for instance like a sticker you can also buy the pillow version. They even have designs about [Swords and Sworcery](http://www.diogonunes.com/blog/RB-SwordSworcery) and that's pretty underground! [T-shirts](http://www.diogonunes.com/blog/RB-TShirts) are legit Americal Apparel quality, _'nuff said_. For that you pay between 18€ to 21€. If you buy +6 [stickers](http://www.diogonunes.com/blog/RB-Stickers) you get an immediate 50% discount on them. They ship everywhere with fair prices, and during checkout it's easy to find 10% discount coupons. What else do you need?
+[Each design is often available on multiple products](/blog/RedBubble), thus if you for instance like a sticker you can also buy the pillow version. They even have designs about [Swords and Sworcery](/blog/RB-SwordSworcery) and that's pretty underground! [T-shirts](/blog/RB-TShirts) are legit Americal Apparel quality, _'nuff said_. For that you pay between 18€ to 21€. If you buy +6 [stickers](/blog/RB-Stickers) you get an immediate 50% discount on them. They ship everywhere with fair prices, and during checkout it's easy to find 10% discount coupons. What else do you need?
 
 ![stickers](/blog/uploads/2015/01/IMG_20150110_120023-1024x576.jpg)
 
@@ -43,7 +43,7 @@ Now this is a customer support truly concerned with customer satisfaction!
 
 ### Conclusion
 
-Buy at [Redbubble](http://www.diogonunes.com/blog/RedBubble), not because I tell you to, but for these reasons:
+Buy at [Redbubble](/blog/RedBubble), not because I tell you to, but for these reasons:
 
 - You're directly supporting the artists
 - Designs for all your interests

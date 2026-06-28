@@ -7,11 +7,11 @@ tags: ["agile", "testing"]
 categories: ["Work"]
 ---
 
-_This post is part of the ["Testing for Agile Teams" series](http://www.diogonunes.com/blog/?s=Testing+for+Agile+Teams)_.
+_This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+for+Agile+Teams)_.
 
 > We do different types of testing to accomplish different goals.
 
-[![testing quadrants](/blog/uploads/2016/04/testing-quadrants-400x324.png)](http://www.diogonunes.com/blog/wp-content/uploads/2016/04/testing-quadrants.png)
+[![testing quadrants](/blog/uploads/2016/04/testing-quadrants-400x324.png)](/blog/uploads/2016/04/testing-quadrants.png)
 
 > Your team has its own unique context. **It's a tool, not a rule.**
 

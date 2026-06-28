@@ -7,7 +7,7 @@ tags: ["relationships", "story"]
 categories: ["Life"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/08/20140413_Animais-140413-03.jpg)
+[](/blog/uploads/2014/08/20140413_Animais-140413-03.jpg)
 
 ### It all started when I found a cat in my closet
 

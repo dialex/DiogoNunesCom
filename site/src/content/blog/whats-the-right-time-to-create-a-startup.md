@@ -7,7 +7,7 @@ tags: ["decisions", "entrepreneurship", "personal"]
 categories: ["Life"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/01/shut-up-and-start-graphic.png)
+[](/blog/uploads/2014/01/shut-up-and-start-graphic.png)
 
 ## Nowadays you hear about young (under 20) entrepreneurs. Those are the exceptions, the real average age of tech startup founders is 39. Don't rush it, it's not about the age but about the timing.
 

@@ -7,7 +7,7 @@ tags: ["coding", "play framework"]
 categories: ["Technology"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/03/lets-play-2.png)
+[](/blog/uploads/2014/03/lets-play-2.png)
 
 Let's assume you have an existing app using **Play! 2.1.A** and a **2.1.B** version was released. You want to update your environment to use that new release. Note: This tutorial was tested to be working with 2.1.\* versions; A and B are two arbitrary numbers.
 

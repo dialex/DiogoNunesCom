@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 ### Brace yourself, it's going to be a bumpy ride.
 
-This is hardware and on top of that it runs on C++. I knew it would be painful. But that was the challenge. If you're new to [Particle's Internet Button](http://www.diogonunes.com/blog/particle-internet-button-overview/) you might want to check [this overview](http://www.diogonunes.com/blog/particle-internet-button-overview/). Summarizing it: Particle is the brand that produces the Internet Button, which is a Photon chip with some additional hardware and a plastic case.
+This is hardware and on top of that it runs on C++. I knew it would be painful. But that was the challenge. If you're new to [Particle's Internet Button](/blog/particle-internet-button-overview/) you might want to check [this overview](/blog/particle-internet-button-overview/). Summarizing it: Particle is the brand that produces the Internet Button, which is a Photon chip with some additional hardware and a plastic case.
 
 The internet button is a handy little piece of hardware that **contains 11 leds, 4 buttons, wifi capabilities, a sound speaker and even an accelerometer!** At the time is costed me $49, plus $20 of shipping if you live in the UK. Since I live in the middle of nowhere, also known as Portugal, it costed $50 for shipping and $20 for customs...
 

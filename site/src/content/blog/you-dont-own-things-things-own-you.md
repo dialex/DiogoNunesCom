@@ -7,7 +7,7 @@ tags: ["kindness", "minimalism"]
 categories: ["Life"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2015/01/my-precious.gif)
+[](/blog/uploads/2015/01/my-precious.gif)
 
 ### Don't let anyTHING become precious to you.
 
@@ -35,9 +35,9 @@ Do you buy a car or does it adopt you? Is you car (1) an object that allows you 
 
 Do you passionately desire to buy something, something that everyone seems to have? And when you finally buy it you barely care about finding a use for it?
 
-[![facebook_1408519939948](/blog/uploads/2015/01/facebook_1408519939948-314x400.jpg)](http://www.diogonunes.com/blog/wp-content/uploads/2015/01/facebook_1408519939948.jpg)
+[![facebook_1408519939948](/blog/uploads/2015/01/facebook_1408519939948-314x400.jpg)](/blog/uploads/2015/01/facebook_1408519939948.jpg)
 
-**My most precious stuff are things that are worthless to anybody.** They are not kept at a bank safe, since they have no value. They are stored inside a shoe box. What does it contain? A painted rock, a broken toy, some pins, several pieces of paper, and [Cirque du Soleil](http://www.diogonunes.com/blog/how-i-met-cirque-du-soleil/) tickets. **The real value is not in the items but in the memories associated.**
+**My most precious stuff are things that are worthless to anybody.** They are not kept at a bank safe, since they have no value. They are stored inside a shoe box. What does it contain? A painted rock, a broken toy, some pins, several pieces of paper, and [Cirque du Soleil](/blog/how-i-met-cirque-du-soleil/) tickets. **The real value is not in the items but in the memories associated.**
 
 ![](/blog/uploads/2015/01/IMG_20150101_113115156.jpg)
 

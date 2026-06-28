@@ -46,6 +46,6 @@ For **kids**, it was a success. They got to see their favourite idols. The lawfu
 
 For **parents**, it was a success. They did whatever was necessary to make their kids happy (and quiet). The rules in place were crap, but that's the default in this country. **We don't care.**
 
-For **me**, it was a disaster. As a rule enforcer, I failed. I saw the sad look of those lawful kids. I disappointed them. I felt guilty for proving them that [nice people finish last](https://www.diogonunes.com/blog/too-nice-guys-finish-last/). I said to one girl "you followed the rules and you deserved a better seat; I'm as angry as you are, yet there's nothing I can do, I'm so sorry". **I shook my head.**
+For **me**, it was a disaster. As a rule enforcer, I failed. I saw the sad look of those lawful kids. I disappointed them. I felt guilty for proving them that [nice people finish last](/blog/too-nice-guys-finish-last/). I said to one girl "you followed the rules and you deserved a better seat; I'm as angry as you are, yet there's nothing I can do, I'm so sorry". **I shook my head.**
 
 I need a plane ticket to Japan...

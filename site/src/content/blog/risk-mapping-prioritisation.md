@@ -11,7 +11,7 @@ categories: ["Work"]
 
 [Sam Connelly](https://twitter.com/BugHunterSam) wrote an article about [Visual Risk](https://bughuntersam.com/visual-risk-ui-automation-framework/). The exercise visually maps features in terms of frequency of use and impact of failure.
 
-[![](/blog/uploads/2020/04/1-draw-a-graph-1024x541.jpg)](https://www.diogonunes.com/blog/wp-content/uploads/2020/04/1-draw-a-graph.jpg)
+[![](/blog/uploads/2020/04/1-draw-a-graph-1024x541.jpg)](/blog/uploads/2020/04/1-draw-a-graph.jpg)
 
 The exercise goes like this:
 
@@ -69,7 +69,7 @@ This is an estimate, go with your intuition. Some areas might overlap.
 
 ### Results
 
-[![](/blog/uploads/2020/04/Results-400x365.png)](https://www.diogonunes.com/blog/wp-content/uploads/2020/04/Results.png)
+[![](/blog/uploads/2020/04/Results-400x365.png)](/blog/uploads/2020/04/Results.png)
 
 Given our constraints, we were able to extract substancial value from this exercise without the effort of a co-located workshop. The exercise fulfilled its purpose and we got our prioritisation.
 

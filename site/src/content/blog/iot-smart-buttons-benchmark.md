@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 ### The smart choice for smart buttons
 
-As you know, in the past I had a go with the [Internet of Things (IoT)](http://www.diogonunes.com/blog/tag/internet-button/) to [build a smart button](http://www.diogonunes.com/blog/tag/internet-button/) that notifies my team [the cakes have arrived](http://www.diogonunes.com/blog/hungry-for-innovation-cake-button/). For that I used the [Internet Button from Particle](http://www.diogonunes.com/blog/particle-internet-button-overview/), but there are alternatives.
+As you know, in the past I had a go with the [Internet of Things (IoT)](/blog/tag/internet-button/) to [build a smart button](/blog/tag/internet-button/) that notifies my team [the cakes have arrived](/blog/hungry-for-innovation-cake-button/). For that I used the [Internet Button from Particle](/blog/particle-internet-button-overview/), but there are alternatives.
 
 ### Internet Button
 
@@ -34,4 +34,4 @@ As you know, in the past I had a go with the [Internet of Things (IoT)](http://w
 
 ## How they compare
 
-[![iot_buttons_comparison](/blog/uploads/2017/07/iot_buttons_comparison.png)](http://www.diogonunes.com/blog/wp-content/uploads/2017/07/iot_buttons_comparison.png)
+[![iot_buttons_comparison](/blog/uploads/2017/07/iot_buttons_comparison.png)](/blog/uploads/2017/07/iot_buttons_comparison.png)

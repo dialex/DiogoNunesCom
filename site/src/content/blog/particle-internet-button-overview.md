@@ -41,4 +41,4 @@ Each time the button powered on, it will fetch the most recent version of your c
 
 This cloud connection is bi-directional, meaning that the Internet Button can also send data to Particle's cloud. That means you can publish or trigger events on [IFTTT](https://ifttt.com/particle), an API or a webhook.
 
-**If you want to know more about the Internet Button and other IoT devices, [check out these other posts and tutorials](http://www.diogonunes.com/blog/tag/internet-button/).**
+**If you want to know more about the Internet Button and other IoT devices, [check out these other posts and tutorials](/blog/tag/internet-button/).**

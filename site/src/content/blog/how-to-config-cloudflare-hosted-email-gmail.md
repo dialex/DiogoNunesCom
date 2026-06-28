@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 ### How to keep using your hosted email on Gmail, after migrating to Cloudflare
 
-My initial setup for this website was: - **Domain** from [Namecheap](https://www.diogonunes.com/blog/namecheap-domains) _(no one beats their [price/quality](https://www.diogonunes.com/blog/namecheap-domains))_ - **WebHost** from a Portuguese company
+My initial setup for this website was: - **Domain** from Namecheap _(no one beats their price/quality)_ - **WebHost** from a Portuguese company
 
 My webhost offers domain email addresses, so I had a few `*@diogonunes.com` addresses configured.
 

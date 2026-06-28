@@ -20,4 +20,4 @@ That's because the map requires textures not included in the standard installati
 4.  Extract the zip contents to the folder created in the previous step.
 5.  Done. You should now have a `maps`, `models`, ... folders inside `CSS Content Addon`.
 
-For the complete guide on how to install and configure gmod, have a look at [Configure Garry's Mod (the complete guide)](http://www.diogonunes.com/blog/install-config-gmod-guide/).
+For the complete guide on how to install and configure gmod, have a look at [Configure Garry's Mod (the complete guide)](/blog/install-config-gmod-guide/).

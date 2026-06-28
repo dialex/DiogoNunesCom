@@ -7,7 +7,7 @@ tags: ["dark corner", "experience", "games", "idea", "personal"]
 categories: ["Technology", "Thoughts"]
 ---
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/07/minecraft-1.png)
+[](/blog/uploads/2014/07/minecraft-1.png)
 
 ### A month ago, I had a strong [emotional breakdown](http://youtu.be/G_Z3lmidmrY). Yesterday, I was missing playing Minecraft.
 
@@ -17,7 +17,7 @@ Yesterday, [I heard one of the songs](http://youtu.be/z-jh2ZcS3H8) that compose 
 
 I decided to play the free demo, available at the official website - yes, you can play it for free right on a browser! The demo is like the full game _but_ with limited playing time (100 minutes). After playing it for almost an hour I had an epiphany: **Minecraft's demo is a metaphor of life itself.** Only now, due to the thoughts and feelings that my breakdown brought, I could notice it.
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/07/minecraft-timer.png)
+[](/blog/uploads/2014/07/minecraft-timer.png)
 
 ![The clock is ticking](/blog/uploads/2014/07/minecraft-timer-400x224.png)
 
@@ -31,19 +31,19 @@ Knowing that changes your whole perspective about the world. What's your purpose
 
 I decided to explore the world. It seems to me the most reasonable and fulfilling choice. I may have limited time but I'll enjoy every minute, I'll feel the adrenaline of exploring, I'll discover the diversity of this world... I'll live!
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/07/minecraft-3.png)
+[](/blog/uploads/2014/07/minecraft-3.png)
 
 ![My first sunset](/blog/uploads/2014/07/minecraft-3-400x224.png)
 
 _My first sunset_
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/07/minecraft-2.png)
+[](/blog/uploads/2014/07/minecraft-2.png)
 
 ![My modest house (it has no windows, but at least has some red roses in the front.](/blog/uploads/2014/07/minecraft-2-400x224.png)
 
 _My modest house (it has no windows, but at least has some red roses in the front._
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/07/minecraft-5.png)
+[](/blog/uploads/2014/07/minecraft-5.png)
 
 ![A creeper stalking me](/blog/uploads/2014/07/minecraft-5-400x224.png)
 
@@ -53,13 +53,13 @@ I observed my first sunset and it was beautiful. I made myself a wooden sword, b
 
 Yes, there are things outside that want to hurt you and stop your clock immediately. Zombies and spiders make a lot of noise when following you, so you have plenty of time to prepare yourself. Creepers on the other hand are _silent and deadly_. They crawl behind you and literally explode. The last thing you hear is the sound of an explosive's burning fuse. Can you notice the metaphor? _(Tip: accidents, diseases, etc.)_
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/07/minecraft-6.png)
+[](/blog/uploads/2014/07/minecraft-6.png)
 
 ![A cave at the base of a mountain](/blog/uploads/2014/07/minecraft-6-400x224.png)
 
 _A cave at the base of a mountain_
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/07/minecraft-7.png)
+[](/blog/uploads/2014/07/minecraft-7.png)
 
 ![A sunrise at the peak of the same mountain](/blog/uploads/2014/07/minecraft-7.png)
 
@@ -69,7 +69,7 @@ I found a cave in a mountain. Obviously I entered since I was looking for advent
 
 Later on, the game remembered me: **"This is your last day!"** What an intriguing thing to hear. Would I like to know my countdown? Would I like to have someone warn me, "good morning dear, just to let you know that this is your last day"? I really don't know. Now that my time is running out, I'm thankful that I didn't waste it building a [giant red dragon](http://youtu.be/s0jsVJZI8YI?t=1m8s) or a [replica of Lord of the Rings' Minas Tirith](http://youtu.be/CjuN8sEfBxc?t=55s), block by block.
 
-[](http://www.diogonunes.com/blog/wp-content/uploads/2014/07/minecraft-9.png)
+[](/blog/uploads/2014/07/minecraft-9.png)
 
 ![This is your last day!](/blog/uploads/2014/07/minecraft-9.png)
 
