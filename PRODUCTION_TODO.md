@@ -47,11 +47,6 @@ Flat-numbered so they're easy to reference ("let's do task 7"). Completed tasks
 are removed to keep this lean — numbers are stable handles and are never reused.
 Grouping is for context only.
 
-### Content & pages
-- **6.** **Hireme / CV page — DECISION PENDING.** Merge CV page into About me. Either (1) embed the existing
-      `/hireme` page/design largely as-is, or (2) migrate the résumé content into the
-      redesign look (Astrofy `cv.astro` has a timeline). Pick before building.
-
 ### Blog (BIG)
 - **11.** Confirm index, tag pages, and RSS generate correctly.
 
