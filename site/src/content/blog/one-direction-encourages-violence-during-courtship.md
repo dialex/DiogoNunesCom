@@ -20,7 +20,7 @@ That's not subliminal, that's as explicit as it gets. That's treating a human be
 
 The video has 1.5 million likes, which means up to 1.5 million couples worldwide find One Direction's aggressive words enjoyable or even agreeable. [Singing a dreadful lyric just makes it more pleasant to the ear](https://youtu.be/HReySt8AMmI), however it doesn't excuse the message.
 
-<https://youtu.be/jQnmQuK_SNQ?t=0m33s>
+<iframe width="560" height="315" src="//www.youtube.com/embed/jQnmQuK_SNQ?rel=0&start=33" frameborder="0" allowfullscreen></iframe>
 
 ## Why so serious?
 
@@ -40,6 +40,6 @@ That's the most worrying part -- these **young people tolerate their mates' abus
 
 Therefore, Portugal started this year a campaign named ["Love with fair play, Who loves you doesn't hurt you"](http://www.cig.gov.pt/campanhas/campanha-contra-a-violencia-no-namoro-quem-te-ama-nao-te-agride/) to get some common sense shared across these young and naive minds.
 
-\[embed\]<https://youtu.be/CxeTVQFURxA>\[/embed\]
+<iframe width="560" height="315" src="//www.youtube.com/embed/CxeTVQFURxA?rel=0" frameborder="0" allowfullscreen></iframe>
 
 My advice is simple: at the first occurrence of any of [these behaviors](http://www.apavparajovens.pt/pt/go/o-que-e1), let your friends and family know the real face of the aggressor, and **walk away without hesitating for a moment**. One doesn't hurt by mistake, there's no possible excuse. If you start to get stalked or threatened, report it the police and let them handle it. If they don't, do whatever it takes to take back your life, which is much more valuable than his/her.

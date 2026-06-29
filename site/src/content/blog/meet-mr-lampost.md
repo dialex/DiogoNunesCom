@@ -7,7 +7,7 @@ tags: ["story"]
 categories: ["Life"]
 ---
 
-## Everyone's every day is filled with curious events.
+## Everyone's every day is filled with curious events
 
 Winter days finish earlier. Everyday, a pitch black night waited for me to finish my work. Everyday, I walked the same route and passed by the same lamp post. Everyday, I grew a bit more curious and attentive.
 
@@ -27,7 +27,7 @@ Another day I took a shortcut a few meters away from the lamp post. To my surpri
 
 This peculiar behavior made me want to **record** it, and so I did. As if the lamp post knew I was filming it it, it didn't do its "thing" for a while. Only after I had given up and looked back one last time it turned on. **It was making fun of me!**
 
-<http://www.youtube.com/watch?v=kOsWDEntZ9Q>
+<iframe width="560" height="315" src="//www.youtube.com/embed/kOsWDEntZ9Q?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Conclusion
 
