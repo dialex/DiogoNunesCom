@@ -11,16 +11,16 @@ Have you heard their song "Steal My Girl"? The video clip was directed by Danny 
 
 Well, that's just the beginning of the abuse. Listen to the lyrics:
 
-> Find another one 'cause she belongs to me  
-> I don't exist if I don't have her  
-> She knows, she knows  
+> Find another one 'cause she belongs to me
+> I don't exist if I don't have her
+> She knows, she knows
 > That I'm never gonna let another take her love from me now
 
 That's not subliminal, that's as explicit as it gets. That's treating a human being as a thing, your greatest love as a possession. And in that last sentence they reveal **the darkness of their heart**, when they openly refer the fear and psychological repression in this relationship.
 
 The video has 1.5 million likes, which means up to 1.5 million couples worldwide find One Direction's aggressive words enjoyable or even agreeable. [Singing a dreadful lyric just makes it more pleasant to the ear](https://youtu.be/HReySt8AMmI), however it doesn't excuse the message.
 
-\[embed\]https://youtu.be/jQnmQuK\_SNQ?t=0m33s\[/embed\]
+<https://youtu.be/jQnmQuK_SNQ?t=0m33s>
 
 ### Why so serious?
 
@@ -40,6 +40,6 @@ That's the most worrying part -- these **young people tolerate their mates' abus
 
 Therefore, Portugal started this year a campaign named ["Love with fair play, Who loves you doesn't hurt you"](http://www.cig.gov.pt/campanhas/campanha-contra-a-violencia-no-namoro-quem-te-ama-nao-te-agride/) to get some common sense shared across these young and naive minds.
 
-\[embed\]https://youtu.be/CxeTVQFURxA\[/embed\]
+\[embed\]<https://youtu.be/CxeTVQFURxA>\[/embed\]
 
 My advice is simple: at the first occurrence of any of [these behaviors](http://www.apavparajovens.pt/pt/go/o-que-e1), let your friends and family know the real face of the aggressor, and **walk away without hesitating for a moment**. One doesn't hurt by mistake, there's no possible excuse. If you start to get stalked or threatened, report it the police and let them handle it. If they don't, do whatever it takes to take back your life, which is much more valuable than his/her.

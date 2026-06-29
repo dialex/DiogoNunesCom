@@ -7,11 +7,9 @@ tags: ["kindness", "minimalism"]
 categories: ["Life"]
 ---
 
-
-
 ### Don't let anyTHING become precious to you.
 
-Over the last years -- influenced by [talks](http://youtu.be/L8YJtvHGeUU) and [websites](http://www.becomingminimalist.com/becoming-minimalist-start-here/) and other [personal experiences](#) -- I've developed my minimalist side. In my youth I was a stuff collector (["acumula tralha"](https://www.youtube.com/watch?v=n6rlyfirVDA)). That was how everyone was raised at the time, e.g. goods were scarse and repairing was always cheaper than buying a new one.
+Over the last years -- influenced by [talks](http://youtu.be/L8YJtvHGeUU) and [websites](http://www.becomingminimalist.com/becoming-minimalist-start-here/) and other personal experiences -- I've developed my minimalist side. In my youth I was a stuff collector (["acumula tralha"](https://www.youtube.com/watch?v=n6rlyfirVDA)). That was how everyone was raised at the time, e.g. goods were scarse and repairing was always cheaper than buying a new one.
 
 > Keep it, it may come in handy one of these days.
 
@@ -45,7 +43,7 @@ Do you passionately desire to buy something, something that everyone seems to ha
 
 The physical world is ephemeral, therefore you should minimize the number of _strings_ that tie you to that world. The more things you have and surround yourself with, the more fear you'll have about losing them. When you truly realize that one day you'll die and leave all that stuff behind you might lose your mind.
 
-> You should invest in experiences, not stuff. Things devaluate while experiences last as long as your spirit. Even better, as time passes by, you'll recall them to be nicer than they really were.  
+> You should invest in experiences, not stuff. Things devaluate while experiences last as long as your spirit. Even better, as time passes by, you'll recall them to be nicer than they really were.
 > [59 Seconds: Change Your Life in Under a Minute](http://www.amazon.com/gp/product/0307474860/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307474860&linkCode=as2&tag=thegeegec00-20&linkId=EGQCMY3FUHIKIZQJ)
 
 ### Challenge yourself
@@ -56,10 +54,10 @@ Make it a game: **the more you give away the more _karma points_ you get!** If y
 
 Enjoy you're new [satisfied mind](https://www.youtube.com/watch?v=QphglQu3oL0) listening to this song:
 
-> How many times have, You heard someone say  
-> If I had his money, I could do things my way  
-> Money can't buy back, Your youth when you're old  
-> Or a friend when you're lonely, Or a love that's grown cold  
-> Then suddenly it happened, I lost every dime  
-> But I'm richer by far, With a satisfied mind  
+> How many times have, You heard someone say
+> If I had his money, I could do things my way
+> Money can't buy back, Your youth when you're old
+> Or a friend when you're lonely, Or a love that's grown cold
+> Then suddenly it happened, I lost every dime
+> But I'm richer by far, With a satisfied mind
 > [Johnny Cash - Satisfied Mind](https://www.youtube.com/watch?v=QphglQu3oL0)

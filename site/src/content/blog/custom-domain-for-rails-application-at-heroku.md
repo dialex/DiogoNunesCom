@@ -32,7 +32,7 @@ Now that you have the domain, you need to **redirect it to Heroku**. Analogy: if
 
 ![](../../assets/blog/uploads/2014/11/heroku.png)
 
-And everything should be working now. If you type in www.awesome-product.com on the browser you should see your Heroku application. No?
+And everything should be working now. If you type in <www.awesome-product.com> on the browser you should see your Heroku application. No?
 
 **_Pitfall 2:_** When you try to access your domain you may notice you are redirected to `https` instead of `http`, and therefore you get an error message about a security certificate. Fear not, [the solution](http://stackoverflow.com/questions/13680768/running-apps-on-heroku-in-http-instead-of-https) is quite simple: in `environments/production.rb` there should be following configuration `config.force_ssl = true`. Just change it to `false` and redeploy.
 

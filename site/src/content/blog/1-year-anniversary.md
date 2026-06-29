@@ -39,9 +39,7 @@ In December, after several readers asking for a better commenting system, **I mi
 
 ### You gotta love the hatters
 
-![Source: www.xkcd.com](../../assets/blog/uploads/2015/01/free_speech.png)
-
-_Source: www.xkcd.com_
+![Source: xkcd.com](../../assets/blog/uploads/2015/01/free_speech.png)
 
 Speaking about spam, there's something worse -- hate speech. At least spam is writen by cold bots. Trolling on the other hand is writen by actual human beings. Poor souls. Quoting a clever [article of Coding Horror](http://blog.codinghorror.com/your-community-door/) about communities:
 

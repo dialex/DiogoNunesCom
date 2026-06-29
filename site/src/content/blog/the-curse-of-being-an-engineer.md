@@ -28,6 +28,6 @@ Now comes the "problem".
 
 And, as an engineer, that urge "to fix" is something we must learn to control and sometimes subdue, otherwise we'll fill ourselves with frustration.
 
-https://youtu.be/g8vHhgh6oM0
+<https://youtu.be/g8vHhgh6oM0>
 
 > With greater power, comes greater responsibility.

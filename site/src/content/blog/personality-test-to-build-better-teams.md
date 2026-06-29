@@ -15,7 +15,7 @@ The methodology was created by a scholar named [Meredith Belbin](http://en.wikip
 
 ![Photo credit: www.belbin.com](../../assets/blog/uploads/2015/04/cropped-belbin-and-people1.jpg)
 
-_Photo credit: www.belbin.com_
+_Photo credit: <www.belbin.com>_
 
 Belbin defines nine roles and no role is better than the other -- they're just different, complementary or conflicting. Below is a summary, but there's also a [detailed list](http://www.mindtools.com/pages/article/newLDR_83.htm) of each roles' (dis)advantages if you need.
 

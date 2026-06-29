@@ -1,0 +1,52 @@
+{
+  // Markdown lint config for the site content + docs.
+  // Rationale for disabled rules lives inline — these are deliberate, not laziness.
+  "config": {
+    "default": true,
+
+    // Prose is not hard-wrapped; long lines are intentional.
+    "MD013": false,
+
+    // Post titles render as <h1> from frontmatter (PostLayout.astro), so the
+    // first in-body heading is not an <h1>. Frontmatter is the document title.
+    "MD041": false,
+
+    // Code blocks intentionally left without a language tag in many posts;
+    // not worth annotating retroactively.
+    "MD040": false,
+
+    // Alt text is a separate accessibility content pass, tracked elsewhere.
+    "MD045": false,
+
+    // Some posts embed iframes (e.g. video) — inline HTML is allowed.
+    "MD033": false,
+
+    // Bold standalone lines are used for emphasis, not as pseudo-headings.
+    "MD036": false,
+
+    // "click here" / "here" link text is stylistic; not enforced for now.
+    "MD059": false,
+
+    // Ordered-list numbering varies (1) 2) 3) across prose-separated steps);
+    // the autofix flattens authored step numbers, so leave it to the author.
+    "MD029": false,
+
+    // Headings legitimately carry voice punctuation (?, !, ...) and the
+    // occasional trailing period — treated as authorial style, not lint noise.
+    "MD026": false,
+
+    // Repeated section names are fine across different parent headings.
+    "MD024": { "siblings_only": true }
+  },
+  "globs": [
+    "*.md",
+    "site/*.md",
+    "site/src/content/**/*.md",
+    "work/**/*.md"
+  ],
+  "ignores": [
+    "**/node_modules/**",
+    "BLOG_BAK/**",
+    "PRODUCTION_TODO.md"
+  ]
+}
