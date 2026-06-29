@@ -42,15 +42,15 @@ As a starting point, you have the [Cornwell method](https://youtu.be/cfaZVfQgt0U
 You might find yourself in a meeting on behalf of your team. This often happens on meetings where your team doesn't make decisions, but needs to give information or take questions. You save them time and they expect a summary of the meeting. When taking notes in meetings focus on:
 
 - **Facts**
-    - _e.g. Ann was chosen as spokesperson for the design team_
+  - _e.g. Ann was chosen as spokesperson for the design team_
 - **Issues**
-    - _e.g. Devs are blocked waiting for design mockups_
+  - _e.g. Devs are blocked waiting for design mockups_
 - **Decisions**
-    - _e.g. Devs will focus on Epic 12 while they wait for 34's designs_
+  - _e.g. Devs will focus on Epic 12 while they wait for 34's designs_
 - **To do**
-    - _e.g. Ask Ann: What's the progress on mockups? Is there a draft devs can use in the meantime?_
+  - _e.g. Ask Ann: What's the progress on mockups? Is there a draft devs can use in the meantime?_
 - **To clarify**
-    - _e.g. When are regression tests executed? Ask Gary or `#regressions` Slack channel_
+  - _e.g. When are regression tests executed? Ask Gary or `#regressions` Slack channel_
 
 Note taking is also useful to reduce rambling during meetings. Share your screen while you're taking notes and use the structure above to guide the conversation. This helps everyone visualise the topics of discussion and at the end of the meeting you'll have a free summary.
 
@@ -61,7 +61,7 @@ Note taking is also useful to reduce rambling during meetings. Share your screen
 [Exploratory testing](https://dialex.github.io/start-testing/#/roles/exploratory-tester.md) is composed of three main phases: setup, explore, debrief. If you apply your note-taking skills during the explore phase, the debrief becomes much easier and insightful.
 
 > As I explore I take notes like I'm creating a story for someone else to read, taking them through my process and thoughts. Sometimes it feels more natural to _tell_ what you're doing. The _show_ comes alive with screenshots, GIFs and video.
-> 
+>
 > — [Simon Tomes](https://www.qeek.co/blog/a-handy-note-taking-template-for-exploratory-testing)
 
 Simon Tomes shared [a template](https://docs.google.com/document/d/1rKYmujVhUlNgfeYIBot12Z8E7S0Y_Z4pk5pefK7xO3g) that provides structure and triggers for your exploratory testing sessions. As always, try it and tweak it to your taste. That document ([real example](https://docs.google.com/document/d/1tLovWr2aehnq-JRj1qzAXPv-7r8PdBSdx1uk-X5sr3c)) gives the reader not only a summary but also the details of the session.

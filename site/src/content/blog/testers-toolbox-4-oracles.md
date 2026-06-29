@@ -33,28 +33,28 @@ Oracles come in many shapes, here are a few examples:
 Use the [mnemonic](https://dialex.github.io/start-testing/#/toolbox/mnemonics.md) `FEW HICCUPS` to remember these oracles:
 
 - **Familiarity**: Is it free of common/past bugs?
-    - _e.g. the product exhibits behaviour X which was marked as a bug on previous releases_
+  - _e.g. the product exhibits behaviour X which was marked as a bug on previous releases_
 - **Explainability**: Is it intuitive or do you need help? Is it clear or do you need an explanation?
-    - _e.g. our beta testers were not sure what button X would do if clicked_
+  - _e.g. our beta testers were not sure what button X would do if clicked_
 - **World**: How does it plug into what already exists in the world?
-    - _e.g. our product can be used as a tool to carry DoS attacks on other websites_
+  - _e.g. our product can be used as a tool to carry DoS attacks on other websites_
 - **History**: Is the new version coherent with the older ones?
-    - _e.g. feature X existed in the previous version and now it's gone_
+  - _e.g. feature X existed in the previous version and now it's gone_
 - **Image**: Does it match the brand? Does it affect the reputation?
-    - _e.g. colours don't match the company guidelines_
-    - _e.g. the choice of words/images might sound aggressive for culture X_
+  - _e.g. colours don't match the company guidelines_
+  - _e.g. the choice of words/images might sound aggressive for culture X_
 - **Compare**: How does it compare with competitors?
-    - _e.g. players in our market solve X by doing Y, there's no value in doing it differently_
+  - _e.g. players in our market solve X by doing Y, there's no value in doing it differently_
 - **Claims**: Does the product match what the sales/marketing says about it?
-    - _e.g. our latest ad claims our product does X but it doesn't_
+  - _e.g. our latest ad claims our product does X but it doesn't_
 - **Users**: Does it meet the desires and expectations of the end-users?
-    - _e.g. users of this market expect this screen to be customisable_
+  - _e.g. users of this market expect this screen to be customisable_
 - **Product**: How does it compare with internal products?
-    - _e.g. our product A has a sidebar but our product B uses a top navbar to accomplish the same_
+  - _e.g. our product A has a sidebar but our product B uses a top navbar to accomplish the same_
 - **Purpose**: Does it meet the desires and expectations of the company?
-    - _e.g. feature A doesn't meet the requirements given by our Product Owner_
+  - _e.g. feature A doesn't meet the requirements given by our Product Owner_
 - **Standards**: Does it comply with (external) laws and regulations?
-    - _e.g. this page scored too low on W3C's accessibility test_
+  - _e.g. this page scored too low on W3C's accessibility test_
 
 This [link](http://www.testingeducation.org/k04/examples/obas05s.html) shows how to apply the "comparable products" oracle to test the copy-paste feature in different software.
 

@@ -25,7 +25,7 @@ As you know, in the past I had a go with the [Internet of Things (IoT)](/blog/ta
 - Battery last for >1 year (replaceable)
 - Easy to use and [set up](https://ifttt.com/recipes/301546-i-m-going-for-lunch-who-s-coming)
 - Sends bluetooth signal to paired smartphone (50m), otherwise dumb
-    - UPDATE: [Flic Hub](https://www.indiegogo.com/projects/flic-hub-simplify-home-control-with-smart-buttons#/) removes the need for a paired smartphone
+  - UPDATE: [Flic Hub](https://www.indiegogo.com/projects/flic-hub-simplify-home-control-with-smart-buttons#/) removes the need for a paired smartphone
 - ~5$~ free shipping cost
 
 ## Amazon Dash, why not?

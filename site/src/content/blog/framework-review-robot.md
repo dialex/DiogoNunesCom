@@ -9,7 +9,7 @@ categories: ["Technology"]
 ---
 
 > Robot Framework is a test automation framework for acceptance testing (…) it utilises the keyword-driven testing approach. Its testing capabilities can be extended by Python test libraries.
-> 
+>
 > — [Official website](http://robotframework.org/)
 
 ### Code

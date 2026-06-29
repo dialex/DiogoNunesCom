@@ -169,42 +169,42 @@ describe("Autocomplete", function() {
 > Can it abstract page selectors?
 
 - **PageObjects**
-    - ✅ Encapsulated and reused inside each PageObject
+  - ✅ Encapsulated and reused inside each PageObject
 - **AppActions**
-    - ❌ Either duplicated selectors on each AppAction or long enumeration on `commands.js`
+  - ❌ Either duplicated selectors on each AppAction or long enumeration on `commands.js`
 
 > Can it abstract page actions?
 
 - **PageObjects**
-    - ✅ Encapsulated inside each PageObject
-    - ✅ Intuitive usage: `homepage.searchAds("Lisbon")`
+  - ✅ Encapsulated inside each PageObject
+  - ✅ Intuitive usage: `homepage.searchAds("Lisbon")`
 - **AppActions**
-    - ✅ Encapsulated inside each AppAction
-    - ⚠️ Not so intuitive usage: `cy.searchAds("Lisbon")` → everything is `cy.*`
+  - ✅ Encapsulated inside each AppAction
+  - ⚠️ Not so intuitive usage: `cy.searchAds("Lisbon")` → everything is `cy.*`
 
 > Is it easy to maintain pages?
 
 - **PageObjects**
-    - ✅ Each page has a single file, named accordingly
-    - ⚠️ Some UI changes will fail tests until the affected PageObjects are updated
+  - ✅ Each page has a single file, named accordingly
+  - ⚠️ Some UI changes will fail tests until the affected PageObjects are updated
 - **AppActions**
-    - ❌ Pages are used ad hoc inside actions; you might need to "Find/Replace" changes to a page
-    - ❌ Fixtures load is duplicated on each command
+  - ❌ Pages are used ad hoc inside actions; you might need to "Find/Replace" changes to a page
+  - ❌ Fixtures load is duplicated on each command
 
 > Is it easy to write tests?
 
 - **PageObjects**
-    - ✅ IDE will autocomplete page actions
-    - ✅ If pages and their actions are modular enough, tests are quite easy to write and understand
+  - ✅ IDE will autocomplete page actions
+  - ✅ If pages and their actions are modular enough, tests are quite easy to write and understand
 - **AppActions**
-    - ❌ o IDE autocomplete, you need to skim the existing custom `commands.js` and decide which one works for you
-    - ❌ There might be a tendency to reinvent the wheel, because actions are blackboxes of functionality. Some devs might breakdown that functionality differently, which might lead to slightly diff duplicates of a single AppAction.
-    - ⚠️ This syntax is more oriented for E2E, if you use it to write UI tests you will have a hard time – since you only care about user actions and not the underlying pages.
+  - ❌ o IDE autocomplete, you need to skim the existing custom `commands.js` and decide which one works for you
+  - ❌ There might be a tendency to reinvent the wheel, because actions are blackboxes of functionality. Some devs might breakdown that functionality differently, which might lead to slightly diff duplicates of a single AppAction.
+  - ⚠️ This syntax is more oriented for E2E, if you use it to write UI tests you will have a hard time – since you only care about user actions and not the underlying pages.
 
 #### Notes
 
 - IDE Autocomplete issue
-    - [This dependency](https://github.com/cypress-io/add-cypress-custom-command-in-typescript) did make IDE autocomplete work for custom commands
-    - Based on [this comment](https://github.com/cypress-io/cypress/issues/2293#issuecomment-412034813) it seems like we need to write commands in TypeScript to have autocompletion
+  - [This dependency](https://github.com/cypress-io/add-cypress-custom-command-in-typescript) did make IDE autocomplete work for custom commands
+  - Based on [this comment](https://github.com/cypress-io/cypress/issues/2293#issuecomment-412034813) it seems like we need to write commands in TypeScript to have autocompletion
 - Selector issue
-    - You can extract all selectors to a single `selectors.js` file and then... `import {searchBar} from './common-selectors'` ([source](https://github.com/cypress-io/testing-workshop-cypress/blob/master/slides/03-selector-playground/PITCHME.md#cypress-is-just-javascript))
+  - You can extract all selectors to a single `selectors.js` file and then... `import {searchBar} from './common-selectors'` ([source](https://github.com/cypress-io/testing-workshop-cypress/blob/master/slides/03-selector-playground/PITCHME.md#cypress-is-just-javascript))

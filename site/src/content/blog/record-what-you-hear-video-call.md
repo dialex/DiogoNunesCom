@@ -18,5 +18,5 @@ _Note: This guide records "what you hear/see" but not "what you say". It was tes
 - Open **QuickTime Player** and click on **File > New screen recording**.
 - Before you start recording, click the down arrow. Select **Soundflower 2ch** as microphone.
 - On the window with your active call, find the Settings and change the output to **Soundflower 2ch**.
-    - You should now see white bars moving in Quicktime whenever someone speaks (except yourself). If not, verify you completed all the steps above.
+  - You should now see white bars moving in Quicktime whenever someone speaks (except yourself). If not, verify you completed all the steps above.
 - Click the big red record button on **QuickTime Player** to start recording the call.

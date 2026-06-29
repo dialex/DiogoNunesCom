@@ -11,14 +11,13 @@ _This post is part of the ["From Dreaming to Publishing" series](/blog/?s=From+D
 
 - **1st person**
 
-    - The good: intimacy, feelings, attachment of the reader to the character
-    - The bad: reduced perspective, biased world, one time/place storyline
+  - The good: intimacy, feelings, attachment of the reader to the character
+  - The bad: reduced perspective, biased world, one time/place storyline
 - **Omniscient**
 
-    - The good: know-all, more detail, multiple storylines
-    - The bad: cold voice, too analytical
+  - The good: know-all, more detail, multiple storylines
+  - The bad: cold voice, too analytical
 - **3rd person** is the balance and mix of the two; the language and the knowledge shows which type of narrator is speaking
-
 
 > Omniscient narrator "hears a motor noise".
 > The 1st person narrator "hears the distinct roar of a Mustang B32".

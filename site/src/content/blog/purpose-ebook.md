@@ -16,9 +16,9 @@ Not so long ago, I was living every day like a robot, surviving by doing what I 
 A voice in my mind became louder than the questions. It said:
 
 > Stop walking without a map. You can do better, at least try!
-> 
+>
 > Take a break, get your together, then chin up and start again.
-> 
+>
 > Sincerely, your brain.
 
 So I did.

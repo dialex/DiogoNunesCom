@@ -21,11 +21,11 @@ The number of questions and the detail of the answers depends on your project's 
 
 [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) suggests these first five questions before you start testing:
 
-> 1.  What (product) are we testing?
-> 2.  What should be the main focus of our testing?
-> 3.  How much resources (time/people) do we have?
-> 4.  How should we document our test strategy and results? To who?
-> 5.  Where can we get information about the product?
+> 1. What (product) are we testing?
+> 2. What should be the main focus of our testing?
+> 3. How much resources (time/people) do we have?
+> 4. How should we document our test strategy and results? To who?
+> 5. Where can we get information about the product?
 
 Those questions cover the most critical aspects of any strategy to test your product. You can use them to generate more questions and detail your strategy even more. As the number of questions increases, we should group them into categories.
 
@@ -45,20 +45,20 @@ Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDE
 - What is expected that we deliver?
 - What is expected that we achieve?
 - (extra)
-    - How flexible is the scope? Can we descope if needed?
-    - What are the functional requirements?
-    - What are the non-functional requirements?
+  - How flexible is the scope? Can we descope if needed?
+  - What are the functional requirements?
+  - What are the non-functional requirements?
 
 **Product**
 
 - What problem are we solving? For who?
 - What should our solution do? Scenarios?
 - (extra)
-    - What should our solution never do?
-    - Are there alternatives or competitors to our product?
-    - How are we expected to be different from the alternatives? Or the same?
-    - How are users expected to interact with our product?
-    - Which platforms (e.g. OS, browser) should we support?
+  - What should our solution never do?
+  - Are there alternatives or competitors to our product?
+  - How are we expected to be different from the alternatives? Or the same?
+  - How are users expected to interact with our product?
+  - Which platforms (e.g. OS, browser) should we support?
 
 **Stakeholders**
 
@@ -66,10 +66,10 @@ Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDE
 - Who is our client? (e.g. who pays the product)
 - Who is our user? (e.g. who uses the product)
 - (extra)
-    - Any other stakeholder?
-    - What are their expectations? And concerns?
-    - Who is our team? What are their roles?
-    - Who can we trust? Who should we avoid?
+  - Any other stakeholder?
+  - What are their expectations? And concerns?
+  - Who is our team? What are their roles?
+  - Who can we trust? Who should we avoid?
 
 **Risks**
 
@@ -77,17 +77,17 @@ Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDE
 - What is likely to change?
 - What is still unknown?
 - (extra)
-    - Do we foresee any obstacles or pain points?
-    - How do we continuously verify we're on target?
-    - Do we have any concerns or fears?
-    - What's the worst thing that could happen? How can we avoid that?
+  - Do we foresee any obstacles or pain points?
+  - How do we continuously verify we're on target?
+  - Do we have any concerns or fears?
+  - What's the worst thing that could happen? How can we avoid that?
 
 **Dependencies**
 
 - Is our delivery influenced by someone/thing outside our team?
 - Do we need to cooperate with other teams? When, how and why?
 - (extra)
-    - Do we have to comply with rules/regulations?
+  - Do we have to comply with rules/regulations?
 
 **Approach**
 
@@ -95,13 +95,13 @@ Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDE
 - How will we develop our product? (e.g. pairing, TDD)
 - What would a typical day look like?
 - (extra)
-    - What is our done criteria?
-    - How would we recognize a bug? (e.g. oracle)
-    - How should react when we find a bug?
-    - How do we make decisions and resolve conflicts?
-    - How can we split testing among the team?
-    - How do we handle onboarding? And handover?
-    - Any regulations or rules that influence or limit the way we work?
+  - What is our done criteria?
+  - How would we recognize a bug? (e.g. oracle)
+  - How should react when we find a bug?
+  - How do we make decisions and resolve conflicts?
+  - How can we split testing among the team?
+  - How do we handle onboarding? And handover?
+  - Any regulations or rules that influence or limit the way we work?
 
 **Prioritisation**
 
@@ -109,16 +109,16 @@ Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDE
 - Who reviews/approves our delivery?
 - Who perceives the quality of our delivery?
 - (extra)
-    - Quality, Cost, Time: pick two
-    - What other values are paramount?
+  - Quality, Cost, Time: pick two
+  - What other values are paramount?
 
 **Time**
 
 - Any important dates?
 - Any recurring events or ceremonies?
 - (extra)
-    - How much time do we have to deliver?
-    - What happens if we miss a deadline?
+  - How much time do we have to deliver?
+  - What happens if we miss a deadline?
 
 **Architecture**
 
@@ -130,29 +130,29 @@ Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDE
 - Are we expected to use any specific tools/languages?
 - Which tools do we want to use to develop? And test? And deliver? And communicate?
 - (extra)
-    - What is the technological landscape where our product?
-    - What tools are we expected to build?
-    - What equipment and tools are available to support our testing?
-    - Do we have enough resources to meet the expectations?
-    - Should we use open-source? Can we pay for SaaS?
+  - What is the technological landscape where our product?
+  - What tools are we expected to build?
+  - What equipment and tools are available to support our testing?
+  - Do we have enough resources to meet the expectations?
+  - Should we use open-source? Can we pay for SaaS?
 
 **Environments**
 
 - How many do we need? For what?
 - Who will manage them? Who has access?
 - (extra)
-    - What should change to increase testability?
-    - What should change to speed up feedback?
-    - How can we create/update test data?
+  - What should change to increase testability?
+  - What should change to speed up feedback?
+  - How can we create/update test data?
 
 **Data**
 
 - Which metrics are relevant to us?
 - (extra)
-    - What data should we collect about our product?
-    - What data should we collect about our approach?
-    - How do we display that data? And make it visible?
-    - Should we be notified when thresholds are crossed?
+  - What data should we collect about our product?
+  - What data should we collect about our approach?
+  - How do we display that data? And make it visible?
+  - Should we be notified when thresholds are crossed?
 
 **Information**
 
@@ -160,21 +160,21 @@ Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDE
 - What questions should our testing answer?
 - How should those answers be reported? To who?
 - (extra)
-    - What do we need to learn more about?
-    - Where can we get information about X? Who do we contact?
-    - Where do we share knowledge? How?
-    - How do we provide feedback to each other?
-    - How do we track and visualize our testing?
+  - What do we need to learn more about?
+  - Where can we get information about X? Who do we contact?
+  - Where do we share knowledge? How?
+  - How do we provide feedback to each other?
+  - How do we track and visualize our testing?
 
 **Experience**
 
 - Have we ever worked in a similar context?
 - What skills/experience can be found in the team?
 - (extra)
-    - Are we lacking any skills critical to our success?
-    - Who else knows something about this, inside our organisation?
-    - Who are the experts, even if outside our organisation?
-    - Which tools and techniques are useful in our context?
+  - Are we lacking any skills critical to our success?
+  - Who else knows something about this, inside our organisation?
+  - Who are the experts, even if outside our organisation?
+  - Which tools and techniques are useful in our context?
 
 **Emotions**
 

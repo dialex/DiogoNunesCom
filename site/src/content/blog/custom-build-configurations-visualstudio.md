@@ -17,8 +17,8 @@ The lean solution is to use VisualStudio's build configurations. They offer more
 
 In a nutshell, you will:
 
-1.  Define your custom build configuration (e.g. `Client_JohnDoe`, `Platform_Android`)
-2.  Tell the compiler when to use that build configuration, using the `#IF` directive.
+1. Define your custom build configuration (e.g. `Client_JohnDoe`, `Platform_Android`)
+2. Tell the compiler when to use that build configuration, using the `#IF` directive.
 
 Your final code will look like this:
 

@@ -9,7 +9,7 @@ categories: ["Technology"]
 ---
 
 > Karate is the only open-source tool to combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework. You don't have to compile (Java) code. Just write tests in a readable syntax.
-> 
+>
 > — [Official website](https://intuit.github.io/karate/)
 
 ### Code

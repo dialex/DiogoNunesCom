@@ -8,19 +8,13 @@ tags: ["experience", "idea", "testing"]
 categories: ["Work"]
 ---
 
-### There are many metrics. Some are mainstream, some are measurable, some are imposed. Most can be gamed.
-
-### But there's one that neatly aligns with quality — happiness.
-
 > ⭐️ This post was featured in [Software Testing Weekly #118](https://softwaretestingweekly.com/issues/118) and [Testing Notes #52](https://www.linkedin.com/posts/software-testing-notes_issue-52-software-testing-notes-activity-6917509936302161921-CYV5/)
+>
+> 🍿 You can now [watch my talk on Youtube](https://youtu.be/40yX-jn9wHQ?si=veGl8cXfK7p1x3S2)
 
 * * *
 
-You can now [watch my talk on Youtube](https://youtu.be/40yX-jn9wHQ?si=veGl8cXfK7p1x3S2)
-
-https://youtu.be/40yX-jn9wHQ?si=veGl8cXfK7p1x3S2
-
-* * *
+**There are many metrics. Some are mainstream, some are measurable, some are imposed. Most can be gamed. But there's one that neatly aligns with quality — happiness.**
 
 In the last decades our industry has matured and developed several metrics to assess the productivity and quality of the software we maintain. Based on my recent experience, teams are adopting the four metrics proposed by [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/): delivery lead time, deployment frequency, time to restore service, and change fail rate.
 
@@ -42,24 +36,23 @@ What about us testers? What metrics do we use? Oh, we have plenty of those:
 
 - _Percentages_... like coverage, passed tests, flaky tests, ratio between code and tests
 
-
 In my opinion, [**quality is value to some person, who matters.**](https://dialex.github.io/start-testing/#/concepts/tester-responsibilities)
 
 Do you think your software will have quality if you maximise those metrics above? Maybe, at best. That's a lot of effort for just a "maybe"!
 
 > Let's measure the number of bugs found.
 >
-> -   We found 0 bugs. Do we have quality?
->     -   Maybe yes, or maybe we are bad at finding them.
-> -   We found and fixed 100 bugs. Do we have quality?
->     -   Maybe yes, or maybe we missed 5 bugs that frustrated our users.
+> - We found 0 bugs. Do we have quality?
+>   - Maybe yes, or maybe we are bad at finding them.
+> - We found and fixed 100 bugs. Do we have quality?
+>   - Maybe yes, or maybe we missed 5 bugs that frustrated our users.
 >
 > Fine, let's measure test coverage. Everyone does it anyway.
 >
-> -   We have 20% coverage. Do we have quality?
->     -   Maybe not, or maybe we covered just what matters.
-> -   We have 100% coverage. Do we have quality?
->     -   Maybe yes, or maybe our users still hate our software.
+> - We have 20% coverage. Do we have quality?
+>   - Maybe not, or maybe we covered just what matters.
+> - We have 100% coverage. Do we have quality?
+>   - Maybe yes, or maybe our users still hate our software.
 
 Just because a metric is conventional or popular, doesn't make it right. Just as [there are no best practices](https://www.satisfice.com/blog/archives/5164), only good practices applied in the right situations.
 

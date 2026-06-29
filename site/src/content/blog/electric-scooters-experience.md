@@ -32,7 +32,7 @@ A candidate emerged: _an electric scooter_.
 After weeks of research, there were 3 models to choose from. All except one required international shipping `#PortugalXXI` `#2ndWorldProblems`.
 
 > **International Shipping**. Magically turns something locally affordable into a luxury abroad. Also you can't try it before buying and if you regret your purchase, tough luck.
-> 
+>
 > \-- Urban Dictionary
 
 ### The results

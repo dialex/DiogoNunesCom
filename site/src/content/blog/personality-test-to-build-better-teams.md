@@ -35,14 +35,14 @@ Belbin defines nine roles and no role is better than the other -- they're just d
 
 The test is called Belbin's Self-Perception Inventory (SPI). To speed up things, and because I'm a nice person, I created a ~[spreadsheet ready to download and use](http://www.belbin.com/about/copyright/)~. I must warn you that I used an optimized version of SPI (56 statements instead of 64), however results should be equivalent. The first page contains the assessment and the second page the results. ~**Download it and follow the steps**~:
 
-1.  The Self-Assessment Inventory is composed of seven sections, each with eight statements.
-2.  For each section, distribute a total of 10 points between the statements based on which best describes your behaviors or attitudes. The points may be distributed between several statements or to a single statement. You are allowed a total 70 points. Take your time and respond honestly since there are no right or wrong answers.
-3.  After you complete the seven sections, open the Result worksheet. Higher rankings represent greater predispositions.
+1. The Self-Assessment Inventory is composed of seven sections, each with eight statements.
+2. For each section, distribute a total of 10 points between the statements based on which best describes your behaviors or attitudes. The points may be distributed between several statements or to a single statement. You are allowed a total 70 points. Take your time and respond honestly since there are no right or wrong answers.
+3. After you complete the seven sections, open the Result worksheet. Higher rankings represent greater predispositions.
 
 **In my case, the test was extremely accurate.** Wanna know what I got? No? OK, I'll tell you anyway. Here are my three main roles:
 
-1.  Monitor/Evaluator. Logical, listens to all opinions and values them equally, judges accurately. However, lacks drive and ability to inspire others.
-2.  Team worker. Diplomatic, cooperative, worries about others' problems and helps them. However, is indecisive and requires direction.
-3.  Completer. Delivers on time, painstakingly searches omissions and ensures coherence and quality. However, worries unduly and has a tendency for perfectionism.
+1. Monitor/Evaluator. Logical, listens to all opinions and values them equally, judges accurately. However, lacks drive and ability to inspire others.
+2. Team worker. Diplomatic, cooperative, worries about others' problems and helps them. However, is indecisive and requires direction.
+3. Completer. Delivers on time, painstakingly searches omissions and ensures coherence and quality. However, worries unduly and has a tendency for perfectionism.
 
 What about you? What's your team role? You may now use this knowledge to build your next dream team or cleverly hire and arrange your companies' employees.

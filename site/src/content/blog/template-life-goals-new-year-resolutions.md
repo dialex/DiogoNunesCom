@@ -17,13 +17,13 @@ In 2018 I started listing my [new year resolutions](https://en.wikipedia.org/wik
 
 His post ["Happy, Smart and Useful"](https://sive.rs/hsu) was actually the trigger for my first new year resolutions. Here's how I use it:
 
-1.  Define your primary goals
-2.  Break down each goal into statements that should be true by the end of the year
-3.  Detail what you can do monthly to make them happen
-4.  Go one step further and list daily activities that will fulfil your monthly goals
-5.  Review each yearly/monthly goal and try to classify them as happy, smart or useful
-6.  Count the number of goals in each category
-7.  Check if you're happy with the balance - if not, go back to step 1 and review your goals
+1. Define your primary goals
+2. Break down each goal into statements that should be true by the end of the year
+3. Detail what you can do monthly to make them happen
+4. Go one step further and list daily activities that will fulfil your monthly goals
+5. Review each yearly/monthly goal and try to classify them as happy, smart or useful
+6. Count the number of goals in each category
+7. Check if you're happy with the balance - if not, go back to step 1 and review your goals
 
 ![](../../assets/blog/uploads/2021/01/Prioridades_2018-1024x728.jpg)
 
@@ -38,14 +38,14 @@ I think this approach is particularly suited for people who are not sure what mo
 ![](../../assets/blog/uploads/2021/01/Core_Values-1024x572.png)
 
 - Phase 1: Identify your **core values**
-    - What matters to me the most? Why? (ask why 5 times to get to the core)
-    - What brings me contentment (e.g. happiness, fulfilment, relaxation)?
-    - Who is around me in moments of contentment?
-    - What is preventing or limiting my contentment?
+  - What matters to me the most? Why? (ask why 5 times to get to the core)
+  - What brings me contentment (e.g. happiness, fulfilment, relaxation)?
+  - Who is around me in moments of contentment?
+  - What is preventing or limiting my contentment?
 - Phase 2: Define a **benchmark** for each core value
-    - What does it mean to "succeed" in that value?
-    - What needs to happen to improve that value?
-    - Is your definition of success clear and measurable?
+  - What does it mean to "succeed" in that value?
+  - What needs to happen to improve that value?
+  - Is your definition of success clear and measurable?
 
 ### Now that you have your _wishlist_...
 

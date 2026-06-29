@@ -8,9 +8,9 @@ categories: ["Technology"]
 ---
 
 > Scenario:
-> 
-> -   Your web site is deployed on several countries. The behaviour of the page you want to test (e.g. sign up) is mostly the same across countries, however some business rules change per country.
-> -   You are using the PageObjects pattern to encapsulate the details of each page. You want to avoid duplicated code.
+>
+> - Your web site is deployed on several countries. The behaviour of the page you want to test (e.g. sign up) is mostly the same across countries, however some business rules change per country.
+> - You are using the PageObjects pattern to encapsulate the details of each page. You want to avoid duplicated code.
 
 Our goal was to create a `SignUpTemplatePage.java` with the page behaviour that was common across all countries. Then one `SignUp<Country>Page.java` per country, with the specifics of each country, while inheriting the common behaviour from the template page.
 

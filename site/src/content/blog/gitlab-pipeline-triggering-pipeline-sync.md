@@ -12,7 +12,7 @@ categories: ["Technology"]
 Usually when configuring a GitLab pipeline (`.gitlab-ci.yml`) you only care about steps in your own pipeline. Sometimes however, you may want to trigger other pipelines (of other repositories) as a step of your own pipeline.
 
 > Context: You have your app divided into multiple microservices/repos. There's another repo which contains a suite of End-to-End tests. That repo has a pipeline that, when triggered, runs the whole tests using the latest version of each app.
-> 
+>
 > Problem: At the end of your microservice's pipeline, you deploy your latest version, and then you want to run the E2E pipeline, to make sure you didn't break any previously working functionality. But that's another repo...
 
 So the question is: **how can you have a pipeline triggering another pipeline and _wait_ for the result?**

@@ -32,9 +32,9 @@ _This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+fo
 
 - The tests need to be written in a **language** that’s comprehensible to a business user reading them yet still executable by the technical team (e.g. [easyb](http://easyb.org/)).
 - Clarify requirements by asking these questions to your customer:
-    - What value will users get from this feature?
-    - What will they do immediately before and after using that feature?
-    - How do we know we're done with this story?
+  - What value will users get from this feature?
+  - What will they do immediately before and after using that feature?
+  - How do we know we're done with this story?
 - A **Product Owner** guarantees only “one voice of the customer” presented to the developer team.
 - It's easy to lose track of the **big picture** when we’re focusing on a small number of stories. Always consider how each individual story impacts other parts of the system (ripple effects).
 - The sooner you can build the end-to-end path, the sooner you can do meaningful testing. Find the **most stripped-down functionality that can be tested** (i.e. steel thread, tracer bullet, critical path).
@@ -43,9 +43,9 @@ _This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+fo
 
 This is the recommended order for tests' creation:
 
-1.  High-level story tests before coding;
-2.  Detailed test cases once coding starts;
-3.  Exploratory testing on the code as it’s delivered.
+1. High-level story tests before coding;
+2. Detailed test cases once coding starts;
+3. Exploratory testing on the code as it’s delivered.
 
 * * *
 

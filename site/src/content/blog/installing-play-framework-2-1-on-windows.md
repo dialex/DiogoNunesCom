@@ -22,8 +22,8 @@ On this guide I'll just refer to these variables and not their absolute paths:
 
 To install Play just follow these steps:
 
-1.  _First, you should follow the default steps from the [official guide](http://www.playframework.com/documentation/2.1.x/Installing)._
-2.  Uninstall previous JDK. Download and install the most recent [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html). Don't forget to (1) create a `%JAVA_HOME%` system variable and (2) append that variable to your `PATH` environment variable.
-3.  Extract the Play! Framework install package (zip) to `%PLAY_HOME%`. Attention: you must have read and write permissions on that folder.
-4.  Open a command line, go to `%PLAY_HOME%`, type `play` and enter. That should start the Play! installer. Wait for the installation to finish. Don't forget to add `%PLAY_HOME%` to your `PATH` environment variable.
-5.  To test if everything is ok, open a command line, then execute `java -version`, then `javac -version`, then `play help`. Check the outputs of each command and you'll know if it worked.
+1. _First, you should follow the default steps from the [official guide](http://www.playframework.com/documentation/2.1.x/Installing)._
+2. Uninstall previous JDK. Download and install the most recent [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html). Don't forget to (1) create a `%JAVA_HOME%` system variable and (2) append that variable to your `PATH` environment variable.
+3. Extract the Play! Framework install package (zip) to `%PLAY_HOME%`. Attention: you must have read and write permissions on that folder.
+4. Open a command line, go to `%PLAY_HOME%`, type `play` and enter. That should start the Play! installer. Wait for the installation to finish. Don't forget to add `%PLAY_HOME%` to your `PATH` environment variable.
+5. To test if everything is ok, open a command line, then execute `java -version`, then `javac -version`, then `play help`. Check the outputs of each command and you'll know if it worked.

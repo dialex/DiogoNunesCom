@@ -18,9 +18,9 @@ I created an executable that enables you to troll someone by:
 
 ## How to use
 
-1.  Copy the executable (`Troller.exe`) to your victim's pc.
-2.  Open the executable -- it will run silently on the background.
-3.  Enjoy.
+1. Copy the executable (`Troller.exe`) to your victim's pc.
+2. Open the executable -- it will run silently on the background.
+3. Enjoy.
 
 The executable searches for a `Tasks.txt` file containing the trolling actions to perform. If it doesn't exists, the executable will create one with default actions.
 

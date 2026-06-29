@@ -15,15 +15,15 @@ The goal is to create a Google Sheet that can track the historical PageSpeed Ins
 
 For each target URL, the script will run the PSI test for both desktop and mobile and record the overall test score (configurable). Since the PSI scores tend to slightly vary between executions, the script runs the test three times (configurable) and store the average.
 
-1.  Generate a **PageSpeed Insights** (PSI) key:
-    1.  Open the [PSI docs](https://developers.google.com/speed/docs/insights/v5/get-started) and click the **Get a Key** button
-    2.  Follow the wizard and copy the generated key
-2.  Create a new [Google Sheet](https://sheets.google.com/)
-3.  Navigate to **Tools > Script Editor**
-4.  From the **Google Apps Script** editor, give your script a name (e.g. `PSI Monitoring`)
-5.  Navigate to **File > Project properties**, create a new **Script property** named `PSI_API_KEY` and paste in your API key
-6.  In `Code.gs`, paste the script below
-    1.  Don't forget to find the `// TODO` comments and configure them as you desire
+1. Generate a **PageSpeed Insights** (PSI) key:
+    1. Open the [PSI docs](https://developers.google.com/speed/docs/insights/v5/get-started) and click the **Get a Key** button
+    2. Follow the wizard and copy the generated key
+2. Create a new [Google Sheet](https://sheets.google.com/)
+3. Navigate to **Tools > Script Editor**
+4. From the **Google Apps Script** editor, give your script a name (e.g. `PSI Monitoring`)
+5. Navigate to **File > Project properties**, create a new **Script property** named `PSI_API_KEY` and paste in your API key
+6. In `Code.gs`, paste the script below
+    1. Don't forget to find the `// TODO` comments and configure them as you desire
 
 ```javascript
 // Adapted from Rick Viscomi (@rick_viscomi)
@@ -98,12 +98,12 @@ You can test the script by opening the **Select function** menu, selecting **mon
 
 Right now, you can run the PSI test with the click of a button. But ideally the test would run every day automatically. Luckily, we can configure triggers to run our script:
 
-1.  Return to the **Google Apps Script** editor
-2.  Navigate to **Edit > Current project's triggers**
-3.  Configure your trigger – if you want to run it daily, use the following config:
+1. Return to the **Google Apps Script** editor
+2. Navigate to **Edit > Current project's triggers**
+3. Configure your trigger – if you want to run it daily, use the following config:
     - Run the `monitor` function
     - "Time-driven", "Day timer", Select any hour
-4.  Save your trigger
+4. Save your trigger
 
 ![](../../assets/blog/uploads/2020/10/PSI-Schedule-953x1024.png)
 

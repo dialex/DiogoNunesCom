@@ -25,14 +25,14 @@ You just read 43 words in a single sentence. [Hemingway](http://www.hemingwayapp
 Quality is **value to some person, who matters**. A bug is anything that threatens quality. This simple definition shows how subjective quality really is. Here are a few other perspectives:
 
 - Aesthetic view: _Quality is emotive and simplicity._
-    - ✔ Fosters excellence and pride in workmanship.
-    - ✘ Can become a cloak for perfectionists.
+  - ✔ Fosters excellence and pride in workmanship.
+  - ✘ Can become a cloak for perfectionists.
 - Manufacturing view: _Quality is conformance to specifications._
-    - ✔ Fits the mindset of highly regulated contexts, e.g. health industry.
-    - ✘ Can produce products that satisfy no one, besides the specification's author.
+  - ✔ Fits the mindset of highly regulated contexts, e.g. health industry.
+  - ✘ Can produce products that satisfy no one, besides the specification's author.
 - Customer view: _Quality is whatever satisfies the customer._
-    - ✔ Increases customer loyalty.
-    - ✘ Can lead to eternal chasing of trends and competitors.
+  - ✔ Increases customer loyalty.
+  - ✘ Can lead to eternal chasing of trends and competitors.
 
 Quality is a moving target — it adapts to its changing context (e.g. time, priorities, trends). Stakeholders will form a _perception_ of the current quality based on their values, knowledge, skills and past experiences. Given the diversity of stakeholders, each will have a different perception of quality. That's one of the reasons why you cannot _assure quality_.
 

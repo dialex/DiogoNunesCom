@@ -37,9 +37,9 @@ Those who **work for the metrics** will get ahead of those who **work for the pe
 
 Decades of research have confirmed, [again](https://www.ted.com/talks/dan_pink_on_motivation) and [again](http://www.amazon.com/gp/product/0618001816/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0618001816&linkCode=as2&tag=thegeegec00-20&linkId=6QBIUZEBPOP4Q5PT), that bonus systems rarely have a positive effect on people’s performance when they perform intellectual work. Bonuses do work on repetitive no-brainer tasks, but when it comes to creative and knowledge work [they do more harm than good](http://agile.dzone.com/articles/bonus-system):
 
-1.  **Individual rewards disrupt collaboration.** They also stimulate competition and individualism, destroying relationships between colleagues and their managers.
-2.  **Reality is too complex to measure with simple metrics.** Those metrics ignore the soft side of great performance, including teamwork and collaboration.
-3.  **Bonuses represent an additional distraction and pressure**, disrupting creative thinking and increasing employees' stress' levels. This causes them to play safe and prefer easy tasks, since innovation requires the opposite: taking risks, doing complex tasks, and probably missing the bonus.
+1. **Individual rewards disrupt collaboration.** They also stimulate competition and individualism, destroying relationships between colleagues and their managers.
+2. **Reality is too complex to measure with simple metrics.** Those metrics ignore the soft side of great performance, including teamwork and collaboration.
+3. **Bonuses represent an additional distraction and pressure**, disrupting creative thinking and increasing employees' stress' levels. This causes them to play safe and prefer easy tasks, since innovation requires the opposite: taking risks, doing complex tasks, and probably missing the bonus.
 
 In the words of [Dan Pink](https://www.ted.com/talks/dan_pink_on_motivation), "all you can do to **motivate knowledge workers** is to give them interesting work and autonomy."
 

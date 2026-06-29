@@ -32,10 +32,10 @@ After some [initial setup](internet-button-unboxing-first-steps), Particle's clo
 
 You can code locally on Atom IDE (recommended) or remotely on their web IDE (avoid at all costs). To deploy your code to the Internet Button you simply click **Publish** on your IDE. That will trigger several events:
 
-1.  Your code is uploaded via wifi to Particle's cloud.
-2.  The cloud compiles your code.
-3.  If no errors are found, the build is deployed to your device via wifi.
-4.  During this whole process, a LED on the Internet Button will change colors accordingly.
+1. Your code is uploaded via wifi to Particle's cloud.
+2. The cloud compiles your code.
+3. If no errors are found, the build is deployed to your device via wifi.
+4. During this whole process, a LED on the Internet Button will change colors accordingly.
 
 Each time the button powered on, it will fetch the most recent version of your code. That allows you to publish a new version with the button turned off.
 

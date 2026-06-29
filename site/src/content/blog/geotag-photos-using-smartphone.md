@@ -22,22 +22,22 @@ So I started looking for an **external GPS unit** for my camera. That would cost
 
 ## Part 1 - Recording your GPS location
 
-1.  Assuming you have an Android smartphone, install [Geo Tracker](https://play.google.com/store/apps/details?id=com.ilyabogdanovich.geotracker) app.
-2.  Before taking any photos start the app. Make sure you enable the Location services on your smartphone's settings.
-3.  The app will search for a GPS signal and your current location (up to 5 minutes). When your location appears in a map it means your good to go.
-4.  Press the big red button to start recording your path.
-5.  After you finish your photo trip, open the app again and stop the recording.
-6.  Make sure you export your recently recorded track to Google Drive.
+1. Assuming you have an Android smartphone, install [Geo Tracker](https://play.google.com/store/apps/details?id=com.ilyabogdanovich.geotracker) app.
+2. Before taking any photos start the app. Make sure you enable the Location services on your smartphone's settings.
+3. The app will search for a GPS signal and your current location (up to 5 minutes). When your location appears in a map it means your good to go.
+4. Press the big red button to start recording your path.
+5. After you finish your photo trip, open the app again and stop the recording.
+6. Make sure you export your recently recorded track to Google Drive.
 
 ## Part 2 - Embedding the GPS metadata into your photos
 
-1.  Import your photos from your camera. I use raw files (.nef because I own a Nikon) but .jpeg will work just fine too.
-2.  Download your track from Google Drive (or directly from the app) to your computer.
-3.  Install [GeoSetter](http://www.geosetter.de/en/download/).
-4.  Start GeoSetter and open the folder containing the photos you imported on step 1. Then press the button that synchronizes a GPS file with the selected photos. The screenshot below illustrates this step. ![dslr-gps-1](../../assets/blog/uploads/2014/12/dslr-gps-1-e1417889924893-1024x751.png)
-5.  A window will popup asking you to selected the GPS track file to sync. Browse your `track.kmz` file. Configure the remaining options to suit your preferences. ![dslr-gps-2](../../assets/blog/uploads/2014/12/dslr-gps-2.png)
-6.  Start the synchronization process. ![dslr-gps-3](../../assets/blog/uploads/2014/12/dslr-gps-3.png)
-7.  After the sync is complete, don't forget to save the changes to your photos, by pressing the blue diskette button. Doing so will tell GeoSetter to embed the GPS information from the track into your photo's metadata. ![dslr-gps-4](../../assets/blog/uploads/2014/12/dslr-gps-4-1024x455.png)
+1. Import your photos from your camera. I use raw files (.nef because I own a Nikon) but .jpeg will work just fine too.
+2. Download your track from Google Drive (or directly from the app) to your computer.
+3. Install [GeoSetter](http://www.geosetter.de/en/download/).
+4. Start GeoSetter and open the folder containing the photos you imported on step 1. Then press the button that synchronizes a GPS file with the selected photos. The screenshot below illustrates this step. ![dslr-gps-1](../../assets/blog/uploads/2014/12/dslr-gps-1-e1417889924893-1024x751.png)
+5. A window will popup asking you to selected the GPS track file to sync. Browse your `track.kmz` file. Configure the remaining options to suit your preferences. ![dslr-gps-2](../../assets/blog/uploads/2014/12/dslr-gps-2.png)
+6. Start the synchronization process. ![dslr-gps-3](../../assets/blog/uploads/2014/12/dslr-gps-3.png)
+7. After the sync is complete, don't forget to save the changes to your photos, by pressing the blue diskette button. Doing so will tell GeoSetter to embed the GPS information from the track into your photo's metadata. ![dslr-gps-4](../../assets/blog/uploads/2014/12/dslr-gps-4-1024x455.png)
 
 ### Well done
 

@@ -39,22 +39,22 @@ There are several **ways to write the specification** of a product, however ther
 Nowadays there are several Agile techniques to write requirements effectively:
 
 - [User story mapping](http://amzn.to/2mW1rkx)
-    - Starts with stakeholders and breaks down into Goals > Activities > Tasks > Stories.
+  - Starts with stakeholders and breaks down into Goals > Activities > Tasks > Stories.
 - [User journey](http://amzn.to/2mWyt4d)
-    - Starts with users and breaks down into Goals > User Journeys > Actions > Stories.
+  - Starts with users and breaks down into Goals > User Journeys > Actions > Stories.
 - [Specification by example](http://amzn.to/2FZy1ux)
-    - Details your stories using conversations to extract rules and examples.
+  - Details your stories using conversations to extract rules and examples.
 
 Since POs/BAs are usually the drivers of requirement analysis we won't go into details (recommended reading in the [section](#sources) below). Nevertheless, attend the workshops if you can — the closer you are to the [source of truth](https://en.wikipedia.org/wiki/Chinese_whispers) the better.
 
 So you might be asking **how can testers add value to this process?**
 
 > Business perspective: Build the right thing meeting the client's expectations and requirements.
-> 
+>
 > _Concern: Will it be useful?_
-> 
+>
 > Technical perspective: Build it right using the correct technology, architecture, tools and practices.
-> 
+>
 > _Concern: Will it work?_
 
 - **Align perspectives**. Each side has its own concerns, assumptions and biases. Chat with stakeholders (askers) and developers (givers) to check if they have a common understanding of what needs to be done.
@@ -67,7 +67,7 @@ So you might be asking **how can testers add value to this process?**
 - **Don't be fooled**. Question requirements and extract their value/usefulness. Be aware of echo chambers.
 
 > It's easier to fool people than to convince them that they have been fooled.
-> 
+>
 > — Mark Twain
 
 ## Teachers

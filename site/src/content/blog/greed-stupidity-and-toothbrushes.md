@@ -28,29 +28,29 @@ Why can't we design an optimised toothbrush that is **more sustainable and also 
 
 This is the current toothbrush, the one we're using for decades:
 
-1.  Handle is made of virgin plastic
-2.  Packaging is a mix of paper and clear plastic
-3.  After 3 months your throw it away
-4.  You buy a new one, that will last another 3 months
+1. Handle is made of virgin plastic
+2. Packaging is a mix of paper and clear plastic
+3. After 3 months your throw it away
+4. You buy a new one, that will last another 3 months
 
 ### The perfect toothbrush
 
 Here's the perfect toothbrush, that no one created yet:
 
-1.  Handle is hollow and made of recycled plastic
+1. Handle is hollow and made of recycled plastic
     - _(extra points if you use plastic collected from the oceans)_
-2.  Packaging is made of recycled paper
-3.  After 3 months, you keep the handle and replace the head
-4.  You buy a new pack of 20 heads, that will last you 5 years
+2. Packaging is made of recycled paper
+3. After 3 months, you keep the handle and replace the head
+4. You buy a new pack of 20 heads, that will last you 5 years
 
 That's it. Simple.
 
 We have the tech, it's not a massive difference from the current processes and it's so much better. These are the benefits of each step:
 
-1.  Minimises _resources_ used
-2.  Minimises _packaging_ waste
-3.  _Reuses_ an item (3 Rs)
-4.  Minimises _shipping_ costs
+1. Minimises _resources_ used
+2. Minimises _packaging_ waste
+3. _Reuses_ an item (3 Rs)
+4. Minimises _shipping_ costs
 
 ### The dream
 

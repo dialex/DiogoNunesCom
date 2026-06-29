@@ -18,7 +18,7 @@ First thing you need is to own that `awesome-products.com` domain. If you haven'
 
 Now that you have the domain, you need to **redirect it to Heroku**. Analogy: if your Rails application is a house and your domain the house address, you're just changing your house's street address, the house stays in the same place (heroku's servers).
 
-1.  Go to **"Manage domains" » "Your domains"** and click over the domain you just bought (for me it was `dcid.org`).
+1. Go to **"Manage domains" » "Your domains"** and click over the domain you just bought (for me it was `dcid.org`).
 
 ![](../../assets/blog/uploads/2014/11/namecheap1.png)
 

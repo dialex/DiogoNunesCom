@@ -18,8 +18,8 @@ _This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+fo
 ## Tests that support the team
 
 - Supports the team as it develops the product:
-    - Drives development to deliver the requested business value.
-    - Safety net to prevent silent regressions.
+  - Drives development to deliver the requested business value.
+  - Safety net to prevent silent regressions.
 
 **Quadrant 1**
 
@@ -50,9 +50,9 @@ _This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+fo
 **Quadrant 4**
 
 - For some cases **they might be more important** than actual functionality.
-    - _Example: if application performance is critical, plan to test with production-level loads as soon as testable code is available._
+  - _Example: if application performance is critical, plan to test with production-level loads as soon as testable code is available._
 - Make sure all necessary **testing is done at the right time**.
-    - _Example: if you find out too late that your design doesn’t scale, start load testing earlier next time._
+  - _Example: if you find out too late that your design doesn’t scale, start load testing earlier next time._
 - This quadrant provides feedback to the left side of the matrix.
 - Use lightweight tools to create test data and set up scenarios.
 

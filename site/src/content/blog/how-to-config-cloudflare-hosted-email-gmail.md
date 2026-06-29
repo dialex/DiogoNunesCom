@@ -25,8 +25,8 @@ However, my domain email addresses stopped working. I could not receive emails a
 
 To keep my Gmail integration working I followed [these instructions](https://serverfault.com/a/642956/131531):
 
-1.  The MX record should be for your domain, not for a subdomain.
-2.  An MX record should not point to a CNAME. Point it to a record with an IP.
+1. The MX record should be for your domain, not for a subdomain.
+2. An MX record should not point to a CNAME. Point it to a record with an IP.
 
 An example of a working domain:
 

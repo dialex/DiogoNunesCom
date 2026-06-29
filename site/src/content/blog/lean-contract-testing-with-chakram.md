@@ -39,17 +39,17 @@ Now that we know what we want to achieve, it is time to pick a tool.
 
 Most of our requests were already saved in [Postman](https://www.postman.com/) collections. We could leverage that and simply attach some tests to those requests, right? Just because you can, doesn't mean you should:
 
-1.  The test code was hard to edit in their UI (e.g. no formatting, no auto-complete)
-2.  The collection needs to be exported to a JSON in order to be executed by Newman
-3.  When the test failed due to a schema violation it was not clear what was wrong
+1. The test code was hard to edit in their UI (e.g. no formatting, no auto-complete)
+2. The collection needs to be exported to a JSON in order to be executed by Newman
+3. When the test failed due to a schema violation it was not clear what was wrong
 
 #### Chakram ✅
 
 We decided to write Jest tests with [Chakram](https://dareid.github.io/chakram/) because:
 
-1.  The test code exists next to the code being tested (same repo)
-2.  It uses our current toolchain (e.g. Jest, VS Code, Prettier, etc.)
-3.  When a schema is violated we know exactly why (structure/type/value mismatch)
+1. The test code exists next to the code being tested (same repo)
+2. It uses our current toolchain (e.g. Jest, VS Code, Prettier, etc.)
+3. When a schema is violated we know exactly why (structure/type/value mismatch)
 
 ### Examples
 

@@ -12,9 +12,9 @@ categories: ["Thoughts"]
 In case you haven't heard, the ~lie~ [tale](https://en.wikipedia.org/wiki/Santa_Claus) goes like this:
 
 > Santa Claus is a man that lives far away, in a place you can't visit.
-> 
+>
 > He watches all your actions, at all times. If you do good, then you might be rewarded one day.
-> 
+>
 > You cannot speak directly to him, all communication must be done through your **parents**.
 
 Replace "Santa Claus" with "God", "parents" with "priest". Read it again.

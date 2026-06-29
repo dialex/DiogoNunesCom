@@ -13,10 +13,10 @@ Particle released a C++ library that handles much of the interaction with the In
 
 First you need to include that library:
 
-1.  Go to Particle [GitHub](https://github.com/spark/InternetButton/tree/master/firmware).
-2.  Download `InternetButton.cpp` and `InternetButton.h` files.
-3.  Move them to a folder on your project's repo (I used a `libs` folder).
-4.  Add at the top of your `.ino` file this line `#include "InternetButton.h"`.
+1. Go to Particle [GitHub](https://github.com/spark/InternetButton/tree/master/firmware).
+2. Download `InternetButton.cpp` and `InternetButton.h` files.
+3. Move them to a folder on your project's repo (I used a `libs` folder).
+4. Add at the top of your `.ino` file this line `#include "InternetButton.h"`.
 
 One of the examples allows you to [play the Nyan Cat](https://github.com/spark/InternetButton/blob/master/firmware/examples/8_MakingMusic.cpp) theme song! I extracted that functionality into a separate class.
 

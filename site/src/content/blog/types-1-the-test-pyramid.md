@@ -72,10 +72,10 @@ As with any tool, "keep the best and discard the rest".
 
 Think of the test pyramid as an [heuristic](/docs/toolbox/heuristics.md) to trigger your thinking, a starting point — it should not be blindly pursued as perfection or the end goal. It teaches you three valuable lessons:
 
-1.  Write tests with different granularity
-2.  High-level tests should be realistic (and you pay for it)
-3.  Low-level tests should be fast and precise
-4.  If a higher-level test fails without a lower-level test failing too, you need to write a lower-level test
+1. Write tests with different granularity
+2. High-level tests should be realistic (and you pay for it)
+3. Low-level tests should be fast and precise
+4. If a higher-level test fails without a lower-level test failing too, you need to write a lower-level test
 
 That last one needs a bit more explanation. Tests at the top of the pyramid exercise multiple parts of the system at the same time. If one of those tests fail, it tells you _"there's a problem with X"_ but without a lower-level test you will not know the cause of the problem. And they will serve as a good [regression test](/types) for the future.
 

@@ -57,7 +57,7 @@ If it makes you sleep better, yes, you are in control of your life, you can end 
 Just don't use it yet.
 
 > **_Mental states are like storms._**
-> 
+>
 > _You see them coming slowly towards you. They are sad and destructive. The world changes color. Sometimes you see a brief opening just to darken again. You never know how long they'll last. But eventually they move along and sunshine returns. Always._
 
 Give life a chance, another day. Maybe tomorrow will be better. Maybe in a month. Maybe, you don't know. You will only know for sure if you stay alive and give it a try.

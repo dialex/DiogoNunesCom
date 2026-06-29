@@ -99,10 +99,10 @@ Even though you don't own the product, you can give them your advice and support
 
 One of your responsibilities is to uncover information and deliver it. To do so, there are many questions a tester could ask. [Mnemonics](https://dialex.github.io/start-testing/#/toolbox/mnemonics.md) are a clever way to avoid forgetting them. If you can only memorise four questions, these are the ones:
 
-1.  **What are we building?** _What features? What are the components? How do they integrate?_
-2.  **For who?** _What value are they expecting? How will they use it? How can they get help?_
-3.  **What could go wrong?** _What's the impact? Who would suffer? How long to fix it?_
-4.  **How would we find out?** _Can we detect a failure? Can we prevent or mitigate it?_
+1. **What are we building?** _What features? What are the components? How do they integrate?_
+2. **For who?** _What value are they expecting? How will they use it? How can they get help?_
+3. **What could go wrong?** _What's the impact? Who would suffer? How long to fix it?_
+4. **How would we find out?** _Can we detect a failure? Can we prevent or mitigate it?_
 
 Once you have gathered that information, share it with your team and other relevant stakeholders. Be mindful about your audience — deliver just the right amount of data using the most effective medium for them (e.g. using diagrams for non-technical people).
 

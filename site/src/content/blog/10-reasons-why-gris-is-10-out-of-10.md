@@ -9,16 +9,16 @@ categories: ["Technology"]
 
 ### [Journey](https://www.epicgames.com/store/en-US/product/journey/home) and [Rime](https://store.steampowered.com/app/493200/RiME/) fans, this is for you
 
-1.  Tells a powerful story without a single word
-2.  Game mechanics are explored, not explained
-3.  Puzzles that reward you with "a-ha!" moments
-4.  Smooth and detailed animation and sound effects
-5.  Ingenious and polished level design
-6.  Relaxing and meditative ambient music
-7.  Breathtaking visuals, in terms of scale and usage of color
-8.  You will sometimes slowdown or stop to appreciate the moment
-9.  Your mind will wander, looking for meaning in every detail
-10.  It will hit your feelings
+1. Tells a powerful story without a single word
+2. Game mechanics are explored, not explained
+3. Puzzles that reward you with "a-ha!" moments
+4. Smooth and detailed animation and sound effects
+5. Ingenious and polished level design
+6. Relaxing and meditative ambient music
+7. Breathtaking visuals, in terms of scale and usage of color
+8. You will sometimes slowdown or stop to appreciate the moment
+9. Your mind will wander, looking for meaning in every detail
+10. It will hit your feelings
      - _a tissue box is just as important as a game controller_
 
 ![The 1st chapter looks like a homage to Journey](../../assets/blog/uploads/2019/12/Desktop-Screenshot-2019.12.08-10.51.20.80.png)

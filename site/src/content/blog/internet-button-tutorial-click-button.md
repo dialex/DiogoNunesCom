@@ -13,10 +13,10 @@ Particle released a C++ library that handles much of the interaction with the In
 
 First you need to include that library:
 
-1.  Go to Particle [GitHub](https://github.com/spark/InternetButton/tree/master/firmware).
-2.  Download `InternetButton.cpp` and `InternetButton.h` files.
-3.  Move them to a folder on your project's repo (I used a `libs` folder).
-4.  Add at the top of your `.ino` file this line `#include "InternetButton.h"`.
+1. Go to Particle [GitHub](https://github.com/spark/InternetButton/tree/master/firmware).
+2. Download `InternetButton.cpp` and `InternetButton.h` files.
+3. Move them to a folder on your project's repo (I used a `libs` folder).
+4. Add at the top of your `.ino` file this line `#include "InternetButton.h"`.
 
 Below is the code I used to click a button and turn a led on.
 

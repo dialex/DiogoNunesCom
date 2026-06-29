@@ -20,13 +20,13 @@ Every year I do volunteer work at conventions and my responsibilities are never 
 - The **cheaters** find ways to bend the rules and get in
 - Volunteers notice it and ask staff for guidance: "they're in, let them be"
 - The lawful notice it and **get angry** at you, demanding entrance
-    - _At this point you have a full row of kids seating on the floor_
+  - _At this point you have a full row of kids seating on the floor_
 - Most rules are now replaced by **subjective decisions on-the-fly**
-    - _Volunteers lose their authority and need staff by their side_
+  - _Volunteers lose their authority and need staff by their side_
 - Some **lawful become cheaters**
 - Some volunteers off-duty enter ahead of lawful, just like cheaters
 - **Staff gives up** and opens the gate
-    - _It doesn't really make a difference because by now the room is packed_
+  - _It doesn't really make a difference because by now the room is packed_
 
 ### Lessons Learned
 

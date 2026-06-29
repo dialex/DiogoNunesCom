@@ -17,9 +17,9 @@ The easiest way to get the game is buying it from the [Steam store](http://store
 
 You know the drill:
 
-1.  Find the game on the [Steam store](http://store.steampowered.com/app/4000/).
-2.  Buy it.
-3.  Download/install it.
+1. Find the game on the [Steam store](http://store.steampowered.com/app/4000/).
+2. Buy it.
+3. Download/install it.
 
 ## Install Textures
 
@@ -33,12 +33,12 @@ That's because the map requires textures not included in the standard installati
 
 **Solution:** you need to manually download and install all those textures.
 
-1.  Download this [zip package](http://adf.ly/10475475/gmod-textures), which contains all the most used textures. Wait a few seconds, close the ad, and download the file (~700MB).
-2.  Find gmod installation folder. It should be somewhere, inside Steam's folder. In my case, it was located at  
+1. Download this [zip package](http://adf.ly/10475475/gmod-textures), which contains all the most used textures. Wait a few seconds, close the ad, and download the file (~700MB).
+2. Find gmod installation folder. It should be somewhere, inside Steam's folder. In my case, it was located at  
     `C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\addons`
-3.  Create a folder named `CSS Content Addon`.
-4.  Extract the zip contents to the folder created in the previous step.
-5.  Done. You should now have a `models`, `particles`, ... folders inside `CSS Content Addon`.
+3. Create a folder named `CSS Content Addon`.
+4. Extract the zip contents to the folder created in the previous step.
+5. Done. You should now have a `models`, `particles`, ... folders inside `CSS Content Addon`.
 
 ## Install Maps
 
@@ -46,11 +46,11 @@ At this time you could try join a multiplayer server, but chances are they are u
 
 **Solution:** you need to manually download and install the most used maps (this is optional, but highly recommended).
 
-1.  Download this [zip package](http://adf.ly/10475475/gmod-maps), which contains Counter Strike maps. Wait a few seconds, close the ad, and download the file (~100MB).
-2.  Find gmod installation folder, again.
-3.  From the **Install Textures** step, you should now have a folder named `CSS Content Addon`. Inside that folder, create another folder called `maps`.
-4.  Extract the zip contents that `maps` folder.
-5.  Done.
+1. Download this [zip package](http://adf.ly/10475475/gmod-maps), which contains Counter Strike maps. Wait a few seconds, close the ad, and download the file (~100MB).
+2. Find gmod installation folder, again.
+3. From the **Install Textures** step, you should now have a folder named `CSS Content Addon`. Inside that folder, create another folder called `maps`.
+4. Extract the zip contents that `maps` folder.
+5. Done.
 
 ## Can I play with my friends already?
 

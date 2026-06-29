@@ -19,18 +19,18 @@ Then I found GitHub Pages.
 
 ### ~Publish~ Push your static website to GitHub Pages
 
-1.  You know the drill: create repo, commit html/css/js files, push.
-2.  Visit your repository on GitHub.
-3.  Go to **Settings > GitHub Pages > Source**. Select the `master branch` option.
+1. You know the drill: create repo, commit html/css/js files, push.
+2. Visit your repository on GitHub.
+3. Go to **Settings > GitHub Pages > Source**. Select the `master branch` option.
 
 You should be able to view your site on a url like `username.github.io/repo`. That's not fancy. Let's change it to your awesome domain.
 
 ### Prepare GitHub Pages to use a custom domain
 
-1.  Create a file named `CNAME`. Add a single line with `domain.com`.
-2.  Commit and push.
-3.  Visit your repository on GitHub.
-4.  Go to **Settings > GitHub Pages > Custom domain**. Input your `domain.com`.
+1. Create a file named `CNAME`. Add a single line with `domain.com`.
+2. Commit and push.
+3. Visit your repository on GitHub.
+4. Go to **Settings > GitHub Pages > Custom domain**. Input your `domain.com`.
 
 ### Point your custom domain to GitHub's servers
 
@@ -38,14 +38,14 @@ You should be able to view your site on a url like `username.github.io/repo`. Th
 
 ![](../../assets/blog/uploads/2016/12/now.png)
 
-1.  Visit your domain provider (e.g. Namecheap).
-2.  Find the DNS settings (e.g. **Domains > Advanced DNS**).
-3.  Create two `A` records.
-    1.  For **Host** type `@` (that means root or baseline).
-    2.  For **Value** type the IP addresses you saw on GitHub's guide.
-4.  Create an additional `CNAME` record.
-    1.  For **Host** type `www`.
-    2.  For **Value** type `your-username.github.io.`. Mind the final dot.
+1. Visit your domain provider (e.g. Namecheap).
+2. Find the DNS settings (e.g. **Domains > Advanced DNS**).
+3. Create two `A` records.
+    1. For **Host** type `@` (that means root or baseline).
+    2. For **Value** type the IP addresses you saw on GitHub's guide.
+4. Create an additional `CNAME` record.
+    1. For **Host** type `www`.
+    2. For **Value** type `your-username.github.io.`. Mind the final dot.
 
 ### Leave in the oven for 30 minutes or 24 hours
 

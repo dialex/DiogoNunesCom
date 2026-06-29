@@ -10,7 +10,7 @@ categories: ["Work"]
 _This post is part of the ["Testing for Agile Teams" series](/blog/?s=Testing+for+Agile+Teams)_.
 
 > Incrementally delivering business value, through short iterations (SCRUM) and virtuous loops of feedback (XP). Roles' boundaries are blurred, everyone's focused on quality.
-> 
+>
 > Testers help customers clarify requirements, turn those into tests that guide development, and provide a holistic viewpoint to the team.
 
 ## Key Success Factors

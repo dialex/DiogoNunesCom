@@ -19,9 +19,9 @@ I'm always up for new ways to achive passive income, so I thought it was worth t
 
 I went to their UBDI's homepage, with a captivating design, and learned how the service worked:
 
-1.  Collect all your online data with Digi.Me
-2.  Import your Digi.Me profile to UBDI
-3.  Profit
+1. Collect all your online data with Digi.Me
+2. Import your Digi.Me profile to UBDI
+3. Profit
 
 Sounded simple enought. I also found out there's nothing else to do on their website, as you have to download a mobile app to continue. My excitement went immediately down, this was going to take a while...
 

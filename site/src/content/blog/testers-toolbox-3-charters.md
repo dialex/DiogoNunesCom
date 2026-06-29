@@ -56,15 +56,15 @@ A good charter offers a direction without detailing too much on actions, otherwi
 The next time you need to come up with testing charters you can use templates to speed up the process. These **charter templates** give you a framework and you only need to fill in the gaps. Based on the previous examples, we can design these two templates:
 
 > Explore **target**
-> 
+>
 > With **resource**
-> 
+>
 > To discover **information**
 
 These templates are tools not rules. You can use a different format.
 
 > My mission is to test **target**
-> 
+>
 > To discover **information**
 
 Feel free to create your own templates and don't let them limit your creativity.

@@ -15,11 +15,11 @@ What is a counter offer? It's when you interview with another company, receive a
 I know many people do this. In some situations it might actually be the only way to snatch a raise or promotion. But for me, I can't do it. I find it...
 
 > Unfair for **my company**, because I think it is blackmailing
-> 
+>
 > Unfair to **my colleagues**, because I'll earn more just because I negotiated
-> 
+>
 > Unfair to **me**, because I was earning less than I should all this time
-> 
+>
 > Unfair to **the other company**, because they were used by me
 
 It happened to me once, and the company said _"let us fight for you, give us a chance to convince you to stay"_. The urderlying _love_ they had for me felt great, I won't lie ❤️

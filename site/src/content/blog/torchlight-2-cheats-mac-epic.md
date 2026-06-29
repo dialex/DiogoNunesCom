@@ -11,9 +11,9 @@ Torchlight 2 is a "hack and slash" game with a lot of grinding involved. My grou
 
 To use cheats you will need to:
 
-1.  Enable the development console
-2.  Go into single player mode
-3.  Type cheat codes
+1. Enable the development console
+2. Go into single player mode
+3. Type cheat codes
 
 These instructions will work if you installed the game through **Epic Games** on a **Mac**.
 
@@ -25,13 +25,13 @@ This is the hardest part. You need to find the location of your `settings.txt` f
 
 - There's a path `/Users/Shared/Epic Games/Torchlight2/Torchlight 2` which contains a `settings.txt` file. Ignore it.
 - Instead, go to `~/Library/Application Support/Runic Games/Torchlight 2`
-    - Or run `cd ~/Library/Application\ Support/Runic\ Games/Torchlight\ 2` on a terminal
+  - Or run `cd ~/Library/Application\ Support/Runic\ Games/Torchlight\ 2` on a terminal
 
 Inside this folder you should see a file named `settings.txt`.
 
 - Open the file and change the lines:
-    - `Console:0` to `Console:1`
-    - `Debugmenus:0` to `Debugmenus:1`
+  - `Console:0` to `Console:1`
+  - `Debugmenus:0` to `Debugmenus:1`
 - Save the file and close it
 
 ### Rebind the console shortcut

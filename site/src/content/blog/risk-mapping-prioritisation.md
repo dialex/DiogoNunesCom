@@ -15,10 +15,10 @@ categories: ["Work"]
 
 The exercise goes like this:
 
-1.  Draw a simple risk heat map (just the axis)
-2.  List your flows or features on post-its
-3.  Place your post-its into the risk map
-4.  Let the group discuss the previous placement (and iterate)
+1. Draw a simple risk heat map (just the axis)
+2. List your flows or features on post-its
+3. Place your post-its into the risk map
+4. Let the group discuss the previous placement (and iterate)
 
 When you finish the exercise you have a visual prioritisation of features, in terms of risk or importance. That gives you an idea on what to test.
 
@@ -59,13 +59,13 @@ This is an estimate, go with your intuition. Some areas might overlap.
 
 ### Steps
 
-1.  With the help of product, make a list of 10 features
-2.  Create an online form
-    1.  Introduce the goal and the instructions
-    2.  Explain the scoring using an image
-    3.  One feature per row
-    4.  One column per score (1-4)
-3.  Share the form with your product/engineering team
+1. With the help of product, make a list of 10 features
+2. Create an online form
+    1. Introduce the goal and the instructions
+    2. Explain the scoring using an image
+    3. One feature per row
+    4. One column per score (1-4)
+3. Share the form with your product/engineering team
 
 ### Results
 

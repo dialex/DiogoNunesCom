@@ -17,10 +17,10 @@ categories: ["Technology"]
 
 ## Debugging using Eclipse
 
-1.  First you must start the Play! app in debug mode by executing the command `play debug run`.
-2.  On Eclipse add your breakpoints as you would normally do.
-3.  Then go to `Run > Debug Configurations...` and double-click `Remote Java Application`. This will add a new configuration.
-4.  On `Connect` tab, find `Connection properties` and change `Port` to `9999`.
-5.  On `Common` tab, check `Debug` so that it later appears below the Debug icon. Click `Apply`. Click `Debug`.
+1. First you must start the Play! app in debug mode by executing the command `play debug run`.
+2. On Eclipse add your breakpoints as you would normally do.
+3. Then go to `Run > Debug Configurations...` and double-click `Remote Java Application`. This will add a new configuration.
+4. On `Connect` tab, find `Connection properties` and change `Port` to `9999`.
+5. On `Common` tab, check `Debug` so that it later appears below the Debug icon. Click `Apply`. Click `Debug`.
 
 That's it! [Check this video for a live explanation](http://www.youtube.com/watch?v=1SCTOl0qrlM).

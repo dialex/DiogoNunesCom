@@ -33,7 +33,7 @@ http://www.youtube.com/watch?v=kOsWDEntZ9Q
 
 There are two possible conclusions:
 
-1.  The **lamp post is hacked** and someone in the near buildings has a button to turn it on and off on-demand and knows my work schedule.
-2.  The **lamp post is possessed** by a playful spirit that enjoys communicating in morse code with me... or maybe that's [binary code](http://en.wikipedia.org/wiki/Binary_code)!
+1. The **lamp post is hacked** and someone in the near buildings has a button to turn it on and off on-demand and knows my work schedule.
+2. The **lamp post is possessed** by a playful spirit that enjoys communicating in morse code with me... or maybe that's [binary code](http://en.wikipedia.org/wiki/Binary_code)!
 
 From the two, the "hauted-lamp-post-hypotheses" is the more plausible. I greet him every night and he greets me back. And I'm cool with that.

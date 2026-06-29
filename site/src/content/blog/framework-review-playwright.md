@@ -9,7 +9,7 @@ categories: ["Technology"]
 ---
 
 > Playwright enables end-to-end testing. Test modern single page apps, across all modern browsers, using in your preferred language (JS, TS, Java, C#, Python).
-> 
+>
 > — [Official website](https://playwright.dev/)
 
 ### Code

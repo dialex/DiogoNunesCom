@@ -88,12 +88,12 @@ Using this common language, it's time to gather the team to write these stories 
 
 For every method or class you need to implement, repeat the "Red-Green-Refactor" cycle:
 
-1.  Decide what code behaviour you want to implement;
-2.  Write a set of unit tests that assert that behaviour;
-3.  Run those tests — they should fail;
-4.  Write enough code to make them pass;
-5.  Run those tests — they should pass;
-6.  Refactor the code, and repeat steps 4-5.
+1. Decide what code behaviour you want to implement;
+2. Write a set of unit tests that assert that behaviour;
+3. Run those tests — they should fail;
+4. Write enough code to make them pass;
+5. Run those tests — they should pass;
+6. Refactor the code, and repeat steps 4-5.
 
 These unit tests usually cover happy and sad paths (see [Test types: Unit tests](https://dialex.github.io/start-testing/#/types)).
 
@@ -101,12 +101,12 @@ These unit tests usually cover happy and sad paths (see [Test types: Unit tests]
 
 For every feature or acceptance criteria, repeat this cycle:
 
-1.  Write a list of acceptance criteria to consider a feature done;
-2.  Automate those criteria into acceptance tests;
-3.  Run those tests — they should fail;
-4.  Decide what code changes are necessary to pass those tests;
+1. Write a list of acceptance criteria to consider a feature done;
+2. Automate those criteria into acceptance tests;
+3. Run those tests — they should fail;
+4. Decide what code changes are necessary to pass those tests;
     - (optional) For each code change, use the "Red-Green-Refactor" cycle;
-5.  Run those tests — they should pass.
+5. Run those tests — they should pass.
 
 These acceptance tests usually cover just the happy path (see [Test types: Acceptance tests](https://dialex.github.io/start-testing/#/types)).
 
@@ -114,11 +114,11 @@ These acceptance tests usually cover just the happy path (see [Test types: Accep
 
 For every feature:
 
-1.  Gather different team roles to discuss the feature, aka. "three amigos";
-2.  Capture the feature into a story using scenarios, aka. [specification by example](https://dialex.github.io/start-testing/#/notebook/specification-by-example.md);
-3.  Write code to fulfil the acceptance criteria of that story;
-4.  (optional) Write code to assert those criteria, aka. executable specification;
-5.  (optional) Write code to merge all features into a single file, aka. living documentation.
+1. Gather different team roles to discuss the feature, aka. "three amigos";
+2. Capture the feature into a story using scenarios, aka. [specification by example](https://dialex.github.io/start-testing/#/notebook/specification-by-example.md);
+3. Write code to fulfil the acceptance criteria of that story;
+4. (optional) Write code to assert those criteria, aka. executable specification;
+5. (optional) Write code to merge all features into a single file, aka. living documentation.
 
 #### Three amigos
 
@@ -128,9 +128,9 @@ Your role in these sessions is to generate questions and ensure the conversation
 
 > A tester using BDD will be able to ask questions, collect information and help identify risks to inform other testing activities. Questions are your best tool for collaboration sessions:
 >
-> -   "What, Who, Where, When, Why" - see [**`W5HEK`** mnemonic](https://dialex.github.io/start-testing/#/toolbox/mnemonics)
-> -   "Maybe this is a stupid question but…" - Those questions identify a lot of assumptions
-> -   "So just to confirm…" - Rephrasing with your own words validates your understanding
+> - "What, Who, Where, When, Why" - see [**`W5HEK`** mnemonic](https://dialex.github.io/start-testing/#/toolbox/mnemonics)
+> - "Maybe this is a stupid question but…" - Those questions identify a lot of assumptions
+> - "So just to confirm…" - Rephrasing with your own words validates your understanding
 >
 > — [Mark Winteringham](https://www.mwtestconsultancy.co.uk/bdd-testing-part-2/)
 
@@ -163,12 +163,12 @@ When [action/event]
 Then [result]
 ```
 
-> -   The title should describe an activity
-> -   The narrative should include a Role, a Feature and a Benefit
-> -   The scenario title should say what's different
-> -   The scenario should be described in terms of Context, Actions and Results
-> -   The given should define all of, and no more than, the required context
-> -   The action should describe the feature
+> - The title should describe an activity
+> - The narrative should include a Role, a Feature and a Benefit
+> - The scenario title should say what's different
+> - The scenario should be described in terms of Context, Actions and Results
+> - The given should define all of, and no more than, the required context
+> - The action should describe the feature
 >
 > — [Dan North](https://dannorth.net/whats-in-a-story/)
 
@@ -190,9 +190,9 @@ The end goal is to have an automated process that reads your scenarios, transfor
 
 He highlights several requirements of a successful BDD, here are a few:
 
-> -   Abstract: the scenarios should be high-level enough to hide details and implementations;
-> -   Language: terminology should be consistent to ensure a shared understanding;
-> -   Flows: only a few (1-3) end-to-end flows, not a combination of every decision point.
+> - Abstract: the scenarios should be high-level enough to hide details and implementations;
+> - Language: terminology should be consistent to ensure a shared understanding;
+> - Flows: only a few (1-3) end-to-end flows, not a combination of every decision point.
 
 ## Teachers
 

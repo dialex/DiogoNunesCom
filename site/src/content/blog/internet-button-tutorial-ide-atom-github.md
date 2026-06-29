@@ -17,14 +17,14 @@ The official documentation recommends that you fork their [InternetButton](https
 
 Here's what I recommend you do:
 
-1.  Download their repo as a zip. [Unzip it](https://youtu.be/D8K90hX4PrE?t=20s).
-2.  Keep the folder structure.
-3.  That `spark.json` is mandatory. Customize it according to your project.
+1. Download their repo as a zip. [Unzip it](https://youtu.be/D8K90hX4PrE?t=20s).
+2. Keep the folder structure.
+3. That `spark.json` is mandatory. Customize it according to your project.
     - Keep in mind that your project's name must be unique
     - Version should follow the format X.Y.Z (and can't go backward!)
-4.  Leave untouched the `InternetButton` C++ files, you'll need those.
-5.  Delete the `Examples` folder.
-6.  Commit. Push. Your repo should be public for now. After you connect it to your Particle's account you can make it private.
+4. Leave untouched the `InternetButton` C++ files, you'll need those.
+5. Delete the `Examples` folder.
+6. Commit. Push. Your repo should be public for now. After you connect it to your Particle's account you can make it private.
 
 ### Web IDE
 
@@ -32,10 +32,10 @@ Take a deep breath -- you're about to enter the depths of hell. This is where I 
 
 ![particle web ide](../../assets/blog/uploads/2016/07/particle-web-ide.png)
 
-1.  Go to [build.particle.io](https://build.particle.io) and create an account. Login.
-2.  Click the **Devices** icon, in the lower left corner. Make sure your device is listed there.
-3.  Click the **Libraries** icon. Scroll to Community Libraries and search for the name of your repo (that's why it needed to be public). Then click **Include in app**.
-4.  From what I recall, that should connect your GitHub with your Particle. There was a lot of trial and error, click and cross fingers involved.
+1. Go to [build.particle.io](https://build.particle.io) and create an account. Login.
+2. Click the **Devices** icon, in the lower left corner. Make sure your device is listed there.
+3. Click the **Libraries** icon. Scroll to Community Libraries and search for the name of your repo (that's why it needed to be public). Then click **Include in app**.
+4. From what I recall, that should connect your GitHub with your Particle. There was a lot of trial and error, click and cross fingers involved.
 
 DISCLAIMER: **Forget their web IDE.** Period. It's too complicated, nothing makes sense, the UI is not intuitive, the files and libraries management is a nightmare. Kill it with fire. Carry on.
 

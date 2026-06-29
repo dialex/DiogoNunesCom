@@ -29,15 +29,15 @@ Thankfully, you can put technology to work for you -- that's why it was created.
 
 > We're about to create an automatic newsletter that reads your RSS feed and monthly sends an email to your subscribers listing the posts you published during that month.
 
-1.  Create a [**MailChimp account**](http://eepurl.com/bf5nQT).
-2.  Log in. On the top navigation bar, click **Lists** and then click the **Create List** button. In time, this list will contain the subscribers of your email newsletter. Fill in the required fields.
-3.  On the top navigation bar, click **Campaigns**, then click the dropdown icon of the **Create Campaign** button and finally select **RSS-Driven Campaign**.
-4.  Type your **RSS feed's URL**. If you don't know it, type your blog's URL and they find it. Select your **newsletter frequency**.![rss2email-step1](../../assets/blog/uploads/2015/05/rss2email-step1.png)
-5.  You'll be asked to choose the list that will receive the newsletter. Pick the list you created on step 2 and select **Send to entire list**.
-6.  Fill in your **Campaign Details** as desired. Here is mine if you need inspiration.![rss2email-step2](../../assets/blog/uploads/2015/05/rss2email-step2.png)
-7.  Select the visual structure (**Template**) of your newsletter. Pick visual components from the **Contents** sidebar and drag-and-drop each one of them to your newsletter template. I added an Image (newsletter banner), an RSS Items (the actual content of the email), and a Divider.
-8.  Edit your **Contents** components to fit your taste and needs. I simplified the default header and footer. I also aligned the hyperlinks' color to fit my color scheme. The trickiest part is playing with the RSS merge tags, those `*|RSSITEM:TITLE|*` codes, here's the [list](http://kb.mailchimp.com/merge-tags/rss-blog/rss-item-tags). Try, preview, tweak and repeat until your happy with the result. ![rss2email-step3](../../assets/blog/uploads/2015/05/rss2email-step3.png)
-9.  Press **Next**. Done!
+1. Create a [**MailChimp account**](http://eepurl.com/bf5nQT).
+2. Log in. On the top navigation bar, click **Lists** and then click the **Create List** button. In time, this list will contain the subscribers of your email newsletter. Fill in the required fields.
+3. On the top navigation bar, click **Campaigns**, then click the dropdown icon of the **Create Campaign** button and finally select **RSS-Driven Campaign**.
+4. Type your **RSS feed's URL**. If you don't know it, type your blog's URL and they find it. Select your **newsletter frequency**.![rss2email-step1](../../assets/blog/uploads/2015/05/rss2email-step1.png)
+5. You'll be asked to choose the list that will receive the newsletter. Pick the list you created on step 2 and select **Send to entire list**.
+6. Fill in your **Campaign Details** as desired. Here is mine if you need inspiration.![rss2email-step2](../../assets/blog/uploads/2015/05/rss2email-step2.png)
+7. Select the visual structure (**Template**) of your newsletter. Pick visual components from the **Contents** sidebar and drag-and-drop each one of them to your newsletter template. I added an Image (newsletter banner), an RSS Items (the actual content of the email), and a Divider.
+8. Edit your **Contents** components to fit your taste and needs. I simplified the default header and footer. I also aligned the hyperlinks' color to fit my color scheme. The trickiest part is playing with the RSS merge tags, those `*|RSSITEM:TITLE|*` codes, here's the [list](http://kb.mailchimp.com/merge-tags/rss-blog/rss-item-tags). Try, preview, tweak and repeat until your happy with the result. ![rss2email-step3](../../assets/blog/uploads/2015/05/rss2email-step3.png)
+9. Press **Next**. Done!
 
 You now have an automatic creation and delivery of newsletters. You're a genius!
 
@@ -53,12 +53,12 @@ They have a ~wide~ range of shapes, icons and photos that you can use for free. 
 
 You have the newsletter ready to be sent... but to whom? Probably you already about some close friends that might want to receive the newsletter. For those, you can save them the effort of signing up and include them right away on the list you created over at **Step 2**. Afterwards, what you really need is to setup some kind of form for your visitors to enter their email addresses.
 
-1.  Install [MailChimp's official plugin for Wordpress](https://wordpress.org/plugins/mailchimp-for-wp/). Afterwards, a new option named **MailChimp for WP** will appear on your Wordpress' sidebad. Click it.
-2.  Fill in your **Mailchimp API Key** by pressing the "Get your API key here" link. Your **Lists** will be automatically imported.![mailchimp-plugin](../../assets/blog/uploads/2015/05/mailchimp-plugin-1024x312.png)
-3.  Now, to create the signup form, on your Wordpress' sidebar click on **MailChimp for WP » Forms**.
-4.  Configure the form as desired. For **CSS Style** I chose "Dark theme" (try one, preview, try another). Your form should subscribe to the list you created in the beginning of this tutorial. Don't forget to review the **Form Settings & Messages** section for custom messages. When you're finished press the **Save Changes** button.
-5.  Your form is configured, now you need to add it to your blog. On your Wordpress' sidebar click **Appearance » Widgets**. Drag the **MailChimp Sign-Up Form** widget to one of your blog's widget areas. Give it a title, press **Save**.
-6.  Press **Save** and check your website's widget area.
+1. Install [MailChimp's official plugin for Wordpress](https://wordpress.org/plugins/mailchimp-for-wp/). Afterwards, a new option named **MailChimp for WP** will appear on your Wordpress' sidebad. Click it.
+2. Fill in your **Mailchimp API Key** by pressing the "Get your API key here" link. Your **Lists** will be automatically imported.![mailchimp-plugin](../../assets/blog/uploads/2015/05/mailchimp-plugin-1024x312.png)
+3. Now, to create the signup form, on your Wordpress' sidebar click on **MailChimp for WP » Forms**.
+4. Configure the form as desired. For **CSS Style** I chose "Dark theme" (try one, preview, try another). Your form should subscribe to the list you created in the beginning of this tutorial. Don't forget to review the **Form Settings & Messages** section for custom messages. When you're finished press the **Save Changes** button.
+5. Your form is configured, now you need to add it to your blog. On your Wordpress' sidebar click **Appearance » Widgets**. Drag the **MailChimp Sign-Up Form** widget to one of your blog's widget areas. Give it a title, press **Save**.
+6. Press **Save** and check your website's widget area.
 
 Now sit back, write interesting content and let the internet chimps do the dirty work.
 

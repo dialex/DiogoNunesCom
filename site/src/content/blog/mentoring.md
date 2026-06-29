@@ -23,7 +23,7 @@ I never did the work for them, but I was always one message away from helping th
 In my opinion, the only way for mentees to grow is for them to try, struggle, and finally ask for help. If I offer advice without the struggle part, they will not understand the value or relevance of that advice.
 
 > Let's use a gym analogy. As a mentor, I must not lift their weight. What I can do is teach them the right pose, so that their effort maximizes their gains, without injuries. I can also gently lift the weight the first couple of repetitions, so that later I can just stand back and they will be strong enough to continue by themselves.
-> 
+>
 > I also shouldn't go on a monologue and tell them about every tip and pitfall. That's too much theory without context. By the time they need that information, they already forgot it. When they struggle, that's the perfect time to give just enough information and in context.
 
 When I finished my Master's I left college and started working. But I still wanted to keep helping those students. So I created a website [estudarinformatica.info](https://estudarinformatica.info/) (roughly translates to "studycomputers.info") with my tips and experiences.
@@ -49,13 +49,13 @@ At first I was stressed. "I'm not mentoring a student anymore, I'm at work, I ne
 Soon I stumbled upon S.M.A.R.T goals:
 
 > S – specific, significant, stretching
-> 
+>
 > M – measurable, meaningful, motivational
-> 
+>
 > A – agreed upon, achievable, action-oriented
-> 
+>
 > R – realistic, relevant, rewarding, results-oriented
-> 
+>
 > T – timely, tangible, trackable
 
 I even found a [checklist for "first meeting with your mentee"](https://blog.mentorloop.com/first-meeting-with-your-mentee-a-checklist-e4ce2e9ee888)!
@@ -75,17 +75,16 @@ In our case, our match was natural and voluntary. I relaxed and went with the ap
 ### What I learned as a mentor
 
 - Mentoring another colleague from work is a chance to see a glimpse of how different people work. Not only it builds relationships and bridges between teams, but it also inspires the pair to try each other's techniques.
-    
+
 - If you are a manager, you can advocate for the idea of colleagues mentoring each other, but you should not make it mandatory or assign pairs.
-    
+
 - The pair agrees how the mentoring sessions should work. You don't need structure or formality for it to work. Let it flow and evolve naturally.
-    
+
 - **Sometimes people don't need a teacher. They just need someone to be vulnerable with.** They just need a space where they can try-fail-recover without judgement.
-    
+
 - Like with any other volunteer work, don't expect anything back, the reward is doing it.
-    
+
 - That [BTS](https://www.youtube.com/watch?v=WMweEpGlu_U) are actually good!
-    
 
 ### Evolution
 

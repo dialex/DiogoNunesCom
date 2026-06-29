@@ -15,8 +15,6 @@ Yesterday, [I heard one of the songs](http://youtu.be/z-jh2ZcS3H8) that compose 
 
 I decided to play the free demo, available at the official website - yes, you can play it for free right on a browser! The demo is like the full game _but_ with limited playing time (100 minutes). After playing it for almost an hour I had an epiphany: **Minecraft's demo is a metaphor of life itself.** Only now, due to the thoughts and feelings that my breakdown brought, I could notice it.
 
-
-
 ![The clock is ticking](../../assets/blog/uploads/2014/07/minecraft-timer-400x224.png)
 
 _The clock is ticking_

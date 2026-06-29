@@ -13,9 +13,9 @@ I tried to follow the official [OSSRH guide](http://central.sonatype.org/pages/o
 
 ### First things first
 
-1.  [Create a JIRA account](https://issues.sonatype.org/secure/Signup!default.jspa) on Sonatype's environment.
-2.  [Create a ticket](https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134) for the creation of your repo.
-3.  [Wait](http://central.sonatype.org/articles/2014/Feb/27/why-the-wait) 2 business days.
+1. [Create a JIRA account](https://issues.sonatype.org/secure/Signup!default.jspa) on Sonatype's environment.
+2. [Create a ticket](https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134) for the creation of your repo.
+3. [Wait](http://central.sonatype.org/articles/2014/Feb/27/why-the-wait) 2 business days.
 
 ### While you wait...
 

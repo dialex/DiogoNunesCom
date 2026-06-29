@@ -18,7 +18,7 @@ How many overheads do you have in your life? Get groceries, make meals, wash the
 Overheads are universal to any human. The 2nd law of thermodynamics can be boiled down to this:
 
 > The complexity of matter deteriorates gradually over time. If left untouched, everything evolves naturally into disorder. A rock erodes to grains and finally to dust. Entropy is a measure of that disorder.
-> 
+>
 > **Simple English:** Everything goes to given enough time.
 
 These overheads delay the natural increase in entropy. If you skip them, one way or another, your quality of life degrades, then your mental and physical health, and eventually you die — sooner than you would otherwise. You are part of the Universe, hence you can’t escape Physics!
@@ -40,7 +40,7 @@ You know you're doing something wrong if you have to pedal for most of the trip.
 How much time do you spend working? And upkeeping your life? And resting? How much time is left after that? **That's the actual time that you live.**
 
 > Optimistic math: work 8h, commute 3h, eat 2h, upkeep 1h, rest 8h
-> 
+>
 > \= 2h per workday of "free" living
 
 Time really is precious, isn't it?
@@ -50,9 +50,9 @@ Time really is precious, isn't it?
 Approximately, a year has 52 weeks. Let’s say in your country there are 13 bank holidays. Let’s assume you’re lucky and all of them are effective and happen during a workday. And let’s say you also have 22 days of vacation given by your employer.
 
 > (52 \* 5) = 260 max workdays in a year
-> 
+>
 > 260d - 13d holidays - 22d vacations = 225 min workdays a year
-> 
+>
 > Best case scenario, you spend ~62% of each year working.
 
 Thus, **you live to work.** If you trade all your time for money, you won't have time to spend all that money.
@@ -66,11 +66,11 @@ Let’s now assume you don’t work on Mondays, because who likes Mondays anyway
 Remember the bicycle analogy?
 
 - Change your bicycle
-    - _ie. find an income source that pays you more for the same effort_
+  - _ie. find an income source that pays you more for the same effort_
 - Change your strength
-    - _ie. invest in training that makes you more proficient_
+  - _ie. invest in training that makes you more proficient_
 - Change your terrain
-    - _ie. lower the cost of living and align your lifestyle with your goals_
+  - _ie. lower the cost of living and align your lifestyle with your goals_
 
 Find what needs to change to free more ~time~ life to you. **Every day that ends is time that you won't get back.** When are you going to enjoy it? When you're old, fragile and sick?
 

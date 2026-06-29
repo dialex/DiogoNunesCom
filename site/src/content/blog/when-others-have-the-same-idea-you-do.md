@@ -44,7 +44,7 @@ The image above dates to the end of 2009 and was part of a rumor about an Apple 
 ### 2021: Personal stock market
 
 > Some companies are in the stock market. You can buy stocks, whose value goes up and down according to the market's perception of their value. It's a burocratic process and only some companies are entitled to have stocks. Nowadays some businesses are based on individuals, ie. youtubers, influencers.
-> 
+>
 > What if there was a platform that gave each person their own stock. If you like Youtuber X, you would buy some of their personal stock. How much is each unit worth? The market will tell. Great, you own stock, now what? Maybe that Youtuber shares some of the profit with their shareholders, just like normal stock. Maybe he will let whoever has 51% of their stock decide what clothes he wears. If you are a clothing brand, that will interest you.
 
 In 2019 someone wrote [an article](https://medium.com/@aaronyen/lore-3-turning-social-media-influencers-into-stocks-f8bd45ac5c68) with some very similar ideas. Then two weeks ago [BitClout](https://www.producthunt.com/posts/bitclout#comment-1303716) was created, which is basically everything I imagined, using their crypto.

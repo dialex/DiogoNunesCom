@@ -19,13 +19,12 @@ First make sure your project follows the standard SVN folder structure, i.e. the
 
 Before creating a branch, perform an update on your `trunk` folder and commit all pending changes. If your using Tortoise SVN a green checkmark overlay should appear on your folder. You're ready to branch your `trunk`!
 
-1.  Select your `trunk` folder.
-2.  Click and hold the right mouse button and drag it over to `branches`. If done correctly, a cascade menu will appear. Select **SVN Copy and rename versioned item here**. ![svn-branch-2](../../assets/blog/uploads/2015/05/svn-branch-2.png)
-    
-3.  Then you'll be asked to name the new folder (actually you're naming the branch). Use any convention you like -- maybe `feature-Ticket12345` or something more human-readable as `fix-CrashAfterEmptyInput`. I like to use prefixes, such as `feat` for features, `fix` for bug corrections, and `ui` for user interface tweaks.
-    
-4.  At this time, you have a full copy of your `trunk` folder at `branches/your-branch-name`. To add it to your SVN just right-click it and commit. Don't forget to ignore build-generated files.
-    
+1. Select your `trunk` folder.
+2. Click and hold the right mouse button and drag it over to `branches`. If done correctly, a cascade menu will appear. Select **SVN Copy and rename versioned item here**. ![svn-branch-2](../../assets/blog/uploads/2015/05/svn-branch-2.png)
+
+3. Then you'll be asked to name the new folder (actually you're naming the branch). Use any convention you like -- maybe `feature-Ticket12345` or something more human-readable as `fix-CrashAfterEmptyInput`. I like to use prefixes, such as `feat` for features, `fix` for bug corrections, and `ui` for user interface tweaks.
+
+4. At this time, you have a full copy of your `trunk` folder at `branches/your-branch-name`. To add it to your SVN just right-click it and commit. Don't forget to ignore build-generated files.
 
 ![](../../assets/blog/uploads/2015/05/svn-branch-3.png)
 
@@ -45,13 +44,13 @@ Now this is where it starts getting interesting... and tricky. Remember the isol
 
 **Updating your branch with the most recent version of `trunk` is called "merge" on SVN**, while [git](https://git-scm.com/) calls this process [rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing). For newcomers this may cause confusion since "merge" is also what you do when you definitively integrate your branch into trunk. Right now you're not actually merging anything definitively -- you're just "updating", like you did when you were at `trunk`.
 
-1.  Ensure your branch does not have uncommitted changes.
-2.  Right-click over the branch folder you want to update (not the parent `branches` folder). Select **TortoiseSVN > Merge...**.
-3.  A wizard window will appear.
-    1.  Select **Merge a range of revisions**. Next.
-    2.  On **URL to merge from** type the URL to the `trunk` folder. Then select **All revisions**, since you want to update your branch with all revisions of `trunk` since your last update. Next.
-    3.  At merge options you'll probably want to leave all the defaults. You can press **Test merge** to do just that -- TortoiseSVN will give you a preview of the actions that will be applied during the merge (add, remove, update, conflict), without changing any local or remote files.
-    4.  If you're comfortable, do it, press **Merge**.
+1. Ensure your branch does not have uncommitted changes.
+2. Right-click over the branch folder you want to update (not the parent `branches` folder). Select **TortoiseSVN > Merge...**.
+3. A wizard window will appear.
+    1. Select **Merge a range of revisions**. Next.
+    2. On **URL to merge from** type the URL to the `trunk` folder. Then select **All revisions**, since you want to update your branch with all revisions of `trunk` since your last update. Next.
+    3. At merge options you'll probably want to leave all the defaults. You can press **Test merge** to do just that -- TortoiseSVN will give you a preview of the actions that will be applied during the merge (add, remove, update, conflict), without changing any local or remote files.
+    4. If you're comfortable, do it, press **Merge**.
 
 ![](../../assets/blog/uploads/2015/05/svn-branch-6.png)
 
@@ -67,13 +66,13 @@ Your branch continues equally awesome after the merge? Great, then it's time to 
 
 The time has come. You developed and tested an awesome feature at your branch in (almost) complete isolation. Now it's time to merge those equally awesome lines of code into the `trunk`. The process is basically the same as updating a branch, except this time you're **updating your `trunk` with the commits of your branch**.
 
-1.  Ensure your `trunk` does not have uncommitted changes. And that you finished working on your branch. And that you just finished updating your branch with the latest version of trunk. And that the stars are all aligned.
-2.  Right-click over the `trunk` folder. Select **TortoiseSVN > Merge...**.
-3.  A wizard window will appear.
-    1.  Select **Merge a range of revisions**. Next.
-    2.  On **URL to merge from** type the URL to a specific branch folder. Then select **All revisions**. Next.
-    3.  At merge options leave the defaults.
-    4.  Press **Merge**.
+1. Ensure your `trunk` does not have uncommitted changes. And that you finished working on your branch. And that you just finished updating your branch with the latest version of trunk. And that the stars are all aligned.
+2. Right-click over the `trunk` folder. Select **TortoiseSVN > Merge...**.
+3. A wizard window will appear.
+    1. Select **Merge a range of revisions**. Next.
+    2. On **URL to merge from** type the URL to a specific branch folder. Then select **All revisions**. Next.
+    3. At merge options leave the defaults.
+    4. Press **Merge**.
 
 Like when updating your branch, your local `trunk` is now a merge between what it had and your branch's developments. Since this is the `trunk`, run all necessary tests before commiting. After commiting your new `trunk` you may safely delete your branch. If you find a bug, just create a new branch and repeat the process.
 

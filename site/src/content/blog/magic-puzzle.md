@@ -59,11 +59,11 @@ But puzzles? There's only one solution, and I don't influence the end result. Th
 
 I loved it. Now, granted, it's the first and only puzzle I've done, so I might be a bit biased, but I genuinely believe there's no puzzle out there as good as the puzzles from this [Magic Puzzle Company](https://amzn.to/3SkxBqm):
 
-1.  **Premium quality**: The quality of components, pieces, box, everything is top quality.
-2.  **Attention to detail**: It's the little things, the surprises, the free sticker, the shapes of the pieces, the mindful framing of artwork in those pieces, the reference image (actually they give you two, so that you and a friend can assemble the puzzle together).
-3.  **Beautiful artwork**: I went with ["The Mystic Maze" by Boya Sun](https://amzn.to/40fpvB3)... I mean, just look at it! The art style, those vibrant colors - it's a treat for the eyes.
-4.  **Endless surprises**: When you think you're done, there's more, and then some.
-5.  **Relaxation**: This puzzle gave me that same serene state of mind that meditation promises. It held my focus and gave my brain a much-needed breather.
+1. **Premium quality**: The quality of components, pieces, box, everything is top quality.
+2. **Attention to detail**: It's the little things, the surprises, the free sticker, the shapes of the pieces, the mindful framing of artwork in those pieces, the reference image (actually they give you two, so that you and a friend can assemble the puzzle together).
+3. **Beautiful artwork**: I went with ["The Mystic Maze" by Boya Sun](https://amzn.to/40fpvB3)... I mean, just look at it! The art style, those vibrant colors - it's a treat for the eyes.
+4. **Endless surprises**: When you think you're done, there's more, and then some.
+5. **Relaxation**: This puzzle gave me that same serene state of mind that meditation promises. It held my focus and gave my brain a much-needed breather.
 
 As for downsides? Well, truth be told, I'm struggling to find any. The price feels more than fair for the experience and quality you're getting. If I had to nitpick, the company boasts about no puzzle dust. I'm not sure what the standard is, but I did find a bit of dust. Nothing major, just meant I had to give the table a little blow every now and then to clear it away.
 

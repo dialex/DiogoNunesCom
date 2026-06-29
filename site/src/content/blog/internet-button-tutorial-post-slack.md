@@ -13,10 +13,10 @@ Particle released a C++ library that handles much of the interaction with the In
 
 First you need to include that library:
 
-1.  Go to Particle [GitHub](https://github.com/spark/InternetButton/tree/master/firmware).
-2.  Download `InternetButton.cpp` and `InternetButton.h` files.
-3.  Move them to a folder on your project's repo (I used a `libs` folder).
-4.  Add at the top of your `.ino` file this line `#include "InternetButton.h"`.
+1. Go to Particle [GitHub](https://github.com/spark/InternetButton/tree/master/firmware).
+2. Download `InternetButton.cpp` and `InternetButton.h` files.
+3. Move them to a folder on your project's repo (I used a `libs` folder).
+4. Add at the top of your `.ino` file this line `#include "InternetButton.h"`.
 
 **Say you want to configure one of your buttons to publish a message on a Slack channel on every press**. For that you will have to play with webhooks or webapps. [Robin Laurén](https://github.com/llauren) released a [precious tutorial](https://github.com/llauren/slackbutton#how-to-do-it) on how to do it.
 
@@ -125,11 +125,11 @@ Whoever wants to receive your event needs to create a Slack webhook or endpoint 
 
 ![](../../assets/blog/uploads/2016/08/subscriber1.png)
 
-1.  Go to your Slack's **Incoming WebHooks**.
-2.  Click **Add Configuration**.
-3.  Select the channel that should received the notifications and click **Add**.
-4.  Send us the **Webhook URL**.
-5.  Feel free to customize the **Name** and **Icon** of this integration.
+1. Go to your Slack's **Incoming WebHooks**.
+2. Click **Add Configuration**.
+3. Select the channel that should received the notifications and click **Add**.
+4. Send us the **Webhook URL**.
+5. Feel free to customize the **Name** and **Icon** of this integration.
 
 ![](../../assets/blog/uploads/2016/08/subscriber3.png)
 
