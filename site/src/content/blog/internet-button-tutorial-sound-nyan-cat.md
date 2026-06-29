@@ -7,7 +7,7 @@ tags: ["coding", "hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---
 
-### Now you can listen to Nyan Cat on demand.
+## Now you can listen to Nyan Cat on demand.
 
 Particle released a C++ library that handles much of the interaction with the Internet Button hardware components. That lib is publicly available on [GitHub](https://github.com/spark/InternetButton) and includes a bunch of [useful examples](https://github.com/spark/InternetButton/tree/master/firmware/examples).
 

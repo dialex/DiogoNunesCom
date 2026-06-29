@@ -21,7 +21,7 @@ During that time I've bought several t-shirts, which I proudly wear at home, at 
 
 [Each design is often available on multiple products](/blog/Redbubble) -- e.g. if you like a sticker you can also buy the [face mask](/blog/RB-Masks) version. They even have designs about [Swords and Sworcery](/blog/RB-SwordSworcery) and that's pretty underground! [T-shirts](/blog/RB-TShirts) are legit American Apparel quality, _'nuff said_. For that you pay between 18€ to 21€. If you buy +6 [stickers](/blog/RB-Stickers) you get an immediate 50% discount on them. They ship everywhere with fair prices, and during checkout it's easy to find 10% discount coupons. What else do you need?
 
-### Conclusion
+## Conclusion
 
 The next time you want to buy geek t-shirts or stickers, try [Redbubble](/blog/Redbubble):
 

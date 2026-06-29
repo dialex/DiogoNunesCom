@@ -10,7 +10,7 @@ categories: ["Technology"]
 
 **UPDATE**: This article is very out of date. Cerberus, the winner, is no longer available.
 
-### [Android Device Manager](https://play.google.com/store/apps/details?id=com.google.android.apps.adm), the basic
+## [Android Device Manager](https://play.google.com/store/apps/details?id=com.google.android.apps.adm), the basic
 
 **Price:** Free (probably already installed in your device)
 
@@ -25,7 +25,7 @@ This is like Windows Firewall -- better than nothing. Has some pretty basic feat
 
 ![](../../assets/blog/uploads/2023/02/SCR-20230212-eih-1024x454.png)
 
-### [Prey](https://play.google.com/store/apps/details?id=com.prey), the best for free
+## [Prey](https://play.google.com/store/apps/details?id=com.prey), the best for free
 
 **Price:** Free, with Premium services available
 
@@ -55,7 +55,7 @@ I started using Prey to protect my laptop since Prey was created. Several years 
 
 _Prey dashboard_
 
-### [Cerberus](https://play.google.com/store/apps/details?id=com.lsdroid.cerberus), the best value for price
+## [Cerberus](https://play.google.com/store/apps/details?id=com.lsdroid.cerberus), the best value for price
 
 **Price:** Free trial (7 days), 4.99€ lifetime license
 
@@ -82,7 +82,7 @@ _Prey dashboard_
 
 _Cerberus dashboard_
 
-### And the winner is...
+## And the winner is...
 
 **Cerberus.** In my opinion, sending commands via SMS is a must, otherwise you always need the thief's collaboration to turn on the internet connection and let the app receive commands. It's just 4,99€ and you get the app for life! Keep in mind that the majority of paid anti-thief apps charge a monthly fee of that value! If you can't afford to buy Cerberus -- you should, afterall you bought a smartphone -- then go for Prey. Just don't bet your smartphone on the default Android Device Manager.
 

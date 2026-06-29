@@ -7,13 +7,13 @@ tags: ["rails", "tutorial", "web dev"]
 categories: ["Technology"]
 ---
 
-### Replace Bootstrap's checkboxes and radio buttons by an elegant switch... a Bootstrap Switch.
+## Replace Bootstrap's checkboxes and radio buttons by an elegant switch... a Bootstrap Switch.
 
 I'm a great fan of [Twitter's Bootstrap](http://getbootstrap.com/). Recently I had to develop a settings page which involved displaying a lot of Yes/No checkboxes. It looked outdated. **I wanted something a bit more "app-like" - a Yes/No switch**. However **Bootstrap does not include one**, so I found an [open-source bootstrap-themed switch](http://www.bootstrap-switch.org/). The contributors are amazing: I use Bootstrap Switch since version 2 and when Bootstrap 3 came out I requested a visual update so that the switch looked coherent with Bootstrap 3 - a couple of weeks later my request was fulfilled!
 
 How can you use this Bootstrap Switch with Ruby on Rails? Well [it was not that simple](http://stackoverflow.com/questions/22883904/using-bootstrap-switch-with-rails-check-box) so **here goes how I managed to make it work**. By the way, using Bootstrap Switch 3 does not force you to use version 3 of Twitter Bootstrap; I tested it with Bootstrap 2 and it worked perfectly.
 
-### Set up
+## Set up
 
 - Add `gem 'bootstrap-switch-rails', '~> 3.0.0'` to your `Gemfile`
 - Add `//= require bootstrap-switch` to `/assets/javascripts/application.js`
@@ -21,7 +21,7 @@ How can you use this Bootstrap Switch with Ruby on Rails? Well [it was not that 
 
 If you use SASS, add `@import "bootstrap3-switch";` to the top of your css file that contains your custom css styles (mine is `app/assets/stylesheets/custom.css.scss`)
 
-### Use it
+## Use it
 
 Every view (`*.html.erb`) that has a Bootstrap Switch needs a bit of Javascript for the switch to work. Since you want the switch to display correctly as soon as the webpage is loaded, I recommend that you put the JS code on the page's header (instead of the footer, as I usually do with JS code that runs on background). The Rails code for that:
 

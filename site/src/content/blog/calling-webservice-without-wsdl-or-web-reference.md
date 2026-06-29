@@ -17,7 +17,7 @@ Once I had to test in C# a dozen of web services developed by a third-party. How
 
 After all those attempts... **what is the right way, on Visual Studio, to call an external web service, without WSDL, ASMX or adding a web reference?**
 
-### Solution - SOAP Messages
+## Solution - SOAP Messages
 
 Turns out SOAP was really the way to go. The **execution flow** I used was: create a Web/SOAP request, set request method to POST (for some reason the 3rd party developed the webservices that way), convert the XML containing the WebService input into a byte array (payload), write the XML payload into the web request, use the web request to get a response from the WebService, return an XML with the WebService response (or an error XML).
 

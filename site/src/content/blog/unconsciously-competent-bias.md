@@ -14,7 +14,7 @@ What if you are negatively biased and downplay your work? That might well be the
 
 To open up your mind, I suggest you read these two articles.
 
-### ["Obvious to you. Amazing to others."](https://sive.rs/obvious)
+## ["Obvious to you. Amazing to others."](https://sive.rs/obvious)
 
 > You think, “I never would have thought of that. How do they even come up with that? It’s genius!” Afterwards, you think, “My ideas are so obvious. I’ll never be as inventive as that.”
 >
@@ -26,7 +26,7 @@ To open up your mind, I suggest you read these two articles.
 >
 > _[(read the rest at Derek Sivers' blog)](https://sive.rs/obvious)_
 
-### ["Are You Suffering From the Curse of Knowledge?"](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/)
+## ["Are You Suffering From the Curse of Knowledge?"](https://www.tombartel.me/blog/are-you-suffering-from-curse-of-knowledge/)
 
 > You are faced with some complex topic to learn. At first, it’s difficult. You have certain questions. You fall into certain traps. You are confused by certain things.
 >

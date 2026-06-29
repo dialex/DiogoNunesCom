@@ -15,7 +15,7 @@ I use Selenium to write most of my automated checks, and the [PageObjects patter
 - Is it easy to write and maintain those abstractions?
 - Is it easy to write tests?
 
-### A) PageObjects
+## A) PageObjects
 
 A page looks like this...
 
@@ -92,7 +92,7 @@ describe("Autocomplete", function() {
 
 * * *
 
-### B) AppActions
+## B) AppActions
 
 An app action looks like this...
 
@@ -164,7 +164,7 @@ describe("Autocomplete", function() {
 })
 ```
 
-### Conclusions
+## Conclusions
 
 > Can it abstract page selectors?
 
@@ -201,7 +201,7 @@ describe("Autocomplete", function() {
   - ❌ There might be a tendency to reinvent the wheel, because actions are blackboxes of functionality. Some devs might breakdown that functionality differently, which might lead to slightly diff duplicates of a single AppAction.
   - ⚠️ This syntax is more oriented for E2E, if you use it to write UI tests you will have a hard time – since you only care about user actions and not the underlying pages.
 
-#### Notes
+### Notes
 
 - IDE Autocomplete issue
   - [This dependency](https://github.com/cypress-io/add-cypress-custom-command-in-typescript) did make IDE autocomplete work for custom commands

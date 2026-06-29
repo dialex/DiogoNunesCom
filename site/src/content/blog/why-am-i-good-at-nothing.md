@@ -8,25 +8,25 @@ tags: ["self-esteem"]
 categories: ["Thoughts"]
 ---
 
-### You are good, you just don't know it
+## You are good, you just don't know it
 
 That question is just a negative judgement in disguise. A better question would be "what am I good at?". We might not be the best person to answer it.
 
 I don't believe there's anyone (inherently) good at nothing. I say it's a **choice** and a matter of **perspective**.
 
-### Who's judging? Others
+## Who's judging? Others
 
 So others think you are good at nothing... there's a number of reasons why they can be wrong.
 
 Maybe they are experts and their standards are over the top. Maybe they are unreasonable and they expect of you too much, too soon. Or maybe they are simply wrong (e.g. [J. K. Rowling was rejected 12 times](https://www.insider.com/revealed-jk-rowlings-original-pitch-for-harry-potter-2017-10#:~:text=The%20novel%20was%20rejected%20by,houses%20before%20Bloomsbury%20accepted%20it.&text=It%20goes%20on%3A%20%22A%20copy,J.K.%20Rowling%20her%20first%20contract.%22) before we was able to publish Harry Potter).
 
-### Who's judging? You
+## Who's judging? You
 
 So you think you are good at nothing...
 
 Maybe you are comparing yourself to masters. Maybe you are being too demanding of yourself. Or maybe you are biased (see [imposter syndrome bias](https://en.wikipedia.org/wiki/Impostor_syndrome)).
 
-### Change of perspective
+## Change of perspective
 
 Here's my advice, to decrease frustration and boost your self-esteem:
 

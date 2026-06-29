@@ -7,7 +7,7 @@ tags: ["review"]
 categories: ["Life"]
 ---
 
-### It's called RedBubble and offers high quality & variety at fair prices.
+## It's called RedBubble and offers high quality & variety at fair prices.
 
 For me, interests define persons -- books, movies, games, series, things that make you belong to a tribe of fans. Like with soccer team, you like to show off that you support a specific team. Some show their support by giving it a cheap "like", others by bravely wearing a t-shirt or sticker.
 
@@ -19,7 +19,7 @@ I made two purchases. One was from _TeeGlobe_ (EU): clever design, fair shipping
 
 While the deals may tempt you at first, the **reduced designs**, the **random quality**, and **random price + shipping**, scared me away. Never again.
 
-### Then I saw the light
+## Then I saw the light
 
 And it was red... [RedBubble](/blog/RedBubble). They have a perfect business model. Artists anywhere provide the designs and get a good % on every sale. Even you can upload your designs or photos and get a chance to make some money! Since they crowdsourced the "images", they just have to focus on printing those "images" on high quality "stuff" and send it to your address. And their "stuff" ranges from clothing and stickers to bags and home decor.
 
@@ -37,7 +37,7 @@ Wow, that was quick! But what do I do with the other t-shirt?
 
 Now this is a customer support truly concerned with customer satisfaction!
 
-### Conclusion
+## Conclusion
 
 Buy at [Redbubble](/blog/RedBubble), not because I tell you to, but for these reasons:
 

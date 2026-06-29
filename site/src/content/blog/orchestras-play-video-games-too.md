@@ -9,13 +9,13 @@ categories: ["Technology"]
 
 ![Those fancy lights mean this is a concert of game soundtracks. Take that Mozart!](../../assets/blog/uploads/2016/10/2240669-vollbild-1024x683.jpeg)
 
-### Movie soundtracks are epic, but...
+## Movie soundtracks are epic, but...
 
 In my opinion Hans Zimmer is the best in this field. Think of a movie with an outstanding and award winning soundtrack — and he's probably the composer. My favorites: [Interstellar](https://youtu.be/ca_Cv7seV4Y) ([x2](https://youtu.be/FyJ0_Ds7F0s)), [Pirates of the Caribbean](https://youtu.be/yRh-dzrI4Z4), [Gladiator](https://youtu.be/vHAvjaHtlMA), [Inception](https://youtu.be/imamcajBEJs), even [Lion King](https://youtu.be/GibiNy4d4gc)!
 
 But there's more...
 
-### Game soundtracks are no longer _beeps & boops_
+## Game soundtracks are no longer _beeps & boops_
 
 ![](../../assets/blog/uploads/2016/10/474578-virtuanes_2008_07_31_20_20_55_50-400x300.jpg)
 
@@ -37,7 +37,7 @@ Want an **example**? Just [listen to the original](https://youtu.be/4zgrR7-iZbI)
 
 These melodies fill us with [determination](https://youtu.be/poU6FMG9D4s).
 
-### Orchestras play video games too
+## Orchestras play video games too
 
 ![](../../assets/blog/uploads/2016/10/video_games_live_artist_page_facebook.jpg)
 
@@ -57,7 +57,7 @@ And I travel around Europe [following them](/achievements)! Countries like Swede
 
 Some fans do their own reochestrations, like [Blake Robinson](https://www.youtube.com/user/dummeh/playlists) or [Braxton Burks](https://loudr.fm/artist/braxton-burks/8aU5s) and his outstanding [Kanto Symphony](https://loudr.fm/release/pokemon-reorchestrated-kanto-symphony/ytsMr).
 
-### Choose your own ~adventure~ melody
+## Choose your own ~adventure~ melody
 
 ![](../../assets/blog/uploads/2016/10/maxresdefault.jpg)
 

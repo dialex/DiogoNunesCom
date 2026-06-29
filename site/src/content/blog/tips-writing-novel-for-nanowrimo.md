@@ -7,7 +7,7 @@ tags: ["experience", "novel"]
 categories: ["Writing"]
 ---
 
-### Trust me, I'm a ~loser~ participant.
+## Trust me, I'm a ~loser~ participant.
 
 Well yeah, I can't say I'm a NaNoWriMo winner because I didn't reach the 50k words goal. Here's why I would never achieve that work mark:
 
@@ -17,7 +17,7 @@ Well yeah, I can't say I'm a NaNoWriMo winner because I didn't reach the 50k wor
 
 > The real prize is satisfaction & self-fulfillment. Make sure you win those!
 
-### Increase your chances of winning
+## Increase your chances of winning
 
 As I [said](/blog/finding-courage-to-start-a-fantasy-novel/) before, "_Finishing the novel is just an outcome; the writing process is the real fun!_" 50.000 words in 30 days is just that little pressure to force you to write when anything else motivates you to.
 
@@ -33,7 +33,7 @@ And if you still have some spare time to prepare a bit more:
 
 - **Read a good book about writing good books.** And _the best_ book for that is ["Self-Editing for Fiction Writers, How to edit yourself to print"](http://www.amazon.co.uk/gp/product/0060545690/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0060545690&linkCode=as2&tag=dionun-21&linkId=QSEAQEK4DCU3XEFV). That book is precious! I know that editing is for later but it'll useful both before your write the novel and afterwards. It presents clear and reasonable tips, always explained through several examples and exercises.
 
-### The numbers about the words
+## The numbers about the words
 
 NaNoWriMo's website provides this great graph about your progress, along with other useful statistics. On average I would spend 3-4 hours a day writing which would produce 750-900 words. On weekends, in exchange for a pleasant outdoor sunny day, I could bump up those numbers to 1500-2000 -- that's the average word count I should write daily to achieve the 50k words!
 
@@ -49,6 +49,6 @@ Since I'm a geek I stored my novel on a _distributed version control system_ cal
 
 _My average writing days and hours_
 
-### Conlusion
+## Conlusion
 
 I may have lost the official NaNoWriMo but I'm still doing it -- but on my own conditions. Expect a brand new and epic novel in late December. Or January. Or February. Soon enough. Eventually.

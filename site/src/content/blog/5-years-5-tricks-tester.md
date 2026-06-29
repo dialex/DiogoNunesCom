@@ -8,13 +8,13 @@ tags: ["experience", "personal", "testing"]
 categories: ["Work"]
 ---
 
-### And how you can use them in your team
+## And how you can use them in your team
 
 > ⭐️ This post was featured on [Coding Jag #47](https://www.lambdatest.com/newsletter/editions/issue47), [Software Testing Notes #19](https://www.linkedin.com/feed/update/urn:li:activity:6827991945487364096/), [Trending in Testing #5](https://www.linkedin.com/posts/trendingintesting_softwaretesting-automation-testing-activity-6828678293743656960-A03W/), [Testing Bits #403](http://blog.testingcurator.com/2021/08/01/testing-bits-403-july-25th-july-31st-2021/) and [TestSigma #28](https://testsigma.com/newsletter/editions/edition-28).
 
 I've worked for seven companies since I became a tester five years ago. Each team is different, the "best practice" is the one that "best fits" the team. Still, I identified a few practices that consistently make my teams happier, and happiness is a metric for success.
 
-### Personal maps
+## Personal maps
 
 **Problem**: As a tester, it's particularly important that you have a healthy and strong relationship with your colleagues. Otherwise, you can easily be labelled as "the bearer of bad news" or "the annoying tester".
 
@@ -22,7 +22,7 @@ I've worked for seven companies since I became a tester five years ago. Each tea
 
 ![Personal map example](../../assets/blog/uploads/2021/07/Diogo-Nunes-Personal-Map-1024x363.png)
 
-### Video demos
+## Video demos
 
 **Problem**: You often do the same product demo to different people on different occasions. You repeat yourself every time a new joiner needs to be onboarded. You describe your product using text and screenshots – it takes a long time to write and even more to understand it.
 
@@ -30,7 +30,7 @@ I've worked for seven companies since I became a tester five years ago. Each tea
 
 > P.S: Keep all videos in a folder easy to find. Consider keeping another folder for screenshots, particularly for system states hard to replicate.
 
-### Lessons learned
+## Lessons learned
 
 **Problem**: Each team has its own challenges but some of them also occur on other teams. When teams don't communicate they end up reinventing the wheel.
 
@@ -38,7 +38,7 @@ I've worked for seven companies since I became a tester five years ago. Each tea
 
 > P.S: I use the hashtag `#StoryTime`, a reference to [Thomas Sanders' vines](https://www.google.com/search?q=story+time+thomas+sanders).
 
-### Memes
+## Memes
 
 **Problem**: The workplace is serious by default. We spend more than half our time there, so might as well make it more pleasant.
 
@@ -48,7 +48,7 @@ I've worked for seven companies since I became a tester five years ago. Each tea
 
 ![All hail the meme king... or else! (Kudos to Hugo Ferreira for this meme)](../../assets/blog/uploads/2021/07/diogo-meme-king-1024x576.png)
 
-### Board games
+## Board games
 
 **Problem**: On remote teams, the natural tendency is for people to disengage and grow apart. Even co-located teams need team building.
 

@@ -8,7 +8,7 @@ tags: ["rails", "tutorial", "web dev"]
 categories: ["Technology"]
 ---
 
-### Because no one will remember `gentle-tundra-5348.herokuapp.com`
+## Because no one will remember `gentle-tundra-5348.herokuapp.com`
 
 If you deployed your Rails application to heroku for free, you probably ended up with an URL like `http://weird-name-1234.herokuapp.com/`. You can [rename that URL to something more familiar](https://devcenter.heroku.com/articles/renaming-apps), but it will always be of the form `*.heroku.com`. That's fine when your just testing or demonstrating your Rails app.
 

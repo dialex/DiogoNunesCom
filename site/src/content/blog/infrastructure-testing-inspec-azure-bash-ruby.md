@@ -7,17 +7,17 @@ tags: ["azure", "CI Pipelines", "devops", "review", "ruby", "testing"]
 categories: ["Technology"]
 ---
 
-### Infra testing is mostly uncharted territory
+## Infra testing is mostly uncharted territory
 
 I once worked in a project that was all about DevOps, pipelines and bash scripts. At the time we didn't find many guides, so we developed our own test strategy.
 
-### Context
+## Context
 
 The project's goal was to create a collection of bash scripts that would spin up and environment, configure it, and deploy some applications into that same environment. At the end of the project we introduced Kubernetes to streamline most of this behaviour.
 
-### Test strategy
+## Test strategy
 
-#### Unit level: Check scripts
+### Unit level: Check scripts
 
 We unit tested the **contract** of our bash functions. For example, if the number of arguments changed, either because we changed the function or because we forgot to pass them during the invocation, we would get a test failure or a runtime error, respectively.
 
@@ -27,7 +27,7 @@ We treated external dependencies as black boxes, so we coded/tested under the as
 
 At the time we used **[Chef's InSpec](https://github.com/inspec/inspec) test framework** and wrote all these tests in Ruby.
 
-#### Acceptance level: Check infrastructure
+### Acceptance level: Check infrastructure
 
 The purpose of our pipeline was to use our bash functions to provision an environment (kubernetes, pods, resources).
 
@@ -35,7 +35,7 @@ So at the end of our pipeline we had an extra step to ran our provisioning or ac
 
 We also used InSpec and Ruby for coherence.
 
-### Final thoughts
+## Final thoughts
 
 The implementation of this test strategy was a collaboration between developers and testers. The team was very satisfied with the final result, specially with the acceptance tests. These tests acted like a health check, we could on demand target a specific resource group, run the acceptance tests, and get a health/correctness test report. This improved our confidence and saved us debug time.
 

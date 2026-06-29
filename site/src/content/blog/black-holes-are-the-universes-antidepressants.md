@@ -8,7 +8,7 @@ tags: ["idea"]
 categories: ["Thoughts"]
 ---
 
-### It turns out that black holes also die; they just take a LONG time. Like a billion times the age of the universe, multiplied by billions times. But while they are dying they do a curious thing.
+## It turns out that black holes also die; they just take a LONG time. Like a billion times the age of the universe, multiplied by billions times. But while they are dying they do a curious thing.
 
 As you know a black hole devours everything on its way - mass, energy and even other black holes. I always had this question: "Do black holes die and disappear, or, given enough time, all that will remain in the universe will be vacuum and black holes?"
 

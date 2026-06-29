@@ -7,7 +7,7 @@ tags: ["relationships", "utilities"]
 categories: ["Work"]
 ---
 
-### It's not who you are, but how you fit in a team.
+## It's not who you are, but how you fit in a team.
 
 While applying to a job position I once had to complete a personality test. I had done similar tests when I was younger. I even ventured to the world of Numerology. But this test was no bullsh!t.
 
@@ -29,7 +29,7 @@ Belbin defines nine roles and no role is better than the other -- they're just d
 - **Investigator**: less egocentric than the Planter - researches ideas from others/outside.
 - **Specialist**: "special-ones" - skillfull and commited, focused on low-level implementation.
 
-### Take the test
+## Take the test
 
 ![personality test meme](../../assets/blog/uploads/2015/04/personality-test-meme.jpg)
 

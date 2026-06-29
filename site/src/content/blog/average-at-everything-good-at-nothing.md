@@ -23,7 +23,7 @@ We know that the demand for software engineers and programmers is high and growi
 
 There's nothing wrong with you, it's just a matter of ...
 
-### Point of view
+## Point of view
 
 I find myself commenting my work with others and saying things like _"Well it's not perfect and it wasn't that hard"_ usually followed by a _"Probably you could have done it in half the time"_. A friend that I deeply respect and admire once told me, reasonably fed up with all this modesty bullsh\*t:
 
@@ -35,7 +35,7 @@ I find myself commenting my work with others and saying things like _"Well it's 
 
 Suddently I realized I wasn't so redudant as I though. A [weak self-esteem](/blog/i-regret-hesitating/) always mined my behaviour. But now, step-by-step, win-after-win, I'm becoming confident and independent.
 
-### Conclusion
+## Conclusion
 
 Maybe you're really good at something; or maybe you're average at everything. You just need to [find the right environment for your skills and personality](/blog/personality-test-to-build-better-teams).
 

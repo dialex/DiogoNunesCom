@@ -7,7 +7,7 @@ tags: ["dark corner", "experience", "games", "idea", "personal"]
 categories: ["Technology", "Thoughts"]
 ---
 
-### A month ago, I had a strong [emotional breakdown](http://youtu.be/G_Z3lmidmrY). Yesterday, I was missing playing Minecraft.
+## A month ago, I had a strong [emotional breakdown](http://youtu.be/G_Z3lmidmrY). Yesterday, I was missing playing Minecraft.
 
 The last time I played it (almost 6 months from that) I made a promise not to play it ever again, mainly because without self-control it becomes a time sink. The game has no specific objective and is based on adventure, so you always have something to do or try.
 
@@ -49,7 +49,7 @@ Later on, the game remembered me: **"This is your last day!"** What an intriguin
 
 **And the time ran out.** It wasn't a game over -- I could not win and I certainly did not lose, it just ended and I couldn't insert more coins. That world, my avatar, my modest house, my stuff, were all gone. And now I was in another world, another person, another house, other stuff. Will there be another world after this? I don't know but I hope so. What time I have left in this world? I don't know, but I hope [it's adventure time!](http://youtu.be/2cmAuKS1ZRE)
 
-### Conclusion
+## Conclusion
 
 Minecraft is _just_ a game, and I played just a _demo_ of it. It's amazing how [a modest (indie) game](http://youtu.be/t0eqSgkDuW0 "The creation and evolution of Minecraft") can model so closely life itself. The game really is just blocks interacting with each other. Yet again, life is just atoms and energy interactions. That's the beauty of this metaphor.
 

@@ -7,7 +7,7 @@ tags: ["coding", "hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---
 
-### Assign a different action to each button.
+## Assign a different action to each button.
 
 Particle released a C++ library that handles much of the interaction with the Internet Button hardware components. That lib is publicly available on [GitHub](https://github.com/spark/InternetButton) and includes a bunch of [useful examples](https://github.com/spark/InternetButton/tree/master/firmware/examples). To check if a button was pressed becomes as easy as `buttonOn(led_number)`.
 

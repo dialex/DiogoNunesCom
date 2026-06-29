@@ -7,7 +7,7 @@ tags: ["idea", "religion"]
 categories: ["Thoughts"]
 ---
 
-### Santa was created for kids...
+## Santa was created for kids...
 
 In case you haven't heard, the ~lie~ [tale](https://en.wikipedia.org/wiki/Santa_Claus) goes like this:
 
@@ -21,7 +21,7 @@ Replace "Santa Claus" with "God", "parents" with "priest". Read it again.
 
 Have you heard that ~lie~ [tale](https://en.wikipedia.org/wiki/Bible) before?
 
-### ...as God was created for adults
+## ...as God was created for adults
 
 I got this revelation (pun intended) during a water cooler chat at work. My colleagues were talking about their kids' "relationship" with Santa Claus. A wise one said:
 

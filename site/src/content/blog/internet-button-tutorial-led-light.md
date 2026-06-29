@@ -7,7 +7,7 @@ tags: ["coding", "hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---
 
-### Turning leds on and displaying light patterns.
+## Turning leds on and displaying light patterns.
 
 You can use Particle's mobile app to light the small built-in led on Photon (the chip). There's a [guide here](https://docs.particle.io/guide/getting-started/start/photon/#step-3-blink-an-led-). It actually worked and the led turned blue. But we have an Internet Button with 11 large and bright LEDs. Those are the ones we want to light up!
 

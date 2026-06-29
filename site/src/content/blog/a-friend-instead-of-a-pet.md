@@ -9,7 +9,7 @@ categories: ["Life"]
 
 
 
-### It all started when I found a cat in my closet
+## It all started when I found a cat in my closet
 
 It's true. One morning I left the window open to cool the bedroom. When I returned there was a cat sitting inside one of the closet's shelfs. `#wtfmoment` The cat had no leash so it was a wild cat, however it wasn't that scared and looked rather gentle. I politely invited the cat to leave the closet through the window. And so it did. The end. So I thought...
 

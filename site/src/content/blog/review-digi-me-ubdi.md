@@ -7,7 +7,7 @@ tags: ["passive income", "review"]
 categories: ["Technology"]
 ---
 
-### Good idea. Terrible execution.
+## Good idea. Terrible execution.
 
 [UBDI](https://www.ubdi.com/) stands for **U**niversal **B**asic **D**ata **I**ncome, a word play on [UBI](https://en.wikipedia.org/wiki/Basic_income). I heard about it in a TED talk from Jennifer Scott on ["Why you should get paid for your data"](https://www.youtube.com/watch?v=AUJZXi8xsQA). The concept was interesting:
 
@@ -15,7 +15,7 @@ categories: ["Technology"]
 
 I'm always up for new ways to achive passive income, so I thought it was worth the try.
 
-### How it works
+## How it works
 
 I went to their UBDI's homepage, with a captivating design, and learned how the service worked:
 
@@ -25,7 +25,7 @@ I went to their UBDI's homepage, with a captivating design, and learned how the 
 
 Sounded simple enought. I also found out there's nothing else to do on their website, as you have to download a mobile app to continue. My excitement went immediately down, this was going to take a while...
 
-### Collecting data with Digi.me
+## Collecting data with Digi.me
 
 I installed the app on Android and connected Twitter. It went smoothly and my tweets appeared in my Digi.Me profile. It also showed some statistics, like most used emojis and so on.
 
@@ -35,7 +35,7 @@ I continued with the rest of my accounts (Facebook, Youtube, Pinterest, Flickr).
 
 Things were not looking great, because my "comprehensive digital profile" was just a collection of tweets...
 
-### Selling data with UDBI
+## Selling data with UDBI
 
 I crossed my fingers and imported my Digi.Me profile to UBDI.
 
@@ -45,7 +45,7 @@ Then I answered around 50 questions (demographics, interests, etc.)
 
 Then it was time to look for studies and start selling data! And the app didn't find any studies. Why? Because my digital profile was only made of tweets? Because my country is not targetted by any studies? Because the app is broken? Who knows... `#fail`
 
-### You get... NOTHING!
+## You get... NOTHING!
 
 ![](../../assets/blog/uploads/2020/03/Screenshot_20200302-110958-400x344.png)
 

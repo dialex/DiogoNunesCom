@@ -9,7 +9,7 @@ categories: ["Photography"]
 
 ![This was actually my last photo on Flickr :)](../../assets/blog/uploads/2019/03/39886951753_554c9a5024_o.jpg)
 
-### Flickr broke my heart. It hurt but I've moved on.
+## Flickr broke my heart. It hurt but I've moved on.
 
 The free tier of Flickr was reduced from 1TB of photos to [just 1000 photos](https://blog.flickr.net/en/2018/12/17/important-service-updates-and-dates-to-remember/). Flickr was my online portfolio solution for +5 years, but that move was a deal breaker for me. `#shame`
 
@@ -25,7 +25,7 @@ Based on that criteria, this was my review of the 7 mainstream platforms:
 
 ![](../../assets/blog/uploads/2019/03/Screenshot-2019-03-23-at-18.33.06.png)
 
-### And the winner is...
+## And the winner is...
 
 > Store all photos on Google Photos
 >

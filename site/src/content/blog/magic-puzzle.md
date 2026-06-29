@@ -11,7 +11,7 @@ categories: ["Thoughts"]
 
 In my childhood, I often saw puzzles in stores - the classics, featuring images of animals or cityscapes, composed of 500 or 1000 pieces. One time I was even offered one, but I never found the interest to unwrap it – it looked so boring. Little did I know that my opinion of puzzles would completely flip in my adulthood. Let me introduce you to a true gem.
 
-### Finding the puzzle
+## Finding the puzzle
 
 Fast forward a couple of decades, and I'm scrolling through Kickstarter in search of fresh boardgames. That's when I stumble upon ["The Magic Puzzle Company"](https://www.kickstarter.com/projects/magicpuzzlecompany/magic-puzzles), the artwork of their puzzles immediately grabs my attention. I dive into their campaign and I realise – these are the best puzzles I've ever seen. The attention to detail and craftsmanship is top-notch. I was new to Kickstarter at the time, I so ended up not backing the project
 
@@ -23,7 +23,7 @@ I message Amazon and, after more weeks of back and forth, a fresh one arrives. A
 
 ![](../../assets/blog/uploads/2023/10/ezgif.com-optimize.gif)
 
-### Doing the puzzle
+## Doing the puzzle
 
 Everything feels premium. The exterior box, the sturdy cardboard envelope that cradles the pieces, sealed neatly with a strip of velcro - a design that promises endless replays without a hint of wear. The attention to detail is everywhere, and that's something I deeply value.
 
@@ -37,7 +37,7 @@ Speaking of the pieces, I'm baffled by their unique shapes. As a puzzle newbie, 
 
 I experimented with various strategies - seeking out patterns, focusing on colors, or a particular shape. The inclusion of a photo of the finished puzzle is a brilliant touch, serving as a handy reference during assembly. With every step of progress, as I scrutinize each piece, I find myself enjoying the artwork's intricate beauty. And once the puzzle is complete, the artwork unfolds in its entirety, like a panoramic view from the mountain peak after two weeks of trekking, revealing every little detail of the path I've traversed.
 
-### "The Magic Puzzle"
+## "The Magic Puzzle"
 
 ![](../../assets/blog/uploads/2023/10/20230105_124257-1.jpg)
 
@@ -45,7 +45,7 @@ I won't spoil it. I'll just say two words: freaking amazing. Magical indeed.
 
 This is yet another instance of the "nod to the player" that I mentioned before.
 
-### The gift that keeps on giving
+## The gift that keeps on giving
 
 And when you think you're done, the puzzle pulls another _"but wait, there's more!"_ moment.
 
@@ -55,7 +55,7 @@ Let me sidetrack a bit with something personal. Switching off my brain is no sma
 
 But puzzles? There's only one solution, and I don't influence the end result. That means I can focus on a single thing, finding the right piece. I was truly immersed, reaching that state of flow – time, worries, and even hunger fade away. It's like a long deep breath for the mind.
 
-### Verdict
+## Verdict
 
 I loved it. Now, granted, it's the first and only puzzle I've done, so I might be a bit biased, but I genuinely believe there's no puzzle out there as good as the puzzles from this [Magic Puzzle Company](https://amzn.to/3SkxBqm):
 

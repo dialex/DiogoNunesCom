@@ -7,7 +7,7 @@ tags: ["experience", "minimalism"]
 categories: ["Work"]
 ---
 
-### Repurpose your normal desk with as low as 30€.
+## Repurpose your normal desk with as low as 30€.
 
 I spend 8 hours a day working seated. I have about 3 hours of meals and 3 hours of commute a day. That means I may easily spend 14 hours sitting (plus 8 sleeping).
 
@@ -15,11 +15,11 @@ I spend 8 hours a day working seated. I have about 3 hours of meals and 3 hours 
 
 The strategy is to cut sitting time whenever possible. A small but frequent change like this has a big impact long-term.
 
-### The goal
+## The goal
 
 At work I have a proper standing desk, but at home I have one of those old table + bookcase furniture, which makes impossible any standing set up. When working I use my laptop most of times... if only I could find a way to raise it...
 
-### Prototype
+## Prototype
 
 ![](../../assets/blog/uploads/2018/10/IMG_20180112_101944100_2-576x1024.jpg)
 
@@ -27,7 +27,7 @@ My DIY prototype costed me 6€, with just two files. It's more stable than it l
 
 **Caveat:** However, the constant pressure weight of my arms started deforming the files. So I found the perfect replacement: [Levit8](https://amzn.to/2FJUFrX).
 
-### Solution
+## Solution
 
 ![](../../assets/blog/uploads/2018/10/levit8-mount.gif)
 
@@ -35,13 +35,13 @@ It's fast to set up and easy to fold and put it away. I ordered from Amazon, as 
 
 **Caveat:** While that worked great, my heels started complaining. At work, the floor is soft carpet so this (first world) problem never occurred before. The solution was a standing mat: [Topo](https://amzn.to/2Ob6hWT).
 
-### Better solution
+## Better solution
 
 ![](../../assets/blog/uploads/2018/10/non-flat-ergodriven-topo-header.jpg)
 
 There are cheaper and totally fat alternatives to this mat. I decided that Ergodriven deserved my 100€ because their design naturally makes your legs and feet change position once in a while. That's great on your joints because it releases the tension that builds up after you stand still for a long time.
 
-### Best solution
+## Best solution
 
 That's it. With 130€ I was able to convert an average 40€ desk into a standing desk. It's still lower than the cheapest standing desk from IKEA.
 

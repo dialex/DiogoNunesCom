@@ -7,7 +7,7 @@ tags: ["story"]
 categories: ["Life"]
 ---
 
-### Everyone's every day is filled with curious events.
+## Everyone's every day is filled with curious events.
 
 Winter days finish earlier. Everyday, a pitch black night waited for me to finish my work. Everyday, I walked the same route and passed by the same lamp post. Everyday, I grew a bit more curious and attentive.
 
@@ -17,7 +17,7 @@ As soon as I walked alongside that lamp post it turned on. Thanks, I guess -- th
 
 My scientific me accepted this mysterious erratic behavior as a challenge. There ought to be a pattern to this random malfunction! Night after night I started unveiling a behavior... and it had nothing of random.
 
-### Experiments
+## Experiments
 
 When the lamp post was already on then, it would turn off. Either way when I walked away it always returned to how it was before my presence. **Therefore it reacts to the presence of a person.**
 
@@ -29,7 +29,7 @@ This peculiar behavior made me want to **record** it, and so I did. As if the la
 
 <http://www.youtube.com/watch?v=kOsWDEntZ9Q>
 
-### Conclusion
+## Conclusion
 
 There are two possible conclusions:
 

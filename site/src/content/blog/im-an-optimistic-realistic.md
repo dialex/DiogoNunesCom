@@ -8,7 +8,7 @@ tags: ["personal"]
 categories: ["Thoughts"]
 ---
 
-### At a job interview I was asked to explain if I was an optimistic or a pessimistic person. The title of this post was my answer, let me explain you why.
+## At a job interview I was asked to explain if I was an optimistic or a pessimistic person. The title of this post was my answer, let me explain you why.
 
 A [pessimistic](https://www.google.com/search?q=pessimistic) person _tends to see the worst aspect of things or believe that the worst will happen_. A pessimistic is consumed by disgust and overwelmed by his or her grim scenarios. Even worse, negativity is contagious and destroys the team's motivation.
 

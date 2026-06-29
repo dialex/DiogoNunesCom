@@ -8,7 +8,7 @@ tags: ["personal", "relationships"]
 categories: ["Life"]
 ---
 
-### I regret nothing I did. I regret everything I didn't do.
+## I regret nothing I did. I regret everything I didn't do.
 
 A [Gemini](http://www.ganeshaspeaks.com/gemini/gemini-traits.action) person is kinda like [Ying & Yang](http://en.wikipedia.org/wiki/Yin_and_yang) - you always have complementary opinions about something due to your inner conflicting personalities. On the bright side, it makes you a sympathetic person since it's easier for you to understand others' perspectives. However, if you're not confident enough, it might turn you into an indecisive person.
 

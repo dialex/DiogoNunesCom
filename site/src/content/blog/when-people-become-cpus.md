@@ -9,7 +9,7 @@ categories: ["Work"]
 
 
 
-### Joining a consultancy company in Portugal? [Your mileage may vary.](http://en.wiktionary.org/wiki/your_mileage_may_vary#Phrase)
+## Joining a consultancy company in Portugal? [Your mileage may vary.](http://en.wiktionary.org/wiki/your_mileage_may_vary#Phrase)
 
 For most of my tech-friends the first job was at a consultancy company. When they managed to squeeze some time to be with us they shared their "pains". Although they worked on different consultancy companies, there was something that junior consultants all agreed upon: _[we work way too many hours](http://www.quora.com/What-do-people-who-work-70-100-hour-weeks-do-in-their-free-time)_. Let me use a metaphor that illustrates the whole problem.
 

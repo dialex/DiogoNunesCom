@@ -7,7 +7,7 @@ tags: ["personal"]
 categories: ["Thoughts"]
 ---
 
-### From a ~young~ childish adult perspective.
+## From a ~young~ childish adult perspective.
 
 > All of my friends are settling down They're only kids but they're married now
 >

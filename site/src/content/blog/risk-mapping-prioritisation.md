@@ -24,11 +24,11 @@ When you finish the exercise you have a visual prioritisation of features, in te
 
 I found his exercise very hands-on and insightful – exactly what I needed.
 
-### Goal
+## Goal
 
 The goal was to let the team prioritize which areas should be covered by automation next. We included _product_ because they knew how important each feature was. And we included _developers_ because they knew which code areas lacked confidence.
 
-### Concerns
+## Concerns
 
 As you can see from Sam's hand-drawn graph, you can place your post-its freely. That's why the group discussion is so important: it allows the frequency and impact of each feature to be peer-reviewed, reducing the placement subjectiveness.
 
@@ -38,7 +38,7 @@ As you can see from Sam's hand-drawn graph, you can place your post-its freely. 
 
 When placing your post-it you could mentally divide the chart into three slices or four quadrants. I preferred the quadrants view. My intuition said the "zone" would be more important than the exact placement.
 
-### Constraints
+## Constraints
 
 Our product and engineering team was over 40 people, located in different offices and timezones. So we had to adapt Sam's co-located exercise to be remote friendly.
 
@@ -57,7 +57,7 @@ This is an estimate, go with your intuition. Some areas might overlap.
 4 - ‍♂️            |  LOW usage   LOW impact   |  "add to backlog"
 ```
 
-### Steps
+## Steps
 
 1. With the help of product, make a list of 10 features
 2. Create an online form
@@ -67,13 +67,13 @@ This is an estimate, go with your intuition. Some areas might overlap.
     4. One column per score (1-4)
 3. Share the form with your product/engineering team
 
-### Results
+## Results
 
 ![](../../assets/blog/uploads/2020/04/Results-400x365.png)
 
 Given our constraints, we were able to extract substancial value from this exercise without the effort of a co-located workshop. The exercise fulfilled its purpose and we got our prioritisation.
 
-### ✅ Conclusions
+## ✅ Conclusions
 
 ![](../../assets/blog/uploads/2020/04/Picture-3.png)
 

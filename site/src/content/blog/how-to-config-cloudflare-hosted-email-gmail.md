@@ -7,7 +7,7 @@ tags: ["tutorial", "web dev"]
 categories: ["Technology"]
 ---
 
-### How to keep using your hosted email on Gmail, after migrating to Cloudflare
+## How to keep using your hosted email on Gmail, after migrating to Cloudflare
 
 My initial setup for this website was: - **Domain** from Namecheap _(no one beats their price/quality)_ - **WebHost** from a Portuguese company
 
@@ -15,7 +15,7 @@ My webhost offers domain email addresses, so I had a few `*@diogonunes.com` addr
 
 Since I use Gmail daily for my personal email, I configured it to send and receive from `*@diogonunes.com` addresses just like any other `*@gmail.com`. You can easily find guides online on how to configure it. It's totally worth it, I'm very productive this way.
 
-### Adding Cloudflare to the mix
+## Adding Cloudflare to the mix
 
 Then a friend recommended me Cloudflare: a free service that sits in front of your webhost and protects your website from malicious attacks (like DoS). For free!
 

@@ -7,7 +7,7 @@ tags: ["experience", "personal"]
 categories: ["Life"]
 ---
 
-### Parents, I'll take a vacation... from you
+## Parents, I'll take a vacation... from you
 
 I'm an introvert. Life is great inside my personal bubble. But I know the magic happens outside the comfort zone. So once in a while I challenge myself. This time I decided to leave my parents' house and live on my own for at least one month.
 
@@ -34,7 +34,7 @@ Oh, and some houses include pets. Apparently those owners prefer to outsource th
 
 ![Bubble about to explode by a needle](../../assets/blog/uploads/2016/09/bubble.jpg)
 
-### But it started as a nightmare.
+## But it started as a nightmare.
 
 I couldn't sleep on my first night, too much anxiety. During my childhood my room became my safehold and an extension of my personality. Having that removed and replaced by a little room, in a random place, with random people around... was like placing my personal bubble over a bed of nails. And I reckon this is a "first world problem", that makes me look like a spoiled kid. Still, it hurts.
 
@@ -48,7 +48,7 @@ This will probably **happen to you**:
 - You eat less, but you savour each mouthful. After all, it's your work.
 - Even an expert in tech freezes when he/she uses a washing machine for the first time.
 
-### tl;dr
+## tl;dr
 
 - Challenge yourself out of the comfort zone.
 - "Bite your tongue", embrace it and endure it.

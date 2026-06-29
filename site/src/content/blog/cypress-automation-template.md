@@ -8,7 +8,7 @@ tags: ["cypress", "free and open", "testing", "utilities"]
 categories: ["Technology"]
 ---
 
-### No need to start with the seed – plant the sapling!
+## No need to start with the seed – plant the sapling!
 
 _Get it? Because "Cypress" is a tree..._
 

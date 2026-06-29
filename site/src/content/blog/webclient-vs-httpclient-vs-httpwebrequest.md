@@ -16,7 +16,7 @@ That's a whole new paradigm. Instead of `GetObject()` and `SetObject()` methods 
 
 The .NET framework offers you three different classes to consume REST APIs: `HttpWebRequest`, `WebClient`, `HttpClient`. To worsen your [analysis paralysis](http://en.wikipedia.org/wiki/Analysis_paralysis) the open-source community created yet another library called `RestSharp`. Fear not, I'll ease your choice.
 
-### In the beginning there was... HttpWebRequest
+## In the beginning there was... HttpWebRequest
 
 ![](../../assets/blog/uploads/2015/04/d41339a1ca4823cf39fa29453d41d073186851f2a09f0b07513024e1af43ebc8-400x296.jpg)
 
@@ -35,7 +35,7 @@ string content = sr.ReadToEnd();
 
 The number of ways you can make a mistake with `HttpWebRequest` is truly astounding. Only use `HttpWebRequest` if you require the additional low-level control that it offers.
 
-### WebClient. Simple.
+## WebClient. Simple.
 
 ![](../../assets/blog/uploads/2015/04/for_dummies_plain-1024x528.png)
 
@@ -50,7 +50,7 @@ _Note: the using statements from both examples were omitted for brevity. You sho
 
 Don't worry, you can still specify timeouts, just make sure you [follow this workaround](http://stackoverflow.com/questions/601861/set-timeout-for-webclient-downloadfile/3052637#3052637).
 
-### HttpClient, the best of both worlds
+## HttpClient, the best of both worlds
 
 ![](../../assets/blog/uploads/2015/04/httpclient.jpg)
 
@@ -58,7 +58,7 @@ Don't worry, you can still specify timeouts, just make sure you [follow this wor
 
 The only downfall is that it requires .NET Framework 4.5, which many older or legacy machines might not have.
 
-### Wait, a new contestant has appeared!
+## Wait, a new contestant has appeared!
 
 ![](../../assets/blog/uploads/2015/04/RestSharp_logo.png)
 
@@ -66,7 +66,7 @@ Since `HttpClient` is only available for the .NET 4.5 platform the community dev
 
 It combines the control of `HttpWebRequest` with the simplicity of `WebClient`.
 
-### Conclusion
+## Conclusion
 
 - `HttpWebRequest` for control
 - `WebClient` for simplicity and brevity

@@ -18,7 +18,7 @@ _This post is part of the ["From Dreaming to Publishing" series](/blog/?s=From+D
 - Don't tell everything right away (characters, landscapes, cultures, ...); instead dive head first and let the reader discover and feel
 - **It's good if the readers don't have all the answers, that's what keeps them reading**
 
-### Checklist
+## Checklist
 
 - How much time do you spend describing a character or place? Could you show that with action or dialogue further ahead?
 - What about characters' past history? Could you trim it?

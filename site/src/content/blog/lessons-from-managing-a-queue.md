@@ -7,7 +7,7 @@ tags: ["experience", "society"]
 categories: ["Thoughts"]
 ---
 
-### Portuguese love to ~break~ bend rules. That's why we make good testers. `#ShamelessSelfPromotion`
+## Portuguese love to ~break~ bend rules. That's why we make good testers. `#ShamelessSelfPromotion`
 
 By default, the individual matters more than society and its rules -- e.g., Portuguese don't wait for people to get out of the train before entering, they just go at the same time. There are plenty more examples, but let's just say that we're the opposite of Swedes, Japanese or Canadians when it comes to rules.
 
@@ -15,7 +15,7 @@ Every year I do volunteer work at conventions and my responsibilities are never 
 
 > Kids (don't care about rules) + Portuguese (bending a rule is a worthy challenge) + YouTuber euphoria (shuts down rational side of the brain) = _recipe for chaos_
 
-### How it happened
+## How it happened
 
 - The **cheaters** find ways to bend the rules and get in
 - Volunteers notice it and ask staff for guidance: "they're in, let them be"
@@ -28,7 +28,7 @@ Every year I do volunteer work at conventions and my responsibilities are never 
 - **Staff gives up** and opens the gate
   - _It doesn't really make a difference because by now the room is packed_
 
-### Lessons Learned
+## Lessons Learned
 
 - Rules should be objective and apply to everyone
 - Plan ahead how to deal with overflow or edge cases
@@ -38,7 +38,7 @@ Every year I do volunteer work at conventions and my responsibilities are never 
 - The "cheater" players get **the best** prize
 - The "lawful" players get **what's left** from the cheaters
 
-### Success?
+## Success?
 
 For **staff**, it was a success. The room was full and people were fighting to get in. We got people's attention and we delivered to our sponsors. **We won.**
 

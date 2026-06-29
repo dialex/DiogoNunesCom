@@ -11,7 +11,7 @@ Sometimes you might need your application to behave differently according to dif
 
 The lean solution is to use VisualStudio's build configurations. They offer more flexibility, improve code readability, and ease debugging. Under the hood VisualStudio also uses state variables and if statements, however it abstracts most of those implementation details from the developer.
 
-### What you'll get
+## What you'll get
 
 ![](../../assets/blog/uploads/2015/07/BuildConfigurations-1.png)
 
@@ -38,7 +38,7 @@ Your final code will look like this:
 #endif
 ```
 
-### Tutorial
+## Tutorial
 
 You can view and select build configurations from VisualStudio's top toolbar. Every C# project comes with a `Debug` and a `Release` configuration. When you select one you're telling the IDE to compile differently and behave accordingly. Let's create your first custom build configuration.
 

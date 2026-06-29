@@ -14,7 +14,7 @@ During my career, every time my team has to rely on a 3rd-party API, there comes
 
 Even though there was a problem in the backstage (provider API), our system is the one that faces the users. So there's a problem, we are the ones who get hit with the rotten vegetables, thrown by the angry audience.
 
-### Test closer to the problem
+## Test closer to the problem
 
 There's multiple ways to reduce the risk of this ever happening.
 
@@ -27,15 +27,15 @@ We know how to call the API and we know what we expect to get in return, both in
 - One required field goes missing (structure), e.g. `bookAuthor` field is not returned.
 - One required value changes (data), e.g. `publishedAt` value no longer follows [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
 
-### The right tool for the job
+## The right tool for the job
 
 Now that we know what we want to achieve, it is time to pick a tool.
 
-#### Pact ❌
+### Pact ❌
 
 [Pact.io](https://docs.pact.io/) is probably the best tool for long-term and large scale contract testing. The learning curve is high and on top of that it requires infrastructure ([Pact Broker](https://docs.pact.io/getting_started/sharing_pacts)). Given we are just starting this would be overkill.
 
-#### Postman ❌
+### Postman ❌
 
 Most of our requests were already saved in [Postman](https://www.postman.com/) collections. We could leverage that and simply attach some tests to those requests, right? Just because you can, doesn't mean you should:
 
@@ -43,7 +43,7 @@ Most of our requests were already saved in [Postman](https://www.postman.com/) c
 2. The collection needs to be exported to a JSON in order to be executed by Newman
 3. When the test failed due to a schema violation it was not clear what was wrong
 
-#### Chakram ✅
+### Chakram ✅
 
 We decided to write Jest tests with [Chakram](https://dareid.github.io/chakram/) because:
 
@@ -51,7 +51,7 @@ We decided to write Jest tests with [Chakram](https://dareid.github.io/chakram/)
 2. It uses our current toolchain (e.g. Jest, VS Code, Prettier, etc.)
 3. When a schema is violated we know exactly why (structure/type/value mismatch)
 
-### Examples
+## Examples
 
 This is the simplest test you can write, it just checks that the API is alive.
 

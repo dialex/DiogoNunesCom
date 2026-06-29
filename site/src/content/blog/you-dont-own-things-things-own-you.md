@@ -7,7 +7,7 @@ tags: ["kindness", "minimalism"]
 categories: ["Life"]
 ---
 
-### Don't let anyTHING become precious to you.
+## Don't let anyTHING become precious to you.
 
 Over the last years -- influenced by [talks](http://youtu.be/L8YJtvHGeUU) and [websites](http://www.becomingminimalist.com/becoming-minimalist-start-here/) and other personal experiences -- I've developed my minimalist side. In my youth I was a stuff collector (["acumula tralha"](https://www.youtube.com/watch?v=n6rlyfirVDA)). That was how everyone was raised at the time, e.g. goods were scarse and repairing was always cheaper than buying a new one.
 
@@ -19,7 +19,7 @@ Our animal side still likes to show off and social networks are there to help [`
 
 ![Make a hole in the case if you have to. Just make sure everyone knows that I paid big money for that thing!](../../assets/blog/uploads/2015/02/iglaze-iphone5b-e1420113540977-400x228.jpg)
 
-### Stuff owns you
+## Stuff owns you
 
 What does an addict reply everytime you ask him or her to stop?
 
@@ -39,14 +39,14 @@ Do you passionately desire to buy something, something that everyone seems to ha
 
 ![](../../assets/blog/uploads/2015/01/IMG_20150101_113705354.jpg)
 
-### Free yourself
+## Free yourself
 
 The physical world is ephemeral, therefore you should minimize the number of _strings_ that tie you to that world. The more things you have and surround yourself with, the more fear you'll have about losing them. When you truly realize that one day you'll die and leave all that stuff behind you might lose your mind.
 
 > You should invest in experiences, not stuff. Things devaluate while experiences last as long as your spirit. Even better, as time passes by, you'll recall them to be nicer than they really were.
 > [59 Seconds: Change Your Life in Under a Minute](http://www.amazon.com/gp/product/0307474860/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307474860&linkCode=as2&tag=thegeegec00-20&linkId=EGQCMY3FUHIKIZQJ)
 
-### Challenge yourself
+## Challenge yourself
 
 A new year has begun, a great time for you to cut down on stuff. Put aside things you no longer use, clothes you no longer wear. Free your spirit and make someone else happier by donating them. Look for redundant stuff in your home. If you have a smartphone why do you need that old calculator? If you have a laptop why do you need a desktop computer? If you have a tablet why do you need a kitchen TV?
 

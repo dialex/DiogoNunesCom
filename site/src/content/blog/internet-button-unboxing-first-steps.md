@@ -7,7 +7,7 @@ tags: ["hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---
 
-### Brace yourself, it's going to be a bumpy ride.
+## Brace yourself, it's going to be a bumpy ride.
 
 This is hardware and on top of that it runs on C++. I knew it would be painful. But that was the challenge. If you're new to [Particle's Internet Button](/blog/particle-internet-button-overview/) you might want to check [this overview](/blog/particle-internet-button-overview/). Summarizing it: Particle is the brand that produces the Internet Button, which is a Photon chip with some additional hardware and a plastic case.
 
@@ -17,7 +17,7 @@ The internet button is a handy little piece of hardware that **contains 11 leds,
 
 Let's start.
 
-### Configuring the Internet Button for the first time
+## Configuring the Internet Button for the first time
 
 Here's what worked for me (YMMV):
 

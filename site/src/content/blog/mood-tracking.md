@@ -7,7 +7,7 @@ tags: ["dark corner", "experience", "mindfulness", "review"]
 categories: ["Life", "Technology"]
 ---
 
-### How to easily track your mood and learn more about your emotions
+## How to easily track your mood and learn more about your emotions
 
 In 2018 I hit rock bottom. I was struggling with frustration, rage, and sadness.
 

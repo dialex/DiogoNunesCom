@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 
 
-### How my new SSD made everything faster and allowed me to backup all my files online for free.
+## How my new SSD made everything faster and allowed me to backup all my files online for free.
 
 A [Solid-State Drive](http://en.wikipedia.org/wiki/Solid-state_drive) (SSD) has a higher cost per GB than the usual [Hard Drive Disk](http://en.wikipedia.org/wiki/Hard_disk_drive) (HDD). Therefore, if your planning to replace your current HDD for an equally priced SSD you'll end up with less space available. That's what I did; I replaced my laptop's 350GB HDD for an 250GB SSD.
 

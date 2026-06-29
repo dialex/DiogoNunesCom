@@ -6,17 +6,17 @@ heroImage: "../../assets/blog/uploads/2015/01/birthday-wishes-for-one-year-old-b
 categories: ["Announcement"]
 ---
 
-### That's right, it's been a year of weekly posts.
+## That's right, it's been a year of weekly posts.
 
 First of all I must thank your support. Over this year I kept receiving **positive feedback from you, my loyal readers**. I really enjoy writing these posts but it's even better to know that you find them useful or amusing. It's being an enriching experience because everyday I'm learning a bit more about _social media_ and _writing for the web_. It's hard work but it pays off.
 
-### Why the name?
+## Why the name?
 
 - I like technology, therefore "Geek";
 - I like reptiles & I'm cold-blooded, therefore "Gecko";
 - Thus, "The Geeky Gecko".
 
-### Statistics. Statistics everywhere!
+## Statistics. Statistics everywhere!
 
 Since this is a ~technological~ personal blog I tried to balance the subject of my posts to please both kinds of audiences. After **51 weekly posts** I think I managed to achieve that balance.
 
@@ -37,7 +37,7 @@ _Spam evolution in 1 year_
 
 In December, after several readers asking for a better commenting system, **I migrated to Disqus** and **now I have 0 spam**. Alongside all the other nice features Disqus provides, it sure keeps the spam at bay!
 
-### You gotta love the hatters
+## You gotta love the hatters
 
 ![Source: xkcd.com](../../assets/blog/uploads/2015/01/free_speech.png)
 
@@ -45,6 +45,6 @@ Speaking about spam, there's something worse -- hate speech. At least spam is wr
 
 > "Free speech" doesn't mean we are obliged to listen to you being a jerk. This is our house, and our rules. You can go try a different house. Fortunately there's a whole Internet of other communities out there. Jeff Atwood
 
-### tl;dr
+## tl;dr
 
 Thanks. Carry on.

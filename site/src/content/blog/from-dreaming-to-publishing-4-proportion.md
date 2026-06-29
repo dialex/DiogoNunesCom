@@ -16,7 +16,7 @@ _This post is part of the ["From Dreaming to Publishing" series](/blog/?s=From+D
 - Your character's viewpoint should control the level of detail, e.g. if he's running the surroundings are just a blur
 - Make sure everything you write either develops the character or your narrator, otherwise it's just filling
 
-### Checklist
+## Checklist
 
 - Review your descriptions. Would your character notice that?
 - Now review your last 50 pages. Do they develop a character or place? Are they that relevant?

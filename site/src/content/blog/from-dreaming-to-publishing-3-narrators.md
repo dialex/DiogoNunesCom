@@ -25,7 +25,7 @@ _This post is part of the ["From Dreaming to Publishing" series](/blog/?s=From+D
 > Omniscient narrator sees "a smothering landscape".
 > The 1st person narrator sees "the greenest field".
 
-### Checklist
+## Checklist
 
 - Which point of view do you use the most? Why? Vary!
 - Do you jump from head to head? What a headache! Focus on one and create different scenes

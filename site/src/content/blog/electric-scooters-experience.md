@@ -7,7 +7,7 @@ tags: ["minimalism", "review", "sustainability"]
 categories: ["Life"]
 ---
 
-### Benchmark of three models (prices: 200-800€)
+## Benchmark of three models (prices: 200-800€)
 
 But first a bit of context. This is my current commute:
 
@@ -27,7 +27,7 @@ A candidate emerged: _an electric scooter_.
 
 ![](../../assets/blog/uploads/2018/10/eletric-scooter-what-to-look-for-400x390.png)
 
-### Models under review
+## Models under review
 
 After weeks of research, there were 3 models to choose from. All except one required international shipping `#PortugalXXI` `#2ndWorldProblems`.
 
@@ -35,7 +35,7 @@ After weeks of research, there were 3 models to choose from. All except one requ
 >
 > \-- Urban Dictionary
 
-### The results
+## The results
 
 The greener the better. Red is bad.
 
@@ -46,7 +46,7 @@ The greener the better. Red is bad.
 - [Zoom Stryder](https://www.ridezoom.co/) (solid, powerful, expensive, heavy)
 - _[Mi Electric Scooter](https://www.mi.com/us/mi-electric-scooter/) was as expensive as EcoReco XS, but had double the weight so I did not consider it. However it's by far the most popular electric scooter, it's the only model I've seen in the streets so far._
 
-### The regrets
+## The regrets
 
 It was a hard choice. This was my first (electric) scooter, so I decided to play it safe and buy **UrbanGlide Ride 50S Carbon**, the cheapest and the only one available locally.
 
@@ -59,7 +59,7 @@ It was a hard choice. This was my first (electric) scooter, so I decided to play
 - Weak battery: reached 60% at 4km (half the specs)
 - Hand grips unscrew themselves during trip
 
-### The conclusion
+## The conclusion
 
 - No easy way to safely lock it; your arms will get tired of carrying it
 - Cheap is good for flat paths and good quality pavement (not the case in )

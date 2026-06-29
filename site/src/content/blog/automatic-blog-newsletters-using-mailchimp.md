@@ -23,7 +23,7 @@ _Fine, what does everyone use after all?_
 
 [**Email.**](http://www.adweek.com/socialtimes/email-vs-social/504069)
 
-### Part 1: The email newsletter
+## Part 1: The email newsletter
 
 Thankfully, you can put technology to work for you -- that's why it was created. And when we speak of email, newsletters, subscribers, and signup forms, all in the same sentence, we must include another word: [MailChimp](http://eepurl.com/bf5nQT). Although they have a [tutorial](http://blog.mailchimp.com/rss-to-email-tutorial/) about their RSS-to-Email feature, it's highly outdated. So let me walk you through the process.
 
@@ -41,7 +41,7 @@ Thankfully, you can put technology to work for you -- that's why it was created.
 
 You now have an automatic creation and delivery of newsletters. You're a genius!
 
-### EXTRA: The newsletter banner
+## EXTRA: The newsletter banner
 
 That newsletter looks awesome, isn't it? I'm a techie not a designer, but sometimes I need to create good-looking media like that banner. **[Canva](https://www.canva.com/) brags that it turns anyone into a designer**, so I gave it a try. Basically it's an online service that lets you create posters, flyers, banners, infographics and social networks' covers, all by this by using the drag-and-drop method.
 
@@ -49,7 +49,7 @@ That newsletter looks awesome, isn't it? I'm a techie not a designer, but someti
 
 They have a ~wide~ range of shapes, icons and photos that you can use for free. They also provide templates and examples for you to get started. Their range of fonts is awesome. Now it all rests upon your creativity.
 
-### Part 2: The signup form
+## Part 2: The signup form
 
 You have the newsletter ready to be sent... but to whom? Probably you already about some close friends that might want to receive the newsletter. For those, you can save them the effort of signing up and include them right away on the list you created over at **Step 2**. Afterwards, what you really need is to setup some kind of form for your visitors to enter their email addresses.
 

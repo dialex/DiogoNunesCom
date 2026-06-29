@@ -7,11 +7,11 @@ tags: ["coding", "hardware", "internet button", "tutorial"]
 categories: ["Technology"]
 ---
 
-### First things first.
+## First things first.
 
 Now that you can [connect to your Photon](/blog/internet-button-unboxing-first-steps), it's time to give it some intelligence - time to get coding! To manage that code let's create a git repo.
 
-### GitHub
+## GitHub
 
 The official documentation recommends that you fork their [InternetButton](https://github.com/spark/InternetButton) repo. You don't have to, but it helps to follow their repo structure.
 
@@ -26,7 +26,7 @@ Here's what I recommend you do:
 5. Delete the `Examples` folder.
 6. Commit. Push. Your repo should be public for now. After you connect it to your Particle's account you can make it private.
 
-### Web IDE
+## Web IDE
 
 Take a deep breath -- you're about to enter the depths of hell. This is where I started but I would avoid it if I could. You can try to skip this step and go directly to the Local IDE section below.
 
@@ -39,7 +39,7 @@ Take a deep breath -- you're about to enter the depths of hell. This is where I 
 
 DISCLAIMER: **Forget their web IDE.** Period. It's too complicated, nothing makes sense, the UI is not intuitive, the files and libraries management is a nightmare. Kill it with fire. Carry on.
 
-### Local IDE (Particle Dev)
+## Local IDE (Particle Dev)
 
 ![particle local ide](../../assets/blog/uploads/2016/07/particle-local-ide.png)
 

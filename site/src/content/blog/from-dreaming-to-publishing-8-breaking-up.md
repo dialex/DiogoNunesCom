@@ -14,7 +14,7 @@ _This post is part of the ["From Dreaming to Publishing" series](/blog/?s=From+D
 - More paragraphs » more tension » more speed/action
 - Less paragraphs » more relaxation » more introspection
 
-### Checklist
+## Checklist
 
 - Skim your novel and notice the white space
 - If a scene seems to drag, paragraph more

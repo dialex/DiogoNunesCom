@@ -9,7 +9,7 @@ categories: ["Technology"]
 
 
 
-### JColor is a Java library that offers an easy way to print colored messages on a terminal
+## JColor is a Java library that offers an easy way to print colored messages on a terminal
 
 It all started when I needed to create an application with multiple levels of debug. The solution was an object (a Printer) with a maximum level of debug. Every debug message delivered to it had a level. If the Printer had an equal or greater level, the debug message would be printed. This allows you to place debug messages with different levels along the code. Then, when initiating the app, you choose a maximum level of debug and only the debug messages with an equal or lower level will be displayed. Even better you can change that maximum level dynamically.
 
@@ -17,7 +17,7 @@ To enhance the usefulness of this library I decided to add colored messages, whi
 
 ![mac example output](../../assets/blog/uploads/2014/10/example-mac-iterm-fancy.png)
 
-### Main features
+## Main features
 
 - Print colored messages on a terminal using Java.
 - **Cross-platform**. Works on Unix, Windows 10 and macOS.
@@ -26,6 +26,6 @@ To enhance the usefulness of this library I decided to add colored messages, whi
 - **Rainbows!** You can use any RGB color combination (TrueColor).
 - **Easy to use**. Format your messages using a simple API, and print them with `System.out.print`.
 
-### License
+## License
 
 This program is free software under the terms of the **MIT LICENSE**. If this software was useful to you, consider donating.

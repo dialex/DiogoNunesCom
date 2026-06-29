@@ -9,7 +9,7 @@ categories: ["Writing"]
 
 
 
-### Thanks to Google Analytics I can compare several metrics about my website before and after blogging. Here are my findings.
+## Thanks to Google Analytics I can compare several metrics about my website before and after blogging. Here are my findings.
 
 I started blogging on the 1st of January 2014, so this comparison will focus on (Jan 1 - 31 May, 2014) vs. (Jan 1 - 31 May, 2013).
 
@@ -37,6 +37,6 @@ In the past I blogged in Portuguese about Portuguese stuff. Today I write tutori
 
 In the end of 2012 the first mobile pageviews started to appear on my website. Over the last six months I went from serving 200 pages to mobile devices to 760 (+278%). More often that not your audience will read your content on the go, so make sure your blog displays correctly on tablets and even smartphones, i.e. use a responsive theme.
 
-### Thanks
+## Thanks
 
 I really have to thank you for your views, comments and positive feedback. Just a final curiosity 8th search term used to find my website is `adoro estar contigo` _("I love being with you")_ which links to a [poem](/books) I wrote. Thank you for being with me :)

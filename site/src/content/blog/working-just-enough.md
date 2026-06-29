@@ -7,7 +7,7 @@ tags: ["decisions", "minimalism", "purpose"]
 categories: ["Life"]
 ---
 
-### Reduce waste so that your life is not wasted.
+## Reduce waste so that your life is not wasted.
 
 Let's define "overhead" as something you **must** do as a means to what you really **want** to do, e.g. brushing your teeth is something you _must_ do if you _want_ a healthy life.
 
@@ -23,7 +23,7 @@ Overheads are universal to any human. The 2nd law of thermodynamics can be boile
 
 These overheads delay the natural increase in entropy. If you skip them, one way or another, your quality of life degrades, then your mental and physical health, and eventually you die — sooner than you would otherwise. You are part of the Universe, hence you can’t escape Physics!
 
-### Life is like riding a bicycle
+## Life is like riding a bicycle
 
 ![](../../assets/blog/uploads/2018/11/4819689078_31b1db17f6.jpg)
 
@@ -35,7 +35,7 @@ The view is the pleasure, the joy of living.
 
 You know you're doing something wrong if you have to pedal for most of the trip. Either **(1)** the bicycle does not multiply your effort, **(2)** your pedalling is not strong enough, or **(3)** your terrain is too steep.
 
-### Stop
+## Stop
 
 How much time do you spend working? And upkeeping your life? And resting? How much time is left after that? **That's the actual time that you live.**
 
@@ -45,7 +45,7 @@ How much time do you spend working? And upkeeping your life? And resting? How mu
 
 Time really is precious, isn't it?
 
-### Do the math
+## Do the math
 
 Approximately, a year has 52 weeks. Let’s say in your country there are 13 bank holidays. Let’s assume you’re lucky and all of them are effective and happen during a workday. And let’s say you also have 22 days of vacation given by your employer.
 
@@ -57,7 +57,7 @@ Approximately, a year has 52 weeks. Let’s say in your country there are 13 ban
 
 Thus, **you live to work.** If you trade all your time for money, you won't have time to spend all that money.
 
-### Find a balance
+## Find a balance
 
 Let’s now assume you don’t work on Mondays, because who likes Mondays anyway? So subtract one day per week in the year, that’s -52. **By working one less day each week, you would work 47% of the year**. Now that’s a better balance! And it's [not a new idea](https://amzn.to/2JHN5PX).
 

@@ -7,7 +7,7 @@ tags: ["free and open", "utilities"]
 categories: ["Technology"]
 ---
 
-### Previously I motivated you to [donate to your favorite open source projects](/blog/free-software-make-a-donation/). This time I'll show you really useful online services that require no installation and cost you nothing!
+## Previously I motivated you to [donate to your favorite open source projects](/blog/free-software-make-a-donation/). This time I'll show you really useful online services that require no installation and cost you nothing!
 
 Maybe five years ago you would have to install (and pay) to get most of this features. Today you just connect to the internet and it's all there, for free. Let me introduce you some of most useful websites out there.
 

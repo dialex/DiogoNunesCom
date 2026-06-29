@@ -7,7 +7,7 @@ tags: ["c#", "coding"]
 categories: ["Technology"]
 ---
 
-### Writing to SQL Server database
+## Writing to SQL Server database
 
 **base64 to byte\[\]**
 
@@ -30,7 +30,7 @@ command.ExecuteNonQuery();
 
 [Source](http://stackoverflow.com/a/7325145/675577%E2%80%8B%E2%80%8B)
 
-### Reading from SQL Server database
+## Reading from SQL Server database
 
 **Scalar to byte\[\]**
 

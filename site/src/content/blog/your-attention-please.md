@@ -7,7 +7,7 @@ tags: ["experience", "relationships"]
 categories: ["Thoughts"]
 ---
 
-### Don't babysit grown-ups.
+## Don't babysit grown-ups.
 
 This might sound like a [lapalissade](https://en.wikipedia.org/wiki/Lapalissade) but people crave for your attention.
 
@@ -19,7 +19,7 @@ Because _you are family_ there's this pressure to be together, to listen. **It's
 
 Maybe [I'm a terrible person](https://youtu.be/bxAw0M-jV1o) but I like to think I'm just...
 
-### Emotionally self-sustainable
+## Emotionally self-sustainable
 
 I pursue that goal. It makes me independent, resilient, even happier. After all, you become your own master. You are in control. You don't need anyone else to feel good.
 

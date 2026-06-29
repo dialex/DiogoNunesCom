@@ -7,7 +7,7 @@ tags: ["personal"]
 categories: ["Thoughts"]
 ---
 
-### I'll show you mine if you show me yours.
+## I'll show you mine if you show me yours.
 
 Do you know [Pocket](https://getpocket.com)? It's an app to save web pages to read later. Initially I just had a folder in my bookmarks literally called "Read Later" but this free app is so much better, as it allows you to read offline and tag them after you read them.
 
@@ -35,7 +35,7 @@ During the next two years I found out that if I filled all my time doing stuff, 
 
 And more recently, when I switched my career from developer to tester, I had to learn everything again (and I'm [still learning)](/blog/making-an-open-source-testing-course/).
 
-### Closing ~thought~ rant
+## Closing ~thought~ rant
 
 There's so much to learn... **stuff that really matters** and improves or eases your life, **stuff that you don't learn at school**. You spend 12 years studying and yet you know nothing about how you should manage your life.
 

@@ -7,7 +7,7 @@ tags: ["personal", "relationships"]
 categories: ["Thoughts", "Work"]
 ---
 
-### It's not all glamour.
+## It's not all glamour.
 
 Engineers solve problems. Thanks to that analytical thinking and restless motivation we have pushed our species forward.
 

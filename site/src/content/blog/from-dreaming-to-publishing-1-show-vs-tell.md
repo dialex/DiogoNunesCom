@@ -17,7 +17,7 @@ _This post is part of the ["From Dreaming to Publishing" series](/blog/?s=From+D
 - Don't overdo it: narrative (tell) varies rhythm
 - Scene after scene is exhausting and becomes less impressive
 
-### Checklist
+## Checklist
 
 - Which narrative fits best your scene?
 - Going from scene to scene without pauses? Let the reader breath with a narrative!

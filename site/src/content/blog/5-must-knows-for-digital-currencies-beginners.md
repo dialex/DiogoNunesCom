@@ -11,7 +11,7 @@ Bitcoin launched in 2009 and Ethereum in 2015. At the time of writing, there are
 
 _DISCLAIMER: The target audience of this post is non-technical. I used analogies to explain these complex abstract technologies. Sometimes at the cost of technical accuracy. I hope you can endure it._
 
-### What is it?
+## What is it?
 
 ![](../../assets/blog/uploads/2017/09/COVER-PIC.jpg)
 
@@ -26,7 +26,7 @@ _DISCLAIMER: The target audience of this post is non-technical. I used analogies
 - **[Dogecoin](http://dogecoin.com/)** is a useless "meme coin", created in 2013 to prove that anyone could copy Bitcoin.
 - There are also "shit coins" and "scam coins". Usually someone makes a copy, changes the name, and announces a super-duper new coin. People invest in the scam coin, fuelled by hype. The scammer takes the money and investors discover too late that the coin is useless and their money gone.
 
-### Why is it so popular lately?
+## Why is it so popular lately?
 
 ![](../../assets/blog/uploads/2017/08/SyTCa.jpg)
 
@@ -40,7 +40,7 @@ _DISCLAIMER: The target audience of this post is non-technical. I used analogies
 
 **Finally, because it is an exciting investment.** No one knows the real value of a promising new digital currency like Bitcoin. When it started, each coin was worth 1$, then 100$, then 1000$, and lately ~3000$~ 5000$. Ethereum was the latest coin with the fastest growth. The early investors became millionaires in a few years or less. The gossip spreads, then it's all over the internet, then it reaches national TV. Fear of missing out (FOMO) this opportunity kicks in and suddenly everyone wants to buy. Demand raises prices, we enter a bull market and the bubble grows.
 
-### What am I buying?
+## What am I buying?
 
 ![](../../assets/blog/uploads/2017/08/GettyImages-108359653-57156e533df78c3fa2286c42.jpg)
 
@@ -56,7 +56,7 @@ To keep things simple, **everything is an asset**. As an investor you can think 
 
 > _Example_: Let's say you are in 2008 and the new "Bitcoin Corporation" creates 1 million ~bitcoins~ shares priced at 1$ each. Anyone can buy it, but no one trusts it or has an use for it. You take the risk and invest 100$ to buy 100 ~bitcoins~ shares. A few years pass and the general public realised the advantages of using "Bitcoin Corporation"'s product. Suddenly you have a million people demanding to buy ~bitcoins~ shares. Surely those ~bitcoins~ shares you bought years ago are now worth a lot more than 1$. So you ask 10$ for each one, like every other Bitcoin investor. You sell your ~bitcoins~ shares to someone willing to pay that price and you profit.
 
-### How can I make money?
+## How can I make money?
 
 ![](../../assets/blog/uploads/2017/08/bitcoin-roller-coaster.gif)
 
@@ -80,7 +80,7 @@ So, when do these investors collect profits? Holders usually set a percentage or
 >
 > Eight months later you notice the price has already increased by 200%. One of your goals was achieved, so you sell all of your Dash and get 2000$. Now you have to decide if you spend it or reinvest it on another promising altcoin. Rinse and repeat.
 
-### Will I lose money?
+## Will I lose money?
 
 ![](../../assets/blog/uploads/2017/08/Bitcoin-Fragile-Banner-696x412.png)
 
@@ -97,7 +97,7 @@ Here are the most frequent community advices to newcomers:
 - Don't invest more than you can afford to lose.
 - Don't put your eggs on the same basket.
 
-### What should I do?
+## What should I do?
 
 ![](../../assets/blog/uploads/2017/08/maxresdefault.jpg)
 

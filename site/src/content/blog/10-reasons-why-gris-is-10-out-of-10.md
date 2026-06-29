@@ -7,7 +7,7 @@ tags: ["games"]
 categories: ["Technology"]
 ---
 
-### [Journey](https://www.epicgames.com/store/en-US/product/journey/home) and [Rime](https://store.steampowered.com/app/493200/RiME/) fans, this is for you
+## [Journey](https://www.epicgames.com/store/en-US/product/journey/home) and [Rime](https://store.steampowered.com/app/493200/RiME/) fans, this is for you
 
 1. Tells a powerful story without a single word
 2. Game mechanics are explored, not explained

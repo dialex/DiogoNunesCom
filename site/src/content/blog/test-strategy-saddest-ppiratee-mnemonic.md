@@ -7,7 +7,7 @@ tags: ["testing", "utilities"]
 categories: ["Technology"]
 ---
 
-### He doesn't have a test strategy ☝️
+## He doesn't have a test strategy ☝️
 
 > ⭐️ This post was featured in [Software Testing Weekly, issue 49](https://softwaretestingweekly.com/issues/49)
 
@@ -17,7 +17,7 @@ This strategy reveals the way tests will be designed and executed to foster qual
 
 The number of questions and the detail of the answers depends on your project's [requirements](https://dialex.github.io/start-testing/#/concepts/requirements), so you will have to choose between a formal and detailed document versus a simple and abridged alternative.
 
-### Mnemonic `SADDEST PPIRATEE`
+## Mnemonic `SADDEST PPIRATEE`
 
 [Erik Brickarp](http://erik.brickarp.se/2016/11/test-plan-questions.html) suggests these first five questions before you start testing:
 
@@ -37,7 +37,7 @@ The result was this mind map, and a new [mnemonic](https://dialex.github.io/star
 
 Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDEST-PPIRATEE.png) / [detailed mind map](/blog/uploads/2020/05/Test-Strategy-SADDEST-PPIRATEE.png)
 
-### Questions
+## Questions
 
 **Scope**
 
@@ -181,6 +181,6 @@ Download: [overview mind map](/blog/uploads/2020/06/Test-Strategy-Overview-SADDE
 - How do you feel about our product?
 - What do users feel and say about it?
 
-### References
+## References
 
 I hope these questions help you create your own test strategy. If you want to learn more about this subject (or testing in general), check my free [testing course](https://dialex.github.io/start-testing/#/toolbox/test-strategy).

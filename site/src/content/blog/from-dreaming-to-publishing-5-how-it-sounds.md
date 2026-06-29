@@ -14,7 +14,7 @@ _This post is part of the ["From Dreaming to Publishing" series](/blog/?s=From+D
 - However it still needs to sound real, like something a person would actually say
 - Characters should misunderstand each other, ask the other to repeat, disagree, lie, answer the unspoken questions, ignore the spoken, interrupt, make noises and react to gestures (body language)
 
-### Checklist
+## Checklist
 
 - Read your dialogue out loud. Does it sound real?
 - Does it sound too polished or formal?

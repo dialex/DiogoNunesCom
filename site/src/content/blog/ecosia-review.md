@@ -8,7 +8,7 @@ tags: ["review", "utilities"]
 categories: ["Technology"]
 ---
 
-### Plant trees while you search the web
+## Plant trees while you search the web
 
 Last year I stumbled upon the search engine [Ecosia](https://www.ecosia.org/). Their pitch is that every search you make contributes to plant trees across the world. On average, it takes 45 searches to plant a tree.
 

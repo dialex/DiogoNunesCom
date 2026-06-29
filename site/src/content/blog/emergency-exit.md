@@ -26,7 +26,7 @@ That mindset – when you lose hope about getting better – suicide becomes ver
 
 The _void_ is seductive – the worse you are, the greater the pull. The only thing preventing you from _jumping_ into the _void_ are "safety barriers". Some people have more and higher barriers and that's what keeps them alive. You must **build those safety barriers**.
 
-### Family
+## Family
 
 True, you would end your suffering, but think for a moment about your friends and family. How much pain would you cause them?
 
@@ -34,7 +34,7 @@ It was an unbearable suffering that made you _jump_... Why would you want to inf
 
 Please, don't.
 
-### Curiosity
+## Curiosity
 
 What will you be missing out? The world has so much to give you: experiences, places, people, culture, achievements.
 
@@ -42,7 +42,7 @@ If you _jump_ you will miss all that – the memories you created, the ones yet 
 
 Please, don't.
 
-### Selfishness
+## Selfishness
 
 Others didn't get the luxury of your choice. Their precious life stolen away, too soon.
 

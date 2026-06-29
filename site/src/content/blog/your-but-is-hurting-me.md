@@ -8,13 +8,13 @@ tags: ["communication", "kindness"]
 categories: ["Thoughts"]
 ---
 
-### Two hacks to prevent your "but" from squashing everyone else's feelings
+## Two hacks to prevent your "but" from squashing everyone else's feelings
 
 Words matter. So does the order of those words.
 
 Have you ever heard someone say a good thing... and then you start feeling like there's a "but" incoming. When it finally arrives the "but" destroys whatever good came before it. It makes the good part feel fake, a waste of time, an euphemism for what was coming.
 
-### The order influences recipient's mood
+## The order influences recipient's mood
 
 Instead "GOOD but BAD"
 
@@ -26,7 +26,7 @@ use "BAD but GOOD"
 
 The message is the same. Yet the vibe felt by the recipient is different. In the former example, the recipient feels rejected, in the latter they feel appreciated.
 
-### Consider replacing a "but" with a dot
+## Consider replacing a "but" with a dot
 
 "But" is a trigger word. People are trained to focus on what comes after the "but". If you don't say it, people won't be on alert.
 

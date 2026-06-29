@@ -11,7 +11,7 @@ categories: ["Life"]
 
 In 2018 I started listing my [new year resolutions](https://en.wikipedia.org/wiki/New_Year%27s_resolution). After school you're pretty much on your own. If you don't set yourself some goals the years will go by in a blink and your routine takes control of your life.
 
-### "Happy–Smart–Useful" technique
+## "Happy–Smart–Useful" technique
 
 [Derek Sivers](https://sive.rs/) is one of my idols and an inspiration on how to live.
 
@@ -29,7 +29,7 @@ His post ["Happy, Smart and Useful"](https://sive.rs/hsu) was actually the trigg
 
 I find this approach very valuable. The process is simple and objective. Since you go from yearly to daily goals, it makes your objectives measurable and grounded. And it nudges you to strike a balance between work and leisure.
 
-### "Core values" technique
+## "Core values" technique
 
 While I was researching for my book ["Purpose"](/books) I found this approach by [Charles Moore](https://medium.com/@charlesmoore_69451/life-tool-a-framework-for-personal-success-and-fulfillment-fae60f28ab79).
 
@@ -47,7 +47,7 @@ I think this approach is particularly suited for people who are not sure what mo
   - What needs to happen to improve that value?
   - Is your definition of success clear and measurable?
 
-### Now that you have your _wishlist_...
+## Now that you have your _wishlist_...
 
 ... it's time to make it happen! Planning is only 20% of the effort. Be accountable. Remind yourself what you're trying to achieve and why.
 

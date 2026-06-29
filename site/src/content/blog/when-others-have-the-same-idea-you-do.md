@@ -13,7 +13,7 @@ categories: ["Technology"]
 
 I had a few ideas over the years. I took them nowhere but I'm thankful someone else had those same ideas.
 
-### 2008: Social profile
+## 2008: Social profile
 
 > "hi5 is for teen gossiping. We need something focused on networking. I should have a profile where I could introduce myself and show off my interests in a clear list (hobbies, artists, movies, books, etc.) I should be able to add friends to my network or make a search based on my interests. That way I can look for like-minded people."  
 > » I called it **ilook4** in 2008.  
@@ -23,7 +23,7 @@ Facebook evolved. Today, the profile's interests are gone but hi5's gossiping is
 
 ![ilook4 cover](../../assets/blog/uploads/2014/02/ilook4-cover-400x300.png)
 
-### 2009: Tablet
+## 2009: Tablet
 
 ![](../../assets/blog/uploads/2014/02/medium_2066550916_425cfd32d5_o-400x222.jpg)
 
@@ -35,13 +35,13 @@ The image above dates to the end of 2009 and was part of a rumor about an Apple 
 
 ![](../../assets/blog/uploads/2014/02/HPSlate-400x260.jpg)
 
-### 2018: Price comparator for groceries
+## 2018: Price comparator for groceries
 
 > In my country we have several brands of local supermarkets. Their range of products is similar but their prices are different. Here's the idea: as a customer, I create a basket of products and an app automatically fetches the prices of those products and tells me which supermarket is the cheapest. Alternatively, I set my favourite supermarket and when my products are on temporary discount then I receive a notification.
 
 [KuantoKusta](https://www.kuantokusta-supermercados.pt/), which is a price comparator for expensive purchases, launched a groceries version to compare a baskets of products across multiple supermarket brands. They did not implement all the features we thought though. Then Continente, the main supermarket brand, created [their own app](https://play.google.com/store/apps/details?id=pt.continente.ContinenteSiga&hl=pt_PT). Game over.
 
-### 2021: Personal stock market
+## 2021: Personal stock market
 
 > Some companies are in the stock market. You can buy stocks, whose value goes up and down according to the market's perception of their value. It's a burocratic process and only some companies are entitled to have stocks. Nowadays some businesses are based on individuals, ie. youtubers, influencers.
 >
@@ -51,7 +51,7 @@ In 2019 someone wrote [an article](https://medium.com/@aaronyen/lore-3-turning-s
 
 ![](../../assets/blog/uploads/2014/02/7c0d1d0a-6892-490b-881b-108b53b3b050-308x400.jpeg)
 
-### 2021: AI Chatbot that resembles a deceased person
+## 2021: AI Chatbot that resembles a deceased person
 
 > I saw the success of [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia) from MyHeritage. People were delighted to see their sepia and B&W photos of their deceased parents and grandparents now in colour and moving. [Saudade](https://en.wikipedia.org/wiki/Saudade) and nostalgia take control in that moment. So if people have this strong emotional reaction to a moving photo, what if they could chat with that person? Can we teach an AI to read messages from a (deceased) person and mimic how they write? Once we have that, can we teach the AI to synthesise the person's voice?
 

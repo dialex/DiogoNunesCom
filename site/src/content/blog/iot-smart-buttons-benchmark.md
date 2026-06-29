@@ -7,11 +7,11 @@ tags: ["hardware", "internet button"]
 categories: ["Technology"]
 ---
 
-### The smart choice for smart buttons
+## The smart choice for smart buttons
 
 As you know, in the past I had a go with the [Internet of Things (IoT)](/blog/tag/internet-button/) to [build a smart button](/blog/tag/internet-button/) that notifies my team [the cakes have arrived](/blog/hungry-for-innovation-cake-button/). For that I used the [Internet Button from Particle](/blog/particle-internet-button-overview/), but there are alternatives.
 
-### Internet Button
+## Internet Button
 
 - 4 buttons
 - 11 leds

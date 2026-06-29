@@ -7,7 +7,7 @@ tags: ["c#", "coding", "tutorial"]
 categories: ["Technology"]
 ---
 
-### Automatically sync the two numbers on each build.
+## Automatically sync the two numbers on each build.
 
 Recall that version numbers are of the form `Major.Minor.BuildDay.BuildTime`. For quite some time I used **Visual Studio's auto-generated build numbers**. Basically you [edit your project's AssemblyVersion.cs](http://stackoverflow.com/a/356694/675577) to `[assembly : AssemblyVersion("X.Y.*")]` and, every time you build your project, your binaries get stamped with a version number of the form `1.0.5457.29870`.
 
@@ -35,6 +35,6 @@ The first part should be the fullpath to your SubWCRev executable. The first par
 
 WARNING: Do not add the `AssemblyInfo_template.cs` to your Visual Studio project. If you do, you'll have compilation errors about duplicated attributes! However, do add `AssemblyInfo_template.cs` to your SVN repository.
 
-### To sum it up
+## To sum it up
 
 **Everytime you rebuild your project, Visual Studio will embed the most recent SVN's revision number in your binaries' version number**. Don't forget to commit your changes before rebuilding your project, so that your file's version match SVN's revision number. Also note that a build won't update AssemblyInfo.cs, for that you need a rebuild.

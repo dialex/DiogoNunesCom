@@ -7,7 +7,7 @@ tags: ["agile", "experience", "testing"]
 categories: ["Technology"]
 ---
 
-### Using GitHub & Agile to manage a hobby.
+## Using GitHub & Agile to manage a hobby.
 
 I learned all I know about testing on the job. **That's not enough for me.** That's why I have a strong desire to do a deep dive on testing — take my time and revisit the fundamentals, learn "the proper way" to test, and mentally connect all the concepts I found along the way.
 

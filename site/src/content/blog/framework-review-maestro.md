@@ -12,7 +12,7 @@ categories: ["Technology"]
 
 A friend ([Hugo](https://medium.com/@hugocf)) told me about this new mobile test automation framework called [Maestro](https://maestro.mobile.dev/). At the time, my team was using Appium to test a React Native app, that ran on iOS and Android. I was not 100% happy with Appium, so I gave Maestro a try.
 
-### Maestro commands
+## Maestro commands
 
 ```sh
 # install
@@ -30,7 +30,7 @@ npm run start
 npm run e2e:maestro
 ```
 
-### Maestro code
+## Maestro code
 
 `package.json`
 
@@ -62,7 +62,7 @@ appId: com.company.app
 - assertVisible: '.*Resend code.*'
 ```
 
-### My opinion
+## My opinion
 
 While I experimented with the framework I discovered a few behaviours:
 
@@ -71,14 +71,14 @@ While I experimented with the framework I discovered a few behaviours:
 - Each file is one test, executed top to bottom
 - When running a folder instead of a specific test file the output does not show the results of each test step ([requested](https://github.com/mobile-dev-inc/maestro/issues/507))
 
-#### Pros
+### Pros
 
 - Twice as fast (12.21s) as Appium (24.24s) to boot the app and get to the screen
 - Console is not spammed with useless logs
 - You have a way to easily reset the state of the app (`clearState`)
 - It actually runs [tests on iOS simulators](https://github.com/mobile-dev-inc/maestro/blob/b367a2c1110cebc618a1f7889859120f235193f8/maestro-ios/README.md#ios-device-config) (not real devices)
 
-#### Cons
+### Cons
 
 - Only supports simple actions (eg. things a user would do) -- i.e. can't write complex logic with YAML (eg. extract and fill 2FA code)
 - You know a step failed but you don't know why
@@ -87,7 +87,7 @@ While I experimented with the framework I discovered a few behaviours:
 - You can't partially match text, unless you use a regex ([requested](https://github.com/mobile-dev-inc/maestro/issues/35))
 - Matching text with a regex don't work on iOS (but does on Android)
 
-#### Conclusion
+### Conclusion
 
 I think it has potential. I think the speed and ease of use (to get started) are its strongest selling points. It's good to get started with mobile testing.
 

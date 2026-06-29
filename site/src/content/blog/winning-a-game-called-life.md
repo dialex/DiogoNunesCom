@@ -7,19 +7,19 @@ tags: ["experience", "purpose"]
 categories: ["Life", "Thoughts"]
 ---
 
-### The rules are simple and you choose how you win.
+## The rules are simple and you choose how you win.
 
 > _If you don't know where you are going any road can take you there._ ― Lewis Carroll, from "Alice in Wonderland"
 
 Life shouldn't be something that _happens_ to you -- you should be in control. I'll use the [**metaphor of life as a game**](/blog/minecraft-a-game-as-a-metaphor-of-life/) to help you define success and get back in control.
 
-### Rules
+## Rules
 
 These are the rules of a game called "life".
 
 The game will end with a "Game Over", regardless of your success at it. Since you can't win or lose, at any given moment, you are either **win**\-ing or **lose**\-ing. If you are successful, you are `#winning`
 
-### Playing
+## Playing
 
 But what is being successful? **Success is a subjective score, personal to each player.** Every player has its own formula. For some people the goal is to have kids, to be famous or the best at something, to leave a legacy/memory after dying, or simply to have a happy peaceful life.
 

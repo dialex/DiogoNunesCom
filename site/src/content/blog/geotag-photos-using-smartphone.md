@@ -7,7 +7,7 @@ tags: ["minimalism", "tutorial", "utilities"]
 categories: ["Photography"]
 ---
 
-### You already carry a GPS, it's your smartphone.
+## You already carry a GPS, it's your smartphone.
 
 Some high-end cameras have built-in GPS units that geotag your photos as soon as you shoot them. However my entry-level DSLR does not have that functionality. Sometimes I don't know the name of the place where I'm shooting, other times I'm just lazy with my metadata, other times I want to upload my photos to a photography site without manually specifying where I took the photo.
 
@@ -39,6 +39,6 @@ So I started looking for an **external GPS unit** for my camera. That would cost
 6. Start the synchronization process. ![dslr-gps-3](../../assets/blog/uploads/2014/12/dslr-gps-3.png)
 7. After the sync is complete, don't forget to save the changes to your photos, by pressing the blue diskette button. Doing so will tell GeoSetter to embed the GPS information from the track into your photo's metadata. ![dslr-gps-4](../../assets/blog/uploads/2014/12/dslr-gps-4-1024x455.png)
 
-### Well done
+## Well done
 
 Now your photos have GPS coordinates, without buying any additional gear and even though your camera doesn't have an internal GPS. You should be proud of yourself. Help your photography friends by sharing this tutorial with them.

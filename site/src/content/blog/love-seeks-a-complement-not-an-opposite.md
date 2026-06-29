@@ -8,7 +8,7 @@ tags: ["relationships"]
 categories: ["Life"]
 ---
 
-### Turns out people aren't like magnet. They're like puzzle pieces of the same color.
+## Turns out people aren't like magnet. They're like puzzle pieces of the same color.
 
 When I was a kid I kept hearing that _people were like magnets_ because persons are attracted to their opposites. Like most popular beliefs at its core lies a bit of truth but it's over simplistic and not totally accurate. Let's think about it.
 
@@ -30,7 +30,7 @@ We now understand that the _opposites law_ is wrong. **We search for partners wh
 
 > Couples that had more in common personality-wise were more likely to be happy and satisfied with their marriages. [A.P.A.](http://www.sciencedaily.com/releases/2005/02/050213191438.htm)
 
-### Conclusion
+## Conclusion
 
 Magnets attract because they are opposite in a way that they complement each other. For instance, a communist and a right liberal are _conflicting_ opposites - they don't complement each other because they are _antagonists_.
 

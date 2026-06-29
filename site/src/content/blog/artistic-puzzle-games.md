@@ -7,13 +7,13 @@ tags: ["games", "review"]
 categories: ["Technology"]
 ---
 
-### Even if you don't like puzzles, you should give these two games at least a try
+## Even if you don't like puzzles, you should give these two games at least a try
 
 I think the only puzzle game I played was Portal 1 and 2. The reason why I don't play puzzle games is because I don't like to get stuck on hard puzzles – it makes me feel stupid.
 
 But then I tried these two games...
 
-### The Talos Principle
+## The Talos Principle
 
 As I said, the frustration of being stuck in a puzzle is not my cup of tea. I thought Talos would be even harder. It is harder, yes, but no puzzle requires you to be clever or use a trick. You have all the information you need to solve the puzzle.
 
@@ -33,7 +33,7 @@ Also, throughout the levels you will see this QR codes, with messages from "prev
 
 The build up to the ending was amazing. You have a choice to make and different endings based on that choice and your previous interactions with the AI. This game is like a brain gym. **I enjoyed every hour of it.** Highly recommend it.
 
-### The Witness
+## The Witness
 
 ![The Witness](../../assets/blog/uploads/2022/09/The_Witness_Screenshot_2020.02.13_-_18.56.43.81-1024x576.jpg)
 
@@ -45,7 +45,7 @@ The puzzles start simple and quickly ramp up. The main rule is draw a line from 
 
 Sometimes, you need to pay close attention to your surroundings or you need to change perspective to solve it. Some levels felt like an escape room, the answer was right in front of me yet I didn't see it and then it clicked! :slightly\_smiling\_face:
 
-### tl;dr
+## tl;dr
 
 Anti chamber Superliminal Manifold garden Baba is you
 

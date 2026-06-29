@@ -7,7 +7,7 @@ tags: ["story"]
 categories: ["Work"]
 ---
 
-### Some companies force their employees to wear a suit everyday. That simple rule creates a dangerous spiral of negativity.
+## Some companies force their employees to wear a suit everyday. That simple rule creates a dangerous spiral of negativity.
 
 John must wear a suit (jacket, tie, and _all that jazz_) everyday at work because it "boosts credibility". Today is a hot day and John's bus is packed. By the time he reaches the office his forehead is sweaty and his shirt is wet under his armpits. Too bad, time to fasten the tie and wear the jacket - and the smile.
 
@@ -19,6 +19,6 @@ John finally reaches home and changes his suit for his favorite t-shirt and most
 
 When entering his bed, John confirms what he already suspected: after three days without snickers he made a blister on his right heel. He's too tired to worry about that now. Time to rest, tomorrow will be another long day.
 
-### Conclusion
+## Conclusion
 
 Suits are unconfortable and expensive, thus making people unhappier, poorer and smellier. Suits imply air conditioners, thus consuming more natural resources. Nevertheless, you _must_ use it because they make you _look_ successful and intelligent. C'mon, you know there are bad people using suits and ties, and good people using shorts and slippers. Therefore **it's not clothes that matter, it's the mannequins that wear them!** "O hábito não faz o monge".

@@ -8,7 +8,7 @@ tags: ["decisions", "minimalism"]
 categories: ["Life"]
 ---
 
-### It's easy to get caught on a routine. Have you considered why you do what you do? Maybe your life is being used as a means for someone else's end...
+## It's easy to get caught on a routine. Have you considered why you do what you do? Maybe your life is being used as a means for someone else's end...
 
 - Is your job a mean to become increasingly wealthy?
   - or, is wealthiness a mean for you to freely choose your job?

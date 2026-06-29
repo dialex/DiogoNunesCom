@@ -11,7 +11,7 @@ categories: ["Technology"]
 
 The goal is to create a Google Sheet that can track the historical PageSpeed Insights (PSI) perfomance data of one or more pages/URLs. You will use JavaScript code to call the PageSpeed Insights API and store the result in your sheet.
 
-### Run the test + Store the data
+## Run the test + Store the data
 
 For each target URL, the script will run the PSI test for both desktop and mobile and record the overall test score (configurable). Since the PSI scores tend to slightly vary between executions, the script runs the test three times (configurable) and store the average.
 
@@ -94,7 +94,7 @@ The script will store the results in a sheet named "Sheet1" (configurable). If y
 
 You can test the script by opening the **Select function** menu, selecting **monitor**, and clicking the **Run** button. For your first run, you'll need to authorize the script to run the API. If all goes well, you can open up your sheet to see the results.
 
-### Run it on a schedule
+## Run it on a schedule
 
 Right now, you can run the PSI test with the click of a button. But ideally the test would run every day automatically. Luckily, we can configure triggers to run our script:
 
@@ -109,7 +109,7 @@ Right now, you can run the PSI test with the click of a button. But ideally the 
 
 That's it. Now your Google Sheet will be updated on a daily basis with your latest PSI scores for your target URLs.
 
-### tl;dr
+## tl;dr
 
 If you want to copy a Google Sheet that already contains all this (plus a dashboard), you can duplicate [this sheet from Rick Viscomi](https://docs.google.com/spreadsheets/d/1VBHLI7v_07t8iDlagrYgiLaYrKGMTRJRwonZ5I4MPm8/edit?usp=sharing). Go to "File > Make a copy..." to clone it. Everything is now set up for you except for the API key property and the daily trigger. Follow the steps above to set those up.
 

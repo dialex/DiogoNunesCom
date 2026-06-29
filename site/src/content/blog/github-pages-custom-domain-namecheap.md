@@ -7,7 +7,7 @@ tags: ["tutorial", "web dev"]
 categories: ["Technology"]
 ---
 
-### No extra cost for using a custom domain.
+## No extra cost for using a custom domain.
 
 To have a website online you need two things: a **domain** and a **host**. I'm assuming you already bought a cool and cheap domain on Namecheap (they're great). Now the only thing missing is a place to host your website.
 
@@ -17,7 +17,7 @@ I wanted to publish a really simple landing page to test an idea. There are seve
 
 Then I found GitHub Pages.
 
-### ~Publish~ Push your static website to GitHub Pages
+## ~Publish~ Push your static website to GitHub Pages
 
 1. You know the drill: create repo, commit html/css/js files, push.
 2. Visit your repository on GitHub.
@@ -25,14 +25,14 @@ Then I found GitHub Pages.
 
 You should be able to view your site on a url like `username.github.io/repo`. That's not fancy. Let's change it to your awesome domain.
 
-### Prepare GitHub Pages to use a custom domain
+## Prepare GitHub Pages to use a custom domain
 
 1. Create a file named `CNAME`. Add a single line with `domain.com`.
 2. Commit and push.
 3. Visit your repository on GitHub.
 4. Go to **Settings > GitHub Pages > Custom domain**. Input your `domain.com`.
 
-### Point your custom domain to GitHub's servers
+## Point your custom domain to GitHub's servers
 
 [GitHub has an official guide](https://help.github.com/articles/setting-up-an-apex-domain/) to do this. Here's what worked for me:
 
@@ -47,7 +47,7 @@ You should be able to view your site on a url like `username.github.io/repo`. Th
     1. For **Host** type `www`.
     2. For **Value** type `your-username.github.io.`. Mind the final dot.
 
-### Leave in the oven for 30 minutes or 24 hours
+## Leave in the oven for 30 minutes or 24 hours
 
 With DNS I'm never really sure how much time to wait. The first time I tried it took one day to update. The next time it only took 15 minutes and a browser cache reset to start working.
 

@@ -16,14 +16,14 @@ I already use [AniList](https://anilist.co/) to track my anime watching and I'm 
 
 And thus I started my experiment.
 
-### [IMDB](https://www.imdb.com/)
+## [IMDB](https://www.imdb.com/)
 
 An IMDB profile [looks like this](https://www.imdb.com/user/ur122404087/ratings?ref_=nv_usr_rt_4&mode=grid&sort=date_added,desc).
 
 - ❌ Old clunky design
 - ❌ Mixes movies and shows
 
-### [Rotten Tomatoes](https://www.rottentomatoes.com/)
+## [Rotten Tomatoes](https://www.rottentomatoes.com/)
 
 A Rotten Tomatoes profile [looks like this](https://www.rottentomatoes.com/user/id/978799476/tvratings).
 
@@ -31,11 +31,11 @@ A Rotten Tomatoes profile [looks like this](https://www.rottentomatoes.com/user/
 - ❌ I have to score each season independently (very cumbersome)
 - ❌ The profile design is bad (hard to skim, small covers, doesn't display as grid)
 
-### [TvTime](https://www.tvtime.com/)
+## [TvTime](https://www.tvtime.com/)
 
 Given their website UI/UX, didn't even try it.
 
-### [Trakt](https://trakt.tv/)
+## [Trakt](https://trakt.tv/)
 
 A Trakt profile [looks like this](https://trakt.tv/users/dialex/ratings/movies/all/highest).
 
@@ -45,6 +45,6 @@ A Trakt profile [looks like this](https://trakt.tv/users/dialex/ratings/movies/a
 - ❌ If I don't score it, it doesn't appear in my profile
 - ❌ Although the UI looks modern, it's not always the most intuitive
 
-### tl;dr
+## tl;dr
 
 Out of the four websites reviewed, and given my evaluation criteria, **Trakt was the winner**. These are my lists of watched [movies](https://trakt.tv/users/dialex/ratings/movies/all/highest) and [shows](https://trakt.tv/users/dialex/ratings/shows/all/highest). I've been using Trakt for three months and I'm happy with my choice.

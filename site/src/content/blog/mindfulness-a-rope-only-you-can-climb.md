@@ -8,7 +8,7 @@ tags: ["dark corner", "experience", "mindfulness"]
 categories: ["Life"]
 ---
 
-### I hit the bottom. Again.
+## I hit the bottom. Again.
 
 My existencial dread dragged me down hard. It wasn't this bad since 2014. In the last month I had one big panic attack and half a dozen smaller anxiety spikes. Maybe I'll talk about it in another post.
 
@@ -16,7 +16,7 @@ Apparently the only "medicine" is learning and practicing mindfulness, so my the
 
 The book has two theory chapters and I found so many _"that's how I feel!"_ moments that I decided to share this summary. If you are struggling with similar issues, give that book a try. I've highlighted my issues ⚠️ and my coping mechanisms ✅.
 
-### ⛈ Attitude: Understanding the problem
+## ⛈ Attitude: Understanding the problem
 
 We try so hard to be happy that we end up missing the most important parts of our lives and destroying the very peace that we were seeking.
 
@@ -38,7 +38,7 @@ The body is very sensitive to emerging unsettling feelings when you are becoming
 
 ⚠️ **We re-live past events and re-feel their pain, and we pre-live future disasters and so pre-feel their impact.**
 
-### (Negative) Feedback loops
+## (Negative) Feedback loops
 
 Emotions are like a background color that's created when your mind fuses together all of yours thoughts, feelings, desires and body sensations.
 
@@ -52,7 +52,7 @@ If you feel threatened, the mind instantly digs up memories of when you felt end
 
 ⚠️ **You can easily end up thinking, working, eating, walking or driving without clear awareness of what you are doing. You don't notice what's going on around you. You miss much of your life in this way.**
 
-### ☀️ Attitude: Finding solutions
+## ☀️ Attitude: Finding solutions
 
 Context has a huge effect on your memory. The world is full of (memory) triggers. Has a song ever sparked a cascade of emotionally charged memories? Or an object? Or a place?
 

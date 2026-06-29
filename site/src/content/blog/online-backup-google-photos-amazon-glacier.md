@@ -8,7 +8,7 @@ tags: ["experience", "review", "utilities"]
 categories: ["Photography"]
 ---
 
-### The winner depends on your needs
+## The winner depends on your needs
 
 I started with manual backups of my photos on a local external drive. It was boring and unreliable. So I started considering online services.
 
@@ -16,13 +16,13 @@ I started with manual backups of my photos on a local external drive. It was bor
 
 Two services, out of the dozens I tried, survived my criteria.
 
-### Google Photos
+## Google Photos
 
 ![](../../assets/blog/uploads/2019/11/google-photos-400x400.jpeg)
 
 I recommend if you are an amateur photographer, who only uses JPGs and doesn't worry about resolutions above 16MP.
 
-#### What they don't tell you
+### What they don't tell you
 
 Here's what their documentation doesn't mention (I had to discover it by trial and error):
 
@@ -32,7 +32,7 @@ Here's what their documentation doesn't mention (I had to discover it by trial a
 - NEFs/RAWs are uploaded, but once in the cloud you can only download them as JPG
 - If you upload the same photo twice (via web or via uploader), it will detect that it is a duplicate and ignore it
 
-#### Verdict
+### Verdict
 
 Very easy to use. You can upload photos by drag and drop on your browser or by syncing any folder on your computer.
 
@@ -40,20 +40,20 @@ But it is horrible to store originals, because of the weird way it handles RAWs/
 
 It's one of the cheapest and potentially free (if your photos are <16MP).
 
-### Amazon Glacier
+## Amazon Glacier
 
 ![](../../assets/blog/uploads/2019/11/amazon-glacier-logo.jpg)
 
 I recommend if you are an enthusiastic/pro photographer, who uses mostly RAWs/NEFs with big resolutions. A Software Engineering degree might also be required (I'm only half joking).
 
-#### What they don't tell you
+### What they don't tell you
 
 - [The setup is a nightmare!](https://thegreyblog.blogspot.com/2012/12/amazon-s3-and-glacier-cheap-solution.html) I have a master degree on Computer Science and even I had trouble knowing what I was doing.
 - Amazon's UI is not user friendly at all. The naming used is mostly tech jargon. You will be staring at stuff you have no clue what it means.
 - You need a software to sync the files from folder to Amazon's Glacier cloud. Just like with GPhotos. Except Amazon doesn't provide that app.
 - There are a couple free apps for [Windows](https://www.cloudwards.net/best-backup-tools-amazon-glacier/), but for Mac you have a single freemium app called [Freeze](https://www.freezeapp.net/), which does the job.
 
-#### Verdict
+### Verdict
 
 Confusing and frustrating setup and tooling.
 
@@ -63,6 +63,6 @@ And the cost per GB is the cheapest in the market for high volumes of data. If y
 
 * * *
 
-### tl;dr
+## tl;dr
 
 Use GPhotos if you only use JPG of low resolution and favor ease of use. Use Amazon Glacier if you work with RAW+Edits and favor cheap high-resolution backups.

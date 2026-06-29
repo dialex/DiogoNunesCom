@@ -16,7 +16,7 @@ Our goal was to create a `SignUpTemplatePage.java` with the page behaviour that 
 
 It wasn't straightforward to achieve it with JavaScript and Cypress' async behaviour. Thanks to the help of a friendly developer, we did it:
 
-### The test
+## The test
 
 ```js
 describe("Sign Up page", () => {
@@ -36,7 +36,7 @@ describe("Sign Up page", () => {
 })
 ```
 
-### The switch (returns the country PageObject)
+## The switch (returns the country PageObject)
 
 ```js
 import { ConfigHelper } from "../utils/configHelper"
@@ -61,7 +61,7 @@ export function getSignupUserPage() {
 }
 ```
 
-### The template (contains what is common)
+## The template (contains what is common)
 
 ```js
 import { ConfigHelper } from "../utils/configHelper";
@@ -92,7 +92,7 @@ export class SignupUserPageTemplate {
 export const signupAgencyUserPageTemplate = new SignupAgencyUserPageTemplate();
 ```
 
-### The country page (contains what is different)
+## The country page (contains what is different)
 
 ```js
 import { SignupUserPageTemplate } from "../SignupUserPageTemplate";

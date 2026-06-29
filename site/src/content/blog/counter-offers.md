@@ -8,7 +8,7 @@ tags: ["decisions", "experience"]
 categories: ["Work"]
 ---
 
-### And why I think they're unfair for everyone
+## And why I think they're unfair for everyone
 
 What is a counter offer? It's when you interview with another company, receive an offer, and then you go back to your current company and state "Look, this other company values me more than you currently do. Will you improve my package in order to keep me or should I leave?"
 

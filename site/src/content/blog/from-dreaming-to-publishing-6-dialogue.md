@@ -16,7 +16,7 @@ _This post is part of the ["From Dreaming to Publishing" series](/blog/?s=From+D
 - "she said sadly" is a cheat, in reality she _just_ said but _with her chin trembling_
 - Use the required speaker attributions for us readers to know who's speaking and answering, from then on we can guess
 
-### Checklist
+## Checklist
 
 - Cutout emotions mentioned out of the dialogue
 - Highlight explanations, -ly adverbs, adjectives

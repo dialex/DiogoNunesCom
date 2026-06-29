@@ -9,7 +9,7 @@ categories: ["Work"]
 
 ![](../../assets/blog/uploads/2014/10/i-like-this-job-marginally-more-than-being-homeless-64fc3.png)
 
-### Should you quit your job?
+## Should you quit your job?
 
 Well if you're asking yourself that question probably something is indeed wrong with your job. This infographic is a quick (and good-humored) way to assess if you should start looking for a better job. The guys at [JOBBOX](http://www.jobbox.io/) created a nice [survey](https://www.qzzr.co/quiz/are-you-happy-with-your-current-tech-job) customized for tech jobs.
 
@@ -19,7 +19,7 @@ Well if you're asking yourself that question probably something is indeed wrong 
 
 Maybe explaining your worries to your manager would improve your current situation? Maybe you just need a different team, or project, or set of responsibilities. Make sure you try pinpoint what the real problem is. This is a big decision, and you have to be confident about it.
 
-### The decision
+## The decision
 
 The [signs](https://www.linkedin.com/today/post/article/20140721130505-68335342-7-signs-it-is-time-to-quit-your-job) are all there... you're pretty sure you don't want this job anymore. Then it's time to tell it to your boss. This is a delicate situation and you should handle it great with (emotional) intelligence and professionalism. If you were doing your job right, this will hurt them more than you, so be prepared. Get ready for the [five stages of grief](http://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model):
 
@@ -29,7 +29,7 @@ The [signs](https://www.linkedin.com/today/post/article/20140721130505-68335342-
 - **Depression** - They won't show you this phase.
 - **Acceptance** - After 30 awkward minutes your boss will finally accept that you're quitting no matter what. And he or she will ask you one last thing: time. By law you ought to communicate your decision of quitting the company at least 30 days before effectively walking out the door for the last time. This gives your employer time to deal with the necessary legal stuff, find a substitute, transfer as much of your knowledge as possible, mitigate your exit's impact on ongoing projects, and craft a dark magic spell to forever curse your professional life (let's hope not!)
 
-### The farewell
+## The farewell
 
 I use Chrome's [Momentum extension](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en), therefore everyday I read one random quote. I was presented with this quote on the day I told my boss I was quitting:
 
@@ -41,7 +41,7 @@ It doesn't really matter if others support your decision or not; you're doing th
 
 ![fuck you, you're cool](../../assets/blog/uploads/2014/10/fuck-you-youre-cool.gif)
 
-### The search
+## The search
 
 Ideally you'll quit your current job and start [your next job](http://www.linkedin.com/today/post/article/20140203202352-7668018-how-many-career-mistakes-are-too-many) the following Monday or sooner. I hope you didn't quit without having a better job offer or at least a plan to find or create your next job. If you did then you're reckless and you're taking unnecessary risks. In that case, you know the drill: look for job offers, search LinkedIn, send CVs, etc. etc.
 

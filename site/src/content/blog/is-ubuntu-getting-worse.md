@@ -8,7 +8,7 @@ tags: ["operating system"]
 categories: ["Technology"]
 ---
 
-### Does Ubuntu hate me or is it really getting worse?
+## Does Ubuntu hate me or is it really getting worse?
 
 I started using Ubuntu in 2009 when I had to develop C and Java software for some courses at college. Back in those days the only think I knew about linux or unix was that it had something to do with penguins and gnus. I had a hard time getting used to the UI even more to the command line.
 
@@ -20,7 +20,7 @@ Meanwhile Unity came with 11.04 Natty Narwhal, I didn't like it and switched to 
 
 **Despite my personal requirements, Ubuntu was a stable, enjoyable, fast and powerful operating system.** Not yet an alternative for me but a nice complement to Windows. Certainly **_the_ OS to develop software.**
 
-### Ubuntu today
+## Ubuntu today
 
 The last version I tried was 13.04 Raring Ringtail. And I finally gave up on Ubuntu as an alternative.
 
@@ -28,7 +28,7 @@ At my bedroom I have a docking station setup for my computer: I have a LCD monit
 
 Another thing I'm quite used to do on Windows is to press the shutdown button to suspend the laptop if I'm going to be AFK for a while. I did that once on Ubuntu and learned the lesson - **never suspend**. Ubuntu suspended correctly turning off the fans, but when I pressed the power button to resume my session I couldn't get passed a black screen despite the laptop being back on full power. Once again, **forced restart and loss of my work**. It's not like I'm asking Ubuntu to natively take advantage of [NVIDIA's Optimus technology](http://www.nvidia.com/object/optimus_technology.html) - which would be great - since I know ["NVIDIA is the worst trouble spot on hardware manufacturing"](http://youtu.be/iYWzMvlj2RQ?t=29s) (Linus Torvalds). No, I'm just asking to suspend my computer! That's as basic as shutting down!
 
-### Final thoughts
+## Final thoughts
 
 I like the Ubuntu project, what it is and what it represents. I like their [vision to unify desktop, tablets, mobile (and TV)](http://www.techradar.com/news/phone-and-communications/mobile-phones/canonical-s-long-road-to-the-ubuntu-phone-1206455) in a single OS and UI. I admire the effort the put on to create a powerful and beautiful operating system free for everyone. After all this years using Ubuntu [I actually made a donation](/blog/free-software-make-a-donation/). What I don't like are these tiny little things that greatly limit my work on Ubuntu.
 

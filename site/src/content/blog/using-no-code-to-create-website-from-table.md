@@ -10,7 +10,7 @@ categories: ["Technology"]
 
 I have been hearing about "no-code" solutions for a while but never had the chance to use one. The concept is interesting because programming is usually a barrier for the average person. If they are not required to code, many more people would be able to develop digital and automated solutions to their problems.
 
-### Goal
+## Goal
 
 Let's say I want to create **a website with a curated list of local clubs and other infrastructures that promote a high quality of life**.
 
@@ -21,7 +21,7 @@ Given a person wants to practice basketball
   And they see a list places to practice basketball
 ```
 
-### Requirements
+## Requirements
 
 1. Collect data in rows
 2. Categorize data with tags
@@ -32,7 +32,7 @@ Given a person wants to practice basketball
     - With modern look
     - With free upkeep (domain + hosting)
 
-### Candidates
+## Candidates
 
 - To implement requirement 1 and 2:
   - [Airtable](https://airtable.com/)
@@ -65,7 +65,7 @@ Here's the detailed breakdown of my experience:
   - ✅ Plenty of examples and tools to implement requirement #3
   - Airtable wins ([Notion vs Airtable](https://radreads.co/notion-airtable/))
 
-### Implementation
+## Implementation
 
 - ✅ Requirement 1+2: **collect data in rows**, using [Airtable](https://airtable.com/)
   - Easy to create the base's structure, plenty of field types

@@ -9,11 +9,11 @@ categories: ["Work"]
 
 ![](../../assets/blog/uploads/2015/01/dinheiro-e1421522886553.jpg)
 
-### Before opening the Pandora Box, read this or regret.
+## Before opening the Pandora Box, read this or regret.
 
 What should you do when your team is underperforming or misaligned with your company's strategy? One solution you might think of is implementing an employee bonus system, after all humans reward desired behaviors for centuries, either with sugar cubes, toys, or bonus paychecks. **Be advised that you're playing with fire.** One misguided step and you might reduce to ashes your authority, your teamwork environment, and your products' quality.
 
-### Metrics
+## Metrics
 
 ![horse race](../../assets/blog/uploads/2015/01/horse-race-e1421518163199-1024x409.jpg)
 
@@ -27,7 +27,7 @@ For a moment now, recall the days when you were at school. Imagine that a teache
 
 Those who **work for the metrics** will get ahead of those who **work for the people** and keep spending time on unmeasured things. And when the latter group figures that out, they'll eventually join the former. At this point you either give up on metrics or add up all the missing metrics describing every employee's responsability. So much for your simple scoring system...
 
-### Rewards
+## Rewards
 
 \[ted id=618\]
 
@@ -43,7 +43,7 @@ Decades of research have confirmed, [again](https://www.ted.com/talks/dan_pink_o
 
 In the words of [Dan Pink](https://www.ted.com/talks/dan_pink_on_motivation), "all you can do to **motivate knowledge workers** is to give them interesting work and autonomy."
 
-### Is there hope?
+## Is there hope?
 
 ![](../../assets/blog/uploads/2015/03/shutterstock_112656725-690x300.jpg)
 

@@ -9,21 +9,21 @@ categories: ["Life"]
 
 
 
-### Context
+## Context
 
 Residential areas called suburbs are built around cities' borders. Likewise, industrial areas and offices where pushed even farther and are usually built in the middle of nowhere, since those lands are cheaper. The average family's quality of life improved substantially (not much in these last years) and each family now owns a house and at least one car.
 
-### Problem
+## Problem
 
 Everyone lives away from work and everyday there's an exodus of people from home to work and back again. The total costs of commuting are huge and diverse (e.g. time, energy, quality of life, productivity, sustainability).
 
-### Solutions
+## Solutions
 
 **Electrical cars?** They are efficient and they don't consume fossil fuels but they're still too expensive for the average family. Moreover, it would only mitigate the problem on the short term. You would end up with less CO2 emissions, but the roads would still be packed with the same number of frustrated drivers going from home to work.
 
 **Mass transportation?** A better solution as a whole and more affordable for families. Trains and subways are much faster than cars so you (the worker) would reduce your commuting time. Since you don't have to drive your transportation you can effectively use that time to read the news or check your email. By doing so, when you get home you'll have more free time for your family. However... subways only speed you up when you're moving inside the city's center; trains are scarce; and buses have unreliable timetables due to traffic jams.
 
-### The effective solution
+## The effective solution
 
 One could solve the cause of this problem in three ways:
 
@@ -33,7 +33,7 @@ One could solve the cause of this problem in three ways:
 
 Following these three steps it's possible to increase citizen's quality of life, improve workers' mobility, strengthen buyers' purchasing power, rejuvenate historical cities, decrease traffic and lower cities' energy consumption.
 
-### The case-study: me
+## The case-study: me
 
 I currently take about five minutes to reach my workplace... by foot! And let me tell you, the improvement in quality life is huge and at multiple levels.
 

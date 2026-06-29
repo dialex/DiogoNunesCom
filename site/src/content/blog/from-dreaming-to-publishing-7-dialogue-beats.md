@@ -17,7 +17,7 @@ _This post is part of the ["From Dreaming to Publishing" series](/blog/?s=From+D
 - Readers aren't fools, they can picture what you're saying, don't limit their imagination
 - Find your rhythm and balance
 
-### Checklist
+## Checklist
 
 - How often do you interrupt dialogue with beats?
 - Familiar everyday actions as beats? Drop them!

@@ -12,9 +12,9 @@ categories: ["Technology"]
 
 This is a collection of simple and recurring scenarios when writing Cypress tests. For more complex recipes, check the [official doc](https://docs.cypress.io/examples/examples/recipes.html).
 
-### Setup
+## Setup
 
-#### Abort cypress after first failed test
+### Abort cypress after first failed test
 
 Add this inside your `describe` block:
 
@@ -28,7 +28,7 @@ afterEach(function() {
 
 More info on this [GitHub thread](https://github.com/cypress-io/cypress/issues/518).
 
-#### Read a test file from fixtures
+### Read a test file from fixtures
 
 You have [three ways](https://github.com/cypress-io/cypress/issues/3963#issuecomment-483581934) to do it:
 
@@ -38,9 +38,9 @@ You have [three ways](https://github.com/cypress-io/cypress/issues/3963#issuecom
 
 * * *
 
-### Assertions
+## Assertions
 
-#### Assert the text of a page (string or number)
+### Assert the text of a page (string or number)
 
 Your page has text, some are words some are numbers. It's not [straightforward](https://github.com/cypress-io/cypress/issues/630) to get the text of a page:
 
@@ -60,7 +60,7 @@ cy.get("selector")
   .should("be.above", 2)
 ```
 
-#### Assert the number of elements selected
+### Assert the number of elements selected
 
 ```js
 // assert number of elements selected
@@ -75,7 +75,7 @@ cy.get("selector")
   .should("be.gte", 4) // greater than or equal
 ```
 
-#### Assert the result of two Cypress commands
+### Assert the result of two Cypress commands
 
 It is not recommended that you assign return values of Cypress commands (async):
 
@@ -100,9 +100,9 @@ cy.get("#btn")
 
 * * *
 
-### Actions
+## Actions
 
-#### Upload a file
+### Upload a file
 
 ```js
 Cypress.Commands.add("uploadFile", (selector, fileName, mimeType) =>
@@ -126,9 +126,9 @@ Cypress.Commands.add("uploadFile", (selector, fileName, mimeType) =>
 
 * * *
 
-### Selectors
+## Selectors
 
-#### Given a list, return row that contains specific text
+### Given a list, return row that contains specific text
 
 `cy.contains("text")` is not as eficient or precise as the alternative below.
 
@@ -138,7 +138,7 @@ Cypress.Commands.add("uploadFile", (selector, fileName, mimeType) =>
 cy.contains("#results li.item", "Lisbon (District)")
 ```
 
-#### Selector is flaky due to page redesigns
+### Selector is flaky due to page redesigns
 
 Write a selector that searches by data atribute, instead of id or css path.
 
@@ -152,7 +152,7 @@ Write a selector that searches by data atribute, instead of id or css path.
 cy.get("[data-cy='searchBar']")
 ```
 
-#### Type text into input field and press enter
+### Type text into input field and press enter
 
 You can combine JS [template strings](https://stackoverflow.com/a/32202320/675577) with Cypress [Enter](https://docs.cypress.io/api/commands/type.html#Arguments) special key.
 
@@ -161,11 +161,11 @@ const text = "text to input on search"
 cy.get("selector").type(`${text}{enter}`)
 ```
 
-#### Select element inside iframe
+### Select element inside iframe
 
 Use the [cypress-iframe](https://www.npmjs.com/package/cypress-iframe) plugin and follow their instructions.
 
-#### Use selector `X` to narrow down area, and then use selector `Y` to find element
+### Use selector `X` to narrow down area, and then use selector `Y` to find element
 
 Simple selectors tend to match more elements than you want. You might want use your simple selector after narrowing down the search with another selector. Use [`cy.find`](https://docs.cypress.io/api/commands/find.html).
 
@@ -178,11 +178,11 @@ cy.contains("li.todo", "My task") // <-- narrow down
 
 * * *
 
-### Waits
+## Waits
 
 Avoid as much as possible doing `cy.wait(milli)`. There are other, more efficient, ways.
 
-#### Wait until a network (ie. HTTP/XHR) request resolves
+### Wait until a network (ie. HTTP/XHR) request resolves
 
 You need to wait for an HTTP request to finish to continue with your test. You don't start the request, it is made implicitly by the system you're testing. The UI doesn't tell you for sure if the request finished. To be accurate you need to listen at the network level. [(read more)](https://github.com/cypress-io/testing-workshop-cypress/blob/master/slides/05-xhr/PITCHME.md)
 
@@ -195,7 +195,7 @@ cy.visit("/") // this page implicitly calls the spied endpoint
 cy.wait("@listAll") // cy.server spies the endpoint and waits until a reply
 ```
 
-#### Wait until a condition becomes true
+### Wait until a condition becomes true
 
 Using the [waitUntil](https://github.com/NoriSte/cypress-wait-until) plugin you can execute/repeat code until a given condition becomes true. This is useful when your code depends on some external background tasks (e.g. cron job).
 
@@ -228,11 +228,11 @@ cy.get(cssSelector).should("exist")
 
 * * *
 
-### Mocks
+## Mocks
 
 When writing E2E tests usually we avoid mocks, since the point is to test "the real deal". If you must...
 
-#### Force a specific response to an HTTP request
+### Force a specific response to an HTTP request
 
 `cy.route` can both spy network requests or fake responses to those same requests. You just need to pass the response you want, see [official doc](https://docs.cypress.io/api/commands/route.html#Syntax).
 

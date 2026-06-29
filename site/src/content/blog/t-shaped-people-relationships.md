@@ -8,7 +8,7 @@ tags: ["relationships"]
 categories: ["Thoughts"]
 ---
 
-### The best couples complement each other
+## The best couples complement each other
 
 The first time I heard the concept "[T-shaped person](https://jchyip.medium.com/why-t-shaped-people-e8706198e437)" was at work, in the context of _teams_. These are people who have an average knowledge on many subjects and specialise in one (or a few) of them.
 

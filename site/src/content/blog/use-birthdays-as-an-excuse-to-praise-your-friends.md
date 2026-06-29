@@ -7,13 +7,13 @@ tags: ["kindness", "relationships"]
 categories: ["Life", "Thoughts"]
 ---
 
-### Maybe they deserve more than two words.
+## Maybe they deserve more than two words.
 
 If you want to show off a lot of effort send a _" Happy Birthday \_\_\_\_\_\_! Cheers :) "_ The smiley face is really important since it adds a bit of humanity to an otherwise emotionless message.
 
 I mean, these days who has time to congratulate [over 9000](http://knowyourmeme.com/memes/its-over-9000) friends? I know, right? Your post just adds up to the existing hundreds, all saying the same with different grammatical cases. And by the end of the day your friend will post a global "thanks" with the same coldness of the congrats he/she received.
 
-### Do this instead. It's better for both.
+## Do this instead. It's better for both.
 
 Think about it: what is this day about anyway? It means X years ago your friend came to this world. It also means he/she is an year closer to leave it. That's harsh but true nonetheless. I'm sick and tired of seeing people getting ignored on a daily basis, but deeply praised after they die. Guess what, they can't see you or hear you inside that coffin!
 

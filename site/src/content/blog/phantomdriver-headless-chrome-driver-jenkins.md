@@ -7,7 +7,7 @@ tags: ["testing", "tutorial"]
 categories: ["Technology"]
 ---
 
-### I had to make that joke ☝️
+## I had to make that joke ☝️
 
 **UPDATE:** The initial goal of this post was to guide you through the configuration of the headless Chrome (Driver) on Jenkins. However, in the meantime this happened:
 
@@ -22,7 +22,7 @@ Therefore I downgraded my _soon-to-be-made-obsolete-by-Chrome-59_ tutorial to a 
 
 > **Xvfb** (short for X virtual framebuffer) is an in-memory display server for UNIX-like operating system (e.g., Linux). It enables you to run graphical applications without a display (e.g., browser tests on a CI server) while also having the ability to take screenshots.
 
-### Helpful links
+## Helpful links
 
 [This awesome guide](http://elementalselenium.com/tips/38-headless) will tell you **how to install and configure Xvfb**.
 

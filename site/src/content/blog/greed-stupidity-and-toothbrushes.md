@@ -24,7 +24,7 @@ I researched a bit and there's a few ideas out there:
 
 Why can't we design an optimised toothbrush that is **more sustainable and also cheaper to produce and sell?** It's not rocket science and everybody wins: the company, the consumer, the environment.
 
-### The current toothbrush
+## The current toothbrush
 
 This is the current toothbrush, the one we're using for decades:
 
@@ -33,7 +33,7 @@ This is the current toothbrush, the one we're using for decades:
 3. After 3 months your throw it away
 4. You buy a new one, that will last another 3 months
 
-### The perfect toothbrush
+## The perfect toothbrush
 
 Here's the perfect toothbrush, that no one created yet:
 
@@ -52,7 +52,7 @@ We have the tech, it's not a massive difference from the current processes and i
 3. _Reuses_ an item (3 Rs)
 4. Minimises _shipping_ costs
 
-### The dream
+## The dream
 
 Look at these products, all from the same brand (not sponsored).
 
@@ -70,7 +70,7 @@ I compared the prices and calculated the unit price of each toothbrush.
 
 _The most wasteful product is the cheaper!_ WAT?! The sustainable and reusable toothbrush is 66% more expensive than the disposable toothbrush! I sweared in the supermarket.
 
-### The nightmare
+## The nightmare
 
 How can you remove material (the company boasts about it, it's the whole thing of that product) and still make the end product more expensive? It's like "we can send you an email instead of a physical paper letter, but you have to pay extra".
 
@@ -82,6 +82,6 @@ Toothbrushes are just an example, there's plenty more – recycled paper being m
 
 If we want to solve the sustainability issue of our generation, we must turn emotional decisions into rational decisions. If we wait for people to feel guilty and buy the costlier sustainable product, we will never solve the root issue.
 
-### The future
+## The future
 
 I'll keep brushing my teeth with my jaw clenched, thinking about how unnecessarily messed up our world is. The difference is now I'll be using the new handle with detachable heads. And paying extra for it. Company wins, environment wins, consumer loses.

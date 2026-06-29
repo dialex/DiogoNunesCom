@@ -9,7 +9,7 @@ categories: ["Life"]
 
 [](https://leanpub.com/purpose)
 
-### The [result](https://leanpub.com/purpose) of my self-discovery journey.
+## The [result](https://leanpub.com/purpose) of my self-discovery journey.
 
 Not so long ago, I was living every day like a robot, surviving by doing what I was told. It hurt, in many ways. My mind was full of unanswered questions which all boiled down to: **Why? For what?**
 

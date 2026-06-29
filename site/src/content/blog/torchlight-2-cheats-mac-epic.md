@@ -19,7 +19,7 @@ These instructions will work if you installed the game through **Epic Games** on
 
 _Note: Even though you need to be in a single player (offline) instance to use the cheats, everything you get through cheating will carry on to your multiplayer sessions (online)._
 
-### Enable the console
+## Enable the console
 
 This is the hardest part. You need to find the location of your `settings.txt` file.
 
@@ -34,7 +34,7 @@ Inside this folder you should see a file named `settings.txt`.
   - `Debugmenus:0` to `Debugmenus:1`
 - Save the file and close it
 
-### Rebind the console shortcut
+## Rebind the console shortcut
 
 For Windows users, the console is opened by pressing the `Insert` key. Mac users don't have that key, so we need to rebind it.
 
@@ -49,7 +49,7 @@ For Windows users, the console is opened by pressing the `Insert` key. Mac users
 
 From now on, the shortcut ⇧F will open the console.
 
-### Use the console
+## Use the console
 
 - Start the game
 - Choose single player session
@@ -58,7 +58,7 @@ From now on, the shortcut ⇧F will open the console.
 
 You should see the dev console and be able to type and submit cheat codes.
 
-### Cheat codes
+## Cheat codes
 
 But which codes can you use? There are several lists online for Torchlight 2: try [IGN](https://www.ign.com/wikis/torchlight-2/PC_Cheats) or [Gamefaqs](https://gamefaqs.gamespot.com/pc/604445-torchlight-ii/cheats).
 

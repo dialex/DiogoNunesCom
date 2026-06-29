@@ -7,7 +7,7 @@ tags: ["coding", "play framework", "rails", "review", "web dev"]
 categories: ["Technology"]
 ---
 
-### This post is a review of those three frameworks considering four criteria: Ease of learning, Speed of development, Tools/Plugins, and Community.
+## This post is a review of those three frameworks considering four criteria: Ease of learning, Speed of development, Tools/Plugins, and Community.
 
 Right from the start I banished PHP from my possible choices. I know that _"sufficiently talented coders can write great applications in terrible languages"_ ([Jeff Atwood](http://blog.codinghorror.com/php-sucks-but-it-doesnt-matter/)), but I just don't like PHP, probably because of its syntax, and [I'm not the only one](http://www.reddit.com/r/PHP/comments/1fy71s/why_do_so_many_developers_hate_php/). You can find a lot of \_\_\_\_ vs PHP comparisons online, and you'll see that the _challenger_ always win - except for [legacy](http://www.leonardteo.com/2012/07/ruby-on-rails-vs-php-the-good-the-bad/) reasons. And the main challengers I'm talking about are JavaScript (Node.JS), Ruby (Rails), Python (Django) and Java (Play).
 
@@ -15,7 +15,7 @@ My objective was to create a platform similar to [StackOverflow](http://stackove
 
 This post is a review of those three frameworks considering four criteria: **Ease of learning** (programming language, documentation, tutorials), **Speed of development** (programming productivity), **Tools & Plugins**, and **Community**.
 
-### Django
+## Django
 
 Django uses Python, known for its [simplicity and indentation rules](http://en.wikipedia.org/wiki/Python_syntax_and_semantics), which makes it a good language for programming beginners. The [Zen of Python](http://legacy.python.org/dev/peps/pep-0020/) advises that _"there should be one, and preferably only one, obvious way to do it"_ and it should be well [documented](http://stackoverflow.com/questions/7103500/learning-web-development-django-vs-node-vs-rails-vs-others/7104442#7104442). Since my [Q&A website](http://www.osqa.net/) just required the basic functionality of every dynamic website - create user, authenticate, post question, make comment, cast vote - I guessed there would be plenty tutorials explaining how to implement the basics using the one right way. **The [official documentation](https://docs.djangoproject.com/en/) exists but it won't be enough if you're a beginner** at dynamic web development. Sometimes **it assumes you know** something and skips an explanation that would help you understand the big picture. Doing [Codecademy's python course](https://www.codecademy.com/catalog/language/python) also helped me get a grasp on Python's syntax and semantics but that's like learning the abc. You might want to watch [these video tutorials](https://www.youtube.com/playlist?list=PLxxA5z-8B2xk4szCgFmgonNcCboyNneMD).
 
@@ -35,7 +35,7 @@ Thankfully, **the community exists, both on StackOverflow and Google Plus**, and
 \- ★★★☆☆ Tools & plugins  
 \- ★★★★☆ Community
 
-### Play
+## Play
 
 But wait, **why should I learn Python+Django from scratch when I could leverage on my Java skills and use them for webdev?** So Play Framework came to the rescue. Right away, I removed the effort of learning a new programming language. Besides I always enjoyed programming on Java. The quantity of [official documentation](http://www.playframework.com/documentation) was similar to Django's (ok maybe less) but it was more comprehensive and dummy-proof. "[Zentasks](http://www.playframework.com/documentation/2.3.x/JavaGuide1)" is a tutorial that guides you on the process of creating a website for task management. It's so much better than Django's approach: here **you start the tutorial with a clear tangible goal**; content is presented incrementally and logically; and plenty information and examples are provided on what you need to do and why.
 
@@ -53,7 +53,7 @@ Developing Play or Java on Eclipse is great, the syntax highlighting and auto-co
 \- ★★★☆☆ Tools & plugins  
 \- ★★★☆☆ Community
 
-### Rails
+## Rails
 
 There are so many great places to start learning Ruby and Rails. **99% of what you'll ever need is documented online by the community**; I only visited the official docs to check specific the signature of specific methods. First, you should do the quick course [Try Ruby](http://tryruby.org/levels/1/challenges/0), then get a [Ruby/Rails development environment](/blog/set-up-your-rails-env/), and finally follow every step of [The Ruby on Rails Tutorial](http://www.railstutorial.org/book) by Michael Hartl. You also have [screencasts](http://railscasts.com/) available. Ruby has a very natural and concise syntax, so if you're a programmer used to highly verbose languages (e.g. Java) you'll take a while to get used to it.
 
@@ -84,7 +84,7 @@ This is **the power that comes from an active open-source community**: somewhere
 \- ★★★★☆ Tools & plugins  
 \- ★★★★☆ Community
 
-### And the winner is...
+## And the winner is...
 
 ![](../../assets/blog/uploads/2014/09/home-by-now.png)
 
