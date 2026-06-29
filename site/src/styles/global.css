@@ -9,7 +9,7 @@
     dim --prefersdark;
 }
 
-/* Typography: Lato body, Fraunces headings (loaded via Google Fonts in BaseHead). */
+/* Typography: Lato body, Poppins headings (loaded via Google Fonts in BaseHead). */
 @theme {
   --font-sans: "Lato", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-heading: "Poppins", ui-sans-serif, system-ui, sans-serif;

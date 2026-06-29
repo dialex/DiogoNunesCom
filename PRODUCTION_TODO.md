@@ -61,11 +61,6 @@ keep this lean. Grouping is for context only.
       per-page `maxWidthClass`. Settle on shared conventions (a body size, when
       to justify, default content width) and apply them uniformly — ideally via
       shared components / global.css rather than per-page classes.
-- **3.** **Revisit heading font once there's more content.** Currently Lato body +
-      **Poppins** headings. Re-evaluate switching the title font to **Fraunces**
-      (the serif finalist) once more real pages/content exist, to judge it in
-      context. One-line change: `--font-heading` in `global.css` + the font load
-      in `BaseHead.astro`.
 - **4.** **Check badge & link colors (light/dark).** Review the color/contrast of badges (e.g. the
       `badge-secondary` date pills on achievements/cards) and link styling across
       the site for consistency with the emerald theme. Tune the daisyUI theme
@@ -113,6 +108,9 @@ keep this lean. Grouping is for context only.
 
 ## Open decisions
 
+- **Heading font (task 3) — DONE.** Trialled Fraunces, Noto Serif, Patua One and
+  Crete Round against Poppins in-context (home, about, blog, projects, books).
+  **Kept Poppins** — the serif/slab options didn't beat it for this content.
 - **Sitemap (task 9) — DONE.** `@astrojs/sitemap` was already wired; emits
   `sitemap-index.xml` → `sitemap-0.xml` on `astro build`. **Blog posts ARE
   included** (they're the SEO traffic drivers, see task 14); blog pagination
