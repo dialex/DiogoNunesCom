@@ -71,7 +71,6 @@ keep this lean. Grouping is for context only.
       etc. Settle on a config so it stays clean going forward.
 
 ### Infrastructure / build
-- **7.** **`npm audit`** — review 6 reported vulns (3 low, 2 moderate, 1 high).
 - **9.** **Sitemap:** generate fresh via the Astro sitemap integration; decide whether
       blog URLs are included.
 - **10.** **GH Action:** `astro build` → publish `site/dist/` to Pages.
