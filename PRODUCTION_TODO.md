@@ -37,7 +37,7 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 
 ### Look & feel
 
-- **2.** **Audit text consistency across all pages.** Review **text colour, font
+- **1.** **Audit text consistency across all pages.** Review **text colour, font
       size, and content margin/max-width** on every page (home, about, cv,
       projects, blog, books, achievements, 404). Too many inconsistencies
       creeping in: e.g. justified vs left-aligned body text, `card-body`'s
@@ -45,14 +45,14 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
       per-page `maxWidthClass`. Settle on shared conventions (a body size, when
       to justify, default content width) and apply them uniformly — ideally via
       shared components / global.css rather than per-page classes.
-- **16.** **Audit buttons → settle primary vs secondary.** Review every button across
+- **2.** **Audit buttons → settle primary vs secondary.** Review every button across
       the site and decide which is `primary` (one dominant action per view) vs
       `secondary` (everything else). Then **define the format** of each — including
       the `secondary` token itself, which is currently off-theme (blue/orange);
       either retune it (neutral/green-family) or style secondary buttons as
       `btn-outline`/`btn-ghost`/`btn-neutral` so they recede instead of clashing.
       Then **verify both themes** (light/dark) look right.
-- **17.** **Settle body font size.** Deferred from the task-2 audit (the harder half).
+- **3.** **Settle body font size.** Deferred from the task-1 audit (the harder half).
       Body copy is currently inconsistent: `text-lg` (home intro), `text-base`
       (about/books), ad-hoc `text-[15px]` (about cards), `prose-lg` (posts), and a
       broken `text-1xl` (not a real class → silently falls back to base) in
@@ -63,18 +63,18 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 
 ### Infrastructure / build
 
-- **10.** **GH Action:** `astro build` → publish `site/dist/` to Pages.
+- **4.** **GH Action:** `astro build` → publish `site/dist/` to Pages.
 
 ### Cut-over (last)
 
-- **11.** Merge `unified-redesign` → `migration/gh-pages`.
-- **12.** Flip GH Pages deploy to the build Action publishing **only** `site/dist/`
-      (with `base: "/DiogoNunesCom"` from task 8).
-- **13.** **Verify the new site** is live and correct at
+- **5.** Merge `unified-redesign` → `migration/gh-pages`.
+- **6.** Flip GH Pages deploy to the build Action publishing **only** `site/dist/`
+      (with `base: "/DiogoNunesCom"`, already configured).
+- **7.** **Verify the new site** is live and correct at
       `dialex.github.io/DiogoNunesCom/`: all pages 200, redirect shortcuts work, 404
       serves, assets/images load.
-- **14.** **SEO migration + domain wind-down** (`diogonunes.com` → github.io). Do this
-      *after* the new site is live (tasks 11–13). The domain is paid until
+- **8.** **SEO migration + domain wind-down** (`diogonunes.com` → github.io). Do this
+      *after* the new site is live (tasks 5–7). The domain is paid until
       **2026-09-10** — that's the 301 window. All steps free; ~1–2h one-time. Worth it
       because the tech tutorials (JColor, Cypress, Playwright…) draw organic search
       traffic; expect ~60–80% preserved through the transition, long tail lost when the
