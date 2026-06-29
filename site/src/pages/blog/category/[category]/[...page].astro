@@ -24,9 +24,9 @@ const { page, categoryName } = Astro.props;
 ---
 
 <BaseLayout title={`"${categoryName}" posts`} sideBarActiveItemID="blog">
-  <a href={withBase("/blog/")} class="mb-4 inline-block text-sm opacity-70 hover:opacity-100">&larr; Back to blog</a>
+  <a href={withBase("/blog/")} class="mb-4 inline-block text-sm text-muted hover:opacity-100">&larr; Back to blog</a>
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold font-heading">"{categoryName}" posts</div>
+    <h2 class="text-3xl font-bold">"{categoryName}" posts</h2>
   </div>
   {
     page.data.length === 0 ? (

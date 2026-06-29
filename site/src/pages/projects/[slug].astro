@@ -26,11 +26,11 @@ const detailImage = await resolveAsset(project.detailImage ?? project.image);
 
 <BaseLayout title={project.title} sideBarActiveItemID="projects">
   <div class="flex flex-col items-center text-center gap-6">
-    <a href={withBase("/projects/")} class="self-start text-sm opacity-70 hover:opacity-100">&larr; Back to projects</a>
+    <a href={withBase("/projects/")} class="self-start text-sm text-muted hover:opacity-100">&larr; Back to projects</a>
 
     <header class="flex flex-col items-center gap-3">
       <h1 class="text-6xl font-bold">{project.title}</h1>
-      <p class="text-sm opacity-70">{project.date}</p>
+      <p class="text-sm text-muted">{project.date}</p>
       <div class="flex flex-wrap justify-center gap-2">
         {project.skills.map((skill) => <div class="badge badge-soft badge-sm rounded-md">{skill}</div>)}
       </div>

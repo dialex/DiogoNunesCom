@@ -39,13 +39,21 @@ h6,
   display: none;
 }
 
-/* Inline content links live inside paragraphs, so `p a` styles them site-wide
-   without an opt-out list: buttons, nav, and badges aren't in <p>, and card
-   wrappers wrap a <p> rather than sit inside one. Prose links match this look. */
-p a {
+/* Inline content links: styled site-wide by container, no opt-out list needed.
+   Paragraphs and figure captions hold the prose-style links; buttons, nav, menu
+   and badges live elsewhere (and card wrappers wrap a <p> rather than sit inside
+   one), so they keep their own look. Headings are excluded — a heading link
+   stays the heading colour (see the .prose heading-link rule below). */
+:where(p, figcaption) a {
   color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 0.15em;
+}
+
+/* Muted secondary text (dates, subtitles, captions). One knob site-wide so every
+   "quiet" bit of text matches the blog post date. Theme-agnostic via opacity. */
+.text-muted {
+  opacity: 0.6;
 }
 
 /* A heading that is a link should look exactly like a normal heading — same

@@ -73,11 +73,11 @@ const books: Book[] = [
   title="Books"
   description="Books self-published by Diogo Nunes — read the synopses or download them."
   sideBarActiveItemID="books"
-  maxWidthClass="lg:max-w-[1080px]"
+  wide
 >
   <div class="mb-12 text-center">
     <h1 class="text-5xl font-bold">Writing 📚</h1>
-    <p class="mx-auto max-w-2xl py-3 text-lg italic opacity-80">
+    <p class="mx-auto max-w-2xl py-3 text-lg italic text-muted">
       Diogo is an engineer at heart who explores creativity through photography and writing.<br />
       He has self-published a few books. One day he'll finish his fantasy novel.
     </p>
@@ -88,7 +88,7 @@ const books: Book[] = [
       books.map((book) => {
         const download = book.links?.find((l) => l.download);
         return (
-          <article id={book.cover} class="flex h-full flex-col items-center text-center rounded-2xl bg-base-200 p-8">
+          <article id={book.cover} class="flex h-full flex-col items-center rounded-2xl bg-base-200 p-8">
             <h2 class="text-2xl font-bold font-heading">{book.title}</h2>
             <div class="my-10 flex h-64 items-center pr-3">
               {download ? (
@@ -123,7 +123,7 @@ const books: Book[] = [
                 </div>
               )}
             </div>
-            <p class="text-left text-base leading-relaxed opacity-90 [&_em]:italic" set:html={book.desc} />
+            <p class="w-full text-base leading-relaxed opacity-90 [&_em]:italic" set:html={book.desc} />
             {(book.links || book.readers) && (
               <div class="mt-auto flex flex-wrap items-center justify-center gap-2 pt-6">
                 {book.links?.map((link) => (
@@ -152,7 +152,7 @@ const books: Book[] = [
                     {link.label}
                   </a>
                 ))}
-                {book.readers && <small class="opacity-60">({book.readers})</small>}
+                {book.readers && <small class="text-muted">({book.readers})</small>}
               </div>
             )}
           </article>

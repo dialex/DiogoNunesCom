@@ -1,15 +1,3 @@
-# Redesign → Production TODO
-
-The single source of truth for shipping the Astro/Astrofy redesign to production.
-Supersedes and replaces the old `MIGRATION_PLAN.md` and `REDESIGN_PLAN.md` (both
-deleted — their context is folded in below).
-
-**Goal:** converge the three differently-styled properties of `diogonunes.com`
-(root portfolio, `/hireme` résumé, WordPress `/blog`) into one unified, fully-static
-**Astro + Astrofy** site, deployed on GitHub Pages.
-
----
-
 ## Context
 
 ### Current state — three separate styles
@@ -47,10 +35,6 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 
 ## Tasks
 
-Flat-numbered in rough do-order so they're easy to reference ("let's do task 7").
-Renumbered 2026-06-28 after a batch of completions; completed tasks are removed to
-keep this lean. Grouping is for context only.
-
 ### Look & feel
 
 - **2.** **Audit text consistency across all pages.** Review **text colour, font
@@ -61,10 +45,21 @@ keep this lean. Grouping is for context only.
       per-page `maxWidthClass`. Settle on shared conventions (a body size, when
       to justify, default content width) and apply them uniformly — ideally via
       shared components / global.css rather than per-page classes.
-- **4.** **Check badge & link colors (light/dark).** Review the color/contrast of badges (e.g. the
-      `badge-secondary` date pills on achievements/cards) and link styling across
-      the site for consistency with the emerald theme. Tune the daisyUI theme
-      tokens if needed.
+- **16.** **Audit buttons → settle primary vs secondary.** Review every button across
+      the site and decide which is `primary` (one dominant action per view) vs
+      `secondary` (everything else). Then **define the format** of each — including
+      the `secondary` token itself, which is currently off-theme (blue/orange);
+      either retune it (neutral/green-family) or style secondary buttons as
+      `btn-outline`/`btn-ghost`/`btn-neutral` so they recede instead of clashing.
+      Then **verify both themes** (light/dark) look right.
+- **17.** **Settle body font size.** Deferred from the task-2 audit (the harder half).
+      Body copy is currently inconsistent: `text-lg` (home intro), `text-base`
+      (about/books), ad-hoc `text-[15px]` (about cards), `prose-lg` (posts), and a
+      broken `text-1xl` (not a real class → silently falls back to base) in
+      `HorizontalCard`, `ProjectCard`, `HorizontalShopItem`. Pick one body size, fix
+      the `text-1xl` typo, and drive it from `global.css` / shared components rather
+      than per-page. Width, justify, muted text, links and heading semantics were
+      already settled in the first pass.
 
 ### Infrastructure / build
 
@@ -101,21 +96,6 @@ keep this lean. Grouping is for context only.
          old `/blog/<slug>/` maps 1:1 to the new URL.)
 
 ---
-
-## Open decisions
-
-- **Heading font (task 3) — DONE.** Trialled Fraunces, Noto Serif, Patua One and
-  Crete Round against Poppins in-context (home, about, blog, projects, books).
-  **Kept Poppins** — the serif/slab options didn't beat it for this content.
-- **Sitemap (task 9) — DONE.** `@astrojs/sitemap` was already wired; emits
-  `sitemap-index.xml` → `sitemap-0.xml` on `astro build`. **Blog posts ARE
-  included** (they're the SEO traffic drivers, see task 14); blog pagination
-  (`/blog/N/`) and tag/category archives are **excluded** via a `filter` in
-  `astro.config.mjs` (thin/duplicate listings). 322 → 204 canonical URLs.
-  `public/robots.txt` Sitemap line fixed to the github.io URL.
-- **Hosting — DECIDED:** ship on `dialex.github.io/DiogoNunesCom/`; custom domain
-  `diogonunes.com` dropped. ⇒ base-aware paths (task 8) + SEO migration (task 14).
-  Blog permalink scheme + internal-link rewrite already done.
 
 ## Reference notes / gotchas
 

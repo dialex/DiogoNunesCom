@@ -52,7 +52,7 @@ const ogImage = hero ? await getImage({ src: hero, width: 1200, format: "webp" }
         {badge && <div class="badge badge-primary mt-3">{badge}</div>}
         {
           pubDate && (
-            <div class="not-prose mt-4 flex items-center justify-center gap-2 text-sm opacity-60">
+            <div class="not-prose mt-4 flex items-center justify-center gap-2 text-sm text-muted">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -85,7 +85,7 @@ const ogImage = hero ? await getImage({ src: hero, width: 1200, format: "webp" }
               class="w-full"
             />
             {heroCaption && (
-              <figcaption class="not-prose mt-2 text-center text-sm opacity-60">{heroCaption}</figcaption>
+              <figcaption class="not-prose mt-2 text-center text-sm text-muted">{heroCaption}</figcaption>
             )}
           </figure>
         )

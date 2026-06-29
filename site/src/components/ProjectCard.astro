@@ -26,7 +26,7 @@ const resolved = isAsset(img) ? await resolveAsset(img) : img;
       }
       <div class="grow w-full">
         <h1 class="text-xl font-bold flex items-center gap-2 flex-wrap">{title}</h1>
-        {date && <p class="text-sm opacity-70 mt-1">{date}</p>}
+        {date && <p class="text-sm text-muted mt-1">{date}</p>}
         <p class="text-1xl mt-3">{desc}</p>
         <div class="flex flex-wrap gap-2 mt-3 justify-end">
           {skills.map((skill) => <div class="badge badge-soft badge-sm rounded-md">{skill}</div>)}
