@@ -65,10 +65,12 @@ keep this lean. Grouping is for context only.
       `badge-secondary` date pills on achievements/cards) and link styling across
       the site for consistency with the emerald theme. Tune the daisyUI theme
       tokens if needed.
-- **15.** **Fix all markdown lint warnings across every `.md` file.** Run the
-      markdown linter over `site/src/content/**` (and root docs) and clear the
-      warnings — heading levels, list spacing, bare URLs, trailing whitespace,
-      etc. Settle on a config so it stays clean going forward.
+- **15. DONE.** **Fix all markdown lint warnings across every `.md` file.**
+      `markdownlint-cli2` config added (`.markdownlint-cli2.jsonc`): disables
+      prose/voice false positives (line-length, alt-text, code-lang, inline-html,
+      heading/link punctuation), ignores `node_modules`/`BLOG_BAK`/`PRODUCTION_TODO`.
+      Fixed spacing, bare URLs, dead link; promoted in-body headings up one level
+      (title is the `<h1>`). **0 errors across 201 files.**
 
 ### Infrastructure / build
 
