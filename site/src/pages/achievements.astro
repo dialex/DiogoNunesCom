@@ -5,10 +5,9 @@ import { withBase } from "../lib/withBase";
 
 // All achievement images live in src/assets so Astro optimises them (WebP + dimensions)
 // at build. Glob-import them eagerly and key the map by filename to match the `img` field.
-const imageModules = import.meta.glob<{ default: ImageMetadata }>(
-  "../assets/achievements/*.{jpg,JPG,jpeg,png,PNG}",
-  { eager: true },
-);
+const imageModules = import.meta.glob<{ default: ImageMetadata }>("../assets/achievements/*.{jpg,JPG,jpeg,png,PNG}", {
+  eager: true,
+});
 const imageMap: Record<string, ImageMetadata> = Object.fromEntries(
   Object.entries(imageModules).map(([path, mod]) => [path.split("/").pop()!, mod.default]),
 );
@@ -805,7 +804,7 @@ const achievements: { img: string; date: string; desc: string }[] = [
             class="bg-white p-1.5 border border-black/20 shadow-md max-w-full h-auto"
           />
           <figcaption class="mt-3 flex items-center justify-center gap-2 [&_a]:underline [&_a]:text-primary [&_a]:font-medium">
-            <span class="badge badge-secondary shrink-0">{a.date}</span>
+            <span class="badge badge-primary shrink-0">{a.date}</span>
             <span set:html={a.desc} />
           </figcaption>
         </figure>
