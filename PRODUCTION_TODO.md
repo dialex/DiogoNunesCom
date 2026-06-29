@@ -13,6 +13,7 @@ deleted — their context is folded in below).
 ## Context
 
 ### Current state — three separate styles
+
 | Property | Stack today | Notes |
 |---|---|---|
 | `diogonunes.com` (root) | Bootstrap + Freelancer theme | Hand-written static `index.html`. |
@@ -20,17 +21,20 @@ deleted — their context is folded in below).
 | `diogonunes.com/blog` | WordPress (PHP + MySQL) | Not in this repo. Dynamic. |
 
 ### Target state
+
 One Astro project (`site/`). `astro build` → `dist/` of plain static HTML/CSS/JS,
 served by GitHub Pages. No PHP, no DB, no runtime server. Shared layout/nav/footer
 authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG.
 
 ### Decisions locked in
+
 - **Stack:** Astro + Astrofy (Tailwind/DaisyUI). Static output.
 - **Target look:** the Astrofy template (fresh design — neither old root nor old hireme kept), except where a task below says otherwise.
 - **Blog:** WP exported to Markdown (already done by user). Comments dropped.
 - **Build step accepted:** GH Action runs `astro build`, publishes `dist/`.
 
 ### Branch & deploy model
+
 - **`migration/gh-pages` = PROD.** Serves the old (PHP-free) static site as-is at
   `dialex.github.io/DiogoNunesCom/`. Untouched until cut-over. Tag
   `static-deprecated-PHP` marks the prior agent's end.
@@ -48,6 +52,7 @@ Renumbered 2026-06-28 after a batch of completions; completed tasks are removed 
 keep this lean. Grouping is for context only.
 
 ### Look & feel
+
 - **2.** **Audit text consistency across all pages.** Review **text colour, font
       size, and content margin/max-width** on every page (home, about, cv,
       projects, blog, books, achievements, 404). Too many inconsistencies
@@ -71,11 +76,11 @@ keep this lean. Grouping is for context only.
       etc. Settle on a config so it stays clean going forward.
 
 ### Infrastructure / build
-- **9.** **Sitemap:** generate fresh via the Astro sitemap integration; decide whether
-      blog URLs are included.
+
 - **10.** **GH Action:** `astro build` → publish `site/dist/` to Pages.
 
 ### Cut-over (last)
+
 - **11.** Merge `unified-redesign` → `migration/gh-pages`.
 - **12.** Flip GH Pages deploy to the build Action publishing **only** `site/dist/`
       (with `base: "/DiogoNunesCom"` from task 8).
@@ -107,12 +112,19 @@ keep this lean. Grouping is for context only.
 ---
 
 ## Open decisions
-- Sitemap: include blog URLs or not (task 9).
+
+- **Sitemap (task 9) — DONE.** `@astrojs/sitemap` was already wired; emits
+  `sitemap-index.xml` → `sitemap-0.xml` on `astro build`. **Blog posts ARE
+  included** (they're the SEO traffic drivers, see task 14); blog pagination
+  (`/blog/N/`) and tag/category archives are **excluded** via a `filter` in
+  `astro.config.mjs` (thin/duplicate listings). 322 → 204 canonical URLs.
+  `public/robots.txt` Sitemap line fixed to the github.io URL.
 - **Hosting — DECIDED:** ship on `dialex.github.io/DiogoNunesCom/`; custom domain
   `diogonunes.com` dropped. ⇒ base-aware paths (task 8) + SEO migration (task 14).
   Blog permalink scheme + internal-link rewrite already done.
 
 ## Reference notes / gotchas
+
 - ⚠️ **MoonPay npm proxy (koi.security)** blocks package `is-unsafe`, pulled in by
   `@astrojs/rss` ≥ 4.0.12. Astro 5/6 cores, mdx, sitemap, Tailwind 4, DaisyUI 5,
   `@tailwindcss/postcss` are all clean through the gate — only newest RSS is blocked.

@@ -59,7 +59,16 @@ export default defineConfig({
     "/livros": `${BASE}books/`,
     "/livros/quero-mais": `${BASE}books/`,
   },
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    // Sitemap lists canonical content only: posts, projects, and top-level
+    // pages. Blog pagination (/blog/2/) and tag/category archives are thin /
+    // duplicate listings — excluded so they don't dilute the sitemap.
+    sitemap({
+      filter: (page) =>
+        !/\/blog\/(tag|category)\//.test(page) && !/\/blog\/\d+\/?$/.test(page),
+    }),
+  ],
   markdown: {
     rehypePlugins: [rehypeFigureCaptions, [rehypeBaseLinks, BASE]],
   },
