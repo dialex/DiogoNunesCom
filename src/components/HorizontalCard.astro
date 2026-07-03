@@ -1,5 +1,5 @@
 ---
-const { title, img, desc, url, badge, tags, target = "_blank", loading = "eager" } = Astro.props;
+const { title, img, desc, url, badge, tags, categories, target = "_blank", loading = "eager" } = Astro.props;
 import { Image } from "astro:assets";
 import slugify from "../lib/slugify";
 import { withBase } from "../lib/withBase";
@@ -45,7 +45,18 @@ const resolved = isAsset(img) ? await resolveAsset(img) : img;
           {badge && <div class="badge badge-primary mx-2">{badge}</div>}
         </h1>
         <p class="py-1 text-1xl">{desc}</p>
-        <div class="card-actions justify-end">
+        <div class="card-actions items-center justify-end">
+          {
+            categories &&
+              categories.map((category) => (
+                <a
+                  href={withBase(`/blog/category/${slugify(category)}/`)}
+                  class="badge badge-primary badge-sm rounded-md no-underline"
+                >
+                  {category}
+                </a>
+              ))
+          }
           {
             tags &&
               tags.map((tag) => (
