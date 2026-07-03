@@ -45,13 +45,6 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
       per-page `maxWidthClass`. Settle on shared conventions (a body size, when
       to justify, default content width) and apply them uniformly — ideally via
       shared components / global.css rather than per-page classes.
-- **2.** **Audit buttons → settle primary vs secondary.** Review every button across
-      the site and decide which is `primary` (one dominant action per view) vs
-      `secondary` (everything else). Then **define the format** of each — including
-      the `secondary` token itself, which is currently off-theme (blue/orange);
-      either retune it (neutral/green-family) or style secondary buttons as
-      `btn-outline`/`btn-ghost`/`btn-neutral` so they recede instead of clashing.
-      Then **verify both themes** (light/dark) look right.
 - **3.** **Settle body font size.** Deferred from the task-1 audit (the harder half).
       Body copy is currently inconsistent: `text-lg` (home intro), `text-base`
       (about/books), ad-hoc `text-[15px]` (about cards), `prose-lg` (posts), and a
@@ -63,11 +56,6 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 
 ### Cut-over (last)
 
-- **5.** ✅ Done. Fast-forward merged `unified-redesign` → `migration/gh-pages`
-      (commit `0678710`) and pushed.
-- **6.** ✅ Done. Flipped GH Pages source to **GitHub Actions**
-      (`build_type: workflow` via `gh api`). Push to `migration/gh-pages` triggered
-      `deploy.yml` (task 4) → built + deployed the static `dist/` successfully.
 - **7.** **Verify the new site** is live and correct at
       `dialex.github.io/DiogoNunesCom/`: all pages 200, redirect shortcuts work, 404
       serves, assets/images load.

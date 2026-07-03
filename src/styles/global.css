@@ -33,6 +33,14 @@ h6,
 [data-theme] {
   --radius-field: 2rem;
   --radius-selector: 2rem;
+  /* Brand primary override (buttons, accents). */
+  --color-primary: #bbff00;
+  --color-primary-content: #1a2200;
+  /* Inline text links use a darker lime so they stay readable on white. */
+  --color-link: #63b900;
+  /* Secondary buttons */
+  /* --color-secondary: #ffff7e; */
+  /* --color-secondary-content: #1a2200; */
 }
 
 .time-line-container > div:last-child .education__time > .education__line {
@@ -45,7 +53,7 @@ h6,
    one), so they keep their own look. Headings are excluded — a heading link
    stays the heading colour (see the .prose heading-link rule below). */
 :where(p, figcaption) a {
-  color: var(--color-primary);
+  color: var(--color-link);
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
