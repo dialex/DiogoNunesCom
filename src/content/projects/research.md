@@ -5,7 +5,7 @@ image: "/projects/research.png"
 date: "2012-2013"
 skills: ["Research techniques", "Scientific writing", "Public speaking"]
 links:
-  - label: "Full document"
+  - label: "Thesis"
     url: "/docs/DiogoNunes-65887-DissertacaoTese.pdf"
   - label: "Summary"
     url: "/docs/DiogoNunes-65887-ResumoAlargadoTese.pdf"
