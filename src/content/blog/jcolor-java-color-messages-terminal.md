@@ -3,7 +3,7 @@ title: "Colored messages on a terminal using Java"
 description: "JCDP allows you to print colored output on your console/terminal. It's API is easy to use and extend. Also has some neat debug logging features."
 pubDate: "2014-10-27T08:00:44"
 heroImage: "../../assets/blog/uploads/2014/10/JColor-logo.png"
-tags: ["free and open", "utilities"]
+tags: ["open source", "utilities"]
 categories: ["Technology"]
 ---
 

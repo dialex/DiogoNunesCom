@@ -3,7 +3,7 @@ title: "Working (just enough) to live"
 description: "Most of us live to work. If you trade all your time for money, you won't have time to spend all that money. Don't be a hamster in a wheel."
 pubDate: "2019-04-02T07:00:00"
 heroImage: "../../assets/blog/uploads/2018/11/Maennchen_aus_Stein.jpg"
-tags: ["decisions", "minimalism", "purpose"]
+tags: ["career", "decisions", "minimalism", "purpose"]
 categories: ["Life"]
 ---
 

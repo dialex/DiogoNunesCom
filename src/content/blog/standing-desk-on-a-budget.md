@@ -3,7 +3,7 @@ title: "Standing desk on a budget"
 description: "I spend 8 hours a day working seated. To mitigate that I try to replace some of that time with standing. Here's how I made my standing desk with just 30€."
 pubDate: "2018-12-03T07:00:00"
 heroImage: "../../assets/blog/uploads/2018/10/sitting-and-standing-desk.jpg"
-tags: ["experience", "minimalism"]
+tags: ["experience", "minimalism", "productivity"]
 categories: ["Work"]
 ---
 

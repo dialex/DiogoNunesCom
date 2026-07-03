@@ -3,7 +3,7 @@ title: "When people become CPUs"
 description: "Thinking about joining a consultancy company? Think twice. When people are treated as CPUs, they're overclocked until they melt. Is that what you want?"
 pubDate: "2014-10-06T08:00:29"
 heroImage: "../../assets/blog/uploads/2014/10/workload.png"
-tags: ["experience"]
+tags: ["career", "experience"]
 categories: ["Work"]
 ---
 

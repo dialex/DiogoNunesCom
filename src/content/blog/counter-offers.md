@@ -4,7 +4,7 @@ description: "A counter offer is when your company tries to beat an offer you re
 pubDate: "2023-09-18T08:00:53"
 heroImage: "../../assets/blog/uploads/2023/06/kai-pilger-1k3vsv7iIIc-unsplash.jpg"
 heroCaption: "Photo by Kai Pilger on Unsplash"
-tags: ["decisions", "experience"]
+tags: ["career", "decisions", "experience"]
 categories: ["Work"]
 ---
 

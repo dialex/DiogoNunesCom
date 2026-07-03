@@ -3,7 +3,7 @@ title: "Personal Troller"
 description: "An executable that enables you to troll someone by: showing a message, opening a new tab on a specific URL, opening the disks drive several times and more!"
 pubDate: "2015-07-13T08:00:10"
 heroImage: "../../assets/blog/uploads/2015/07/ogre.png"
-tags: ["c#", "free and open", "utilities"]
+tags: ["c#", "open source", "utilities"]
 categories: ["Technology"]
 ---
 

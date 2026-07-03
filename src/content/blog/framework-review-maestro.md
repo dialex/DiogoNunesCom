@@ -4,7 +4,7 @@ description: "This is my review of Maestro, a mobile test automation framework. 
 pubDate: "2023-05-15T08:00:27"
 heroImage: "../../assets/blog/uploads/2023/04/ConductorEimearNoonepoisedtomakehistoryatthe2020Oscars.jpg"
 heroCaption: "Conductor Eimear Noone"
-tags: ["free and open", "maestro", "mobile dev", "review", "testing"]
+tags: ["open source", "maestro", "mobile", "review", "testing"]
 categories: ["Technology"]
 ---
 

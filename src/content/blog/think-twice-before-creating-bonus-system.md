@@ -3,7 +3,7 @@ title: "Think twice before creating a bonus system"
 description: "You're playing with fire. Learn about metrics, best practices, consequences & pitfalls. The secret is adapting all this knowledge to your company's context."
 pubDate: "2015-03-09T08:00:00"
 heroImage: "../../assets/blog/uploads/2015/01/nao-nao-nao-esquece.gif"
-tags: ["review"]
+tags: ["career", "review"]
 categories: ["Work"]
 ---
 

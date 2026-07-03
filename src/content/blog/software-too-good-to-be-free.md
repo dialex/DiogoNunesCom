@@ -3,7 +3,7 @@ title: "Software too good to be free"
 description: "I already motivated you to donate to open source projects. This time I'll show you useful online services that require no install and cost nothing to use!"
 pubDate: "2014-06-16T08:00:56"
 heroImage: "../../assets/blog/uploads/2014/12/if-it-sounds-too-good-to-be-true-it-must-be-true.jpg"
-tags: ["free and open", "utilities"]
+tags: ["open source", "utilities"]
 categories: ["Technology"]
 ---
 

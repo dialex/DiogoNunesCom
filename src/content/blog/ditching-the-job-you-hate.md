@@ -3,7 +3,7 @@ title: "Ditching the job you hate"
 description: "Is it time to quit the job you hate? Yes and you're already late. I'll explain how you should do it,. You need to be careful, this is a delicate situation."
 pubDate: "2014-10-20T08:00:34"
 heroImage: "../../assets/blog/uploads/2014/10/fuck-you-youre-cool.gif"
-tags: ["experience"]
+tags: ["career", "experience"]
 categories: ["Work"]
 ---
 

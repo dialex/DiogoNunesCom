@@ -3,7 +3,7 @@ title: "Digital Photography workflow"
 description: "This is my digital workflow: how I organise, edit, archive and publish all my photos. It has several steps but their simple, cheap, realiable and effective."
 pubDate: "2019-09-30T07:00:57"
 heroImage: "../../assets/blog/uploads/2019/09/Workflow-for-Digital-Photography-v1.1.png"
-tags: ["photography", "review", "utilities"]
+tags: ["review", "utilities"]
 categories: ["Photography"]
 ---
 

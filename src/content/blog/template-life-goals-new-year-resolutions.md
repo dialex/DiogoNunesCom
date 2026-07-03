@@ -3,7 +3,7 @@ title: "Two techniques to set life goals or resolutions"
 description: "I started writing new year resolutions in 2018. Let explain to you the two techniques I use to set my life goals. They are simple and pragmatic."
 pubDate: "2021-02-01T07:00:00"
 heroImage: "../../assets/blog/uploads/2021/01/2020.png"
-tags: ["decisions", "experience", "utilities"]
+tags: ["decisions", "experience", "productivity", "utilities"]
 categories: ["Life"]
 ---
 

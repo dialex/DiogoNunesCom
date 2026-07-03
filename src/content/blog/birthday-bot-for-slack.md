@@ -3,7 +3,7 @@ title: "Birthday bot for Slack"
 description: "Automatically post a \"happy birthday\" message on your Slack channel on every colleague's birthday. Easy to configure. Deploy to Heroku for free. MIT License"
 pubDate: "2016-07-04T08:00:32"
 heroImage: "../../assets/blog/uploads/2016/06/work-birthday-slack-bot.png"
-tags: ["free and open", "ruby", "slack", "utilities"]
+tags: ["open source", "ruby", "slack", "utilities"]
 categories: ["Technology"]
 ---
 

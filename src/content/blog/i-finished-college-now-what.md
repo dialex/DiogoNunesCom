@@ -3,7 +3,7 @@ title: "I finished college, now what?"
 description: "While you're on school you see the trail, you just have to walk it. Choosing college was your first decision. But when you finish it the trail stops. Now it's…"
 pubDate: "2014-01-06T14:32:50"
 heroImage: "../../assets/blog/uploads/2014/01/5.jpg"
-tags: ["decisions", "school"]
+tags: ["career", "decisions", "school"]
 categories: ["Life"]
 ---
 

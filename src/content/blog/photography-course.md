@@ -4,7 +4,7 @@ description: "Learn photography from scratch in under 60 minutes! Join my free c
 pubDate: "2023-07-17T08:00:38"
 heroImage: "../../assets/blog/uploads/2023/05/julian-santa-ana-rBLLTkPRRtE-unsplash.jpg"
 heroCaption: "Photo by Julian Santa Ana on Unsplash"
-tags: ["course", "free and open", "photography"]
+tags: ["course", "open source"]
 categories: ["Photography"]
 ---
 

@@ -4,7 +4,7 @@ description: "We chose Cypress to automate our E2E tests. I've extracted the bes
 pubDate: "2020-05-18T07:00:00"
 heroImage: "../../assets/blog/uploads/2020/04/tzingtao-chow-J8oxnYHBpWM-unsplash-scaled.jpg"
 heroCaption: "Photo by Tzingtao Chow on Unsplash"
-tags: ["cypress", "free and open", "testing", "utilities"]
+tags: ["cypress", "open source", "testing", "utilities"]
 categories: ["Technology"]
 ---
 

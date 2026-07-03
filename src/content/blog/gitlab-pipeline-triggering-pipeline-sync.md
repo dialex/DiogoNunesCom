@@ -3,7 +3,7 @@ title: "Pipeline triggering pipeline on GitLab"
 description: "How can you have a GitLab pipeline triggering another pipeline and wait for the result? Code snippet included."
 pubDate: "2020-05-25T07:00:29"
 heroImage: "../../assets/blog/uploads/2020/04/s270904456481439361_p798_i2_w1799.jpeg"
-tags: ["CI Pipelines", "coding", "GitLab"]
+tags: ["devops", "coding", "gitlab"]
 categories: ["Technology"]
 ---
 
