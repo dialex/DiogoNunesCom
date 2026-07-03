@@ -56,9 +56,6 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 
 ### Cut-over (last)
 
-- **7.** **Verify the new site** is live and correct at
-      `dialex.github.io/DiogoNunesCom/`: all pages 200, redirect shortcuts work, 404
-      serves, assets/images load.
 - **8.** **SEO migration + domain wind-down** (`diogonunes.com` → github.io). Do this
       *after* the new site is live (tasks 5–7). The domain is paid until
       **2026-09-10** — that's the 301 window. All steps free; ~1–2h one-time. Worth it
