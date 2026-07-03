@@ -73,7 +73,7 @@ const detailImage = await resolveAsset(project.detailImage ?? project.image);
               href={link.url.startsWith("/") ? withBase(link.url) : link.url}
               target="_blank"
               rel="noopener"
-              class:list={["btn btn-sm", link.primary ? "btn-primary" : "btn-outline"]}
+              class="btn btn-sm btn-outline"
             >
               {link.label}
             </a>
