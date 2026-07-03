@@ -4,16 +4,14 @@
 # (gitignored), which is uploaded as a Pages artifact and deployed — no branch
 # push, no committed build output.
 #
-# Deploy target is the PROD branch `migration/gh-pages` (see PRODUCTION_TODO.md).
-# This runs only there and on manual dispatch, so the `unified-redesign` DEV
-# branch never deploys. NOTE: this workflow only takes over once Pages is
-# switched from "Deploy from a branch" to "GitHub Actions" as the source —
-# that flip is task 6, done manually at cut-over.
+# Deploy target is `main` — the trunk. Every push to it publishes. Pages source
+# is "GitHub Actions" (build_type: workflow), so this workflow is the only
+# publish path. (The old `migration/gh-pages` PROD branch is now vestigial.)
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [migration/gh-pages]
+    branches: [main]
   workflow_dispatch:
 
 # Least-privilege token: read the repo, write the Pages deployment.
