@@ -50,6 +50,16 @@ h6,
   text-underline-offset: 0.15em;
 }
 
+/* Light grey panel fill, lighter than base-200. Used by cards (books, about
+   traits, etc.). Fixed value in light mode; in dark mode fall back to the
+   theme's base-200 so it stays readable. */
+.bg-panel {
+  background-color: #f9f9f9;
+}
+.is-dark .bg-panel {
+  background-color: var(--color-base-200);
+}
+
 /* Muted secondary text (dates, subtitles, captions). One knob site-wide so every
    "quiet" bit of text matches the blog post date. Theme-agnostic via opacity. */
 .text-muted {
