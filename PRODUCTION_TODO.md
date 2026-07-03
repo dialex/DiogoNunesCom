@@ -63,10 +63,11 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
 
 ### Cut-over (last)
 
-- **5.** Merge `unified-redesign` → `migration/gh-pages`.
-- **6.** Flip GH Pages source from "Deploy from a branch" to **GitHub Actions**, so
-      `.github/workflows/deploy.yml` (task 4) publishes the built `dist/`
-      (`base: "/DiogoNunesCom"`, already configured).
+- **5.** ✅ Done. Fast-forward merged `unified-redesign` → `migration/gh-pages`
+      (commit `0678710`) and pushed.
+- **6.** ✅ Done. Flipped GH Pages source to **GitHub Actions**
+      (`build_type: workflow` via `gh api`). Push to `migration/gh-pages` triggered
+      `deploy.yml` (task 4) → built + deployed the static `dist/` successfully.
 - **7.** **Verify the new site** is live and correct at
       `dialex.github.io/DiogoNunesCom/`: all pages 200, redirect shortcuts work, 404
       serves, assets/images load.
