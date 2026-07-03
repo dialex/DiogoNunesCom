@@ -1,8 +1,0 @@
-User-agent: *
-Crawl-delay: 5
-
-Disallow:
-Disallow: /cgi-bin/
-Allow: /ads.txt
-
-Sitemap: https://dialex.github.io/DiogoNunesCom/assets/sitemap.xml

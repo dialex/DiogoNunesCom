@@ -38,6 +38,6 @@
     // Repeated section names are fine across different parent headings.
     "MD024": { "siblings_only": true },
   },
-  "globs": ["*.md", "site/*.md", "site/src/content/**/*.md", "work/**/*.md"],
-  "ignores": ["**/node_modules/**"],
+  "globs": ["*.md", "src/content/**/*.md"],
+  "ignores": ["**/node_modules/**", "**/dist/**"],
 }

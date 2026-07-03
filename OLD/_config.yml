@@ -1,7 +1,0 @@
-# GitHub Pages runs Jekyll by default. This site is hand-written HTML with no
-# front matter, so Jekyll copies every page through verbatim — nothing is
-# templated or rewritten. We use this config only to keep internal files out
-# of the published site.
-exclude:
-  - assets/achiev-generator # internal Node tool, not part of the site
-  - README.md                # repo documentation
