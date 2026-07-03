@@ -61,15 +61,12 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
       than per-page. Width, justify, muted text, links and heading semantics were
       already settled in the first pass.
 
-### Infrastructure / build
-
-- **4.** **GH Action:** `astro build` → publish `site/dist/` to Pages.
-
 ### Cut-over (last)
 
 - **5.** Merge `unified-redesign` → `migration/gh-pages`.
-- **6.** Flip GH Pages deploy to the build Action publishing **only** `site/dist/`
-      (with `base: "/DiogoNunesCom"`, already configured).
+- **6.** Flip GH Pages source from "Deploy from a branch" to **GitHub Actions**, so
+      `.github/workflows/deploy.yml` (task 4) publishes the built `dist/`
+      (`base: "/DiogoNunesCom"`, already configured).
 - **7.** **Verify the new site** is live and correct at
       `dialex.github.io/DiogoNunesCom/`: all pages 200, redirect shortcuts work, 404
       serves, assets/images load.
