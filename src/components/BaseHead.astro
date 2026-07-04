@@ -124,5 +124,14 @@ const personSchema = {
     dataLayer.push(arguments);
   }
   gtag("js", new Date());
-  gtag("config", "G-XNL4QXTBGT");
+  // send_page_view: false — with ClientRouter (view transitions) the initial
+  // snippet would only count the first load. We fire page_view ourselves on
+  // astro:page-load, which runs on the first load *and* every in-site navigation.
+  gtag("config", "G-XNL4QXTBGT", { send_page_view: false });
+  document.addEventListener("astro:page-load", () => {
+    gtag("event", "page_view", {
+      page_title: document.title,
+      page_location: location.href,
+    });
+  });
 </script>

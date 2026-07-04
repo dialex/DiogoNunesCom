@@ -2,28 +2,7 @@
 
 ### Cut-over (last)
 
-- **8.** **SEO migration + domain wind-down** (`diogonunes.com` → github.io). Do this
-      *after* the new site is live (tasks 5–7). The domain is paid until
-      **2026-09-10** — that's the 301 window. All steps free; ~1–2h one-time. Worth it
-      because the tech tutorials (JColor, Cypress, Playwright…) draw organic search
-      traffic; expect ~60–80% preserved through the transition, long tail lost when the
-      domain lapses (a github.io subpath can't be fully owned).
-      1. **Cloudflare 301s.** Move `diogonunes.com` nameservers to Cloudflare (free).
-         Add one path-preserving Redirect Rule (301):
-         `diogonunes.com/*` → `https://dialex.github.io/DiogoNunesCom/$1`
-         — one wildcard covers all 178 posts + pages, since the paths are unchanged.
-      2. **Decommission WP/FTP.** Once the redirect serves from Cloudflare's edge,
-         cancel the WordPress + FTP hosting (no origin needed for an edge rule). Keep
-         the *domain registered* until it expires — that's what powers the 301s.
-      3. **Search Console.** Add a URL-prefix property for
-         `https://dialex.github.io/DiogoNunesCom/` (verify via an HTML file committed to
-         the repo); submit the sitemap. Try the "Change of Address" tool (old → new) —
-         it may reject a subpath target; the 301s + sitemap do the real work.
-      4. **Let it ride, then lapse.** Keep the 301s up until **2026-09-10** so Google
-         has the full window to re-crawl and transfer ranking; then let the domain
-         expire. (Permalink scheme + internal-link rewrite are already done, so every
-         old `/blog/<slug>/` maps 1:1 to the new URL.)
-12. Shorter domain with Cloudflare?
+1.  Shorter domain with Cloudflare?
 fiz exatamente o mm ha uns anos
 se usares o cloudflare em vez do pages o url fica mais curto
 e.g. next-watch.pages.dev
