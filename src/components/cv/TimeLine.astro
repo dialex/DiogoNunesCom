@@ -4,11 +4,11 @@ const { title, subtitle, accent = false } = Astro.props;
 
 <div class="flex">
   <div class="education__time">
-    <span class="w-4 h-4 bg-primary block rounded-full mt-1"></span>
-    <span class="education__line bg-primary block h-full w-[2px] translate-x-[7px]"></span>
+    <span class:list={["w-4 h-4 block rounded-full mt-1", accent ? "bg-secondary" : "bg-primary"]}></span>
+    <span class:list={["education__line block h-full w-[2px] translate-x-[7px]", accent ? "bg-secondary" : "bg-primary"]}></span>
   </div>
   <div class="experience__data bd-grid px-5">
-    <h3 class:list={["font-semibold mb-1", accent && "text-primary"]}>{title}</h3>
+    <h3 class:list={["font-semibold mb-1", accent && "text-secondary"]}>{title}</h3>
     <span class="text-sm text-muted">{subtitle}</span>
     <p class="my-2">
       <slot />

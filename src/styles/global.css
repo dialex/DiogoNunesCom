@@ -33,14 +33,20 @@ h6,
 [data-theme] {
   --radius-field: 2rem;
   --radius-selector: 2rem;
-  /* Brand primary override (buttons, accents). */
+  /* daisyUI cards default to a 0.875rem (14px) body font, which made card text
+     (books, about traits, project/blog cards) render smaller than the 16px base.
+     Pin it to 1rem so every card body matches the site-wide body size. Long-form
+     reading (blog posts, project detail) opts up to 18px via `.prose-lg`. */
+  --card-fs: 1rem;
+  /* Brand primary: bright lime. Buttons only — too bright for text/accents. */
   --color-primary: #bbff00;
   --color-primary-content: #1a2200;
-  /* Inline text links use a darker lime so they stay readable on white. */
-  --color-link: #81cc66;
-  /* Secondary buttons */
-  /* --color-secondary: #ffff7e; */
-  /* --color-secondary-content: #1a2200; */
+  /* Brand secondary: a darker lime that stays readable on white. Used for
+     everything non-button — accents, headings, timeline marks, inline links. */
+  --color-secondary: #81cc66;
+  --color-secondary-content: #1a2200;
+  /* Inline text links reuse the secondary colour. */
+  --color-link: var(--color-secondary);
 }
 
 .time-line-container > div:last-child .education__time > .education__line {

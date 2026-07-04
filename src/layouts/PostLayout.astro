@@ -40,7 +40,7 @@ const ogImage = hero ? await getImage({ src: hero, width: 1200, format: "webp" }
               {categories.map((cat) => (
                 <a
                   href={withBase(`/blog/category/${slugify(cat)}/`)}
-                  class="text-[var(--color-link)] text-sm font-bold uppercase tracking-wider underline underline-offset-4"
+                  class="text-secondary text-sm font-bold uppercase tracking-wider underline underline-offset-4"
                 >
                   {cat}
                 </a>
