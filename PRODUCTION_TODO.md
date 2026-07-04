@@ -1,24 +1,5 @@
 ## Tasks
 
-### Look & feel
-
-- **1.** **Audit text consistency across all pages.** Review **text colour, font
-      size, and content margin/max-width** on every page (home, about, cv,
-      projects, blog, books, achievements, 404). Too many inconsistencies
-      creeping in: e.g. justified vs left-aligned body text, `card-body`'s
-      smaller default size vs `text-base`, ad-hoc `text-[15px]` overrides,
-      per-page `maxWidthClass`. Settle on shared conventions (a body size, when
-      to justify, default content width) and apply them uniformly — ideally via
-      shared components / global.css rather than per-page classes.
-- **3.** **Settle body font size.** Deferred from the task-1 audit (the harder half).
-      Body copy is currently inconsistent: `text-lg` (home intro), `text-base`
-      (about/books), ad-hoc `text-[15px]` (about cards), `prose-lg` (posts), and a
-      broken `text-1xl` (not a real class → silently falls back to base) in
-      `HorizontalCard`, `ProjectCard`, `HorizontalShopItem`. Pick one body size, fix
-      the `text-1xl` typo, and drive it from `global.css` / shared components rather
-      than per-page. Width, justify, muted text, links and heading semantics were
-      already settled in the first pass.
-
 ### Cut-over (last)
 
 - **8.** **SEO migration + domain wind-down** (`diogonunes.com` → github.io). Do this
@@ -50,14 +31,15 @@ e.g. next-watch.pages.dev
 
 ### Cleanup
 
-- **13.** **Remove dead code / unused assets.** Astrofy scaffolding left leftovers.
-      `knip` confirms two unused components: `src/components/Card.astro` and
-      `src/components/HorizontalShopItem.astro` (the store-template shop item — no store
-      exists), plus an unused `Props` type export in `PostLayout.astro`. Delete those,
-      then do the harder sweep knip can't see: **orphan `public/` assets** (images from
-      the old Freelancer/hireme themes + Astrofy demo). Also fix/kill the broken
-      `text-md` class in `HorizontalShopItem` — moot if that file is deleted. Re-run
-      `knip` + `astro build` after.
+- ✅ **13.** **Remove dead code / unused assets.** DONE. Deleted `src/components/Card.astro`
+      + `src/components/HorizontalShopItem.astro` (broken `text-md` died with it), dropped
+      the unused `export` on the `Props` interface in `PostLayout.astro` (kept local so
+      Astro still types `Astro.props`). `knip` now clean; `astro build` green (322 pages).
+      `public/` sweep: no orphans — the old Freelancer/hireme/Astrofy demo images were
+      already gone; all 26 files are live (favicons, brands, docs, blog uploads, project
+      video). Left `public/ads.txt` + `public/app-ads.txt` (AdSense auth for
+      `pub-8529629755917139`) — dead on a github.io subpath but harmless; delete only if
+      not re-adding ads. `src/assets` (106M) is referenced content imagery, out of scope.
 
 ---
 
