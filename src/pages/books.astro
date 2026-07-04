@@ -123,7 +123,7 @@ const books: Book[] = [
                 </div>
               )}
             </div>
-            <p class="w-full text-base leading-relaxed opacity-90 [&_em]:italic" set:html={book.desc} />
+            <p class="w-full leading-relaxed opacity-90 [&_em]:italic" set:html={book.desc} />
             {(book.links || book.readers) && (
               <div class="mt-auto flex flex-wrap items-center justify-center gap-2 pt-6">
                 {book.links?.map((link) => (

@@ -48,6 +48,17 @@ se usares o cloudflare em vez do pages o url fica mais curto
 e.g. next-watch.pages.dev
 (e tbm ha uma action to gh q faz deploy la)
 
+### Cleanup
+
+- **13.** **Remove dead code / unused assets.** Astrofy scaffolding left leftovers.
+      `knip` confirms two unused components: `src/components/Card.astro` and
+      `src/components/HorizontalShopItem.astro` (the store-template shop item — no store
+      exists), plus an unused `Props` type export in `PostLayout.astro`. Delete those,
+      then do the harder sweep knip can't see: **orphan `public/` assets** (images from
+      the old Freelancer/hireme themes + Astrofy demo). Also fix/kill the broken
+      `text-md` class in `HorizontalShopItem` — moot if that file is deleted. Re-run
+      `knip` + `astro build` after.
+
 ---
 
 ## Reference notes / gotchas
