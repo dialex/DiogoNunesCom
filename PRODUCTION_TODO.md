@@ -29,18 +29,6 @@ se usares o cloudflare em vez do pages o url fica mais curto
 e.g. next-watch.pages.dev
 (e tbm ha uma action to gh q faz deploy la)
 
-### Cleanup
-
-- ✅ **13.** **Remove dead code / unused assets.** DONE. Deleted `src/components/Card.astro`
-      + `src/components/HorizontalShopItem.astro` (broken `text-md` died with it), dropped
-      the unused `export` on the `Props` interface in `PostLayout.astro` (kept local so
-      Astro still types `Astro.props`). `knip` now clean; `astro build` green (322 pages).
-      `public/` sweep: no orphans — the old Freelancer/hireme/Astrofy demo images were
-      already gone; all 26 files are live (favicons, brands, docs, blog uploads, project
-      video). Left `public/ads.txt` + `public/app-ads.txt` (AdSense auth for
-      `pub-8529629755917139`) — dead on a github.io subpath but harmless; delete only if
-      not re-adding ads. `src/assets` (106M) is referenced content imagery, out of scope.
-
 ---
 
 ## Reference notes / gotchas
