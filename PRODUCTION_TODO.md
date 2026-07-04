@@ -1,38 +1,3 @@
-## Context
-
-### Current state — three separate styles
-
-| Property | Stack today | Notes |
-|---|---|---|
-| `diogonunes.com` (root) | Bootstrap + Freelancer theme | Hand-written static `index.html`. |
-| `diogonunes.com/hireme` | Own template (`main.css` + light/dark + jQuery + scrollreveal) | Résumé/CV page. |
-| `diogonunes.com/blog` | WordPress (PHP + MySQL) | Not in this repo. Dynamic. |
-
-### Target state
-
-One Astro project (`site/`). `astro build` → `dist/` of plain static HTML/CSS/JS,
-served by GitHub Pages. No PHP, no DB, no runtime server. Shared layout/nav/footer
-authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG.
-
-### Decisions locked in
-
-- **Stack:** Astro + Astrofy (Tailwind/DaisyUI). Static output.
-- **Target look:** the Astrofy template (fresh design — neither old root nor old hireme kept), except where a task below says otherwise.
-- **Blog:** WP exported to Markdown (already done by user). Comments dropped.
-- **Build step accepted:** GH Action runs `astro build`, publishes `dist/`.
-
-### Branch & deploy model
-
-- **`migration/gh-pages` = PROD.** Serves the old (PHP-free) static site as-is at
-  `dialex.github.io/DiogoNunesCom/`. Untouched until cut-over. Tag
-  `static-deprecated-PHP` marks the prior agent's end.
-- **`unified-redesign` = DEV.** The Astro redesign lives here in `site/`. Local dev
-  only (`npm run dev` → localhost:4321). Rebased on top of `migration/gh-pages`.
-- ⚠️ **Stop the dev server before rebasing** — vite's watcher corrupts mid-rebase.
-- This TODO should live on `unified-redesign` alongside `site/`.
-
----
-
 ## Tasks
 
 ### Look & feel
@@ -77,6 +42,11 @@ authored once. Free from Astrofy/Astro: light/dark theming, RSS, sitemap, SEO/OG
          has the full window to re-crawl and transfer ranking; then let the domain
          expire. (Permalink scheme + internal-link rewrite are already done, so every
          old `/blog/<slug>/` maps 1:1 to the new URL.)
+12. Shorter domain with Cloudflare?
+fiz exatamente o mm ha uns anos
+se usares o cloudflare em vez do pages o url fica mais curto
+e.g. next-watch.pages.dev
+(e tbm ha uma action to gh q faz deploy la)
 
 ---
 
