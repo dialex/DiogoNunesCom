@@ -22,9 +22,24 @@ type Book = {
   desc: string; // may contain inline HTML (e.g. <br>, <em>)
   links?: { label: string; url: string; download?: boolean }[];
   readers?: string;
+  // `wide: true` breaks this book onto its own centred row instead of sharing
+  // the 2-col grid — used for a single book placed between two normal rows.
+  wide?: boolean;
 };
 
 const books: Book[] = [
+  {
+    title: "The Infinite Slideshow",
+    flag: "",
+    cover: "cover-the-infinite-slideshow.png",
+    desc: `🇬🇧🇵🇹 The Sun will engulf the Earth. To prevent extinction, a group of scientists builds a machine capable of generating every possible image, convinced that within those images lies the solution. This is the diary of one of those scientists, torn between curiosity and despair. Who will prevail: human creativity, ingenuity, or the Sun itself? Will five billion years be enough to find salvation?`,
+    links: [
+      { label: "Ler", url: `${import.meta.env.BASE_URL}books/A-janela-para-o-infinito.epub`, download: true },
+      { label: "Read", url: `${import.meta.env.BASE_URL}books/The-infinite-slideshow.epub`, download: true },
+    ],
+    wide: true,
+    readers: "my first short story",
+  },
   {
     title: "Para lá do portão",
     flag: "",
@@ -87,8 +102,14 @@ const books: Book[] = [
     {
       books.map((book) => {
         const download = book.links?.find((l) => l.download);
-        return (
-          <article id={book.cover} class="bg-panel flex h-full flex-col items-center rounded-2xl p-8">
+        const article = (
+          <article
+            id={book.cover}
+            class:list={[
+              "bg-panel flex h-full flex-col items-center rounded-2xl p-8",
+              book.wide && "sm:max-w-[calc(50%-1rem)]",
+            ]}
+          >
             <h2 class="text-2xl font-bold font-heading">{book.title}</h2>
             <div class="my-10 flex h-64 items-center pr-3">
               {download ? (
@@ -157,6 +178,8 @@ const books: Book[] = [
             )}
           </article>
         );
+
+        return book.wide ? <div class="sm:col-span-2 flex justify-center">{article}</div> : article;
       })
     }
   </div>
